@@ -1,0 +1,1 @@
+sudo passwd USERNAME : set password of a user
