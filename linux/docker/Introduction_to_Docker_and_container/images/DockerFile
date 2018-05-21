@@ -1,0 +1,37 @@
+# DockerFile
+# ==========
+
+FROM ubuntu
+RUN apt-get update
+
+
+
+
+# peut etre RUN apt-get install figlet
+# RUN ["apt-get", "install", "figlet"]
+# RUN ["apt-get", "install", "cowsay"]
+# if nothing is entered do this automaticly
+# CMD figlet -f script hello
+# or
+# ENTRYPOINT ["figlet", "-f", "script"]
+# or
+# ENTRYPOINT ["figlet", "-f", "script"]
+# CMD "hello world"
+
+
+# RUN apt-get install -y build-essential
+# COPY hello.c /
+# RUN make hello
+# CMD /hello
+
+FROM ubuntu AS compiler
+RUN apt-get update
+RUN apt-get install -y build-essential
+COPY hello.C /
+RUN make hello
+
+FROM ubuntu
+COPY --from=compiler /hello /hello
+CMD /hello
+
+

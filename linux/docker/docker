@@ -1,0 +1,325 @@
+# docker build -t docker-interne.artifactory.intrasec.fr/i1241/test .
+# docker push docker-interne.artifactory.intrasec.fr/i1241/test
+
+1 - Get started
+
+$ docker version
+$ docker -D info
+
+$ docker pull IMAGE : download une image de distant vers le local
+$ docker run IMAGE CMD : lance une commande dans l'image
+ex: $ docker pull busybox
+ex: $ docker run busybox echo "Hello World!"
+$ docker images : list les image
+
+2 - Handling Docker Containers
+
+$ docker pull -a IMAGE : recupere tout les tags de l'image
+$ docker pull IMAGEDOCKER:TAG : recupere l'image taggger
+$ docker run -t -i IMAGE:TAG : lance l'image docker sous le tag en particulier
+
+$ docker search KEYWORD : pour chercher une image en particulier
+
+- Working with an interactive container
+$ docker run -i -t ubuntu:14.04 /bin/bash
+
+$$ ctrl+P ctrl+Q : retour au terminal habituel
+$ docker ps : liste des container
+$ docker attach CONTAINERNAME : permet de retourner sur le container
+$ docker diff CONTAINER : affiche les differences entre le container innitial et le container maintenant
+
+$ docker stop CONTAINER : arrete un container
+$ docker ps -a : affiche tout les container meme ceux stoppe
+$ docker start CONTAINER : lance un container
+$ docker restart CONTAINER : relance un container (stop then start)
+$ docker pause CONTAINER
+$ docker unpause CONTAINER
+
+$ docker run -i -t --rm ubuntu:14.04 /bin/bash : supprime le container quand stop
+$ docker rm CONTAINER : supprime un container
+$ docker rmi IMAGE : supprime une image
+
+$ docker rm 'docker ps -aq --no-trunc' : supprime tout les container qui ne sont pas en run
+
+- create an image from a container
+do modif
+$ docker commit 472c96295678 learningdocker/ubuntu_wget
+
+- launch a docker file as a daemon
+$ docker run -d ubuntu /bin/bash -c "while true; do date; sleep 5; done;
+$ docker logs CONTAINER
+
+3 - Building Images
+
+FROM IMAGE:TAG : quel image prendre comme base
+CMD CMD : quelle commande lancé lors du run de l'image
+
+ex : FROM busybox:latest
+ex : CMD echo Hello World!!
+
+$ docker build DOCKERFILEDIR : build l image présent dans le dossier en argument
+$ docker tag IMAGE NEWTAG : ajoute un tag a l'image ce qui permet de l'envoyer dans le repo
+
+ou en une commande docker build -t NEWTAG DOCKERFILEDIR
+
+# bien faire attention pour les commentaires le # doit etre le premier caractere de la ligne sinon mal interpreté
+
+FROM IMAGE[:TAG] 
+# si pas de tag alors latest
+
+MAINTAINER Autherauther's detail>
+# a placer de preference juste apres le FROM
+
+COPY <src> ... <dest>
+# copy from docker host to image, multiple source can be add
+ex: COPY html /var/www/html
+ex: COPY httpd.conf magic /etc/httpd/conf
+
+ADD <src> ... <dest>
+# meme chose que copy en mode +++
+
+ENV <key> <value>
+# ajoute une variable d'environnement
+
+USER <UID>|<UName>
+# par default root
+
+WORKDIR <dirpath>
+# designe le dossier dans lequel faire les commandes
+
+VOLUME ["moutnpoint"]|<mountpoint>
+# creer un point de montage
+
+EXPOSE <port>[/<proto>] [<port>[/<proto>] ...]
+# permet au container de communiquer avec le monde exterieur
+
+RUN <command>
+# command a lancer durant le build (lancer par /bin/sh -c)
+RUN ["<exec>", "<arg-1>", ..., "<arg-n>"]
+ex : RUN ["bash", "-c", "rm", "-rf", "/tmp/abc"]
+ex : RUN echo "echo Welcome to Docker!" >> /root/.bashrc
+
+# Dockerfile to build an apache2 image
+FROM ubuntu:14.04
+RUN apt-get update && \
+  apt-get install -y apache2 && \
+  apt-get clean
+
+CMD <command>
+# meme chose que run mais au lancement du container, pas au build
+
+ENTRYPOINT <command>
+# pas compris
+
+ONBUILD <INSTRUCTION>
+# reprend une instruction du dockerfile ... pas compris plus
+
+docker history IMAGE : donne la description de chaque couche
+
+4 - publiching images
+
+docker run -i --name="containerforhub" -t ubuntu /bin/bash
+mkdir mynewdir
+cd mynewdir
+echo 'this is my new container to make image and then push to hub' >mynewfile
+docker commit -m="NewImage" containerforhub vinoddandy/imageforhub
+docker push vinoddandy/imageforhub
+
+6 - Running Services in a container
+
+docker inspect CONTAINER : recupere un packet de donné sur ton container
+
+###########################################
+# Dockerfile to build an apache2 image
+###########################################
+# Base image is Ubuntu
+FROM ubuntu:14.04
+# Install apache2 package
+RUN apt-get update && \
+apt-get install -y apache2 && \
+apt-get clean
+# Set the log directory PATH
+ENV APACHE_LOG_DIR /var/log/apache2
+# Launch apache2 server in the foreground
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
+docker build -t apache2
+wget -qO - 172.17.0.13
+
+- Exposing container
+docker run -d -p <hostport>:<containerPort> <image>
+docker run -d -p <containerPort> <image>
+docker run -d -p <ip>:<hostport>:<containerPort> <image>
+docker run -d -p <ip>::<containerPort> <image>
+ex: docker run -d -p 80:80 apache2
+
+docker inspect <container>
+docker port <container> <port>
+ex : docker port baddba8afa95 80
+
+docker run -d -p 198.51.100.73:80:80 apache2 : assigne une ip en particulier
+docker run -d -p 80 apache2 : assigne automatiquement un port
+
+###########################################
+# Dockerfile to build an apache2 image
+###########################################
+# Base image is Ubuntu
+FROM ubuntu:14.04
+# Author: Dr. Peter
+MAINTAINER Dr. Peter <peterindia@gmail.com>
+# Install apache2 package
+RUN apt-get update && \
+  apt-get install -y apache2 && \
+  apt-get clean
+# Set the log directory PATH
+ENV APACHE_LOG_DIR /var/log/apache2
+# Expose port 80
+EXPOSE 80
+# Launch apache2 server in the foreground
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
+7 - Sharing Data with Container
+
+FROM ubuntu:14.04
+VOLUME /MountPointDemo
+
+# Creation de l'image
+$ docker build -t mount-point-demo .
+# lancement
+$ docker run --rm -it mount-point-demo
+# Affichage du poin de montage
+$$ ls -ld /MountPointDemo
+# Montage
+$$ mount
+# Affichage des configue du cpoint de montage (a l'attribut Volumes ou Volumes RW)
+$ docker inpect 8d22f73b5b46
+
+$ docker run -v /MountPointDemo -it ubuntu:14.4
+pour supprimer le dossier generer par le mountpoint
+# sur un container arrété
+$ docker rm -v 8d22f73b5b46
+# sur un container en run
+$ docker rm -fv 8d22f73b5b46
+
+- Sharing host data
+$ docker run -v <container mount path>
+$ docker run -v <host path>/<container mount path>
+$ docker run -v <host path>/<container mount path>:<read write mode>
+<read write mode> : ro (read-only) rw (read write)
+
+on peut monter un fichier ou un dosier et les renomer lors du montage
+ex : $ docker run -v /tmp/hostdir:/MountPoint -it ubuntu:14.04
+ex : $ docker run -v /tmp/hostfile.txt:/mountedfile.txt -it ubuntu:14.04
+
+docker run -d -p 80:80 -v /var/log/myhttpd:/var/log/apache2 apache2
+
+- Sharing between container
+$ docker run --name datavol -v /DataMount busybox:latest /bin/true
+$ docker run –it --volumes-from datavol ubuntu:latest /bin/bash
+$$ echo "Data Sharing between Container" > /DataMount/testfile
+$ docker run --rm --volumes-from datavol busybox:latest cat /DataMount/testfile
+
+# Dockerfile to build a LOG Volume for Apache2 Service
+# Base image is BusyBox
+FROM busybox:latest
+# Author: Dr. Peter
+MAINTAINER Dr. Peter <peterindia@gmail.com>
+# Create a data volume at /var/log/apache2, which is
+# same as the log directory PATH set for the apache image
+VOLUME /var/log/apache2
+# Execute command true
+CMD ["/bin/true"]
+
+# creation de l'image
+$ docker build -t apache2log .
+# creation du container
+$ docker run --name log_vol apache2log
+# creation d'un container apache2 qui va envoyer ses log dans le container log_vol
+$ sudo docker run -d -p 80:80 --volumes-from log_vol apache2
+
+# test pour afficer la liste des fichiers
+$ docker run --rm --volumes-from log_vol busybox:latest ls -l /var/log/apache2
+# test pour afficher les fichiers
+$ sudo docker run --rm --volumes-from log_vol ubuntu:14.04 tail /var/log/apache2/error.log
+
+8 - Orchestrating Containers
+
+9 - Testing with Docker
+
+#############################################
+# Dockerfile to build the unittest container
+#############################################
+# Base image is python
+FROM python:latest
+# Author: Dr. Peter
+MAINTAINER Dr. Peter <peterindia@gmail.com>
+# Install redis driver for python and the redis mock
+RUN pip install redis && pip install mockredispy
+# Copy the test and source to the Docker image
+ADD src/ /src/
+# Change the working directory to /src/
+WORKDIR /src/
+# Make unittest as the default execution
+ENTRYPOINT python3 -m unittest
+
+$ docker build -t hit_unittest .
+$ docker run --rm -it hit_unittest .
+$ docker run -it -v /home/peter/src/hitcount:/src python:latest /bin/bash
+$$ cd /src
+$$ python3 -m unittest
+$$ pip install redis
+$$ python3 -m unittest
+$ sudo docker commit a8219ac7ed8e python_rediswithmock
+
+10 - Debugging Container
+
+$ sudo docker run -it --rm ubuntu /bin/bash
+$ sudo docker inspect --format "{{ .State.Pid }}" 93f5d72c2f21
+$ ps -fp 2543
+$ sudo cat -v /proc/2543/environ
+$$ ps -ef
+$$ cat /proc/mounts
+
+- Control groups
+$ cat memory.max_usage_in_bytes
+
+-Docker exec command
+$ docker ps -a
+# execution de -it sur un container en cours
+$ docker exec -it a245253db38b bash
+$$ ps -aef
+
+- Docker ps command
+# status des process
+ps --help <s|l|o|m|a>
+
+- Docker top command
+docker top [OPTIONS] COINTAINER [ps OPTIONS]
+# liste des proces running sans aller dans le container
+
+- Dockers stats commande
+$ docker stats a245253db38b
+memory, CPU, network usage
+
+- Docker events command
+$ docker pause a245253db38b
+$ sudo docker ps -a
+sudo docker unpause a245253db38b
+$ sudo docker ps -a
+
+--filter container=a245253db38b --filter event=start
+
+- Docker logs command
+$ sudo docker logs a245253db38b
+$ sudo docker logs -t a245253db38b
+
+- nsenter
+# permet d'acceder au container malgré la sécu ... wot ?
+$ sudo docker run -d -p 5000:5000 training/webapp python app.py
+$ curl localhost:5000
+$ sudo docker run -v /usr/local/bin:/target jpetazzo/nsenter
+$ PID=$(sudo docker inspect --format {{.State.Pid}}
+a245253db38b)
+$ sudo nsenter --target $PID --mount --uts --ipc --net --pid
+
+11 - Security

@@ -1,0 +1,124 @@
+json-schema.json
+================
+
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/schema#",
+  "description": "JSON regroupant tout ce que j'ai pu voir a propos des json schema",
+  "oneOf": [
+    {"required": ["age", "name", "tel_fix"]},
+    {"required": ["age", "name", "tel_cell"]}
+  ],
+  "properties": {
+    "age": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 130,
+      "multipleOf": 1
+    },
+    "headSize": {"type": ["number", "string"]},
+    "favorite_color": {
+      "type": "string",
+      "enum": ["red", "blue", "yellow"]
+    },
+    "phone": {"type": "string", "pattern": "^[0-9]{4}$"},
+    "cell": {"type": "string", "pattern": "^[0-9]{4}$"},
+    "particular_sign": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+
+
+
+
+
+
+    "exempleObject": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "town": {"type": "string"},
+        "zip": {"type": "string"}
+      },
+      "dependencies": {
+        "zip": ["town"],
+        "town": ["zip"]
+      },
+      "additionalProperties": {"type": ["string", "number"]}
+    },
+
+
+
+
+
+
+    "exempleObject2": {
+      "type": "object",
+      "description": "if town then add property zip and required it",
+      "properties": {
+        "name": {"type": "string"},
+        "town": {"type": "string"}
+      },
+      "dependencies": {
+        "town": {
+          "properties": {
+            "zip": {"type": "string"}
+          }
+        },
+        "required": ["zip"]
+      }
+    },
+
+
+
+
+    "exempleObject3": {
+      "type": "object",
+      "description": "properties begin by 'S_'",
+      "patternProperties": {
+        "^S_": {"type": "string"},
+        "^I_": {"type": "integer"}
+      },
+      "additionalProperties": false
+    },
+
+
+
+
+
+
+
+    "exempleObject4": {
+      "type": "array",
+      "description": "tupple validation (not all necesary)",
+      "items": [
+        {"type": "number"},
+        {"type": "string"},
+        {"type": "string", "enum": ["Street", "Avenue", "Boulevard"]},
+        {"type": "string", "enum": ["NW", "NE", "SW", "SE"]}
+      ],
+      "additionalProperties": false
+    },
+
+
+
+    "exempleObject5": {
+      "description": "je sais pas pourquoi ils montrent ca ...",
+      "definitions": {
+        "address": {
+          "type": "object",
+          "properties": {
+            "street_address": {"type": "string"},
+            "city": {"type": "string"},
+            "state": {"type": "string"}
+          },
+          "required": ["street_address", "city", "state"]
+        }
+      },
+      "allOf": [
+        {"$ref": "#/definitions/address"},
+        {"properties": {"type": {"enum": ["residential", "business"]}}}
+      ]
+    }
+  }
+}

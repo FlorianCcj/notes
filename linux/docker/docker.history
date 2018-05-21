@@ -1,0 +1,25 @@
+docker.history
+=============
+
+  755  nano docker.list
+ 2838  sudo service docker restart
+ 8402  docker -v
+ 8403  ls -l /var/lib/docker
+ 8406  docker ps
+ 8407  docker ps -a
+ 8408  docker images
+ 8414  docker info
+ 8415  docker pull docker.intrasec.fr/apache/apache2 
+ 8416  docker images
+ 8417  docker images -a
+ 8424  docker run -it docker.intrasec.fr/apache/apache2:latest /bin/bash
+ 8426  docker run -it --name apache docker.intrasec.fr/apache/apache2:latest /bin/bash
+ 8427  docker rm apache
+ 8428  docker run -d --name -p 1234:80 apache docker.intrasec.fr/apache/apache2:latest 
+ 8429  docker run -d --name apache -p 1234:80 docker.intrasec.fr/apache/apache2:latest 
+ 8432  docker stop apache
+10028  sudo docker -D info
+10029  docker pull debian:internal
+10030  docker pull 8.5-internal
+10031  history | grep docker
+10032  cd projet/docker/
