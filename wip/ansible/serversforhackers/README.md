@@ -2,6 +2,11 @@ https://serversforhackers.com/c/an-ansible-tutorial
 
 similar to Chef, Puppet or Salt.
 
+## note
+
+- debug:
+      msg: "before we run our role"
+
 ## install
 
 ### bash
@@ -39,7 +44,7 @@ deactivate
 ## Config and first run
 
 ```bash
-# host.ini
+# hosts.ini
 [local]
 127.0.0.1
 

@@ -1,2 +1,9 @@
 ---
 # tasks file for discord
+- name: Install a list of packages
+  apt:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - libappindicator1
+    - libc++1
