@@ -1,0 +1,15 @@
+apache-php:
+  build: apache-php
+  volumes_from:
+    - application
+  ports:
+    - 127.0.0.1:3000:3000
+  expose:
+    - 9000:9000
+
+application:
+  build: symfony/
+  volumes:
+    - /var/www/mon-super-projet
+    - /root/.ssh
+  tty: true
