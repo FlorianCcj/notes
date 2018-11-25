@@ -1,9 +1,11 @@
 todo:
   - sumup:
     - dev:
-      - docker: ~
-      - sf: ~
-      - vuejs: ~
+      - docker:
+        - faire une doc pour docker symfony
+      - symfony: ~
+      - vuejs:
+        - https://vueschool.io
     - sys:
       - ansible:
         - https://serversforhackers.com/c/an-ansible-tutorial
@@ -11,9 +13,29 @@ todo:
         - https://www.learnitguide.net/2018/06/ansible-tutorial-for-beginners-online.html
         - https://www.youtube.com/watch?v=dCQpaTTTv98
         - https://www.youtube.com/watch?v=4sNdq6fjZFQ
-      - gitlab: ~
+      - gitlab:
+        - https://docs.gitlab.com/ee/README.html#new-to-git-and-gitlab
       - k8s:
         - https://www.manning.com/books/exploring-kubernetes
+      - ceph:
+        - Data/Red_Hat-Training+Certification-Student_workbook-CEPH125-RedHatStorageArchitectureAndAdministration
   - practice:
+    - voiture:
+      - video technique:
+        - https://www.youtube.com/watch?v=JACh9-P2sII
+        - https://www.youtube.com/watch?v=4eZOhknu6W4
+      - liste de question
     - draw: ~
-    - flute: ~
+    - flute:
+      - Data/methode_soprano_v1_complete.pdf
+    - piano:
+      - Data/Van de Velde, Ernest - La premiere annee de piano Methode Rose
+    - mentalism:
+      - https://www.youtube.com/watch?v=xl9fFvILxnM
+  - lecture:
+    - jdr:
+      - https://thetrove.net/Books/Legend%20of%20the%20Five%20Rings/Maps/
+      - https://donjon.bin.sh/
+      - deepnight.net/tools/tabletop-rpg-map-editor/
+    - journaux:
+      - cf index
