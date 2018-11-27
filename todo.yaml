@@ -3,7 +3,9 @@ todo:
     - dev:
       - docker:
         - faire une doc pour docker symfony
-      - symfony: ~
+      - symfony: 
+        - https://symfonycasts.com/tracks/symfony
+        - https://university.sensiolabs.com/me
       - vuejs:
         - https://vueschool.io
     - sys:
