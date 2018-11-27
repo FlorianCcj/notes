@@ -1,0 +1,37 @@
+version: '3.1'
+
+services:
+    backend-static:
+        # image avec le frontale + les fichier static de sf <-----------------------------------------------------------
+        image: nginx
+        container_name: appli-name-apache
+        hostname: appli-name-apache
+        networks:
+          default:
+            aliases:
+              - appli-name-apache
+        depends_on:
+            - backend-php
+
+    backend-php:
+        # image avec fpm + source <-------------------------------------------------------------------------------------
+        image: backend-php:${TAG}
+        container_name: appli-name-fpm
+        hostname: appli-name-fpm
+        networks:
+          default:
+            aliases:
+              - appli-name-fpm
+        environment:
+            SYMFONY_DATABASE_HOST: db-mysql
+            SYMFONY_DATABASE_PORT: 3306
+            SYMFONY_DATABASE_NAME: root
+            SYMFONY_DATABASE_USER: root
+            SYMFONY_DATABASE_PASS: root
+            SYMFONY_DEBUG_TOOLBAR: "true"
+            SYMFONY_DEBUG_REDIRECTS: "true"
+            SYMFONY_ASSETICS_CONTROLLER: "true"
+            SYMFONY_SECRET_TOKENS: ${SYMFONY_SECRET_TOKENS}
+
+networks:
+    default:
