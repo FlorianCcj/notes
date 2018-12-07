@@ -1,0 +1,76 @@
+[
+  {
+    "nom": "Claymore sanglance",
+    "image": "epee rouge, manche or",
+    "type": "Arme",
+    "classe": [],
+    "qualite": "bleu",
+    "force": 4,
+    "magie": 0,
+    "endurence": 0,
+    "commandement": 0,
+    "bonus": "+8/3 force +1/6 bond heroique",
+    "possesseur": "Rufio"
+  }, {
+    "nom": "Marteau de Thor",
+    "image": "Marteau rond-carre",
+    "type": "Arme",
+    "classe": [],
+    "qualite": "marron",
+    "force": 6,
+    "magie": 0,
+    "endurence": 0,
+    "commandement": 5,
+    "bonus": "",
+    "possesseur": ""
+  }, {
+    "nom": "Glaive Cime des aigles",
+    "image": "epee, manche marron",
+    "type": "Arme",
+    "classe": ["Gladiateur"],
+    "qualite": "violet",
+    "force": 6,
+    "magie": 0,
+    "endurence": 2,
+    "commandement": 2,
+    "bonus": "1/3 reduc degat 20%",
+    "possesseur": ""
+  }, {
+    "nom": "Glaive legendaire",
+    "image": "epee orange",
+    "type": "Arme",
+    "classe": [],
+    "qualite": "violet",
+    "force": 7,
+    "magie": 0,
+    "endurence": 0,
+    "commandement": 0,
+    "bonus": "",
+    "possesseur": ""
+  }, {
+    "nom": "Dague du croc draconique",
+    "image": "dague courbee, full argent",
+    "type": "Arme",
+    "classe": [],
+    "qualite": "violet",
+    "force": 6,
+    "magie": 0,
+    "endurence": 0,
+    "commandement": 0,
+    "bonus": "+1 coup surprenant",
+    "possesseur": ""
+  }, {
+    "nom": "Grand manteau volcanique",
+    "image": "cape rouge, encolure en or",
+    "type": "Cape",
+    "classe": ["Mage"],
+    "qualite": "Marron",
+    "force": 0,
+    "magie": 6,
+    "endurence": 0,
+    "commandement": 5,
+    "bonus": "",
+    "possesseur": ""
+  }
+
+]

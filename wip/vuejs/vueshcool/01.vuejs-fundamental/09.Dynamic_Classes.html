@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List App</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="shopping-list">
+      <div class="header">
+        <h1>{{ header.toLocaleUpperCase() }}</h1>
+        <button v-if="state === 'default'" type="button" name="button" class="btn btn-primary" @click="changeState('edit')">Add Item</button>
+        <button
+          v-else
+          @click="changeState('default')" :disabled="newItem.length === 0"
+          type="button" name="button"
+          class="btn btn-cancel"
+        >Cancel</button>
+      </div>
+      <div v-if="state === 'edit'" class="add-item-form">
+        <input v-model="newItem" type="text" placeholder="Add an item" @keyup.enter="saveItem" />
+        <button type="button" name="button" class="btn btn-primary" @click="saveItem">Save Item</button>
+      </div>
+      <ul>
+        <li
+          v-for="item in items"
+          @click="togglePurchased(item)"
+          :class="{strikeout: item.purchased, priority: item.highPriority}"
+        >{{ item.label }}</li>
+        <!--<li v-for="item in items" :class="{strikeout: item.purchased}">{{ item.label }}</li>-->
+      </ul>
+      <p v-if="items.length === 0">Nice job! You've bought all</p>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/vue"></script>
+    <script type="text/javascript">
+      var shoppingList = new Vue({
+        el: '#shopping-list',
+        data: {
+          state: 'default',
+          header: 'shopping list app',
+          newItem: '',
+          items: [
+            { label: '10 party hats', purchased: false, highPriority: false },
+            { label: '2 board games', purchased: true, highPriority: false },
+            { label: '20 cups', purchased: false, highPriority: true },
+          ]
+        },
+        methods: {
+          saveItem: function() {
+            this.items.push({ label: this.newItem, purchased: false });
+            this.newItem = '';
+          },
+          changeState: function(newState) {
+            this.state = newState;
+            this.newItem = '';
+          },
+          togglePurchased: function(item) {
+            item.purchased = !item.purchased;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
