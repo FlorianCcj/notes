@@ -1,0 +1,29 @@
+- name: install zsh
+  apt:
+    name: zsh
+    state: latest
+
+- name: install oh-my-zsh
+  become: false
+  shell: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+- name: get z.sh
+  become: false
+  get_url:
+    url: "https://raw.githubusercontent.com/rupa/z/master/z.sh"
+    dest: ~/test/
+
+- name: check z.sh in ~/.bashrc
+  become: false
+  lineinfile:
+    path: ~/.bashrc
+    line: 'source ~/z.sh'
+    state: present
+
+- name: check z.sh in ~/.zshrc
+  become: false
+  lineinfile:
+    path: ~/.zshrc
+    line: 'source ~/z.sh'
+    state: present
+  

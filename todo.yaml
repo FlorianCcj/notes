@@ -41,3 +41,6 @@ todo:
       - deepnight.net/tools/tabletop-rpg-map-editor/
     - journaux:
       - cf index
+    vrac:
+      - https://github.com/phpstan/phpstan
+      - https://nginxconfig.io/

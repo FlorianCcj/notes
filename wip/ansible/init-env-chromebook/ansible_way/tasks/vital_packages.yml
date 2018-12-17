@@ -1,0 +1,16 @@
+- block:
+  - name: Install vital packages
+    apt:
+      name: "{{ vital_packages }}"
+  - name: Vital packages have been installed
+    debug:
+      var: vital_packages
+  rescue:
+    - name: install vital packages failed
+      debug:
+        msg: "[error][vital packages task] variable invalid"
+  when: vital_packages is defined
+- name: vital_packages is not defined
+  debug:
+    msg: "[error][vital packages task] variable is not defined"
+  when: vital_packages is not defined

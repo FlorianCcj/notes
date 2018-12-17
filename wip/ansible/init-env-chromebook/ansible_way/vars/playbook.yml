@@ -1,0 +1,8 @@
+---
+user: florianccj
+vital_packages:
+  - terminator
+  - zsh
+  - git
+  - firefox
+  - vlc
