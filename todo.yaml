@@ -1,5 +1,8 @@
 todo:
   - sumup:
+    - design:
+      - https://purecss.io/
+      - https://uxdesign.cc/design-better-forms-96fadca0f49c
     - dev:
       - docker:
         - faire une doc pour docker symfony
@@ -44,3 +47,38 @@ todo:
     vrac:
       - https://github.com/phpstan/phpstan
       - https://nginxconfig.io/
+  - projet:
+    - todolist:
+      - function:
+        - first run (todo):
+          - [todo][base] create a todo (title/desc (optional))
+          - [todo][base] edit a todo
+          - [todo][base] remove a todo
+          - [todo][workflow] pass a todo "done" <-> "undone"
+          - [todo][base] in list add a checkbox to print "done" todo
+        - 2 run (user):
+          - [user] sign up page
+          - [user] sign in page
+          - [user] change personnal data form
+          - [user] remove personnal data button
+          - [user] change pwd form
+          - [todo][user] todo creation -> link to a user
+          - [todo] todo list -> by user
+          - [todo] todo list -> total
+          - [todo] todo list -> filter (title/desc)
+        - 3 run (todo-tags):
+          - [todo][tags] add tags to todo
+          - [tags][groups of tags] permit to group tag under tag (//!\\ circular)
+          - [tags][template todo] print tags show parent/child
+          - [tags][todo filter] when filter print tags then tags child ...
+        - 4 run (user-group):
+          - [group][group] add group to user
+          - [group][groups of group] permit to group group under group (//!\\ circular)
+          - [group][template todo] print groups show parent/child
+          - [groups][user filter] when filter print group then group child ...
+        - 5 run (shared todo): ~
+        - more:
+          - [todo][end date] end date
+          - [user][name] usage name
+          - [todo][maker] attribute todo to someone
+          - [todo][shared] permit to choose, shared with group, with group and child, with group and parent
