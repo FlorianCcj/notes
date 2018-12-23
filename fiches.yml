@@ -1,0 +1,46 @@
+- fiches:
+  - bash_str_replacement:
+    - title: bash-str replacement
+    - tags:
+      - bash
+      - str
+      - replacement
+    - content: >
+      Substring Replacement: $(var//paterne_to_replace/with_what_you_want_to_replace)
+      First substring replacement: ${string/substring/replacement}
+      All substring replacement: ${string//substring/replacement}
+      just remove: echo ${stringZ/abc}
+      remove all: echo ${stringZ//abc}
+      slash replacement: $(site//\//_)
+  - bash_for:
+    - title: bash-for
+    - tags:
+      - bash
+      - array
+      - for
+      - boucle
+    - content: >
+      for((i=0;i<${#a[@]};i++)); do
+        ...
+      done
+      for site in ${sites[*]}; do
+        ...
+      done
+  - bash_array_concat:
+    - title: bash_array_concat
+    - tags:
+      - bash
+      - array
+      - concat
+    - content: >
+      sites=($(echo ${sites[*]}) $(echo ${forge[*]}))
+      sites=(
+        $(echo ${db[*]})
+        $(echo ${forge[*]})
+        $(echo ${framework[*]})
+        $(echo ${hosts[*]})
+        $(echo ${old_hosts[*]})
+        $(echo ${server[*]})
+      )
+
+

@@ -1,0 +1,213 @@
+- note_from: https://www.jfrog.com/confluence
+- installing_artifactory:
+  - installing_with_docker:
+    highly recommend to use docker-compose
+    exemple_with_run:
+      easy: docker run --name artifactory -d -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+      data_persistant:
+        - host_dir: docker run --name artifactory-pro -d -v /var/opt/jfrog/artifactory:/var/opt/jfrog/artifactory -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+        - named_volume: >
+          docker volume create --name artifactory5_data
+          docker run --name artifactory-pro -d -v artifactory5_data:/var/opt/jfrog/artifactory -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+      - extra_conf:
+        - custom db.properties: docker run --name artifactory-pro -d -v /var/opt/jfrog/artifactory:/var/opt/jfrog/artifactory -v /conf/db.properties:/artifactory_extra_conf/db.properties -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+        - custom binarystore.xml: docker run --name artifactory-pro -d -v /var/opt/jfrog/artifactory:/var/opt/jfrog/artifactory -v /conf/binarystore.xml:/artifactory_extra_conf/binarystore.xml -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+        - Custom Artifactory Configuration File: docker run --name artifactory-pro-nginx -d -p 8000:80 -p 8443:443 -v $CUSTOM_ART_CONF_FILE:/var/opt/jfrog/nginx/conf.d/artifactory.conf docker.bintray.io/jfrog/nginx-artifactory-pro:latest
+      - with_offi_example_nginx: docker run --name artifactory-pro-nginx -d -p 8000:80 -p 8443:443 docker.bintray.io/jfrog/nginx-artifactory-pro:latest
+      - ssl_and_certs: docker run --name artifactory-pro-nginx -d -p 8000:80 -p 8443:443 -v $HOST_SSL_PATH:/var/opt/jfrog/nginx/ssl docker.bintray.io/jfrog/nginx-artifactory-pro:latest
+  - upgrade_artifactory: >
+    docker stop artifactory-5.0.0
+    docker run -d --name artifactory-5.1.0 --volumes-from=artifactory-5.0.0 -p 8081:8081 docker.bintray.io/jfrog/artifactory-pro:5.1.0
+    docker rm artifactory-5.0.0
+- using_artifactory:
+  - getting_started:
+    configuration file template: $ARTIFACTORY_HOME/misc/artifactory.config.template.yml
+    save it as: $ARTIFACTORY_HOME/etc/artifactory.config.import.yml
+    when bootstrap created a save as: $ARTIFACTORY_HOME/etc/artifactory.config.<timestamp>.yml
+  - general information:
+    top ribbon: in admin now som shortcup !!!
+    filter:
+      - by repo name: type name
+      - by package type: pkg:<package type>
+      - by repo type: repo:<local|cache|remote|virtual>
+    - list browing: 
+      desc: print tree of as if looking of repository in web browser
+      access_url: http://host:port/artifactory/list/repo-path
+  - viewing packages:
+    support:
+      - npm: from 6.4
+      - docker: from 5.10
+    permit:
+      - easy search
+      - easy view
+  - using webdav: to-do
+  - searching in arti: to-do
+  - deploy artifact:
+    ihm: 
+      - deploy: to deploy an artifact
+      - import (admin): to deploy a whole repositories
+    - virtual repo: need default deployment repo, permit to use docker push, npm publish, ...
+    - failed deploy:
+      The most common reasons for a rejected deployment are:
+        Lack of permissions
+        A conflict with the target repository's includes/excludes patterns
+        A conflict with the target repository's snapshots/releases handling policy.
+  - update your profile:
+    - api key:
+      - you can use your api key as an alternative to your username and password
+      - two way to use it:
+        - using the X-JFrog-Art-API header with which you can specify an API key
+        - use basic authentication using your username and API key
+  - Authent:
+    - basic
+    - LDAP
+    - Active directory
+    - SSO
+    - SAML SSO
+    - OAuth
+    - SSH
+    - Atlassian Crowd
+    - Access Token
+    - Custom Authent with plugin
+  - Artifactory API REST:
+    - note:
+      - wadl: http://server:port/artifactory/api/application.wadl
+      - api rest authent:
+        - Basic authentication using your username and password
+        - Basic authentication using your username and API Key.
+        - Using a dedicated header (X-JFrog-Art-Api) with your API Key.
+        - Using an access token instead of a password for basic authentication.
+        - Using an access token as a bearer token in an authorization header (Authorization: Bearer) with your access token. 
+      - example:
+        curl -u myUser:myP455w0rd! -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
+        jfrog rt u file.txt my-repository/my/new/artifact/directory/ --user=myUser --password=myP455w0rd!
+        curl -u myUser:ABcdEF -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
+        jfrog rt u file.txt my-repository/my/new/artifact/directory/ --apiKey=ABcdEF
+        curl -H "X-JFrog-Art-Api:ABcdEF" -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
+        curl -u myUser:<Token> -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
+        curl -H "Authorization: Bearer <Token>" -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
+      - all api ressources: https://www.jfrog.com/confluence/display/RTF/Artifactory+REST+API
+    - a lot of conf: application/
+- Configuring Artifactory:
+  - Configuring the Database:
+    - MySQL: todo
+    - Oracle: to-do
+    - Microsoft SQL Server: to-do
+    - PostgreSQL: todo
+    - MariaDB: todo
+  - Configuring the Filestore: todo
+  - Checksum-Based Storage: todo
+  - Configuring Repositories: todo
+  - Configuring Security: todo
+  - Configuring a Reverse Proxy: todo
+  - Mail Server Configuration: todo
+  - IPv6 Support: todo
+  - Configuration Files: todo
+  - YAML Configuration File: todo
+  - Exposing Maven Indexes: todo
+  - Clustering Artifactory: todo
+- System Monitoring and Maintenance:
+  - System Information: todo
+  - Monitoring Storage: todo
+  - Artifactory Log Files:
+    - Access Log: todo
+    - Audit Trail Log: todo
+  - Artifactory JMX MBeans: todo
+  - Regular Maintenance Operations: todo
+  - Managing Backups: todo
+  - Importing and Exporting: todo
+  - Managing Disk Space Usage: todo
+  - Getting Support: todo
+- Artifactory High Availability:
+  - HA Installation and Setup: to-do
+  - Managing the HA Cluster: to-do
+  - Migrating Data from NFS: to-do
+  - Troubleshooting HA: to-do
+- Xray Integration: todo
+- Bintray Integration:
+  - Bintray info panel: todo
+  - Distribution Repository: todo
+  - Deploying Snapshots to oss.jfrog.org: todo
+- Log Analytics: todo
+- Artifactory Pro:
+  - Artifactory Comparison Matrix: todo
+  - Pro Features:
+    - Artifactory Query Language: todo
+    - Atlassian Crowd and JIRA Integration: todo
+    - Azure Blob Storage: todo
+    - Black Duck Code Center Integration: todo
+    - Filestore Sharding: todo
+    - Filtered Resources: todo
+    - GPG Signing: todo
+    - Google Cloud Storage: todo
+    - LDAP Groups: todo
+    - License Control: todo
+    - OAuth Integration: todo
+    - Properties:
+      - Using Properties in Deployment and Resolution: todo
+    - Repository Layouts: todo
+    - Repository Replication: todo
+    - S3 Object Storage:
+      - Direct Cloud Storage Download: todo
+    - SAML SSO Integration: todo
+    - Single Sign-on: todo
+    - Smart Searches: todo
+    - SSH Integration: todo
+    - User Plugins: todo
+    - Watches: todo
+    - WebStart and Jar Signing: todo
+  - Package Management:
+    - Bower Repositories: todo
+    - Chef Cookbook Repositories: todo
+    - CocoaPods Repositories: todo
+    - Conan Repositories: todo
+    - Conda Repositories: todo
+    - CRAN Repositories: todo
+    - Debian Repositories: todo
+    - Docker Registry:
+      - Getting Started with Artifactory as a Docker Registry: todo
+      - Advanced Topics: todo
+      - Working with Docker Content Trust: todo
+      - Using Docker V1: todo
+    - Git LFS Repositories: todo
+    - Go Registry: todo
+    - Helm Chart Repositories: todo
+    - Npm Registry: todo
+    - NuGet Repositories:
+      - Microsoft Symbol Server: todo
+    - Opkg Repositories: todo
+    - P2 Repositories: todo
+    - PHP Composer Repositories: todo
+    - Puppet Repositories: todo
+    - PyPI Repositories:
+      - Accommodating Changes to PyPI: todo
+    - RubyGems Repositories: todo
+    - SBT Repositories: todo
+    - Vagrant Repositories: todo
+    - VCS Repositories: todo
+    - RPM Repositories: todo
+  - Ecosystem Integration:
+    - Maven Repository:
+      - Maven Artifactory Plugin: todo
+    - Working with Gradle:
+      - Gradle Artifactory Plugin: todo
+    - Working with Ivy: todo
+  - Build Integration:
+    - Jenkins Artifactory Plug-in: todo
+    - TeamCity Artifactory Plug-in: todo
+    - Bamboo Artifactory Plug-in: todo
+    - Azure DevOps and TFS Artifactory Extension: todo
+    - MSBuild Artifactory Plugin: todo
+    - Using File Specs: todo
+- Troubleshooting: to-do
+- Known Issues: to-do
+- Fixed Security Vulnerabilities: to-do
+- End of Life: to-do
+- Release Notes: to-do
+- Pivotal Cloud Foundry JFrog Artifactory Tile Release Notes: to-do 
+
+
+
+
+
+
