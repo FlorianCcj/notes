@@ -1,4 +1,28 @@
 todo:
+  - moment_priority:
+    - arti (job)
+    - recupe arti -> untar -> list index.html
+    - project -> stuff-optimisation
+  - saga_mp3:
+    donjon de naheulbeuk
+    reflet d'acide
+    jencyo reva
+    chez les psy
+    les aventuriers du survivaure
+    adoprixtoxis
+    la legende de xantah
+    banal fantasy
+    le 13e regiment
+    le 0e district
+    Les 2 minutes des pokemons
+    L'affaire blaireau
+    L'affaire du manoir Glasgow
+    L'agence sans risque
+    Alliens maniak
+    Kingdom Paf
+    le seigneir des blaireaux
+    lord of the ringard
+    milhana
   - sumup:
     - design:
       - https://purecss.io/
@@ -49,6 +73,8 @@ todo:
       - https://nginxconfig.io/
   - projet:
     - todolist:
+      - tache:
+        - [back] get one todo
       - function:
         - first run (todo):
           - [todo][base] create a todo (title/desc (optional))
@@ -67,18 +93,18 @@ todo:
           - [todo] todo list -> total
           - [todo] todo list -> filter (title/desc)
         - 3 run (todo-tags):
-          - [todo][tags] add tags to todo
+          - [todo][tags] add tags to todo (title + color)
           - [tags][groups of tags] permit to group tag under tag (//!\\ circular)
           - [tags][template todo] print tags show parent/child
           - [tags][todo filter] when filter print tags then tags child ...
         - 4 run (user-group):
-          - [group][group] add group to user
+          - [group][group] add group to user (title + color)
           - [group][groups of group] permit to group group under group (//!\\ circular)
           - [group][template todo] print groups show parent/child
           - [groups][user filter] when filter print group then group child ...
         - 5 run (shared todo): ~
         - more:
-          - [todo][end date] end date
+          - [todo][end date] dead line
           - [user][name] usage name
           - [todo][maker] attribute todo to someone
           - [todo][shared] permit to choose, shared with group, with group and child, with group and parent
@@ -126,3 +152,25 @@ todo:
         - faire des stats
         - permettre exclure des questions les prochaines fois
         - permetttre de remettre les questions exclu
+    - chromebook-ansible:
+      -install auto
+
+
+
+- * + create a todo (titre, status, deadline/rappel, color)
+- * + edit a todo
+- * ajouter une dead line
+- * + check a todo
+- * + uncheck a todo
+* ordonner les todos/hierarchiser
+* * show user todo
+* * show multiple user todo
+* ++ categories (multiple category to one todo) todo
+* ++ share a category of todo with some one
+* * filter list of todo by category
+* show history of a todo
+* show history of a category
+* show list of shared category (you, mona (lesson), mona (video), ...)
+* hide our todo & show a list of shared
+* avoir un suivi du deroulement de la tache (workflow, ou %)
+

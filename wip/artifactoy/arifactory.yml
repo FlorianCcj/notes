@@ -90,18 +90,52 @@
     - a lot of conf: application/
 - Configuring Artifactory:
   - Configuring the Database:
+    - note:
+      - two model:
+        - metadata in database, bin in FS (default, and recommand)
+        - metadata and bin in database (binary as BLOBs)
+      - arti rename file with SHA1 checksum then associate checksum with metadata in DB
     - MySQL: todo
     - Oracle: to-do
     - Microsoft SQL Server: to-do
     - PostgreSQL: todo
     - MariaDB: todo
-  - Configuring the Filestore: todo
-  - Checksum-Based Storage: todo
-  - Configuring Repositories: todo
-  - Configuring Security: todo
-  - Configuring a Reverse Proxy: todo
+  - Configuring the Filestore:
+    a lot of config example: https://www.jfrog.com/confluence/display/RTF/Configuring+the+Filestore
+  - Configuring Repositories:
+    - note:
+      local repository: http://<host>:<port>/artifactory/<local-repository-name>/<artifact-path>
+    - Virtual Repositories: 
+      -always use: with that even if you change name, add a repo remove a repo, user never has problem
+  - Configuring Security: 
+    - Managing Security with Active Directory:
+      Admin -> Security -> LDAP -> New: >
+        Enable: check
+        LDAP url: ldap://win2012.jfrog.local:389/dc=jfrog,dc=local
+        Auto Create Artifactory User: check
+        email attribut: mail
+        Search filter: sAMAccountName={0}
+        Search base: ou=il,ou=frogs|ou=us,ou=frogs
+        Manager DN: cn=Administrator,cn=Users,dc=jfrog,dc=local
+        Manager Password: ***************
+        Sub-tree Search: check
+      importing AD Groups(static, dynamic):
+        new LDAP group settings:
+          setting name: allfrogs
+          LDAP Setting: frogs
+          Mapping strategy: static | dynamic
+          Group member attribut: member (memberOf if dynamic)
+          Group name attribut: cn
+          Description attribut: description
+          Filter: (objectClass=group)
+          Search Base: ou=frogs
+          Sub-tree search: check
+    - Access Tokens: todo
+  - Configuring a Reverse Proxy:
+    - Configuring Apache: todo
+    - Configuring NGINX : todo
   - Mail Server Configuration: todo
-  - IPv6 Support: todo
+  - IPv6 Support: to-do
   - Configuration Files: todo
   - YAML Configuration File: todo
   - Exposing Maven Indexes: todo
@@ -130,30 +164,32 @@
   - Deploying Snapshots to oss.jfrog.org: todo
 - Log Analytics: todo
 - Artifactory Pro:
-  - Artifactory Comparison Matrix: todo
   - Pro Features:
-    - Artifactory Query Language: todo
-    - Atlassian Crowd and JIRA Integration: todo
-    - Azure Blob Storage: todo
-    - Black Duck Code Center Integration: todo
-    - Filestore Sharding: todo
-    - Filtered Resources: todo
     - GPG Signing: todo
-    - Google Cloud Storage: todo
     - LDAP Groups: todo
-    - License Control: todo
-    - OAuth Integration: todo
-    - Properties:
-      - Using Properties in Deployment and Resolution: todo
     - Repository Layouts: todo
-    - Repository Replication: todo
+    - Repository Replication: 
+      - push:
+        enable: check
+        url: http://myartifactory.org/artifactory/libs-snapshot-local
+        username: admin
+        password: ******
+        socket timeout: 15000
+        sync deleted artifact: check
+        sync artifact stat: check
+        sync artifact properties: check
+      - pull:
+        enable: check
+        cron expression: 0 0 12 * * ?
+        enable event replication: check
     - S3 Object Storage:
       - Direct Cloud Storage Download: todo
     - SAML SSO Integration: todo
     - Single Sign-on: todo
     - Smart Searches: todo
     - SSH Integration: todo
-    - User Plugins: todo
+    - User Plugins:
+      - deploy: in ${ARTIFACTORY_HOME}/etc/plugins
     - Watches: todo
     - WebStart and Jar Signing: todo
   - Package Management:
@@ -205,9 +241,3 @@
 - End of Life: to-do
 - Release Notes: to-do
 - Pivotal Cloud Foundry JFrog Artifactory Tile Release Notes: to-do 
-
-
-
-
-
-
