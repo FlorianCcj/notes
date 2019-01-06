@@ -185,7 +185,7 @@ packages:
         - name: Debugs the variables imported
             debug:
                 msg: >
-                    "{{package['web_package']}} and {{package.db_package}} 
+                    "{{packages['web_package']}} and {{package.db_package}} 
                     have been imported"
 ```
 
@@ -423,6 +423,13 @@ You can ask {{ system_owner }} for access.
 {{output | to_yaml}}
 
 exist: to_nice_json, to_nice_yaml, from_yaml, from_json
+
+### ++
+
+ansible hostname -m setup
+{{ lookup('env', 'MY_USER') | default('admin', true) }}
+{{ item.mode | default(omit) }}
+{{ list1 | min }}
 
 ## Roles
 

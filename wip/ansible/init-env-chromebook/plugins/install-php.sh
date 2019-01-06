@@ -25,3 +25,4 @@ sudo apt-get update
 version="7.2"
 package="php${version}"
 sudo apt-get install -y ${package} ${package}-fpm ${package}-mysql ${package}-curl ${package}-xml ${package}-mbstring ${package}-zip
+ 

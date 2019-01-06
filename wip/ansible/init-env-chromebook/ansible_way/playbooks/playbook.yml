@@ -5,9 +5,15 @@
     - vars/playbook.yml
     - vars/template.yml
   tasks:
-    - import_tasks: tasks/apt_update.yml
-    - import_tasks: tasks/vital_packages.yml
-    - import_tasks: tasks/system_packages.yml
-    - import_tasks: tasks/install_zsh_plugin.yml
-    - import_tasks: tasks/install_git.yml
+#    - import_tasks: tasks/apt_update.yml
+#    - import_tasks: tasks/vital_packages.yml
+#    - import_tasks: tasks/system_packages.yml
+#    - import_tasks: tasks/install_zsh_plugin.yml
+#    - import_tasks: tasks/install_git.yml
 #    #- import_tasks: tasks/banner.yml
+    - name: Include php vars
+      include_vars: vars/vars-install_php.yml
+    - name: debug
+      debug:
+        var: php
+    - import_tasks: tasks/install_php.yml

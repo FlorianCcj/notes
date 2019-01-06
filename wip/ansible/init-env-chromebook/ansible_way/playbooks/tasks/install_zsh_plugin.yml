@@ -6,13 +6,13 @@
 
 - name: install oh-my-zsh
   become: false
-  shell: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  shell: sh -c "$(curl -fsSL {{ config.oh_my_zsh_url | default('https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh') }})"
 
 - name: get z.sh
   become: false
   get_url:
-    url: "https://raw.githubusercontent.com/rupa/z/master/z.sh"
-    dest: ~/        
+    url: "{{ config.z_dot_sh_url | default('https://raw.githubusercontent.com/rupa/z/master/z.sh') }}"
+    dest: ~/   
 
 - name: check z.sh in ~/.bashrc
   become: false

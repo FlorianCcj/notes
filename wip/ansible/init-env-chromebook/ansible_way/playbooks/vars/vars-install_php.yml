@@ -1,0 +1,10 @@
+---
+php:
+  main_package: 'php7.2'
+  sub_packages:
+    - fpm
+    - mysql
+    - curl
+    - xml
+    - mbstring
+    - zip
