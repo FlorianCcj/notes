@@ -1,3 +1,4 @@
+---
 - name: install zsh
   apt:
     name: zsh

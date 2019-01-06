@@ -3,7 +3,10 @@
   become: yes
   vars_files:
     - vars/playbook.yml
+    - vars/template.yml
   tasks:
     - import_tasks: tasks/apt_update.yml
     - import_tasks: tasks/vital_packages.yml
+    - import_tasks: tasks/system_packages.yml
     - import_tasks: tasks/install_zsh_plugin.yml
+    - import_tasks: tasks/install_git.yml

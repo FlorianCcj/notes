@@ -808,6 +808,21 @@
     "note": ""
   },
   {
+    "nom": "Lame d ame sans defaut",
+    "image": "arme enluminiure en or",
+    "type": "Babioles",
+    "classe": [],
+    "qualite": "",
+    "force": 19,
+    "magie": 0,
+    "endurence": 6,
+    "commandement": 0,
+    "bonus": "",
+    "possesseur": "",
+    "craft": null,
+    "note": ""
+  },
+  {
     "nom": "--------------------------> M <-------------------------",
     "image": "",
     "type": "",

@@ -1448,7 +1448,7 @@ This system is base on {{ ansible_distribution }} {{ ansible_distribution_versio
 ```jinja2
 This system {{ ansible_hostname }}
 Today's date is: {{ ansible_date_time.date }}
-Only use this systemwith permission
+Only use this system with permission
 You can ask {{ system_owner }} for access.
 ```
 

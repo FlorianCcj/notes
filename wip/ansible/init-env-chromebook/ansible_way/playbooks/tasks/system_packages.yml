@@ -1,0 +1,17 @@
+---
+- block:
+  - name: Install system packages
+    apt:
+      name: "{{ system_packages }}"
+  - name: system packages have been installed
+    debug:
+      var: system_packages
+  rescue:
+    - name: install system packages failed
+      debug:
+        msg: "[error][system packages task] variable invalid"
+  when: system_packages is defined
+- name: system_packages is not defined
+  debug:
+    msg: "[error][system packages task] variable is not defined"
+  when: system_packages is not defined

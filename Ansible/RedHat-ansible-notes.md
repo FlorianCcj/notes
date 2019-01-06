@@ -375,6 +375,59 @@ become_user = root
 become_ask_pass = false
 ```
 
+
+
+
+
+## Templating Jinja2
+
+```jinja2
+{# roles/motd/templates/motd.j2 #}
+This is the system {{ ansible_hostname }}.
+
+Today's date is: {{ ansible_date_time.date }}.
+
+Only use this system with permission.
+You can ask {{ system_owner }} for access.
+```
+
+```yml
+- name: template vhost file
+    template:
+        src: vhost.conf.j2
+        dest: /etc/httpd/conf.d/vhost.conf
+        owner: root
+        group: root
+        mode: 0644
+```
+
+### Structur
+
+{% expror logic %}
+{{ output }}
+{# comment #}
+
+{% for user in users %}
+    {{ user }}
+{% endfor %}
+
+{% for myuser in users if not myuser == "Snoopy" %}
+{{loop.index}} - {{myuser}}
+{% endfor %}
+
+{% if finished %}
+    {{result}}
+{% endif %}
+
+{{output | to_json}}
+{{output | to_yaml}}
+
+exist: to_nice_json, to_nice_yaml, from_yaml, from_json
+
+## Roles
+
+l1473
+
 ## Utils
 
 

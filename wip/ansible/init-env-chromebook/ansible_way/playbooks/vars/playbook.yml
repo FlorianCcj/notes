@@ -1,0 +1,12 @@
+---
+config:
+  user: florianccj
+vital_packages:
+  - terminator
+  - zsh
+  - git
+  - firefox
+  - vlc
+system_packages:
+  - tree
+  - multitail
