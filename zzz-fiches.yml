@@ -1,0 +1,170 @@
+- fiches:
+  - 
+    title: bash-how to replace a str in an str
+    tags:
+      - bash
+      - str
+      - replacement
+    content: >
+      Substring Replacement: $(var//paterne_to_replace/with_what_you_want_to_replace)
+      First substring replacement: ${string/substring/replacement}
+      All substring replacement: ${string//substring/replacement}
+      just remove: echo ${stringZ/abc}
+      remove all: echo ${stringZ//abc}
+      slash replacement: $(site//\//_)
+  - 
+    title: bash-for
+    tags:
+      - bash
+      - array
+      - for
+      - boucle
+    content: >
+      for((i=0;i<${#a[@]};i++)); do
+        ...
+      done
+      for site in ${sites[*]}; do
+        ...
+      done
+  - 
+    title: bash-how to concat array
+    tags:
+      - bash
+      - array
+      - concat
+    content: >
+      sites=($(echo ${sites[*]}) $(echo ${forge[*]}))
+      sites=(
+        $(echo ${db[*]})
+        $(echo ${forge[*]})
+        $(echo ${framework[*]})
+        $(echo ${hosts[*]})
+        $(echo ${old_hosts[*]})
+        $(echo ${server[*]})
+      )
+  - 
+    title: bash-how to count lign
+    tags:
+      - bash
+      - count
+      - size
+    content: >
+      wc -l $1
+  - 
+    title: vscode-how to autoindent
+    tags:
+      - vscode
+      - autoindent
+      - shortcut
+    content: >
+      ctrl+shift+I
+  -
+    title: soft for live usb
+    tag:
+      - soft
+      - live usb
+      - unix
+    content: >
+      unetbootin
+  - 
+    title: gitlab runner addon
+    tag:
+      - gitlab
+      - runner
+      - auddon
+      - autodeploy
+      - garbage collector
+    content: >
+      https://github.com/v2tec/watchtower
+      https://github.com/spotify/docker-gc
+  -
+    title: git du pauvre
+    tag:
+      - git
+      - repository
+      - shared
+      - ssh
+    source: https://raymii.org/s/tutorials/Shared_Git_repository_via_ssh_for_multiple_users.html
+    content: >
+      permission:
+        /etc/group -> gitusers:x:2222:user1,user2,user3,user4
+        n.b. : they need to have an account on the computer (adduser user/useradd user)
+      folder:
+        repo_name=/var/git/repository
+        mkdir -p ${repo_name}
+        chgrp gitusers ${repo_name}
+        chmod g+ws ${repo_name}
+      repository:
+        cd ${repo_name}
+        git init --bare --shared=group
+        git clone git+ssh://user1@gitserver/var/git/repository
+      script:
+        #!/bin/bash
+        # A simple script which makes the above easier. This assuming the group is gitusers and the root path is /var/git/.
+        GITGROUP="gitusers"
+        REPOPATH="/var/git"
+        if [[ -z "$1" ]]; then
+            echo "You must specify a repo name"
+            echo "./$0 repo_name"
+            exit 1
+        fi
+        mkdir "${PATH}/$1"
+        chgrp "${GITGROUP}" "${PATH}/$1"
+        chmod 2775 "${PATH}/$1"
+        pushd "${PATH}/$1"
+        git init --bare --shared=group
+        popd
+        echo "Created repo $1."
+        echo "Clone URL: git+ssh://$(hostname -f)${PATH}/$1"
+  -
+    title: ansible check file
+    tag:
+      - ansible
+      - file
+      - exist
+    source: https://raymii.org/s/tutorials/Ansible_-_Only_if_a_file_exists_or_does_not_exist.html
+    content: >
+      - name: check if rules file exists
+        stat: 
+          path: /etc/shorewall/rules
+        register: shorewall_rules
+      - name: example
+        debug:
+          msg: 'file doesn t exist'
+        when: stat_result.stat.exists == False
+  -
+    title: find all installed package dependencies
+    tag:
+      - bash
+      - apt
+      - apt-get
+      - bebian
+      - ubuntu
+      - dependencies
+    source: https://raymii.org/s/software/Recursively_find_all_installed_package_dependencies.html
+    content: >
+      script:
+        #!/bin/bash
+        # Small script to recursively show dependencies of packages
+        # Author: Remy van Elst <raymii.org>
+
+        pkgdep() {
+          apt-cache depends --installed $1 | awk -F\: '{print $2}' | grep -v -e '<' -e '>' | awk 'NF'
+        }
+
+        for i in $(pkgdep $1); do
+          pkgdep $i
+        done | sort -u
+      use: bash dep.sh build-essential
+  -
+    title: system info
+    tag:
+      - kernel
+      - os
+      - bash
+    content: >
+      ```
+      lsb_release -d: os info
+      echo "$(lsb_release -d | awk -F: '{ print $2 }' | tr -d '\t')"
+      uname -a: Kernel
+      ```
