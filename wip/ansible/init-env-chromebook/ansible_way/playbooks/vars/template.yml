@@ -3,3 +3,5 @@ template:
   gitconfig:
     user: florianccj
     user_mail: florianccj@gmail.com
+  banner:
+    project: chromebook

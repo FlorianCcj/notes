@@ -11,7 +11,7 @@
     name: git
 - name: make gitconfig
   template:
-    src: template/.gitconfig.j2
+    src: templates/.gitconfig.j2
     dest: "/home/{{config.user}}/.gitconfig"
     owner: "{{config.user}}"
     group: "{{config.user}}"
