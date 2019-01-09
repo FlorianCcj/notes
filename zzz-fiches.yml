@@ -168,3 +168,23 @@
       echo "$(lsb_release -d | awk -F: '{ print $2 }' | tr -d '\t')"
       uname -a: Kernel
       ```
+  -
+    title: windows key
+    tag:
+      - power shell
+      - windows
+      - windows10
+      - license
+    content: >
+      windows 10
+      RMB begininf menu -> Windows PowerShell (admin)
+      wmic path softwareLicensingService get OA3xOriginalProductKey
+  - 
+    title: docker-compose multiple instance
+    tag:
+      - multi instance
+      - multiple instance
+      - docker
+      - docker-compose
+    content: >
+      docker-compose up --scale app=5
