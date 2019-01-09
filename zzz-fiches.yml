@@ -187,6 +187,7 @@
       - docker
       - docker-compose
       - volume
+    source: https://github.com/moby/moby/issues/30770
     content: >
       docker-compose up --scale app=5
       ```
