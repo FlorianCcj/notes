@@ -186,5 +186,11 @@
       - multiple instance
       - docker
       - docker-compose
+      - volume
     content: >
       docker-compose up --scale app=5
+      ```
+      volumes:
+        data:
+          name: '{{.Service.Name}}-{{.Task.Slot}}-vol'
+          driver: cloudstor:aws
