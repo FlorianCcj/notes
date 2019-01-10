@@ -195,3 +195,12 @@
         data:
           name: '{{.Service.Name}}-{{.Task.Slot}}-vol'
           driver: cloudstor:aws
+  -
+    title: HD free space
+    tag:
+      - bash
+      - free space
+      - HD
+    content: >
+      echo $(df -B 1G . | awk 'NR == 2 {print $4}')
+      step=1 && if [[ "$(df -B 1G /var/host/media | awk 'NR == 2 {print $4}')" -le "${step}" ]]; then echo "coucou"; fi
