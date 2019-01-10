@@ -204,3 +204,18 @@
     content: >
       echo $(df -B 1G . | awk 'NR == 2 {print $4}')
       step=1 && if [[ "$(df -B 1G /var/host/media | awk 'NR == 2 {print $4}')" -le "${step}" ]]; then echo "coucou"; fi
+  -
+    title: Modifier l’emplacement des données de Docker
+    tag:
+      - docker
+      - config
+      - stockage
+    source: https://dev.pierre-galvez.fr/modifier-lemplacement-des-donnees-de-docker/
+    content:
+      service docker stop
+      mkdir /dockerData
+      
+      vi /etc/default/docker.io
+        DOCKER_OPTS="-g /dockerData"
+      
+      service docker start
