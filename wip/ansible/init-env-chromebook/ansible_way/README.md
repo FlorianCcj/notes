@@ -1,5 +1,9 @@
 ansible-playbook -i hosts.ini playbooks/playbook.yml
 
+need 
+<user> ALL=(ALL:ALL) NOPASSWD: ALL
+
+ansible-galaxy install -r requirements.yml
 
  OK - install-basics.sh - 1 - base
  OK - install-basics.sh - 2 - omz
