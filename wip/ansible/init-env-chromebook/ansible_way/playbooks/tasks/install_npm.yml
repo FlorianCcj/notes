@@ -1,0 +1,19 @@
+---
+- name: install npm
+  apt:
+    name: "npm"
+- name: install n
+  npm:
+    name: n
+    global: yes
+- name: install node
+  command: >
+    n stable
+- name: install plugins
+  npm:
+    name: "{{ item }}"
+    global: yes
+  with_items:
+    - yarn
+    - "@angular/cli"
+

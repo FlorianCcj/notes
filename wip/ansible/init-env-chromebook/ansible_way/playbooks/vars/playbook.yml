@@ -9,6 +9,7 @@ vital_packages:
   - git
   - firefox
   - vlc
+  - vim
 system_packages:
   - tree
   - multitail

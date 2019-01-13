@@ -1,0 +1,21 @@
+---
+- name: Ensure Slack apt key is present
+  become: yes
+  apt_key:
+    url: 'https://packagecloud.io/slacktechnologies/slack/gpgkey'
+    state: present
+
+- name: Ensure Slack apt repo is present
+  become: yes
+  apt_repository:
+    repo: 'deb [arch=amd64] https://packagecloud.io/slacktechnologies/slack/debian/ jessie main'
+    state: present
+    filename: slack
+
+- name: Ensure Slack apt package is present
+  become: yes
+  apt:
+    name:
+      - slack-desktop
+    state: present
+  update_cache: yes

@@ -4,9 +4,22 @@
     name: zsh
     state: latest
 
+- name: install zsh
+  apt:
+    name: curl
+    state: latest
+
 - name: install oh-my-zsh
   become: false
   shell: sh -c "$(curl -fsSL {{ config.oh_my_zsh_url | default('https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh') }})"
+  ignore_errors: True
+
+- name: check z.sh in ~/.bashrc
+  become: false
+  lineinfile:
+    path: ~/.bashrc
+    line: 'zsh'
+    state: present
 
 - name: get z.sh
   become: false
