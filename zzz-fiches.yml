@@ -233,3 +233,11 @@
       SELECT pg_cancel_backend(<pid of the process>)
       If the process cannot be killed, try:
       SELECT pg_terminate_backend(<pid of the process>)
+  -
+    title: no password for sudoers
+    tag:
+      - password
+      - sudoers
+    content: >
+      add in /etc/sudoers
+      florianccj ALL=(ALL:ALL) NOPASSWD: ALL
