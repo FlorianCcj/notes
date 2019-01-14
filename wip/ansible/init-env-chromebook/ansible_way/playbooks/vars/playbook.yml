@@ -10,6 +10,7 @@ vital_packages:
   - firefox
   - vlc
   - vim
+  - exfat-utils
 system_packages:
   - tree
   - multitail

@@ -1,11 +1,5 @@
 ---
 #   ${package} ${package}-fpm ${package}-mysql ${package}-curl ${package}-xml ${package}-mbstring ${package}-zip
-- name: au cas ou
-  debug:
-    msg: "si ca marche pas c est qu il manque apt-get install -y software-properties-common python-software-properties"
-- name: au cas ou
-  debug:
-    msg: "et sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php"
 - name: add php apt-key
   apt_repository:
     repo: ppa:ondrej/php

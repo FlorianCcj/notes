@@ -1,7 +1,4 @@
 ---
-- name: au cas ou
-  debug:
-    msg: "si ca marche pas c est qu il manque apt-get install -y software-properties-common python-software-properties"
 - name: add git apt-key
   apt_repository:
     repo: ppa:nginx/stable

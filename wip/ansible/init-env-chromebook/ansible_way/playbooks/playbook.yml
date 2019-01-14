@@ -26,4 +26,6 @@
       include_vars: vars/vars-install_discord.yml
     - import_tasks: tasks/install_discord.yml
     - import_tasks: tasks/install_slack.yml
-
+    - name: Include ansible_non_root_user.yml vars
+      include_vars: vars/vars-ansible_non_root_user.yml
+    - import_tasks: tasks/non_root_docker_user.yml

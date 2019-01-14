@@ -233,3 +233,54 @@
       SELECT pg_cancel_backend(<pid of the process>)
       If the process cannot be killed, try:
       SELECT pg_terminate_backend(<pid of the process>)
+  - 
+    title: ansible loop on block of task
+    tag:
+      - ansible
+      - loop
+      - group of task
+      - include
+    content: >
+      ```
+      #playbook.yml
+      - hosts: servergroup
+        tasks:
+          - include: include.yml
+            with_items: "{{ groups['servergroup'] }}"
+            loop_control:
+              loop_var: servername
+      ```
+
+      ```
+      # include.yml
+      ---
+      - name: include | task 1
+        debug:
+          msg: "server={{ servername }}, debug task 1"
+        delegate_to: '{{ servername }}'
+        run_once: true
+
+      - name: include | task 2
+        debug:
+          msg: "server={{ servername }}, debug task 2"
+        delegate_to: '{{ servername }}'
+        run_once: true
+      ```
+
+      ```
+      # playbook.yml
+      ---
+      - include: "include/hosts.yml server={{servername}}"
+        with_items: "{{ groups['groupname'] }}"
+        loop_control:
+          loop_var: servername
+      ```
+
+      ```
+      # include.yml
+      ---
+      - debug:
+            msg: "server={{ server }}, debug task 1"
+      - debug:
+            msg: "server={{ server }}, debug task 2"
+      ```
