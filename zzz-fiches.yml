@@ -284,3 +284,11 @@
       - debug:
             msg: "server={{ server }}, debug task 2"
       ```
+  -
+    title: no password for sudoers
+    tag:
+      - password
+      - sudoers
+    content: >
+      add in /etc/sudoers
+      florianccj ALL=(ALL:ALL) NOPASSWD: ALL
