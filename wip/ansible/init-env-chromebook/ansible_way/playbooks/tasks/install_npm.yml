@@ -9,7 +9,7 @@
 - name: install node
   command: >
     n stable
-- name: install plugins
+- name: install node plugins
   npm:
     name: "{{ item }}"
     global: yes

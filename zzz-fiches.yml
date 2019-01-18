@@ -292,3 +292,50 @@
     content: >
       add in /etc/sudoers
       florianccj ALL=(ALL:ALL) NOPASSWD: ALL
+  -
+    title: python and virtualenv
+    source: https://docs.python-guide.org/dev/virtualenvs/
+    tag:
+      - python
+      - virtualenv
+      - pyenv
+    content: >
+      python --version
+      pip --version
+
+      ### pip env ###
+      pip install --user pipenv
+      cd myproject
+      pipenv install requests
+
+      ```
+      # main.py
+      import requests
+      response = requests.get('https://httpbin.org/ip')
+      print('Your IP is {0}'.format(response.json()['origin']))
+      ```
+
+      pipenv run python main.py
+
+      ### lower level: virtualenv ###
+
+      pip install virtualenv
+      virtualenv --version
+      cd my_project_folder
+      virtualenv venv
+      echo 'venv' >> .gitignore
+      # choose your interpreter
+      virtualenv -p /usr/bin/python2.7 venv
+      # or export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
+      source venv/bin/activate
+      pip install requests
+      deactivate
+  - 
+    title: pypi requirement
+    source: https://docs.python-guide.org/dev/virtualenvs/
+    tag:
+     - pip
+     - requirement
+    content: >
+      pip freeze > requirements.txt
+      pip install -r requirements.txt

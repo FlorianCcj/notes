@@ -13,6 +13,7 @@
     - import_tasks: tasks/install_zsh_plugin.yml
     - import_tasks: tasks/install_git.yml
 #    #- import_tasks: tasks/banner.yml
+    - import_tasks: tasks/install_python.yml
     - name: Include php vars
       include_vars: vars/vars-install_php.yml
     - import_tasks: tasks/install_php.yml
