@@ -1,0 +1,70 @@
+statue:
+  Zephyrdite:
+    but:
+      + +0 -> +20% search
+      - +3 -> +15% lancier
+    place: 1-1
+  Druidomus:
+    but:
+      - +5 -> +5% house
+      - +7 -> +15% archer
+    place: 1-2
+  Floras:
+    but:
+      + +0 -> +15% pretresse
+    place: 1-3
+  Kaliope:
+    but:
+      + +3 -> +20% search 
+    place: 2-1
+  Banocles:
+    but:
+      - +5 -> +30% search
+    place: 2-2
+  Kaliades:
+    but:
+      - nope
+    place: 2-3
+  Razial:
+    place: 3-1
+    but:
+      - none
+  Ilios:
+    place: 3-2
+    but:
+      - none
+  Zephyrdite:
+    place: 3-3
+    but:
+      - none
+  Zephyrdite:
+    place: 4-1
+    but:
+      - +5 -> +200 bronze
+  to-up:
+    lvl:          have/need    | 2-1 | 1-2 | 2-2 | 4-1 | osef | 1-1 | 1-3 | 2-3 | 3-1 | 3-2 | 3-3 |
+    lvl-to-have:               |   3 |   5 |   5 |   5 | ---- |   x |   x |   x |   x |   x |   x |
+    losange bleu:              |   3 |   x |   3 |  2+ | ---- |   2 |   2 |   2 |   2 |   2 |   x |
+    losange jaune:             |   3 |   3 |   2 |   2 | ---- |   x |   2 |   2 |   x |   0 |   x |
+    losange marron:            |   3 |   4 |   x |   2 | ---- |   3 |   2 |   2 |   2 |   0 |   x |
+    losange vert:              |   3 |   x |   2 |  3+ | ---- |   2 |   2 |   2 |   2 |   1 |   x |
+    bouclier bleu:             |   x |   3 |   x |   2 | ---- |   2 |   2 |   2 |   2 |   0 |   x |
+    coeur rouge:               |   3 |   3 |   2 |   2 | ---- |   x |   2 |   2 |   x |   0 |   x |
+    carre vert:                |   x |   x |   x |   3 | ---- |   x |   x |   x |   2 |   x |   x |
+    triangle bleu:             |   x |   x |   x |   3 | ---- |   x |   x |   x |   2 |   x |   x |
+
+  passage:
+    X-1:
+      xx -> 00: 0010
+      00 -> 01: 0020
+      01 -> 02: 0050
+      02 -> 03: 0160
+      03 -> 04: 0410
+      04 -> 05: 1050
+    X-Y:
+      xx -> 00: 0010
+      xx -> 01: 0030
+      xx -> 02: 0080
+      xx -> 03: 0240
+      xx -> 04: 0650
+      xx -> 05: 1700

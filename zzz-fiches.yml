@@ -348,3 +348,11 @@
     content: >
       pip install jupyter
       jupyter notebook
+  - 
+    title: raise error in python
+    tags:
+      - python
+      - error
+      - raise
+    content: >
+      raise NameError("T as de la merde mon grand tu as un output pas clean")
