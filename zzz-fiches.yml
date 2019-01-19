@@ -339,3 +339,12 @@
     content: >
       pip freeze > requirements.txt
       pip install -r requirements.txt
+  - 
+    title: python notebook
+    tags:
+      - pip
+      - python
+      - notebook
+    content: >
+      pip install jupyter
+      jupyter notebook

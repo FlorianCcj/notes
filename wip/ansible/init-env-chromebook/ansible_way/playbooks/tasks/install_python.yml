@@ -21,4 +21,5 @@
   pip:
     name:
       - pipenv
+      - jupyter
     executable: pip3
