@@ -364,15 +364,20 @@
       - autolaunch
     source:
       - https://www.viget.com/articles/two-ways-to-share-git-hooks-with-your-team/
+      - https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook
     content: >
       # look in repo if there is a directory for hook
       git config core.hooksPath hooks
-      echo "Running pre-commit hook" > /path/to/my/repo/hook/pre-commit
+      echo "Running pre-commit hook" > /path/to/my/repo/hooks/pre-commit
 
-      # global
-      git config --global init.templatedir '~/.git-templates'
-      mkdir -p ~/.git-templates/hooks
-      echo "Running pre-commit hook" > ~/.git-templates/hooks/pre-commit
-      chmod a+x ~/.git-templates/hooks/pre-commit
-
-
+      git config --global core.hooksPath /path/to/my/centralized/hooks
+      echo "Running pre-commit hook" > /path/to/my/centralized/hooks/pre-commit
+  - 
+    title: git filemode
+    tag:
+      - git
+      - right
+      - filemode
+    content: >
+      git config core.fileMode false
+      git config --global core.fileMode false
