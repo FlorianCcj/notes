@@ -356,3 +356,23 @@
       - raise
     content: >
       raise NameError("T as de la merde mon grand tu as un output pas clean")
+  -
+    title: auto launch commit hook
+    tag:
+      - git
+      - hook
+      - autolaunch
+    source:
+      - https://www.viget.com/articles/two-ways-to-share-git-hooks-with-your-team/
+    content: >
+      # look in repo if there is a directory for hook
+      git config core.hooksPath hooks
+      echo "Running pre-commit hook" > /path/to/my/repo/hook/pre-commit
+
+      # global
+      git config --global init.templatedir '~/.git-templates'
+      mkdir -p ~/.git-templates/hooks
+      echo "Running pre-commit hook" > ~/.git-templates/hooks/pre-commit
+      chmod a+x ~/.git-templates/hooks/pre-commit
+
+
