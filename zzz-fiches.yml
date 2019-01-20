@@ -382,3 +382,82 @@
     content: >
       git config core.fileMode false
       git config --global core.fileMode false
+  -
+    title: docker-bench-security for user
+    source: 
+      - https://github.com/docker/docker-bench-security
+    tags:
+      - docker
+      - bench
+      - security
+    content: >
+      #aborted_check="" \
+      #    && base="check_1." && for i in {1..12}; do aborted_check+="${base}${i},";done \
+      #    && aborted_check+="${base}13," \
+      #    && base="check_2." && for i in {1..17}; do aborted_check+="${base}${i},";done \
+      #    && aborted_check+="${base}18," \
+      #    && base="check_3." && for i in {1..19}; do aborted_check+="${base}${i},";done \
+      #    && aborted_check+="${base}20," \
+      #    && base="check_7." && for i in {1..9}; do aborted_check+="${base}${i},";done \
+      #    && aborted_check+="${base}10"
+      aborted_check="" \
+          && base="check_" && for major in 1 2 3 7; do \
+          for minor in {1..20}; do aborted_check+="${base}${major}.${minor},";done; \
+          done \
+          && aborted_check+="whatever"
+      docker run -it --net host --pid host --userns host --cap-add audit_control \
+          -e DOCKER_CONTENT_TRUST=$DOCKER_CONTENT_TRUST \
+          -v /var/lib:/var/lib \
+          -v /var/run/docker.sock:/var/run/docker.sock \
+          -v /usr/lib/systemd:/usr/lib/systemd \
+          -v /etc:/etc --label docker_bench_security \
+          docker/docker-bench-security \
+          -e ${aborted_check} \
+          -t <my docker>
+  - 
+    title: bash loop
+    source:
+      - https://www.cyberciti.biz/faq/bash-for-loop/
+    tags:
+      - bash
+      - loop
+      - for
+      - infinite
+    content: >
+      #!/bin/bash
+      for i in 1 2 3 4 5
+      do
+        echo "Welcome $i times"
+      done
+
+      for i in {1..5}
+      do
+        echo "Welcome $i times"
+      done
+
+      echo "Bash version ${BASH_VERSION}..."
+      for i in {0..10..2}
+        do 
+          echo "Welcome $i times"
+      done
+
+      for (( ; ; ))
+      do
+        echo "infinite loops [ hit CTRL+C to stop]"
+      done
+  -
+    title: bash-concat string
+    source:
+      -
+    tags:
+      - string
+      - bash
+      - concat
+    content: >
+      a='hello'
+      b='world'
+      c="$a$b"
+
+      $ A="X Y"
+      $ A+="Z"
+    
