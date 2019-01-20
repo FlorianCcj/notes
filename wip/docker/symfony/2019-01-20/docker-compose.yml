@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  src:
+    build:
+      context: ./app/blog
+      dockerfile: Dockerfile-src
+    volumes:
+      - "code:/my-project/config"
+        #- type: volume
+        #source: code
+        #target: /my-project
+  php-fpm:
+    image: php:7.2-fpm-alpine
+    volumes:
+            - "code:/var/www/html/my-project"
+        #- type: volume
+        #source: code
+        #target: /var/www/html/my-project
+    depends_on:
+      - src
+  front:
+    image: nginx
+volumes:
+  code:
+  static:

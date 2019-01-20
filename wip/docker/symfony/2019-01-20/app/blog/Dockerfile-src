@@ -1,0 +1,13 @@
+FROM alpine:3.8
+
+MAINTAINER "osef"
+LABEL version="0-alpha"
+LABEL description="coinc I put source just here"
+
+WORKDIR /my_project
+
+ADD ./ ./
+
+CMD tail -f /dev/null
+
+# VOLUME .
