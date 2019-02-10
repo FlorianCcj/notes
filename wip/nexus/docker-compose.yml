@@ -1,0 +1,20 @@
+version: '3.2'
+services:
+  nginx:
+    image: securefab/nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./config/nginx/conf.d:/etc/nginx/conf.d:ro
+#      - ./config/nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - nexus
+    links:
+      - nexus:nexus
+    restart: always
+  nexus:
+    image: sonatype/nexus3
+    volumes:
+      - ./data/opt/nxrm/data:/nexus-data
+    expose:
+      - 8081
