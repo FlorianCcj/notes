@@ -1,0 +1,17 @@
+docker:
+  - https://phpdocker.io/
+glpi: inventaire SI
+monitoring:
+  - telegraf: metric
+  - influxdata: transport metric
+  - prometeus: agregate metric
+  - grafana: plot metric
+  - elastic search: show log
+  - kibana: plot log
+cicd:
+  - gitlab
+  - jenkins
+  - travis
+  - note: >
+    in-house → Jenkins or gitlab-ci
+    Github.com → Travis-CI
