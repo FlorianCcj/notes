@@ -1,0 +1,291 @@
+sum_up:
+  arme:
+    max: 14
+    craft:
+      max: 12
+  baton:
+    max: 12
+    craft:
+      max: 12
+      to_craft:
+        value: 2
+        for:
+          - avril +10
+          - gan +8
+          - gazul +9
+          - vallari +9
+          - vega +6
+          - wraxius +8
+          - yip +6
+  
+  arc:
+    max: 9
+    craft:
+      max: 6
+  banniere:
+    max: 14
+    craft :
+      max: 12
+  bouclier:
+    craft:
+      max: 6
+  livre:
+    max: 9
+    craft:
+      sage: 8
+      to_craft:
+        value: 1
+        for:
+          - gan +2
+  
+  armure:
+    max: 10
+    craft:
+      general: 8
+      gladiateur: 4
+      maitre meca: 7
+      paladin: 8
+      voleur: 5
+  cape:
+    max: 7
+    mage: 7
+    craft:
+      mage: 7
+      necro: 0
+      to_craft:
+        for:
+          - wraxeus +2
+  casque:
+    max: 13
+    craft:
+      general: 12
+      gladiateur: 5
+      maitre meca: 5
+      mage: 7
+      necro: 8
+      paladin: 4
+      sage: 10
+      voleur: 0
+      to_craft:
+        value: 2
+        for:
+          - gan +6
+          - gazul +4
+          - rufio +3
+          - elena +3
+  robe:
+    max: 1
+    craft: 
+      mage: 0
+      necro: 0
+      sage: 0
+
+  
+  babiole:
+    max: 25
+    craft:
+      max: 10
+      to_craft:
+        value: 9
+        for:
+          - avalon +6
+          - avril*2 +5 +6
+          - baelrog +5
+          - bane +5
+          - denji +5
+          - elena +8
+          - fenris +5
+          - gan*2 +8 +8
+          - gazul +8
+          - grimms +6
+          - mako*2 +6 +3
+          - rufio*2 +6 +7
+          - sprig +8
+          - vallari*2 +6 +6
+          - vega +6
+          - virion*2 +6 +7
+          - wraxius +8
+          - yip*2 +6 +6
+
+unit: 
+  A-F:
+    Avalon:
+      type: general
+      stuff:
+        arme: 12
+        banniere: 12
+        casque: 13
+        armure: 8
+        babiole1: 15
+        babiole2: 4
+    Avril:
+      type: mage
+      stuff:
+        baton: 2
+        cape: 7
+        casque: 7
+        robe: 1
+        babiole1: 5
+        babiole2: 4
+    Baelrog:
+      type: gladiateur
+      stuff:
+        arme1: 12
+        arme2: 14
+        casque: 5
+        armure: 6
+        babiole1: 5
+        babiole2: 11
+    Bane:
+      type: gladiateur
+      stuff:
+        arme1: 13
+        arme2: 13
+        casque: 5
+        armure: 6
+        babiole1: 5
+        babiole2: 10
+    Cleo: ~
+    Denji:
+      type: gladiateur
+      stuff:
+        arme1: 13
+        arme2: 13
+        casque: 5
+        armure: 6
+        babiole1: 12
+        babiole2: 5
+    Elena:
+      type: general
+      stuff:
+        arme: 5
+        banniere: 12
+        casque: 9
+        armure: 6
+        babiole1: 2
+        babiole2: 4
+    Fenris:
+      type: voleur
+      stuff:
+        arme: 13
+        arc: 9
+        casque: 8
+        armure: 6
+        babiole1: 12
+        babiole2: 5
+  G-L:
+    Gan:
+      type: sage
+      stuff:
+        baton: 4
+        livre: 6
+        casque: 4
+        robe: 0
+        babiole1: 2
+        babiole2: 2
+    Gafgar: ~
+    Gazul:
+      type: necro
+      stuff:
+        baton: 3
+        cape: 2
+        casque: 4
+        robe: 1
+        livre: 2
+        babiole: 2
+    Grimms:
+      type: general
+      stuff:
+        arme: 12
+        banniere: 14
+        casque: 12
+        armure: 8
+        babiole1: 4
+        babiole2: 15
+    Jacques: ~
+  M-R:
+    Mako:
+      type: voleur
+      stuff:
+        arme: 12
+        arc: 6
+        casque: 8
+        armure: 6
+        babiole1: 4
+        babiole2: 7
+    Nora: ~
+    Rose:
+      type: sage
+      stuff:
+        baton: 12
+        livre: 9
+        casque: 10
+        robe: 0
+        babiole1: 25
+        babiole2: 11
+    Rufio:
+      type: gladiateur
+      stuff:
+        arme1: 12
+        arme2: 12
+        casque: 2
+        armure: 6
+        babiole1: 4
+        babiole2: 3
+  S-X:
+    Sprig:
+      type: voleur
+      stuff:
+        arme: 15
+        arc: 6
+        casque: 8
+        armure: 6
+        babiole1: 2
+        babiole2: 11
+    Tiadrin: ~
+    Vallari:
+      type: mage
+      stuff:
+        baton: 3
+        cape: 7
+        casque: 7
+        robe: 0
+        babiole1: 4
+        babiole2: 4
+    Vega:
+      type: sage
+      stuff:
+        baton: 6
+        livre: 8
+        casque: 11
+        robe: 0
+        babiole1: 4
+        babiole2: 10
+    Virion:
+      type: paladin
+      stuff:
+        arme: 12
+        bouclier: 7
+        casque: 8
+        armure: 10
+        babiole1: 4
+        babiole2: 3
+    Wraxius:
+      type: mage
+      stuff:
+        baton: 4
+        cape: 5
+        casque: 8
+        robe: 0
+        babiole1: 2
+        babiole2: 10
+  Y-Z:
+    Yip:
+      type: sage
+      stuff:
+        baton: 6
+        livre: 8
+        casque: 11
+        robe: 1
+        babiole1: 4
+        babiole2: 4

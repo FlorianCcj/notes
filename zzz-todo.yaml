@@ -1,8 +1,14 @@
 todo:
+  - achat:
+    - Pinces coupantes Sandvik Lindström
   - moment_priority:
-    - arti (job)
-    - recupe arti -> untar -> list index.html
+    - voiture
+    + emprun
+    - nexus
+    - RFC read
+    - RFC get style
     - project -> stuff-optimisation
+    - https://www.youtube.com/watch?v=Mu3Ohe4xcQo
   - saga_mp3:
     donjon de naheulbeuk
     reflet d'acide
@@ -27,6 +33,7 @@ todo:
     - design:
       - https://purecss.io/
       - https://uxdesign.cc/design-better-forms-96fadca0f49c
+      - https://cantunsee.space/
     - dev:
       - docker:
         - faire une doc pour docker symfony
@@ -44,8 +51,13 @@ todo:
         - https://www.youtube.com/watch?v=4sNdq6fjZFQ
       - gitlab:
         - https://docs.gitlab.com/ee/README.html#new-to-git-and-gitlab
+        - https://www.synbioz.com/blog/installer_gitlab_ce_ci
+        - https://docs.gitlab.com/omnibus/
+        - manual install : https://docs.gitlab.com/ee/install/installation.html
+        - https://docs.gitlab.com/ee/administration/gitaly/
       - ha-cluster:
         - https://raymii.org/s/articles/Building_HA_Clusters_With_Ansible_and_Openstack.html
+        - http://www.haproxy.org/
       - k8s:
         - https://www.manning.com/books/exploring-kubernetes
       - ceph:
@@ -54,6 +66,11 @@ todo:
         - https://raymii.org/s/software/Bash_PHP_Server_Status_Monitor.html
         - https://raymii.org/s/software/Python-script-to-monitor-a-file-for-changes-and-then-mail-the-report-with-the-file-attached.html
         - https://raymii.org/s/software/Python_script_to_talk_to_LibreNMS_API_and_get_alerts_and_hosts.html
+        - elastik search (https://www.codementor.io/samueljames/using-docker-with-elasticsearch-logstash-and-kibana-elk-dzucc3c94)
+        - kibana
+        - prometheus
+        - grafana
+        - gitlab custom
   - practice:
     - cuisine: 
       - florentin de christofphe felder (attention pas assez de chocolat)

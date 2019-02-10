@@ -400,8 +400,9 @@
       #    && aborted_check+="${base}20," \
       #    && base="check_7." && for i in {1..9}; do aborted_check+="${base}${i},";done \
       #    && aborted_check+="${base}10"
+      major_to_ignore=(1 2 3 7)
       aborted_check="" \
-          && base="check_" && for major in 1 2 3 7; do \
+          && base="check_" && for major in ${major_to_ignore[*]}; do \
           for minor in {1..20}; do aborted_check+="${base}${major}.${minor},";done; \
           done \
           && aborted_check+="whatever"
@@ -447,8 +448,6 @@
       done
   -
     title: bash-concat string
-    source:
-      -
     tags:
       - string
       - bash
@@ -460,4 +459,21 @@
 
       $ A="X Y"
       $ A+="Z"
-    
+  -
+    title: linux-bash password
+    tags:
+      - linux
+      - password
+    content: >
+      passwd
+  -
+    title: docker memory and cpu limit
+    tags:
+      - docker
+      - memory limit
+      - cpu limit
+      - memory
+      - cpu
+      - security
+    content: >
+      docker run --memory="1000M" --cpus="1"
