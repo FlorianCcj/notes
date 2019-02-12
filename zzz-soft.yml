@@ -1,6 +1,8 @@
 docker:
   - https://phpdocker.io/
 glpi: inventaire SI
+code:
+  - https://dev.to/vip3rousmango/vs-code-extensions-youll-actually-use-46gp?utm_source=Newsletter+Subscribers&utm_campaign=4a43dfb659-EMAIL_CAMPAIGN_2019_02_11_02_11&utm_medium=email&utm_term=0_d8f11d5d1e-4a43dfb659-154848417
 monitoring:
   - telegraf: metric
   - influxdata: transport metric

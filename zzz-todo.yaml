@@ -4,7 +4,6 @@ todo:
   - moment_priority:
     - voiture
     + emprun
-    - nexus
     - RFC read
     - RFC get style
     - project -> stuff-optimisation
@@ -179,8 +178,6 @@ todo:
         - faire des stats
         - permettre exclure des questions les prochaines fois
         - permetttre de remettre les questions exclu
-    - chromebook-ansible:
-      -install auto
 
 
 

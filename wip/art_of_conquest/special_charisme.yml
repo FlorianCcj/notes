@@ -2,7 +2,7 @@ sum_up:
   arme:
     max: 14
     craft:
-      max: 12
+      max: 15
   baton:
     max: 12
     craft:
