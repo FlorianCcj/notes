@@ -1,0 +1,138 @@
+notes:
+  check_install:
+    - nginx -v
+    - ps -ef | grep nginx
+  command:
+    - nginx -V: all build info
+    - nginx -t: test config
+    - nginx -T: chown validate conf
+    - nginx -s signal: signal can be stop, quit, reload, reopen
+  fonction:
+    serving static file
+    2 - High performance Load Balancing:
+      http load balancing
+      tcp load balancing
+      udp load balancing
+      load balancing method:
+        - round-robin
+        - least connection
+        - least time (nginx+)
+        - generic hash
+        - random
+        - IP hash
+      Sticky Cookie (nginx+)
+      Sticky Learn (nginx+)
+      Sticky Routing (nginx+)
+      Connection draining (nginx+)
+      Passive health checks
+      Active health check (nginx+)
+      slow start
+      TCP health check
+    3 - Traffic management:
+      A/B Testing
+      Geop IP module
+      Restricting access based on Country
+      Finding thr Original Client
+      Limiting connection
+      Limiting Rate
+      Limiting Bandwidth
+    4 - Massively Scalable Content Caching:
+      Caching zones
+      Caching hash key
+      Caching bypass
+      Cache perf
+      Purging (nginx+)
+      cache slicing
+    5 - Programmability and Automation:
+      Nginx Plus API (nginx+)
+      Key Value Store (nginx+)
+      Install with Puppet
+      Install with Chef
+      Install with Ansible
+      Install with SaltStack
+      Automating Configuration with Consul Templating
+    6 - Authentication:
+      http authentication
+      authent subrequest
+      validating JWT (nginx+)
+      creating JSON Web Keys (nginx+)
+      Authenticate Users via existing OpenID Connect SSO (nginx+)
+      Obtaining the JSON Web Key from Google (nginx+)
+    7. Security Controls:
+      7.0 Introduction
+      7.1 Access Based on IP Address
+      7.2 Allowing Cross-Origin Resource Sharing
+      7.3 Client-Side Encryption
+      7.4 Upstream Encryption
+      7.5 Securing a Location
+      7.6 Generating a Secure Link with a Secret
+      7.7 Securing a Location with an Expire Date
+      7.8 Generating an Expiring Link
+      7.9 HTTPS Redirects
+      7.10 Redirecting to HTTPS where SSL/TLS Is Terminated
+      7.11 HTTP Strict Transport Security
+      7.12 Satisfying Any Number of Security Methods
+      7.13 Dynamic DDoS Mitigation (nginx+)
+    8. HTTP/2:
+      8.0 Introduction
+      8.1 Basic Configuration
+      8.2 gRPC
+      8.3 HTTP/2 Server Push
+    9. Sophisticated Media Streaming:
+      9.0 Introduction
+      9.1 Serving MP4 and FLV
+      9.2 Streaming with HLS (nginx+)
+      9.3 Streaming with HDS (nginx+)
+      9.4 Bandwidth Limits (nginx+)
+    10. Cloud Deployments:
+      10.0 Introduction
+      10.1 Auto-Provisioning on AWS
+      10.2 Routing to NGINX Nodes Without an AWS ELB
+      10.3 The NLB Sandwich
+      10.4 Deploying from the AWS Marketplace (nginx+)
+      10.5 Creating an NGINX Virtual Machine Image on Azure
+      10.6 Load Balancing Over NGINX Scale Sets on Azure
+      10.7 Deploying Through the Azure Marketplace (nginx+)
+      10.8 Deploying to Google Compute Engine
+      10.9 Creating a Google Compute Image
+      10.10 Creating a Google App Engine Proxy
+    11. Containers/Microservices:
+      11.0 Introduction
+      11.1 DNS SRV Records (nginx+)
+      11.2 Using the Official NGINX Image
+      11.3 Creating an NGINX Dockerfile
+      11.4 Building an NGINX Plus Image (nginx+)
+      11.5 Using Environment Variables in NGINX
+      11.6 Kubernetes Ingress Controller
+      11.7 OpenShift Router
+    12. High-Availability Deployment Modes:
+      12.0 Introduction
+      12.1 NGINX HA Mode
+      12.2 Load-Balancing Load Balancers with DNS
+      12.3 Load Balancing on EC2 (nginx+?)
+      12.4 Configuration Synchronization (nginx+?)
+      12.5 State Sharing with Zone Sync (nginx+)
+    13. Advanced Activity Monitoring:
+      13.0 Introduction
+      13.1 Enable NGINX Open Source Stub Status
+      13.2 Enabling the NGINX Plus Monitoring Dashboard (nginx+)
+      13.3 Collecting Metrics Using the NGINX Plus API (nginx+)
+    14. Debugging and Troubleshooting with Access Logs, Error Logs, and Request Tracing:
+      14.0 Introduction
+      14.1 Configuring Access Logs
+      14.2 Configuring Error Logs
+      14.3 Forwarding to Syslog
+      14.4 Request Tracing
+    15. Performance Tuning:
+      15.0 Introduction
+      15.1 Automating Tests with Load Drivers
+      15.2 Keeping Connections Open to Clients
+      15.3 Keeping Connections Open Upstream
+      15.4 Buffering Responses
+      15.5 Buffering Access Logs
+      15.6 OS Tuning
+    16. Practical Ops Tips and Conclusion:
+      16.0 Introduction
+      16.1 Using Includes for Clean Configs
+      16.2 Debugging Configs
+      16.3 Conclusion
