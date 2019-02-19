@@ -1,10 +1,19 @@
 safe:
-  gold-spearmen: 116
-  gold-bowmen: 78
-  gold-heal: 20
+  gold-spearmen: 116 +48(pret) +12(last search)
+  gold-bowmen: 78+26 +48(pret) +12 (last search) 
+  gold-heal: 20+20 +16(pret) +8 (last search)
   silver-spearmen: 250
   silver-bowmen: 250
   silver-heal: 80
   brown-spearmen: 200
   brown-bowmen: 200
   brown-heal: 100
+
+  116+48 + 12+78 + 26+48 + 12+20 + 20+16+8 
+  164+90 + 74+32+44
+  255+150
+  405
+  405*15 = 6075
+  405*14 = 5670 
+  405*13 = 5265
+  405*12 = 4860

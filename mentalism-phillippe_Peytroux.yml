@@ -1,0 +1,96 @@
+mentalism:
+  by: philippe peytroux
+  lessons:
+    tendance:
+      - introverti (I) vs extraverti (E)
+      - sensitif (observateur) (S) vs intuitif (N)
+      - penseur (T) vs sentimental (F)
+      - juge (J) vs perceptif (P)
+    axe de yung:
+      - comment les individus prennent leur energie
+      - comment les individus font leurs observations
+      - comment les individus prennent leurs decisions
+      - comment se comportent les individus dans leur environnement (add by Katharine Cook Briggs and Isabel Briggs Myers)  
+    MBTI: >
+      test determinant les 16 types de personalite
+      - ISTJ: le logicien
+      - ISTP: le virtuose
+      - ISFJ: le defenseur
+      - ISFP: l aventurier
+      - INTJ: l architecte
+      - INTP: le logicien
+      - INFJ: l avocat
+      - INFP: le mediateur
+      - ESTJ: le directeur
+      - ESTP: l entrepreneur
+      - ESFJ: le consul
+      - ESFP: l amuseur
+      - ENTJ: le comandant
+      - ENTP: l innovateur
+      - ENFJ: le protagoniste
+      - ENFP: l inspirateur
+    test: https://www.16personalities.com/fr/test-de-personnalite
+  mental_tip:
+    - day9: comment trouver la motivation
+    - day8: Comment faire du cold reading (profiling) grâce à internet
+    - day8: Comment faire du cold reading grâce à un site internet
+      content: >
+
+    - day7: Petite astuce pour avoir plus d'humour
+      content: >
+        prendre un detail de ta vie, l exagerer et rester serieux
+    - day6: comment capter l attention
+      content: >
+        l effet zaguernique
+        faire un teasing "attend 2 secondes il faut que je te parle de quelques chose apres"
+        comme un serveur vous oublie juste apres vous avoir servi
+    - day5: les micro expression
+      content: >
+        universelle:
+          - joie
+          - mepris
+          - colere
+          - tristesse
+          - degout
+          - peur
+          - surprise
+    - day4: vaincre ses phobies sociales
+      content: ~
+    - day3: Comment apprendre de manière créative
+      content: >
+        la taxonomie de bloom
+        - reconnaitre
+        - comprendre
+        - appliquer
+        - analyser
+        - evaluer
+        - creer
+    - day2: ne pas être impressionné par quelqu'un
+      how: imagine la personne au toilette
+    - day1: changer son comportement grace a ses pensees
+      how: pensee en pensant a l avenir
+      why: nos pensee notre comportement son generee grace a notre passe, creer des pensee pour son avenir aura toujours un meilleur impact
+  youtube:
+    - title: Comment faire avouer quelqu’un - 5 manières de devenir une machine à confession
+      source: https://www.youtube.com/watch?v=UJhOI0mscUI
+      content: >
+        - technique1 : confidence pour confidence
+          what: donner une confidence, pour creer un lien etle faire se confesser
+          exemple:
+            - c est quand meme fou tout ces couples, qui se trompe, moi je sais que personnelement il y a quelques annees, bon c est vrai qu en soiree j ai embrasse une fille que je connaissais pas, je pourrais tout a fait comprendre, que michel a trompe monique, ca me poserais aucun probleme
+        - technique2: la presomption
+          what: avec certaine tournure de phrase on peut faire en sorte que quelqu un qvoue
+          example:
+            - quels soucis il y a eu avec cet appareil ?
+            - il n y a jamais eu de soucis avec cet apareil n est ce pas ?
+        - technique3: minimiser l importance
+          what: ne pas agraver la situation dedramatiser a une echelle plus grande
+          example:
+            - c est pas bien grave y a plein de gens qui font des coneries comme ca, en plus ca y a que quelques egratignure c est pas trop grave d autant que toi t etait pas completement saoul, j ai mon pote michel la derniere fois il a fonce dans un mur, il avait un gramme huit dans le sang
+        - technique4: version pire
+          what: ~
+          example: putain je sais que tu avais besoin de 20 ou 30 euros mais la c est abuse tu m as quand meme piquer 100 euros donc un moment donne soit honete et rend les moi (sachant qu il a prit 20 euros)
+        - technique5: minimiser + version pire
+          what: ~
+          example:
+            - tu mas prit de l argent et tu m as prit ma carte de credit, serieux pour le liquide je m en fou mais le fait que tu me pique ma carte de credit serieux c est abuse quoi

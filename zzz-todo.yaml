@@ -1,13 +1,48 @@
 todo:
+  - 000_list_sum_up:
+    - couture: ~
+    - cuisine:
+      - coockie
+      - florentin
+    - dessin: ~
+    - manga:
+      - MxZero
+    - mentalism: ~
+    - music:
+      - flute
+      - piano
+    - project:
+      - stuff-opti
+      - stack:
+        - gitlab
+        - ci
+        - nexus
+        - telegraph
+        - kinana
+        - fluentd/fluentbit
+        - elastic search
+        - kibana
+    - read_and_sum_up:
+      - RFC
+      - journaux
+    - video:
+      - series:
+        - flander_s_company
+        - noob
+      - anime:
+        - no game no life
+        - one piece
+        - naruto
+        - sword art online
+        - shokugeki no souma
   - achat:
     - Pinces coupantes Sandvik Lindström
+    - https://geekon.nyc/the-ultimate-boardgame-backpack/
   - moment_priority:
-    - voiture
     + emprun
     - RFC read
     - RFC get style
     - project -> stuff-optimisation
-    - https://www.youtube.com/watch?v=Mu3Ohe4xcQo
   - saga_mp3:
     donjon de naheulbeuk
     reflet d'acide

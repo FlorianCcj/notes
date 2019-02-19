@@ -3,10 +3,14 @@ sum_up:
     max: 14
     craft:
       max: 15
+      name: lame elfe benie
+      cost: 8000
   baton:
     max: 12
     craft:
       max: 12
+      name: sceptre galactique
+      cost: 8000
       to_craft:
         value: 2
         for:
@@ -26,11 +30,14 @@ sum_up:
     max: 14
     craft :
       max: 12
+      cost: 3750
   bouclier:
     craft:
       max: 6
+      cost: 3750
   livre:
     max: 9
+    cost: 3750
     craft:
       sage: 8
       to_craft:
@@ -40,6 +47,7 @@ sum_up:
   
   armure:
     max: 10
+    cost: 3750
     craft:
       general: 8
       gladiateur: 4
@@ -51,12 +59,14 @@ sum_up:
     mage: 7
     craft:
       mage: 7
+      cost: 3750
       necro: 0
       to_craft:
         for:
           - wraxeus +2
   casque:
     max: 13
+    cost: 3750
     craft:
       general: 12
       gladiateur: 5
@@ -83,6 +93,7 @@ sum_up:
   
   babiole:
     max: 25
+    cost: 4000
     craft:
       max: 10
       to_craft:
@@ -112,108 +123,132 @@ unit:
     Avalon:
       type: general
       stuff:
-        arme: 12
-        banniere: 12
+        arme: 12 (+3)
+        banniere: 13
         casque: 13
         armure: 8
         babiole1: 15
-        babiole2: 4
+        babiole2: 4 (+6)
     Avril:
       type: mage
       stuff:
-        baton: 2
+        baton: 2 (+10)
         cape: 7
         casque: 7
         robe: 1
-        babiole1: 5
-        babiole2: 4
+        babiole1: 5 (+5)
+        babiole2: 4 (+6)
     Baelrog:
       type: gladiateur
       stuff:
-        arme1: 12
-        arme2: 14
+        arme1: 12 (+3)
+        arme2: 14 (+2)
         casque: 5
         armure: 6
-        babiole1: 5
+        babiole1: 5 (+5)
         babiole2: 11
     Bane:
       type: gladiateur
       stuff:
-        arme1: 13
-        arme2: 13
+        arme1: 13 (+2)
+        arme2: 13 (+2)
         casque: 5
         armure: 6
-        babiole1: 5
+        babiole1: 5 (+5)
         babiole2: 10
     Cleo: ~
     Denji:
       type: gladiateur
       stuff:
-        arme1: 13
-        arme2: 13
+        arme1: 13 (+2)
+        arme2: 13 (+2)
         casque: 5
         armure: 6
-        babiole1: 12
-        babiole2: 5
+        babiole1: 5 (+5)
+        babiole2: 12
     Elena:
       type: general
       stuff:
-        arme: 5
+        arme: 5 (+10)
         banniere: 12
-        casque: 9
-        armure: 6
-        babiole1: 2
-        babiole2: 4
+        casque: 9 (+3)
+        armure: 6 (+2)
+        babiole1: 16
+        babiole2: 10
     Fenris:
       type: voleur
       stuff:
-        arme: 13
+        arme: 13 (+2)
         arc: 9
         casque: 8
         armure: 6
         babiole1: 12
-        babiole2: 5
+        babiole2: 5 (+5)
   G-L:
     Gan:
       type: sage
       stuff:
-        baton: 4
-        livre: 6
-        casque: 4
+        baton: 4 (+8)
+        livre: 6 (+2)
+        casque: 4 (+6)
         robe: 0
-        babiole1: 2
-        babiole2: 2
-    Gafgar: ~
+        babiole1: 3 (+7)
+        babiole2: 3 (+7)
+    Gafgar:
+      type: gladiateur
+      stuff:
+        arme1: 15
+        arme2: 2 (+13)
+        casque: 6
+        armure: 2 (+2)
+        babiole1: 4 (+6)
+        babiole2: 3 (+7)
     Gazul:
       type: necro
       stuff:
-        baton: 3
+        baton: 3 (+9)
         cape: 2
-        casque: 4
+        casque: 4 (+4)
         robe: 1
         livre: 2
-        babiole: 2
+        babiole: 3 (+7)
     Grimms:
       type: general
       stuff:
-        arme: 12
+        arme: 12 (+3)
         banniere: 14
         casque: 12
         armure: 8
-        babiole1: 4
+        babiole1: 4 (+6)
         babiole2: 15
-    Jacques: ~
+    Jacques:
+      type: maitre meca
+      stuff:
+        arme1: 1 (+14)
+        arme2: 12 (+3)
+        casque: 6
+        armure: 5 (+2)
+        babiole1: 3 (+7)
+        babiole2: 3 (+7)
   M-R:
     Mako:
       type: voleur
       stuff:
-        arme: 12
+        arme: 12 (+3)
         arc: 6
         casque: 8
         armure: 6
-        babiole1: 4
-        babiole2: 7
-    Nora: ~
+        babiole1: 4 (+6)
+        babiole2: 7 (+3)
+    Nora:
+      type: maitre meca
+      stuff:
+        arme1: 1 (+14)
+        arme2: 12 (+3)
+        casque: 4 (+1)
+        armure: 6 (+1)
+        babiole1: 3 (+7)
+        babiole2: 3 (+7)
     Rose:
       type: sage
       stuff:
@@ -226,12 +261,12 @@ unit:
     Rufio:
       type: gladiateur
       stuff:
-        arme1: 12
-        arme2: 12
-        casque: 2
+        arme1: 12 (+3)
+        arme2: 12 (+3)
+        casque: 2 (+3)
         armure: 6
-        babiole1: 4
-        babiole2: 3
+        babiole1: 4 (+6)
+        babiole2: 3 (+7)
   S-X:
     Sprig:
       type: voleur
@@ -240,52 +275,61 @@ unit:
         arc: 6
         casque: 8
         armure: 6
-        babiole1: 2
+        babiole1: 3 (+7)
         babiole2: 11
     Tiadrin: ~
+    Tok:
+      type: general
+      stuff:
+        arme: 5 (+10)
+        banniere: 8 (+4)
+        casque: 13
+        armure: 6 (+2)
+        babiole1: 3 (+7)
+        babiole2: 3 (+7)
     Vallari:
       type: mage
       stuff:
-        baton: 3
+        baton: 3 (+9)
         cape: 7
         casque: 7
         robe: 0
-        babiole1: 4
-        babiole2: 4
+        babiole1: 4 (+6)
+        babiole2: 4 (+6)
     Vega:
       type: sage
       stuff:
-        baton: 6
+        baton: 6 (+6)
         livre: 8
         casque: 11
         robe: 0
-        babiole1: 4
+        babiole1: 4 (+6)
         babiole2: 10
     Virion:
       type: paladin
       stuff:
-        arme: 12
+        arme: 12 (+3)
         bouclier: 7
         casque: 8
         armure: 10
-        babiole1: 4
-        babiole2: 3
+        babiole1: 4 (+6)
+        babiole2: 3 (+7)
     Wraxius:
       type: mage
       stuff:
-        baton: 4
-        cape: 5
+        baton: 4 (+8)
+        cape: 5 (+2)
         casque: 8
         robe: 0
-        babiole1: 2
+        babiole1: 3 (+7)
         babiole2: 10
   Y-Z:
     Yip:
       type: sage
       stuff:
-        baton: 6
+        baton: 6 (+6)
         livre: 8
         casque: 11
         robe: 1
-        babiole1: 4
-        babiole2: 4
+        babiole1: 4 (+6)
+        babiole2: 4 (+6)
