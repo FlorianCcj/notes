@@ -1,0 +1,223 @@
+doc:
+  vault without HA is useless
+
+  install plugin
+  vault/builtin/credential/approle/cmd/approle
+
+  launch local: vault server -dev
+  https://www.vaultproject.io/docs/concepts/dev-server.html
+
+
+get started:
+  init:
+    install: >
+      curl https://releases.hashicorp.com/vault/1.0.3/vault_1.0.3_linux_amd64.zip -o /tmp/vault_1.0.3_linux_amd64.zip
+      sudo unzip /tmp/vault_1.0.3_linux_amd64.zip -d /usr/bin
+      sudo chmod +x /usr/bin/vault
+      vault -h
+    add vault to path:
+      - add it in usr/bin or /usr/local/bin
+      - add it in .bashrc `export $PATH=$PATH:/path/to/dir/with/bin`
+      - ln -s /path/to/bin /usr/bin/bin_name
+
+    check install: vault -h
+    autocomplete: vault -autocomplete-install
+    start server: vault server -dev # in output it give you root token
+    point_on_server: export VAULT_ADDR='http://127.0.0.1:8200'
+    save_your_token: export VAULT_DEV_ROOT_TOKEN_ID="s.lAGjfIHZvoMqWWoy6chM1pjw"
+    check_server_status: vault status
+  dont_print_secret_in_history:
+    - use_dash: vault kv put kv-v1/eng/apikey/Google key=- # will ask you to enter secret, to end ctrl+d
+    - read_in_file: vault kv put kv-v1/eng/apikey/Google @apikey.json
+    - disable_vault_history: export HISTIGNORE="&:vault*"
+  API_secret:
+    create_edit:
+      - vault kv put secret/hello foo=world
+      - vault kv put secret/hello foo=world excited=yes
+    get:
+      - vault kv get secret/hello
+      - vault kv get -field=excited secret/hello
+      - vault kv get -format=json secret/hello | jq -r .data.data.excited
+    delete:
+      - vault kv delete secret/hello
+    warning: The documentation uses the key=value based entry throughout, but it is more secure to use files if possible. Sending data via the CLI is often logged in shell history. For real secrets, please use files.
+  secret_engine:
+    list_secrets_engine: vault secrets list
+    add_new_secret_engine: vault secrets enable -path=test kv
+    remove_secret_engine: vault secrets disable test
+  dynamic_secret:
+    wtf: they are created when read
+  auth:
+    token:
+      create: vault token create
+      revoke: vault token revoke <token>
+      renew: vault token renew (-increment=<EXTENSION>) <TOKEN>
+      when: only if no choice, else use github, LDAP, AppRole, etc
+      use_limit: 
+        cli: vault token create -policy=default -use-limite=2
+        check_token: 
+          - VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault token lookup
+          - VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault write cubbyhole/token value=1234567890
+          - VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault read cubbyhole/token
+        api: 'curl --header "X-Vault-Token: ..." --request POST  --data '{ "policies": ["default"], "num_uses":2 }' http://127.0.0.1:8200/v1/auth/token/create | jq'
+        check:
+          - 'curl --header "X-Vault-Token: 3oV2cF9K94Z58gwlnKSPHfu1" http://127.0.0.1:8200/v1/auth/token/lookup-self | jq'
+          - 'curl --header "X-Vault-Token: d9c2f2e5-6b8a-4021-476c-ebd3f166d668" --request POST --data '{ "value": "d9c2f2e5-6b8a-4021-476c-ebd3f166d668" }' http://127.0.0.1:8200/v1/cubbyhole/token'
+      periodic: vault write auth/token/roles/<ROLE_NAME> allowed_policies="<POLICY_NAMES>" period=<RENEWAL_PERIOD>
+        example:
+          - vault write auth/token/roles/zabbix allowed_policies="default" period="24h"
+          - vault token create -role=zabbix
+        api: >
+          tee payload.json <<EOF
+          {
+              "allowed_policies": [
+                  "default"
+              ],
+              "period": "24h"
+          }
+          EOF
+          curl --header "X-Vault-Token: ..." --request POST --data @payload.json http://127.0.0.1:8200/v1/auth/token/roles/zabbix
+          curl --header "X-Vault-Token: ..." --request POST http://127.0.0.1:8200/v1/auth/token/create/zabbix | jq
+    approle: >
+      # First, enable approle auth method
+      vault auth enable approle
+      # Create a role for your app specifying that the generated token should be periodic
+      vault write auth/approle/role/jenkins policies="jenkins" period="72h"
+      # generate batch token
+      vault write auth/approle/role/shipping policies="shipping" token_type="batch" token_ttl="60s"
+      enable: vault auth enable approle #admin
+      role_with_policy: >
+        # jenkins-pol.hcl
+        # Login with AppRole
+        path "auth/approle/login" {
+          capabilities = [ "create", "read" ]
+        }
+
+        # Read test data
+        # Set the path to "secret/data/mysql/*" if you are running `kv-v2`
+        path "secret/mysql/*" {
+          capabilities = [ "read" ]
+        }
+
+        # vault policy write jenkins jenkins-pol.hcl
+        # vault write auth/approle/role/jenkins policies="jenkins"
+        # vault read auth/approle/role/jenkins
+        # vault write auth/approle/role/jenkins policies="jenkins,anotherpolicy"
+
+    custom auth: vault read sys/auth/<auth_type>/tune
+    other_auth_method:
+      enable_github: 
+        - vault auth enable -path=github github
+        - vault write auth/github/config organization=hashicorp
+        - vault write auth/github/map/teams/my-team value=default,my-policy
+      list_auth: vault auth list
+      find_help: 
+        - vault auth help github
+        - vault auth help aws
+        - vault auth help userpass
+        - vault auth help token
+      connect: vault login -method=github
+  policies:
+    exemple1: >
+      # Normal servers have version 1 of KV mounted by default, so will need these
+      # paths:
+      path "secret/*" {
+        capabilities = ["create"]
+      }
+      path "secret/foo" {
+        capabilities = ["read"]
+      }
+
+      # Dev servers have version 2 of KV mounted by default, so will need these
+      # paths:
+      path "secret/data/*" {
+        capabilities = ["create"]
+      }
+      path "secret/data/foo" {
+        capabilities = ["read"]
+      }
+    format_it: vault policy fmt my-policy.hcl
+    upload_policy:
+      - vault policy write my-policy path/to/my-policy.hcl
+      - vault policy write my-policy -<<EOF
+        # Normal servers have version 1 of KV mounted by default, so will need these
+        # paths:
+        path "secret/*" {
+          capabilities = ["create", "update"]
+        }
+        path "secret/foo" {
+          capabilities = ["read"]
+        }
+
+        # Dev servers have version 2 of KV mounted by default, so will need these
+        # paths:
+        path "secret/data/*" {
+          capabilities = ["create", "update"]
+        }
+        path "secret/data/foo" {
+          capabilities = ["read"]
+        }
+        EOF
+    test_a_policy:
+      - vault token create -policy=my-policy
+      - vault login s.X6gvFko7chPilgV0lpWXsdeu
+    assign_policies_to_role: vault write auth/approle/role/jenkins policies="jenkins,anotherpolicy"
+    get_role_id_and_secret_id:
+      - read: vault read auth/approle/role/<ROLE_NAME>/role-id
+      - generate: vault write -f auth/approle/role/<ROLE_NAME>/secret-id
+      exemple:
+        - vault read auth/approle/role/jenkins/role-id
+        - vault write -f auth/approle/role/jenkins/secret-id
+    login:
+      persona: app
+      cli: vault write auth/approle/login role_id="675a50e7-cfe0-be76-e35f-49ec009731ea" secret_id="ed0a642f-2acf-c2da-232f-1b21300d5f29"
+      api:
+        payload.json: { "role_id": "675a50e7-cfe0-be76-e35f-49ec009731ea", "secret_id": "ed0a642f-2acf-c2da-232f-1b21300d5f29"}
+        cmd: curl --request POST --data @payload.json http://127.0.0.1:8200/v1/auth/approle/login | jq
+    read_secret:
+      cli: VAULT_TOKEN=3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e vault kv get secret/mysql/webapp # No value found at secret/mysql/webapp
+      cli2: >
+        vault login 3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e
+        vault kv get secret/mysql/webapp
+      api: 'curl --header "X-Vault-Token: 3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e" --request GET http://127.0.0.1:8200/v1/secret/data/mysql/webapp | jq'
+    add_value:
+      mysqldb.json: >
+        {
+          "url": "foo.example.com:35533",
+          "db_name": "users",
+          "username": "admin",
+          "password": "pa$$w0rd"
+        }
+      cli: vault kv put secret/mysql/webapp @mysqldb.txt
+      api: 'curl --header "X-Vault-Token: ..." --request POST --data @mysqldb.txt'
+  deploy:
+    vault_ref_architecture:
+      multi cluster need entreprise licence
+      8 nodes:
+        - consul agent on each nodes
+        - vault server on 3 of them
+      small_cluster:
+        - vault: 2 core 4-8 Gi RAM 25 Gi Disk
+        - consul: 2 core 8-16 Gi RAM 50 Gi Disk
+      large_cluster:
+        - vault: 4-8 core 16-32 Gi RAM 50 Gi Disk
+        - consul: 4-8 core 32-64+ Gi RAM 100 Gi Disk
+    prod_hardening:
+      - e2e TLS
+      - single tenancy: only vault on the machine
+      - firewall trafic: ?
+      - disable SSH/remote desktop
+      - disable swap
+      - don t run as root: vault is designed to run as unprevileged user
+      - turn off core dumps: set RLIMIT_CORE to 0 to disable core dump
+      - immutable upgrade
+      - avoid root token:
+      - enable auditing
+
+
+
+to_see:
+  https://learn.hashicorp.com/vault/developer/iam-authentication -> advanced features
+  reponse_wrapping
+  https://www.hashicorp.com/blog/authenticating-applications-with-vault-approle
+  https://www.hashicorp.com/blog/building-a-vault-secure-plugin
