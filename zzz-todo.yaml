@@ -101,6 +101,9 @@ todo:
         - https://www.youtube.com/watch?v=dCQpaTTTv98
         - https://www.youtube.com/watch?v=4sNdq6fjZFQ
       - gitlab:
+        hook:
+          - https://delicious-insights.com/fr/articles/git-hooks/
+          - https://docs.gitlab.com/ee/administration/custom_hooks.html
         - https://docs.gitlab.com/ee/README.html#new-to-git-and-gitlab
         - https://www.synbioz.com/blog/installer_gitlab_ce_ci
         - https://docs.gitlab.com/omnibus/
