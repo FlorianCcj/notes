@@ -206,7 +206,7 @@ unit:
       type: gladiateur
       stuff:
         arme1: 3 (+12)
-        arme2: 2 (+13)
+        arme2: 18
         casque: 6
         armure: 2 (+2)
         babiole1: 4 (+6)
@@ -232,7 +232,7 @@ unit:
     Jacques:
       type: maitre meca
       stuff:
-        arme1: 1 (+14)
+        arme1: 16
         arme2: 12 (+3)
         casque: 6
         armure: 5 (+2)
@@ -251,7 +251,7 @@ unit:
     Nora:
       type: maitre meca
       stuff:
-        arme1: 0 (+14)
+        arme1: 15
         arme2: 12 (+3)
         casque: 4 (+1)
         armure: 6 (+1)
