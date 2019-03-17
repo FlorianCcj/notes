@@ -1,0 +1,6 @@
+install: > 
+  curl https://releases.hashicorp.com/vault/1.0.3/vault_1.0.3_linux_amd64.zip -o vault_1.0.3_linux_amd64.zip
+  sudo unzip -d /usr/local/bin
+  sudo chmod +x /usr/local/bin/vault
+  vault -h
+crypto: Shamir's Secret Sharing
