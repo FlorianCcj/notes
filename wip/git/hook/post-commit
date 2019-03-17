@@ -1,0 +1,27 @@
+#!/bin/sh
+# file: ~/.git-templates/hooks/post-commit
+# desc: just show the commit you made
+# install:
+### configure git to follow template
+## git config --global init.templatedir '~/.git-templates'
+## 
+### make needed files
+## mkdir -p ~/.git-templates/hooks
+## vi ~/.git-templates/hooks/post-commit
+## 
+### --> add content of post-commit <--
+## 
+### be sure it have good rights
+## chmod a+x ~/.git-templates/hooks/post-commit
+## 
+### re init your repo
+## git init
+#
+#
+# Copy last commit hash to clipboard on commit
+echo "----------------------------------"
+echo "template hook"
+echo "----------------------------------"
+git log -1 --format=format:%h | pbcopy
+
+# Add other post-commit hook
