@@ -58,4 +58,5 @@ to_read:
   - https://githooks.com/
 sources:
   - https://delicious-insights.com/fr/articles/git-hooks/
+  - https://docs.gitlab.com/ee/administration/custom_hooks.html
   - angularjs: https://github.com/conventional-changelog-archived-repos/validate-commit-msg
