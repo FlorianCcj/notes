@@ -2,6 +2,8 @@
 
 ## Make post-commit hook thanks to template
 
+Not succeed to work :'()
+
 ```bash
 # configure git to follow template
 git config --global init.templatedir '~/.git-templates'
