@@ -8,6 +8,8 @@ ubuntu \
 et dans /etc/sudoers.d/ verifier qu il y a `includedir /etc/sudoers.d`
 && chmod 0400 /etc/sudoers.d/<user>
 
+install https://github.com/bmwant/podmena
+
 ansible-galaxy install -r requirements.yml
 
  OK - install-basics.sh - 1 - base
