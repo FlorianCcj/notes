@@ -1,4 +1,11 @@
 todo:
+  - 000_wip:
+    - pes1
+    - maison
+    - apart
+    - gn
+    - voiture
+    - mentalism
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -7,6 +14,9 @@ todo:
     - dessin: ~
     - manga:
       - MxZero
+      - one punch man
+      - shokugeki no soumq
+      - combat continent
     - mentalism: ~
     - music:
       - flute
@@ -25,6 +35,8 @@ todo:
     - read_and_sum_up:
       - RFC
       - journaux
+      - american fuzzy lop
+      - how to know agile is bullshit
     - video:
       - series:
         - flander_s_company
@@ -35,6 +47,11 @@ todo:
         - naruto
         - sword art online
         - shokugeki no souma
+      - site_for_anime:
+        - https://www.ianimes.co
+        - https://gum-gum-streaming.com
+        - https://gum-gum-stream.eu
+        - https://www.vostfree.com
   - achat:
     - Pinces coupantes Sandvik Lindström
     - https://geekon.nyc/the-ultimate-boardgame-backpack/
@@ -84,6 +101,9 @@ todo:
         - https://www.youtube.com/watch?v=dCQpaTTTv98
         - https://www.youtube.com/watch?v=4sNdq6fjZFQ
       - gitlab:
+        hook:
+          - https://delicious-insights.com/fr/articles/git-hooks/
+          - https://docs.gitlab.com/ee/administration/custom_hooks.html
         - https://docs.gitlab.com/ee/README.html#new-to-git-and-gitlab
         - https://www.synbioz.com/blog/installer_gitlab_ce_ci
         - https://docs.gitlab.com/omnibus/
@@ -120,6 +140,10 @@ todo:
       - Data/Van de Velde, Ernest - La premiere annee de piano Methode Rose
     - mentalism:
       - https://www.youtube.com/watch?v=xl9fFvILxnM
+    - konmari:
+      - https://www.youtube.com/watch?v=29R00CSp0Y8
+    - magie:
+      - roberto giobbi, tours
   - lecture:
     - jdr:
       - https://thetrove.net/Books/Legend%20of%20the%20Five%20Rings/Maps/

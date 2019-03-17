@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+			http://fr.learnlayout.com/frameworks.html
+		<h1>general</h1>
+
+		la balise display:
+		* block: commence sur une nouvelle ligne et s etire autant qu il peut sur la gauche et la droite
+		* inline: encadre juste l element
+		position:
+		* static: default,dit non positionne
+		* relative:  as static if donc add nothing, add top, right, left, bottom to move it
+		* fixed: fixed in the browser window
+		* absolute: as fixed but in parent
+
+		<h1>Exemple position</h1>
+
+		```
+		.container {
+			position: relative;
+		  }
+		  nav {
+			position: absolute;
+			left: 0px;
+			width: 200px;
+		  }
+		  section {
+			/* position is static by default */
+			// to let enougth place to nav
+			margin-left: 200px;
+		  }
+		  footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			height: 70px;
+			background-color: white;
+			width: 100%;
+		  }
+		  body {
+			// to let enougth place to footer
+			margin-bottom: 120px;
+		  }
+		  ```
+
+			<h1>Example float</h1>
+
+		  ```
+		  nav {
+			float: left;
+			width: 200px;
+		  }
+		  section {
+			margin-left: 200px;
+		  }
+		  nav {
+			float: left;
+			width: 25%;
+		  }
+		  section {
+			margin-left: 25%;
+		  }
+		  ```
+
+		  <h1>Media queries</h1>
+
+		  @media screen and (min-width:600px) {
+			nav {
+			  float: left;
+			  width: 25%;
+			}
+			section {
+			  margin-left: 25%;
+			}
+		  }
+		  @media screen and (max-width:599px) {
+			nav li {
+			  display: inline;
+			}
+		  }
+
+		  <h1>Cards with inline block and clear</h1>
+
+		  ```
+		  .box {
+			float: left;
+			width: 200px;
+			height: 100px;
+			margin: 1em;
+		  }
+		  .after-box {
+			clear: left;
+		  }
+		  ```
+
+		  <h2>same inline block only</h2>
+
+		  ```
+		  .box2 {
+			display: inline-block;
+			width: 200px;
+			height: 100px;
+			margin: 1em;
+		  }
+		  ```
+
+		  <h2>Layout inline-block</h2>
+
+		  nav {
+			display: inline-block;
+			vertical-align: top;
+			width: 25%;
+		  }
+		  .column {
+			display: inline-block;
+			vertical-align: top;
+			width: 75%;
+		  }
+	</body>
+</html>

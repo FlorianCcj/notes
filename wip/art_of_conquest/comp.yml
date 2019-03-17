@@ -1,0 +1,126 @@
+Aliaksei:
+  A-F:
+    Avalon:
+      commandememnt: max
+      endu: max
+      force: max
+      intel: 0
+    Avril:
+      commandememnt: 0
+      endu: max
+      force: max
+      intel: max
+    Baelrog:
+      commandememnt: max
+      endu: 0
+      force: 0
+      intel: 0
+    Bane:
+      commandememnt: max
+      endu: max
+      force: max
+      intel: max
+    Cleo:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Denji:
+      commandememnt: nax
+      endu: 0
+      force: max
+      intel: 0
+    Elena:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Fenris:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+  G-L:
+    Gan:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Gafgar:
+      commandememnt: max
+      endu: 0
+      force: 0
+      intel: 0
+    Gazul:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Grimms:
+      commandememnt: max
+      endu: max
+      force: max
+      intel: max
+    Jacques:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+  M-R:
+    Mako:
+      commandememnt: max
+      endu: 0
+      force: max
+      intel: 0
+    Nora:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Rose:
+      commandememnt: max
+      endu: 0
+      force: 0
+      intel: 0
+    Rufio:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+  S-X:
+    Sprig:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Tiadrin:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Vallari:
+      commandememnt: max
+      endu: max
+      force: max
+      intel: max
+    Vega:
+      commandememnt: max
+      endu: 0
+      force: 0
+      intel: 0
+    Virion:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+    Wraxius:
+      commandememnt: 0
+      endu: 0
+      force: 0
+      intel: 0
+  Y-Z:
+    Yip:
+      commandememnt: max
+      endu: max
+      force: max
+      intel: max

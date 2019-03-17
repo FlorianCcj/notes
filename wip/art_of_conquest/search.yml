@@ -93,9 +93,25 @@ cost:
     60:
 chateau:
   36:
-    - camp de tir a l arc l12
-    - ecurie lvl 12
+    - camp de tir a l arc (2) l12
+    - ecurie (4) lvl 12
     - scierie lvl 11
     - poste avancee lvl 18
     - porte lvl 34
     - atelier lvl 11
+  37:
+    - dojo (1) 13
+    - puit de la lune (elixir) 11
+    - academie (research) 12
+  38:
+    - monastere (3) 13
+    - residence (or) 12
+    - poste de garde 19
+    - porte lvl 36
+    - hopital 13
+  39:
+    - sanctuaire (4) 13
+    - scierie 12
+    - entrepot 19
+    - porte 37
+    - chantier 12
