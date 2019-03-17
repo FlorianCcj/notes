@@ -1,0 +1,13 @@
+- default: .git/hooks
+- need exec: chmod +x .git/hooks/…
+- ignore some: --no-verify (ignore pre-commit, commit-msg)
+- can block:
+  local: prepare-commit-msg, pre-rebase, pre-apply-patch, pre-push, pre-auto-gc
+  server: pre-receive, update
+- code resume:
+  0: no block
+  1 (or sup): block 
+
+
+
+tilisation d’un répertoire déporté de hooks
