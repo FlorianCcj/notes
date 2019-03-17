@@ -136,8 +136,8 @@ unit:
         cape: 7
         casque: 7
         robe: 1
-        babiole1: 5 (+5)
-        babiole2: 4 (+6)
+        babiole1: 10
+        babiole2: 10
     Baelrog:
       type: gladiateur
       stuff:
@@ -145,7 +145,7 @@ unit:
         arme2: 14 (+2)
         casque: 5
         armure: 6
-        babiole1: 5 (+5)
+        babiole1: 10
         babiole2: 11
     Bane:
       type: gladiateur
@@ -154,7 +154,7 @@ unit:
         arme2: 13 (+2)
         casque: 5
         armure: 6
-        babiole1: 5 (+5)
+        babiole1: 10
         babiole2: 10
     Cleo: 
       type: mage
@@ -172,12 +172,12 @@ unit:
         arme2: 13 (+2)
         casque: 5
         armure: 6
-        babiole1: 5 (+5)
+        babiole1: 10
         babiole2: 12
     Elena:
       type: general
       stuff:
-        arme: 5 (+10)
+        arme: 15
         banniere: 12
         casque: 13
         armure: 6 (+2)
@@ -191,12 +191,12 @@ unit:
         casque: 8
         armure: 6
         babiole1: 12
-        babiole2: 5 (+5)
+        babiole2: 11
   G-L:
     Gan:
       type: sage
       stuff:
-        baton: 4 (+8)
+        baton: 6 (+6)
         livre: 6 (+2)
         casque: 4 (+6)
         robe: 0
@@ -205,21 +205,21 @@ unit:
     Gafgar:
       type: gladiateur
       stuff:
-        arme1: 3 (+12)
+        arme1: 16
         arme2: 18
         casque: 6
         armure: 2 (+2)
-        babiole1: 4 (+6)
+        babiole1: 10
         babiole2: 11
     Gazul:
       type: necro
       stuff:
-        baton: 3 (+9)
+        baton: 12
         cape: 2
         casque: 4 (+4)
         robe: 1
         livre: 2
-        babiole: 3 (+7)
+        babiole: 10
     Grimms:
       type: general
       stuff:
@@ -227,7 +227,7 @@ unit:
         banniere: 14
         casque: 12
         armure: 8
-        babiole1: 4 (+6)
+        babiole1: 10
         babiole2: 15
     Jacques:
       type: maitre meca
@@ -246,8 +246,8 @@ unit:
         arc: 6
         casque: 8
         armure: 6
-        babiole1: 4 (+6)
-        babiole2: 7 (+3)
+        babiole1: 10
+        babiole2: 11
     Nora:
       type: maitre meca
       stuff:
@@ -283,7 +283,7 @@ unit:
         arc: 6
         casque: 8
         armure: 6
-        babiole1: 3 (+7)
+        babiole1: 11
         babiole2: 11
     Tiadrin: 
       type: paladin
@@ -293,7 +293,7 @@ unit:
         casque: 3
         armure: 10
         babiole1: 10
-        babiole2: 5 (+5)
+        babiole2: 12
     Tok:
       type: general
       stuff:
@@ -310,8 +310,8 @@ unit:
         cape: 7
         casque: 7
         robe: 0
-        babiole1: 4 (+6)
-        babiole2: 4 (+6)
+        babiole1: 11
+        babiole2: 12
     Vega:
       type: sage
       stuff:
@@ -319,7 +319,7 @@ unit:
         livre: 8
         casque: 11
         robe: 0
-        babiole1: 4 (+6)
+        babiole1: 12
         babiole2: 10
     Virion:
       type: paladin
@@ -337,7 +337,7 @@ unit:
         cape: 5 (+2)
         casque: 8
         robe: 0
-        babiole1: 3 (+7)
+        babiole1: 10
         babiole2: 10
   Y-Z:
     Yip:

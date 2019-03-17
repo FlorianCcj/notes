@@ -44,11 +44,11 @@ statue:
   to-up:
     lvl:          have/need    | 2-1 | 1-2 | 2-2 | 4-1 | osef | 1-1 | 1-3 | 2-3 | 3-1 | 3-2 | 3-3 |
     lvl-to-have:               |   3 |   5 |   5 |   5 | ---- |   x |   x |   x |   x |   x |   x |
-    losange bleu:              |   3 |   x |   3 |   3 | ---- |   3 |   3 |  3+ |  2+ |   2 |   x |
-    losange jaune:             |   3 |   3 |   2 |   2 | ---- |   x |   2 |   2 |   x |   0 |   0 |
-    losange marron:            |   3 |   4 |   x |   2 | ---- |   3 |   2 |   2 |   2 |   0 |   0 |
-    losange vert:              |   3 |   x |   3 |  3+ | ---- |   3 |   2 |   2 |   2 |   1 |   x |
-    bouclier bleu:             |   x |   4 |   x |   2 | ---- |   2 |   2 |   2 |   2 |   0 |   0 |
+    losange bleu:              |   3 |   x |   3 |   3 | ---- |   3 |   3 |  3+ |   3 |   2 |   x |
+    losange jaune:             |   3 |   4 |   2 |   2 | ---- |   x |   2 |   2 |   x |   0 |   0 |
+    losange marron:            |   3 |   5 |   x |   2 | ---- |   3 |   2 |   2 |   2 |   0 |   0 |
+    losange vert:              |   3 |   x |   3 |  3+ | ---- |   3 |   3 |   3 |   3 |   1 |   x |
+    bouclier bleu:             |   x |   5 |   x |   2 | ---- |   2 |   2 |   2 |   2 |   0 |   0 |
     coeur rouge:               |   3 |   4 |   2 |   2 | ---- |   x |   2 |   2 |   x |   0 |   0 |
     carre vert:                |   x |   x |   x |   3 | ---- |   x |   x |   x |   2 |   x |   0 |
     triangle bleu:             |   x |   x |   x |   3 | ---- |   x |   x |   x |   2 |   x |   0 |
