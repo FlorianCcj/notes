@@ -2,6 +2,11 @@ ansible-playbook -i hosts.ini playbooks/playbook.yml
 
 need 
 <user> ALL=(ALL:ALL) NOPASSWD: ALL
+------------------------------
+echo -e "<user>\tALL=ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/
+ubuntu \
+et dans /etc/sudoers.d/ verifier qu il y a `includedir /etc/sudoers.d`
+&& chmod 0400 /etc/sudoers.d/<user>
 
 ansible-galaxy install -r requirements.yml
 
