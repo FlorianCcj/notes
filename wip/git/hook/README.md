@@ -34,3 +34,7 @@ vi ~/.gitconfig/hooks/pre-commit
 # be sure it have good rights
 chmod +x ~/.gitconfig/hooks/pre-commit
 ```
+
+## sources
+
+* https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook
