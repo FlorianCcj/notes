@@ -477,3 +477,225 @@
       - security
     content: >
       docker run --memory="1000M" --cpus="1"
++  - 
++    title: lvm
++    source: lm210
++    tags:
++      - lm
++      - lvm
++      - raid
+    content: >
+      LVM: Logical Volume Manager
+      MBR: Master Boot Record
+        limit:
+          - 4 main particition
+          - manage 15 particions
+          - particion max size 2 To
+      GPT:  GUID Partition Table
+        - micro program UEFI
+        - particion max size 8 zebioctects
+        - adress on 64 bits
+        - max 128 particion/disk
+      UEFI: Unified Extensible Firmware Interface
+      peripherique physique (PP): 
+        - where you put data. bloc peripheric like disk partition, full disk, RAID matrice, SAN disk
+        - need to be init as LVM physical volume to use it with LVM
+      physical volume (PV): permit to init PP. LVM segment it in litle fragment
+      Physical Etent (PE): litle fragment with which LMV manage PV
+      Volum Group (VG): one or many PV, but one PV can only be on one VG
+      Logical Volume (LV): 
+        - create from free space in VG
+        - deal stockage to services, application and OS
+        - they are Logical Etents (LE) which map et PE
+        - smallest stockage unit of PV      
+      Prepare LV:
+        - prepare PP (generaly hard drive)
+        - convert it in PV to LVM
+        - create VG with it
+        - create LV in previous VG
+
+      Linux need to active LVM compatibility
+        `dpkg -l | grep lvm`
+      - prepare PP (generaly hard drive)
+        need disk in /dev/sdb
+        `fdisk /dev/sdb`
+          - command: n
+          - partition type: p (primary)
+          - partition number: 1
+          - first sector: (default)
+          - last sector: +4G
+          - command: w (leave) => create /dev/sdb1
+        `fdisk /dev/sdb1`
+          - command: t
+          - Hexa Code: 8e => code to switch in linux LVM
+        `fdisk -l /dev/sdb`
+      - convert it in PV to LVM
+        `pvcreate /dev/sdb1`
+      - create VG with it
+        create a VG named vg-diamond with PV /dev/sdb1
+        `vgcreate vg-diamond /dev/sdb1`
+      - create LV in previous VG
+        `lvcreate -n <lv name> -L <size> <vg name>`
+        `lvcreate -n linux-mag -L 2G vg-diamond`
+        - size in PE or Mio
+      - add FS
+        block type are in /dev/vgname/lvname or /dev/mapper/vgname-lvname
+        - create fs
+          `mkfs -t ext4 /dev/mapper/vg--diamond-linux--mag`
+        - add to root
+          `mkdir /linux-pratique`
+          `mount /dev/mapper/vg--diamond-linux--mag /linux-mag`
+        - make it persistant after reboot
+          ```bash
+          # in /etc/fstab
+          dev/mapper/vg--diamond-linux--pratique /linux-pratique ext4 defaults 0 0
+          ```
+      check status:
+        `pvdisplay /dev/sdb1`
+        `vgdisplay vg-diamond`
+        `lvdisplay /dev/vg-diamond/linux-mag`
+      extend VG:
+        `vgextend vg-diamond /dev/sde1`
+      reduct VG:
+        pvmove permit to move PE from PV to other PV of the same VG
+        you should save LV from VG before
+        `pvmove /dev/sde1`
+        vgreduce permit to remove PV from VG
+        `vgreduce vg-diamond /dev/sde1`
+      extend LV:
+        - check free space
+          `vgdisplay vg-diamond | grep Free`
+        - extend VL
+          `lvextend -L +1G /dev/vg-diamond/linux-mag`
+        - extend FS
+          `resize2fs /dev/vg-diamond/linux-mag`
+        - check
+          `df -h -T`
+  -
+    title: math base
+    source: lm211
+    tags:
+      - math
+      - base
+      - base58
+      - base64
+      - encoding
+    content: >
+      base16:
+        0123456789ABCDEF
+        0x before a number meen it s in base64
+      base36:
+        base16 + 26 alphabet letter
+      base62:
+        10 number, 26 maj 26 min
+      base58:
+        different variant from base58, just to remove confusing letter (I-l-O-0)
+      base56:
+        base58 - o - 1
+      base32:
+        base36 - 4 char
+        RFC4648: base36 -0-1-8-9
+      base64:
+        base62 and add + and /
+      if a mesage char number is not a multiple of 2, add a number of = to be a corect multiple
+    -
+      title: files transfert
+      source: lm211
+      tags:
+        - file
+        - transfert
+        - speed
+      content: >
+        environment:
+          file_to_get: 192.168.1.50:/media/data/test_transfert
+          where_to_get: transfert:@192.169.1.10
+        create_file:
+          NUMBER = 10
+          SIZE = 10240
+          for i in $(seq 1 ${NUMBER}); do dd if=/dev/urandom of=file-${i} bs=${SIZE} count=1 ; done
+        dont_forget:
+          to clear cache remove file and generate it again, before each test
+        test:
+          - data:
+            - 
+              number: 100
+              size: 10
+            - 
+              number: 1000
+              size: 10
+            - 
+              number: 5000
+              size: 10
+            - 
+              number: 10000
+              size: 10
+            - 
+              number: 5000
+              size: 10
+            - 
+              number: 10000
+              size: 10
+            - 
+              number: 100
+              size: 100
+            - 
+              number: 1000
+              size: 100
+            - 
+              number: 5000
+              size: 100
+            - 
+              number: 10000
+              size: 100
+          - title: take all dir
+            cmd:
+              base: time -p sftp transfert@192.168.1.50:/media/data/test_transfert/*
+              without_output: time -p ( sftp transfert@192.168.1.50:/media/data/test_transfert/* > /dev/null )
+            result:
+              without output win 11% time
+          - title: learn file list then download it
+            script: >
+              ```
+              #!/bin/bash
+              FOLDER=/media/data/test_transfert
+              PATTERN=*
+              USER=transfert
+              SERVER=192.168.1.50
+              # On liste les fichiers distants en cr<C3><A9>ant un fichier batch
+              puis en l'executant
+              echo "Generation de la liste des fichiers..."
+              echo "ls -1 $FOLDER/$PATTERN" > ./batch.txt
+              time -p sftp -b ./batch.txt $USER@$SERVER | grep -v "^sftp" >
+              ./liste.txt
+              # On va t<C3><A9>l<C3><A9>charger les fichiers un par un dans diff<C3><A9>rentes
+              sessions sftp
+              echo "Telechargement un par un dans differentes sessions..."
+              time -p for fic in $(cat liste.txt | sort) ; do
+                sftp $USER@$SERVER:$fic > /dev/null
+              done
+              ```
+          - title: script less basic
+            script: >
+              ```
+              #!/bin/bash
+              FOLDER=/media/data/test_transfert
+              PATTERN=*
+              USER=transfert
+              SERVER=192.168.1.50
+              # On liste les fichiers distants en cr<C3><A9>ant un fichier batch puis
+              en l'executant
+              echo "Generation de la liste des fichiers..."
+              echo "ls -1 $FOLDER/$PATTERN" > ./batch.txt
+              time -p sftp -b ./batch.txt $USER@$SERVER | grep -v "^sftp" |
+              sed "s/^/get /" > ./commandes.txt
+              # On va t<C3><A9>l<C3><A9>charger les fichiers un par un dans une session sftp
+              echo "Telechargement avec get dans une session unique..."
+              time -p ( sftp -b ./commandes.txt $USER@$SERVER:$fic > /dev/null )
+              ```
+          - title: groupdir
+            script: >
+              ```
+              zip fichier.zip file*
+              ```
+  -
+    title: next
