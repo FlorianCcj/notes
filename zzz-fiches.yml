@@ -167,6 +167,24 @@
       lsb_release -d: os info
       echo "$(lsb_release -d | awk -F: '{ print $2 }' | tr -d '\t')"
       uname -a: Kernel
+
+      lsblk -l
+      fdisk -l # list particion
+      fsck -f -y /dev/sda5 # reparation de disk
+      mount -v <disk path> <mount dir path>
+      mount -v /dev/sda1 /mnt/sda1
+
+
+
+      # know number of file and size of dir
+      find <dir> -name \* | wc -l $1 && du -sh
+      # copy with progress bar
+      rsync --info=progress2 -za --exclude-from "<file with dir to exclude>" <dir to copy> <path to put>
+      # make md5sum on all file
+      find -type f -exec md5sum "{}" + >> test.chk
+      # check md5
+      md5sum -c test.chk 
+
       ```
   -
     title: windows key
