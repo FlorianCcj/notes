@@ -1,0 +1,13 @@
+# file: ./hooks/pre-commit
+# desc: Hook to check if there is !nocommit in the code
+# 
+# chmod +x ./hooks/pre-commit
+# git config core.hooksPath './hooks'
+#
+# To prevent debug code from being accidentally committed, simply add a comment near your
+# debug code containing the keyword !nocommit and this script will abort the commit.
+#
+echo "-------------------------------------------"
+echo "Exemple"
+echo "-------------------------------------------"
+

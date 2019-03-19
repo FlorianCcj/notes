@@ -8,7 +8,8 @@
   0: no block
   1 (or sup): block 
 - Utilisation d’un repertoire deporte de hooks:
-  config_local_ou_globall: core.hooksPath=<hooks directory>
+  config_local_ou_global: core.hooksPath=<hooks directory>
+  config_local_ou_global_example: git config core.hooksPath './hooks'
 - hook_dispo:
   commit:
     pre-commit
