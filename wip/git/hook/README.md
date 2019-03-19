@@ -37,6 +37,25 @@ vi ~/.gitconfig/hooks/pre-commit
 chmod +x ~/.gitconfig/hooks/pre-commit
 ```
 
+## Make local project hook
+
+If project core.hooksPath is configure, global core.hooksPath will be ignore
+
+```bash
+# configure git to follow core hookpath
+# during init project you need to tell everyone to make this command
+git config core.hooksPath './hooks'
+
+# make needed files
+mkdir ./hooks
+vi ./hooks/pre-commit
+
+# --> add content of pre-commit <--
+
+# be sure it have good rights
+chmod +x ./hooks/pre-commit
+```
+
 ## sources
 
 * https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook
