@@ -196,9 +196,9 @@ unit:
     Gan:
       type: sage
       stuff:
-        baton: 6 (+6)
+        baton: 14
         livre: 6 (+2)
-        casque: 4 (+6)
+        casque: 11
         robe: 0
         babiole1: 10
         babiole2: 11
