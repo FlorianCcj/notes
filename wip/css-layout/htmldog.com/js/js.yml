@@ -1,0 +1,34 @@
+js:
+  source: https://www.htmldog.com/guides/javascript/
+  begin:
+    Making Stuff Happen: Applying JavaScript and using the console.
+    Variables and Data: How to create variables and how you use them. Strings!
+    Doing Math: Using variables to store and use numbers.
+    Logic: True and false.
+    Conditional: If and but… no, or else… oh no I’m confused now.
+    Looping: While do for while do for while do for… argumentum ad nauseam.
+    Functions: Creating functions, using them, passing data in and out.
+    Objects: Properties, methods. Inspecting objects.
+    Arrays: Getting elements out, putting them back in. How long is a piece of string?
+  inter:
+    The DOM: The DOM as a tree of elements. Parents and children. Mummies and daddies. How babies are made… wait, wrong site.
+    Events and Callbacks: Event-driven programming. Listening for events, and acting on them with callback functions.
+    AJAX: Asynchronous JavaScript And XML? What? Why?
+    JSON: JavaScript Object Notation. And the Argonauts.
+    Scope: What scope is and how JavaScript, yet again, does it differently.
+    jQuery: What’s a DOM library for and why would you choose jQuery?
+    jQuery: DOM API: $(). That is all.
+    jQuery: AJAX: $.get, $.post, and $.ajax.
+    jQuery: Other Tricks: DOMContentLoaded, Load, and Type Checking.
+  advanced:
+    Object-Oriented Code: Classes and instances. Behaviour encapsulation. Using constructors and the new keyword for creating instances of objects.
+    Creating Elements: Inserting elements into the DOM and the associated pitfalls.
+    Canvas: Painting and animating on the newfangled HTML 5 canvas element.
+    Local Storage: Saving things across refreshes. Browser support and limitations.
+    Errors and Exceptions: Throwing all our toys out of the pram.
+    Regular Expressions: /(some|no)thing/i of interest. Matching and replacing.
+    Closures: What is a closure? Why are they incredibly powerful?
+    Node.js: Javascript… on the server? What is this madness?
+    JS Apps: Ideas and techniques for building larger scale, client-side JavaScript applications.
+    Backbone: A short introduction to BackboneJS. Building a (very) simple app and showing how Backbone does MVC.
+    Angular: As above, but with Angular.

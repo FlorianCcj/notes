@@ -6,6 +6,8 @@ todo:
     - gn
     - voiture
     - mentalism
+    - hack
+    - opti-stuff
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -23,6 +25,7 @@ todo:
       - piano
     - project:
       - stuff-opti
+      - tenserflow
       - stack:
         - gitlab
         - ci
@@ -55,6 +58,9 @@ todo:
   - achat:
     - Pinces coupantes Sandvik Lindström
     - https://geekon.nyc/the-ultimate-boardgame-backpack/
+    - chausse pied
+    - chargeur
+    - mp3
   - moment_priority:
     + emprun
     - RFC read
@@ -85,6 +91,7 @@ todo:
       - https://purecss.io/
       - https://uxdesign.cc/design-better-forms-96fadca0f49c
       - https://cantunsee.space/
+      - https://www.wanadev.fr/85-kit-de-survie-la-checklist-davant-mise-en-production/
     - dev:
       - docker:
         - faire une doc pour docker symfony
