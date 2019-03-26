@@ -1,0 +1,252 @@
+udemy:
+  deviens_un_hacker:
+    author: Hamza KONDAH
+    site: http://www.alphorm.com
+    blog: http://blog.alphorm.com
+    mail: kondah.hamza@gmail.com
+    section_1:
+      - name: 01_intro
+        content:
+          lien_utiles:
+            - https://packetstormsecurity.com
+            - http://www.securityfocus.com
+            - www.securitytube.net
+            - https://www.hackervoice.net
+            - https://www.xmco.net
+            - www.zataz.com
+            - https://www.owasp.org
+    section_2_Intro_a_la_secu:
+      - name: 02_why
+        content:
+          what_we_can_do_with_data:
+            - stop
+            - sniff
+            - update
+            - add
+      - name: 03_hack_and_voc_10
+        content:
+          etape_de_hacking:
+            1. reconnaissance passive
+            2. reconnaissance active
+            3. gain d acces
+            4. maintien d acces
+            5. Effacer les traces
+          naming:
+            - collecte d info
+              prise d emprinte: foot printing
+              take max info
+                adresse reseau
+                nom de domaine
+                protocole reseau
+                system
+                archi
+                user
+              social engineering:
+                phone
+                intenet
+                lettre
+                contact direct
+            - balayage
+              - adresse active du reseau
+              - port ouvert
+              - os
+              - service
+            - reperage de faille (vulnerability assessment)
+              - cert
+              - nessus
+              - snort
+              - metasploit
+            - intrusion (exploitation tools)
+              - injection de code
+              - acces a des comptes valides
+              - metasploit
+            - compromision
+            - porte derobe (backdoor)
+            - netoyage de trace
+      - name: 04_veille_11
+        lien utiles:
+          - www.zataz.com
+          - packetstormsecurity.com
+          - www.securityfocus.com
+          - www.exploit-db.com
+      - name: 05_tcp_ip_4
+        def: Transmission Control Protocol/Internet Protocol
+        archi:
+          couche1: acces au reseau
+            specifie la forme dans laquelle les donnees
+          couche2: reseau (ou internet)
+            fourni le packet de donnee
+          couche3: Transport
+          couche4: Applicatif
+    section_3_Lab:
+      - name: 06_lab_20
+        machine_attaquante:
+          kali linux
+        metasploit:
+          default_log:
+            login: msfadmin
+            pwd: msfadmin
+        lien_utile:
+          - https://community.rapid7.com/docs/DOC-1875
+        cmd:
+          - ifconfig: find network data
+    section_4_Prise_d_info:
+      - name: 07_public_info
+        gather_info:
+          website:
+            - https://www.whois.net
+              what_for: information sur le site
+            - http://www.alexa.com
+              what_for: information sur le site
+            - http://www.archive.org
+            - http://serversniff.net
+          tools:
+            - whois
+              what_for: info on website
+              cmd: whois www.google.fr
+            - host
+              what_for: have ip of a website
+              cmd: host www.google.fr
+            - maltego
+              what_for: all about a person/thing on internet
+              config:
+                install transforms from: maltego public server
+                ready to use: run a machine
+              use:
+                click and drag dns
+                double click on it
+                enter dns to find
+                RMB on DNS -> DomainToDNSNameSchema
+                RMB on server -> ToServerTechnologiesWebsite
+            - dnsenum
+              what_for: have ip of a website
+              cmd: dnsenum www.google.com
+            - dig
+              what_for: have ip of a website
+              cmd: dig www.google.fr
+            - dmitry
+              what_for: lot of info ... host, ip, desc, ...
+              cmd:
+                dmitry
+                dmitry -iwnse www.google.com
+            - tcptraceroute
+              what_for: look to the path to access
+              cmd: tcptraceroute www.google.fr
+            - theharvester
+              what_for: look for website/ip/mail
+              cmd: 
+                theharvester -d <website_we_need_info> -l <number_of_line> -b <data_source>
+                theharvester -d www.google.fr -l 100 -b google.com
+      - name: 08_machine_list
+        enumeration_des_machines: proces pour trouver et collecter des info sur une machine cible (ports, os, service)
+        ping:
+          desc: launch packet
+          cmd:
+            ping 192.168.24.10
+            ping -c 1 192.168.24.10 # define number of packet
+            ping -i eth0 -c 1 192.168.24.10 # define interface with which you launch packet
+            ping -s 1024 192.168.24.10 # define size of packet
+        wireshark:
+          desc: analyse network transaction
+          conf:
+            choose network card
+            eth0
+            start
+            launch ping with limit number of packet
+        arping:
+          desc: analyse machine
+          cmd:
+            arping 192.168.1.106
+            arping 192.168.1.106 -c 1 # number of packet
+            arping -d 192.168.1.106 -c 1 # ???
+            arping -d -i eth0 192.168.1.106 -c 1 # choose interface
+        fping:
+          desc: as ping but multi machine
+          cmd:
+            fping 192.168.1.106
+            fping 192.168.1.106 192.168.1.19
+            fping -g 192.168.1.0/24 # scan all network
+            fping -r 1 -g 192.168.1.0/24 # how many time you try to access
+        hping3:
+          desc: generate packet
+          option:
+            -0 --raw-ip raw-ip packet
+            -1 --icmp icmp packet
+            -2 --udp udp packet
+            -8 --scan scan mode
+            -9 --listen listen mode
+          cmd:
+            hping3 -1 192.168.1.19 -c 1
+            hping3 192.168.1.106 -c 1 -S -p 22 -s 6060 # send 1 packet port 22
+            hping3 -2 192.168.1.106 -c 1 -S -p 22 -s 6060 # same thing but udp packet
+        nping:
+          desc: packet tcp, udp, icmp, more detail
+          cmd:
+            nping -c 1 192.168.1.106
+      - name: 09_scan_port_and_service_32
+        nmap:
+          desc: port scan open source
+          cmd:
+            nmap 192.168.1.106
+            nmap 192.168.1.0/24 # scan all network
+            nmap -sN -p 22,25 192.160.1.106 
+            nmap -sU -p 53,161 192.160.1.106 # UDP 
+            nmap -sV -p 80 192.160.1.106 # HTTP 
+            nmap -A 192.160.1.106 # agressiv scan, generate a file myscan.xml
+            xsltproc myscan.xml -o myscan.html
+        zenmap:
+          desc: graphic nmap
+        unicornscan:
+          desc: as nmap
+          cmd:
+            unicornscan -h
+            unicornscan -m U -Iv 192.168.1.106:1-65535
+            unicornscan -m U -Iv 192.168.1.106:1-65535 -r 10000 # choose number of pps (default: 300)
+        amap: ~
+        nbtscan, SMB:
+          cmd:
+            nbtscan 192.168.1.1-255
+            nbtscan -hv 192.168.1.1-255 # find service
+        onesixtyone, SNMP:
+          desc: find SMP profils
+          cmd:
+            onesixtyone 192.168.1.106
+            onesixtyone -d 192.168.1.106
+        nessus:
+          desc: find weakness for a computeur, can call external services (as Hydra to attack password)
+          install:
+            dpkg -i Nessus
+            /etc/init.d/nessusd start
+            # -> localhost:8834
+          cmd:
+      - name: 10_system_fingerprint_6
+    section_5_vuln_client:
+      - name: 11_come_on_14
+      - name: 12_metasploit_21
+      - name: 13_ vuln_browser_8
+      - name: 14_backdoor_10
+    section_6_vuln_web:
+      - name: 15_intro_9
+      - name: 16_site_carto_16
+      - name: 17_vuln_php_12
+      - name: 18_sql_injection_20
+      - name: 19_xss_cross_site_scripting_34
+      - name: 20_csrf_cross_site_request_forgery_11
+    section_7_vuln_reseau:
+      - name: 21_intro_4
+      - name: 22_Idle_host_scanning_17
+      - name: 23_service_deny_8
+      - name: 24_network_sniffing_11
+      - name: 25_network_spoofing_10
+      - name: 26_man_in_the_middle_13
+    section_8_vuln_app:
+      - name: 27_intro_8
+      - name: 28_buffer_overflow_18
+      - name: 29_integer_overflow_1
+      - name: 30_format_string_8
+      - name: 31_shellcode_intro_3
+      - name: 32_secu_4
+    section_9_contre_mesure:
+      - name: 33_general_counter_11
+    section_10_final:
+      - name: 34_conclusion_8
