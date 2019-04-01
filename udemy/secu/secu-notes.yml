@@ -635,10 +635,82 @@ udemy:
           scapy
           metasploit
       - name: 24_network_sniffing_11
+        tools:
+          ettercap:
+            desc: man in the middle for LAN, attack on protocole ARP ?
+            lab:
+              ettercap -G
+              sniff -> unified sniffing -> eth0
+              host -> host list -> host -> scan for host
+              mitm -> ARP Poisoning -> sniff remote connections: check
+              dvwa -> connection
+          wireshark:
+            desc: packet ananyser
+            lab:
+              wireshark -> eth0 -> start
+              dvwa -> log
+              wireshark -> HTTP post login.php
+              you can see coockies and HTML Form URL Encoded -> username, password
       - name: 25_network_spoofing_10
+        desc: send IP packet using source IP adress which is not the emiter machine one s
+        tools:
+          DNSChef:
+            desc: Proxy DNS, permit to generate false Domaine request
+            url: http://thesprawl.org/projects/dnschef/
+            lab:
+              dnschef --fakeip=192.168.133.129 --fakedomains alphorm.com --interface 192.168.133.149 -q
+          Arpspoof:
+            desc: sniff trafic, make ARP packet
+            lab:
+              arspoff -f 192.168.133.150 192.168.133.129
+          ettercap:
+            lab:
+              ettercap -G
+              sniff -> Unified sniffing -> eth0
+                -> host -> host list (ctrl+H)
+                -> host -> scan for hosts (ctrl+S)
+              Mitm -> ARP poisoning
+                -> sniff remote connection: check 
+                -> only poison one-way: check
+              Plugins -> Manage the plugins (ctrl+P) -> dns_spoof
+              on computer -> cd /etc/ettercap
+              vi etter.dns
+              alphorm.com A www.google.com -> alphorm.com A 192.168.133.129 
+              *.alphorm.com A www.google.com -> *.alphorm.com A 192.168.133.129 
       - name: 26_man_in_the_middle_13
+        tools:
+          DriftNet:
+            desc: catch snapshot of network trafic
+          3vilTwinAttacker:
+            desc: auto create fake access point
+          ettercap: ~
+          urlsnarf: ~
+        lab:
+          ettercap -G
+          sniff -> unified sniffing (ctrl+u) -> eth0
+          host -> host list (ctrl+h)
+          host -> scna for hosts (ctrl+s)
+          click on an host -> add to target 2
+          mitm -> ARP poisoning -> sniff remote connections: check
+          driftnet
+          bowser -> google -> hacking -> search -> images
+          urlsnarf -i eth0
+          browser -> www.alphorm.com
+          3vilTwin-Attacker
+            module -> Arp Poison Attack (ctrl+q)
+            scan
+            target: 192.168.133.160 -> start attack
+            template: gmail -> start server http
+          cd /usr/share/3vilTwinAttacker/Templates/Phishing/Facebook/*.log
     section_8_vuln_app_44:
       - name: 27_intro_8
+        link:
+          - assembleur: http://asm.developpez.com
+          - gestion de la memoire d un binaire: http://duartes.org/gustavo/blog/post/anatomy-of-a-program-in-memory
+          - mecanismes de protection: https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr
+        desc:
+          program execution: charge in memory element to execute
+          organisation is done by segmentation
       - name: 28_buffer_overflow_18
       - name: 29_integer_overflow_1
       - name: 30_format_string_8
@@ -646,5 +718,54 @@ udemy:
       - name: 32_secu_4
     section_9_contre_mesure_11:
       - name: 33_general_counter_11
+        veille:
+          links:
+            secu elert:
+            - http://www.cert.ssi.gouv.fr
+            - https://www.exploit-db.com
+            ref:
+            - https://www.clusif.asso.fr/rss/doc
+            - http://www.ssi.gouv.fr
+            - https://www.information-security.fr
+        intrusion:
+          - regular test
+          - audits (EBIOS, MEHARI, ...)
+          - quality test 
+          links:
+            - https://www.clusif.asso.fr
+        right splitting:
+          - think about it
+          - study it before
+          - journalisation
+          - suivi
+          - threat internal or external
+          - threat accidental or not
+        crypt: 
+          - with auth
+          - base on solution (Kerberos, PGP, RSA-K)
+          - IPSEC
+          - Todo: One Time Pad
+        firewall:
+          - internet -> firewall
+          - firewall -> LAN (client + some server)
+          - firewall -> DMZ (mail + FTP + Web server)
+        VPN: ~
+        IDS/NIDS:
+          IDS: Intrusion Detection System
+          3 family:
+            NIDS: Network Based Intrusion Detection System
+            HIDS: HostBased Untrusion Detection System
+            IDS hybrid: use NIDS and HIDS
+          Snort: NIDS, free and open
     section_10_final_8:
       - name: 34_conclusion_8
+        link:
+          - http://www.zend-security.com
+          - https://hakerzvoice.net
+          - http://www.root-me.org
+          - https://www.hacking-lab.com
+          - https://www.newbiecontest.org
+        book:
+          - Hacking, securite et tests d intrusion avec metasploit
+          - kali linux cookbook
+          - Securite informatique, Ethical hacking, Apprendre l attaque pour se defendre
