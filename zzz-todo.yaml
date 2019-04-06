@@ -251,7 +251,12 @@ todo:
         - faire des stats
         - permettre exclure des questions les prochaines fois
         - permetttre de remettre les questions exclu
-
+    - work_your_calculation:
+      desc: petit logiciel qui te donne des nombres alléatoire a toi de trouve la racine carré, le resultat multiplicatoire ...
+      content:
+        - multiplicationde deux chiffres entre 10 et 20
+        - carre entre 10 et 20
+        - racine de nombre sup a 40 000
 
 
 - * + create a todo (titre, status, deadline/rappel, color)
@@ -271,3 +276,4 @@ todo:
 * hide our todo & show a list of shared
 * avoir un suivi du deroulement de la tache (workflow, ou %)
 
+yuusha ni narenakatta

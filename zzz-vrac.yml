@@ -26,3 +26,35 @@ math:
         - multiplier les dizaine et les unites ensemble (53x81 => 5x8 et 3x1 => 40 et 3)
         - on additionne le produit en croix (5x1 + 3x8 = 29)
         - on a les centaines (40) les dizaine (29) et les unités (3) on additionne le tout (40x100 + 29x10 + 9x1 = 4293)
+cuisine:
+  oeuf:
+    src: https://www.youtube.com/watch?v=wAC4UTWw0r8
+    recette2:
+      - dans un moule (un peu plat, style moule a oeuf a micro onde)
+      - mettre du jambon
+      - un oeuf
+      - couvrir avec de l allu
+      - au four a 175 degre celsius 8-10 min
+      - dans un salladier
+      - 3 egg yolks
+      - vinaigre 1/2 tsp
+      - au bain mari bien melanger
+      - 1/2 cup de beurre fondu
+      - faire griller une tranche de muffin
+      - sortir les truc du four le posser dessus
+      - verser la sauce sur le tout
+    recette3:
+      - dans un saladier
+      - hash browns 1 lb
+      - 1 tsp salt pepper paprika
+      - tranche de lard a la poiele
+      - retirer le gras
+      - une coupelle d huille faire cuire la premiere mixture dedans
+      - dans un salladier 6 oeuf 
+      - whole milk 1/3 cup
+      - bacon 6 slices chopped
+      - cheddar 1 cup
+      - melanger
+      - verser dans la poele
+      - au four 175 degre celsius 20 min
+      - saupoudrer de ciboulette

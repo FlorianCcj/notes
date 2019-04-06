@@ -297,7 +297,7 @@ unit:
     Tok:
       type: general
       stuff:
-        arme: 5 (+10)
+        arme: 17
         banniere: 8 (+4)
         casque: 13
         armure: 6 (+2)
@@ -306,7 +306,7 @@ unit:
     Vallari:
       type: mage
       stuff:
-        baton: 3 (+9)
+        baton: 14
         cape: 7
         casque: 7
         robe: 0
@@ -315,7 +315,7 @@ unit:
     Vega:
       type: sage
       stuff:
-        baton: 6 (+6)
+        baton: 14
         livre: 8
         casque: 11
         robe: 0
@@ -333,7 +333,7 @@ unit:
     Wraxius:
       type: mage
       stuff:
-        baton: 4 (+8)
+        baton: 12
         cape: 5 (+2)
         casque: 8
         robe: 0
