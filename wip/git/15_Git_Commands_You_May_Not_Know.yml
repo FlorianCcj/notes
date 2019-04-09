@@ -1,0 +1,50 @@
+15_Git_Commands_You_May_Not_Know:
+  source: https://dev.to/zaiste/15-git-commands-you-may-not-know-4a8j?utm_source=Newsletter+Subscribers&utm_campaign=761c42a211-EMAIL_CAMPAIGN_2019_04_01_11_04&utm_medium=email&utm_term=0_d8f11d5d1e-761c42a211-154848417
+  content:
+    1. Modify The Most Recent Commit: >
+      git commit --amend
+      git help commit
+    2. Interactively Add Selected Parts of Files: >
+      git add -p
+      git add --patch
+      git help add
+    3. Interactively Stash Selected Parts of Files: >
+      git stash -p
+      git help stash
+    4. Stash with untracked: >
+      git stash -u
+      git stash -a
+      git stash --all
+    5. Interactively Revert Selected Parts of Files: >
+      git checkout -p
+      git help checkout
+     6. Switch to Previous Branch: >
+      git checkout -
+    7. Revert All Local Changes: >
+      git checkout .
+      It is, however, a good practice to always use `checkout --patch`.
+    8. Show changes: >
+      git diff --staged
+      git help diff
+    9. Rename Branches Locally: >
+      git branch -m old-name new-name
+      git branch -m new-name # rename local branch
+      git help branch
+    10. Rename Branches Remotely: >
+      git push origin :old-name
+      git push origin new-name
+    11. Open All Files with Conflicts at Once: >
+      git diff --name-only --diff-filter=U | uniq  | xargs $EDITOR
+    12. What changed?: >
+      git whatchanged —-since=‘2 weeks ago’
+    13. Remove file from last commit: >
+      git rm —-cached <file-to-remove>
+      git commit —-amend
+    14. Find Branches: >
+      git branch --contains <commit>
+    15. Optimize the repository locally: >
+      git gc --prune=now --aggressive
+      git help gc
+    Bonus: >
+      Look Magit
+      git help workflows
