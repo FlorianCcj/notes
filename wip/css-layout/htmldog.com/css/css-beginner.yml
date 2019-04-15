@@ -160,13 +160,87 @@ css:
         ```
   intermediate:
     Class and ID Selectors: Make your own selectors without the need for sticky-backed plastic!
+      #top {
+        background-color: #ccc;
+        padding: 20px;
+      }
+      .intro {
+        color: red;
+        font-weigth: bold;
+      }
+      <div id="top">
+        <h1>Chocolate curry</h1>
+        <p class="intro">This is my recipe for making curry purely with chocolate</p>
+        <p class="intro">Mmm mm mmmmm</p>
+      </div>
     Grouping and Nesting: Properties assigned to multiple selectors or selectors within selectors.
+      don t do: >
+        h2 { color: red; }
+        .thisOtherClass { color: red; }
+        .yetAnotherClass { color: red; }
+      do:
+        h2, .thisOtherClass, .yetAnotherClass { color: red; }
+      nesting: >
+        #top {
+          background-color: #ccc;
+          padding: 1em
+        }
+
+        #top h1 {
+          color: #ff0;
+        }
+
+        #top p {
+          color: red;
+          font-weight: bold;
+        }
     Pseudo Classes: Defining various states of a link selector.
+      a:link { color: blue; }
+      a:visited { color: purple; }
+      a:active { color:red; }
+      a:hover {
+        text-decoration: none;
+        color: blue;
+        background-color: yellow;
+      }
+      input:focus, textarea:focus { background: #eee; }
+      pseudo-class:
+        link, visited
+        active, hover, focus
+        first-child, last-child, target, first-of-type
     Shorthand Properties: Various properties, such as borders and margins that amalgamate other properties into one.
     Background Images: Guess.
+      body {
+        background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+      }
+      background-color, background-image, background-repeat (repeat, repeat-x, repeat-y, no-repeat), background-position 
     Specificity: How a browser will deal with conflicting CSS rules.
+      more specific = prioritary
+      p { color: red; }
+      p { color: blue; }
+      =>
+      div p { color: red; }
+      p { color: blue; }
+
+      calculating
+      p => 1
+      div p => 1+1
+      .tree => 10
+      div p.tree => 1+1+10
+      #baobab => 100
+      body #content .alternative p => 1+100+10+1
     Display: Specifying the characteristics of a box.
+      display (none, block, inline)
     Pseudo Elements: Styling first letters, first lines and placing content before and after elements.
+      p { font-size: 12px; }
+      p:first-letter { font-size: 24px; float: left; }
+      p.first-line { font-weigth: bold; }
+      blockquote:before { content: open-quote; }
+      blockquote:after { content: close-quote; }
+      li:before { content: "POW !"; }
+      list:
+        first-line, first-letter
+        before, after
     Page Layout: Floating and positioning boxes.
   advanced:
     Rounded Corners: Corners. That are rounded.

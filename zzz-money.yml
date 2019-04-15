@@ -71,8 +71,45 @@ become_rich:
         - travailler dur pour obtenir un bon travail
         - servez vous de vos talents
         - faites vous un reaseau
-        - augmentez vos sources de revenu        
+        - augmentez vos sources de revenu   
+    - title: Mes 11 conseils pour un investisseur débutant
+      source: https://mieux-gerer-son-argent.com/conseils-investisseur-debutant/
+      content:
+        les fondations:
+          Conseil 1 : Avoir une bonne épargne
+            - l’épargne de précaution: en cas de coup dur (santé, travaux, autre dépense urgente et imprévue)
+            - épargne projet: vacances, etudes, achat de bien/consomation
+            - épargne investissement: pour investir, achat cash ou apport
+          Conseil 2 : Connaitre ses flux de trésoreries
+            - connaitre ses depences, ses revenus
+            - faire un tableau de suivi
+          Conseil 3 : Réduire ses dépenses
+            - optimiser vos dépenses. (https://mieux-gerer-son-argent.com/les-2-points-pour-optimiser-ses-depenses/)
+            - annualiser vos dépenses. (https://mieux-gerer-son-argent.com/traquer-ses-depenses-en-5-minutes-en-les-annualisant/)
+          Conseil 4 : Avoir un travail qui vous convient
+        les murs, le toit: 
+          Conseil 5 : Se former
+    - title: type d investisseur
+      source: https://thierry-henry.fr/7-types-dinvestisseurs-avis/
+      content:
+        0. Ceux qui n ont rien a investir
+        1. Ceux qui emprunte
+        2. Ceux qui epargent
+        3. Ceux qui investissent intelligemment
+        4. Les investisseurs a long terme
+        5. Les investisseurs sophistique
+        6. Les capitalistes
   entreprise:
     - https://www.allianz.fr/retraite/conseils-pratiques/
     - https://conseils.thesaurus.fr/placement-financier-01?utm_medium=adwords&utm_campaign=83602825&ad_group_id=10058829265&ad_id=293817318714&utm_source=conseil%20financier&campaignid=83602825&adgroupid=10058829265&gclid=Cj0KCQjwnKHlBRDLARIsAMtMHDGS1_UF0cXF86gNieNKcxDDou4isWbwDd_Z1YaFCMe-ySRXHcqeMswaApijEALw_wcB
     - https://www.cyrusconseil-lpa.fr/?loc_physical_ms=9056135&loc_interest_ms=&kw=kwd-354672473739_conseiller%20financier&utm_source=effilab   
+  site:
+    formation_comparator: https://optifund.biz/?utm_source=PC_ADW-FR-FR_Invest&gclid=CjwKCAjwv6blBRBzEiwAihbM-Y3MJGL_rio7mFaKgIwnh9O3UWgDC1NIaOD-Sapkz2_LS_HUi6DraBoC6psQAvD_BwE#
+    livre: https://avenuedesinvestisseurs.fr/meilleurs-livres-investissement/
+    read:
+      - https://www.cafedelabourse.com/dossiers/article/8-conseils-pour-bien-investir
+      - https://www.droitdunet.fr/investir-son-argent/
+      - multi: https://www.boursedeparis.fr/centre-d-apprentissage/les-bases-de-l-investissement-en-bourse
+      - multi: https://support.rendementlocatif.com/hc/fr
+      - multi: https://mieux-gerer-son-argent.com/par-ou-commencer/
+      - revenu passif: https://www.youtube.com/watch?v=W9FYp80G9Fs
