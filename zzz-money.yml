@@ -113,3 +113,30 @@ become_rich:
       - multi: https://support.rendementlocatif.com/hc/fr
       - multi: https://mieux-gerer-son-argent.com/par-ou-commencer/
       - revenu passif: https://www.youtube.com/watch?v=W9FYp80G9Fs
+  EFP:
+    Thibaud Eigle:
+      reprendre le CONTROLE de votre vie financière:
+        source: https://www.youtube.com/watch?v=khCVtdHrH0Q
+        Regle01: Apprenez a gerer votre tresorerie
+          Se donner des objectifs a court, moyen et long terme
+          faire un suivi de tresorerie
+          mettre de coté a chaque rentree d argent (se payer soit meme)
+        Regle02: controler vos depences
+          ne pas ceder a l achat de bien de consommation
+        Regle03: Eliminer vos prets a la consommation
+          2 type de pret:
+            - pret avec collateral: pret immobilié (moins toxique)
+            - pret avec collateral: pret a la consomation (toxique, argent s evaport), priorisé leurs ellimination
+        Regle04: Elliminer votre pret immobilie
+          Ne pas obtenir votre residence principale si vous ne pouvez pas faire un apport de 50% de sa valeur                                                                                             
+          Si vous avez deja obtenu votre residence, voici quelques conseils:
+            - votre revenu - pret a la conso - epargne = argent utilisable
+            - acheter un bien qui rapport plus que votre mensualité
+            - en periode de baisse des taux d emprun, renegocié
+coaching: c est moi qui fait
+mandat de gestion: le trade fait 6-8%
+compte decouverte
+regulation: accord pour les marché
+  ironfx
+
+  

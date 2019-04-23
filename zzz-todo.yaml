@@ -2,12 +2,13 @@ todo:
   - 000_wip:
     - pes1
     - maison
-    - apart
+      - ar23
     - gn
+      - redaction
     - voiture
+      - 10h
     - mentalism
-    - hack
-    - opti-stuff
+    - note youtube
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -21,6 +22,7 @@ todo:
       - combat continent
       - tensei shitara slime datta ken (slime, je te bouffe j ai tes pouvoir)
       - tate yuusha no nariagari (invoquer, hais, bouclier en bois)
+      - luck and logic
     - mentalism: ~
     - music:
       - flute
@@ -63,6 +65,7 @@ todo:
     - chausse pied
     - chargeur
     - mp3
+    - lazy susan
   - moment_priority:
     + emprun
     - RFC read
