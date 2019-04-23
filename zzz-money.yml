@@ -16,7 +16,7 @@ become_rich:
   - source: https://www.youtube.com/watch?v=s0ID5KLHw48
     conseils:
     1. Se fixer des objectifs (+ osez visez haut)
-    2. Établir un plan d'action (agir un peu chaque jour)
+    2. Etablir un plan d'action (agir un peu chaque jour)
     3. Se lever tôt 
     4. Rester motiver en toutes circonstances 
     5. Etre positif 
@@ -72,20 +72,20 @@ become_rich:
         - servez vous de vos talents
         - faites vous un reaseau
         - augmentez vos sources de revenu   
-    - title: Mes 11 conseils pour un investisseur débutant
+    - title: Mes 11 conseils pour un investisseur debutant
       source: https://mieux-gerer-son-argent.com/conseils-investisseur-debutant/
       content:
         les fondations:
-          Conseil 1 : Avoir une bonne épargne
-            - l’épargne de précaution: en cas de coup dur (santé, travaux, autre dépense urgente et imprévue)
-            - épargne projet: vacances, etudes, achat de bien/consomation
-            - épargne investissement: pour investir, achat cash ou apport
-          Conseil 2 : Connaitre ses flux de trésoreries
+          Conseil 1 : Avoir une bonne epargne
+            - l’epargne de precaution: en cas de coup dur (sante, travaux, autre depense urgente et imprevue)
+            - epargne projet: vacances, etudes, achat de bien/consomation
+            - epargne investissement: pour investir, achat cash ou apport
+          Conseil 2 : Connaitre ses flux de tresoreries
             - connaitre ses depences, ses revenus
             - faire un tableau de suivi
-          Conseil 3 : Réduire ses dépenses
-            - optimiser vos dépenses. (https://mieux-gerer-son-argent.com/les-2-points-pour-optimiser-ses-depenses/)
-            - annualiser vos dépenses. (https://mieux-gerer-son-argent.com/traquer-ses-depenses-en-5-minutes-en-les-annualisant/)
+          Conseil 3 : Reduire ses depenses
+            - optimiser vos depenses. (https://mieux-gerer-son-argent.com/les-2-points-pour-optimiser-ses-depenses/)
+            - annualiser vos depenses. (https://mieux-gerer-son-argent.com/traquer-ses-depenses-en-5-minutes-en-les-annualisant/)
           Conseil 4 : Avoir un travail qui vous convient
         les murs, le toit: 
           Conseil 5 : Se former
@@ -113,6 +113,21 @@ become_rich:
       - multi: https://support.rendementlocatif.com/hc/fr
       - multi: https://mieux-gerer-son-argent.com/par-ou-commencer/
       - revenu passif: https://www.youtube.com/watch?v=W9FYp80G9Fs
+  devenez riche:
+    Comment trouver le bonheur interieur:
+      source: https://www.youtube.com/watch?v=9sO0B98ZAyc
+      content:
+        - accepter la realite: arreter de se plaindre ou de se revolter contre quelque chose que l on peut pas/plus controller
+        - appreciez la simplicite
+        - vivre pleinement le moment present
+        - se servir de ses 5 sens pour creer son bonheur
+        - il faut tout simplement savoir respirer: faire des exercices 1 ou 2 fois par jour
+        - sourire
+        - rechercher le cote positif dans toutes situations
+        - accepter les autres tels qu ils sont
+        - ressentir la gratiture
+        - connaitre sa vrai nature
+        - prendre le temps et la liberte de s accomplir
   EFP:
     Thibaud Eigle:
       reprendre le CONTROLE de votre vie financière:
@@ -120,23 +135,46 @@ become_rich:
         Regle01: Apprenez a gerer votre tresorerie
           Se donner des objectifs a court, moyen et long terme
           faire un suivi de tresorerie
-          mettre de coté a chaque rentree d argent (se payer soit meme)
+          mettre de cote a chaque rentree d argent (se payer soit meme)
         Regle02: controler vos depences
           ne pas ceder a l achat de bien de consommation
         Regle03: Eliminer vos prets a la consommation
           2 type de pret:
-            - pret avec collateral: pret immobilié (moins toxique)
-            - pret avec collateral: pret a la consomation (toxique, argent s evaport), priorisé leurs ellimination
+            - pret avec collateral: pret immobilie (moins toxique)
+            - pret avec collateral: pret a la consomation (toxique, argent s evaport), priorise leurs ellimination
         Regle04: Elliminer votre pret immobilie
           Ne pas obtenir votre residence principale si vous ne pouvez pas faire un apport de 50% de sa valeur                                                                                             
           Si vous avez deja obtenu votre residence, voici quelques conseils:
             - votre revenu - pret a la conso - epargne = argent utilisable
-            - acheter un bien qui rapport plus que votre mensualité
-            - en periode de baisse des taux d emprun, renegocié
+            - acheter un bien qui rapport plus que votre mensualite
+            - en periode de baisse des taux d emprun, renegocie
 coaching: c est moi qui fait
 mandat de gestion: le trade fait 6-8%
 compte decouverte
-regulation: accord pour les marché
+regulation: accord pour les marche
   ironfx
 
+
+7 exercices que tu dois realiser si tu passes toute la journee assis:
+  cou et epaule:
+    etire tes muscles: 
+      exo: appuie toi sur une porte et essaie de toucher ton epaule avec ton menton, puis reviens a la position initial (pas trop vite)
+      nombre: 10*par bras
+      resultat: chaleur dans les muscle et les homoplate
+    soulage la douleur et la tension:
+      exo: appuie toi contre un mur, les pieds a 8cm du mur, fait le papillon
+      nombre: 10*levee
+  poignets:
+    echauffer ton poignets:
+      exo: mouvement circulaire au niveau du poignet avec ton autre main
+      nombre: 10
+    echauffer les doigts:
+      exo: crochette tes 2 indexes et tire, utilise 2 balles ou jouet de renforcement pendant tes pauses
+  bas du dot et fessier:
+    exo1:
+      exo: assied toi au bord de ta chaise et etire une jambe devant toi, penche doucement ton corps vers ta jamabe, ne force pas trop
+      nombre: 5 a 10 fois par jambe
+    exo2:
+      exo: sur un tapis allonge toi avec un serviette deriere la tete, plis un genou et pose la cheville de l autre jambe sur ce genou, enroule tes mains autoir de ta cuisse et commence a tirer (si impossible, utilise une serviette), ne souleve pas tes fessiers
+      nombre: 2 fois 30 sec par jambe
   
