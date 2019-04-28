@@ -1,0 +1,19 @@
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
+
+you can see browser support
+in polyfill.ts 
+* uncomment l.49 import 'web-animation-js' and run the command just after that
+
+* trigger('name of the animation', [definitions])
+* state('name of state', definition)
+
+state('default', style({{'{'}} 
+  // https://www.w3schools.com/cssref/css_animatable.asp
+})
+
+<div id="simple"></div>
+<!-- step1 -->
+<div
+  (click)="clickSimple()"
+  [@clickedState]="clickInfo"
+></div>

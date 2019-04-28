@@ -1,0 +1,11 @@
+<button (click)="handleAddElementClicked()">Add Element</button>
+
+<div
+  *ngFor="let testResult of testResults"
+  class="test-result"
+  @ShowState
+  (@ShowState.start)="handleAnimationStarted($event)"
+  (@ShowState.done)="handleAnimationDone($event)"
+>
+  {{testResult}}
+</div>

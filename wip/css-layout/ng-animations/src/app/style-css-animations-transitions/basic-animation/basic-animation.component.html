@@ -1,0 +1,29 @@
+div {{'{'}}
+  animation: myAnimation 0.3s ease-out forwards;
+}
+
+keyframes myAnimation {{'{'}}
+  0% {{'{'}}
+    opacity: 0
+  }
+  100% {{'{'}}
+    opacity: 100
+  }
+}
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+<div
+  id="div1"
+  (click)="divClicked = !divClicked"
+  [ngClass]="{marked: divClicked}"
+  [ngStyle]="{backgroundColor: divClicked ? 'red' : 'blue'}"
+></div>
+<hr/>
+<div class="div2 animateFailed"></div>
+<hr/>
+<div 
+  class="div2"
+  (click)="doAnimate = !doAnimate"
+  [ngClass]="{animate: doAnimate}"
+></div>

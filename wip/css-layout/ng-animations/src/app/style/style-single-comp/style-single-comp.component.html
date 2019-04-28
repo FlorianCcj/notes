@@ -1,0 +1,25 @@
+<p>
+  style-single-comp works!
+</p>
+Section 1, session 4
+Le style ne se fait pas dans un seul et unique fichier.
+Comme le js et le html on decoupe tout par componant.
+De la sorte on peut prendre tout le composant sans les dependances, et ca reste presentable
+
+
+:host {{'{'}}}
+
+permet de focus le composant (dans un fichier css cela reviendrait a focus le document ou le body)
+
+on peut caster une class en fonction d'une variable grace a [ngClass]
+
+[ngClass]="{{'{'}}active: goal.isActiveGoal}": si isActiveGoal est a true alors le composant aura la classe active
+
+
+<app-goal
+  *ngFor="let goal of courseGoals"
+  [goal]="goal"
+  [ngClass]
+  (click)="goal.isActiveGoal = !goal.isActiveGoal"
+>  
+</app-goal>

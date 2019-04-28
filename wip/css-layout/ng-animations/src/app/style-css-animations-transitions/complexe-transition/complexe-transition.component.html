@@ -1,0 +1,12 @@
+<div
+  id="div1"
+  (click)="divClicked = !divClicked"
+  [ngClass]="{marked: divClicked}"
+  [ngStyle]="{backgroundColor: divClicked ? 'red' : 'blue'}"
+></div>
+<div
+  id="div2"
+  (click)="divClicked = !divClicked"
+  [ngClass]="{marked: divClicked}"
+  [ngStyle]="{backgroundColor: divClicked ? 'red' : 'blue'}"
+></div>
