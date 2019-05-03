@@ -1,14 +1,25 @@
 todo:
   - 000_wip:
     - pes1
+    - impot !!!!!!!
     - maison
-      - ar23
+      - contacter casden
     - gn
       - redaction
     - voiture
       - 10h
+    - ing
+      - compte.courant.fr@ing.com
+      OK 2 piece d identite
+      OK justif de domicile (attest, piece d ident, justif de domicile)
+      OK justif de revenu
     - mentalism
     - note youtube
+    - ironfx
+      - doc
+        OK justif
+        OK cni 
+      - money
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -23,6 +34,13 @@ todo:
       - tensei shitara slime datta ken (slime, je te bouffe j ai tes pouvoir)
       - tate yuusha no nariagari (invoquer, hais, bouclier en bois)
       - luck and logic
+      - naruto:
+        - http://mangalecture.free.fr/index.php/image/9256-chapitre-scan-naruto-640-vf-page-02
+        - https://fr.wikipedia.org/wiki/Liste_des_chapitres_de_Naruto_(2e_partie)#Tomes_61_%C3%A0_70
+        - http://op-vf.com/manga/naruto/640/7
+        - http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin
+        - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
+        - http://lelscanv.com/scan-naruto/600
     - mentalism: ~
     - music:
       - flute
@@ -164,6 +182,7 @@ todo:
     - magie:
       - bonneto de garrett thomas
       - roberto giobbi, tours
+      - emsley
   - lecture:
     - jdr:
       - https://thetrove.net/Books/Legend%20of%20the%20Five%20Rings/Maps/
@@ -173,6 +192,7 @@ todo:
       - cf index
     vrac:
       - https://github.com/phpstan/phpstan (checkstyle/error ?)
+      - https://vincent.composieux.fr/article/certificationy-un-outil-pour-sentrainer-a-la-certification-symfony
       - https://nginxconfig.io/
       - https://lyrislaser.com/wp-content/uploads/2014/08/Pai-Sho-Rules-Gameplay.pdf
       - https://www.jeuxavolonte.asso.fr/regles/le_donjon_de_naheulbeuk.pdf

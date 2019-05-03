@@ -244,11 +244,107 @@ css:
     Page Layout: Floating and positioning boxes.
   advanced:
     Rounded Corners: Corners. That are rounded.
+      /** border radius **/
+      #marilyn {
+          background: #fff;
+          width: 100px;
+          height: 100px;
+          border-radius: 20px;
+      }
+
+      #ok_a_border_then {
+          border: 5px solid #8b2;
+          width: 100px;
+          height: 100px;
+          border-radius: 5px;
+      }
+
+      /** border-top-left-radius, border-top-right-radius, border-bottom-right-radius, and border-bottom-left-radius can also be used to target specific corners. **/
+
+      #monroe {
+          background: #fff;
+          width: 100px;
+          height: 100px;
+          border-radius: 6px 12px 18px 24px;
+      }
+
+      /** elipse **/
+
+      #nanoo {
+              background: #fff;
+              width: 100px;
+              height: 150px;
+              border-radius: 50px/100px;
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+      }
     Shadows: Adding “pop” to boxes and text.
+      
+      /** box shadow **/
+      
+      box-shadow: 5px 5px 3px 1px #999
+      // horizontal offset
+      // vertical offset
+      // blur radius
+      // spread distance
+      // color
+
+      /** inner shadow **/
+
+      box-shadow: inset 0 0 7px 5px #ddd;
+    
+      /** text shadow **/
+
+      text-shadow: -2px 2px 2px #999;
+
     Universal, Child, and Adjacent Selectors: More precise aim with clever selectors.
+      universal: *
+      child: >
+      adjacent: + (h1 + p { font-weight: bold })
     Advanced Colors: Alpha transparency and HSL.
+      /** Alpha transparency **/
+      h1 {
+          padding: 50px;
+          background-image: url(snazzy.jpg);
+          color: rgba(0,0,0,0.8);
+      }
+      /** Hue, saturation, and lightness **/
+      #smut { color: hsl(36, 100%, 50%) }
+      /** HSLa **/ 
+      #rabbit { background: hsla(0, 75%, 75%, 0.5) }
+
     At-Rules: Importing style sheets, styles for different media types, specifying the character set of a stylesheet and embedded fonts.
+      /** import **/
+      @import url(morestyles.css);
+      /** @import rules must be placed at the top of a stylesheet, before any other rules. **/
+
+      /** Targeting media types **/
+      @media print { /** can be screen, print, projection, handheld, and all, or a comma-separated list **/
+          body {
+              font-size: 10pt;
+              font-family: times, serif;
+          }
+
+          #navigation {
+              display: none;
+          }
+      }
+
+      /** Embedding fonts **/
+      @font-face {
+          font-family: "font of all knowledge";
+          src: url(fontofallknowledge.woff);
+      }
+
     Attribute Selectors: Targeting boxes by their elements’ HTML attributes.
+      abbr[title] { border-bottom: 1px dotted #ccc }
+      input[type=text] { width: 200px; }
+      input[type=text][disabled] { border: 1px solid #ccc }
+      [attribute^=something] will match a the value of an attribute that begins with something.
+      [attribute$=something] will match a the value of an attribute that ends with something.
+      [attribute*=something] will match a the value of an attribute that contains something, be it in the beginning, middle, or end.
+        
+
     CSS Transitions: Creating smooth animations.
     Backgrounds: Multiples, Size, and Origin
     Transformations: Molding the size and shape of a box and its contents.

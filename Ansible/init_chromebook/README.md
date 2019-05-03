@@ -25,3 +25,20 @@ NOK - install discord
 NOK - install atom
 NOK - install vscode
 
+
+```
+#!/bin/bash
+# to rsync 0 */2 * * * rsync -az --exclude-from '/home/florianccj/Document/exclude-list.txt' /home/florianccj/Document /media/removable/SD\ Card/
+
+rsync -az --exclude-from '/home/florianccj/Document/exclude-list.txt' /home/florianccj/Document /media/removable/SD\ Card/
+```
+
+```
+#!/bin/bash
+
+cd
+mkdir Document
+cp -fr /media/removable/SD\ Card/Document/exclude-list.txt ~/Document/exclude-list.txt
+
+rsync -az /media/removable/SD\ Card/Document /home/florianccj/
+```

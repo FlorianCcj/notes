@@ -113,21 +113,13 @@ become_rich:
       - multi: https://support.rendementlocatif.com/hc/fr
       - multi: https://mieux-gerer-son-argent.com/par-ou-commencer/
       - revenu passif: https://www.youtube.com/watch?v=W9FYp80G9Fs
-  devenez riche:
-    Comment trouver le bonheur interieur:
-      source: https://www.youtube.com/watch?v=9sO0B98ZAyc
-      content:
-        - accepter la realite: arreter de se plaindre ou de se revolter contre quelque chose que l on peut pas/plus controller
-        - appreciez la simplicite
-        - vivre pleinement le moment present
-        - se servir de ses 5 sens pour creer son bonheur
-        - il faut tout simplement savoir respirer: faire des exercices 1 ou 2 fois par jour
-        - sourire
-        - rechercher le cote positif dans toutes situations
-        - accepter les autres tels qu ils sont
-        - ressentir la gratiture
-        - connaitre sa vrai nature
-        - prendre le temps et la liberte de s accomplir
+coaching: c est moi qui fait
+mandat de gestion: le trade fait 6-8%
+compte decouverte
+regulation: accord pour les marche
+  ironfx
+
+money:
   EFP:
     Thibaud Eigle:
       reprendre le CONTROLE de votre vie financière:
@@ -148,33 +140,89 @@ become_rich:
             - votre revenu - pret a la conso - epargne = argent utilisable
             - acheter un bien qui rapport plus que votre mensualite
             - en periode de baisse des taux d emprun, renegocie
-coaching: c est moi qui fait
-mandat de gestion: le trade fait 6-8%
-compte decouverte
-regulation: accord pour les marche
-  ironfx
+  youtube-david_laroche:
+    wake_up_calls:
+      8 signes d un entrepreneur qui reussi:
+        1. tu aimes aller au bout de tes projets
+        2. tu es obsessionnel et creatif
+        3. tu es a l aise avec le chaos
+        4. tu as des objectifs grands, ambitieux et inspirants pour toi
+        5. tu es toujours en train d apprendre
+        6. Tu as une forme d obsession a etre le meilleur
+        7. tu as une recuperation rapide
+        8. tu aimes le jeu
+      Comment avoir de la motivation en 10 min:
+        1. Choisir correctement son objectif
+        2. aide toi d outil exterieur qui font office de rappels
+        3. demarrer par la meditation, le sport la lecture ou l ecriture dans un journal
+        4. le pre-mortem (qu est ce qui pourrait que j abandonne) et trouver des solutions en amont
+        5. se creer un environnement de croissance, l independance est un fantasme et la dependance est un suicide, l'interdependance est la solution
+        6. eviter la surcharge d objectifs
+        7. faire une liste de pourquoi (pourquoi est-ce important de ...)
 
-
-7 exercices que tu dois realiser si tu passes toute la journee assis:
-  cou et epaule:
-    etire tes muscles: 
-      exo: appuie toi sur une porte et essaie de toucher ton epaule avec ton menton, puis reviens a la position initial (pas trop vite)
-      nombre: 10*par bras
-      resultat: chaleur dans les muscle et les homoplate
-    soulage la douleur et la tension:
-      exo: appuie toi contre un mur, les pieds a 8cm du mur, fait le papillon
-      nombre: 10*levee
-  poignets:
-    echauffer ton poignets:
-      exo: mouvement circulaire au niveau du poignet avec ton autre main
-      nombre: 10
-    echauffer les doigts:
-      exo: crochette tes 2 indexes et tire, utilise 2 balles ou jouet de renforcement pendant tes pauses
-  bas du dot et fessier:
-    exo1:
-      exo: assied toi au bord de ta chaise et etire une jambe devant toi, penche doucement ton corps vers ta jamabe, ne force pas trop
-      nombre: 5 a 10 fois par jambe
-    exo2:
-      exo: sur un tapis allonge toi avec un serviette deriere la tete, plis un genou et pose la cheville de l autre jambe sur ce genou, enroule tes mains autoir de ta cuisse et commence a tirer (si impossible, utilise une serviette), ne souleve pas tes fessiers
-      nombre: 2 fois 30 sec par jambe
+  youtube-devenez_riche:
+    Comment trouver le bonheur interieur:
+      source: https://www.youtube.com/watch?v=9sO0B98ZAyc
+      content:
+        - accepter la realite: arreter de se plaindre ou de se revolter contre quelque chose que l on peut pas/plus controller
+        - appreciez la simplicite
+        - vivre pleinement le moment present
+        - se servir de ses 5 sens pour creer son bonheur
+        - il faut tout simplement savoir respirer: faire des exercices 1 ou 2 fois par jour
+        - sourire
+        - rechercher le cote positif dans toutes situations
+        - accepter les autres tels qu ils sont
+        - ressentir la gratiture
+        - connaitre sa vrai nature
+        - prendre le temps et la liberte de s accomplir
   
+health:
+  7 exercices que tu dois realiser si tu passes toute la journee assis:
+    cou et epaule:
+      etire tes muscles: 
+        exo: appuie toi sur une porte et essaie de toucher ton epaule avec ton menton, puis reviens a la position initial (pas trop vite)
+        nombre: 10*par bras
+        resultat: chaleur dans les muscle et les homoplate
+      soulage la douleur et la tension:
+        exo: appuie toi contre un mur, les pieds a 8cm du mur, fait le papillon
+        nombre: 10*levee
+    poignets:
+      echauffer ton poignets:
+        exo: mouvement circulaire au niveau du poignet avec ton autre main
+        nombre: 10
+      echauffer les doigts:
+        exo: crochette tes 2 indexes et tire, utilise 2 balles ou jouet de renforcement pendant tes pauses
+    bas du dot et fessier:
+      exo1:
+        exo: assied toi au bord de ta chaise et etire une jambe devant toi, penche doucement ton corps vers ta jamabe, ne force pas trop
+        nombre: 5 a 10 fois par jambe
+      exo2:
+        exo: sur un tapis allonge toi avec un serviette deriere la tete, plis un genou et pose la cheville de l autre jambe sur ce genou, enroule tes mains autoir de ta cuisse et commence a tirer (si impossible, utilise une serviette), ne souleve pas tes fessiers
+        nombre: 2 fois 30 sec par jambe
+  10+ exercices simple pour soulager les yeux fatigues:
+    - roulements des yeux:
+      - assi ou debout
+      - detent les epaules
+      - redresse le dos
+      - regarde droit devant toi a gauche puis fait doucement rouler vos yeux par le haut vers la droite
+      - faire 5 fois dans un sens puis dans l'autre
+      - le faire aussi les yeux fermés
+    - etirement des yeux:
+      - assis sur une chaise
+      - regarde droit devant toi
+      - bouge tes yeux vers le haut
+      - puis vers le bas
+      - 10 repetition
+      - de meme a droite ou a gauche
+    - pression des yeux
+      - ferme les yeux
+      - appliaque une legere pression pendant 10 sec 
+      - 10 repetitions
+    - cligner des yeux:
+      - trouve un mur vide
+      - ferme les yeux 30 sec
+      - fait le 10 fois
+    - rebond
+      - fait bouger tes yeux de haut en bas le plus vite possible
+      - fait le 10 fois
+      - puis 1 min de repos
