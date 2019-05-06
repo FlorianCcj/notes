@@ -1,0 +1,37 @@
+Formation_comptabilitite:
+  source: https://openclassrooms.com/fr/paths/116-responsable-comptable
+  chap:
+    Projet1-Entrez dans votre formation de responsable comptable !:
+      projet1-part1-apprendre_a_apprendre:
+        source: https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre/4789786-pourquoi-apprendre-a-apprendre
+        
+    Projet2-Découvrez l'évolution des métiers comptables:
+      projet2-part1-contruire_votre_projet_pro
+    Projet3-Paramétrez et vérifiez les écritures comptables:
+      Projet3-Part1-Realiser_les_operation_courante_de_comptabilite
+    Projet4-Établissez des bulletins de salaire et des déclarations sociales:
+      Projet4-Part1-apprendre_a_lire_une_fiche_de_paie
+      Projet4-Part3-Maitriser_l_univers_des_cotisations_sociales.yml
+      Projet4-Part2-Découvrez_les_calculs_de_paie_et_comment_les_controler
+      Projet4-Part4-Gerer_les_relations_de_travail.yml
+    Projet5-Effectuez les écritures de fin d'exercice et préparez les états financiers:
+      Projet5-Part1-Realiser_une_comptabiliter_de_fin_d_exercice.yml
+    Projet6-Recommandez une solution numérique pour un service comptable:
+      Projet6-Part1-Automatisez_cotre_traitement_comptable.yml
+      Projet6-Part2-Maitriser_les_risques_juridiques_lies_au_numerique.yml
+    Projet7-Assurez le respect des obligations fiscales et légales d'une organisation:
+      Projet7-Part1-Assurez_la_conformite_de_vos_declarations_fiscales_au_droit.yml
+      Projet7-Part2-Mettre_en_place_un_systeme_de_veille_informationnelle.yml
+      Projet7-Part3-Ameliorer_l_impact_de_vos_presentations.yml
+    Projet8-Présentez les résultats financiers d'une entreprise:
+      Projet8-Part1-Realiser_des_reportings_et_des_budgets_pour_convaincre.yml
+      Projet8-Part2-Maitriser_les_fondemmentaux_d_excel.yml
+    Projet9-Construisez le budget d'une entreprise:
+      Projet9-Part1-Prenez_la_parole_en_public.yml
+    Projet10-Faites une projection de trésorerie:
+      Projet10-Part1-Gerez_votre_tresorerie.yml
+    Projet11-Communiquez sur les enjeux humains et les outils de la relation client:
+      Projet11-Part1-Menez_a_bien_votre_projet_CRM.yml
+    Projet12-Préparez les factures et assurez-vous de leur paiement:
+      Projet12-Part1-Superviser_la_facturation_et_le_recouvrement_des_creances.yml
+      Projet12-Part2-Rediger_des_ecrits_professionnels.yml
