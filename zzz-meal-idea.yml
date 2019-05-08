@@ -1,8 +1,48 @@
-- gratin
-- poivron-chorizo
-- quiche
-- crepe
-- blini
-- sauté de poireau
-- sauté de courgette
-- rizotto
+plat:
+  A-F:
+    A:
+    B:
+      - blini:
+        types: [ entree, plat, dessert ]
+    C:
+      - crepe:
+        types: [ plat, dessert ]
+    D:
+    E:
+    F:
+  G-L:
+    G:
+      - gratin:
+        types: [ plat ]
+    H:
+    I:
+    J:
+    K:
+    L:
+  M-R:
+    M:
+    N:
+    O:
+    P:
+      - poivron-chorizo:
+        types: [ plat ]
+    Q:
+      - quiche:
+        types: [ entree, plat ]
+    R:
+      - rizotto:
+        types: [ plat ]
+  S-X:
+    S:
+      - sauté de poireau:
+        types: [ plat ]
+      - sauté de courgette:
+        types: [ plat ]
+    T:
+    U:
+    V:
+    W:
+    X:
+  Y-Z:
+    Y:
+    Z:
