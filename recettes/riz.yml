@@ -1,0 +1,116 @@
+todo-Jambalaya:
+  source: https://www.cuisine-etudiant.fr/recette/3826-jambalaya
+todo-Risotto aux champignons et poulet:
+  source: https://www.cuisine-etudiant.fr/recette/3253-risotto-aux-champignons-et-poulet
+Risotto au chorizo:
+  source: https://www.marmiton.org/recettes/recette_risotto-au-chorizo_17724.aspx
+  realisation:
+    difficulte: 1-tres facile
+    prix: 1-bon marche
+    temps:
+      preparation: 5 min
+      cuisson: 20 min
+  ingredient:
+    quantite: pour 4 personnes
+    4 verres de moutarde de riz pour risotto, ou riz rond tout simple (moins cher)
+    2 cubes de bouillon de poule
+    3 cuillères à soupe de crème épaisse
+    3 échalotes
+    1 petit sachet de parmesan râpé
+    10 tranches de chorizo doux
+    3 cuillères à soupe de huile d'olive
+    pincée de paprika selon votre goût
+    Poivre
+    Sel
+  steps:
+    Etape 1:
+      Faire bouillir 1,5 litre d'eau puis ajoutez les 2 cubes de bouillon.
+    Etape 2:
+      Emincer les échalotes et couper le chorizo selon votre goût (en 2 ou en 4).
+    Etape 3:
+      Dans un fait-tout faire chauffer l'huile, faire revenir les échalotes 2 min, puis ajoutez le riz cru. Laisser chauffez jusqu'à ce que les grains deviennent translucides.
+    Etape 4:
+      Ajouter le bouillon au fur et à mesure jusqu'au raz du riz. Couvrir, et ajouter du bouillon quand le niveau du liquide est trop bas.
+    Etape 5:
+      Goûter le riz de temps en temps et continuer jusqu'à épuisement du bouillon.
+    Etape 6:
+      Ajouter la crème, le sel, le poivre, le paprika, le chorizo et le parmesan. Laisser cuire encore 5 min.
+    Etape 7:
+      Servir bien chaud.
+Risotto au chorizo ultra simple:
+  source: https://www.cuisine-etudiant.fr/recette/5631-risotto-au-chorizo-ultra-simple
+todo-Risotto aux lardons et champignons:
+  source: https://www.cuisine-etudiant.fr/recette/2962-risotto-aux-lardons-et-champignons
+todo-Risotto simple aux champignons:
+  source: https://www.cuisine-etudiant.fr/recette/4318-risotto-simple-aux-champignons
+Riz, légumes et poulet:
+  source: http://madame.lefigaro.fr/recettes/riz-legumes-poulet-220411-149358
+  realisation:
+    préparation : 15 min
+    cuisson : 30 min
+    Difficulté : Facile
+    types: [Plat]
+  ingredient:
+    quantite: pour 4 personnes
+    200 g de riz arborio
+    100 g de chorizo
+    1 aubergine
+    1 poivron jaune
+    1 poivron rouge
+    2 blancs de poulet
+    1 citron jaune
+    2 oignons
+    4 cuillerées à soupe d’huile d’olive
+    1 pincée de piment d’Espelette
+    1 litre de bouillon de volaille
+    2 pincées de pistil de safran
+    Sel, poivre
+  steps:
+    author: La recette de Christophe Delcourt
+    1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+    2. Couper les blancs en deux dans l’épaisseur et les mettre dans cette marinade. 
+    3. Couper les poivrons en quatre et éliminer les graines. 
+    4. Détailler l’aubergine en tranches de 2 cm. 
+    5. Huiler ces légumes, les poser sur une grille de barbecue 
+    et les faire cuire de chaque côté. 
+    6. Glisser les blancs de poulet sur des brochettes 
+    et les faire griller 2 minutes de chaque côté. 
+    7. Peler et émincer les oignons. 
+    8. Verser 1 cuillerée à soupe d’huile dans un plat 
+    (pouvant cuire sur un barbecue), faire chauffer, 
+    ajouter les oignons et faire cuire 5 minutes. 
+    9. Ajouter les tranches de chorizo, laisser cuire 1 minute et les retirer du plat. 
+    10. Verser le riz, mélanger, ajouter le bouillon, le safran, 
+    couvrir et laisser cuire 20 minutes. 
+    11. Verser les légumes, le chorizo, le poulet, et laisser cuire 5 minutes.
+todo-Riz, poulet, chapignons et oignons au miel :
+  source: https://www.cuisine-etudiant.fr/recette/297-riz-poulet-chapignons-et-oignons-au-miel
+Riz à la tomate et au jambon:
+  source: http://madame.lefigaro.fr/recettes/riz-tomate-jambon-170107-6217
+  realisation:
+    Temps de préparation : 5 min
+    Temps de cuisson : 10 min
+    Difficulté : Facile
+    Type de plat : Plat
+  ingredient:
+    quantite: pour 4 personnes
+    2 paquets de 250 g de riz long précuit (Uncle Ben's)
+    250 g de tranches de jambon cuit ou 150 g de jambon coupé en allumettes (Fleury Michon)
+    200 g de sauce tomate toute prête
+    2 cs de huile d'olive
+    1 sachet de knackis
+    Sel, poivre
+  steps:
+    Piquer le sachet d’emballage des knackis de quelques coups de fourchette, 
+    le mettre dans le micro-ondes et faire cuire 1 minute, sélecteur « maximum ». 
+    Retirer les knackis de l’emballage et les couper en tranches de 1/2 cm.
+    Mettre le riz dans une cocotte allant au micro-ondes, 
+    ajouter la sauce tomate, 
+    l’huile, saler et poivrer, puis mélanger, 
+    couvrir d’un film alimentaire et laisser cuire 3 minutes, sélecteur « maximum ». 
+    Ajouter le jambon coupé en lanières de 1/2 cm et les tranches de knacki. 
+    Remettre le plat au micro-ondes et faire cuire 2 minutes position « gril ». 
+    Servir chaud.
+
+
+

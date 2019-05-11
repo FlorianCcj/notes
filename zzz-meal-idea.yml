@@ -7,6 +7,8 @@ plat:
     C:
       - crepe:
         types: [ plat, dessert ]
+      - croque-monsieur:
+        types: [ plat ]
     D:
     E:
     F:
@@ -30,7 +32,7 @@ plat:
       - quiche:
         types: [ entree, plat ]
     R:
-      - rizotto:
+      - risotto:
         types: [ plat ]
   S-X:
     S:
@@ -43,6 +45,8 @@ plat:
     V:
     W:
     X:
+      - xaxiu:
+        types: [ plat ]
   Y-Z:
     Y:
     Z:
