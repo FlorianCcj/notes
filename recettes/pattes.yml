@@ -1,4 +1,4 @@
-Galette de spaghetti:
+totest-Galette de spaghetti:
   source: http://madame.lefigaro.fr/recettes/galette-de-spaghetti-121200-198065
   realisation:
     Temps de préparation : 10 min
@@ -18,19 +18,42 @@ Galette de spaghetti:
     Battez les œufs, incorporez-y le fromage râpé et les pâtes puis salez et poivrez selon vos goûts.
     Versez la préparation dans la poêle et laissez cuire sur la première face pendant 10 minutes.
     Lorsque la galette est presque cuite et le dessous doré, retournez-la comme une crêpe et faites dorer l'autre face.
-todo-Gratin de pâtes:
-  source: https://www.cuisine-etudiant.fr/recette/5785-gratin-de-pates
-todo-Gratin de Pâtes très facile:
+totest-Gratin de Pâtes très facile:
   source: https://www.cuisine-etudiant.fr/recette/5158-gratin-de-pates-tres-facile
-todo-Gratin de pâtes au chorizo et jambon:
+  realisation:
+    duree: 30 min
+    prix: 5e/personne
+    difficulte: 4/10 Facile
+  ingredients:
+    quantite: pour 4
+    Pâtes
+    Lardon
+    1 Oignon
+    Crème fraiche
+    Gruyère
+    Parmesan
+    Fond de veau
+    Sel
+    Poivre
+    Beurre
+    Huile d'olive
+  steps:
+    - Préchauffez votre four a 200°C
+    - Faire bouillir de l'eau dans une casserole. Quand l'eau bouillie rajouter un peu d'huile d'olive et les pâtes.
+    - Couper l'oignon finement.
+    - En même temps, faire cuire dans une poêle les lardons avec une noix de beurre et l'oignon.
+    - Une fois les lardons cuits, rajouter la crème fraiche, une cuillère a soupe de fond de veau, un peu de gruyère, de parmesan, l'oignon émincé, salez et poivrez. Laissez mijoter.
+    - Quand vos pâtes sont prêtes, mettez les dans le plat à four. Rajoutez vos lardons. Mélanger le tout. Puis rajoutez par dessus du gruyère râpé et du parmesan.
+    - Enfournez le tout pendant 10 min.
+totest-todo-Gratin de pâtes au chorizo et jambon:
   source: https://www.cuisine-etudiant.fr/recette/5632-gratin-de-pates-au-chorizo-et-jambon
-todo-Grattin façon lasagne poulet/cordons:
+totest-todo-Grattin façon lasagne poulet/cordons:
   source: https://www.cuisine-etudiant.fr/recette/4638-grattin-facon-lasagne-poulet-cordons
-Nouilles chinoises au poulet :
+totest-Nouilles chinoises au poulet :
   source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
-todo-Pâtes aux oignons caramélisés:
+totest-todo-Pâtes aux oignons caramélisés:
   source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
-Pâtes aux poivrons:
+totest-Pâtes aux poivrons:
   realisations:
     Temps de préparation : 15 min
     Temps de cuisson : 30 min
@@ -57,7 +80,7 @@ Pâtes aux poivrons:
     Parallèlement, portez de l'eau salée au gros sel à ébullition. Faites cuire les pâtes selon le temps indiqué sur le paquet. Egouttez-les.
     Lavez et ciselez le basilic.
     Servez les pâtes nappées de sauce. Ajoutez un carré de feta et décorez de basilic.
-Pâtes à la sauce tomate:
+totest-Pâtes à la sauce tomate:
   source: http://madame.lefigaro.fr/recettes/pates-tomate-060201-200395
   realisation:
     Temps de préparation : 15 min
@@ -82,13 +105,11 @@ Pâtes à la sauce tomate:
     Finitions et dressage:
       Égouttez les pâtes, mettez-les dans un plat et versez la sauce tomate dessus.
       Saupoudrez de basilic ciselé
-todo-Pâtes crème et chorizo:
+totest-todo-Pâtes crème et chorizo:
   source: https://www.cuisine-etudiant.fr/recette/3913-pates-creme-et-chorizo
-todo-Pâtes sauce crémeuse aux champignons:
+totest-todo-Pâtes sauce crémeuse aux champignons:
   source: https://www.cuisine-etudiant.fr/recette/3226-pates-sauce-cremeuse-aux-champignons
-todo-Poêlée de nouilles aux légumes et poulet:
+totest-todo-Poêlée de nouilles aux légumes et poulet:
   source: https://www.cuisine-etudiant.fr/recette/5711-poelee-de-nouilles-aux-legumes-et-poulet
-todo-Le triple P (Poulet, Poivrons, Pâtes):
-  source: https://www.cuisine-etudiant.fr/recette/5757-le-triple-p-poulet-poivrons-pates
-todo-Tagliatelles de courgettes au saumon:
+totest-todo-Tagliatelles de courgettes au saumon:
   source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile

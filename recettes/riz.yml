@@ -1,8 +1,27 @@
-todo-Jambalaya:
+totest-todo-Jambalaya:
   source: https://www.cuisine-etudiant.fr/recette/3826-jambalaya
-todo-Risotto aux champignons et poulet:
+totest-Risotto aux champignons et poulet:
   source: https://www.cuisine-etudiant.fr/recette/3253-risotto-aux-champignons-et-poulet
-Risotto au chorizo:
+  realisation:
+    duree: 29 min
+    prix: 4,4e/personne
+    difficulte: 4/10 - facile
+  ingredients:
+    quantite: pour 3 personnes
+    360g de riz arborio pour risotto
+    3 filets de poulet
+    2 boites de champignons de Paris
+    20cl de crème liquide légére
+    1 oignon
+    1 cube de bouillon de volaille
+    1 peu de beurre pour la poele
+  steps:
+    - Faire cuire le riz le temps indiqué sur le sachet dans de l'eau où l'on aura ajouté un cube de bouillon de volaille.
+    - Couper les champignons, l'oignon et les filets de poulet en petits morceaux.
+    - Faire revenir à feu vif le poulet jusqu'à qu'il commence à griller.
+    - Baisser le feu, ajouter les champignons et l'oignon.
+    - Verser la crème dans la poêle, m"langer quelques secondes, puis ajouter le riz égoutté et mélanger à nouveau, jusqu'à que le riz est absorbé la crème.
+totest-Risotto au chorizo:
   source: https://www.marmiton.org/recettes/recette_risotto-au-chorizo_17724.aspx
   realisation:
     difficulte: 1-tres facile
@@ -37,13 +56,13 @@ Risotto au chorizo:
       Ajouter la crème, le sel, le poivre, le paprika, le chorizo et le parmesan. Laisser cuire encore 5 min.
     Etape 7:
       Servir bien chaud.
-Risotto au chorizo ultra simple:
+totest-todo-Risotto au chorizo ultra simple:
   source: https://www.cuisine-etudiant.fr/recette/5631-risotto-au-chorizo-ultra-simple
-todo-Risotto aux lardons et champignons:
+totest-todo-Risotto aux lardons et champignons:
   source: https://www.cuisine-etudiant.fr/recette/2962-risotto-aux-lardons-et-champignons
-todo-Risotto simple aux champignons:
+totest-todo-Risotto simple aux champignons:
   source: https://www.cuisine-etudiant.fr/recette/4318-risotto-simple-aux-champignons
-Riz, légumes et poulet:
+totest-Riz, légumes et poulet:
   source: http://madame.lefigaro.fr/recettes/riz-legumes-poulet-220411-149358
   realisation:
     préparation : 15 min
@@ -83,7 +102,7 @@ Riz, légumes et poulet:
     10. Verser le riz, mélanger, ajouter le bouillon, le safran, 
     couvrir et laisser cuire 20 minutes. 
     11. Verser les légumes, le chorizo, le poulet, et laisser cuire 5 minutes.
-todo-Riz, poulet, chapignons et oignons au miel :
+totest-todo-Riz, poulet, chapignons et oignons au miel :
   source: https://www.cuisine-etudiant.fr/recette/297-riz-poulet-chapignons-et-oignons-au-miel
 Riz à la tomate et au jambon:
   source: http://madame.lefigaro.fr/recettes/riz-tomate-jambon-170107-6217

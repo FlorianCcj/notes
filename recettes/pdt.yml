@@ -1,14 +1,14 @@
-todo-Croque cake:
+totest-todo-Croque cake:
   source: https://www.cuisine-etudiant.fr/recette/3969-croque-cake
-todo-Croque-Monsieur à l'italienne:
+totest-todo-Croque-Monsieur à l'italienne:
   source: https://www.cuisine-etudiant.fr/recette/5765-croque-monsieur-a-l-italienne
-Croque pizza:
+totest-Croque pizza:
   source: https://www.cuisine-etudiant.fr/recette/5811-croque-pizza
-Feuilletés jambon sec et comté:
+totest-Feuilletés jambon sec et comté:
   source: https://www.cuisine-etudiant.fr/recette/3747-feuilletes-jambon-sec-et-comte
-todo-Lasagnes au chèvre et au bacon:
+totest-todo-Lasagnes au chèvre et au bacon:
   source: https://www.cuisine-etudiant.fr/recette/4528-lasagnes-au-chevre-et-au-bacon
-Pommes darphin au comté, œuf à cheval:
+totest-Pommes darphin au comté, œuf à cheval:
   source: http://madame.lefigaro.fr/recettes/pommes-darphin-comte-oeuf-cheval-210308-6736
   realisation:
     Temps de préparation : 15 min
@@ -50,15 +50,15 @@ Pommes darphin au comté, œuf à cheval:
       faire glisser les œufs, 
       laisser cuire 3 ou 4 minutes à feu doux et saler légèrement le blanc, 
       qui doit être cuit mais pas le jaune.
-todo-Pommes de terre au chorizo et à l'emmental:
+totest-todo-Pommes de terre au chorizo et à l'emmental:
   source: https://www.cuisine-etudiant.fr/recette/4888-pommes-de-terre-au-chorizo-et-a-l-emmental
-todo-pommes de terre sautées, dorées et croustillantes :
+totest-todo-pommes de terre sautées, dorées et croustillantes :
   source: https://www.cuisine-etudiant.fr/recette/5569-pommes-de-terre-sautees-dorees-et-croustillantes
-todo-Galette de pomme de terre à agrémenter... ou pas:
+totest-todo-Galette de pomme de terre à agrémenter... ou pas:
   source: https://www.cuisine-etudiant.fr/recette/5234-galette-de-pomme-de-terre-a-agrementer-ou-pas
-todo-Gnocchis au saumon et aux champignons:
+totest-todo-Gnocchis au saumon et aux champignons:
   source: https://www.cuisine-etudiant.fr/recette/4477-gnocchis-au-saumon-et-aux-champignons
-Gratiné de pommes de terre aux lardons:
+totest-Gratiné de pommes de terre aux lardons:
   source: http://madame.lefigaro.fr/recettes/gratine-de-pommes-de-terre-lardons-151203-201058
   realisation:
     Temps de préparation : 15 min
@@ -86,7 +86,7 @@ Gratiné de pommes de terre aux lardons:
       Ajoutez le lait.
     Cuisson
       Enfournez pendant 30 à 45 minutes.
-Naan au fromage:
+totest-Naan au fromage:
   source: https://www.cuisine-etudiant.fr/recette/5565-naan-au-fromage
 
 

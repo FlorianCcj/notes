@@ -1,6 +1,6 @@
-todo-Escalope normande express:
+totest-todo-Escalope normande express:
   source: https://www.cuisine-etudiant.fr/recette/5274-escalope-normande-express
-Papillote de poulet:
+totest-Papillote de poulet:
   source: https://www.marmiton.org/recettes/recette_papillote-de-poulet_29004.aspx
   realisation:
       temps: 
@@ -26,9 +26,9 @@ Papillote de poulet:
       Disposer les papillotes dans un plat et laisser cuire à four chaud pendant 40 mn environ à 200°c.
     Etape 5:
       BON APPÉTIT.
-todo-Porc au caramel:
+totest-todo-Porc au caramel:
   source: https://www.cuisine-etudiant.fr/recette/180-porc-au-caramel
-Le poulet à la coriandre:
+totest-Le poulet à la coriandre:
   source: http://madame.lefigaro.fr/recettes/le-poulet-a-la-coriandre-280310-7003
   realisation: 
     préparation : 15 min
@@ -49,25 +49,25 @@ Le poulet à la coriandre:
     Sel
     Poivre
   steps:
-    Preparation du poulet
+    Preparation du poulet:
       Faire chauffer une cocotte avec 1 cuillerée à soupe d’huile de tournesol. 
       Y faire dorer le poulet coupé en morceaux sur toutes les faces avec le bouillon
       cube.
-    Assaisonnement du poulet
+    Assaisonnement du poulet:
       Ajouter le citron coupé en morceaux, l‘échalote et la botte de coriandre hachés. 
       Saler, poivrer et ajouter 1 pincée de quatre-épices. 
       Verser le cognac et faire flamber. 
       Ajouter le vin blanc, puis laisser mijoter une heure à couvert.
-    Finitions et dressage
+    Finitions et dressage:
       Lier la sauce avec la crème fraîche. 
       Servir accompagné d’un riz basmati.
-todo-Poulet à la crème et aux champignons :
+totest-todo-Poulet à la crème et aux champignons :
   source: https://www.cuisine-etudiant.fr/recette/5241-poulet-a-la-creme-et-aux-champignons
-todo-Poulet à la crème, aux oignons et aux champignons:
+totest-todo-Poulet à la crème, aux oignons et aux champignons:
   source: https://www.cuisine-etudiant.fr/recette/3113-poulet-a-la-creme-aux-oignons-et-aux-champignons
-todo-Poulet à l'ancienne:
+totest-todo-Poulet à l'ancienne:
   source: https://www.cuisine-etudiant.fr/recette/4529-poulet-a-l-ancienne
-Le poulet à l’Australienne de Natacha:
+totest-Le poulet à l’Australienne de Natacha:
   source: http://madame.lefigaro.fr/recettes/poulet-laustralienne-de-natacha-261206-5976
   realisation:
     Temps de préparation : 15 min
@@ -96,9 +96,9 @@ Le poulet à l’Australienne de Natacha:
     Finitions
       Retirer le plat du four, poivrer légèrement. 
       Servir avec le riz blanc agrémenté de copeaux de noix de coco
-Poulet caramelisé au miel:
+totest-Poulet caramelisé au miel:
   source: https://www.cuisine-etudiant.fr/recette/764-poulet-caramelise-au-miel
-Poulet Castro:
+totest-Poulet Castro:
   source:
   realisation:
     temps: 
@@ -133,14 +133,15 @@ Poulet Castro:
       En fin de cuisson du poulet, ajouter deux grosses cuillères à soupe de crème fraîche, laisser frémir deux/trois minutes.
     Etape 7:
       Rectifier l'assaisonnement, servir immédiatement avec du riz parfumé.
-todo-Poulet crème:
+totest-todo-Poulet crème:
   source: https://www.cuisine-etudiant.fr/recette/1582-poulet-creme
-todo-Poulet à la moutarde:
+totest-todo-Poulet à la moutarde:
   source: https://www.cuisine-etudiant.fr/recette/102-poulet-a-la-moutarde
-todo-Poulet miel balsamique:
+totest-todo-Poulet miel balsamique:
   source: https://www.cuisine-etudiant.fr/recette/2999-poulet-miel-balsamique
-todo-Le poulet pané cajun façon "soul food":
+totest-todo-Le poulet pané cajun façon "soul food":
   source: https://www.cuisine-etudiant.fr/recette/3035-le-poulet-pane-cajun-facon-soul-food
-todo-travers de porc au caramel:
+totest-todo-travers de porc au caramel:
   source: https://www.cuisine-etudiant.fr/recette/5753-travers-de-porc-au-caramel-facile
-
+todo:
+  https://recettemedievale.fr/ahrash-galettes-de-viande-epicees/
