@@ -225,4 +225,59 @@ health:
     - rebond
       - fait bouger tes yeux de haut en bas le plus vite possible
       - fait le 10 fois
-      - puis 1 min de repos
+      - puis 1 min de r
+
+
+
+health:
+  souplesse:
+    test1: assis sur les fesses, genoux tendu
+      si ca tirre a l'arierer de la cuisse -> etirement passif
+      si ca tirre pas a l'arierer de la cuisse -> 2e test
+    test2: assis par terre, jambes gauche a 90 degre de la droite, ecarte, maintient 10-15 sec 
+      si ca tirre -> etirement passif
+      si non -> etirement actif
+    CRE: contracter relacher etirer 
+    etirement passif: sans contraction musculaire
+      exercice:
+        - dos droits, jambes par terre ecarte au max, 
+        penche le corps en avant, garder la position 
+        15-60 sec
+        5 series
+        entre 2 series garder le corps legerement pencher en avant
+        2-3 seances par semaines, hors seances de sport
+    etirement actif: avec contraction musculaire
+      CRE
+      Contraction 8 sec Relachement 3 sec Etirement 15 sec
+      contracter les muscle en mettant les pieds vers le haut
+  abdos:
+    1. crunch: 30 repetitions
+      une jambe au sol l autre plier
+      les mains deriere la tete
+      le ventre rentre au max 
+    2. rotation du bassin: 10 rep
+      jambe en l'air
+      fesse en l air
+      rotater
+    3. gainage coudes avances: 45 sec
+    4. crunch myotatique ballo: 10 rep
+    5. descente jambe ou dragon flag: 10 rep ou 5 rep
+    3 jours 1 min de repos/tour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -40,6 +40,8 @@ plat:
         types: [ plat ]
       - sauté de courgette:
         types: [ plat ]
+      - soupe chinoise:
+        types: [ plat ]
     T:
     U:
     V:
