@@ -1,0 +1,263 @@
+monday:
+  ligthing talks
+    - kubevirt present by antoine Legrand
+    - GUI, better UI, contributors motivations
+    - CKA exam:
+      - doc offi -> tasks (k8s.io/docs/tasks) and concept
+      - cheatsheet
+      - dry run permit to create manifest
+      - use known manifest
+      - alias:
+        k=kubectl
+        kgp=kubctl get po
+        kgd=kubectl get deployement
+      - k run --help | grep kubectl
+      - k run --help | grep restart
+      - k run optest --image=nginx --restart=Never
+    - healthcheck:
+      Matthias Bertschy, fr
+      readiness/livenessProbe
+      add a 3rd probe, startupProbe
+      issue 950
+      hiring swissquote
+    tech to see:
+      - helpio
+      - kubevirt
+      - panda
+      - linkerd
+      - kata
+      - jetstack
+      - learnk8s
+tuesday:
+  keynotes:
+    tellemetry must be a built in functionality
+    opentracing + opencensus => open telemetry
+  Building Images Efficiently and Securely on Kubernetes with BuildKit:
+    in go: gockerfile
+    buildkit in k8s:
+      ci/cd
+      ux
+    rootless mode:
+      no more securityContext.Privileged
+      disable sandbox process
+      disable seccomp and apparmor
+      futur integration with gvisor
+        -> permit to not disable seecomp and apparmor
+    deploy:
+      - usual deploymebnt
+      - daemon stat
+      - statefull set
+      - job
+    buildx: permit to launch build auto in buildkit
+    other: kaniko, buildah, makisu
+    permet de recuperer les secret au traves d un service account
+    github.com/moby/builkit
+  Intro: Network Service Mesh (NSM):
+    manage network between cluster and add security
+    helm install nsm
+    helm install marshas-app-connectivity
+    work with any CNI
+  Tutorial: Building Security into Kubernetes Deployment Pipelines
+    https://ibm.biz/kubecon-secure-deployment
+    stage:
+      build
+      test
+      scan
+      analuysis
+      QA
+      deploy
+    harbor: notary (crypto, image signing), docker, clair (scan)
+    notary: permit to signed with people, if you trust one of the people you get it
+    portieris: agent who ask signature to notary
+      ibmcom/portieris:0.5.1
+      ibmcom/portieris@sha256:2342BEF3242
+
+    lets practive: https://ibm.biz/kubecon-secure-deployment
+
+  Intro: Kubernetes Architecture SIG
+    14h50 -> 15h25
+    gouvernance des depots ....
+  Intro: TUF / Notary
+    8.1 - G1
+  F5 - rook
+    15h55 -> 16h30
+
+  hall 6 keynotes
+    16h45 -> 18h
+  to see:
+    openEBS
+    - cri-o
+    kubernetes.slack.com
+    - builkit: kaniko without root
+    - harbor
+    - notary
+    - portieris
+    - kubesec.io
+
+MErcredi
+  9h
+    Keynote: Opening Remarks
+  9h05
+    Keynote: How Spotify Accidentally Deleted All its Kube Clusters with No User Impact
+  9h27
+    Sponsored Keynote: Building a Bigger Tent: Cloud Native, Cultural Change and Complexity
+  9h34
+    Keynote: A Journey to a Centralized, Globally Distributed Platform
+  9h51
+    Sponsored Keynote: What I Learned Running 10,000+ Kubernetes Clusters
+  9h58
+    Keynote: Debunking the Myth: Kubernetes Storage is Hard
+  10h18
+    Keynote: Closing Remarks
+  11h05
+    8.E4 Deep Dive: CNCF CI
+      3 step
+        CI testing system
+        status reporting
+      cncf.io/service-for-project
+      cncf.ci
+  11h55
+    E9-Deep Dive: Kubernetes Architecture SIG
+      gouvernance + lead dev
+  14h
+    The Magic of Kubernetes Self-Healing Capabilities
+      controller: observe and rectify
+      declarative api
+
+      imperative:
+        declare all step
+      declarative:
+        declare state you want, and fuck off
+      
+
+  14h50
+    B1 Container Forensics: What to Do When Your Cluster is a Cluster
+      cryptocurrency mining on docker hum images
+      connaitre les logs a recupérer et repérer les inconnu
+      
+      infra logs
+      k8s logs
+      node system log xhen user play on it
+      os log
+
+      make a snapshot aff node affected
+      dent it to analysis
+
+      docker-explorer
+      mount /dev/sda1 /mnt/root
+      find container id
+      mount container filesystem
+
+      alert - isolate - pause - restartt - kill
+
+      to see: 
+        - GRR
+        - sysdig inspect & capture
+        - kubectl cordon
+
+  15h44
+    Tracing is More Than Traces
+    B1 - Smarter Kubernetes Access Control: A Simpler Approach to Auth
+  16h45
+    A1 - 10 Ways to Shoot Yourself in the Foot with Kubernetes
+    Deep Dive: Cluster Lifecycle SIG
+    Deep Dive: TUF / Notary
+    Panel Discussion: Multi-Tenancy in Kubernetes: Current State and Future Roadmap
+Jeudi
+  - 09:00
+    - Keynote: Opening Remarks
+  - 09:07
+    - Keynote: Kubernetes - Don't Stop Believin'
+  - 09:29
+    - Keynote: From COBOL to Kubernetes: A 250 Year Old Bank's Cloud-Native Journey
+  - 09:51
+    - Keynote: Metrics, Logs & Traces; What Does the Future Hold for Observability?
+      to see: 
+        - sipkin + ES
+        - open telemetry
+        - grafana loki
+  - 10:13
+    - Keynote: Closing Remarks
+  - 11:05
+    - A1 You Might Just be a Functional Programmer Now
+    - B3 Testing your K8s apps with KIND
+    - B1 DIY Pen-Testing
+      insecure port
+        curl http://172.26.128.3
+        curl http://172.26.128.3:8080
+        -> get all paths
+        curl http://172.26.128.3:8080/api/v1
+        curl http://172.26.128.3:8080/api/v1/namespace/default/pods
+      secure port
+        curl -k https://172.26.128.3:6443
+      RBAC - system: anonymous
+        curl -k https://172.26.128.3:6443/healthz
+      with a known identity
+        in a container, with a token, curl on securoty with -H 'authorization: bearer $Token'
+      access secret -> elevation privileged
+        get/descibez secret
+      etcd:
+        curl -k https://<sserver ip>:2379/version
+      kubelet API:
+        curl -k https://<sserver ip>:10250/version
+        curl -k -H https://<sserver ip>:10250/metrics
+        curl -k -H https://<sserver ip>:10250/pods
+      ./kube-hunter.py
+      inside a pod
+        ./kube-hunter.py
+      active hunter
+        ./kube-hunter.py
+        mode 1
+        ip server
+        -> will try to do some things
+      qwick look in kube hunter
+      to see:
+        - kube-hunter from aquasecurity (github.com/aquasecurity/kube-hunter)
+  - 11:55
+    - A1 Grafana Loki: Like Prometheus, But for logs. - Tom Wilkie, Grafana Labs
+      help
+    - C1 Lessons Learned Migrating Kubernetes from Docker to containerd Runtime - Ana Calin, Paybase
+  - 14:00
+    - Deep Dive: Linkerd - Oliver Gould, Buoyant
+    - C4 Deploy, Scale and Extend Jaeger - Louis-Etienne Dorval, Ticketmaster
+      a
+    - E5 Intro + Deep Dive: Jaeger - Juraci Paixão Kröhling, Red Hat & Prithvi Raj, Uber
+  - 14:50
+    - A1 Sharing is Caring: Your Kubernetes Cluster, Namespaces, and You - Amy Chen & Eryn Muetzel, VMware
+    - 1 G2 Deep Dive: Brigade - Radu Matei, Microsoft
+    - B1 Protecting the Data Lake - Ash Narkar, Styra, Inc
+      a
+  - 15:55
+    - Peribolos: How Kubernetes Uses GitOps to Manage GitHub Communities at Scale - Christoph Blecker, Red Hat & Erick Fejta, Google
+    - What Goes in a Release: Kubernetes 1.14 in Code, Conversations, and Hearts - Maria Ntalla, Pivotal
+    - Scaling and Securing Spark on Kubernetes at Bloomberg - Ilan Filonenko, Bloomberg
+    - Deep Dive: KubeEdge - Cindy Xing & Zefeng Wang, Huawei
+    - Monitoring Service Architecture and Health with BPF - Jonathan Perry, Flowmill, Inc.
+    - Reenforce Kubernetes Image Isolation in Multi-Tenant Service - Eric Lin, Alibaba
+    - Secrets Store CSI Driver-Bring Your Own Enterprise Secrets Store to K8s - Rita Zhang, Microsoft & Anubhav Mishra, HashiCorp
+    - F3 Networking the Service Mesh Proxy: Where We Are, Where We’re Going - Tim Swanson & John Joyce, Cisco
+      a
+    - Intro + Deep Dive: containerd - Wei Fu, Alibaba & Mike Brown, IBM
+  - 16:45
+    - Microservices for the Masses – Integrating a Distributed OS with Kubernetes - Quinton Hoole, Huawei & Irene Zhang, Microsoft Research & University of Washington
+    - Deep Dive: Helm - Matt Fisher & Adam Reese, Microsoft
+    - B1 - Fool-Proof Kubernetes Dashboards for Sleep-Deprived Oncalls - David Kaltschmidt, Grafana Labs
+      a
+    - Uber x Security: Why and How We Built Our Workload Identity Platform - Tyler Julian, Uber & Daniel Feldman, Scytale
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
