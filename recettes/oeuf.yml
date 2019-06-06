@@ -1,37 +1,41 @@
-totest-Tortilla d’oignons et chorizo:
-  source: http://madame.lefigaro.fr/recettes/tortilla-doignons-chorizo-170609-202070
-  realisation:
-    préparation : 10 min
-    cuisson : 20 min
-    Difficulté : Très facile
-    Type de plat : Plat
-  ingredient:
-    quantite: pour 4
-    100 g de chorizo
-    3 oignons
-    20 g de beurre
-    gros sel
-    sel, poivre
-    5 œufs
-    1/2 poivron rouge
-  steps:
-    1. Brosser et laver la peau des pommes de terre, 
-    2. les plonger dans une casserole remplie d’eau salée au gros sel. 
-    3. Porter à ébullition et cuire à frémissement 
-    jusqu’à ce que la lame d’un couteau 
-    pénètre facilement la chair des pommes de terre. 
-    4. Égoutter et laisser refroidir. Les peler et tailler en épaisses rondelles.
-    5. Retirer la peau du chorizo, le couper en fines rondelles.
-    6. Éplucher, laver et tailler les oignons en lamelles.
-    7. Égrainer, laver et couper le poivron en lanières.
-    8. Casser les œufs, les déposer dans un saladier et battre en omelette. 
-    9. Assaisonner.
-    10. Dans une poêle, faire fondre le beurre, y déposer les oignons et le poivron. 
-    11. Cuire 5 à 6 minutes en remuant régulièrement. 
-    12. Ajouter les pommes de terre et le chorizo. Cuire 2 minutes.
-    13. Verser le contenu du saladier. 
-    14. Cuire à feu moyen jusqu’à ce que les œufs coagulent. 
-    15. Retourner la tortilla de manière à faire dorer l’autre face 
-    (la tortilla doit être plus compacte que la traditionnelle omelette française 
-    et n'est jamais baveuse).
-    16. Servir chaud ou tiède !
+ABCDE: ~
+FGHIJ: ~
+KLMNO: ~
+PQRST:
+  totest-Tortilla d’oignons et chorizo:
+    source: http://madame.lefigaro.fr/recettes/tortilla-doignons-chorizo-170609-202070
+    realisation:
+      préparation : 10 min
+      cuisson : 20 min
+      Difficulté : Très facile
+      Type de plat : Plat
+    ingredient:
+      quantite: pour 4
+      100 g de chorizo
+      3 oignons
+      20 g de beurre
+      gros sel
+      sel, poivre
+      5 œufs
+      1/2 poivron rouge
+    steps:
+      1. Brosser et laver la peau des pommes de terre, 
+      2. les plonger dans une casserole remplie d’eau salée au gros sel. 
+      3. Porter à ébullition et cuire à frémissement 
+      jusqu’à ce que la lame d’un couteau 
+      pénètre facilement la chair des pommes de terre. 
+      4. Égoutter et laisser refroidir. Les peler et tailler en épaisses rondelles.
+      5. Retirer la peau du chorizo, le couper en fines rondelles.
+      6. Éplucher, laver et tailler les oignons en lamelles.
+      7. Égrainer, laver et couper le poivron en lanières.
+      8. Casser les œufs, les déposer dans un saladier et battre en omelette. 
+      9. Assaisonner.
+      10. Dans une poêle, faire fondre le beurre, y déposer les oignons et le poivron. 
+      11. Cuire 5 à 6 minutes en remuant régulièrement. 
+      12. Ajouter les pommes de terre et le chorizo. Cuire 2 minutes.
+      13. Verser le contenu du saladier. 
+      14. Cuire à feu moyen jusqu’à ce que les œufs coagulent. 
+      15. Retourner la tortilla de manière à faire dorer l’autre face 
+      (la tortilla doit être plus compacte que la traditionnelle omelette française 
+      et n'est jamais baveuse).
+      16. Servir chaud ou tiède !
