@@ -122,3 +122,10 @@ chateau:
     - poste de garde 20
     - porte de ville 38
     - academie 13
+  43:
+    - fort 15
+    - residence 14 (or)
+    - magie 13
+    - entrepot 21
+    - porte 41
+    - academie 14
