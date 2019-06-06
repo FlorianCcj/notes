@@ -73,7 +73,10 @@ tuesday:
       ibmcom/portieris@sha256:2342BEF3242
 
     lets practive: https://ibm.biz/kubecon-secure-deployment
-
+      lancement de minicube
+        ```
+        
+          ```
   Intro: Kubernetes Architecture SIG
     14h50 -> 15h25
     gouvernance des depots ....
