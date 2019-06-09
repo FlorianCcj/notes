@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px #ccc;
+  margin: 20px 0;
+}
+
+:host(.inactive) {
+  color: #ccc;
+}
+
+.form-control {
+  display: inline-block;
+  width: 50%;
+}

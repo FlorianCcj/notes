@@ -132,7 +132,7 @@ unit:
     Avril:
       type: mage
       stuff:
-        baton: 2 (+10)
+        baton: 12
         cape: 7
         casque: 7
         robe: 1
@@ -141,8 +141,8 @@ unit:
     Baelrog:
       type: gladiateur
       stuff:
-        arme1: 12 (+3)
-        arme2: 14 (+2)
+        arme1: 15
+        arme2: 15
         casque: 5
         armure: 6
         babiole1: 10
@@ -150,8 +150,8 @@ unit:
     Bane:
       type: gladiateur
       stuff:
-        arme1: 13 (+2)
-        arme2: 13 (+2)
+        arme1: 15
+        arme2: 16
         casque: 5
         armure: 6
         babiole1: 10
@@ -159,17 +159,17 @@ unit:
     Cleo: 
       type: mage
       stuff:
-        baton: 6 (+6)
+        baton: 14
         cape: 6
-        casque: 1
+        casque: 8
         robe: 1
         babiole1: 10
         babiole2: 10
     Denji:
       type: gladiateur
       stuff:
-        arme1: 13 (+2)
-        arme2: 13 (+2)
+        arme1: 16
+        arme2: 16
         casque: 5
         armure: 6
         babiole1: 10
@@ -186,7 +186,7 @@ unit:
     Fenris:
       type: voleur
       stuff:
-        arme: 13 (+2)
+        arme: 17
         arc: 9
         casque: 8
         armure: 6
@@ -207,7 +207,7 @@ unit:
       stuff:
         arme1: 16
         arme2: 18
-        casque: 6
+        casque: 5
         armure: 2 (+2)
         babiole1: 10
         babiole2: 11
@@ -216,14 +216,14 @@ unit:
       stuff:
         baton: 12
         cape: 2
-        casque: 4 (+4)
+        casque: 8
         robe: 1
         livre: 2
         babiole: 10
     Grimms:
       type: general
       stuff:
-        arme: 12 (+3)
+        arme: 16
         banniere: 14
         casque: 12
         armure: 8
@@ -253,7 +253,7 @@ unit:
       stuff:
         arme1: 15
         arme2: 12 (+3)
-        casque: 4 (+1)
+        casque: 8
         armure: 6 (+1)
         babiole1: 11
         babiole2: 10
@@ -271,7 +271,7 @@ unit:
       stuff:
         arme1: 12 (+3)
         arme2: 12 (+3)
-        casque: 2 (+3)
+        casque: 6
         armure: 6
         babiole1: 10
         babiole2: 10
@@ -290,15 +290,15 @@ unit:
       stuff:
         arme: 15
         bouclier: 6
-        casque: 3
+        casque: 8
         armure: 10
         babiole1: 10
         babiole2: 12
     Tok:
       type: general
       stuff:
-        arme: 5 (+10)
-        banniere: 8 (+4)
+        arme: 17
+        banniere: 14
         casque: 13
         armure: 6 (+2)
         babiole1: 10
@@ -306,7 +306,7 @@ unit:
     Vallari:
       type: mage
       stuff:
-        baton: 3 (+9)
+        baton: 14
         cape: 7
         casque: 7
         robe: 0
@@ -315,7 +315,7 @@ unit:
     Vega:
       type: sage
       stuff:
-        baton: 6 (+6)
+        baton: 14
         livre: 8
         casque: 11
         robe: 0
@@ -333,7 +333,7 @@ unit:
     Wraxius:
       type: mage
       stuff:
-        baton: 4 (+8)
+        baton: 12
         cape: 5 (+2)
         casque: 8
         robe: 0
@@ -343,9 +343,10 @@ unit:
     Yip:
       type: sage
       stuff:
-        baton: 6 (+6)
+        baton: 14
         livre: 8
         casque: 11
         robe: 1
         babiole1: 10
         babiole2: 11
+

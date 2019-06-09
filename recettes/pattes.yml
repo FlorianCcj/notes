@@ -1,0 +1,126 @@
+ABCDE: ~
+FGHIJ:
+  totest-Galette de spaghetti:
+    source: http://madame.lefigaro.fr/recettes/galette-de-spaghetti-121200-198065
+    realisation:
+      Temps de préparation : 10 min
+      Temps de cuisson : 20 min
+      Difficulté : Très facile
+      Type de plat : Plat
+      Calories / personne : 353
+    ingredients:
+      quantite: pour 4
+      400 g de spaghetti
+      120 g de gruyère râpé
+      4 œufs
+      Sel, poivre
+    steps:
+      Préparez vos spaghetti en respectant les consignes du paquet; les spaghettis doivent être cuits.
+      Préchauffez une poêle moyenne à revêtement anti-adhésif. 
+      Battez les oeufs, incorporez-y le fromage râpé et les pâtes puis salez et poivrez selon vos goûts.
+      Versez la préparation dans la poêle et laissez cuire sur la première face pendant 10 minutes.
+      Lorsque la galette est presque cuite et le dessous doré, retournez-la comme une crêpe et faites dorer l'autre face.
+  totest-Gratin de Pâtes très facile:
+    source: https://www.cuisine-etudiant.fr/recette/5158-gratin-de-pates-tres-facile
+    realisation:
+      duree: 30 min
+      prix: 5e/personne
+      difficulte: 4/10 Facile
+    ingredients:
+      quantite: pour 4
+      Pâtes
+      Lardon
+      1 Oignon
+      Crème fraiche
+      Gruyère
+      Parmesan
+      Fond de veau
+      Sel
+      Poivre
+      Beurre
+      Huile d'olive
+    steps:
+      - Préchauffez votre four a 200°C
+      - Faire bouillir de l'eau dans une casserole. Quand l'eau bouillie rajouter un peu d'huile d'olive et les pâtes.
+      - Couper l'oignon finement.
+      - En même temps, faire cuire dans une poêle les lardons avec une noix de beurre et l'oignon.
+      - Une fois les lardons cuits, rajouter la crème fraiche, une cuillère a soupe de fond de veau, un peu de gruyère, de parmesan, l'oignon émincé, salez et poivrez. Laissez mijoter.
+      - Quand vos pâtes sont prêtes, mettez les dans le plat à four. Rajoutez vos lardons. Mélanger le tout. Puis rajoutez par dessus du gruyère râpé et du parmesan.
+      - Enfournez le tout pendant 10 min.
+  totest-todo-Gratin de pâtes au chorizo et jambon:
+    source: https://www.cuisine-etudiant.fr/recette/5632-gratin-de-pates-au-chorizo-et-jambon
+  totest-todo-Grattin façon lasagne poulet/cordons:
+    source: https://www.cuisine-etudiant.fr/recette/4638-grattin-facon-lasagne-poulet-cordons
+KLMNO: ~
+  totest-Nouilles chinoises au poulet :
+    source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
+  totest-todo-Pad Thai aux crevettes et citron vert:
+    source: https://www.cuisine-etudiant.fr/recette/3205-pad-thai-aux-crevettes-et-citron-vert
+  totest-todo-pates bolo:
+    source: https://www.cuisine-etudiant.fr/recette/3722-pattes-bolognaises-made-in-julie
+  totest-todo-Pâtes crème et chorizo:
+    source: https://www.cuisine-etudiant.fr/recette/3913-pates-creme-et-chorizo
+  totest-todo-Pâtes aux oignons caramélisés:
+    source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
+  totest-Pâtes aux poivrons:
+    realisations:
+      Temps de préparation : 15 min
+      Temps de cuisson : 30 min
+      Difficulté : Très facile
+      Type de plat : Plat
+      Calories / personne : 530
+    ingredients:
+      quantite: pour 4 personnes
+      400 g de pâtes de riz
+      3 tomates
+      2 poivrons (rouge et vert)
+      1 oignon petit
+      1 gousse d'ail
+      1 cuillère à soupe d'herbes de provence
+      1 cuillère à soupe de vinaigre de vin rouge
+      1/2 botte de basilic
+      3 cuillères à soupe d'huile d'olive
+      40 g de feta
+      gros sel
+      poivre
+    steps:
+      Pelez, épépinez et concassez les tomates. Pelez et émincez l'oignon. Lavez les poivrons. Coupez-les en deux. Retirez les graines et la partie blanche à l'intérieur. Emincez-les en lamelles.
+      Dans une casserole, faites chauffer l'huile. Ajoutez l'oignon et les poivrons. Faites revenir le tout 20 minutes. Ajoutez l'ail, les tomates, le vinaigre et les herbes de Provence. Prolongez la cuisson de 10 minutes. Salez et poivrez.
+      Parallèlement, portez de l'eau salée au gros sel à ébullition. Faites cuire les pâtes selon le temps indiqué sur le paquet. Egouttez-les.
+      Lavez et ciselez le basilic.
+      Servez les pâtes nappées de sauce. Ajoutez un carré de feta et décorez de basilic.
+  totest-todo-Pâtes sauce crémeuse aux champignons:
+    source: https://www.cuisine-etudiant.fr/recette/3226-pates-sauce-cremeuse-aux-champignons
+  totest-Pâtes à la sauce tomate:
+    source: http://madame.lefigaro.fr/recettes/pates-tomate-060201-200395
+    realisation:
+      Temps de préparation : 15 min
+      Temps de cuisson : 15 min
+      Difficulté : Très facile
+      Type de plat : Plat
+      Calories / personne : 173
+    ingredients:
+      quantite: pour 4
+      250 g de pâtes fraîches
+      500 g de tomates
+      1 botte de basilic
+      2 gousses d'ail
+      2 cuillères à soupe d'huile d'olive
+      Sel, poivre
+    steps:
+      Preparation de la sauce tomate:
+        Pelez et épépinez les tomates puis coupez-les en cubes.
+        Faites chauffez l'huile dans une casserole et ajoutez l'ail pelé et haché. Faites cuire l'ail à feu doux sans coloration puis incorporez les tomates. Laissez cuire le mélange à feu doux 5 à 7 minutes en remuant constamment. Salez et poivrez.
+      Préparation des pâtes:
+        Faites cuire les pâtes dans une grande casserole d'eau bouillante salée avec l'huile d'olive le temps indiqué.
+      Finitions et dressage:
+        Égouttez les pâtes, mettez-les dans un plat et versez la sauce tomate dessus.
+        Saupoudrez de basilic ciselé
+  totest-todo-Poelee de nouilles aux légumes et poulet:
+    source: https://www.cuisine-etudiant.fr/recette/5711-poelee-de-nouilles-aux-legumes-et-poulet
+  totest-todo-Porc saute aux nouilles chinoises:
+    source: https://www.cuisine-etudiant.fr/recette/5447-porc-saute-aux-nouilles-chinoises
+    categories: [pattes, porc, chinois, sucre-sale]
+PQRST: ~
+  totest-todo-Tagliatelles de courgettes au saumon:
+    source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile

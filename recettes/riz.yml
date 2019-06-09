@@ -1,0 +1,168 @@
+ABCDE: ~
+FGHIJ: ~
+  totest-todo-Jambalaya:
+    source: https://www.cuisine-etudiant.fr/recette/3826-jambalaya
+KLMNO: ~
+PQRST: ~
+  totest-todo-paella en solo:
+    source: https://www.cuisine-etudiant.fr/recette/657-paella-en-solo
+  totest-todo-Risotto aux lardons et champignons:
+    source: https://www.cuisine-etudiant.fr/recette/2962-risotto-aux-lardons-et-champignons
+  totest-Risotto aux champignons et poulet:
+    source: https://www.cuisine-etudiant.fr/recette/3253-risotto-aux-champignons-et-poulet
+    realisation:
+      duree: 29 min
+      prix: 4,4e/personne
+      difficulte: 4/10 - facile
+    ingredients:
+      quantite: pour 3 personnes
+      360g de riz arborio pour risotto
+      3 filets de poulet
+      2 boites de champignons de Paris
+      20cl de crème liquide légére
+      1 oignon
+      1 cube de bouillon de volaille
+      1 peu de beurre pour la poele
+    steps:
+      - Faire cuire le riz le temps indiqué sur le sachet dans de l'eau où l'on aura ajouté un cube de bouillon de volaille.
+      - Couper les champignons, l'oignon et les filets de poulet en petits morceaux.
+      - Faire revenir à feu vif le poulet jusqu'à qu'il commence à griller.
+      - Baisser le feu, ajouter les champignons et l'oignon.
+      - Verser la crème dans la poêle, m"langer quelques secondes, puis ajouter le riz égoutté et mélanger à nouveau, jusqu'à que le riz est absorbé la crème.
+  totest-Risotto au chorizo:
+    source: https://www.marmiton.org/recettes/recette_risotto-au-chorizo_17724.aspx
+    realisation:
+      difficulte: 1-tres facile
+      prix: 1-bon marche
+      temps:
+        preparation: 5 min
+        cuisson: 20 min
+    ingredient:
+      quantite: pour 4 personnes
+      4 verres de moutarde de riz pour risotto, ou riz rond tout simple (moins cher)
+      2 cubes de bouillon de poule
+      3 cuillères à soupe de crème épaisse
+      3 échalotes
+      1 petit sachet de parmesan râpé
+      10 tranches de chorizo doux
+      3 cuillères à soupe de huile d'olive
+      pincée de paprika selon votre goût
+      Poivre
+      Sel
+    steps:
+      Etape 1:
+        Faire bouillir 1,5 litre d'eau puis ajoutez les 2 cubes de bouillon.
+      Etape 2:
+        Emincer les échalotes et couper le chorizo selon votre goût (en 2 ou en 4).
+      Etape 3:
+        Dans un fait-tout faire chauffer l'huile, faire revenir les échalotes 2 min, puis ajoutez le riz cru. Laisser chauffez jusqu'à ce que les grains deviennent translucides.
+      Etape 4:
+        Ajouter le bouillon au fur et à mesure jusqu'au raz du riz. Couvrir, et ajouter du bouillon quand le niveau du liquide est trop bas.
+      Etape 5:
+        Goûter le riz de temps en temps et continuer jusqu'à épuisement du bouillon.
+      Etape 6:
+        Ajouter la crème, le sel, le poivre, le paprika, le chorizo et le parmesan. Laisser cuire encore 5 min.
+      Etape 7:
+        Servir bien chaud.
+  totest-todo-Risotto au chorizo et parmesan:
+    source: https://www.cuisine-etudiant.fr/recette/1269-risotto-au-chorizo-et-parmesan
+  totest-todo-Risotto au chorizo ultra simple:
+    source: https://www.cuisine-etudiant.fr/recette/5631-risotto-au-chorizo-ultra-simple
+  totest-todo-Risotto simple aux champignons:
+    source: https://www.cuisine-etudiant.fr/recette/4318-risotto-simple-aux-champignons
+  totest-Riz, légumes et poulet:
+    source: http://madame.lefigaro.fr/recettes/riz-legumes-poulet-220411-149358
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      200 g de riz arborio
+      100 g de chorizo
+      1 aubergine
+      1 poivron jaune
+      1 poivron rouge
+      2 blancs de poulet
+      1 citron jaune
+      2 oignons
+      4 cuillerées à soupe d’huile d’olive
+      1 pincée de piment d’Espelette
+      1 litre de bouillon de volaille
+      2 pincées de pistil de safran
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      2. Couper les blancs en deux dans l’épaisseur et les mettre dans cette marinade. 
+      3. Couper les poivrons en quatre et éliminer les graines. 
+      4. Détailler l’aubergine en tranches de 2 cm. 
+      5. Huiler ces légumes, les poser sur une grille de barbecue 
+      et les faire cuire de chaque côté. 
+      6. Glisser les blancs de poulet sur des brochettes 
+      et les faire griller 2 minutes de chaque côté. 
+      7. Peler et émincer les oignons. 
+      8. Verser 1 cuillerée à soupe d’huile dans un plat 
+      (pouvant cuire sur un barbecue), faire chauffer, 
+      ajouter les oignons et faire cuire 5 minutes. 
+      9. Ajouter les tranches de chorizo, laisser cuire 1 minute et les retirer du plat. 
+      10. Verser le riz, mélanger, ajouter le bouillon, le safran, 
+      couvrir et laisser cuire 20 minutes. 
+      11. Verser les légumes, le chorizo, le poulet, et laisser cuire 5 minutes.
+  totest-Riz, poulet, chapignons et oignons au miel :
+    source: https://www.cuisine-etudiant.fr/recette/297-riz-poulet-chapignons-et-oignons-au-miel
+    realisation:
+      préparation : 20 min
+      cuisson : 0 min
+      Difficulté : Facile
+      Prix: 4,4e/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 2 personnes
+        125g de riz
+        1 boite de champignons de Paris émincés
+        2 escalopes de poulet
+        2-3 cuillères à café de miel
+        1 ou 2 oignons
+        Crème fraîche
+        Sel-Poivre 
+    steps:
+      author: La recette de Christophe Delcourt
+      Recette découverte par hasard avec les ingrédients que j'avais sous la main, et ben, ça passe bien!
+      1) Commencez par faire cuire le riz. (Si vous n'avez pas de passoire, achetez du riz en sachet déjà perforé, comme ça il suffit de le sortir de la casserole, ça s'égoutte tout seul, plus rapide, moins de vaisselle.)
+      2) Pendant que le riz cuit, émincez vos oignons , faites les revenir à feu moyen dans un peu de beurre pendant environ une minute, puis ajoutez le miel. Faites dorer jusqu'à ce que les oignons soient à votre gout.
+      3) Ajoutez les champignons de paris (égouttez bien avant de les rajouter, sinon l'eau gache tout le gout!)
+      4) Ajoutez le poulet coupé en dés. Salez, poivrez.
+      5) Une fois que le poulet est cuit, rajoutez le riz dans la poele, mélangez et ajoutez la creme (pas trop, sinon on sent plus le miel des oignons). Ne laissez pas tout ça trop longtemps dans la poele, juste le temps que la creme réchauffe!
+      Cest pret ! Bon app'
+    notes:
+      - pas mal avec chipos/merguez
+      - a test avec viande haché et/ou chorizo
+  Riz à la tomate et au jambon:
+    source: http://madame.lefigaro.fr/recettes/riz-tomate-jambon-170107-6217
+    realisation:
+      Temps de préparation : 5 min
+      Temps de cuisson : 10 min
+      Difficulté : Facile
+      Type de plat : Plat
+    ingredient:
+      quantite: pour 4 personnes
+      2 paquets de 250 g de riz long précuit (Uncle Ben's)
+      250 g de tranches de jambon cuit ou 150 g de jambon coupé en allumettes (Fleury Michon)
+      200 g de sauce tomate toute prête
+      2 cs de huile d'olive
+      1 sachet de knackis
+      Sel, poivre
+    steps:
+      Piquer le sachet d’emballage des knackis de quelques coups de fourchette, 
+      le mettre dans le micro-ondes et faire cuire 1 minute, sélecteur « maximum ». 
+      Retirer les knackis de l’emballage et les couper en tranches de 1/2 cm.
+      Mettre le riz dans une cocotte allant au micro-ondes, 
+      ajouter la sauce tomate, 
+      l’huile, saler et poivrer, puis mélanger, 
+      couvrir d’un film alimentaire et laisser cuire 3 minutes, sélecteur « maximum ». 
+      Ajouter le jambon coupé en lanières de 1/2 cm et les tranches de knacki. 
+      Remettre le plat au micro-ondes et faire cuire 2 minutes position « gril ». 
+      Servir chaud.
+

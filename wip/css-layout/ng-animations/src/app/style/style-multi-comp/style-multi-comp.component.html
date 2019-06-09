@@ -1,0 +1,50 @@
+Un style générale peut s inclure de 2 manieres
+  * soit dans l angular-cli.json dans l'attribut style ;
+  * soit dans l'index.html comme dans un html classique, avec une balise link
+
+View Encapsulation (attribute of @Component)
+* encapsulation: ViewEncapsulation.Emulated: (default) just for the component
+* encapsulation: ViewEncapsulation.Native: Uses natuve Shadow DOM
+* encapsulation: ViewEncapsulation.None: Styles are shared accross Component
+
+special selector:
+* :host : target the element which host component
+* :host-context :style elements inside a component, depending on some condition set outside of it
+* /deep/ : apply styles not just to the elements in the template but also to child component
+
+<pre>
+[ngClass]="{{'{'}}class1: condition}"
+[ngClass]="'class1 class2'"
+[ngClass]="[class1 class2]"
+[ngClass]="{{'{'}}'class1 class2': condition}"
+
+[ngStyle]="{{'{'}}'background-color': 'red'}"
+[ngStyle]="{{'{'}}'width.px': 200}"
+</pre>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>
+        My Quotes
+      </h1>
+      <app-quote
+        (click)="isFavorite = !isFavorite"
+        [ngClass]="{'favorite super-favorite': isFavorite}"
+        [ngStyle]="{'width.px': isFavorite ? 600 : 400}"
+      ></app-quote>
+    </div>
+    <button
+      class="btn btn-primary"
+      (click)="handleShowBoringClick(boringBlock)"
+    >Show boring Quotes</button>
+    <div
+      #boringBlock
+      class="boring"
+    >
+      <div id="very-boring">
+        <app-quote></app-quote>
+      </div>
+    </div>
+  </div>
+</div>

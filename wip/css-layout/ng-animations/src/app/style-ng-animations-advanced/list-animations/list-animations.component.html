@@ -1,0 +1,27 @@
+<button (click)="handleAddElementClicked()">Add Element</button>
+
+<div
+  *ngFor="let testResult of testResults"
+  class="test-result"
+  @ShowState
+>
+  {{testResult}}
+</div>
+
+<div
+  *ngFor="let testResult of testResults"
+  class="test-result"
+  @listStateBeforeGroup
+>
+  {{testResult}}
+</div>
+
+<div
+  *ngFor="let testResult of testResults"
+  class="test-result"
+  @listStateToStudy
+>
+  {{testResult}}
+</div>
+
+group permit to launch simultanusly some action

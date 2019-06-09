@@ -1,0 +1,17 @@
+<div
+  (click)="clickSimple()"
+  [@clickedState]="clickInfo"
+></div>
+
+transition('state', [steps])
+
+transition('default => clicked', animate('200ms 500ms ease-in'))
+transition('default => clicked', animate(300)) // equivaut animate('300ms')
+transition('default <=> clicked', animate(300))
+// equivaut transition('default => clicked', animate(300))
+// et transition('clicked => default', animate(300))
+
+attention dans soit il faut un style par default (dans le css) 
+soit il faut bien remettre chaque propriété dans chaque state
+
+You can use  the trigger wherever you want

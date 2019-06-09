@@ -1,0 +1,15 @@
+<pre>
+div {{'{'}}
+  transition: width 0.3s ease-out;
+  /*Whenever the width changes the change is going to get animated 0.3second */
+}
+</pre>
+<div
+  (click)="divClicked = !divClicked"
+  [ngStyle]="{backgroundColor: divClicked ? 'red' : 'blue'}"
+></div>
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+timing:
+https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function

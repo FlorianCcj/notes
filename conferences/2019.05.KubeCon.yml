@@ -1,0 +1,580 @@
+
+Sunday, May 19
+  - 09:00
+    - Cephalocon (Additional Registration + Fee Required)
+  - 11:00
+    - Registration + Badge Pick-up at Barcelona–El Prat Josep Tarradellas Airport
+  - 14:00
+    - Registration + Badge Pick-up at Fira Gran Via (Main Conference Venue)
+    - Registration + Badge Pick-up at Porta Fira Hotel
+    - Registration + Badge Pick-up at Renaissance Hotel
+    - Registration + Badge Pick-up at SB Hotel
+Monday, May 20
+  - 08:00
+    - Anthos/GKE Workshop hosted by Google Cloud (Additional Registration + Fee Required)
+    - Open Data Autonomy Mini Summit hosted by OpenSDS (Additional Registration + Fee Required)
+    - OpenShift Commons Gathering hosted by Red Hat (Additional Registration + Fee Required)
+    - AWS Container Day (Additional Registration Required)
+    - Registration + Badge Pick-up at Fira Gran Via (Main Conference Venue)
+    - Registration + Badge Pick-up at Porta Fira
+    - Registration + Badge Pick-up at Renaissance Hotel
+    - Registration + Badge Pick-up at SB Hotel
+  - 08:30
+    - Cloud Native Storage Day hosted by Cloud Native Storage ecosystem (Additional Registration + Fee Required)
+  - 09:00
+    - Intro to Containers and Kubernetes hosted by VMware (Additional Registration + Fee Required)
+    - Cloud Native Network Services Day hosted by LFN (Additional Registration + Fee Required)
+    - Cloud Native Security Day hosted by Twistlock (Additional Registration + Fee Required)
+    - Cephalocon - Cloud-Native Software-Defined Storage (Additional Registration + Fee Required)
+    - Cloud-Native Transformation Summit 2019 hosted by Sysdig (Additional Registration + Fee Required)
+    - Continuous Delivery Summit hosted by CDF (Additional Registration + Fee Required)
+    - FD.io (Fast Dataplane) Mini-Summit (Additional Registration + Fee Required)
+    - Kubernetes Contributor Summit (Additional Registration Required)
+    - Kubernetes Operator Framework Workshop hosted by Red Hat (Additional Registration + Fee Required)
+    - Serverless Practitioners Summit hosted by CNCF (Additional Registration + Fee Required)
+    - Your Path to Production Ready Kubernetes hosted by Weaveworks (Additional Registration + Fee Required)
+    - KubeSec Enterprise Summit hosted by Aqua Security (Additional Registration + Fee Required)
+    - Registration + Badge Pick-up at Barcelona–El Prat Josep Tarradellas Airport
+  - 09:30
+    - CNCF End User Partner Summit (Pre-registration and approval is required)
+  - 12:00
+    - Get the Cert: Build Your Next App With Kubernetes + Istio hosted by IBM (Additional Registration Required)
+  - 13:00
+    - A Linkerd in Production Workshop hosted by Buoyant (Additional Registration + Fee Required)
+    - Introduction to CRDs with Kubebuilder hosted by Google Cloud (Additional Registration + Fee Required)
+  - 14:30
+    - Harbor Community Reception hosted by CNCF and VMware (Additional Registration Required)
+  - 17:00
+    - Lightning Talk: Back to the Future with eBPF - Beatriz Martínez Rubio, IBM
+    - Lightning Talk Hosts - Frederic Lardinois, TechCrunch & Sean Michael Kerner, eWeek / InternetNews / eSecurity Planet
+  - 17:06
+    - Lightning Talk: Beyond Operators: Reimagine Distributed Applications on Kubernetes - Vladimir Vivien, VMware
+  - 17:12
+    - Lightning Talk: Fake it Until You Make it: Unit Tests with Go-Client Fake Client - Fernando Diaz, IBM
+  - 17:18
+    - Lightning Talk: Kubernetes Jobs and the Sidecar Problem - James Wen, Spotify
+  - 17:24
+    - Lightning Talk: Reliability Engineering for Humans - Hannah Foxwell, Pivotal
+  - 17:30
+    - Lightning Talk: Kubespray CI with KubeVirt on Baremetal - Antoine Legrand, Red Hat
+  - 17:45
+    - Lightning Talk: Developing Your Career While Working on Kubernetes - Piotr Szczesniak, Google
+  - 17:51
+    - Lightning Talk: Using Jupyter Notebooks To Gain Insight Of Your Cluster - Ruben D Orduz, VMware
+  - 17:57
+    - Lightning Talk: When the Command Line is Not Enough: Why Your OSS Project Needs A GUI - Risha Mars, Buoyant
+  - 18:00
+    - EmpowerUs Reception, Sponsored by Red Hat (Additional Registration Required)
+  - 18:03
+    - Lightning Talk: Using Istio's Mixer for Network Request Caching - Zach Arnold, Ygrene Energy Fund
+  - 18:09
+    - Lightning Talk: Ready, Steady, CKA! - Olive Power, VMware
+  - 18:15
+    - Lightning Talk: Oh Sh*t! The Config Changed! - Joel Speed, Pusher
+  - 18:30
+    - Lightning Talk: Hot, Fresh Containers - How Containers Are Like Cookies! - Kaslin Fields, Oracle
+  - 18:36
+    - Lightning Talk: Managing Drivers in a Kubernetes Cluster - Renaud Gaubert, NVIDIA
+  - 18:42
+    - Lightning Talk: Slow Starting Containers, How to Check Their Health? - Matthias Bertschy, Swissquote Bank
+  - 18:48
+    - Lightning Talk: How to Regain the Trust of Your Users - Eduard Iacoboaia, Booking.com
+  - 18:54
+    - Lightning Talk: Cloud Native Wales: How We Contributed to the Community with No Code - Lewis Denham-Parry, learnk8s.io / CloudNativeWales
+ 
+Tuesday, May 21
+  - 07:30
+    - The New Stack Pancake Breakfast: Cloud Native: More Than the Sum of Its Parts, Sponsored by Oracle
+    - Registration + Badge Pick-up at Fira Gran Via (Main Conference Venue)
+  - 08:00
+    - Welcome Coffee
+    - Quiet Room
+  - 09:00
+    - Keynote: Stitching Things Together – Dan Kohn, Executive Director, Cloud Native Computing Foundation
+  - 09:15
+    - Keynote: 2.66 Million - Cheryl Hung, Director of Ecosystem, Cloud Native Computing Foundation
+  - 09:25
+    - Keynote: CNCF Project Update - Bryan Liles, Senior Staff Engineer, VMware
+  - 09:57
+    - Sponsored Keynote: Network, Please Evolve – Vijoy Pandey, VP/CTO Cloud, Cisco
+  - 10:04
+    - Keynote: Getting Started in the Kubernetes Community - Lucas Käldström, CNCF Ambassador, Independent & Nikhita Raghunath, Software Engineer, Loodse
+  - 10:20
+    - Sponsor Showcase
+  - 10:24
+    - Keynote: Closing Remarks - Bryan Liles, Senior Staff Engineer, VMware
+  - 10:25
+    - Coffee Break
+  - 10:30
+    - Meet The Maintainer: Linkerd - Thomas Rampelberg, Buoyant
+  - 11:00
+    - Meet The Ambassador: Gianluca Arbezzano, Influxdata
+    - Meet The Maintainer: Kubernetes - Paris Pittman, Google
+  - 11:05
+    - Building Images Efficiently and Securely on Kubernetes with BuildKit - Akihiro Suda, NTT Corporation
+    - Kubernetes Security and How to Fix K8s Cluster at Scale - Simon Pearce, SysEleven & Sebastian Scheele, Loodse
+    - Rootless, Reproducible, and Hermetic: Secure Container Build Showdown - Andrew Martin, Control Plane
+    - Mental Health in Tech - Dr. Jennifer Akullian, Growth Coaching Institute
+    - Network Machinery: A United-Front for Network Troubleshooting with CRDs - Adel Zaalouk, SAP
+    - Intro: Autoscaling SIG - Marcin Wielgus, Google
+    - Intro: CNCF CI - Lucina Stricko & Denver Williams, Vulk Coop & CNCF
+    - Intro: Cortex - Tom Wilkie, Grafana Labs & Bryan Boreham, Weaveworks
+    - Intro: Kubernetes (Release) SIG - Tim Pepper, VMware & Claire Laurence, Pivotal
+    - Intro: Kubernetes WG for Multitenancy - Tasha Drew, VMware
+    - Intro: Service Catalog SIG - Jonathan Berkhahn, IBM
+    - Ingress V2 and Multicluster Services - Rohit Ramkumar & Bowei Du, Google
+    - From Snowflake Servers to Snowflake Clusters - The GitOps Journey - Allison Richardet, Asteris, LLC & Fabio Giannetti, MasterCard
+    - P2P Docker Image Distribution in Hybrid Cloud Environment with Kraken - Yiran Wang & Cody Gibb, Uber
+    - Envoy SDS: Fortifying Istio Security - Yonggang Liu & Quanjie Lin, Google
+    - Istio, We Have a Problem! Understanding and Fixing Bugs with a Service-Mesh - David Gageot, Google
+    - OpenTelemetry: Panel Discussion and Q&A - Ben Sigelman, LightStep, Morgan McClean & Bogdan Drutu, Google
+    - Tutorial: Back to Basics: Hands-On Deployment of Stateful Workloads on Kubernetes - David Zhu, Google & Jan Šafránek, Red Hat
+    - Tutorial: Bullet-Proof Kubernetes: Learn by Hacking - Luke Bond, ControlPlane & Ana-Maria Calin, Paybase
+    - Tutorial: Cloud-Agnostic Serverless - Sebastien Goasguen, TriggerMesh & Priyanka Sharma, GitLab
+  - 11:30
+    - Meet The Maintainer: Fluentd - Eduardo Silva, Arm Treasure Data
+    - Meet The Maintainer: NATS - Waldemar Quevedo Salinas, Synadia Communications
+  - 11:55
+    - Intro to CNAB: Packaging Cloud Native Applications with Multiple Toolchains - Chris Crone, Docker
+    - Databases on Kubernetes Using a Custom Operator: Day 1, Day 2, and Beyond - Johannes Unterstein, Neo4j
+    - Unit Testing Your Kubernetes Configurations Using Open Policy Agent - Gareth Rushgrove, Docker
+    - Writing kubectl Plugins for Everyone: Develop, Package & Distribute - Ahmet Alp Balkan, Google & Maciej Szulik, Red Hat
+    - Intro: Azure SIG - Stephen Augustus, VMware & Craig Peters, Microsoft
+    - Intro: CNCF Serverless WG/CloudEvents - Scott Nichols, Google & Klaus Deissner, SAP
+    - Intro: Helm - Michelle Noorali & Matt Fisher, Microsoft
+    - Intro: Kubernetes (Instrumentation) SIG - Frederic Branczyk, Red Hat
+    - Intro: Linkerd - William Morgan, Buoyant
+    - Intro: Network Service Mesh (NSM) - Frederick Kautz, Doc.ai & Ed Warnicke, Cisco
+    - Intro: SPIFFE - Emiliano Bernbaum & Scott Emmons, Scytale
+    - Extending Envoy with WebAssembly - John Plevyak & Dhi Aurrahman, Tetrate
+    - Kubernetes Failure Stories and How to Crash Your Clusters - Henning Jacobs, Zalando SE
+    - Benchmarking Cloud Native Storage - Josh Berkus, Red Hat
+    - Kubernetes + Encrypted Memory = Security * Privacy - Harshal Patil & Pradipta Banerjee, IBM
+    - Istio New Workload Identity Provision Pipeline Based on Envoy SDS - Quanjie Lin & Diem Vu, Google
+  - 12:00
+    - Meet the Ambassador - Alessandro Vozza, Microsoft
+    - Meet The Ambassador: Bob Killen, University of Michigan
+  - 12:30
+    - Meet The Ambassador: Chris Hein, AWS
+    - Meet The Maintainer: CNCF - Chris Aniszczyk, CNCF
+    - Lunch (Provided)
+  - 13:00
+    - Meet The Ambassador: Lachlan Evenson, Microsoft
+    - Meet The Maintainer: CNCF - Chris Aniszczyk, CNCF
+  - 13:30
+    - Meet The Ambassador: Lachlan Evenson, Microsoft
+    - Meet The Maintainer: Open Policy Agent - Tim Hinrichs, Styra
+  - 14:00
+    - Meet The Maintainer: CNI - Bryan Boreham, Weaveworks
+    - Meet The Maintainer: Jaeger - Juraci Paixão Kröhling, Red Hat
+    - Scavenging for Reusable Code in the Kubernetes Codebase - Kevin Lingerfelt, Buoyant
+    - Kubernetes the New Research Platform - Lindsey Tulloch, Brock University & Bob Killen, University of Michigan
+    - Panel Discussion: GitOps & Best Practices for Cloud Native CI/CD - Allison Richardet, Asteris, LLC; Laura Tacho, CloudBees; Ivan Pedrazas, State Street; Tracy Miranda, CloudBees; and Alexis Richardson, Weavewor...
+    - Kanary - Automated and Integrated Canary Testing Using CRD and an Operator - David Benque, Amadeus & Cédric Lamorinière, Datadog
+    - Intro: CLI SIG - Maciej Szulik, Red Hat & Phillip Wittrock, Google
+    - Intro: CoreDNS - Daniel Garcia, Infoblox & Michael Grosser, Okkur Labs
+    - Intro: Fluentd - Masahiro Nakagawa, ARM Treasure Data
+    - Intro: KubeEdge - Cindy Xing, Huawei & Dejan Bosanac, Red Hat
+    - Intro: Kubernetes (VMware) SIG - David vonThenen & Steven Wong, VMware
+    - Intro: NATS - Waldemar Quevedo, Synadia Communications, Inc
+    - Intro: Testing SIG - Cole Wagner & Aishwarya Sundar, Google
+    - Authentication and Security in gRPC Microservices - Jan Tattermusch, Google
+    - Operating kube-apiserver Without Hiccups - Stefan Schimanski & David Eads, Red Hat
+    - Scale Kubernetes Service Endpoints 100x - Minhan Xia & Wojciech Tyczynski, Google
+    - Fine-Grained Permissions in Kubernetes: What’s Missing, and How to Fix That - Vallery Lancey, Lyft & Seth McCombs, Triller
+    - What WePay Learned From Processing Billions of Dollars on GKE Using Linkerd - Mohsen Rezaei, WePay
+    - OpenTelemetry: Backwards Compatibility with OpenTracing and OpenCensus - Ben Sigelman, LightStep, Bogdan Drutu, Google & Spiros Xanthos, Omnition
+    - Tutorial: A Day in the Life of a Cloud Native Developer - Randy Abernethy, RX-M, LLC
+    - Tutorial: Building Security into Kubernetes Deployment Pipelines - Michael Hough, IBM & Sam Irvine, ControlPlane
+    - Tutorial: Introduction to Kubeflow Pipelines - Michelle Casbon, Dan Sanche, Dan Anghel, & Michal Zylinski, Google
+  - 14:50
+    - Reproducible Development and Deployment with Bazel and Telepresence - Christian Roggia, Engel & Völkers Technology GmbH
+    - Laying the Foundation: Real World Kubernetes Deployment Patterns - Josh Rosso & Craig Tracey, VMware
+    - Streamlining Kubernetes Application CI/CD with Bazel - Gregg Donovan, Etsy.com, Inc. & Chris Love, CNM Consulting
+    - Panel Discussion: From User to Member: Becoming a Kubernetes Contributor - Jason Murray, iNNOVO Cloud GmbH; Cyrine Jabri, iNNOVO Cloud GmbH; James Munnelly, Jetstack.io; and Kris Nova, Independent
+    - The Kubernetes Control Plane for Busy People Who Like Pictures - Daniel Smith, Google
+    - Intro: Cloud Native Buildpacks - Terence Lee, Heroku & Stephen Levine, Pivotal
+    - Intro: Falco - Jorge Salamero Sanz, Sysdig
+    - Intro: Harbor - Henry Zhang & Steven Ren, VMware
+    - Intro: Kubernetes Architecture SIG - Jaice Singer DuMars, Google
+    - Intro: Open Policy Agent - Rita Zhang, Microsoft & Max Smythe, Google
+    - Intro: TUF / Notary - Justin Cappos, NYU & Justin Cormack, Docker
+    - Es-operator: Building an Elasticsearch Operator From the Bottom Up - Mikkel Larsen, Zalando SE
+    - Portable, Universal Single Sign-On for Your Clusters - Miguel Martinez, Bitnami
+    - Building an Enterprise-ready Lambda Experience (with Hands-On Demo) - Alexandre González Rodríguez, BBVA Next Technologies & Héctor Rodes López, Adhara
+    - Istio Multi-Cluster Service Mesh Patterns Explained - Daniel Berg & Ram Vennam, IBM
+  - 15:00
+    - Meet The Ambassador: Jacopo Nardiello, SIGHUP
+    - Meet The Maintainer: Kubernetes - Puja Abbassi, Giant Swarm
+  - 15:25
+    - Coffee Break
+  - 15:30
+    - Meet The Maintainer: Envoy - Lizan Zhou, Tetrate
+  - 15:55
+    - Learn how to Leverage Kubernetes to Support 12 Factor for Enterprise Apps - Brad Topol & Michael Elder, IBM
+    - Birds of a Feather: Radio Access Network LTE/CBRS Edge - John Studarus, Packet Host
+    - Kubectl Apply 2019: Defense Against the Dark Arts - Phillip Wittrock & Jennifer Buckley, Google
+    - KEPs: Evolving Kubernetes at the Speed of Trust - Caleb Miles, Google
+    - The Multicluster Toolbox - Adrien Trouillaud, Admiralty
+    - Birds of a Feather: Financial Services User Group - Cheryl Hung, CNCF
+    - BoF Deep Dive: Chaos Engineering - Sylvain Hellegouarch, ChaosIQ
+    - Intro: Cluster Lifecycle SIG - Lucas Käldström, Independent & Tim St. Clair, VMware
+    - Intro: CNCF Security SIG – Sarah Allen & Jeyappragash Jeyakeerthi, Tetrate.io
+    - Intro: Contributor Experience SIG - Elsie Phillips, Red Hat & Paris Pittman, Google
+    - Intro: Dragonfly - Allen Sun & Zuozheng Hu, Alibaba Cloud
+    - Intro: Kubernetes (PM) SIG - Ihor Dvoretskyi, CNCF & Stephen Augustus, VMware
+    - Intro: Rook - Alexander Trost, Cloudibility & Travis Nielsen, Red Hat
+    - Intro: Virtual Kubelet - Ria Bhatia, Microsoft & Anubhav Mishra, HashiCorp
+    - KubeFlow BoF (Birds of a Feather): David Aronchick, Microsoft & Yaron Haviv, Iguazio
+    - Using K8s Audit Logs to Secure Your Cluster - Mark Stemm, Sysdig
+    - Using eBPF to Bring Kubernetes-Aware Security to the Linux Kernel - Dan Wendlandt, Isovalent
+    - Serverless is Interesting But FaaS is Not Enough - Jonas Bonér, Lightbend Inc.
+    - Panel Discussion: Ask Us Anything: Microservices and Service Mesh - Lin Sun, IBM; Jason McGee, IBM; William Morgan, Buoyant; Zack Butcher, Tetrate; and Louis Ryan, Google
+  - 16:00
+    - Meet The Maintainer: Harbor - Steven Zou, VMware
+  - 16:30
+    - Meet the Maintainer: Helm - Adnan Abdulhussein, Bitnami
+  - 16:45
+    - Keynote: Welcome Remarks - Janet Kuo, Software Engineer, Google
+  - 16:46
+    - Sponsored Keynote: To Be Announced (Microsoft)
+  - 16:51
+    - Keynote: Kubernetes Project Update - Janet Kuo, Software Engineer, Google
+  - 17:13
+    - Sponsored Keynote: Recursive Kubernetes: Cluster API and Clusters as Cattle - Joe Beda, Principal Engineer, VMware
+  - 17:20
+    - Keynote: Reperforming a Nobel Prize Discovery on Kubernetes - Ricardo Rocha, Computing Engineer & Lukas Heinrich, Physicist, CERN
+  - 17:30
+    - Meet The Ambassador: Steve Speicher, Red Hat
+  - 17:42
+    - Sponsored Keynote: Expanding the Kubernetes Operator Community - Rob Szumski, Principal Product Manager for OpenShift, Red Hat
+  - 17:49
+    - Keynote: End User Awards - Cheryl Hung, Director of Ecosystem, CNCF
+  - 17:59
+    - Keynote: Closing Remarks - Janet Kuo, Software Engineer, Google
+  - 18:00
+    - Meet The Maintainer: Harbor - Michael Michael, VMware
+    - K8s Boothday Party
+  - 18:30
+    - Meet The Ambassador: Michael Goodness, Ticketmaster
+ 
+Wednesday, May 22
+  - 06:15
+    - Fun Run – Running/Walking Tour of Barcelona (RSVP Required - Link in Description)
+  - 07:30
+    - The New Stack Pancake Breakfast, Sponsored by VMware
+    - Registration + Badge Pick-up at Fira Gran Via (Main Conference Venue)
+  - 08:00
+    - Welcome Coffee
+    - Quiet Room
+  - 09:00
+    - Keynote: Opening Remarks - Bryan Liles, Senior Staff Engineer, VMware
+  - 09:05
+    - Keynote: How Spotify Accidentally Deleted All its Kube Clusters with No User Impact - David Xia, Infrastructure Engineer, Spotify
+  - 09:27
+    - Sponsored Keynote: Building a Bigger Tent: Cloud Native, Cultural Change and Complexity - Bob Quillin, VP Developer Relations, Oracle Cloud
+  - 09:34
+    - Keynote: A Journey to a Centralized, Globally Distributed Platform – Katie Gamanji, Cloud Platform Engineer, Condé Nast International
+  - 09:51
+    - Sponsored Keynote: What I Learned Running 10,000+ Kubernetes Clusters - Jason McGee, IBM Fellow, IBM
+  - 09:58
+    - Keynote: Debunking the Myth: Kubernetes Storage is Hard - Saad Ali, Senior Software Engineer, Google
+  - 10:18
+    - Keynote: Closing Remarks - Bryan Liles, Senior Staff Engineer, VMware
+  - 10:20
+    - Coffee Break
+    - Sponsor Showcase
+  - 10:30
+    - Meet The Maintainer: Linkerd - Thomas Rampelberg, Buoyant
+  - 11:00
+    - Meet The Maintainer: Kubernetes - Patrick Lang, Microsoft
+  - 11:05
+    - Create Visually Compelling Developer Experiences for Kubernetes on VS Code - Ivan Towlson & Ralph Squillace, Microsoft
+    - How We Used Kubernetes to Host a Capture the Flag (CTF) - Ariel Zelivansky & Liron Levin, Twistlock
+    - Navigating the Cloud Native Community for End Users - Cheryl Hung, CNCF
+    - OpenAPI Specs – Towards Native User Experience of CRDs - Stefan Schimanski, Red Hat
+    - GPU Machine Learning From Laptop to Cloud - Mark Puddick, Pivotal
+    - Deep Dive: CNCF CI - Lucina Stricko & Denver Williams, Vulk Coop & CNCF
+    - Deep Dive: CNCF Security SIG – Justin Cappos, New York University & Zhipeng Huang, Huawei
+    - Deep Dive: Kubernetes (Release) SIG - Tim Pepper & Stephen Augustus, VMware
+    - Deep Dive: Open Policy Agent - Torin Sandall & Tim Hinrichs, Styra
+    - Intro: Auth SIG - Mo Khan, Red Hat & Mike Danese, Google
+    - Intro: Envoy - Lizan Zhou, Tetrate
+    - Intro: Vitess - Sugu Sougoumarane & Deepthi Sigireddi, PlanetScale
+    - Building HA Multi-Cloud Clusters Using WireGuard as a Network Overlay - Lucas Servén Marín, Red Hat
+    - M3 and Prometheus, Monitoring at Planet Scale for Everyone - Rob Skillington, Uber
+    - Restart-Free Vertical Scaling for Kubernetes Pods - Vinay Kulkarni & Peng Du, Huawei
+    - Zero Trust Service Mesh with Calico, SPIRE, and Envoy - Shaun Crampton, Tigera & Evan Gilman, Scytale
+    - Accelerating the Journey of an AI Algorithm to Production with OpenFaaS - Joost Noppen, BT PLC & Alex Ellis, OpenFaaS Ltd
+    - JustFootball’s Journey to gRPC + Linkerd in Production - Ben Lambert, JustFootball & Kevin Lingerfelt, Buoyant
+    - Data Without Borders - Using Rook Storage Orchestration at a Global Scale - Jared Watts, Upbound
+    - Intro + Deep Dive: CNCF Storage WG - Alex Chircop, StorageOS & Quinton Hoole, Huawei
+  - 11:55
+    - Build a Kubernetes Based Cloud Native Storage Solution From Scratch - Sheng Yang, Rancher Labs
+    - The Story of Why We Migrate to gRPC and How We Go About It - Matthias Grüter, Spotify
+    - Merging Quickly in a Cloud Native World - Lucas Roesler, Contiamo
+    - Resize Your Pods w/o Disruptions aka How to Have a Cake and Eat a Cake - Karol Gołąb & Beata Skiba, Google
+    - Towards Kubeflow 1.0, Bringing a Cloud Native Platform For ML to Kubernetes - David Aronchick, Microsoft & Jeremy Lewi, Google
+    - Deep Dive: CNCF Serverless WG/CloudEvents - Clemens Vasters, Microsoft & Vlad Ionescu, Independent
+    - Deep Dive: Falco - Michael Ducy, Sysdig
+    - Deep Dive: Kubernetes Architecture SIG - Timothy St. Clair, VMware
+    - Deep Dive: Network Service Mesh (NSM) - Nikolay Nikolaev, VMware & Frederick Kautz, Doc.ai
+    - Deep Dive: Rook - Jared Watts & Bassam Tabbara, Upbound
+    - Intro: Brigade - Radu Matei, Microsoft
+    - Intro: Telepresence - Richard Li, Datawire
+    - Treating Network Assets as Scheduleable Resources - Vinothkumar Siddharth, Amazon
+    - From New Cluster to Insight. Deploying Monitoring and Logging to Kubernetes - Eddie Zaneski, DigitalOcean
+    - Koping with Change: What kops Learned Adopting etcd3, cluster-api and CRDs - Justin Santa Barbara, Google & Mike Splain, Sonos
+    - Crafty Requests: Deep Dive Into Kubernetes CVE-2018-1002105 - Ian Coldwater, Heroku
+    - FaaS is Not Only the Serverless: Stream Processing with Serverless - Jun Makishi & Kensaku Komatsu, NTT Communications
+    - Service Meshes: At What Cost? - Lee Calcote, Layer5 & Girish Ranganathan, SolarWinds
+    - Benchmarking Cloud Native Databases Performance on Kubernetes - Iqbal Farabi & Tara Baskara, GO-JEK
+  - 12:00
+    - Meet The Maintainer: Harbor - Steven Ren, VMware
+  - 12:30
+    - Meet The Maintainer: Rook - Jared Watts, Upbound
+    - Lunch (Provided)
+    - Diversity Lunch + Hack, Sponsored by Google Cloud (Additional Registration Required)
+  - 13:00
+    - Meet The Maintainer: Harbor - Michael Michael, VMware
+    - Meet The Maintainer: Linkerd - Thomas Rampelberg, Buoyant
+  - 13:30
+    - Meet The Maintainer: Open Policy Agent - Patrick East, Styra
+    - Meet The Maintainer: Vitess - Deepthi Sigireddi, Planet Scale
+  - 14:00
+    - Meet the Ambassador - Alessandro Vozza, Microsoft
+    - Hacking Helm - Paul Czarkowski, Pivotal & Scott Rigby, Codeacademy
+    - Panel Discussion: Democratizing HPC & AI: Startups Scale Up with Cloud Native - Emily Tanaka-Delgado, Oracle; Charlie Davies, iGeolise; Priya Shah, Sauce; Dr. Zara Nanu, Gapsquare; and Alfonso Santiago, ELEM
+    - 2 Years of TGIKubernetes - Joe Beda, VMware
+    - Lifecycle of a kubectl Command: Harden Kubernetes Setup with Automation - Sanjary Rahman, Booking.com
+    - Building Cross-Cloud ML Pipelines with Kubeflow with Spark & Tensorflow - Holden Karau, Google & Trevor Grant, IBM
+    - Deep Dive Fluent Bit: Logging & Stream Processing - Eduardo Silva, ARM Treasure Data
+    - Deep Dive: Contributor Experience SIG - Elsie Phillips, Red Hat & Paris Pittman, Google
+    - Deep Dive: Kubernetes (Instrumentation) SIG - Frederic Branczyk & Max Inden, Red Hat
+    - Deep Dive: Service Catalog SIG - Jonathan Berkhahn, IBM
+    - Deep Dive: Virtual Kubelet - Jeremy Rickard, Microsoft & Lei Zhang, Alibaba Cloud
+    - Intro: Scheduling SIG - Da Ma & Shivram Srivastava, Huawei
+    - gRPC Load Balancing and Service Mesh - Vishal Powar, Google
+    - Deep Dive: Kubernetes Metric APIs Using Prometheus - Matthias Loibl & Sergiusz Urbaniak, Red Hat
+    - The Magic of Kubernetes Self-Healing Capabilities - Saad Ali, Google
+    - Inside the CNCF Project Security Reviews - Justin Cormack, Docker
+    - The Serverless Landscape and Event Driven Futures - Dee Kumar, CNCF & Priyanka Sharma, GitLab
+    - Benefits of a Service Mesh When Integrating Kubernetes with Legacy Services - Stephan Fudeus & David Meder-Marouelli, 1&1 Mail & Media Development & Technology GmbH
+    - Kubernetes Storage 101 - Jan Šafránek, Red Hat & David Zhu, Google
+  - 14:30
+    - Meet The Ambassador: Michael Mueller, Container Solutions
+  - 14:50
+    - Strategies to "Kubernetify" Legacy Applications - Sai Vennam, IBM
+    - Deconstructing Apache Hadoop: A Dialogue About a Cloud-Native Refactor - Anu Engineer & Marton Elek, Cloudera
+    - 5 Steps to Building Inclusive Communities - Ashlynn Polini, Docker
+    - Ready? A Deep Dive into Pod Readiness Gates for Service Health Management - Minhan Xia, Google & Ping Zou, Intuit
+    - Managing Machine Learning in Production with Kubeflow and DevOps - David Aronchick, Microsoft
+    - Deep Dive: CLI SIG - Maciej Szulik, Red Hat & Phillip Wittrock, Google
+    - Deep Dive: CoreDNS - Yong Tang, MobileIron & John Belamaric, Google
+    - Deep Dive: Harbor - Steven Zou & Daniel Jiang, VMware
+    - Deep Dive: Kubernetes WG for Multitenancy - Sanjeev Rampal, Cisco & Ryan Bezdicek, Cray, Inc.
+    - Deep Dive: Scalability SIG - Shyam Jeedigunta, Amazon Web Services & Wojciech Tyczynski, Google
+    - Deep Dive: SPIFFE - Scott Emmons & Emiliano Bernbaum, Scytale
+    - Intro: Kubernetes SIG - Da Ma, Huawei & Zefeng Wang, Huawei
+    - Reinventing Networking: A Deep Dive into Istio's Multicluster Gateways - Steve Dake, Independent
+    - What's the Performance Overhead? Answering the Biggest Question in Tracing - Gabriela Soria, Outreachy
+    - Transparent Chaos Testing with Envoy , Cilium and BPF - Thomas Graf, Isovalent
+    - Container Forensics: What to Do When Your Cluster is a Cluster - Maya Kaczorowski & Ann Wallace, Google
+    - Edgility - 5G Orchestration in Serverless-Edge Cloud-Native Environments - Eden Pierre Rozin, AT&T
+    - Building an Edge Control Plane with Kubernetes and Envoy - Flynn, Datawire
+    - Large Synoptic Survey Telescope: From Cloud Native to Dark Energy - Fabrice Jammes, LSST Corporation & French National Institute of Nuclear and Particle Physics (IN2P3)
+  - 15:00
+    - Meet The Ambassador: Jacopo Nardiello, SIGHUP
+  - 15:25
+    - Coffee Break
+  - 15:30
+    - Meet The Ambassador: Jacopo Nardiello, SIGHUP
+    - Meet The Maintainer: Open Policy Agent - Torin Sandall, Styra
+  - 15:55
+    - Infrastructure as Software - Paul Jones, Dyson
+    - Building Cloud Native GDPR Friendly Systems for Data Collection - Zsolt Homorodi, VTT
+    - Panel Discussion: Leveraging Cloud Native Technology to Transform Your Enterprise - Cheryl Hung, CNCF; Brad Topol, IBM; Ken Owens, Mastercard; & Jeff Brewer, Intuit
+    - A Kubernetes Application End-to-End: DevStats - Łukasz Gryglicki, CNCF & Josh Berkus, Red Hat
+    - Keep the Space Shuttle Flying: Writing Robust Operators - Illya Chekrygin, Upbound
+    - Large Scale Distributed Deep Learning with Kubernetes Operators - Yuan Tang, Ant Financial & Yong Tang, MobileIron
+    - Deep Dive: Cloud Native Buildpacks - Terence Lee, Heroku & Stephen Levine, Pivotal
+    - Deep Dive: Cortex - Tom Wilkie, Grafana Labs & Bryan Boreham, Weaveworks
+    - Deep Dive: Kubernetes (VMware) SIG - Loc Nguyen & Sidharth Surana, VMware
+    - Deep Dive: Testing SIG - Benjamin Elder, Google & James Munnelly, Jetstack
+    - Co-Evolution of Kubernetes and GCP Networking - Purvi Desai & Tim Hockin, Google
+    - Tracing is More Than Traces: The Insights in Trace Aggregates - Daniela Miao, LightStep
+    - Migrating South East Asia's Biggest Payments Company to Kubernetes - Akashdeep Singh, GO-JEK & Abhishek Sangwan, MavenHive Technologies
+    - Smarter Kubernetes Access Control: A Simpler Approach to Auth - Rob Scott, ReactiveOps
+    - Surviving Serverless Battle By Secure Runtime, CRI and RuntimeClass - Xiaoyu Zhang & Lei Zhang, Alibaba
+    - Grow with Less Pains - Meshing From Monolith to Microservices - Leo LIang, Cruise Automation
+    - Improving Availability for Stateful Applications in Kubernetes - Michelle Au, Google
+    - Intro + Deep Dive: Cloud-Provider SIG - Chris Hoge, OpenStack Foundation, Andrew Sy Kim, VMware, & Jago Macleod, Google
+  - 16:00
+    - Meet The Ambassador: Jacopo Nardiello, SIGHUP
+    - Meet The Maintainer: Harbor - Steven Zou, VMware
+  - 16:45
+    - Managing CRDs and Operators in Practice - Zhen Zhang, Alibaba & Wei Guo, Ant Financial
+    - 10 Ways to Shoot Yourself in the Foot with Kubernetes, #9 Will Surprise You - Laurent Bernaille & Robert Boll, Datadog
+    - The Spotify Story: Moving from NIH to an Active CNCF Community Member - Jim Haughwout, Spotify
+    - Extending Knative for Fun and Profit - Matt Moore & Ville Aikas, Google
+    - The Data Analytics Platform or How to Make Data Science in a Box Possible - Krzysztof Adamski & Rob Keevil, ING
+    - Deep Dive: Cluster Lifecycle SIG (Kubeadm) - Fabrizio Pandini & Lubomir I. Ivanov, VMware
+    - Deep Dive: Dragonfly - Jin Zhang, Alibaba Cloud & Haibing Zhou, eBay
+    - Deep Dive: Kubernetes (PM) SIG - Ihor Dvoretskyi, CNCF & Stephen Augustus, VMware
+    - Deep Dive: NATS - Waldemar Quevedo, Synadia Communications, Inc
+    - Deep Dive: TUF / Notary - Justin Cappos & Lukas Puehringer, NYU
+    - Intro: Kubernetes (AWS) SIG - Justin Santa Barbara, Google
+    - Going from 5s to 5ms: Benefits of a Node-Local DNSCache - Pavithra Ramesh, Google & Blake Barnett, Postmates
+    - Fluent Bit: Extending Your Logging Pipeline with Go - Warren Fernandes & Jason Keene, Pivotal
+    - Panel Discussion: Multi-Tenancy in Kubernetes: Current State and Future Roadmap - Sanjeev Rampal, Cisco; Ryan Bezdicek, Cray Inc.; Erica von Buelow, Red Hat; and Tasha Drew, VMware
+    - Caller ID in Kubernetes - Michael Danese, Google
+    - Birds of a Feather: Do You Really Need on Premises Serverless ? - Igor Khapov, IBM
+    - Securing Cloud Native Communication, From End User to Service - Daniel Bryant, Datawire & Nic Jackson, HashiCorp
+    - Rook, Ceph, and ARM: A Caffeinated Tutorial - Federico Lucifredi & Sébastien Han, Red Hat
+  - 18:00
+    - All Attendee Party at Poble Espanyol
+ 
+Thursday, May 23
+  - 06:30
+    - Silent Yoga (RSVP Required - Link in Description)
+  - 07:30
+    - Networking + Mentoring Session (Additional Registration Required)
+  - 08:00
+    - Welcome Coffee
+    - Registration + Badge Pick-up at Fira Gran Via (Main Conference Venue)
+    - Quiet Room
+  - 09:00
+    - Keynote: Opening Remarks - Janet Kuo, Software Engineer, Google
+  - 09:07
+    - Keynote: Kubernetes - Don't Stop Believin' – Bryan Liles, Senior Staff Engineer, VMware
+  - 09:29
+    - Keynote: From COBOL to Kubernetes: A 250 Year Old Bank's Cloud-Native Journey - Laura Rehorst, Product Owner - Stratus Platform, ABN AMRO Bank NV & Mike Ryan, DevOps Consultant, backtothelab.io
+  - 09:51
+    - Keynote: Metrics, Logs & Traces; What Does the Future Hold for Observability? - Tom Wilkie, VP Product, Grafana Labs & Frederic Branczyk, Software Engineer, Red Hat
+  - 10:13
+    - Keynote: Closing Remarks - Bryan Liles, Senior Staff Engineer, VMware & Janet Kuo, Software Engineer, Google
+  - 10:20
+    - Coffee Break
+    - Sponsor Showcase
+  - 11:00
+    - Meet The Maintainer: gRPC - Jan Tattermusch, Google
+    - Meet The Maintainer: Kubernetes - Jorge Castro, VMware
+  - 11:05
+    - You Might Just be a Functional Programmer Now - Cornelia Davis, Pivotal
+    - Running Kubernetes on Ephemeral Infrastructure - Greg DeArment & Vlad Ungureanu, Palantir Technologies
+    - Testing your K8s apps with KIND - Benjamin Elder, Google & James Munnelly, Jetstack.io
+    - State of Kubernetes Contributor Community - Paris Pittman, Google
+    - Production GPU Cluster with K8s for AI and DL Workloads - Madhukar Korupolu, NVIDIA
+    - Deep Dive: Cluster Lifecycle SIG (Cluster API) - Jason DeTiberus, VMware & Hardik Dodiya, SAP
+    - Deep Dive: Envoy - Lizan Zhou, Tetrate
+    - Autoscaling Multi-Cluster Observability with Thanos and Linkerd - Andrew Seigner, Buoyant & Frederic Branczyk, Red Hat
+    - Running eBay’s High-Performance Workloads with Kubernetes - Xin Ma, eBay
+    - Tailor-Made Security: Building a Kubernetes Specific Hypervisor - Samuel Ortiz, Intel & Andreea Florescu, Amazon
+    - DIY Pen-Testing for Your Kubernetes Cluster - Liz Rice, Aqua Security
+    - Ouch! What I Learned From Being Hit by a Serverless, Ruby Boomerang! - Ewan Slater, Oracle
+    - 5 Simple Steps To Simplifying Your Compliance Journey With a Service Mesh – Granville Schmidt, Aspen Mesh
+    - Intro + Deep Dive BoF: Telecom User Group and Cloud Native Network Functions (CNF) Testbed - Cheryl Hung, Dan Kohn, CNCF & Taylor Carpenter, Vulk Coop
+    - Intro + Deep Dive: Apps SIG - Adnan Abdulhussein, Bitnami
+    - Intro + Deep Dive: IBMCloud SIG - Sahdev P. Zala, Khalid Ahmed, Brad Topol & Nimesh Bhatia, IBM
+    - Intro + Deep Dive: Kubernetes Policy WG - Zhipeng Huang, Huawei & Erica Von Buelow, Red Hat
+    - Intro + Deep Dive: Kubernetes Storage SIG - Saad Ali, Google
+    - Intro + Deep Dive: OpenStack SIG - Chris Hoge, OpenStack Foundation & Aditi Sharma, NEC Technologies India
+    - Intro + Deep Dive: Prometheus - Julius Volz, Prometheus & Richard Hartmann, SpaceNet
+  - 11:55
+    - Chaos Debugging: Finding and Fixing Microservice Weak Points - Idit Levine & Mitch Kelley, Solo.io
+    - Scaling Edge Operations at Onefootball with Ambassador: From 0 to 6000 rps - Jonathan Juares Beber & Rodrigo Del Monte, Onefootball GmbH
+    - Repeatable Deployments with Kubernetes, Helm & Bazel - Rohan Singh, Hustle Inc
+    - How to Create Kubernetes Experts - Clarke Vennerbeck & Aaron Teague, Supergiant
+    - Public Technical Oversight Committee (TOC) Meeting - Moderated by Chris Aniszczyk, Cloud Native Computing Foundation
+    - A Tale of Two Worlds: Canary-Testing for Both ML Models and Microservices - Jörg Schad, ArangoDB & Vincent Lesierse, Vamp.io
+    - Deep Dive: kops (Cluster Lifecycle) SIG - Justin Santa Barbara, Google & Mike Splain, Sonos
+    - Grafana Loki: Like Prometheus, But for logs. - Tom Wilkie, Grafana Labs
+    - High Performance Networking with Kubevirt - Doug Smith, Red Hat & Abdul Halim, Intel
+    - Lessons Learned Migrating Kubernetes from Docker to containerd Runtime - Ana Calin, Paybase
+    - Securing Kubernetes with Trusted Platform Module (TPM) - Alex Tcherniakhovski & Andrew Lytvynov, Google
+    - Managing Edge Computing with Serverless - Lev Radomislensky, Iguazio
+    - Unblocking the Release Train with Istio Traffic Management - Dave Shepherd & Pierre Meunier, Wealth Wizards
+  - 12:00
+    - Meet the Ambassador – Ross Kukulinski, VMware
+    - Meet The Maintainer: Harbor - Steven Ren, VMware
+  - 12:30
+    - Meet The Ambassador: Kasper Nissen, Lunar Way
+    - Lunch (Provided)
+  - 13:00
+    - Meet The Maintainer: Kubernetes - Jorge Castro, VMware
+  - 13:30
+    - Meet the Ambassador - Alessandro Vozza, Microsoft
+  - 14:00
+    - Helm 3: Navigating To Distant Shores - Bridget Kromhout & Jessica Deen, Microsoft
+    - Panel Discussion: Going Multi-Cloud for Realz. Stories From Media, Retail, & Infrastructure - Lisa-Marie Namphy, Portworx; Eric Han, Portworx; Umair Mufti, DreamWorks Animation; Allan Naim, Google; and Joseph Sandoval...
+    - Modern CI/CD with Tekton and Prow Automated via Jenkins X - James Rawlings, Cloudbees & Christie Wilson, Google
+    - Panel Discussion: Metrics that Matter: How to Forge More Diverse, Inclusive Communities - Sarah Conway, Linux Foundation; Daniel Izquierdo, Bitergia; and Nicole Huesman, Intel
+    - Moving People and Products with Machine Learning on Kubeflow - Jeremy Lewi, Google & Willem Pienaar, GO-JEK
+    - Deep Dive: Auth SIG - Mo Khan & Matt Rogers, Red Hat
+    - Deep Dive: Azure SIG - Stephen Augustus, VMware & Lachlan Evenson
+    - Deep Dive: Kubernetes (UI) SIG - Jeffrey Sica, University of Michigan & Sebastian Floreks, Loodse
+    - Deep Dive: Linkerd - Oliver Gould, Buoyant
+    - Deploy, Scale and Extend Jaeger - Louis-Etienne Dorval, Ticketmaster
+    - Kubernetes Scalability Definition Evolution - Wojciech Tyczynski & Andrzej Wasylkowski, Google
+    - Let's Try Every CRI Runtime Available for Kubernetes. No, Really! - Phil Estes, IBM
+    - Securing Multi-Cloud Cross-Cluster Communication with SPIFFE and SPIRE - Evan Gilman, Scytale, Inc.
+    - How LivePerson is Tailoring its Conversational Platform Using OpenFaaS - Simon Pelczer, LivePerson & Ivana Yovcheva, VMware
+    - Storage Provisioning for Kubernetes on Windows - Anusha Ragunathan & Jean Rouge, Docker
+    - Intro + Deep Dive: Jaeger - Juraci Paixão Kröhling, Red Hat & Prithvi Raj, Uber
+    - Intro + Deep Dive: Kubernetes IoT Edge WG - Steven Wong, VMware, Cindy Xing, Huawei, Dejan Bosanac, Red Hat, & Kilton Hopkins, Edgeworx
+    - Intro + Deep Dive: Serverless WG - Scott Nichols, Google & Doug Davis, IBM
+    - Intro + Deep Dive: Windows SIG - Michael Michael, VMware & Patrick Lang, Microsoft
+  - 14:50
+    - Sharing is Caring: Your Kubernetes Cluster, Namespaces, and You - Amy Chen & Eryn Muetzel, VMware
+    - Embracing Upstream Kubernetes in Web Scale Organization - Lei Zhang, Alibaba & Jun Chen, Ant Financial
+    - How Intuit Does Canary and Blue Green Deployments with a K8s Controller - Daniel Thomson & Alex Matyushentsev, Intuit
+    - Oops!...I Did It Again — I Reinvented gRPC - Austin Lamon & Dave Zolotusky, Spotify
+    - Economics and Best Practices of Running AI/ML Workloads on Kubernetes - Maulin Patel, Google & Yaron Haviv, Iguazio
+    - Deep Dive: Brigade - Radu Matei, Microsoft
+    - Deep Dive: Kubernetes/Kubespray (Cluster Lifecycle) SIG - Antoine Legrand, Kubespray & Matthew Mosesohn, Progmatic Lab
+    - Deep Dive: Long Term Support WG - Tim Pepper, VMware
+    - Deep Dive: Vitess - Jiten Vaidya & Dan Kozlowski, PlanetScale
+    - Network Observability with IPFIX, Prometheus and Elastic Stack - Rastislav Szabo, Pantheon Technologies
+    - Where's My Pod, Already? A Tale of Cold-Start Struggles on Kubernetes - Gregory Haynes, IBM
+    - Building a Controller Manager for Your Cloud Platform - Fabio Rapposelli, VMware & Chris Hoge, Openstack Foundation
+    - Protecting the Data Lake - Ash Narkar, Styra, Inc
+    - Serverless Operations: From Dev to Production - Erwin van Eyk, Platform9
+    - Dealing with the Pesky Path Parameter Problem: Service Profiles - Alex Leong, Buoyant
+  - 15:25
+    - Coffee Break
+  - 15:30
+    - Networking + Mentoring Session (Additional Registration Required)
+  - 15:55
+    - Building and Maintaining a Client Library - Stories From the Trenches - Jussi Nummelin, Kontena Inc.
+    - Democratizing MySQL: From Cloud Managed to Kubernetes Managed - Sachin Manpathak, Platform9 & Flavius Mecea, Presslabs SRL
+    - Peribolos: How Kubernetes Uses GitOps to Manage GitHub Communities at Scale - Christoph Blecker, Red Hat & Erick Fejta, Google
+    - What Goes in a Release: Kubernetes 1.14 in Code, Conversations, and Hearts - Maria Ntalla, Pivotal
+    - Scaling and Securing Spark on Kubernetes at Bloomberg - Ilan Filonenko, Bloomberg
+    - Deep Dive: Autoscaling SIG - Aleksandra Malinowska & Slawomir Chylek, Google
+    - Deep Dive: KubeEdge - Cindy Xing & Zefeng Wang, Huawei
+    - Monitoring Service Architecture and Health with BPF - Jonathan Perry, Flowmill, Inc.
+    - Latest Kubernetes Scalability Improvements - Shyam Jeedigunta, Amazon & Yassine Tijani, VMware
+    - Reenforce Kubernetes Image Isolation in Multi-Tenant Service - Eric Lin, Alibaba
+    - Secrets Store CSI Driver-Bring Your Own Enterprise Secrets Store to K8s - Rita Zhang, Microsoft & Anubhav Mishra, HashiCorp
+    - Istio on Knative Lessons Learned: How Istio is Fit for Serverless Platform - Ying Chun Guo & Iris Ding, IBM
+    - Networking the Service Mesh Proxy: Where We Are, Where We’re Going - Tim Swanson & John Joyce, Cisco
+    - Intro + Deep Dive: containerd - Wei Fu, Alibaba & Mike Brown, IBM
+    - Intro + Deep Dive: Kubernetes (Docs) SIG - Zach Corleissen, Linux Foundation & Rael Garcia, CAPSiDE
+    - Intro + Deep Dive: Kubernetes (Network) SIG - Tim Hockin, Google
+    - Intro + Deep Dive: Kubernetes Conformance WG - Dan Kohn, CNCF, William Denniss, Aaron Crickenberger, Google & Hippie Hacker, ii.coop
+    - Intro + Deep Dive: Multicluster SIG - Shashidhara T D & Irfan Ur Rehman, Huawei; Maru Newby, Red Hat
+  - 16:45
+    - Microservices for the Masses – Integrating a Distributed OS with Kubernetes - Quinton Hoole, Huawei & Irene Zhang, Microsoft Research & University of Washington
+    - Delivering TV Everywhere with Cloud Native Solutions - Arnaud Caron & Jerome Champetier, Mediakind
+    - How Does Google Release Kubernetes in GKE - Kobi Magnezi & Josh Hoak, Google
+    - Panel Discussion: Care and Feeding: Burnout and Self Care in our Community - Aaron Crickenberger, Google; Rithu Leena, Lyft; Ashley McNamara, Microsoft; Stephen Augustus, VMware; and Noah Kantrowitz, Ridecell
+    - GPU Sharing for Machine Learning Workload on Kubernetes - Henry Zhang & Yang Yu, VMware
+    - Deep Dive: API Machinery SIG - David Eads, Red Hat & Daniel Smith, Google
+    - Deep Dive: Helm - Matt Fisher & Adam Reese, Microsoft
+    - Deep Dive: Scheduling SIG - Babak Salamat, Google
+    - Fool-Proof Kubernetes Dashboards for Sleep-Deprived Oncalls - David Kaltschmidt, Grafana Labs
+    - Kubernetes Networking at Scale - Laurent Bernaille, Datadog & Bowei Du, Google
+    - Kubernetes Networking: How to Write a CNI Plugin From Scratch - Eran Yanay, Twistlock
+    - Uber x Security: Why and How We Built Our Workload Identity Platform - Tyler Julian, Uber & Daniel Feldman, Scytale
+    - Delivering Serverless Experience on Kubernetes: Beyond Web Applications - Alex Glikson, Carnegie Mellon University
+    - Cross-Cluster Calls Made Easy with Istio 1.1 - Matt Turner, Tetrate

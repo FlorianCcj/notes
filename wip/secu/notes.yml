@@ -1,0 +1,28 @@
+notes:
+  - title: how to protect your server from hackers
+    source: https://dev.to/vkolesov/how-to-protect-your-server-from-hackers-4j6l?utm_source=Newsletter+Subscribers&utm_campaign=761c42a211-EMAIL_CAMPAIGN_2019_04_01_11_04&utm_medium=email&utm_term=0_d8f11d5d1e-761c42a211-154848417
+    content:
+      - cat /var/log/auth.log |  grep Accepted
+      - update
+      - upgrade
+      - install ufw
+      - close useless ports
+      - fail2ban: analyse /var/log/auth.log
+      - config sshd to permit only private key auth
+    init:
+      - ssh-keygen
+      - ls ~/.ssh
+      - ssh-copy-id you_user@your_server_id
+      - ssh your_server_id
+      - nano /etc/ssh/sshd_config
+      - content: PasswordAuthentication no
+    ufw and fail2ban:
+      - apt install ufw fail2ban
+      - ufw allow ssh && ufw allow 80 && ufw allow 443
+      - ufw enable
+      - cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+      - nano /etc/fail2ban/jail.local
+      - content: banaction = ufw
+      - fail2ban-client reload
+      - fail2ban-client status sshd
+

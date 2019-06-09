@@ -1,0 +1,30 @@
+/* #section2 */
+
+h1 {
+  color: red;
+}
+
+/* #quote { */
+:host {
+  display: block;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+:host(.favorite) {
+  border: 1px solid red;
+}
+
+/* :host-context(.boring #very-boring) { */
+:host-context('.boring #very-boring') {
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+
+/* :host-context(.boring) /deep/ h1 {
+  color: #ccc;
+} */
+
+:host-context('.boring #very-boring') >>> h1 {
+  color: #ccc;
+}

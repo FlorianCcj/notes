@@ -1,0 +1,33 @@
+- name: init chromebook
+  hosts: all
+  become: yes
+  vars_files:
+    - vars/playbook.yml
+    - vars/template.yml
+  roles:
+    - geerlingguy.docker
+  tasks:
+    - import_tasks: tasks/apt_update.yml
+    - import_tasks: tasks/vital_packages.yml
+    - import_tasks: tasks/system_packages.yml
+    - import_tasks: tasks/install_zsh_plugin.yml
+    - import_tasks: tasks/install_git.yml
+#    #- import_tasks: tasks/banner.yml
+    - import_tasks: tasks/install_python.yml
+    - name: Include php vars
+      include_vars: vars/vars-install_php.yml
+    - import_tasks: tasks/install_php.yml
+    - name: Include composer vars  
+      include_vars: vars/vars-install_composer.yml
+    - import_tasks: tasks/install_composer.yml
+    - import_tasks: tasks/install_npm.yml
+    - import_tasks: tasks/install_vscode.yml
+    - import_tasks: tasks/install_atom.yml
+    - name: Include discord vars
+      include_vars: vars/vars-install_discord.yml
+    - import_tasks: tasks/install_discord.yml
+    - import_tasks: tasks/install_slack.yml
+    - name: Include ansible_non_root_user.yml vars
+      include_vars: vars/vars-ansible_non_root_user.yml
+    - import_tasks: tasks/non_root_docker_user.yml
+    - import_tasks: tasks/install_cgoban.yml

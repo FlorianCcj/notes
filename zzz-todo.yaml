@@ -1,13 +1,23 @@
 todo:
   - 000_wip:
+    - casden
     - pes1
+    - mentalism
+    - ironfx 
+    - economie
+    - css and co
+    - entreprise
+      https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre/4790751-mettez-en-place-votre-environnement-dapprentissage
     - maison
-    - apart
+      - contacter casden
     - gn
     - voiture
-    - mentalism
-    - hack
-    - opti-stuff
+      - 10h
+    - ing
+      passport
+      signature
+      contrat Z3LzcDeV
+    - katakoda
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -19,6 +29,32 @@ todo:
       - one punch man
       - shokugeki no soumq
       - combat continent
+      - tensei shitara slime datta ken (slime, je te bouffe j ai tes pouvoir)
+      - tate yuusha no nariagari (invoquer, hais, bouclier en bois)
+      - luck and logic
+      - nian koi (maudit par les chat)
+      - saenai heroine no sodatekata (createur de jeu)
+      - gamers
+      - naruto:
+        - http://mangalecture.free.fr/index.php/image/9256-chapitre-scan-naruto-640-vf-page-02
+        - https://fr.wikipedia.org/wiki/Liste_des_chapitres_de_Naruto_(2e_partie)#Tomes_61_%C3%A0_70
+        - http://op-vf.com/manga/naruto/640/7
+        - http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin
+        - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
+        - http://lelscanv.com/scan-naruto/600
+      - fairy tail:
+        - http://lordmanga.free.fr/scan.php?manga=Fairy_Tail
+        - http://lelscanv.com/lecture-en-ligne-fairy-tail
+        - https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
+      - combat-continent-douluo-dalu:
+        - https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1
+	- http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
+	- https://www.japanread.cc/manga/douluo-dalu/121
+      - vf:
+        - https://www.mangakawaii.to/
+        - https://www.lirescan.me/
+        - https://www.lelscan-vf.com/
+	- https://www.japanread.cc
     - mentalism: ~
     - music:
       - flute
@@ -61,6 +97,7 @@ todo:
     - chausse pied
     - chargeur
     - mp3
+    - lazy susan
   - moment_priority:
     + emprun
     - RFC read
@@ -108,6 +145,7 @@ todo:
         - https://www.youtube.com/watch?v=dCQpaTTTv98
         - https://www.youtube.com/watch?v=4sNdq6fjZFQ
       - gitlab:
+        - https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc?utm_source=Newsletter+Subscribers&utm_campaign=e44a29110b-EMAIL_CAMPAIGN_2019_06_03_03_33&utm_medium=email&utm_term=0_d8f11d5d1e-e44a29110b-154848417
         hook:
           - https://delicious-insights.com/fr/articles/git-hooks/
           - https://docs.gitlab.com/ee/administration/custom_hooks.html
@@ -157,7 +195,9 @@ todo:
     - konmari:
       - https://www.youtube.com/watch?v=29R00CSp0Y8
     - magie:
+      - bonneto de garrett thomas
       - roberto giobbi, tours
+      - emsley
   - lecture:
     - jdr:
       - https://thetrove.net/Books/Legend%20of%20the%20Five%20Rings/Maps/
@@ -167,6 +207,7 @@ todo:
       - cf index
     vrac:
       - https://github.com/phpstan/phpstan (checkstyle/error ?)
+      - https://vincent.composieux.fr/article/certificationy-un-outil-pour-sentrainer-a-la-certification-symfony
       - https://nginxconfig.io/
       - https://lyrislaser.com/wp-content/uploads/2014/08/Pai-Sho-Rules-Gameplay.pdf
       - https://www.jeuxavolonte.asso.fr/regles/le_donjon_de_naheulbeuk.pdf
@@ -251,7 +292,12 @@ todo:
         - faire des stats
         - permettre exclure des questions les prochaines fois
         - permetttre de remettre les questions exclu
-
+    - work_your_calculation:
+      desc: petit logiciel qui te donne des nombres alléatoire a toi de trouve la racine carré, le resultat multiplicatoire ...
+      content:
+        - multiplicationde deux chiffres entre 10 et 20
+        - carre entre 10 et 20
+        - racine de nombre sup a 40 000
 
 
 - * + create a todo (titre, status, deadline/rappel, color)
@@ -271,3 +317,4 @@ todo:
 * hide our todo & show a list of shared
 * avoir un suivi du deroulement de la tache (workflow, ou %)
 
+yuusha ni narenakatta

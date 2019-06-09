@@ -1,0 +1,79 @@
+plat:
+  A-F:
+    A:
+    B:
+      - blini:
+        types: [ entree, plat, dessert ]
+    C:
+      - crepe:
+        types: [ plat, dessert ]
+      - croque-monsieur:
+        types: [ plat ]
+    D:
+    E:
+    F:
+  G-L:
+    G:
+      - gratin:
+        types: [ plat ]
+    H:
+    I:
+    J:
+    K:
+    L:
+  M-R:
+    M:
+    N:
+    O:
+    P:
+      - poivron-chorizo:
+        types: [ plat ]
+      - poulet a la creme:
+        types: [plat]
+    Q:
+      - quiche:
+        types: [ entree, plat ]
+    R:
+      - risotto:
+        types: [ plat ]
+  S-X:
+    S:
+      - sauté de poireau:
+        types: [ plat ]
+      - sauté de courgette:
+        types: [ plat ]
+      - soupe chinoise:
+        types: [ plat ]
+    T:
+    U:
+    V:
+    W:
+    X:
+      - xaxiu:
+        types: [ plat ]
+  Y-Z:
+    Y:
+    Z:
+by_week:
+  2019-22:
+    saturday: ~
+  2019-23:
+    patate saute, magret
+    gratin de patte
+    galette de pate
+    Riz, poulet, chapignons et oignons au miel
+  2019-24:
+    quiche
+    Porc au caramel
+    Poulet à la crème et aux champignons
+
+
+
+
+
+
+
+
+
+
+    

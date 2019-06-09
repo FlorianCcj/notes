@@ -1,0 +1,22 @@
+<button (click)="width = width - 50">Shrink</button>
+<button (click)="animate = true">Animate me</button>
+
+easings.net
+cubic-bezier.com
+
+<p
+  @animateStateBeforeTimingChanged
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  @animateStateNormal
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  @animateStateCubic
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  @animateState
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>

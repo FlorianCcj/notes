@@ -1,0 +1,102 @@
+Formation_comptabilitite:
+  source: https://openclassrooms.com/fr/paths/116-responsable-comptable
+  chap:
+    Projet1-Entrez dans votre formation de responsable comptable !:
+      projet1-part1-apprendre_a_apprendre:
+        source: https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre/4789786-pourquoi-apprendre-a-apprendre
+        content:
+          - expliquer a quelqu'un ce que vous avez compris
+          - la mnemotechnie:
+            chuncking: il est plus simple de retenir en petit morceau
+              exercice: 
+                1. ecrire les numeros de tel de 4 amis
+                2. diviser les 10 chiffres en 5 chuncks de 2 chiffres
+                3. reviser le lendemain, dans 3 jours, dans 6 jours, dans 12 jours
+            la meta-carte mentale: une carte mentale qui explique ce qu'est une carte ou comment en creer
+              les 4P:               
+              Planifiez : cette phase correspond a l'estimation du temps que vous voulez allouer pour vous autoformer sur le sujet et realiser l'exercice.
+              Preparez : vous devrez prendre des decisions sur la maniere d'aborder l'exercice en fonction du temps que vous vous etes imparti. La premiere decision a prendre sera celle du support et la selection des ressources. Vous avez le choix entre au moins 3 supports : 
+                  Papier: une feuille blanche au format paysage et un stylo quelconque feront tres bien l'affaire pour un premier croquis. Notez que ce ne sont pas vos talents de dessinateurs qui seront evalues. 
+                  Logiciel specialise: vous pouvez aussi utiliser un logiciel gratuit ou la version d'essai d'un logiciel dedie.
+                  Editeur graphique: si vous savez deja utiliser un logiciel d'edition graphique (comme Illustrator) vous pouvez vous y essayer. 
+              Pratiquez: faites un premier jet ou quelques brouillons pour developper un sens de l'espace sur la feuille et faire vos premieres erreurs sans consequences.
+              Perfectionnez: prenez votre brouillon et servez-vous en pour expliquer le concept a quelqu'un. a partir de ces feedbacks, remettez votre creation au propre. Attention toutefois a ne pas tomber  dans une spirale perfectionniste. Rendez votre travail des qu'il commence a etre lisible et suffisamment complet pour etre utilise comme support de retransmission. Si vous voulez en faire une oeuvre faites-le apres vous etres fait evalue une premiere fois. 
+    Projet2-Decouvrez l'evolution des metiers comptables:
+      projet2-part1-contruire_votre_projet_pro:
+        source: https://openclassrooms.com/fr/courses/5218141-construisez-votre-projet-professionnel
+        chap: >
+          faire le portefeuille de ses competences (savoirs, savoirs faire et savoirs etre)
+          On peut definir la competence comme une combinaison de savoirs, savoir-faire et savoir-etre mis en pratique dans un contexte particulier et dont les resultats peuvent etre evalues concretement.
+          quelques savoir-etre:
+            confiant, fiable, responsable, solidaire
+            communicatif, rigoureux, intuitif, inventif
+            organise, entreprenant, optimiste, tolerant
+            pedagogue, reactif, collaboratif, diplomate
+            adaptable, energique, concentre, decideur
+          lister des qualites : à partir de cette liste, sélectionnez les 5 à 10 qualités qui vous ressemblent le plus. Reliez ces qualités à des situations précises dans lesquelles vous avez pu les mettre en application.
+          lister des competences: 
+            1. Je suis capable de
+            2. ajouter un verbe d action: https://www.sites.univ-rennes2.fr/suio-ip/trek/sites/default/files/liste_de_verbes_daction_0.pdf
+            3. objet: pilloter un projet, concevoir un site web
+            4. un contexte
+          illustrer les competences: realisation, situation, ...
+          identifier vos competence:
+            1. lister vos experience pro et perso
+              job etudient, d ete, stages,  benevolat, projet, 
+            2. en deduire des competences
+            3. evaluer votre degré de maitrise
+            4. fixer les objectifs de maitrise
+          piloter vos competences:
+            * evaluation: debutant, junior, confirme, expert 
+            * evolution
+          plan d action:
+            * objectif
+            * moyens
+            * methodes
+            * details
+            * controle
+    Projet3-Parametrez et verifiez les ecritures comptables:
+      Projet3-Part1-Realiser_les_operation_courante_de_comptabilite:
+        source: https://openclassrooms.com/fr/courses/4940566-realisez-les-operations-courantes-de-comptabilite
+    Projet4-etablissez des bulletins de salaire et des declarations sociales:
+      Projet4-Part1-apprendre_a_lire_une_fiche_de_paie:
+        source: https://openclassrooms.com/fr/courses/4667641-apprenez-a-lire-un-bulletin-de-paie
+      Projet4-Part2-Decouvrez_les_calculs_de_paie_et_comment_les_controler:
+        source: https://openclassrooms.com/fr/courses/4722866-decouvrez-les-calculs-de-paie-et-comment-les-controler
+      Projet4-Part3-Maitriser_l_univers_des_cotisations_sociales:
+        source: https://openclassrooms.com/fr/courses/4722851-maitrisez-lunivers-des-cotisations-sociales
+      Projet4-Part4-Gerer_les_relations_de_travail:
+        source: https://openclassrooms.com/fr/courses/4581041-gerez-la-relation-de-travail
+    Projet5-Effectuez les ecritures de fin d'exercice et preparez les etats financiers:
+      Projet5-Part1-Realiser_une_comptabiliter_de_fin_d_exercice:
+        source: https://openclassrooms.com/fr/courses/5010961-realisez-une-comptabilite-de-fin-dexercice
+    Projet6-Recommandez une solution numerique pour un service comptable:
+      Projet6-Part1-Automatisez_cotre_traitement_comptable:
+        source: https://openclassrooms.com/fr/courses/5149166-automatisez-votre-traitement-comptable
+      Projet6-Part2-Maitriser_les_risques_juridiques_lies_au_numerique:
+        source: https://openclassrooms.com/fr/courses/5162341-maitrisez-les-risques-juridiques-lies-au-numerique
+    Projet7-Assurez le respect des obligations fiscales et legales d'une organisation:
+      Projet7-Part1-Assurez_la_conformite_de_vos_declarations_fiscales_au_droit:
+        source: https://openclassrooms.com/fr/courses/4810106-assurez-la-conformite-de-vos-declarations-fiscales-au-droit
+      Projet7-Part2-Mettre_en_place_un_systeme_de_veille_informationnelle:
+        source: https://openclassrooms.com/fr/courses/4805776-mettez-en-place-un-systeme-de-veille-informationnelle
+      Projet7-Part3-Ameliorer_l_impact_de_vos_presentations:
+        source: https://openclassrooms.com/fr/courses/3013891-ameliorez-limpact-de-vos-presentations
+    Projet8-Presentez les resultats financiers d'une entreprise:
+      Projet8-Part1-Realiser_des_reportings_et_des_budgets_pour_convaincre:
+        source: https://openclassrooms.com/fr/courses/4963261-realisez-des-reportings-et-des-budgets-pour-convaincre
+      Projet8-Part2-Maitriser_les_fondemmentaux_d_excel:
+        source: https://openclassrooms.com/fr/courses/4929811-maitrisez-les-fondamentaux-dexcel
+    Projet9-Construisez le budget d'une entreprise:
+      Projet9-Part1-Prenez_la_parole_en_public:
+        source: https://openclassrooms.com/fr/courses/4577696-prenez-la-parole-en-public
+    Projet10-Faites une projection de tresorerie:
+      Projet10-Part1-Gerez_votre_tresorerie:
+        source: https://openclassrooms.com/fr/courses/5149176-gerez-votre-tresorerie
+    Projet11-Communiquez sur les enjeux humains et les outils de la relation client:
+      Projet11-Part1-Menez_a_bien_votre_projet_CRM:
+        source: https://openclassrooms.com/fr/courses/4768851-menez-a-bien-votre-projet-crm
+    Projet12-Preparez les factures et assurez-vous de leur paiement:
+      Projet12-Part1-Superviser_la_facturation_et_le_recouvrement_des_creances.yml
+      Projet12-Part2-Rediger_des_ecrits_professionnels:
+        source: https://openclassrooms.com/fr/courses/4929676-redigez-des-ecrits-professionnels

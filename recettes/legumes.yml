@@ -1,0 +1,51 @@
+ABCDE:
+  totest-todo-COURGETTES FROMAGE/LARDON:
+    source: https://www.cuisine-etudiant.fr/recette/4595-courgettes-fromage-lardon
+  totest-todo-Croque-Monsieur Mozarella, Avocat, Tomate:
+    source: https://www.cuisine-etudiant.fr/recette/3951-croque-monsieur-mozarella-avocat-tomate
+FGHIJ:
+KLMNO:
+  totest-todo-Oeuf en Cocotte de tomate :
+    source: https://www.cuisine-etudiant.fr/recette/3420-oeuf-en-cocotte-de-tomate
+PQRST:
+  totest-todo-Poelee d aubergine chevre:
+    source: https://www.cuisine-etudiant.fr/recette/4299-poelee-d-aubergine-chevre
+  totest-todo-Poivrons aux oeufs:
+    source: https://www.cuisine-etudiant.fr/recette/3430-poivrons-aux-oeufs
+  totest-todo-Poulet avec des aubergines au parmesan et riz:
+    source: https://www.cuisine-etudiant.fr/recette/5813-poulet-avec-des-aubergines-au-parmesan-et-riz
+  totest-todo-Riz aux lardons, chèvre frais et courgette:
+    source: https://www.cuisine-etudiant.fr/recette/3810-riz-aux-lardons-chevre-frais-et-courgette
+  totest-Tian de légumes du soleil:
+    source: http://madame.lefigaro.fr/recettes/tian-de-legumes-soleil-070201-202681
+    realisations:
+      Temps de préparation : 15 min
+      Temps de cuisson : 45 min
+      Difficulté : Très facile
+      Type de plat : Plat
+      Calories / personne : 308
+    ingredients:
+      quantite: pour 4 personne
+      1 kg d'aubergines
+      1 kg de courgettes
+      1 kg de tomates
+      4 gousses d'ail
+      2 oignons
+      1 bouquet de romarin
+      1 bouquet de thym
+      huile d'olive
+    steps:
+      Preparation des légumes:
+        Mettez le four à préchauffer (th.7-220° C).
+        Lavez les légumes. Coupez les tomates, les courgettes et les aubergines en rondelles épaisses. Épluchez l'ail et les oignons. Hachez l'ail en réservant une gousse pour la suite de la recette et émincez les oignons.
+      Cuisson des oignons:
+        Faites chauffer de l'huile d'olive dans une poêle. Faites légèrement fondre les oignons.
+        Frottez, avec une gousse d'ail, un grand plat en terre cuite et remplissez son fond d'oignons cuits.
+      Cuisson du tian:
+        Disposez verticalement, dans toute la largeur du plat, les rondelles de légumes en intercalant courgettes, tomates et aubergines.
+        Arrosez le tout d'un filet d'huile d'olive mêlé d'ail haché et de thym et de romarin.
+        Faites cuire 45 min à 220° C (th. 7).
+  totest-todo-Tomates courgettes oeufs rapide:
+    source: https://www.cuisine-etudiant.fr/recette/5176-tomates-courgettes-oeufs-rapide
+
+    

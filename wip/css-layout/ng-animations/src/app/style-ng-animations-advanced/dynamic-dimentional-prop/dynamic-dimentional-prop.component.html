@@ -1,0 +1,19 @@
+<button (click)="width = width - 50">Shrink</button>
+<button (click)="animate = true">Animate me</button>
+
+<p
+  @animateState
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  [@animateState]="animate ? 'animated' : 'noAnimation' "
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  @animateMetaState
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>
+<p
+  [@animateMetaState]="animate ? 'animated' : 'noAnimation' "
+  [ngStyle]="{'width.px': width}"
+>Shrink me</p>

@@ -1,0 +1,49 @@
+.inactive {
+  border: 1px solid #ccc;
+}
+
+.marked {
+  border: 2px solid blue;
+  /* step3 */
+  animation: marked 0.5s ease-out forwards;
+}
+
+/* step3 */
+@keyframes marked {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05)
+  }
+  100% {
+    transform: scale(1)
+  }
+}
+
+/* step1 */
+.loading-bar {
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+/* step1 */
+.loading-bar-element {
+  width: 0;
+  height: 20px;
+  background-color: deepskyblue;
+  animation: loading 1s ease-out infinite;
+}
+
+/* step1 */
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

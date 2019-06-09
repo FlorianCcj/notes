@@ -1,0 +1,17 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+#div1 {
+  transition: all 0.5s ease-out 1s;
+}
+
+#div2 {
+  transition: background-color 0.5s ease-out 1s, width 1s ease-in 0.2;
+}
+
+.marked {
+  width: 300px;
+}

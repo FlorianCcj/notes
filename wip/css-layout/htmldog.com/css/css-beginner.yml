@@ -160,21 +160,191 @@ css:
         ```
   intermediate:
     Class and ID Selectors: Make your own selectors without the need for sticky-backed plastic!
+      #top {
+        background-color: #ccc;
+        padding: 20px;
+      }
+      .intro {
+        color: red;
+        font-weigth: bold;
+      }
+      <div id="top">
+        <h1>Chocolate curry</h1>
+        <p class="intro">This is my recipe for making curry purely with chocolate</p>
+        <p class="intro">Mmm mm mmmmm</p>
+      </div>
     Grouping and Nesting: Properties assigned to multiple selectors or selectors within selectors.
+      don t do: >
+        h2 { color: red; }
+        .thisOtherClass { color: red; }
+        .yetAnotherClass { color: red; }
+      do:
+        h2, .thisOtherClass, .yetAnotherClass { color: red; }
+      nesting: >
+        #top {
+          background-color: #ccc;
+          padding: 1em
+        }
+
+        #top h1 {
+          color: #ff0;
+        }
+
+        #top p {
+          color: red;
+          font-weight: bold;
+        }
     Pseudo Classes: Defining various states of a link selector.
+      a:link { color: blue; }
+      a:visited { color: purple; }
+      a:active { color:red; }
+      a:hover {
+        text-decoration: none;
+        color: blue;
+        background-color: yellow;
+      }
+      input:focus, textarea:focus { background: #eee; }
+      pseudo-class:
+        link, visited
+        active, hover, focus
+        first-child, last-child, target, first-of-type
     Shorthand Properties: Various properties, such as borders and margins that amalgamate other properties into one.
     Background Images: Guess.
+      body {
+        background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+      }
+      background-color, background-image, background-repeat (repeat, repeat-x, repeat-y, no-repeat), background-position 
     Specificity: How a browser will deal with conflicting CSS rules.
+      more specific = prioritary
+      p { color: red; }
+      p { color: blue; }
+      =>
+      div p { color: red; }
+      p { color: blue; }
+
+      calculating
+      p => 1
+      div p => 1+1
+      .tree => 10
+      div p.tree => 1+1+10
+      #baobab => 100
+      body #content .alternative p => 1+100+10+1
     Display: Specifying the characteristics of a box.
+      display (none, block, inline)
     Pseudo Elements: Styling first letters, first lines and placing content before and after elements.
+      p { font-size: 12px; }
+      p:first-letter { font-size: 24px; float: left; }
+      p.first-line { font-weigth: bold; }
+      blockquote:before { content: open-quote; }
+      blockquote:after { content: close-quote; }
+      li:before { content: "POW !"; }
+      list:
+        first-line, first-letter
+        before, after
     Page Layout: Floating and positioning boxes.
   advanced:
     Rounded Corners: Corners. That are rounded.
+      /** border radius **/
+      #marilyn {
+          background: #fff;
+          width: 100px;
+          height: 100px;
+          border-radius: 20px;
+      }
+
+      #ok_a_border_then {
+          border: 5px solid #8b2;
+          width: 100px;
+          height: 100px;
+          border-radius: 5px;
+      }
+
+      /** border-top-left-radius, border-top-right-radius, border-bottom-right-radius, and border-bottom-left-radius can also be used to target specific corners. **/
+
+      #monroe {
+          background: #fff;
+          width: 100px;
+          height: 100px;
+          border-radius: 6px 12px 18px 24px;
+      }
+
+      /** elipse **/
+
+      #nanoo {
+              background: #fff;
+              width: 100px;
+              height: 150px;
+              border-radius: 50px/100px;
+              border-bottom-left-radius: 50px;
+              border-bottom-right-radius: 50px;
+      }
     Shadows: Adding “pop” to boxes and text.
+      
+      /** box shadow **/
+      
+      box-shadow: 5px 5px 3px 1px #999
+      // horizontal offset
+      // vertical offset
+      // blur radius
+      // spread distance
+      // color
+
+      /** inner shadow **/
+
+      box-shadow: inset 0 0 7px 5px #ddd;
+    
+      /** text shadow **/
+
+      text-shadow: -2px 2px 2px #999;
+
     Universal, Child, and Adjacent Selectors: More precise aim with clever selectors.
+      universal: *
+      child: >
+      adjacent: + (h1 + p { font-weight: bold })
     Advanced Colors: Alpha transparency and HSL.
+      /** Alpha transparency **/
+      h1 {
+          padding: 50px;
+          background-image: url(snazzy.jpg);
+          color: rgba(0,0,0,0.8);
+      }
+      /** Hue, saturation, and lightness **/
+      #smut { color: hsl(36, 100%, 50%) }
+      /** HSLa **/ 
+      #rabbit { background: hsla(0, 75%, 75%, 0.5) }
+
     At-Rules: Importing style sheets, styles for different media types, specifying the character set of a stylesheet and embedded fonts.
+      /** import **/
+      @import url(morestyles.css);
+      /** @import rules must be placed at the top of a stylesheet, before any other rules. **/
+
+      /** Targeting media types **/
+      @media print { /** can be screen, print, projection, handheld, and all, or a comma-separated list **/
+          body {
+              font-size: 10pt;
+              font-family: times, serif;
+          }
+
+          #navigation {
+              display: none;
+          }
+      }
+
+      /** Embedding fonts **/
+      @font-face {
+          font-family: "font of all knowledge";
+          src: url(fontofallknowledge.woff);
+      }
+
     Attribute Selectors: Targeting boxes by their elements’ HTML attributes.
+      abbr[title] { border-bottom: 1px dotted #ccc }
+      input[type=text] { width: 200px; }
+      input[type=text][disabled] { border: 1px solid #ccc }
+      [attribute^=something] will match a the value of an attribute that begins with something.
+      [attribute$=something] will match a the value of an attribute that ends with something.
+      [attribute*=something] will match a the value of an attribute that contains something, be it in the beginning, middle, or end.
+        
+
     CSS Transitions: Creating smooth animations.
     Backgrounds: Multiples, Size, and Origin
     Transformations: Molding the size and shape of a box and its contents.

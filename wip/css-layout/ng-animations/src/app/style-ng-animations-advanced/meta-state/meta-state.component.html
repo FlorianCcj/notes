@@ -1,0 +1,17 @@
+<button (click)="isShown = !isShown">Toggle Element</button>
+<p
+  [@showStateBeforeVoid]=" isShown ? 'shown' : 'notShown'"
+  *ngIf="isShown"
+>You can see me now</p>
+<p
+  [@showStateBeforeWildchart]=" isShown ? 'shown' : 'notShown'"
+  *ngIf="isShown"
+>You can see me now</p>
+<p
+  @showStateBeforeShortcut
+  *ngIf="isShown"
+>You can see me now</p>
+<p
+  @showState
+  *ngIf="isShown"
+>You can see me now</p>

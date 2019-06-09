@@ -1,0 +1,61 @@
+#div1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: background-color 0.5s ease-out 1s, width 1s ease-in 0.2;
+}
+
+.marked {
+  width: 300px;
+}
+
+.div2 {
+  width: 150px;
+  height: 75px;
+  background-color: green;
+  animation: movedFailed 1s ease-out forwards;
+}
+
+.animateFailed {
+  animation: movedFailed 1s ease-out forwards;
+}
+
+.animate {
+  animation: moved 1s ease-out forwards;
+}
+
+/* make the animation but at 100% go back to origin position*/
+@keyframes movedFailed {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(300px) scale(1.2);
+  }
+  75% {
+    transform: translateX(400px) scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes moved {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(300px) scale(1.2);
+  }
+  75% {
+    transform: translateX(400px) scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(400px) scale(1);    
+    opacity: 0.1;
+  }
+}
