@@ -28,6 +28,8 @@ plat:
     P:
       - poivron-chorizo:
         types: [ plat ]
+      - poulet a la creme:
+        types: [plat]
     Q:
       - quiche:
         types: [ entree, plat ]

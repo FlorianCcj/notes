@@ -46,7 +46,7 @@ statue:
     lvl-to-have:               |   3 |   x |   5 |   5 | ---- |   x |   x |   x |   x |   x |   x |
     losange bleu:              |   3 |   x |  4+ |   3 | ---- |   3 |   3 |  3+ |   3 |   2 |   x |
     losange jaune:             |   3 |   4 |   3 |   2 | ---- |   x |   2 |   2 |   x |   0 |   0 |
-    losange marron:            |   3 |   5 |   x |   4 | ---- |   3 |   2 |   2 |   2 |   0 |   0 |
+    losange marron:            |   3 |   5 |   x |   5 | ---- |   3 |   3 |  2+ |   2 |   0 |   0 |
     losange vert:              |   3 |   x |   4 |  3+ | ---- |   3 |   3 |   3 |   3 |   1 |   x |
     bouclier bleu:             |   x |   5 |   x |   2 | ---- |   2 |   2 |   2 |   2 |   0 |   0 |
     coeur rouge:               |   3 |   4 |   3 |   2 | ---- |   x |   2 |   2 |   x |   0 |   0 |
