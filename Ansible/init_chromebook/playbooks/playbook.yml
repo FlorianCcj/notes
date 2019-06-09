@@ -1,6 +1,5 @@
 - name: init chromebook
   hosts: all
-  become: yes
   vars_files:
     - vars/playbook.yml
     - vars/template.yml
