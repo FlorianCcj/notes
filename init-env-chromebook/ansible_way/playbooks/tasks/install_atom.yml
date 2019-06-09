@@ -15,4 +15,4 @@
   become: yes
   apt:
     name: atom
-  state: present
+    state: present

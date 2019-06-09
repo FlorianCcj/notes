@@ -1,6 +1,5 @@
 - name: init chromebook
   hosts: all
-  become: yes
   vars_files:
     - vars/playbook.yml
     - vars/template.yml
@@ -30,3 +29,4 @@
     - name: Include ansible_non_root_user.yml vars
       include_vars: vars/vars-ansible_non_root_user.yml
     - import_tasks: tasks/non_root_docker_user.yml
+    - import_tasks: tasks/install_cgoban.yml
