@@ -28,11 +28,11 @@ async function getObjectFromFile(filePath) {
 async function writeObjectInFile(jsonObject, filePath) {
   const data = JSON.stringify(jsonObject, null, 2);
   return new Promise((resolve, reject) => {
-    fs.writeFile(filePath, data, (err, data) => {
+    fs.writeFile(filePath, data, (err, subData) => {
       if (err) {
         reject(err);
       } else {
-        resolve(data);
+        resolve(subData);
       }
     });
   });

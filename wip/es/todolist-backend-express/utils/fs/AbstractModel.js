@@ -1,11 +1,7 @@
 import { getObjectFromFile, writeObjectInFile } from './file_manager';
 
 const doItExist = (res, id) => {
-  if (!res.find(data => data.id === id)) {
-    throw Error(404);
-  } else {
-    return 'ok';
-  }
+  return !!res.find(data => data.id === id);
 };
 
 const isObject = a => (!!a) && (a.constructor === Object);
@@ -15,7 +11,7 @@ const isArray = a => (!!a) && (a.constructor === Array);
 function findMaxId(arr) {
   let max = 0;
   if (isArray(arr)) {
-    for (let i = 0, len = arr.length; i < len; i++) {
+    for (let i = 0, len = arr.length; i < len; i += 1) {
       const totest = arr[i];
       if (isObject(totest) && totest.hasOwnProperty('id')) {
         const v = arr[i].id;
@@ -34,19 +30,20 @@ class AbstractModel {
   }
 
   async create(objectToCreate) {
-    console.log('begin create');
     await getObjectFromFile(this.file).then((res) => {
       const newId = findMaxId(res) + 1;
       const newRes = [...res, { ...objectToCreate, id: newId }];
-      writeObjectInFile(newRes, this.file).then(console.log('end create'));
+      writeObjectInFile(newRes, this.file).then();
     });
+    return { status: 201 };
   }
 
   async read(id) {
     return await getObjectFromFile(this.file).then((res) => {
       if (doItExist(res, id)) {
-        return res.find(data => data.id == id);
-      }
+        return res.find(data => data.id === id);
+      } 
+      return {status: 404};
     });
   }
 
@@ -58,11 +55,14 @@ class AbstractModel {
     if (isObject(objectToEdit) && objectToEdit.hasOwnProerty('id')) {
       await getObjectFromFile(this.file).then((res) => {
         if (doItExist(res, objectToEdit.id)) {
-          writeObjectInFile([...res.filter(data => data.id !== objectToEdit.id), objectToEdit], this.file).then();
+          writeObjectInFile(
+            [...res.filter(data => data.id !== objectToEdit.id), objectToEdit],
+            this.file,
+          ).then();
         }
       });
     } else {
-      throw Error(400);
+      {status: 400};
     }
   }
 

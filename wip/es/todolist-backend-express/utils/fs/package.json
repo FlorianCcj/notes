@@ -12,9 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "dependencies": {
     "@babel/register": "^7.4.4",
     "babel-polyfill": "^6.26.0"
-  },
-  "dependencies": {}
+  }
 }

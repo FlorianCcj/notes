@@ -2,7 +2,7 @@
  *
  */
 
-import { AbstractModel } from './AbstractModel';
+import {AbstractModel} from './AbstractModel';
 
 // const path = require('path');
 // const file = path.join(__dirname, 'test.data.json');
