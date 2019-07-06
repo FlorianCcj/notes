@@ -185,6 +185,9 @@
       # check md5
       md5sum -c test.chk 
 
+      # add week number in calendar ubuntu 18.04
+      gsettings set org.gnome.desktop.calendar show-weekdate true
+
       ```
   -
     title: windows key
@@ -495,13 +498,13 @@
       - security
     content: >
       docker run --memory="1000M" --cpus="1"
-+  - 
-+    title: lvm
-+    source: lm210
-+    tags:
-+      - lm
-+      - lvm
-+      - raid
+  - 
+    title: lvm
+    source: lm210
+    tags:
+      - lm
+      - lvm
+      - raid
     content: >
       LVM: Logical Volume Manager
       MBR: Master Boot Record

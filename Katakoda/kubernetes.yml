@@ -1,19 +1,203 @@
+17. Getting Started with Kubeless:
+  difficulty: beginner
+  content: ~
 01. Launch A Single Node Cluster:
 02. Launch a multi-node cluster using Kubeadm:
 03. Deploy Containers Using Kubectl:
+  difficulty: beginner
+  content: >
+    kubectl get nodes
+    kubectl run http --image=katacoda/docker-http-server:latest --replicas=1
+    kubectl get deployments 
+    kubectl describe deployment http
+    kubectl expose deployment http --external-ip="172.17.0.56" --port=8000 --target-port=80
+    curl http://172.17.0.56:8000
+    kubectl run httpexposed --image=katacoda/docker-http-server:latest --replicas=1 --port=80 --hostport=8001
+    curl http://172.17.0.56:8001
+    kubectl get svc
+    docker ps | grep httpexposed
+
+    # -------------------
+    # pause container
+    # -------------------
+    # Running the above command you'll notice the ports are exposed on the Pod, 
+    # not the http container itself. 
+    # The Pause container is responsible for defining the network for the Pod. 
+    # Other containers in the pod share the same network namespace. 
+    # This improves network performance and allow multiple containers to communicate 
+    # over the same network interface..
+
+    kubectl scale --replicas=3 deployment http
+    kubectl get pods
+    curl http://172.17.0.56:8000
 04. Deploy Containers Using YAML:
+  difficulty: beginner
+  content:
+    deployment.yml: >
+      apiVersion: extensions/v1beta1
+      kind: Deployment
+      metadata:
+        name: webapp1
+      spec:
+        replicas: 1
+        template:
+          metadata:
+            labels:
+              app: webapp1
+          spec:
+            containers:
+            - name: webapp1
+              image: katacoda/docker-http-server:latest
+              ports:
+              - containerPort: 80
+    service.yml:
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: webapp1-svc
+        labels:
+          app: webapp1
+      spec:
+        type: NodePort
+        ports:
+        - port: 80
+          nodePort: 30080
+        selector:
+          app: webapp1
+    note: >
+      kubectl create -f deployment.yaml
+      kubectl get deployment
+      kubectl describe deployment webapp1
+      kubectl create -f service.yaml
+      kubectl get svc
+      kubectl describe svc webapp1-svc
+      curl host01:30080
+      # in deployment change replicas 1 to replicas 4
+      kubectl apply -f deployment.yaml
+      kubectl get deployment
+      kubectl get pods
+      curl host01:30080
 05. Deploy Guestbook Web App Example:
+  difficulty: beinner
+  theme:
+    Pods
+    Replication Controllers
+    Services
+    NodePorts
+  content: >
+    kubectl create -f redis-master-controller.yaml
+    kubectl get rc
+    kubectl get pods
+    kubectl create -f redis-master-service.yaml
+    kubectl get services
+    kubectl describe services redis-master
+    kubectl create -f redis-slave-controller.yaml
+    kubectl get rc
+    kubectl create -f redis-slave-service.yaml
+    kubectl get services
+    kubectl create -f frontend-controller.yaml
+    kubectl get rc
+    kubectl get pods
+    kubectl create -f frontend-service.yaml
+    kubectl get services
+    kubectl describe service frontend | grep NodePort 
 06. Networking Introduction:
+  difficulty: Intermediate
+  theme:
+    Cluster IP
+    Target Ports
+    NodePort
+    External IPs
+    Load Balancer
+  content: >
+    # ClusterIP service to allocate internal IP
+    kubectl apply -f clusterip.yaml
+    kubectl get pods
+    kubectl get svc
+    kubectl describe svc/webapp1-clusterip-svc
+    export CLUSTER_IP=$(kubectl get services/webapp1-clusterip-svc -o go-template='{{(index .spec.clusterIP)}}')
+    echo CLUSTER_IP=$CLUSTER_IP
+    curl $CLUSTER_IP:80
+    # add etra pod
+    kubectl apply -f clusterip-target.yaml
+    kubectl get svc
+    kubectl describe svc/webapp1-clusterip-targetport-svc
+    export CLUSTER_IP=$(kubectl get services/webapp1-clusterip-targetport-svc -o go-template='{{(index .spec.clusterIP)}}')
+    echo CLUSTER_IP=$CLUSTER_IP
+    curl $CLUSTER_IP:8080
+    # add nodeport
+    kubectl apply -f nodeport.yaml 
+    kubectl get svc
+    kubectl describe svc/webapp1-nodeport-svc 
+    curl 172.17.0.34:30080
+    # Eternal IP
+    sed -i 's/HOSTIP/172.17.0.34/g' externalip.yaml
+    kubectl apply -f externalip.yaml
+    kubectl get svc
+    kubectl describe svc/webapp1-externalip-svc
+    curl 172.17.0.34
 07. Create Ingress Routing:
-08. Liveness and Readiness Healthchecks:
-09. Getting Started With CRI-O and Kubeadm:
-10. Running Stateful Services on Kubernetes:
-11. Use Kubernetes To Manage Secrets And Passwords:
-12. Deploy Docker Compose Files with Kompose:
-13. Deploying from source onto Kubernetes:
-14. Backup and Restore with Heptio Velero:
-15. Helm Package Manager:
-16. Installing Weave Scope on Kubernetes:
-17. Getting Started with Kubeless:
+  difficulty: Beginer
+  theme:
+    Ingress
+  content: >
+    kubectl apply -f deployment.yaml
+    kubectl create -f ingress.yaml
+    kubectl get deployment -n nginx-ingress
+    kubectl create -f ingress-rules.yaml
+    kubectl get ing 
+08. Helm Package Manager:
+  difficulty: Intermediate
+  theme: >
+  content: >
+09. Deploying from source onto Kubernetes:
+  difficulty: Intermediate
+  theme:
+    source
+    container
+  content: >
+    cd hello-webapp
+    cat Dockerfile
+    # FROM alpine:3.5
+    # RUN apk add --no-cache python py2-pip py2-gevent
+    # COPY requirements.txt
+    # RUN pip install -r requirements.txt
+    # COPY . /app
+    # WORKDIR /app
+    # EXPOSE 8080
+    # ENTRYPOINT ["python"]
+    # CMD ["app.py"]
+    docker build -t hello-webapp:v1 . 
+    docker run -d -p 80:8080 hello-webapp:v1
+    curl host01
+    # in deployment 1 container to run 2 the runtime config 
+10. Deploy Docker Compose Files with Kompose:
+  difficulty: Intermediate
+  theme: >
+  content: >
+11. Getting Started With CRI-O and Kubeadm:
+  difficulty: Intermediate
+  theme: >
+  content: >
+12. Use Kubernetes To Manage Secrets And Passwords:
+  difficulty: Intermediate
+  theme: >
+  content: >
+13. Backup and Restore with Heptio Velero:
+  difficulty: Intermediate
+  theme: >
+  content: >
+14. Installing Weave Scope on Kubernetes:
+  difficulty: Intermediate
+  theme: >
+  content: >
+15. Liveness and Readiness Healthchecks:
+  difficulty: Intermediate
+  theme: >
+  content: >
+16. Running Stateful Services on Kubernetes:
+  difficulty: Intermediate
+  theme: >
+  content: >
 
 

@@ -1,3 +1,25 @@
+job:
+  - salaire
+  - ce
+  - vacances
+  - horaire
+  - sujet dev/devops/ops transverse
+  - Suivi de projet de bout en bout
+  - qualite
+  - techno de pointe
+  - methodologie
+  - exemple de mission/domaine
+  - internationnale
+  - mobilite/evolution/cariere
+  - formation/congres/forum
+  - R&D
+  - communaute interne
+  not_to_have:
+    - windobe
+    - java
+  far_away:
+    - lead dev
+    - archi
 become_rich:
   - source: https://www.youtube.com/watch?v=WI_WUTr0R40
     conseils:
@@ -270,7 +292,14 @@ health:
 
 
 
-
+immobilier:
+  - agence de gestion locative:
+    source: www.youtube.com/watch?v=fKbSHjmpxE
+    content:
+      - faire appele a une agence de gestion locative
+      - demander le taux de remplissage de leur parc immobilier (une agence serieuse fait cette stat)
+      - demander quel platform elle utilise (une seule c est pas serieux, sans agregateur (outil de gestion multi platform) pas top non plus)
+      - il ne faut pas que quelqu un qui q de l xp ... il faut un service juridique, comptable, de gestion locative
 
 
 

@@ -70,6 +70,34 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/5631-risotto-au-chorizo-ultra-simple
   totest-todo-Risotto simple aux champignons:
     source: https://www.cuisine-etudiant.fr/recette/4318-risotto-simple-aux-champignons
+  Riz aux lardons, chèvre frais et courgette:
+    source: https://www.cuisine-etudiant.fr/recette/3810-riz-aux-lardons-chevre-frais-et-courgette
+    realisation: 
+      préparation : 30 min
+      cuisson : 
+      difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 2 personnes
+      2 grosses cuillères à soupe de crème fraîche épaisse
+      1 verre de riz
+      1 bûche de chèvre FRAIS
+      1 courgette
+      un paquet de lardons
+      1 oignons
+      un peu de curry (facultatif)
+    steps:
+      author: La recette de Christophe Delcourt
+      1. émincez les oignons et les faire revenir à la poêle.
+      2. rajoutez les lardons aux oignons et laisser cuire.
+      3. lavez la courgette, coupez la en petits dés et la faire rajouter au mélange précédent. Goûtez une courgette pour être sûr qu'elle soit cuite.
+      4. ajoutez 2 bonnes grosses cuillères à soupe de crème fraîche épaisse ainsi qu'un peu de curry (facultatif)
+      5. coupez la bûche de chèvre frais en petits dés et les ajouter au mélange oignons/lardons/courgette/crème, puis salez et poivrez
+      5. faire cuire le riz comme indiqué sur le paquet dans de l'eau bouillante salée
+      6. une fois le riz cuit, l'égoutter et l'ajouter à la préparation précédente.
+      7. faire cuire quelques minutes à feux doux pour que le riz absorbe bien toutes les saveurs.
+      8. dégustez ! :)
   totest-Riz, légumes et poulet:
     source: http://madame.lefigaro.fr/recettes/riz-legumes-poulet-220411-149358
     realisation:
@@ -165,4 +193,18 @@ PQRST: ~
       Ajouter le jambon coupé en lanières de 1/2 cm et les tranches de knacki. 
       Remettre le plat au micro-ondes et faire cuire 2 minutes position « gril ». 
       Servir chaud.
-
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+    

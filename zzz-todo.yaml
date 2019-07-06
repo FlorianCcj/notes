@@ -1,23 +1,24 @@
 todo:
   - 000_wip:
-    - casden
+    - gn
+    - maison
+    - jf
+    - menu
+    - -------------
     - pes1
     - mentalism
     - ironfx 
     - economie
-    - css and co
     - entreprise
       https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre/4790751-mettez-en-place-votre-environnement-dapprentissage
-    - maison
-      - contacter casden
-    - gn
     - voiture
       - 10h
-    - ing
-      passport
-      signature
-      contrat Z3LzcDeV
-    - katakoda
+    - k8s
+      - katakoda
+      - k3s
+      - reseau
+      - sphinx
+    - https://egghead.io/lessons/cypress-course-introduction-test-production-ready-apps-with-cypress
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -26,9 +27,25 @@ todo:
     - dessin: ~
     - manga:
       - MxZero
+        dwl:
+          full
+      - one piece:
+        dwl:
+          10.06.2019
+          1 -> 945
+          miss 220 - 227
+          248-14
       - one punch man
-      - shokugeki no soumq
-      - combat continent
+      - My_Wife_Is_A_Demon_Queen-Chap001-p
+      - shokugeki no souma:
+        dwl:
+          10.06.2019
+          193 -> 226
+          228 -> 265
+      - combat continent:
+        dwl:
+          10.06.2019
+          1 -> 122
       - tensei shitara slime datta ken (slime, je te bouffe j ai tes pouvoir)
       - tate yuusha no nariagari (invoquer, hais, bouclier en bois)
       - luck and logic
@@ -48,16 +65,27 @@ todo:
         - https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
       - combat-continent-douluo-dalu:
         - https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1
-	- http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
-	- https://www.japanread.cc/manga/douluo-dalu/121
-      - vf:
-        - https://www.mangakawaii.to/
-        - https://www.lirescan.me/
-        - https://www.lelscan-vf.com/
-	- https://www.japanread.cc
+	      - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
+        - https://www.japanread.cc/manga/douluo-dalu/121
+      - list:
+        - https://www.japanread.cc
+        - va:
+          - https://www.mangareader.net/
+        - vf:
+          - https://www.lelscan-vf.com/
+          - http://lelscanv.com/
+          - https://www.lirescan.me/
+          - http://lordmanga.free.fr
+          - https://www.mangakawaii.to/
+          - http://op-vf.com/
+          - https://www.scan-fr.io/
+          - http://www.scan-op.com/
+          - https://www.scan-vf.co
     - mentalism: ~
     - music:
       - flute
+        - carol of the bells
+        - havana
       - piano
     - project:
       - stuff-opti
@@ -198,6 +226,7 @@ todo:
       - bonneto de garrett thomas
       - roberto giobbi, tours
       - emsley
+      - l huile et l eau de Anthony Owen
   - lecture:
     - jdr:
       - https://thetrove.net/Books/Legend%20of%20the%20Five%20Rings/Maps/

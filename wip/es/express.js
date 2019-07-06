@@ -276,10 +276,10 @@ eg18_let_s_encrypt = () => {
      * ```
      * 
      * generate cert
-     * `certbot certonly --manual`
+     * certbot certonly --manual
      * 
      * active renewal
-     * `0 */12 * * * root /usr/local/bin/certbot renew >/dev/null 2>&1`
+     * 0 */12 * * * root /usr/local/bin/certbot renew >/dev/null 2>&1
      */
 
     app.use(express.static(__dirname + '/static', { dotfiles: 'allow' } ))

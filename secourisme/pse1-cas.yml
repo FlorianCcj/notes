@@ -1,0 +1,88 @@
+cas:
+  - id: 0
+    context: >
+      L appel au poste de secourisme, ce qu on nous a dit, et ce qu on voit (macro) quand on arrive sur place
+    reflex:
+      - tache a faire immediatement en arrivant sur place
+      - les automatisme a prendre
+      - ex: homme a terre, main visible, ne bouge pas -> demander si il a ete pose ou si il est tombe pour ne pas empirer un trauma
+    note:
+      - bordel pour preciser le contexte avant de le mettre aux bons endroits
+      - et quelques indications de chose a faire
+      - ou ne pas faire
+  - id: 1
+    context: >
+      Un homme a appele, il a prit un coup sur l epaule a cause d une porte de placard reste ouverte
+      il souffre desormais d une vive douleur a l epaule.
+      Il est dans la salle 1 au 244 rue de Vaugirard dans les locaux de la protection civile
+      au premier etage interphone unique
+    note:
+      - hematome a l epaule a visualiser
+      - echarpe en oblique a faire
+    categories:
+      - traumatisme
+      - imobilisation
+  - id: 2
+    context: >
+      Un homme a appele, il a decouvert un sdf dans son duvet il pu la mort et semble en mauvais etat
+    note:
+      - ne pas trop l aprocher
+      - degager le duvet/couverture avec le pied
+      - le pousser legerement avec le pied pour voir si il est conscient
+      - lui demander de sortir ses mains pour eviter qu il ait un couteau dans la main
+  - id: 3
+    context: >
+      Une femme de menage a appele, son patron s est senti mal, elle l a aide a s alonge puis nous a appele
+  - id: 4
+    context: >
+      Un homme a appele, son fils ne repondait plus et se noyait dans la piscine, il l a sorti puis nous a appele
+    note:
+      - demander au pere d apporter quelque chose pour secher l enfant
+      - sortir l enfant de la flaque d eau
+  - id: 5
+    context: >
+      Un homme a appele, il a decouvert un autre homme a terre inconscient, il ne semble plus respirer
+    note:
+      - un objet encombre la gorge il faudra une canule
+  - id: 6
+    context: >
+      Lors d une formation, une femme a commence a se tenir le ventre, a se plier en deux
+    note:
+      - constiper
+  - id: 7
+    context: >
+      Un professeur nous a appeler, un eleve saigne du nez et ca ne s arete pas, l eleve comence a se sentir mal
+    note:
+      - ne pas l alonge
+      - moucher les deux narines
+      - pression sur les narines pendant 10 min
+  - id: 8
+    context: >
+      Une femme s est blesse avec un couteau, elle a une hemoragie au bras
+    note:
+      - perte de conscience a cause de la perte de sang
+  - id: 9
+    context: >
+      Un homme a ete retrouver dans une salle en basard il est alonge au milieu de son bordel
+    note:
+      - verifier la conscience de la victime
+  - id: 10
+    context: >
+      une femme nou a appelle, son nourisson ne respire plus
+    note: ~
+  - id: 11
+    context: >
+      Lors d une bagarre un homme a defier son copain de lui planter une touillette dans l oeil ...
+    note: ~
+  - id: 12
+    context: >
+      Une jeune femme en scooter, roulant a faible vitesse (20-30km/h), se fait percuter à l'arrière par un automobiliste, roulant à presque 80 km/h en ville, qui a pris la fuite. La victime est retrouvée sur la chaussée, allongée sur le ventre insconsciente    
+  - id: 13
+    context: >
+      un mec a l aret au feu rouge dans sa voiture percuter par un mec qui n avait pas vu le feu
+  - id: 14
+    context: >
+      Un homme appelle pour son ami qui ne se sent pas bien du tout. La victime se tient le bas de l'abdomen et semble avoir besoin de vomir 
+  - id: 15
+    context: >
+      Une femme appelle car elle est prise de malaise plusieurs heures après être allée courir dehors par une belle matinée d'été

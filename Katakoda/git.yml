@@ -1,0 +1,83 @@
+# Scenario 1 - Committing Files
+git init
+git status
+git add <file|directory>
+git status
+git commit -m "<commit message>"
+.gitignore
+# Scenario 2 - Committing Changes
+git status
+git diff
+git diff <commit>
+git diff committed.js
+git difftool
+git diff
+git diff --staged
+git log
+git log --pretty=format:"%h %an %ar - %s"
+git log --help
+git show
+git show <commit-hash>
+# Scenario 3 - Working Remotely
+git remote add originie /s/remote-project/1
+git pull
+git push
+git log
+git show
+git fetch
+git merge remotes/<remote-name>/<remote-branch-name> master
+git branch -r # show remote branch
+# Scenario 4 - Undoing Changes
+git checkout 
+git reset
+git reset --hard
+git reset --hard <commit-hash>
+git revert
+git revert HEAD...HEAD~2
+git log --oneline for 
+# Scenario 5 - Fixing Merge Conflicts
+git pull 
+git fetch
+git merge
+git mergetool
+git checkout --ours staging.txt
+git checkout --theirs staging.txt
+git reset --hard HEAD
+git commit --no-edit 
+git pull --no-edit origin master
+git log --all --decorate --oneline
+git pull --rebase ???
+# Scenario 6 - Experiments Using Branches
+git branch <new branch name> <starting branch>
+git checkout <new branch name>  # switch branch
+git checkout -b <new branch name>
+git branch
+git branch -va
+git push <remote_name> <branch_name>
+git branch -d <branch_name> # remove branch
+# Scenario 7 - Finding Bugs
+git diff HEAD~2 HEAD
+git log --oneline
+git log -p
+git log -p -n 2
+git log --grep="Initial"
+git bisect start
+git bisect bad
+git bisect good HEAD~5
+git bisect good
+git blame list.html
+git blame -L 6,8 list.html
+# Scenario 8 - Being Picky With Git
+git cherry-pick <hash-id|ref> # get only commit that we need
+git checkout
+git cherry-pick --abort
+git cherry-pick new_branch~1
+
+git cherry-pick new_branch~1
+git status
+git diff
+git checkout --theirs list2.html
+
+git add list2.html
+git cherry-pick --continue
+# Scenario 9 - Re-writing History

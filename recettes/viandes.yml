@@ -12,7 +12,7 @@ ABCDE:
 FGHIJ:
   totest-todo-fillet mignon au reblochon:
     source: https://www.cuisine-etudiant.fr/recette/4891-filet-mignon-de-porc-au-reblochon
-  totest-todo-filte mignon en croute:
+  totest-todo-filet mignon en croute:
     source: https://www.cuisine-etudiant.fr/recette/3121-filet-mignon-de-porc-en-croute
 KLMNO: ~
 PQRST: ~
@@ -85,10 +85,6 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/5241-poulet-a-la-creme-et-aux-champignons
   totest-todo-Poulet à la crème, aux oignons et aux champignons:
     source: https://www.cuisine-etudiant.fr/recette/3113-poulet-a-la-creme-aux-oignons-et-aux-champignons
-
-
-
-
   totest-Le poulet à l’Australienne de Natacha:
     source: http://madame.lefigaro.fr/recettes/poulet-laustralienne-de-natacha-261206-5976
     realisation:
@@ -118,8 +114,6 @@ PQRST: ~
       Finitions
         Retirer le plat du four, poivrer légèrement. 
         Servir avec le riz blanc agrémenté de copeaux de noix de coco
-  totest-Poulet caramelisé au miel:
-    source: https://www.cuisine-etudiant.fr/recette/764-poulet-caramelise-au-miel
   totest-Poulet Castro:
     source:
     realisation:

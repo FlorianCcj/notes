@@ -5,6 +5,7 @@ https://stackoverflow.com/questions/49737069/using-credentials-for-ansible-galax
 il faut pas rajouter des annees a sa vie, mais plutot essayerde rajouter de la vie a ses annees
 
 "La vie est un jeu. Vous pouvez etre joueur ou ... un jouet."
+"La vie cest ce qui vous arrive quand vous etes occupe a d autre projet" John Lenon
 
 stimule_cerveau:
   - ferme ton poing, sort ton pouce, appuie et lache sur l'ongle et l opposé pendant 20 sec
@@ -35,7 +36,7 @@ cuisine:
       - un oeuf
       - couvrir avec de l allu
       - au four a 175 degre celsius 8-10 min
-      - dans un salladier
+03      - dans un salladier
       - 3 egg yolks
       - vinaigre 1/2 tsp
       - au bain mari bien melanger
@@ -113,3 +114,92 @@ cdc:
     kesako: challenge rate, des sortie de tapis, ...
     gain: -5
 
+ShinebloodAujourd'hui à 19:50
+Moi je pense que camille étudie l'angle mort des théories humaines  de l'époque a travers le style moderne au regard des IA
+En tout cas ca a l'air de l'interesser :p
+TherapieGoAujourd'hui à 19:51
+Lol c'est quoi c'te phrase sortie de nul part qui est trop stylé que tu me sort là ^^
+Je fais ça par étape
+1) Je regarde la partie du début à la fin en lisant tous les commentaires du bouquin (c'est ce qui prend le plus de temps !)
+2) J'essaie de la reposer quelque fois pour voir si j'ai bien retenue (et je retiens assez rapidement quand je la repose juste après)
+3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
+
+
+Ivy
+  8 + 15 + 45 + 30 = 98
+  16 + 30 + 90 + 60 = 196
+  16 + 40 + 64 + 90 = 210
+Mary
+  10 + 40 + 60 + 40 = 150
+  20 + 80 + 120 + 80 = 300
+  20 + 75 + 105 + 125 = 325
+Emilia:
+  15 + 25 + 40 + 45 = 125
+  30 + 50 + 80 + 90 = 250
+  69 + 85 + 110 + 115 = 390
+Stefani 
+  35 + 25 + 40 + 50 = 150
+  70 + 50 + 80 + 100 = 300
+  35 + 65 + 120 + 125 = 345
+Mika
+  5 + 25 + 30 + 35 = 95
+  10 + 50 + 60 + 70 = 190
+  0 + 0 + 30 + 70 = 100
+Chantal
+  x + x + x + x = x
+  x + x + x + x = x
+  x + x + x + x = x
+Yoko
+  35 + 25 + 40 + 50 = 150
+  70 + 50 + 80 + 100 = 300
+  30 + 65 + 120 + 125 = 340
+
+
+recipe1:
+  name: chinese style gazed pork belly
+  ingredient:
+    500g pork belly
+    4 slice of gimgembre
+    2 spring oignon
+    2 cloves of garlic
+    2 tbsp brown sugar
+    3 tbsp light soy sauce
+  step:
+    1. Prendre le porc le decouper en petit morceau (1x1x2)
+    2. Le verser dans 1L d eau bouillante
+    3. mettre dans l eau 4 tranches de gingembre, 2 pusse d oignon, l ail
+    4. laisser cuir puis essorer
+    5. dans une casserole legerement huiller faire revenir le porc (qu il prennen une legere teinte marron)
+    6. ajouter le sucre
+    7. melanger
+    8. ajouter la sauce soja ainsi que 250 ml d eau
+    9. avec un couvercle laisser cuire 45 min
+recette2:
+  name: roasted honey bbq pork (char siu)
+  ingredients:
+    2 LB boneless pork shoulder
+    2 tbsp soy sauce
+    2 tbsp shaoxing
+    1 tbsp sesame oil
+    1 tsp five spice
+    1 tbsp salt
+    5 cloves garlic
+    2 inch sliced ginger
+    2 tbsp bean curd
+    1/4 cup bean curd liquid
+    1 cup hoison
+    1/2 cup honey
+  step:
+    1. verser la sauce soja, l alcool de riz, l uile de sesame, 
+    les 5epice, le sel, l ail, le gingembre, le bean curd, 
+    la sauce barbec, le miel
+    2. melanger le tout
+    3. mettre le porc dedans
+    4. couvrir
+    5 laisser mariner 3+ heure
+    6. mettre au four a 150 degre pendant 1h15
+    7. filtrer le reste de la sauce
+    8 porter a legere ebulission le liquide
+    9. sorter la viande du four 
+    10. badijeauner la sauce sur toutes les faces de la viandes
+    11. glaze every 15 min

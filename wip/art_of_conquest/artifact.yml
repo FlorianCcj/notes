@@ -1,25 +1,40 @@
-juge du roi supreme: ++
+1 juge du roi supreme: ++/++/++/-/++
   - os
-  - touffe de poil
+  - touffe
   - herb
   - coquillage
-origin stone: -
+origin stone: -/-/-/-/-
   - you gris symbole rouge
   - you bleu
   - you violet
   - flamme
-garde infernal: +
+2 garde infernal: +/-/-/+/+++
   - os
   - touffe
   - herbe
   - coque
-morsure de gueule de sang: +
+morsure de gueule de sang: -/-/-/-/+
   - os
   - touffe
   - herb
   - coque
-spacial: +-
+4 spacial: +/+/-/-/+
   - you gris symbole rouge
   - you bleu
   - you violet
   - essence verte
+3 Solantris: +-/+/+/+-/+
+  - os
+  - touffe
+  - herb
+  - coque
+Leo Pride: -/+-/-/-
+  - you gris symbole rouge
+  - griffe
+  - you violet
+  - flamme
+Warmaker Mane: 
+  - os
+  - touffe
+  - herb
+  - coque

@@ -1,0 +1,118 @@
+-
+  question: Qu est ce qu un P.A.P.S. ?
+  answer: > 
+    Point d alerte et de premier secours, 
+    generalement compose d un secouriste et d un equipier secouriste
+-
+  question: Comment gerer un degagement d urgence sur le sol ?
+  answer: >
+    * Prendre la victime par les poignet
+    * Prendre la victime par les cheville
+    * Prendre la victime par les vetements
+    * prendre la victime par les aisselles:
+      * se placer deriere la victime et saisir ses poignets opposes en passant les avants-bras sous ses aisselles
+      * surelever la partie superieur de son corps, ses pieds restant en contact avec le sol
+-
+  question: Bilan circonstanciel - De quoi est compose le bilan circonstanciel (5 infos) ?
+  answer: >
+    - que s est-il passe ?
+    - existe-t'il un danger ?
+    - Combien y a-t'il de victimes ?
+    - Les secours sont-ils suffisants pour le moment ?
+    - Les informations initiales sont-elles corrects
+-
+  question: Bilan d Urgence Vitale - Identifier une detresse immediatement vitale (6 infos)
+  answer:
+    - Position ? Age ? Sexe ?
+    - Malaise ou Traumatisme
+    - Obstruction brutale et totale des Voix Aeriennes
+    - Hemoragie externe
+-
+  question: Bilan d Urgence Vitale - Quels information doit on recuperesser en ce qui concerne une perte de connaissance ou une plainte
+  answer:
+    - Victime incosciente qui respire
+    - Victime incosciente qui ne respire pas
+    - Victime consciente recuperer la plainte principale
+-
+  question: Bilan d Urgence Vitale - Signes moins evident - Signes de detresse neurologique (4 signes)
+  answer:
+    - Perte de connaissance (en cours ou passagere)
+    - Orientation spatiotemporel
+    - Motricite et sensibilite
+    - Pupilles
+-
+  question: Bilan d Urgence Vitale - Signes moins evident - Signes de detresse Ventilatoire (2 signes)
+  answer:
+    - Ventilation (frequence, amplitude regularite)
+    - SpO2
+-
+  question: Bilan d Urgence Vitale - Signes moins evident - Signes de detresse Circulatoire (3 signes)
+  answer:
+    - Pouls (Frequence, amplitude, regularite)
+    - Tension arteriel
+    - TRC
+-
+  question: Bilan d Urgence Vitale - Signes moins evident - Aspect des muqueuses et de la peau (Circulatoire et Respiratoire) (3 signes)
+  answer:
+    - Coloration
+    - Temperature
+    - Humidite (sueurs presentes chaude ou froide)
+-
+  question: Bilan complementaire - malaise (5 steps)
+  answer:
+    - interroger la victime, confirmer les plaintes
+    - Analyser chaque plaintes (PQRST)
+    - Rechercher les plaintes (MATH)
+    - Analyser la victime (asymetrie faciale, anomalie de mobilite des membres, anomalie de la parole)
+    - Mesurer la temperature de la victime
+-
+  question: Bilan complementaire - Traumatisme (5 steps)
+  answer:
+    - Rechercher le mecanisme de l accident
+    - Analyser chaque plaintes (PQRST)
+    - Rechercher les plaintes (MATH)
+    - Rechercher et localiser les lesions (plaies, brulures, deformations, contusions, ...)
+    - Verifier l etat des membres traumatises (circulatoires, motricite, sensibilite, temperature, couleur)
+-
+  question: Quels sont les frequences respiratoires concideres comme normal (Nouveau-ne, Nourisson, Enfant, Adulte)
+  answer:
+    - Nouveau-ne: 40-60
+    - Nourisson: 30-40
+    - Enfant: 20-30
+    - Adulte: 12-20
+-
+  question: Quels sont les frequences cardiaques concideres comme normal (Nouveau-ne, Nourisson, Enfant, Adulte)
+  answer:
+    - Nouveau-ne: 120-160
+    - Nourisson: 100-160
+    - Enfant: 70-140
+    - Adulte: 60-100
+-
+  question: Quels est l interval de la SpO2 concidere comme normal ? et pour un Insufisant Repiratoire Chronique ?
+  answer:
+    - normal: entre 94 et 100%
+    - IRC: entre 89 et 94%
+-
+  question: Quelles sont les 5 valeurs permettant d evaluer la douleur pour une plainte donnee ?
+  answer:
+    - 0: nulle
+    - 1: Faible
+    - 2: Moyenne
+    - 3: Forte
+    - 4: Insupportable
+- question: Lors de la palpation quels signes cherche-t'on ? et ou ?
+  answer:
+    signes:
+      - contusions
+      - gonflements (hematomes, oedemes)
+      - plaies et aspects (ecorchure, coupure, plaie punctiforme, laceration)
+      - brulures et leurs aspects (rougeur, presence de cloques intacts ou percees, zone blanchatre, noiratre, brunatre)
+    lieu:
+      - tete
+      - cou
+      - thorax
+      - abdomen
+      - dos
+      - bassin
+      - membres superieurs et inferieurs
+       
