@@ -1,10 +1,8 @@
-import  { TodoModel } from '../models/TodoModel';
 import { isObject, isNumber } from '../utils/typeTester';
+let TodoModel = require('../models/todoSchema');
 
 var express = require('express');
 var router = express.Router();
-
-const TodoManager = new TodoModel();
 
 router.use(function timeLog(req, res, next) {
   console.log('Time: ', Date.now());
@@ -12,9 +10,18 @@ router.use(function timeLog(req, res, next) {
 });
 
 router.get('/', function(req, res) {
+  let test = new TodoModel({
+    title: 'profsdut'
+  });
+  test.save()
+    .then(doc => console.log(doc))
+    .catch(err => console.log(err))
+  /*
   TodoManager.list().then(
     (data) => res.send({data})
   );
+  */
+  res.end();
 });
 router.get('/:id', function(req, res) {
   console.log(req.params);
@@ -31,9 +38,7 @@ router.get('/:id', function(req, res) {
   }
 });
 router.post('/', function(req, res) {
-  TodoManager.create(req.body).then(
-     (data) => res.send({data})
-  );
+  res.send({data});
 });
 
 module.exports = router;

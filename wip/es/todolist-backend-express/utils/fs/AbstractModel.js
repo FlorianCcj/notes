@@ -25,7 +25,7 @@ function findMaxId(arr) {
 class AbstractModel {
   constructor(model) {
     this.model = model;
-    this.file = `${this.model}.data.json`;
+    this.file = `data/${this.model}.data.json`;
     this.makefile().then();
   }
 
