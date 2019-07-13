@@ -1,8 +1,15 @@
+***********
+Python-doc
+***********
+
+``
 def foo():
     """
         Docstring d'une ligne.
     """
- 
+``
+
+``
 def foo():
     """
         Résumé de la docstring de plusieurs lignes.
@@ -11,7 +18,9 @@ def foo():
         Contenu détaillé de la doctstring.
         Contenu détaillé de la doctstring.
     """
+``
 
+``
 >>> def foo():
 ...     """
 ...         Can foo a bar with ease
@@ -21,7 +30,9 @@ def foo():
 >>> foo.__doc__
 '\n        Can foo a bar with ease\n    '
 >>>
+``
 
+``
 balise a disposition
 :param arg1: description
 :param arg2: description
@@ -38,12 +49,14 @@ Un exemple écrit après un saut de ligne.
 .. warning:: Avertissement
 .. note:: Note
 .. todo:: A faire
+``
 
+``
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
  
 """
-    The ``obvious`` module
+    The ''obvious'' module
     ======================
  
     Use it to import very obvious functions.
@@ -74,7 +87,7 @@ Un exemple écrit après un saut de ligne.
  
  
 """
- 
+
 def add(a, b):
     """
         Adds two numbers and returns the result.
@@ -104,10 +117,13 @@ def add(a, b):
         .. todo:: Delete this function. Then masturbate with olive oil.
     """
     return a + b
+``
 
+``
 Pour les todos
 # TODO: un truc à faire
 
     Je pense que vos TODO n’ont rien à foutre dans la doc.
     Il faut mieux avoir un TODO le plus proche du truc qu’il doit modifier. Le mettre en haut de la fonction n’a pas toujours de sens.
     De très nombreux outils et services détectent ce format automatiquement et en font quelque chose d’utile.
+``
