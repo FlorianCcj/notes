@@ -58,11 +58,11 @@ KLMNO: ~
     source: https://www.cuisine-etudiant.fr/recette/3205-pad-thai-aux-crevettes-et-citron-vert
   totest-todo-pates bolo:
     source: https://www.cuisine-etudiant.fr/recette/3722-pattes-bolognaises-made-in-julie
-  totest-todo-Pâtes crème et chorizo:
+  totest-todo-Pates crème et chorizo:
     source: https://www.cuisine-etudiant.fr/recette/3913-pates-creme-et-chorizo
-  totest-todo-Pâtes aux oignons caramélisés:
+  totest-todo-Pates aux oignons caramélisés:
     source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
-  totest-Pâtes aux poivrons:
+  totest-Pates aux poivrons:
     realisations:
       Temps de préparation : 15 min
       Temps de cuisson : 30 min
@@ -124,3 +124,17 @@ KLMNO: ~
 PQRST: ~
   totest-todo-Tagliatelles de courgettes au saumon:
     source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 

@@ -96,4 +96,18 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/3528-sheng-jian-bao-brioches-au-porc-a-la-vapeur
   totest-todo-Tourte aux champignons:
     source: https://www.cuisine-etudiant.fr/recette/5584-tourte-aux-champignons
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
 

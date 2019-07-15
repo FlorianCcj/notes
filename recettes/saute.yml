@@ -34,3 +34,17 @@ KLMNOP:
       10. ajouter alors les épinards ciselés, 
       11. retirer aussitôt du feu, mélanger, poivrer et servir
 QRSTU: ~
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 

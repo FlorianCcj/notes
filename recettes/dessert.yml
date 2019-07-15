@@ -8,6 +8,20 @@ PQRST:
     source: https://www.cuisine-etudiant.fr/recette/5613-roses-des-sables-simplissime 
   totest-todo-Tarte aux noix de pécan fait maison:
     source: https://www.cuisine-etudiant.fr/recette/5843-tarte-aux-noix-de-pecan-fait-maison
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
 
 
 

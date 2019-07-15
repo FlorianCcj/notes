@@ -44,8 +44,32 @@ PQRST: ~
         BON APPÉTIT.
   totest-todo-Poulet à l'ancienne:
     source: https://www.cuisine-etudiant.fr/recette/4529-poulet-a-l-ancienne
-  totest-todo-poulet carameliser au miel:
+  totest-poulet carameliser au miel:
     source: https://www.cuisine-etudiant.fr/recette/764-poulet-caramelise-au-miel
+    realisation:
+      préparation : 21 min
+      cuisson : 0 min
+      Difficulté : Facile
+      prix: 4,7/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      4 blancs de poulet coupés en dés
+      2 oignons
+      2 échalotes
+      2 gousses d'ail
+      4 cuillères à soupe de sauce soja
+      4 cuillères à soupe de miel
+      Sel, poivre
+    steps:
+      author: ~
+      Faire sauter le poulet dans un tout petit peu de matière grasse (verser un filet d'huile dans la poêle et l'essuyer avec une feuille d'essuie tout par exemple).
+      Eplucher l'ail, les oignons et les échalotes et tout émincer en petits dés.
+      Quand le poulet est doré, l'enlever de la poêle et remplacer par l'ail, les oignons et les échalotes. 
+      Faire sauter.
+      Remettre le poulet, arroser de sauce soja et laisser dorer encore.
+      Ajouter le miel, bien mélanger, couper le feu et couvrir au moins 10 mn.
+      Réchauffer si besoin au moment de servir. 
   totest-todo-Poulet caramélisé au sésame & légumes sauce soja:
     source: https://www.cuisine-etudiant.fr/recette/3223-poulet-caramelise-au-sesame-legumes-sauce-soja
   totest-Le poulet à la coriandre:
@@ -234,6 +258,20 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/5753-travers-de-porc-au-caramel-facile
 todo:
   https://recettemedievale.fr/ahrash-galettes-de-viande-epicees/
+  profil:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
 
 
 
