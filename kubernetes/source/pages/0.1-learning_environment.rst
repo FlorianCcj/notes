@@ -1,0 +1,150 @@
+Learning Environment
+####################
+
+Installing K8S with minikube
+*****************************
+
+Minikube Features
+=======================================
+
+* DNS
+* NodePorts
+* ConfigMaps and Secrets
+* Dashboards
+* Container Runtime: Docker, rkt, CRI-O, and containerd
+* Enabling CNI (Container Network Interface)
+* Ingress
+
+Quickstart
+=======================================
+
+.. code-block:: bash
+
+    curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+    && chmod +x minikube
+    sudo install minikube /usr/local/bin
+    minikube start
+    minikube delete
+
+.. code-block:: bash
+
+    kubectl run hello-minikube --image=k8s.gcr.io/echoserver:1.10 --port=8080
+    kubectl expose deployment hello-minikube --type=NodePort
+    kubectl get pod
+    # If the output shows the STATUS as ContainerCreating, the Pod is still being created:
+    # If the output shows the STATUS as Running, the Pod is now up and running:
+    minikube service hello-minikube --url
+    kubectl delete services hello-minikube
+    kubectl delete deployment hello-minikube
+    minikube stop
+    minikube delete
+
+Managing your Cluster
+=======================================
+
+.. code-block:: bash
+
+    minikube start
+    # For behind a proxy
+    https_proxy=<my proxy> minikube start --docker-env http_proxy=<my proxy> --docker-env https_proxy=<my proxy> --docker-env no_proxy=192.168.99.0/24
+    # Specifying the Kubernetes version
+    minikube start --kubernetes-version v1.15.0
+    # Specifying the VM driver
+    # value: virtualbox, vmwarefusion, kvm2, hyperkit, hyperv, vmware, none
+    minikube start --vm-driver=<driver_name>
+
+Starting a cluster on alternative container runtimes
+-------------------------------------------------------
+
+.. code-block:: console
+
+    # containerd
+    minikube start \
+        --network-plugin=cni \
+        --enable-default-cni \
+        --container-runtime=containerd \
+        --bootstrapper=kubeadm
+
+    minikube start \
+        --network-plugin=cni \
+        --enable-default-cni \
+        --extra-config=kubelet.container-runtime=remote \
+        --extra-config=kubelet.container-runtime-endpoint=unix:///run/containerd/containerd.sock \
+        --extra-config=kubelet.image-service-endpoint=unix:///run/containerd/containerd.sock \
+        --bootstrapper=kubeadm
+
+.. code-block:: console
+
+    # CRI-O
+    minikube start \
+        --network-plugin=cni \
+        --enable-default-cni \
+        --container-runtime=cri-o \
+        --bootstrapper=kubeadm
+
+    minikube start \
+        --network-plugin=cni \
+        --enable-default-cni \
+        --extra-config=kubelet.container-runtime=remote \
+        --extra-config=kubelet.container-runtime-endpoint=/var/run/crio.sock \
+        --extra-config=kubelet.image-service-endpoint=/var/run/crio.sock \
+        --bootstrapper=kubeadm
+
+.. code-block:: console
+
+    # RKT
+    minikube start \
+        --network-plugin=cni \
+        --enable-default-cni \
+        --container-runtime=rkt
+
+You can config
+* kubelet
+* apiserver
+* proxy
+* controller-manager
+* etcd
+* scheduler
+
+.. code-block:: console
+
+    # example
+    --extra-config=kubelet.MaxPods=5
+    --extra-config=scheduler.LeaderElection.LeaderElect=true
+    --extra-config=apiserver.authorization-mode=RBAC
+
+
+Interacting with Your Cluster
+=======================================
+
+.. code-block:: console
+
+    minikube start
+    kubectl config use-context minikube
+    kubectl get pods --context=minikube
+    minikube dashboard
+    minikube service [-n NAMESPACE] [--url] NAME
+
+Networking
+=======================================
+
+.. code-block:: console
+
+    kubectl get service $SERVICE --output='jsonpath="{.spec.ports[0].nodePort}"
+
+Persistent Volumes
+=======================================
+
+PV for /data
+
+.. literalinclude:: ../codes/pv_data.yml
+
+Using Minikube with an HTTP Proxy
+=======================================
+
+.. code-block:: console
+
+    minikube start --docker-env http_proxy=http://$YOURPROXY:PORT \
+        --docker-env https_proxy=https://$YOURPROXY:PORT
+    export no_proxy=$no_proxy,$(minikube ip)
+    
