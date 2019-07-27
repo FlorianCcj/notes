@@ -1,4 +1,5 @@
 FROM ddidier/sphinx-doc
 COPY . .
+RUN pip install sphinx-rtd-theme
 RUN make html
 

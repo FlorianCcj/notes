@@ -56,4 +56,3 @@ echo "changer dans source/conf.py html_theme = 'classic'"
 echo "changer dans source/index.rst include"
 echo "ajouter dans Makefile docker-html:"
 echo "       bash ./scripts/docker_build_sphinx.sh"
-

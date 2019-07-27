@@ -1,4 +1,38 @@
-ABCDE: ~
+ABCDE:
+  totest-Baked Jalapeno Popper Chicken Spaghetti:
+    source: https://www.youtube.com/watch?v=fV6_oqDtat4
+    realisation:
+      préparation : 0 min
+      cuisson : 0 min
+      Difficulté : Facile
+      prix: 0/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Mozzarella 2 cup
+      Cheddar 2 cup
+      Parmesan 1 cup
+      Cornflour 2 tbsp
+      Bacon 8 rashers, diced
+      Jalapenos 3 deseeded & diced
+      Garlic 3 cloves, finely diced
+      Double cream 250 ml
+      Cream cheese 1 cup (creme solide)
+      Shredded chicken 2 cup
+      Spaghetti 350g
+    steps:
+      author: Twisted
+      1. Melanger la mozza, le cheddar, le parmesan et la farine de mais 
+      2. Faire cuir le bacon a la poile
+      3. Ajouter une noix de beurre le Jalapenos et le garlic
+      4. Bien melanger
+      5. ajouter les cream et bien melanger
+      6. laisser cuir un instant que tout se melange
+      7. ajouter le poulet et la moitié du melange de fromage
+      8. bien melanger
+      9. ajouter les spag deja cuit et une tasse d eau
+      10. verser dans un plat a four, verser le reste du fromage dessus
+      11. enfourner 15 min a 160 degre celsius
 FGHIJ:
   totest-Galette de spaghetti:
     source: http://madame.lefigaro.fr/recettes/galette-de-spaghetti-121200-198065
@@ -49,8 +83,6 @@ FGHIJ:
       - Enfournez le tout pendant 10 min.
   totest-todo-Gratin de pâtes au chorizo et jambon:
     source: https://www.cuisine-etudiant.fr/recette/5632-gratin-de-pates-au-chorizo-et-jambon
-  totest-todo-Grattin façon lasagne poulet/cordons:
-    source: https://www.cuisine-etudiant.fr/recette/4638-grattin-facon-lasagne-poulet-cordons
 KLMNO: ~
   totest-Nouilles chinoises au poulet :
     source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
@@ -62,33 +94,6 @@ KLMNO: ~
     source: https://www.cuisine-etudiant.fr/recette/3913-pates-creme-et-chorizo
   totest-todo-Pates aux oignons caramélisés:
     source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
-  totest-Pates aux poivrons:
-    realisations:
-      Temps de préparation : 15 min
-      Temps de cuisson : 30 min
-      Difficulté : Très facile
-      Type de plat : Plat
-      Calories / personne : 530
-    ingredients:
-      quantite: pour 4 personnes
-      400 g de pâtes de riz
-      3 tomates
-      2 poivrons (rouge et vert)
-      1 oignon petit
-      1 gousse d'ail
-      1 cuillère à soupe d'herbes de provence
-      1 cuillère à soupe de vinaigre de vin rouge
-      1/2 botte de basilic
-      3 cuillères à soupe d'huile d'olive
-      40 g de feta
-      gros sel
-      poivre
-    steps:
-      Pelez, épépinez et concassez les tomates. Pelez et émincez l'oignon. Lavez les poivrons. Coupez-les en deux. Retirez les graines et la partie blanche à l'intérieur. Emincez-les en lamelles.
-      Dans une casserole, faites chauffer l'huile. Ajoutez l'oignon et les poivrons. Faites revenir le tout 20 minutes. Ajoutez l'ail, les tomates, le vinaigre et les herbes de Provence. Prolongez la cuisson de 10 minutes. Salez et poivrez.
-      Parallèlement, portez de l'eau salée au gros sel à ébullition. Faites cuire les pâtes selon le temps indiqué sur le paquet. Egouttez-les.
-      Lavez et ciselez le basilic.
-      Servez les pâtes nappées de sauce. Ajoutez un carré de feta et décorez de basilic.
   totest-todo-Pâtes sauce crémeuse aux champignons:
     source: https://www.cuisine-etudiant.fr/recette/3226-pates-sauce-cremeuse-aux-champignons
   totest-Pâtes à la sauce tomate:

@@ -133,8 +133,14 @@ chateau:
     - caserne 15 (3)
     - cathedrale (5)
     - cierie 14
-    porte 42
-    hopital 15
+    - porte 42
+    - hopital 15
+  45:
+    - Camp de tir 15
+    - Ecurie 15
+    - Flux de magie 14
+    - Porte 43
+    - Atelier 14
 rose:
   1: 4
   2:

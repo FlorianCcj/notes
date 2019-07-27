@@ -17,9 +17,13 @@ todo:
       - katakoda
       - k3s
       - reseau
-      - sphinx
       - go
     - https://egghead.io/lessons/cypress-course-introduction-test-production-ready-apps-with-cypress
+    - notes:
+      - sast gitlab
+      - packer de hashicorp
+      - OIDC
+      - Vault
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
@@ -27,18 +31,36 @@ todo:
       - florentin
     - dessin: ~
     - manga:
-      - MxZero
+      - assassination classroom:
+        - http://op-vf.com/manga/assassination-classroom
+      - berserk:
+        - http://op-vf.com/manga/berserk
+      - bleach:
+        - http://op-vf.com/manga/bleach
+      - fairy tail:
+        1 -> 545
+        - http://lordmanga.free.fr/scan.php?manga=Fairy_Tail
+        - http://lelscanv.com/lecture-en-ligne-fairy-tail
+        - https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
+        - http://op-vf.com/manga/fairy-tail (258-545)
+        dwl: 
+          2019.07.27
+          1 -> 545
+      - hunterXhunter: 
+        - https://www.scan-vf.co/hunter-x-hunter (188-390)
+      - Mar:
+        - http://lordmanga.free.fr/scan.php?manga=Mar&chap=01
+      - MxZero:
         dwl:
           full
       - one piece:
         dwl:
           10.06.2019
           1 -> 945
-          miss 220 - 227
-          248-14
       - one punch man
       - My_Wife_Is_A_Demon_Queen-Chap001-p
       - shokugeki no souma:
+        - https://www.mangakawaii.to/manga/shokugeki-no-soma (102->315)
         dwl:
           10.06.2019
           193 -> 226
@@ -53,7 +75,7 @@ todo:
       - nian koi (maudit par les chat)
       - saenai heroine no sodatekata (createur de jeu)
       - rokka no yuusha
-      - gamers
+      - hunterxhunter
       - naruto:
         - http://mangalecture.free.fr/index.php/image/9256-chapitre-scan-naruto-640-vf-page-02
         - https://fr.wikipedia.org/wiki/Liste_des_chapitres_de_Naruto_(2e_partie)#Tomes_61_%C3%A0_70
@@ -61,10 +83,6 @@ todo:
         - http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin
         - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
         - http://lelscanv.com/scan-naruto/600
-      - fairy tail:
-        - http://lordmanga.free.fr/scan.php?manga=Fairy_Tail
-        - http://lelscanv.com/lecture-en-ligne-fairy-tail
-        - https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
       - combat-continent-douluo-dalu:
         - https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1
 	      - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
