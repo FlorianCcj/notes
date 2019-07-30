@@ -1,0 +1,205 @@
+;https://forum.cheat-gam3.com/threads/autoit-cr%C3%A9er-un-bot-de-recolte.9212/
+;==================== Début du script ====================
+
+; On initialise les variables en Global pour quelles puissent garder leur valeur dans toutes les fonctions :
+
+Global $Coord[2] ; On créé un tableau à 2 dimensions pour stocker les coordonnées de la ressource détectée plus bas.
+
+Global $Compteur ; On créé un compteur pour stocker le nombre de fois que l'on envoie la commande pour couper la ressource.
+
+Global $CompteurPods ; Idem que plus haut mais cette fois ci c'est pour stocker le nombre de fois que l'on coupe la ressource.
+
+Global $Phrases ; On initialise la variable pour ensuite lui assigner une valeur au hasard.
+
+$Compteur = 0 ; On assigne la valeur du compteur à 0.
+
+;-------------------------------------------------------------------------------
+;                           Raccourcis claviers
+;-------------------------------------------------------------------------------
+
+HotKeySet("{ESC}", "Bye") ; On assigne la fonction Bye (Pour quitter) à la touche 'Echap'
+
+;-------------------------------------------------------------------------------
+;                               Ouvre Dofus
+;-------------------------------------------------------------------------------
+
+WinActivate("Dofus")
+
+;-------------------------------------------------------------------------------
+;                            S'occupe de faucher
+;-------------------------------------------------------------------------------
+
+Fauchage() ; On appelle (lance) la fonction Fauchage.
+
+Func Fauchage() ; On déclare la fonction.
+
+	$SpleepTime = Random(11000, 14000, 1) ; On assigne à la variable SleepTime une valeur prise au hasard entre 11000 et 14000. Le 1 après la virgule sers à ca qu'on n'ai pas des nombres à virgules, entiers donc.
+
+	If $Compteur = 15 Then ; Si le Compteur est égal à 15, les commandes qui suivent s'exécutent. Cela va servir pour écrire une des phrases du bas à la 15e tentative de fauche.
+
+		$Phrases = Random(1, 5, 1) ; Idem qu'avec SleepTime mais cette fois ci avec une valeur en tre 1 et 5, cela serviras à écrire une des phrases du bas au hasard.
+
+		MouseClick("left", 87, 728) ; On clique-gauche (Left) aux cordonées 87, 728 ce qui correspond à la barre
+
+		If $Phrases = 1 Then Send("[Chante] Le travail, c'est la santé. Rien faire, c'est la conserver... La la la... =)")
+		If $Phrases = 2 Then Send("Le travail, c'est la santé. Rien faire, c'est la conserver. La la la... < Bah moi je la conserve pas...! =)", 1)
+		If $Phrases = 3 Then Send("Pfffffiiiiioooooouuuu ! ! ! =)", 1)
+		If $Phrases = 4 Then Send("Dur labeur, ô dur labeur qu'être paysan...! =p", 1)
+		If $Phrases = 5 Then Send("ZZZzzzZZZzzzZZZzzzZZZzzzZZZzzz...ZZZ!", 1)
+
+		Sleep(2000) ; On attend 2sec (2000 millisecondes)
+
+		Send("{ENTER}") ; On appuie sur Entrée
+
+		$Compteur = 0 ; On remet le compteur à zéro
+
+	EndIf ; Faut t'il vraiment l'expliquer ?... On ferme le If.
+
+	$Coord = PixelSearch(0, 0, @DesktopWidth, @DesktopHeight, 0xFEE415, 1)
+	; Ici on recherche la couleur du Blé (0xFEE415) est on stocke ses coordonnées dans la variable $Coord. Les coordonnés seront stockées dans $Coord[0] et $Coord[1]. Pour plus d'infos, voir ici.
+
+	If Not @error Then ; On vérifie si la couleur a bien été trouvée.
+
+		$Compteur = $Compteur + 1 ; On ajoute 1 au compteur.
+		$CompteurPods = $CompteurPods + 1 ; Idem
+		MouseMove($Coord[0], $Coord[1], 1) ; On déplace la souris sur les coordonnées de la ressource, le 1 sers à déplacer instantanément la souris?
+		$Color = PixelGetColor($Coord[0], $Coord[1]) ; On récupère la couleur sous la souris.
+		Hex($Color, 6) ; On la convertie en Hexadécimal
+		If Not $Color = "E7D85C" Then Verif() ; Si la couleur sous le curseur n'est pas celle d'une ressource en surbrillance, coupable donc, on lance la fonction Verif().
+		MouseClick("left", $Coord[0], $Coord[1], 1) ; On clique sur la ressource.
+		Sleep(500) ; On attend 0,5secs.
+		MouseMove($Coord[0] + 10, $Coord[1] + 30, 1) ; On déplace la souris sur les coordonnées de faucher (Qui est égale aux coordonnées de la ressource + 30), la commande se met en subrillance (Orange)
+		$Color = PixelGetColor($Coord[0] + 10, $Coord[1] + 30) ; On récupère la couleur à l'endroit où est normalement faucher.
+		Hex($Color, 6) ; On convertit la couleur.
+		If Not $Color = "FF6600" Then Verif() ; Si ce n'est pas la couleur de la commande Faucher en surbrillance on lance la fonction Verif().
+		MouseClick("left", $Coord[0] + 10, $Coord[1] + 30, 1) ; On clique sur Faucher.
+		$Combat = PixelSearch(0, 0, @DesktopWidth, @DesktopHeight, 0x0000FF, 0) ; On recherche la couleur qui caracterise un combat lancé(Bleu ou Rouge, ici Bleu)
+		If Not @error Then Call("Bip") ; Si il n'y a pas d'erreur (Ce qui veut dire que la couleur est présente) c'est que le combat est lancé. Donc on lance la fonction qui Bip.
+		Sleep(5000) ; On attend 5sec
+		$Combat = PixelSearch(0, 0, @DesktopWidth, @DesktopHeight, 0x0000FF, 0) ; Si l'utilisateur n'a pas encore arrêté le script et que le combat est en cours on relance le Bip
+		If Not @error Then Call("Bip")
+
+		Sleep($SpleepTime) ; Enfin, on attends le temps calculé au hasard plus haut avant de lancer la Fonction Verif() qui vérifiera si un combat est lancé, une demande d'échange/invitation dans un groupe affiché, un message de lvl supérieur affiché,... Etc. Puis Verif() relanceras la fonction de Fauchage.
+
+	EndIf
+
+	Verif() ; On lance la fonction Verif.
+
+EndFunc   ;==>Fauchage
+
+
+;-------------------------------------------------------------------------------
+;                     La fameuse commande Verif()
+;-------------------------------------------------------------------------------
+
+Func Verif()
+
+	While 1 ; On créé une boucle infini, cela répète donc à l'infini tout ce qu'il y a entre While et Wend (Pour fermer la boucle).
+
+		$Combat = PixelGetColor(593, 610) ; Récupère la couleur qui se trouve en 593 (Axe de la hauteur), 610 (Axe de la largeur), si un combat est lancé, la couleur est Orange.
+		$Combat = Hex($Combat, 6)
+
+		$niveau = PixelGetColor(499, 348) ; Récupère la couleur en 499, 348 où se trouve le bouton Ok lors d'un message de passage à un niveau supérieur.
+		$niveau = Hex($niveau, 6)
+
+		$echange = PixelGetColor(657, 348) ; Récupère la couleur en 657, 348 où se trouve le bouton Non lors d'une demande d'échange, invitation de groupe/guilde...
+		$echange = Hex($echange, 6)
+
+		If $CompteurPods = 10 Then ; On vérifie si le compteur de nombres de fois que l'on a coupé des ressources est égal à 10.
+			$CompteurPods = 0 ; Si c'est le cas, on remet le compteur à zéro.
+			MouseClick("left", 730, 609, 1, 1) ; On clique sur le bouton pour ouvrir l'inventaire. Note : Pour cliquer il n'est pas nécessaire de déplacer le curseur avant, nous l'avons fait en haut pour vérifier si la ressource était fauchable.
+			Sleep(2000) ; On attend 2sec, le temps que l'inventaire s'ouvre.
+			$Pods = PixelGetColor(676, 330) ; On récupère la couleur qui se trouve à l'endroit qui indique que l'inventaire est presque plein.
+			$Pods = Hex($Pods, 6)
+			If $Pods = 'FF6600' Then Call("Inventaireplein") ; On lance la fonction Inventraireplein si la couleur est Orange (la couleur de la barre de progression). Note : On indique que l'inventaire est plein alors que ce n'est pas le cas car on vérifie l'inventaire seulement tous les 10 tours, et l'inventaire peut se remplir en 3 tours minimum... Pas la peine de prendre le risque de se faire griller par un modo en fauchant alors que son inventaire est plein... ;)
+			$Pods = PixelGetColor(838, 266) ; On recupère la couleur à l'endroit qui indique si l'inventaire EST plein. Car si l'utilisateur à lancé le bot alors que son inventaire est presque plein...
+			$Pods = Hex($Pods, 6)
+			If $Pods = 'FF6600' Then Call("Inventaireplein") ; On lance la fonction Inventaireplein... si l'inventaire est plein.
+			MouseClick("left", 944, 86, 1, 1) ; On clique sur fermer.
+			Sleep(1000) ; On attend 1sec, le temps que l'inventaire se ferme.
+		EndIf ; On ferme le If.
+
+		If $Combat = '514A3C' Then Call("Fauchage") ; On teste si la couleur récupérée plus haut n'est pas celle qui indique un combat... (En fait on teste si le compteur pour cliquer sur 'Prêt' défile ou pas). Si le compteur ne défile pas, c'est qu'il n'y a pas de combats.
+		If $Combat = 'FF6100' Then Call("Bip") ; On teste si la couleur récupérée plus haut est celle qui indique un combat... (En fait on teste si le compteur pour cliquer sur 'Prêt' défile ou pas). Si le compteur défile, c'est qu'il a un combat. On lance la fonction Bip().
+		If $niveau = 'FF6100' Then Call("Niveau") ; On teste si le bouton Ok de passage à niveau est présent, si c'est la cas, on lance la fonction Niveau().
+		If $echange = 'FF6100' Then Call("Echange") ; On teste si le bouton Non des échanges/invitations de guildes/invitations de goupes est présent, si c'est le cas, on lance la fonction Echange().
+
+		$Combat = PixelSearch(0, 0, @DesktopWidth, @DesktopHeight, 0x0000FF, 0) ; On cherche la couleur bleu, qui indique q'un combat est en cours.
+		If Not @error Then Call("Bip") ; Si la couleur est présente, on lance la fonction Bip().
+		Sleep(100) ; On attend 0,1 secondes.
+		Call("Fauchage") ; Si on arrive la, c'est que tout va bien : Pas de combats, échanges, demande de guilde, de groupe... On lance donc la fonction Fauchage().
+	WEnd
+EndFunc   ;==>Verif
+
+;-------------------------------------------------------------------------------
+;                     S'occupe du passage au niveau sup.
+;-------------------------------------------------------------------------------
+
+Func Niveau()
+	MouseClick("", 499, 348, 1, 0) ; On clique sur Ok et on relance la fonction Verif() au cas ou... Si tout vas bien, Verif() relancera la fonction Fauchage() qui relancera la fonction Verif etc.
+	Verif()
+EndFunc   ;==>Niveau
+
+;-------------------------------------------------------------------------------
+;                     S'occupe des échanges/duels/guildes
+;-------------------------------------------------------------------------------
+
+Func Echange()
+	MouseClick("", 657, 348, 1, 0) ; On clique sur non et on relance la onction Verif() au cas ou...
+	Verif()
+EndFunc   ;==>Echange
+
+
+;-------------------------------------------------------------------------------
+;   S'occupe d'afficher un message quand l'inventaire est plein
+;-------------------------------------------------------------------------------
+
+Func Inventaireplein()
+	MouseClick("left", 944, 86, 1, 1) ; On clique sur la croix de l'inventaire pour le fermer.
+	MsgBox(48, '"Fauche-Blé"', "Inventaire plein ! ") ; On affiche un message pour prevenir que l'inventaire est plein. Une fois que l'utilisateur cliquera sur Ok de la MsgBox, on passera à la commande suivante.
+	; Note : Pour plus d'infos, voir ici. Ou tout en bas.
+	Exit 0
+EndFunc   ;==>Inventaireplein
+
+;-------------------------------------------------------------------------------
+;                              S'occupe du BIP
+;-------------------------------------------------------------------------------
+
+Func Bip()
+
+	; Beep() fait des sons avec le bipeur de la carte mère, comme ça, même si
+	; les haut-parleurs ne sont pas branchés,... Bah on l'entends quand même.
+	; Mais attention, sur un ordi portable, le son se fait avec le haut parleur,
+	; donc si le son est désactivé on entend rien...
+
+	;Beep('Fréquence en hertz', Temps (en millisecondes) )
+
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(294 * 2, 500)
+	Sleep(10000)
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(294 * 2, 500)
+	Sleep(10000)
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(349 * 2, 500)
+	Beep(262 * 2, 500)
+	Beep(294 * 2, 500)
+
+	Exit 0 ; Exit...
+
+EndFunc   ;==>Bip
+
+;-------------------------------------------------------------------------------
+;                                         Quitter
+;-------------------------------------------------------------------------------
+
+Func Bye()
+	Exit 0
+EndFunc   ;==>Bye

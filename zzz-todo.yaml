@@ -19,8 +19,12 @@ todo:
       - reseau
       - go
     - https://egghead.io/lessons/cypress-course-introduction-test-production-ready-apps-with-cypress
+    - achat: liseuse
+    - acaht: tel
+    - achat: pantalon
     - notes:
       - sast gitlab
+      - https://www.freecodecamp.org/news/selling-services/
       - packer de hashicorp
       - OIDC
       - Vault
@@ -61,11 +65,15 @@ todo:
       - My_Wife_Is_A_Demon_Queen-Chap001-p
       - shokugeki no souma:
         - https://www.mangakawaii.to/manga/shokugeki-no-soma (102->315)
+        - http://frscan.com/manga/shokugeki-no-soma/275
         dwl:
           10.06.2019
-          193 -> 226
-          228 -> 265
+          1 -> 266
+          275-300
       - combat continent:
+        - https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1
+	      - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
+        - https://www.japanread.cc/manga/douluo-dalu/121
         dwl:
           10.06.2019
           1 -> 122
@@ -83,10 +91,6 @@ todo:
         - http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin
         - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
         - http://lelscanv.com/scan-naruto/600
-      - combat-continent-douluo-dalu:
-        - https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1
-	      - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
-        - https://www.japanread.cc/manga/douluo-dalu/121
       - list:
         - https://www.japanread.cc
         - va:
@@ -100,6 +104,7 @@ todo:
           - http://op-vf.com/
           - https://www.scan-fr.io/
           - http://www.scan-op.com/
+          - http://frscan.com/manga/
           - https://www.scan-vf.co
     - mentalism: ~
     - music:
