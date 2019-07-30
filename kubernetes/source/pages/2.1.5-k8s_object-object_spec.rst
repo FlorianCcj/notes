@@ -1,0 +1,164 @@
+Names
+=====
+
+All objects in the Kubernetes REST API are unambiguously identified by a Name and a UID.
+
+For non-unique user-provided attributes, Kubernetes provides labels and annotations.
+
+A client-provided string that refers to an object in a resource URL, such as /api/v1/pods/some-name.
+
+Namespace
+=========
+
+Attention a leurs utilisations, l utiliser a bon essiant
+
+* :code:`kubectl get namespace`
+    * :code:`default` The default namespace for objects with no other namespace
+    * :code:`kube-system` The namespace for objects created by the Kubernetes system
+    * :code:`kube-public` This namespace is created automatically and is readable by all users (including those not authenticated). 
+      This namespace is mostly reserved for cluster usage, in case that some resources should be 
+      visible and readable publicly throughout the whole cluster. 
+      The public aspect of this namespace is only a convention, not a requirement
+* :code:`kubectl run nginx --image=nginx --namespace=<insert-namespace-name-here>`
+* :code:`kubectl get pods --namespace=<insert-namespace-name-here>`
+
+* .. code-block:: console
+
+    kubectl config set-context --current --namespace=<insert-namespace-name-here>
+    # Validate it
+
+    kubectl config view | grep namespace:
+
+DNS
+---
+
+service creation -> DNS entry creation :code:`<service-name>.<namespace-name>.svc.cluster.local`
+
+if you use :code:`<service-name>.svc.cluster.local` will take in local ns
+
+* :code:`kubectl api-resources --namespaced=true`: get what is it namespace
+* :code:`kubectl api-resources --namespaced=false`: get what is not it namespace
+
+Labels and selectors
+====================
+
+.. code-block:: yaml
+
+    apiVersion: v1
+    kind: Pod
+    metadata:
+    name: label-demo
+    labels:
+        environment: production
+        app: nginx
+    spec:
+    containers:
+    - name: nginx
+        image: nginx:1.7.9
+        ports:
+        - containerPort: 80
+
+For selection you can select multi requirement coma serated
+
+Equality-based requirement: :code:`environment = production,tier != frontend`
+
+Set-based requirement: in, notin, exist :code:`environment in (production, qa),tier notin (frontend, backend),partition,!partition`
+
+On url: 
+
+* :code:`?labelSelector=environment%3Dproduction,tier%3Dfrontend`
+* :code:`?labelSelector=environment+in+%28production%2Cqa%29%2Ctier+in+%28frontend%29`
+
+on kubectl:
+
+* :code:`kubectl get pods -l environment=production,tier=frontend`
+* :code:`kubectl get pods -l 'environment in (production),tier in (frontend)'`
+* :code:`kubectl get pods -l 'environment in (production, qa)'`
+* :code:`kubectl get pods -l 'environment,environment notin (frontend)'`
+
+Annotations
+===========
+
+Kind of comment ... that soft can retrieve easily
+
+.. code-block:: yaml
+
+    apiVersion: v1
+    kind: Pod
+    metadata:
+    name: annotations-demo
+    annotations:
+        imageregistry: "https://hub.docker.com/"
+
+Fields selectors
+================
+
+* :code:`kubectl get pods --field-selector status.phase=Running`
+* :code:`kubectl get pods --field-selector metadata.name=my-service`
+* :code:`kubectl get pods --field-selector metadata.namespace!=default`
+* :code:`kubectl get pods --field-selector=status.phase!=Running,spec.restartPolicy=Always`
+* :code:`kubectl get statefulsets,services --all-namespaces --field-selector metadata.namespace!=default`
+
+Recommended Labels
+==================
+
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| Key                          | Description                                                   | Example          | Type   |
++==============================+===============================================================+==================+========+
+| app.kubernetes.io/name       | The name of the application                                   | mysql            | string |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| app.kubernetes.io/instance   | A unique name identifying the instance of an application      | wordpress-abcxzy | string |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| app.kubernetes.io/version    | The current version of the application                        | 5.7.21           | string |
++                              +                                                               +                  +        +
+|                              | (e.g., a semantic version, revision hash, etc.)               |                  |        |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| app.kubernetes.io/component  | The component within the architecture                         | database         | string |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| app.kubernetes.io/part-of    | The name of a higher level application this one is part of    | wordpress        | string |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+| app.kubernetes.io/managed-by | The tool being used to manage the operation of an application | helm             | string |
++------------------------------+---------------------------------------------------------------+------------------+--------+
+
+.. code-block:: yaml
+
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+    labels:
+        app.kubernetes.io/name: wordpress
+        app.kubernetes.io/instance: wordpress-abcxzy
+        app.kubernetes.io/version: "4.9.4"
+        app.kubernetes.io/managed-by: helm
+        app.kubernetes.io/component: server
+        app.kubernetes.io/part-of: wordpress
+    apiVersion: v1
+    kind: Service
+    metadata:
+    labels:
+        app.kubernetes.io/name: wordpress
+        app.kubernetes.io/instance: wordpress-abcxzy
+        app.kubernetes.io/version: "4.9.4"
+        app.kubernetes.io/managed-by: helm
+        app.kubernetes.io/component: server
+        app.kubernetes.io/part-of: wordpress
+    apiVersion: apps/v1
+    kind: StatefulSet
+    metadata:
+    labels:
+        app.kubernetes.io/name: mysql
+        app.kubernetes.io/instance: mysql-abcxzy
+        app.kubernetes.io/version: "5.7.21"
+        app.kubernetes.io/managed-by: helm
+        app.kubernetes.io/component: database
+        app.kubernetes.io/part-of: wordpress
+    apiVersion: v1
+    kind: Service
+    metadata:
+    labels:
+        app.kubernetes.io/name: mysql
+        app.kubernetes.io/instance: mysql-abcxzy
+        app.kubernetes.io/version: "5.7.21"
+        app.kubernetes.io/managed-by: helm
+        app.kubernetes.io/component: database
+        app.kubernetes.io/part-of: wordpress

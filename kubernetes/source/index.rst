@@ -15,6 +15,9 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+https://kubernetes.io/docs/concepts/overview/kubernetes-api/
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.15/
+https://kubectl.docs.kubernetes.io/
 
 .. code-block:: rst
 
