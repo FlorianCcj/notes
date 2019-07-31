@@ -1,0 +1,4 @@
+FROM ddidier/sphinx-doc
+COPY . .
+RUN pip install -r requirements.txt
+RUN make html
