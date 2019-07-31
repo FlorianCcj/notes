@@ -57,4 +57,4 @@ html_css_files = [
     'css/custom.css',
 ]
 
-master_doc = 'contents'
+master_doc = 'index'
