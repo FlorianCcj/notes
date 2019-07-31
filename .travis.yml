@@ -19,7 +19,7 @@ jobs:
   include:
     - stage: build and test
       name: Build
-      script: sphinx-build -nWT -b dummy . _build/html
+      script: ls 66 sphinx-build -nWT -b dummy source _build/html
       skip-cleanup: true
     #- script: vale source # run vale
     #  name: Test
