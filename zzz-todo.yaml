@@ -28,6 +28,7 @@ todo:
       - packer de hashicorp
       - OIDC
       - Vault
+      jeu: gladiabots
   - 000_list_sum_up:
     - couture: ~
     - cuisine:
