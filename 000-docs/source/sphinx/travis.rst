@@ -1,16 +1,16 @@
-Travis
-######
+Sphinx - Travis
+###############
 
 Make github pages with sphinx and Travis
 ****************************************
 
-On `<Github https://github.com/>`_ :
+On `Github <https://github.com/>`_ :
 
 # Log in to your GitHub account and go into :code:`Settings` > :code:`Developer settings` > :code:`Personal access tokens`
 # Click :code:`Generate new token`, add a description, such as Travis token and tick the :code:`repo` checkbox then click :code:`Generate token`.
 # Save the token (called it :code:`github-token`).
 
-On `<Travis https://travis-ci.org/>`_ :
+On `Travis <https://travis-ci.org/>`_ :
 
 # When you click on :code:`Travis CI` on the top left, you will see :code:`Current`, :code:`Branches`, :code:`Build History`, :code:`Pull Request` and :code:`More Options`
 # :code:`More Options` > :code:`Settings` -> Environment variables
@@ -29,6 +29,6 @@ On Your code:
 # You can read more details on `<Github https://github.com/>`_ > :code:`Your repos` > :code:`Settings` > :code:`Github Pages`
 
 Sources
-=======
+*******
 
 * https://sphinxtechnicalwriting.readthedocs.io/en/latest/cd/config-travis.html

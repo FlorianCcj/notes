@@ -1,9 +1,5 @@
-******
-Sphinx
-******
-
-My personnal  custo
-###################
+Sphinx - My personnal custo
+###########################
 
 Scripts
 *******
