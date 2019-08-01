@@ -29,6 +29,10 @@ jobs:
       if: (branch = master) # only deploy if merging on master
       script: 
         - make html
+        - ls build/html
+        - ls build/html/_static
+        - ls build/html/_static/js
+        - ls build/html/_static/css
         - touch build/html/.nojekyll
       deploy:
         provider: pages # deploy on github pages
