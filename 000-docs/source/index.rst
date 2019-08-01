@@ -6,8 +6,7 @@
 Welcome to my_knowledge's documentation!
 ========================================
 
-
-
+.. include:: toc.rst
 
 Indices and tables
 ==================

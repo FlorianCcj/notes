@@ -1,7 +1,5 @@
-.. :maxdepth: 4
 .. toctree::
-   :caption: Table of Contents
-   :numbered:
-   :glob:
-   
-   pages/**/main-*
+    :caption: Table of Contents
+    
+    sphinx/ccj_init_project.rst
+    sphinx/travis.rst

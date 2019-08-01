@@ -53,7 +53,7 @@ Template
 
 # Make :code:`toc.rst` file
 
-.. literalinclude:: ./codes/toc.rst
+.. literalinclude:: ./codes/toc.rst.inc
 
 # Include :code:`toc.rst` file in :code:`index.rst`
 # Create pages dir :code:`mkdir source/pages`
