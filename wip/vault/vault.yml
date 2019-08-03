@@ -18,7 +18,7 @@ get started:
     add vault to path:
       - add it in usr/bin or /usr/local/bin
       - add it in .bashrc `export $PATH=$PATH:/path/to/dir/with/bin`
-      - ln -s /path/to/bin /usr/bin/bin_name
+      - ln -s /path/to/bin /usr/bin/bin_name 
 
     check install: vault -h
     autocomplete: vault -autocomplete-install
@@ -67,7 +67,7 @@ get started:
         example:
           - vault write auth/token/roles/zabbix allowed_policies="default" period="24h"
           - vault token create -role=zabbix
-        api: >
+        api: 
           tee payload.json <<EOF
           {
               "allowed_policies": [
@@ -78,6 +78,7 @@ get started:
           EOF
           curl --header "X-Vault-Token: ..." --request POST --data @payload.json http://127.0.0.1:8200/v1/auth/token/roles/zabbix
           curl --header "X-Vault-Token: ..." --request POST http://127.0.0.1:8200/v1/auth/token/create/zabbix | jq
+
     approle: >
       # First, enable approle auth method
       vault auth enable approle
@@ -104,6 +105,9 @@ get started:
         # vault read auth/approle/role/jenkins
         # vault write auth/approle/role/jenkins policies="jenkins,anotherpolicy"
 
+    - '************************************************'
+    - '************************************************'
+    - '************************************************'
     custom auth: vault read sys/auth/<auth_type>/tune
     other_auth_method:
       enable_github: 
