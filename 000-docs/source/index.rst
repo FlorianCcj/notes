@@ -26,3 +26,4 @@ Indices and tables
     * jsonnette
     * math
     * packager
+    * terraform
