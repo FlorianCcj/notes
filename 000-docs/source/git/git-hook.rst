@@ -1,4 +1,4 @@
-git-hook
+Git - Hook
 ########
 
 Def
@@ -11,6 +11,38 @@ Def
 * standart exit
     * 0: ok, don t block
     * >= 1: fail, block
+
+Install local
+*************
+
+Make post-commit hook thanks to template
+========================================
+
+.. warning:: Not succeed to work :'()
+
+* :code:`git config --global init.templatedir '~/.git-templates'`: configure git to follow template
+* :code:`mkdir -p ~/.git-templates/hooks && vi ~/.git-templates/hooks/post-commit`: prepare files templates
+* --> add content of post-commit <--
+* :code:`chmod a+x ~/.git-templates/hooks/post-commit`
+* :code:`git init`: re-initialize repos
+
+Make post-commit hook thanks to global directory
+================================================
+
+* :code:`git config --global core.hooksPath '~/.gitconfig/hooks'`: configure git to follow core hookpath
+* :code:`mkdir ~/.gitconfig/hooks && code:`vi ~/.gitconfig/hooks/pre-commit`: make needed files
+* --> add content of pre-commit <--
+* :code:`chmod +x ~/.gitconfig/hooks/pre-commit`:
+
+Make local project hook
+=======================
+
+.. warning:: If project core.hooksPath is configure in repository, global core.hooksPath will be ignore
+
+* :code:`git config core.hooksPath './hooks'`: configure git to follow core hookpath, during init project you need to tell everyone to make this command
+* :code:`mkdir ./hooks && vi ./hooks/pre-commit` : make needed files
+* --> add content of pre-commit <--
+* :code:`chmod +x ./hooks/pre-commit`: be sure it have good rights
 
 Install Server
 **************
@@ -84,3 +116,9 @@ Todo
         - https://delicious-insights.com/fr/articles/git-hooks/
         - https://docs.gitlab.com/ee/administration/custom_hooks.html
         - angularjs: https://github.com/conventional-changelog-archived-repos/validate-commit-msg
+
+Sources
+*******
+
+* <https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook>_
+* <https://delicious-insights.com/fr/articles/git-hooks/>_

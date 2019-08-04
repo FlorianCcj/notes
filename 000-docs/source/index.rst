@@ -21,7 +21,6 @@ Indices and tables
     * css
         * grid
     * git
-        * hook
     * json-schema
     * jsonnette
     * math
