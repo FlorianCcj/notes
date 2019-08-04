@@ -29,3 +29,11 @@ delete
 
 .. warning:: The documentation uses the key=value based entry throughout, but it is more secure to use files if possible. Sending data via the CLI is often logged in shell history. For real secrets, please use files.
 
+Document history
+****************
+
++------------+---------+--------------------------------------------------------------------+
+| Date       | Version | Comment                                                            |
++============+=========+====================================================================+
+| 2019.08.04 | V1.0    | First write                                                        |
++------------+---------+--------------------------------------------------------------------+

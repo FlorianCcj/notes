@@ -35,14 +35,13 @@ Command
 
 * :code:`vault write auth/token/roles/zabbix allowed_policies="default" period="24h"`
 * :code:`vault token create -role=zabbix`
-* :code:``
 
 Token check
 -----------
 
-* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault token lookup`: check token detail
-* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault write cubbyhole/token value=1234567890`: test to write
-* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault read cubbyhole/token`: test to read
+* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault token lookup`                           : check token detail
+* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault write cubbyhole/token value=1234567890` : test to write
+* :code:`VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug vault read cubbyhole/token`                   : test to read
 
 API
 ===
@@ -93,7 +92,7 @@ Auth
 
 * :code:`vault login -method=github`
 
-.. warning:: Find what is github F*** tems are
+.. warning:: Find what is github F*** teams are
 
 Policies and role
 *****************
@@ -236,25 +235,26 @@ Todo
 Prod
 ****
 
+Check status
+============
+
+* :code:`curl -sS http://localhost:8200/v1/sys/health | jq`
+* :code:`curl -sS http://localhost:8200/v1/sys/seal-status | jq`
+
 Deployment
 ==========
 
 multi cluster need entreprise licence
 
-8 nodes:
-
-- consul agent on each nodes
-- vault server on 3 of them
-
-small_cluster:
-
-- vault: 2 core 4-8 Gi RAM 25 Gi Disk
-- consul: 2 core 8-16 Gi RAM 50 Gi Disk
-
-large_cluster:
-
-- vault: 4-8 core 16-32 Gi RAM 50 Gi Disk
-- consul: 4-8 core 32-64+ Gi RAM 100 Gi Disk
+* 8 nodes:
+    - consul agent on each nodes
+    - vault server on 3 of them
+* small_cluster:
+    - vault: 2 core 4-8 Gi RAM 25 Gi Disk
+    - consul: 2 core 8-16 Gi RAM 50 Gi Disk
+* large_cluster:
+    - vault: 4-8 core 16-32 Gi RAM 50 Gi Disk
+    - consul: 4-8 core 32-64+ Gi RAM 100 Gi Disk
 
 Hardening
 =========
@@ -270,8 +270,11 @@ Hardening
 * avoid root token:
 * enable auditing
 
+Document history
+****************
 
-
-* :code:``
-* :code:``
-* :code:``
++------------+---------+--------------------------------------------------------------------+
+| Date       | Version | Comment                                                            |
++============+=========+====================================================================+
+| 2019.08.04 | V1.0    | First write                                                        |
++------------+---------+--------------------------------------------------------------------+

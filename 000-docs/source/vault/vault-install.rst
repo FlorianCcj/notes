@@ -55,17 +55,26 @@ Client Conf
 Tips
 ====
 
-To don t print token in your history:
-
-- use_dash: vault kv put kv-v1/eng/apikey/Google key=- # will ask you to enter secret, to end ctrl+d
-- read_in_file: vault kv put kv-v1/eng/apikey/Google @apikey.json
-- disable_vault_history: export HISTIGNORE="&:vault*"
+* To don t print token in your history:
+    - use_dash: vault kv put kv-v1/eng/apikey/Google key=- # will ask you to enter secret, to end ctrl+d
+    - read_in_file: vault kv put kv-v1/eng/apikey/Google @apikey.json
+    - disable_vault_history: export HISTIGNORE="&:vault*"
 
 Todo
 ****
 
 .. warning:: Todo: read those document
 
-* <https://learn.hashicorp.com/vault/developer/iam-authentication>_ -> advanced features reponse_wrapping
-* <https://www.hashicorp.com/blog/authenticating-applications-with-vault-approle>_
-* <https://www.hashicorp.com/blog/building-a-vault-secure-plugin>_
+* `<https://learn.hashicorp.com/vault/developer/iam-authentication>`_ -> advanced features reponse_wrapping
+* `<https://www.hashicorp.com/blog/authenticating-applications-with-vault-approle>`_
+* `<https://www.hashicorp.com/blog/building-a-vault-secure-plugin>`_
+* `<https://www.hashicorp.com/resources/adopting-hashicorp-vault>_` : Super top moumoute of the dead
+
+Document history
+****************
+
++------------+---------+--------------------------------------------------------------------+
+| Date       | Version | Comment                                                            |
++============+=========+====================================================================+
+| 2019.08.04 | V1.0    | First write                                                        |
++------------+---------+--------------------------------------------------------------------+
