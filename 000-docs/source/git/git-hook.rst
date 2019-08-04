@@ -1,5 +1,5 @@
 Git - Hook
-########
+##########
 
 Def
 ***
@@ -120,5 +120,5 @@ Todo
 Sources
 *******
 
-* <https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook>_
-* <https://delicious-insights.com/fr/articles/git-hooks/>_
+* `<https://coderwall.com/p/jp7d5q/create-a-global-git-commit-hook>`_
+* `<https://delicious-insights.com/fr/articles/git-hooks/>`_
