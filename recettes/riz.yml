@@ -1,5 +1,27 @@
 ABCDE: ~
-FGHIJ: ~
+FGHIJ:
+  totest-rix Furikake:
+    source: http://www.matvpratique.com/video/35222-riz-furikake
+    realisation:
+      préparation : 0 min
+      cuisson : 5 min
+      Difficulté : Facile
+      prix: /personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 2 personnes
+      200g de Riz
+      1 cuillere a soupe Furikake
+      2-4 oeuf
+      2-3 cuillere a cafe de sauce soja sucree
+      graines de sesame noire
+      Sel, poivre
+    steps:
+      author: ~
+      1. Faire cuire le riz
+      2. faire cuire les oeufs a la poile
+      3. quand le blanc devient blanc verser le furikake dessus
+      4. Servir le riz, verser 1 cuilliere a soupe de sauce soja et un cuillere a cafe de soja dessus
   totest-todo-Jambalaya:
     source: https://www.cuisine-etudiant.fr/recette/3826-jambalaya
 KLMNO: ~

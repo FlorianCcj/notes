@@ -6,4 +6,3 @@
     * le bord du monde le troll marin et le saut dans l espace
 :2 le 8e sortillege:
     * la deformation de la realite, la prophetie, l etoile rouge, les druides conducteurs de cailloux
- d0d8e24c07132a0c14172ef71cd98673bd807ab3

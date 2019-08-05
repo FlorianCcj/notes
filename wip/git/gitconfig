@@ -33,4 +33,4 @@
 	dc = diff --cached
 	lg = log -p
 	ls = ls-files
-        logg = log --graph --oneline --decorate
+	logg = log --graph --oneline --decorate
