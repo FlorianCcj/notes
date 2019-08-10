@@ -1,6 +1,7 @@
 .. toctree::
     :caption: Table of Contents
     
+    todo/todo-000_wip.rst
     git/git-hook.rst
     math/math-exercise_code.rst
     vault/vault-install.rst
