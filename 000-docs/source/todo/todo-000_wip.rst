@@ -8,6 +8,13 @@ Folder in sulfur
 * syndic
 * menu
 
+Daily
+*****
+
+* go - one chapter
+* mentalism - one video
+* scan - 10 pages
+
 .. _priority:
 
 Priority
@@ -69,7 +76,7 @@ Document history
 | 2019.08.10 | V1.0    | First write                                                        |
 +------------+---------+--------------------------------------------------------------------+
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-buying:
 
@@ -77,7 +84,7 @@ Document history
 
 .. include:: todo-buying.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-cooking:
 
@@ -85,7 +92,7 @@ Document history
 
 .. include:: todo-cooking.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-couture:
 
@@ -93,7 +100,7 @@ Document history
 
 .. include:: todo-couture.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-draw:
 
@@ -101,7 +108,7 @@ Document history
 
 .. include:: todo-draw.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-driving:
 
@@ -109,7 +116,7 @@ Document history
 
 .. include:: todo-driving.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-git:
 
@@ -117,7 +124,7 @@ Document history
 
 .. include:: todo-git.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-k8s:
 
@@ -125,7 +132,7 @@ Document history
 
 .. include:: todo-k8s.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-magic:
 
@@ -133,7 +140,7 @@ Document history
 
 .. include:: todo-magic.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-manga:
 
@@ -141,7 +148,7 @@ Document history
 
 .. include:: todo-manga.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-mentalism:
 
@@ -149,7 +156,7 @@ Document history
 
 .. include:: todo-mentalism.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-money:
 
@@ -157,7 +164,7 @@ Document history
 
 .. include:: todo-money.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-mp3:
 
@@ -165,7 +172,7 @@ Document history
 
 .. include:: todo-mp3.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-music:
 
@@ -173,7 +180,7 @@ Document history
 
 .. include:: todo-music.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-projects:
 
@@ -181,7 +188,7 @@ Document history
 
 .. include:: todo-projects.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-sys-ansible:
 
@@ -189,7 +196,7 @@ Document history
 
 .. include:: todo-sys-ansible.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-video:
 
@@ -197,7 +204,7 @@ Document history
 
 .. include:: todo-video.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-web-design:
 
@@ -205,7 +212,7 @@ Document history
 
 .. include:: todo-web-design.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-web-js:
 
@@ -213,7 +220,7 @@ Document history
 
 .. include:: todo-web-js.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-web-php:
 
@@ -221,7 +228,7 @@ Document history
 
 .. include:: todo-web-php.rst
 
-..--------------------------------
+.. --------------------------------
 
 .. _todo-sys-network_secu:
 
