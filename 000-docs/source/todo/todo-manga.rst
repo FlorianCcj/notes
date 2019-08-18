@@ -26,6 +26,9 @@ Sites:
 - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
 - https://www.japanread.cc/manga/douluo-dalu/121
 
+duds hunt
+=========
+
 eyeshield 21
 ============
 
@@ -80,6 +83,9 @@ naruto
 - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
 - http://lelscanv.com/scan-naruto/600
 
+reset
+=====
+
 shokugeki no souma
 ==================
 
@@ -89,6 +95,12 @@ Sites:
 
 - https://www.mangakawaii.to/manga/shokugeki-no-soma (102->315)
 - http://frscan.com/manga/shokugeki-no-soma/275
+
+wanted
+======
+
+Yureka
+======
 
 To see
 ======
@@ -131,5 +143,7 @@ Document history
 +------------+---------+--------------------------------------------------------------------+
 | Date       | Version | Comment                                                            |
 +============+=========+====================================================================+
+| 2019.08.13 | V1.0.1  | Add short manga                                                    |
++------------+---------+--------------------------------------------------------------------+
 | 2019.08.10 | V1.0    | First write                                                        |
 +------------+---------+--------------------------------------------------------------------+

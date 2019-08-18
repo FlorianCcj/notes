@@ -7,13 +7,19 @@ Folder in sulfur
 * gn
 * syndic
 * menu
+* billet train
 
 Daily
 *****
 
-* go - one chapter
+* golang - one chapter
 * mentalism - one video
 * scan - 10 pages
+* tous les mois - laver mon lit
+* tous les mois - me raser
+* tous les ans - changer le filtre a eau
+* tous les ans - dentiste
+* tous les ans - ophtalmo
 
 .. _priority:
 
@@ -47,6 +53,7 @@ Second
 #. :ref:`Todo - video<todo-video>`
 #. :ref:`Todo - web-js<todo-web-js>`
 #. :ref:`Todo - web-php<todo-web-php>`
+#. :ref:`Todo - dev-python<todo-dev-python>`
 
 Doc to read/to write
 ********************
@@ -66,6 +73,9 @@ Doc to read/to write
   - deepnight.net/tools/tabletop-rpg-map-editor/
   - https://lyrislaser.com/wp-content/uploads/2014/08/Pai-Sho-Rules-Gameplay.pdf
   - https://www.jeuxavolonte.asso.fr/regles/le_donjon_de_naheulbeuk.pdf
+
+- laver - le four
+- laver - mon lit
 
 Document history
 ================
@@ -99,6 +109,14 @@ Document history
 :ref:`Priority <priority>`
 
 .. include:: todo-couture.rst
+
+.. --------------------------------
+
+.. _todo-dev-python:
+
+:ref:`Priority <priority>`
+
+.. include:: todo-dev-python.rst
 
 .. --------------------------------
 
