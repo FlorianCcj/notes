@@ -7,10 +7,6 @@ Folder in sulfur
 * gn
 * syndic
 * menu
-* jdr
-    * papier
-    * magistrature
-    * sacrifice > power
 
 Daily
 *****
@@ -39,7 +35,7 @@ First
 #. :ref:`Todo - git<todo-git>`
 #. :ref:`Todo - k8s<todo-k8s>`
 #. :ref:`Todo - money<todo-money>`
-#. :ref:`Todo - web-design<todo-web-design>`
+#. :ref:`Todo - dev-design<todo-dev-design>`
 #. :ref:`Todo - sys-network_secu<todo-sys-network_secu>`
 #. :ref:`Todo - projects<todo-projects>`
 #. :ref:`Todo - mentalism<todo-mentalism>`
@@ -57,8 +53,8 @@ Second
 #. :ref:`Todo - music<todo-music>`
 #. :ref:`Todo - sys-ansible<todo-sys-ansible>`
 #. :ref:`Todo - video<todo-video>`
-#. :ref:`Todo - web-js<todo-web-js>`
-#. :ref:`Todo - web-php<todo-web-php>`
+#. :ref:`Todo - dev-js<todo-dev-js>`
+#. :ref:`Todo - dev-php<todo-dev-php>`
 #. :ref:`Todo - dev-python<todo-dev-python>`
 
 Doc to read/to write
@@ -82,6 +78,9 @@ Doc to read/to write
 
 - laver - le four
 - laver - mon lit
+- vrac:
+    * sso
+    * dossier maif/casden
 
 Document history
 ================
@@ -89,6 +88,8 @@ Document history
 +------------+---------+--------------------------------------------------------------------+
 | Date       | Version | Comment                                                            |
 +============+=========+====================================================================+
+| 2019.08.29 | V1.0.1  | Rename wen file                                                    |
++------------+---------+--------------------------------------------------------------------+
 | 2019.08.10 | V1.0    | First write                                                        |
 +------------+---------+--------------------------------------------------------------------+
 
@@ -230,27 +231,27 @@ Document history
 
 .. --------------------------------
 
-.. _todo-web-design:
+.. _todo-dev-design:
 
 :ref:`Priority <priority>`
 
-.. include:: todo-web-design.rst
+.. include:: todo-dev-design.rst
 
 .. --------------------------------
 
-.. _todo-web-js:
+.. _todo-dev-js:
 
 :ref:`Priority <priority>`
 
-.. include:: todo-web-js.rst
+.. include:: todo-dev-js.rst
 
 .. --------------------------------
 
-.. _todo-web-php:
+.. _todo-dev-php:
 
 :ref:`Priority <priority>`
 
-.. include:: todo-web-php.rst
+.. include:: todo-dev-php.rst
 
 .. --------------------------------
 

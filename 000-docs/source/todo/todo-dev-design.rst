@@ -9,6 +9,8 @@ Folder in sulfur
 * https://cantunsee.space/
 * https://www.wanadev.fr/85-kit-de-survie-la-checklist-davant-mise-en-production/
 * https://www.educative.io/courses/understanding-flexbox-everything-you-need-to-know/B8nngXNzgQX
+* books
+* flupa/blender web mix
           
 Document history
 ================
