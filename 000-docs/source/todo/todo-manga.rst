@@ -1,6 +1,14 @@
 Todo - Manga
 ************
 
+Aiki
+====
+
+Ares
+====
+
+https://www.mangakawaii.to/manga/ares/207/20
+
 assassination classroom
 =======================
 - http://op-vf.com/manga/assassination-classroom
@@ -62,14 +70,6 @@ MxZero
 
 * dwl: full
 
-one piece
-=========
-
-dwl: 1 -> 945 (10.06.2019)
-          
-one punch man
-=============
-
 My_Wie_Is_A_Demon_Queen
 =======================
 
@@ -83,6 +83,14 @@ naruto
 - http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage
 - http://lelscanv.com/scan-naruto/600
 
+one piece
+=========
+
+dwl: 1 -> 945 (10.06.2019)
+          
+one punch man
+=============
+
 reset
 =====
 
@@ -95,6 +103,17 @@ Sites:
 
 - https://www.mangakawaii.to/manga/shokugeki-no-soma (102->315)
 - http://frscan.com/manga/shokugeki-no-soma/275
+
+Tales of Demons and Gods
+========================
+
+* dwl 1 - 200
+* good order: 1 -> 34
+
+Sites:
+
+- https://www.mangakawaii.to/manga/yaoshenji/23/1
+- http://www.scan-op.com/manga/tales-of-demons-and-gods/1/1
 
 wanted
 ======

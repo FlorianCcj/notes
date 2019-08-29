@@ -5,6 +5,7 @@
     git/git-hook.rst
     math/math-exercise_code.rst
     python/python-venv.rst
+    ansible/ansible-if.rst
     vault/vault-install.rst
     vault/vault-user.rst
     vault/vault-admin.rst

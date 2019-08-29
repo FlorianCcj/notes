@@ -7,16 +7,22 @@ Folder in sulfur
 * gn
 * syndic
 * menu
-* billet train
+* jdr
+    * papier
+    * magistrature
+    * sacrifice > power
 
 Daily
 *****
 
 * golang - one chapter
+* python pentest - ???
 * mentalism - one video
 * scan - 10 pages
 * tous les mois - laver mon lit
+* tous les mois - laver serviete, tapis de sol etc
 * tous les mois - me raser
+* tous les mois - jouer avec robinet
 * tous les ans - changer le filtre a eau
 * tous les ans - dentiste
 * tous les ans - ophtalmo

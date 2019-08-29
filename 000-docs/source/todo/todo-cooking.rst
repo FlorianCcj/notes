@@ -17,6 +17,10 @@ Notes
   * https://www.marmiton.org/recettes/recette_cookies-maison_86989.aspx
   * https://cuisine.journaldesfemmes.fr/recette/310548-american-cookies
 
+* learn :
+
+    * https://www.atelier-des-sens.com
+
 Document history
 ================
 

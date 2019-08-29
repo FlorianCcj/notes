@@ -8,6 +8,7 @@ Folder in sulfur
 * tel
 * pantalon
 * star realms
+* couteau de cuisine
 
 Notes
 =====
