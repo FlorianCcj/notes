@@ -79,8 +79,17 @@ Doc to read/to write
 - laver - le four
 - laver - mon lit
 - vrac:
+
     * sso
     * dossier maif/casden
+    * git submodule
+    * vmware/octant
+    * kubernetic
+    * rm -rf var/lib/apt/list + voir slimer
+    * terraform
+    * https://freecoursesite.us/category/all-tutorials/hacking-tutorials/
+    * neo4j
+    * elk 
 
 Document history
 ================

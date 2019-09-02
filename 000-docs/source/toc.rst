@@ -9,6 +9,10 @@
     vault/vault-install.rst
     vault/vault-user.rst
     vault/vault-admin.rst
+    db/db-neo4j-cypher.rst
+    db/db-neo4j-from_sql_to_neo4j.rst
     sphinx/ccj_init_project.rst
     sphinx/travis.rst
+    quote/main.rst
     linux/default_bin.rst
+    influence_hypnotique-youtube.rst

@@ -5,9 +5,7 @@ Folder in sulfur
 ================
 
 * liseuse
-* tel
 * pantalon
-* star realms
 * couteau de cuisine
 
 Notes
