@@ -88,7 +88,6 @@ Doc to read/to write
     * rm -rf var/lib/apt/list + voir slimer
     * terraform
     * https://freecoursesite.us/category/all-tutorials/hacking-tutorials/
-    * neo4j
     * elk 
 
 Document history

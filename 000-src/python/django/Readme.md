@@ -1,7 +1,7 @@
 Install
 *******
 
-pip install pipenv
+pip install pipenv 
 pipenv install
 pipenv install django>=2.2
 pipenv shell

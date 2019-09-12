@@ -17,6 +17,10 @@ Folder in sulfur
   * sword art online
   * shokugeki no souma
 
+* series:
+
+    * mindhunter
+
 Site for anime:
 ===============
  
