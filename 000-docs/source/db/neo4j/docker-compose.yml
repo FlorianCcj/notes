@@ -7,10 +7,10 @@ services:
       - '7473:7473'
       - '7687:7687'
     volumes:
-      - 'neo4j_data:/data'
-      - 'neo4j_log:/log'
-      - 'neo4j_import:/var/lib/neo4j/import'
-      - 'neo4j_plugins:/plugins'
+      - './neo4j_data:/data'
+      - './neo4j_log:/log'
+      - './neo4j_import:/var/lib/neo4j/import'
+      - './neo4j_plugins:/plugins'
     environment:
       NEO4J_AUTH: "neo4j/test"
 volumes:

@@ -1,3 +1,20 @@
+Key words
+=========
+
+:source: https://www.tutorialspoint.com/neo4j/neo4j_cql_introduction.htm
+
+Read: MATCH, OPTIONAL MATCH, WHERE, START, LOAD CSV
+Write: CREATE, MERGE, SET, DELETE, REMOVE, FOREACH, CREATE UNIQUE
+General: RETURN, ORDER BY, LIMIT, SKIP, WITH, UNWIND, UNION, CALL
+Operator:
+* Math: +, -, /, %, ^
+* comparison: +, <>, <, >, <=, >=
+* Boolean: AND, OR, XOR, NOT
+* string: +
+* list: +, IN, [X], [X ... Y]
+* regex: =-
+* string matching: START WITH, END WITH, CONSTRAINTS
+
 create a node
 =============
 
@@ -5,12 +22,43 @@ create a node
 
     CREATE (ee: Persone {name: "Emil", from: "Sweden"})
     CREATE (me:User {name: "medru"})
+    CREATE (ma:User:Heros:Necro {name: "Bad"})
     RETURN me
 
 * :code:`(me)` parenthesis say that :code:`me` is a node. :code:`me` is also a temporary name 
 * :User add a node s label
 * {name: "medru"} properties that you want 
 * RETURN permit to print object in ihm
+
+.. code-block:: cypher
+
+    // will merge with the node type Person name Emil
+    MERGE (te: Persone {name: "Emil", birth: "1998.02.25"})
+    MERGE (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"}) 
+    ON CREATE SET Jadeja.isCreated = "true" 
+    ON MATCH SET Jadeja.isFound = "true" 
+    RETURN Jadeja 
+
+.. code-block:: cypher
+
+    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"}) 
+    SET Dhawan.highestscore = 187, YOB = 2012
+    RETURN Dhawan
+
+    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"}) 
+    SET Dhawan: gamer
+    RETURN Dhawan
+
+    MATCH (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"}) 
+    SET Jadeja.POB = NULL 
+    RETURN Jadeja 
+
+.. code-block:: cypher
+
+    MATCH (n) DETACH DELETE n
+
+    MATCH (Ishant:player {name: "Ishant Sharma", YOB: 1988, POB: "Delhi"}) 
+    DETACH DELETE Ishant
 
 read node
 =========
@@ -28,6 +76,7 @@ add relation
     // Add company
     MATCH (me:User {name:"medru"})
     CREATE (me)-[w:WORKS_AT]->(st:Company {name: "Steloria"})
+    CREATE (node1)-[label:Rel_Type {key1:value1, key2:value2, . . . n}]-> (node2) 
     RETURN me, w, st
 
     // multi directionnal
@@ -74,6 +123,18 @@ other
 
 .. code-block:: cypher
 
+    :sysinfo
+
+.. code-block:: cypher
+
     // flush DB
     MATCH (n)
     DELETE DETACH n
+
+.. code-block:: cypher
+
+    MATCH (n) RETURN n
+
+.. code-block:: cypher
+
+    MATCH (source {name: "Les Nobles"})<-[*]-(a) RETURN source, a
