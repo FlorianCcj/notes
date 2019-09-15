@@ -1,0 +1,8 @@
+{
+  "disable-legacy-registry": true,
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "{{ docker_logs_max_size }}",
+    "max-file": "{{ docker_logs_max_count }}"
+  }
+}

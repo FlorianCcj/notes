@@ -1,0 +1,12 @@
+---
+- name: restart docker
+  systemd:
+    name: docker
+    daemon_reload: true
+    state: restarted
+
+- name: restart docker-clean.timer
+  systemd:
+    name: docker-clean.timer
+    daemon_reload: true
+    state: restarted

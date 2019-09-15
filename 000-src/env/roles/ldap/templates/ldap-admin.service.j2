@@ -1,0 +1,24 @@
+[Unit]
+Description=LDAP Admin
+After=ldap-server.service
+Requires=ldap-server.service
+
+[Service]
+Restart=on-failure
+ExecStartPre=-/usr/bin/docker kill ldap_admin
+ExecStartPre=-/usr/bin/docker rm ldap_admin
+ExecStart=/usr/bin/docker run \
+  --rm \
+  --name ldap_admin \
+  --hostname ldap_admin \
+  --link ldap_server:{{ mlf_network_name }} \
+  --env PHPLDAPADMIN_LDAP_HOSTS={{ mlf_network_name }} \
+  --env PHPLDAPADMIN_HTTPS=false \
+  -p {{ ldap_admin_port_host_https }}:443 \
+  -p {{ ldap_admin_port_host_http }}:80 \
+  {{ ldap_admin_image_name }}:{{ ldap_admin_image_tag }} --loglevel debug
+ExecStop=/usr/bin/docker stop ldap_admin
+ExecStopPost=-/usr/bin/docker rm ldap_admin
+
+[Install]
+WantedBy=multi-user.target

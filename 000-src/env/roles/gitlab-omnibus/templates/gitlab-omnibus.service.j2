@@ -1,0 +1,25 @@
+[Unit]
+Description=Start Gitlab-omnibus Server
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=on-failure
+ExecStartPre=-/usr/bin/docker kill gitlab-omnibus
+ExecStartPre=-/usr/bin/docker rm gitlab-omnibus
+ExecStart=/usr/bin/docker run \
+    --rm \
+    --name gitlab-omnibus \
+    --hostname gitlab-omnibus \
+    -p {{ gitlab_omnibus_host_http_port }}:80 \
+    -p {{ gitlab_omnibus_host_ssh_port }}:22 \
+    -p {{ gitlab_omnibus_host_https_port }}:443 \
+    -v {{ gitlab_omnibus_data_dir }}/data:/var/opt/gitlab:rw \
+    -v {{ gitlab_omnibus_data_dir }}/logs:/var/log/gitlab:rw \
+    -v {{ gitlab_omnibus_data_dir }}/config:/etc/gitlab:rw \
+    {{ gitlab_omnibus_image_name }}:{{ gitlab_omnibus_image_tag }}
+ExecStop=/usr/bin/docker stop gitlab-omnibus
+ExecStopPost=-/usr/bin/docker rm gitlab-omnibus
+
+[Install]
+WantedBy=multi-user.target

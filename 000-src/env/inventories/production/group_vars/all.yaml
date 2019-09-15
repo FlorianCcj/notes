@@ -1,0 +1,64 @@
+---
+###########################################
+#          Global configuration           #
+###########################################
+
+ansible_user: adminmlf
+admin_passwd: "--------------------------"
+mlf_network_name: mlf
+
+users:
+- name: adm1
+  fullname: ADMIN 1
+  password: "-------------------------"
+  uid: 9999
+  authorized_key: "ecdsa-sha2-nistp256 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+#
+###########################################
+
+
+###########################################
+#            SI Main Service              #
+###########################################
+
+#
+# DHCPD
+#
+dhcpd_image_name: networkboot/dhcpd
+dhcpd_image_tag: latest
+
+#
+# Docker
+#
+docker_logs_max_count: 10
+docker_logs_max_size: 50m
+docker_clean_schedule: daily
+
+#
+# LDAP
+#
+ldap_admin_port_host_https: 8636
+ldap_admin_port_host_http: 8680
+
+#
+###########################################
+
+
+###########################################
+#         Softwares configuration         #
+###########################################
+
+#
+# Gitlab - Omnibus
+#
+
+gitlab_omnibus_image_name: gitlab/gitlab-ce
+gitlab_omnibus_image_tag: latest
+gitlab_omnibus_host_http_port: 4080
+gitlab_omnibus_host_https_port: 4443
+
+#
+# Nexus3
+#
+
+nexus3_host_front_port: 8081

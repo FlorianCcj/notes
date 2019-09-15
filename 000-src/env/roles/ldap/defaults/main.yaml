@@ -1,0 +1,16 @@
+mlf_network_name: mlf
+zone_name: "{{ mlf_network_name }}.srv"
+
+ldap_server_dir: "/var/opt/ldap"
+ldap_server_data_dir: "{{ ldap_server_dir }}/data"
+ldap_server_conf_dir: "{{ ldap_server_dir }}/config"
+admin_passwd: adminmlf
+ldap_server_port_ldaps: 636
+ldap_server_port_ldap: 389
+ldap_server_image_tag: latest
+ldap_server_image_name: osixia/openldap
+
+ldap_admin_port_host_https: 443
+ldap_admin_port_host_http: 80
+ldap_admin_image_tag: latest
+ldap_admin_image_name: osixia/phpldapadmin

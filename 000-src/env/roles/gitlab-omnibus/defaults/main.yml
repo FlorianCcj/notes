@@ -1,0 +1,6 @@
+gitlab_omnibus_data_dir: "/var/opt/gitlab-omnibus"
+gitlab_omnibus_host_http_port: 80
+gitlab_omnibus_host_https_port: 443
+gitlab_omnibus_host_ssh_port: 22
+gitlab_omnibus_image_name: gitlab/gitlab-ce
+gitlab_omnibus_image_tag: latest

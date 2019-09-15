@@ -1,0 +1,8 @@
+[Unit]
+Description=Remove all docker containers and images unused
+
+[Service]
+Type=oneshot
+ExecStartPre=-/bin/bash -c 'docker rm $(docker ps -qa --no-trunc --filter "status=exited" --filter "status=created")'
+ExecStartPre=-/bin/bash -c 'docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
+ExecStart=echo "not done"

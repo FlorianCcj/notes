@@ -1,0 +1,38 @@
+---
+- name: APT update cache
+  apt:
+    update_cache: yes
+  tags:
+    - bootstrap
+
+#- name: Upgrade all
+#  apt:
+#    upgrade: dist
+
+#- name: Install ntp
+#  apt:
+#    name: ntp
+#    force: yes
+
+- name: Install vim
+  apt:
+    name: "{{ item }}"
+  with_items:
+    - vim
+    - htop
+    - docker-ce
+    - dnsutils
+    - net-tools
+    - curl
+    - wget
+    - python-pip
+    - virtualenv
+  tags:
+    - bootstrap
+  
+
+- name: Install docker-py
+  pip:
+    name: docker-py
+  tags:
+    - bootstrap

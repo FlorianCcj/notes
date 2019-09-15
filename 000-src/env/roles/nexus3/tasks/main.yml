@@ -1,0 +1,29 @@
+---
+- name: "Create {{ nexus3_data_dir }}"
+  file:
+    path: "{{ nexus3_data_dir }}"
+    state: directory
+    mode: 0755
+- name: "Create {{ nexus3_data_dir }}/data"
+  file:
+    path: "{{ nexus3_data_dir }}/data"
+    state: directory
+    owner: 200
+    mode: 0755
+  tags:
+    - nexus3
+- name: systemd nexus3 service
+  template:
+    src: nexus3.service.j2
+    dest: /etc/systemd/system/nexus3.service
+  notify: restart nexus3
+  tags:
+    - nexus3
+- name: enable nexus3 service
+  systemd:
+    name: nexus3
+    enabled: true
+    state: started
+    daemon_reload: true
+  tags:
+    - nexus3

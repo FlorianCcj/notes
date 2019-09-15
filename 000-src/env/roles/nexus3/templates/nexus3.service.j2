@@ -1,0 +1,21 @@
+[Unit]
+Description=Nexus3 repository (nxrm3)
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=on-failure
+ExecStartPre=-/usr/bin/docker kill nexus3
+ExecStartPre=-/usr/bin/docker rm nexus3
+ExecStart=/usr/bin/docker run \
+  --rm \
+  --name nexus3 \
+  --hostname nexus3 \
+  -p {{ nexus3_host_front_port }}:8081 \
+  -v {{ nexus3_data_dir }}/data:/nexus-data \
+  {{ nexus3_image_name }}:{{ nexus3_image_tag }}
+ExecStop=/usr/bin/docker stop nexus3
+ExecStopPost=-/usr/bin/docker rm nexus3
+
+[Install]
+WantedBy=multi-user.target

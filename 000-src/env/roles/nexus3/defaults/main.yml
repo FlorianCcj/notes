@@ -1,0 +1,4 @@
+nexus3_data_dir: /var/opt/nexus3
+nexus3_image_name: sonatype/nexus3
+nexus3_image_tag: latest
+nexus3_host_front_port: 8081

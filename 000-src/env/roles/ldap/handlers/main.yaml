@@ -1,0 +1,12 @@
+---
+- name: restart ldap-server
+  systemd:
+    name: ldap-server
+    state: restarted
+    daemon_reload: yes
+
+- name: restart ldap-admin
+  systemd:
+    name: ldap-admin
+    state: restarted
+    daemon_reload: yes

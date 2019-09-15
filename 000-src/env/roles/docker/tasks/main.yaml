@@ -1,0 +1,39 @@
+- name: docker config dir
+  file:
+    name: "{{ docker_config_dir }}"
+    state: directory
+    mode: 0755
+
+- name: Configure Docker daemon options
+  template:
+    src: daemon.json.j2
+    dest: "{{ docker_config_dir }}/daemon.json"
+  notify: restart docker
+
+- name: Docker clean service
+  template:
+    src: docker-clean.service.j2
+    dest: /etc/systemd/system/docker-clean.service
+  notify: restart docker-clean.timer
+
+- name: Docker clean timer
+  template:
+    src: docker-clean.timer.j2
+    dest: /etc/systemd/system/docker-clean.timer
+  notify: restart docker-clean.timer
+
+- name: Start docker service
+  systemd:
+    name: docker
+    state: started
+    daemon_reload: yes
+    enabled: yes
+
+- name: Start Docker-clean timer
+  systemd:
+    name: docker-clean.timer
+    enabled: true
+    state: started
+    daemon_reload: yes
+
+- meta: flush_handlers

@@ -1,0 +1,27 @@
+[Unit]
+Description=LDAP server
+After=docker.service
+Requires=docker.service
+
+[Service]
+Restart=on-failure
+ExecStartPre=-/usr/bin/docker kill ldap_server
+ExecStartPre=-/usr/bin/docker rm ldap_server
+ExecStart=/usr/bin/docker run \
+  --rm \
+  --name ldap_server \
+  --hostname ldap_server \
+  --env LDAP_ORGANISATION="{{ mlf_network_name }}" \
+  --env LDAP_DOMAIN="{{ mlf_zone_name }}" \
+  --env LDAP_CONFIG_PASSWORD="{{ admin_passwd }}" \
+  --env LDAP_ADMIN_PASSWORD="{{ admin_passwd }}" \
+  -v {{ ldap_server_data_dir }}:/var/lib/ldap:rw \
+  -v {{ ldap_server_conf_dir }}:/etc/ldap/slapd.d:rw \
+  -p {{ ldap_server_port_ldap }}:389 \
+  -p {{ ldap_server_port_ldaps }}:636 \
+  {{ ldap_server_image_name }}:{{ ldap_server_image_tag }} --loglevel debug
+ExecStop=/usr/bin/docker stop ldap_server
+ExecStopPost=-/usr/bin/docker rm ldap_server
+
+[Install]
+WantedBy=multi-user.target
