@@ -23,5 +23,16 @@ je ne suis pas antisocial je suis juste incompatible avec les cons
 tee-shirt
 
 comme mon ordi j accepte les coockies
+tee-shirt
+
 JE suis pas debile j ai juste la connerie bien developpee
-J utilise le sarcasem parce que tuer est illegal
+tee-shirt
+
+J utilise le sarcase parce que tuer est illegal
+tee-shirt
+
+la vie d un geek ne tient qu a un fil ... le cable internet
+Tommy, developpeur back-end chez Diji
+
+Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
+Marie-Cecile, developpeuse Android chez Diji

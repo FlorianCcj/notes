@@ -6,6 +6,8 @@
 Welcome to my_knowledge's documentation!
 ========================================
 
+https://florianccj.github.io/notes/
+
 .. include:: toc.rst
 
 Indices and tables

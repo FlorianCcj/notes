@@ -22,7 +22,7 @@ Ou aller de l avant prendre sa vie en main apprendre de ses erreurs etre optimis
 Creer une image puissante de soi meme
 =====================================
 
-Qui tu veux etre, qu est ce que tu veu vehiculer
+Qui tu veux etre, qu est ce que tu veux vehiculer
 
 Attention de ne pas se referer entierement au passer, regarde des exemples, des gens charismatique, 
 se fier a des resultats et se demander quels chemins prendre pour atteindre ce resultat
@@ -76,8 +76,42 @@ deriere une emotion negative il y a une intension positive
 2 Techniques pour en avoir rien a foutre
 ========================================
 
+Technique de lq vision peripherique:
+Focus sur un point et ne regarder que ce qu il y a dans le champs de vision
+
+Le fantome et la flame:
+2 attitudes
+* quelqu un n en a rien a foutre, te regete, tu fais le fantome, tu te laisse traversé
+* quelqu un qui te repond, te donne de l energie, tu allimentes ta flame
+
+3 secondes:
+si tu veux faire quelque chose tu le fais dans les 3 secondes
+
 Comment faire une bonne premiere impression
 ===========================================
+
+1. Le body language
+    * sourire (igne de soumission chez les singes)
+    * regard franche
+    * mimetisme
+    * privilegier l ouverture a la confiance
+2. soyez rapide
+    * exercice: aller dans la rue, regarder une personne et essayer de trouver ses principales qualites
+        (permet de mettre son cerveau en mode positif)
+3. developper son intelligence emotionnel
+    1, poser des questions en rapport a la vie de l interlocuteur (stimuler le centre emotionel, le system lymbique)
+    2. rebondir sur les sujets qui vous passionne
+    3. soyez attentif aux moindre petit detail
+    4. etablisser une connexion profonde
+        * appeler par le prenom
+        * proposer une pause, un cafe
+        * rendre un service meme anodin
+    5. jouer de la musique dans votre conversation
+        * ecoute la musicalite de votre interlocuteur (qu est ce aue sa voix sous communique)
+        * calle toi a son rythme, son debit, son vocabulaire
+        * apporte ensuite ta musicalite
+        
+
 
 Chapitre 2 - Obtenir une voix hypnotique
 ****************************************

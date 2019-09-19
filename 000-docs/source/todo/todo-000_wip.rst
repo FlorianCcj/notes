@@ -7,6 +7,7 @@ Folder in sulfur
 * gn
 * syndic
 * menu
+* carte micro sim
 
 Daily
 *****

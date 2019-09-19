@@ -49,8 +49,10 @@ Sites:
 
 - http://lordmanga.free.fr/scan.php?manga=Fairy_Tail
 - http://lelscanv.com/lecture-en-ligne-fairy-tail
-- https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
 - http://op-vf.com/manga/fairy-tail (258-545)
+
+- https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
+- https://www.lelscan-vf.com/manga/fairy-tail-100-years-quest/33/20
 
 Hikaru no go
 ============
@@ -70,8 +72,10 @@ MxZero
 
 * dwl: full
 
-My_Wie_Is_A_Demon_Queen
+My_Wife_Is_A_Demon_Queen
 =======================
+
+* https://www.scan-fr.co/manga/my-wife-is-a-demon-queen/135/1
 
 naruto
 ======
@@ -104,6 +108,11 @@ Sites:
 - https://www.mangakawaii.to/manga/shokugeki-no-soma (102->315)
 - http://frscan.com/manga/shokugeki-no-soma/275
 
+Solo leveling
+=============
+
+* https://www.lelscan-vf.com/manga/solo-leveling/85/31
+
 Tales of Demons and Gods
 ========================
 
@@ -114,6 +123,7 @@ Sites:
 
 - https://www.mangakawaii.to/manga/yaoshenji/23/1
 - http://www.scan-op.com/manga/tales-of-demons-and-gods/1/1
+- https://www.lelscan-vf.com/manga/tales-of-demons-and-gods/232.5/12
 
 wanted
 ======
