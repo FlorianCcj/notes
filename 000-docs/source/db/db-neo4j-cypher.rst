@@ -6,17 +6,18 @@ Key words
 
 :source: https://www.tutorialspoint.com/neo4j/neo4j_cql_introduction.htm
 
-Read: MATCH, OPTIONAL MATCH, WHERE, START, LOAD CSV
-Write: CREATE, MERGE, SET, DELETE, REMOVE, FOREACH, CREATE UNIQUE
-General: RETURN, ORDER BY, LIMIT, SKIP, WITH, UNWIND, UNION, CALL
-Operator:
-* Math: +, -, /, %, ^
-* comparison: +, <>, <, >, <=, >=
-* Boolean: AND, OR, XOR, NOT
-* string: +
-* list: +, IN, [X], [X ... Y]
-* regex: =-
-* string matching: START WITH, END WITH, CONSTRAINTS
+* Read: MATCH, OPTIONAL MATCH, WHERE, START, LOAD CSV
+* Write: CREATE, MERGE, SET, DELETE, REMOVE, FOREACH, CREATE UNIQUE
+* General: RETURN, ORDER BY, LIMIT, SKIP, WITH, UNWIND, UNION, CALL
+* Operator:
+
+    * Math: +, -, /, %, ^
+    * comparison: +, <>, <, >, <=, >=
+    * Boolean: AND, OR, XOR, NOT
+    * string: +
+    * list: +, IN, [X], [X ... Y]
+    * regex: =-
+    * string matching: START WITH, END WITH, CONSTRAINTS
 
 create a node
 =============
