@@ -1,4 +1,4 @@
-DB - NEO4J - From SQL to NEO4J
+Db - Neo4j - From SQL to NEO4J
 ******************************
 
 :source: https://neo4j.com/developer/guide-importing-data-and-etl/

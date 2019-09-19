@@ -14,5 +14,6 @@
     sphinx/ccj_init_project.rst
     sphinx/travis.rst
     quote/main.rst
+    reading/disk_world.rst
     linux/default_bin.rst
     influence_hypnotique-youtube.rst
