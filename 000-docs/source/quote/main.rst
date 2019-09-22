@@ -4,16 +4,16 @@ Quote
 Other
 =====
 
-.. [Tommy, developpeur back-end chez Diji] la vie d un geek ne tient qu a un fil ... le cable internet
+:Tommy, developpeur back-end chez Diji: la vie d un geek ne tient qu a un fil ... le cable internet
 
-.. [Marie-Cecile, developpeuse Android chez Diji] Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
+:Marie-Cecile, developpeuse Android chez Diji: Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
 
-.. [Marillyn Monroe] « L’imperfection, c’est la beauté. La folie, c’est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux. »
+:Marillyn Monroe: "L’imperfection, c’est la beauté. La folie, c’est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux."
 
 Scientist
 =========
 
-.. [Albert Einstein] "Tout le monde est un genie. Mais si on juge un poisson sur sa capacite a grimper a un arbre, il passera sa vie a croire qu il est stupide"
+:Albert Einstein: "Tout le monde est un genie. Mais si on juge un poisson sur sa capacite a grimper a un arbre, il passera sa vie a croire qu il est stupide"
 
 Tee-shirt
 =========
