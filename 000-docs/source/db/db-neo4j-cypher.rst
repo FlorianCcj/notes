@@ -22,7 +22,8 @@ Key words
 create a node
 =============
 
-.. code-block:: cypher
+.. code-block:: Cypher
+
 
     CREATE (ee: Persone {name: "Emil", from: "Sweden"})
     CREATE (me:User {name: "medru"})
@@ -34,7 +35,7 @@ create a node
 * {name: "medru"} properties that you want 
 * RETURN permit to print object in ihm
 
-.. code-block:: cypher
+.. code-block:: Cypher
 
     // will merge with the node type Person name Emil
     MERGE (te: Persone {name: "Emil", birth: "1998.02.25"})
@@ -75,7 +76,7 @@ read node
 add relation
 ============
 
-.. code-block:: cypher
+.. code-block:: none
 
     // Add company
     MATCH (me:User {name:"medru"})

@@ -1,5 +1,30 @@
+Quote
+*****
+
+Lorem ipsum [Ref]_ dolor sit amet.
+
+.. [Ref] Book or article reference, URL or whatever.
+
+Other
+=====
+
+la vie d un geek ne tient qu a un fil ... le cable internet
+Tommy, developpeur back-end chez Diji
+
+Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
+Marie-Cecile, developpeuse Android chez Diji
+
+« L’imperfection, c’est la beauté. La folie, c’est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux. »
+Marillyn Monroe
+
+Scientist
+=========
+
 "Tout le monde est un genie. Mais si on juge un poisson sur sa capacite a grimper a un arbre, il passera sa vie a croire qu il est stupide"
 Albert Einstein
+
+Tee-shirt
+=========
 
 I'm not antisocial, i'm just anti-bullshit
 tee-shirt
@@ -30,9 +55,3 @@ tee-shirt
 
 J utilise le sarcase parce que tuer est illegal
 tee-shirt
-
-la vie d un geek ne tient qu a un fil ... le cable internet
-Tommy, developpeur back-end chez Diji
-
-Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
-Marie-Cecile, developpeuse Android chez Diji

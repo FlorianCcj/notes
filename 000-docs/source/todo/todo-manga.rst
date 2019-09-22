@@ -73,7 +73,7 @@ MxZero
 * dwl: full
 
 My_Wife_Is_A_Demon_Queen
-=======================
+========================
 
 * https://www.scan-fr.co/manga/my-wife-is-a-demon-queen/135/1
 

@@ -2,6 +2,7 @@
     :caption: Table of Contents
     
     todo/todo-000_wip.rst
+    git/git-crash-course.rst
     git/git-hook.rst
     math/math-exercise_code.rst
     python/python-venv.rst
@@ -16,4 +17,4 @@
     quote/main.rst
     reading/disk_world.rst
     linux/default_bin.rst
-    influence_hypnotique-youtube.rst
+    mentalism/influence_hypnotique-youtube.rst
