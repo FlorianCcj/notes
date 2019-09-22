@@ -33,6 +33,12 @@ ABCDE:
       9. ajouter les spag deja cuit et une tasse d eau
       10. verser dans un plat a four, verser le reste du fromage dessus
       11. enfourner 15 min a 160 degre celsius
+  totest-todo- Linguines carbonara legeres:
+    source: https://www.cuisine-etudiant.fr/recette/4983-linguines-carbonara-legeres
+  totest-todo-spag alla carbonara:
+    source: Vrais spaghettis alla carbonara 
+  totest-todo-Tagliatelles à la carbonara :
+    source: https://www.cuisine-etudiant.fr/recette/110-tagliatelles-a-la-carbonara
 FGHIJ:
   totest-Galette de spaghetti:
     source: http://madame.lefigaro.fr/recettes/galette-de-spaghetti-121200-198065
@@ -54,6 +60,8 @@ FGHIJ:
       Battez les oeufs, incorporez-y le fromage râpé et les pâtes puis salez et poivrez selon vos goûts.
       Versez la préparation dans la poêle et laissez cuire sur la première face pendant 10 minutes.
       Lorsque la galette est presque cuite et le dessous doré, retournez-la comme une crêpe et faites dorer l'autre face.
+  todo-totest: gratin de macaaroni a l italienne
+    source: https://www.cuisine-etudiant.fr/recette/5639-gratin-de-macaroni-a-l-italienne
   Gratin de Pâtes très facile:
     source: https://www.cuisine-etudiant.fr/recette/5158-gratin-de-pates-tres-facile
     realisation:
@@ -86,6 +94,8 @@ FGHIJ:
 KLMNO: ~
   totest-Nouilles chinoises au poulet :
     source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
+  totest-todo-Nouille a la crme:
+    source: https://www.cuisine-etudiant.fr/recette/5950-nouilles-a-la-creme
   totest-todo-Pad Thai aux crevettes et citron vert:
     source: https://www.cuisine-etudiant.fr/recette/3205-pad-thai-aux-crevettes-et-citron-vert
   totest-todo-pates bolo:

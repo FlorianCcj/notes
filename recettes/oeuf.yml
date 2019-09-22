@@ -3,7 +3,11 @@ FGHIJ: ~
 KLMNO: 
   totest-todo-oeuf cocotte a l italienne:
     source: https://www.cuisine-etudiant.fr/recette/4884-oeuf-cocotte-a-l-italienne
+  totest-todo-omelette paysanne:
+    source: https://www.cuisine-etudiant.fr/recette/5696-omelette-paysanne
 PQRST:
+  totest-todo-quiche lorraine:
+    source: https://www.cuisine-etudiant.fr/recette/4530-quiche-lorraine
   totest-Tortilla d’oignons et chorizo:
     source: http://madame.lefigaro.fr/recettes/tortilla-doignons-chorizo-170609-202070
     realisation:

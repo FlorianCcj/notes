@@ -1,8 +1,16 @@
 ABCDE:
+  totest-todo-Cake chocolat banane:
+    source: https://www.cuisine-etudiant.fr/recette/4411-cake-fondant-chocolat-banane
   totest-todo-Cookies coeur fondant Nutella:
     source: https://www.cuisine-etudiant.fr/recette/3036-cookies-coeur-fondant-nutella
 FGHIJ: ~
-KLMNO: ~
+KLMNO:
+  totest-todo-Mug Cake Nutella au micro ondes:
+    source: https://www.cuisine-etudiant.fr/recette/3707-mug-cake-nutella-au-micro-ondes
+  totest-todo-Muffins poire - chocolat: 
+    source: https://www.cuisine-etudiant.fr/recette/2729-muffins-poire-chocolat
+  totest-todo-nutella:
+    source: https://www.cuisine-etudiant.fr/recette/5760-nutella-fait-maison-pour-la-chandeleur
 PQRST:
   totest-todo-Roses des sables simplissime:
     source: https://www.cuisine-etudiant.fr/recette/5613-roses-des-sables-simplissime 

@@ -1,4 +1,6 @@
-ABCDE: ~
+ABCDE:
+  totest-todo-Cake courgettes, chevre, miel:
+    source: https://www.cuisine-etudiant.fr/recette/5407-cake-courgettes-chevre-miel
   totest-todo-Croque cake:
     source: https://www.cuisine-etudiant.fr/recette/3969-croque-cake
   totest-todo-Croque-Monsieur à l'italienne:
@@ -45,6 +47,8 @@ KLMNO: ~
     source: https://www.cuisine-etudiant.fr/recette/4528-lasagnes-au-chevre-et-au-bacon
   totest-Naan au fromage:
     source: https://www.cuisine-etudiant.fr/recette/5565-naan-au-fromage
+  totest-todo-Nachos:
+    source: https://www.cuisine-etudiant.fr/recette/2776-nachos
 PQRST: ~
   totest-Pommes darphin au comté, œuf à cheval:
     source: http://madame.lefigaro.fr/recettes/pommes-darphin-comte-oeuf-cheval-210308-6736
@@ -96,6 +100,8 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/3528-sheng-jian-bao-brioches-au-porc-a-la-vapeur
   totest-todo-Tourte aux champignons:
     source: https://www.cuisine-etudiant.fr/recette/5584-tourte-aux-champignons
+  totest-todo-truffade:
+    source: https://www.cuisine-etudiant.fr/recette/5697-truffade-specialite-montagnarde
   profil:
     source: 
     realisation:
