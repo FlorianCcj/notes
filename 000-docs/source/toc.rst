@@ -6,6 +6,7 @@
     git/git-hook.rst
     math/math-exercise_code.rst
     python/python-venv.rst
+    js/js-import.rst
     ansible/ansible-if.rst
     vault/vault-install.rst
     vault/vault-user.rst
@@ -18,3 +19,4 @@
     reading/disk_world.rst
     linux/default_bin.rst
     mentalism/influence_hypnotique-youtube.rst
+    60_day_plan.rst
