@@ -19,4 +19,4 @@
     reading/disk_world.rst
     linux/default_bin.rst
     mentalism/influence_hypnotique-youtube.rst
-    60_day_plan.rst
+    60_days_plan.rst

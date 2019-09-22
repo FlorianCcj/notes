@@ -133,6 +133,9 @@
 
 * Studies: Try to find 50 first stones of actual pro game (go4go)
 
+Notes
+*****
+
 Sources
 *******
 
