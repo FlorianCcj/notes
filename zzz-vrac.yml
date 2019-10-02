@@ -1,32 +1,11 @@
 https://stackoverflow.com/questions/49737069/using-credentials-for-ansible-galaxy-with-private-gitlab-repo-in-a-jenkins-job
 
-https://stackoverflow.com/questions/49737069/using-credentials-for-ansible-galaxy-with-private-gitlab-repo-in-a-jenkins-job
-
-il faut pas rajouter des annees a sa vie, mais plutot essayerde rajouter de la vie a ses annees
-
-"La vie est un jeu. Vous pouvez etre joueur ou ... un jouet."
-"La vie cest ce qui vous arrive quand vous etes occupe a d autre projet" John Lenon
-
 stimule_cerveau:
   - ferme ton poing, sort ton pouce, appuie et lache sur l'ongle et l opposé pendant 20 sec
   - puis presse sur le cote pendant 30-60 sec
   - mettre tes doigts en pistolet, pose ton pouce frotte ton ongle avec l autre ongle pendant quelques seconde
   - puis pendant 20 sec pince le avec ton index
 
-math:
-  - multiplication:
-    - title: multiplication de deux nombre entre 10 et 20 (ex: 15x17)
-      source: https://www.youtube.com/watch?v=3gvi7IaqBAc
-      step:
-        - predre le plus grand nombre et additionner le avec les unités du deuxieme (17 x 15 => (17+5) x 10 = 220)
-        - multiplier les 2 unité de depart (17x15 => 7x5 = 35)
-        - additionner les 2 resultats (220 + 35 = 255)
-    - title: go to 100x100 (53x81)
-      source: https://www.youtube.com/watch?v=3gvi7IaqBAc
-      step:
-        - multiplier les dizaine et les unites ensemble (53x81 => 5x8 et 3x1 => 40 et 3)
-        - on additionne le produit en croix (5x1 + 3x8 = 29)
-        - on a les centaines (40) les dizaine (29) et les unités (3) on additionne le tout (40x100 + 29x10 + 9x1 = 4293)
 cuisine:
   oeuf:
     src: https://www.youtube.com/watch?v=wAC4UTWw0r8
@@ -113,17 +92,6 @@ cdc:
   Bevue:
     kesako: challenge rate, des sortie de tapis, ...
     gain: -5
-
-ShinebloodAujourd'hui à 19:50
-Moi je pense que camille étudie l'angle mort des théories humaines  de l'époque a travers le style moderne au regard des IA
-En tout cas ca a l'air de l'interesser :p
-TherapieGoAujourd'hui à 19:51
-Lol c'est quoi c'te phrase sortie de nul part qui est trop stylé que tu me sort là ^^
-Je fais ça par étape
-1) Je regarde la partie du début à la fin en lisant tous les commentaires du bouquin (c'est ce qui prend le plus de temps !)
-2) J'essaie de la reposer quelque fois pour voir si j'ai bien retenue (et je retiens assez rapidement quand je la repose juste après)
-3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
-
 
 recipe1:
   name: chinese style gazed pork belly

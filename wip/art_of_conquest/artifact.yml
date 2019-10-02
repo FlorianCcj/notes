@@ -1,40 +1,161 @@
-1 juge du roi supreme: ++/++/++/-/++
-  - os
-  - touffe
-  - herb
-  - coquillage
-origin stone: -/-/-/-/-
-  - you gris symbole rouge
-  - you bleu
-  - you violet
-  - flamme
-2 garde infernal: +/-/-/+/+++
-  - os
-  - touffe
-  - herbe
-  - coque
-morsure de gueule de sang: -/-/-/-/+
-  - os
-  - touffe
-  - herb
-  - coque
-4 spacial: +/+/-/-/+
-  - you gris symbole rouge
-  - you bleu
-  - you violet
-  - essence verte
-3 Solantris: +-/+/+/+-/+
-  - os
-  - touffe
-  - herb
-  - coque
-Leo Pride: -/+-/-/-
-  - you gris symbole rouge
-  - griffe
-  - you violet
-  - flamme
-Warmaker Mane: 
-  - os
-  - touffe
-  - herb
-  - coque
+exchange:
+  - os 28 <> touffe 29 <> herb 31 <> coque 30
+  - essence vert 38 <> fire 257
+  - griffe 3 <> stone blue 349
+  - stone grey and red 394
+  - stone purple 32
+who use:
+  - os 6
+  - touffe 6
+  - herb 6
+  - coque 6
+  - stone grey and red 4
+  - stone blue 3
+  - stone purple 4
+  - fire 3
+  - griffe 1
+  - essence verte 1
+Miroir de la realite4:
+  compo:
+    - os
+    - touffe
+    - herb
+    - coque
+  carac:
+    strength: 5
+    intel: 3
+    charism: 4
+    endu: 0
+  effect:
+    - miror a hero, no active effect before 30 sec, no 3 energy hero, no void
+    - pv+
+    - effect faster
+    - pv+
+    - effect faster when use effect, magic resi+
+Miroir de la verite0:
+  compo:
+    - none
+  carac:
+    strength: 0
+    intel: 4
+    charism: 0
+    endu: 5
+  effect:
+    - double 8 unit until fight end
+    - 12
+    - 16, +20% damage
+    - 24
+    - 32, +50% damage
+3 Solantris4: +-/+/+/+-/+
+  compo:
+    - os
+    - touffe
+    - herb
+    - coque
+  carac:
+    strength: 0
+    intel: 5
+    charism: 4
+    endu: 3
+  effect:
+    - 
+Leo Pride3: -/+-/-/-
+  compo:
+    - you gris symbole rouge
+    - griffe
+    - you violet
+    - flamme
+  carac:
+    strength: 0
+    intel: 0
+    charism: 5
+    endu: 8
+  effect:
+Lame d halcon0:
+  compo: none
+  carac:
+    strength: 18
+    intel: 0
+    charism: 12
+    endu: 0
+  effect:
+Code Malanoc0:
+  compo: none
+  carac:
+    strength: 0
+    intel: 30
+    charism: 0
+    endu: 0
+  effect:
+origin stone3: -/-/-/-/-
+  compo:
+    - you gris symbole rouge
+    - you bleu
+    - you violet
+    - flamme
+  carac:
+    strength: 0
+    intel: 4
+    charism: 2
+    endu: 8
+  effect:
+juge du roi supreme3: ++/++/++/-/++
+  compo:
+    - os
+    - touffe
+    - herb
+    - coquillage
+  carac:
+    strength: 0
+    intel: 0
+    charism: 12
+    endu: 7
+  effect:
+2 garde infernal2: +/-/-/+/+++
+  compo:
+    - os
+    - touffe
+    - herbe
+    - coque
+  carac:
+    strength: 5
+    intel: 0
+    charism: 3
+    endu: 12
+  effect:
+morsure de gueule de sang4: -/-/-/-/+
+  compo:
+    - os
+    - touffe
+    - herb
+    - coque
+  carac:
+    strength: 5
+    intel: 2
+    charism: 0
+    endu: 2
+  effect:
+4 spacial2: +/+/-/-/+
+  compo:
+    - you gris symbole rouge
+    - you bleu
+    - you violet
+    - essence verte
+  carac:
+    strength: 12
+    intel: 3
+    charism: 2
+    endu: 0
+  effect:
+Warmaker Mane3:
+  compo:
+    - os
+    - touffe
+    - herb
+    - coque
+  carac:
+    strength: 7
+    intel: 3
+    charism: 0
+    endu: 8
+  effect:

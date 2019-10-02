@@ -17,13 +17,19 @@ Community
 Other
 =====
 
-:Tommy, developpeur back-end chez Diji: la vie d un geek ne tient qu a un fil ... le cable internet
+:John Lenon: "La vie cest ce qui vous arrive quand vous etes occupe a d autre projet"
 
 :Marie-Cecile, developpeuse Android chez Diji: Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
 
 :Marillyn Monroe: "L’imperfection, c’est la beauté. La folie, c’est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux."
 
 :Somewhere: C'est l histoire d un homme qui tombe d'un immeuble de 50 etages. Le mec, au fur et a mesure de sa chute il se repete sans cesse pour se rassurer: "jusqu ici tout va bien ... jusqu ici tout va bien ... jusqu ici tout va bien" Mais l important c est pas la chute c est l atterissage
+
+:Somewhere: il faut pas rajouter des annees a sa vie, mais plutot essayerde rajouter de la vie a ses annees
+
+:Somewhere: "La vie est un jeu. Vous pouvez etre joueur ou ... un jouet."
+
+:Tommy, developpeur back-end chez Diji: la vie d un geek ne tient qu a un fil ... le cable internet
 
 Scientist
 =========

@@ -58,6 +58,8 @@ Criteo
 * History:
     * 2019-08-29: linkedin
     * 2019-09-09: phone number transmision
+    * 2019-09-11: mail
+    * 2019-09-23: relance
 
 Extia
 =====
