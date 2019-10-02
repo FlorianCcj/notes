@@ -125,36 +125,6 @@ Je fais ça par étape
 3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
 
 
-Ivy
-  8 + 15 + 45 + 30 = 98
-  16 + 30 + 90 + 60 = 196
-  16 + 40 + 64 + 90 = 210
-Mary
-  10 + 40 + 60 + 40 = 150
-  20 + 80 + 120 + 80 = 300
-  20 + 75 + 105 + 125 = 325
-Emilia:
-  15 + 25 + 40 + 45 = 125
-  30 + 50 + 80 + 90 = 250
-  69 + 85 + 110 + 115 = 390
-Stefani 
-  35 + 25 + 40 + 50 = 150
-  70 + 50 + 80 + 100 = 300
-  35 + 65 + 120 + 125 = 345
-Mika
-  5 + 25 + 30 + 35 = 95
-  10 + 50 + 60 + 70 = 190
-  0 + 0 + 30 + 70 = 100
-Chantal
-  x + x + x + x = x
-  x + x + x + x = x
-  x + x + x + x = x
-Yoko
-  35 + 25 + 40 + 50 = 150
-  70 + 50 + 80 + 100 = 300
-  30 + 65 + 120 + 125 = 340
-
-
 recipe1:
   name: chinese style gazed pork belly
   ingredient:
@@ -204,4 +174,3 @@ recette2:
     10. badijeauner la sauce sur toutes les faces de la viandes
     11. glaze every 15 min
 
-C'est l histoire d un homme qui tombe d'un immeuble de 50 etages. Le mec, au fur et a mesure de sa chite il se repete sans cesse pour se rassurer: "jusqu ici tout va bien ... jusqu ici tout va bien ... jusqu ici tout va bien" Mais l important c est pas la chute c est l atterissage

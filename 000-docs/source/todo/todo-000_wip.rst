@@ -16,6 +16,12 @@ Daily
 * python pentest - ???
 * mentalism - one video
 * scan - 10 pages
+
+# dessin
+# fast reading
+# go game
+# flute
+
 * tous les mois - laver mon lit
 * tous les mois - laver serviete, tapis de sol etc
 * tous les mois - me raser
@@ -68,6 +74,8 @@ Doc to read/to write
   - how to know agile is bullshit
   - https://vincent.composieux.fr/article/certificationy-un-outil-pour-sentrainer-a-la-certification-symfony
   - https://nginxconfig.io/
+  - https://leetcode.com/
+  - https://www.hiredintech.com/courses/algorithm-design
 
 - game:
 

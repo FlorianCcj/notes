@@ -11,7 +11,7 @@ job:
   - exemple de mission/domaine
   - internationnale
   - mobilite/evolution/cariere
-  - formation/congres/forum
+  - formation/congres/forum/certification
   - R&D
   - communaute interne
   not_to_have:

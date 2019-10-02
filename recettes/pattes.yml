@@ -100,8 +100,28 @@ KLMNO: ~
     source: https://www.cuisine-etudiant.fr/recette/3205-pad-thai-aux-crevettes-et-citron-vert
   totest-todo-pates bolo:
     source: https://www.cuisine-etudiant.fr/recette/3722-pattes-bolognaises-made-in-julie
-  totest-todo-Pates crème et chorizo:
+  Pates crème et chorizo:
     source: https://www.cuisine-etudiant.fr/recette/3913-pates-creme-et-chorizo
+    realisation:
+      préparation : 20 min
+      cuisson : 0 min
+      Difficulté : Facile
+      prix: 4,5/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 1 personnes
+      Sel, poivre
+      4 belles poignées de penne
+      Une brique de crème allégée
+      80 g de chorizo
+    steps:
+      author: Unknown
+      1. Faites bouillir de l'eau salée.
+      2. Coupez le chorizo en dès.
+      3. Mettez vos pâtes à cuire.
+      4. Pendant ce temps, faites revenir les dès de chorizo dans une poêle sans huile.
+      5. Une fois qu'ils sont un petit peu croustillants, ajoutez la crème, poivrez.
+
   totest-todo-Pates aux oignons caramélisés:
     source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
   totest-todo-Pâtes sauce crémeuse aux champignons:
