@@ -4,10 +4,12 @@ Todos
 Folder in sulfur
 ****************
 
-* gn
 * syndic
-* menu
 * carte micro sim
+* tang
+* plumber * 2
+* clean up kitchen
+* clean up room
 
 Daily
 *****
@@ -68,6 +70,7 @@ Doc to read/to write
 ********************
 
 - pes1
+- https://www.notion.so/Salary-Equity-3ddfc71ec61743b08d8f4787ceb44591
 - info:
 
   - american fuzzy lop
@@ -85,13 +88,16 @@ Doc to read/to write
   - https://lyrislaser.com/wp-content/uploads/2014/08/Pai-Sho-Rules-Gameplay.pdf
   - https://www.jeuxavolonte.asso.fr/regles/le_donjon_de_naheulbeuk.pdf
 
+# Let A and B be two very large arrays of integers, both sorted. Write a function that takes in array A and B and returns an array which represents intersection of A and B, i.e. the set of elements present in both.
+
+
 - laver - le four
-- laver - mon lit
 - vrac:
 
     * sso
     * dossier maif/casden
     * git submodule
+    * gerrit
     * vmware/octant
     * kubernetic
     * rm -rf var/lib/apt/list + voir slimer

@@ -4,6 +4,7 @@
     todo/todo-000_wip.rst
     git/git-crash-course.rst
     git/git-hook.rst
+    git/git-submodule.rst
     math/math-exercise_code.rst
     python/python-venv.rst
     js/js-import.rst
@@ -17,6 +18,8 @@
     sphinx/travis.rst
     quote/main.rst
     reading/disk_world.rst
+    linux/linux-history.rst
     linux/default_bin.rst
+    linux/linux-triks.rst
     mentalism/influence_hypnotique-youtube.rst
     60_days_plan.rst
