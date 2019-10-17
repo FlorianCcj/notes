@@ -92,6 +92,45 @@ Doc to read/to write
 
 
 - laver - le four
+- manga:
+  * satan 666 (ended)
+  * a returner s magic should be special
+  * aiki (ended)
+  * akaboshi - Ibun suikoden (ended)
+  * ares (ended)
+  * lanfest
+  * les demons d alexia
+  * okko
+  *  battle royal (ended)
+  * beelzebub (ended)
+  * berserk of glutony (bof +)
+  * blazer drive (ended)
+  * bleach (ended)
+  * Buster keel (ended)
+  * cats (ended)
+  * duds hunt (ine shot)
+  * elfen lied (bof +)
+  * enfer et paradis (bof+)
+  * eyeshield 21 (ended)
+  * fma (ended)
+  * Hunter x Hunter
+  * immortal Regis (ended)
+  * Judge (ended)
+  *  Kenichi (ended)
+  * La loi d ueki (ended)
+  * lilim kiss
+  * Magi (ended)
+  * Release that witch
+  * Mar (ended)
+  * Mirai nikki (ended)
+  * Naruto (ended)
+  * Nora (ended)
+  * Nisekoi
+  * Psyren (ended)
+  * Saiyuki (ended)
+  * Suzuka (ended)
+  * The god of High School (ended)
+
 - vrac:
 
     * sso
@@ -111,6 +150,8 @@ Document history
 +------------+---------+--------------------------------------------------------------------+
 | Date       | Version | Comment                                                            |
 +============+=========+====================================================================+
+| 2019.10.15 | V1.0.2  | Add manga to see                                                   |
++------------+---------+--------------------------------------------------------------------+
 | 2019.08.29 | V1.0.1  | Rename wen file                                                    |
 +------------+---------+--------------------------------------------------------------------+
 | 2019.08.10 | V1.0    | First write                                                        |

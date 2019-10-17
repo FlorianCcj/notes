@@ -60,6 +60,7 @@ Criteo
     * 2019-09-09: phone number transmision
     * 2019-09-11: mail
     * 2019-09-23: relance
+    * 2019-10-14: point sur l'entretien
 
 Extia
 =====
