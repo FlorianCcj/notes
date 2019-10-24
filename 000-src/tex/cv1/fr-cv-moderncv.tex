@@ -1,0 +1,162 @@
+% ##########################################################################################################
+% Param
+% ##########################################################################################################
+
+\documentclass[10pt, a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[inline]{enumitem}
+
+% Marge aux 4 coins de la page, ici elles sont réduites pour gagner de la place
+\usepackage[
+  top=1.0cm, bottom=1.0cm,
+  left=1.0cm, right=1.0cm
+]{geometry}
+% Largeur de la colonne de gauche pour les dates
+\setlength{\hintscolumnwidth}{2.7cm}
+
+% remove step between item
+\usepackage{enumitem}
+\setlist{nolistsep,leftmargin=*}
+
+% ##########################################################################################################
+% Whoami
+% ##########################################################################################################
+
+\firstname{Florian}
+\familyname{ccj}
+\email{askme.com}
+\mobile{+33 (7) 66 66 66 66}
+\title{Administrateur système / Devops}
+\address{Bastille}{75011 Paris}
+%\homepage{}
+
+%\extrainfo{}
+
+% ##########################################################################################################
+% Content
+% ##########################################################################################################
+
+\begin{document}
+\maketitle
+% Marge négative entre le titre et la partie expérience, pour gagner de la place
+\vspace*{-2.5\baselineskip}
+
+% **********************************************************************************************************
+% Experience
+% **********************************************************************************************************
+
+\section{Expériences}
+
+\subsection{Professionnelle}
+
+\cventry{oct. 2018\\à Aujourd'hui}{Admin. Sys.}{Ministère des armées}{Paris}{}{%
+  \begin{itemize}%
+    \item Mise à disposition d'outil pour les développeurs (Gitlab + CI, SonarQube, Artifactory) ;
+    \item Rapatriement de dépot pour permettre de travailler hors connection ;
+    \item Maintient en condition opérationnel et supervision des outils mis à disposition ;
+    \item Accompagnement des développeurs dans la mise en place d'intégration et de déploiement continue ;
+    \item Sensibilisation et accompagnement des développeurs dans la mise en place de processus de qualité et de sécurisation des développements ;
+    \item Mise en place de communauté de pratique de développement et de pratique de qualité ;
+    \item Exploitation de cluster Kubernetes.
+  \end{itemize}
+}
+\cventry{oct. 2016\\à oct. 2018}{Developpeur}{Ministère de la Défense}{Paris}{}{%
+  \begin{itemize}%
+    \item Développement en Php/Symfony 2/3, 
+      \begin{itemize}%
+        \item Site web complet grace a Twig ;
+        \item Interaction avec une base MySQL au travers de l'ORM Doctrine ;
+        \item Mise à disposition d'API ;
+        \item Interaction avec d'autres applications par API.
+      \end{itemize}%
+    \item Développement en Angular 2/4.
+  \end{itemize}
+}
+\cventry{2015\\(3 mois)}{Stage, Développeur de job de traitement de log}{Tagattitude (http://en.tagpay.fr)}{Rocquencourt}{}{%
+  \begin{itemize}%
+    \item Developpement en Php/MySQL ;
+    \item Parcours de log, pour faire des statistiques.
+  \end{itemize}
+}
+%\cventry{2012\\(1 mois)}{Stage, Développeur Script de reprise de donnée}{(http://www.magelec.com)}{Paris}{}{%
+%  \begin{itemize}%
+%    \item Développement en Php/MySQL ;
+%    \item Extraction de fichiers excel en CSV fournis par le fournisseur pour allimenter la base de donnée des articles mis à disposition sur le site.
+%  \end{itemize}
+%}
+
+\subsection{Associative}
+
+\cventry{2019 --- Aujourd'hui}{L'Aube d'Ailleurs}{Association de jeu}{Nantes}{France}{%
+  \begin{itemize}
+    \item Organisation dun Jeu de Role Grandeur Nature, politique, pour une quarantaine de personne.
+  \end{itemize}
+}
+\cventry{Sept 2011\\à Sept 2016}{l'Appel de Sussu}{Association de jeu de société}{Ivry}{France}{%
+  \begin{itemize}
+    \item Organisation d'évènement autour du thème du jeu ;
+    \item Présidence de l'association (2015--1016).
+  \end{itemize}
+}
+\cventry{Sept 2000\\à Sept 2017}{EEDF (scoutisme)}{}{Paris}{France}{%
+  \begin{itemize}
+    \item Encadrement d'enfant entre 8 et 15 ans ;
+    \item Organisation de projet sur l'année, pour un aboutissement durant les vacances d'été ;
+    \item Journalisme et participation à un rassemblement mondial (Jambore 7--8/2011 en Suède).
+  \end{itemize}
+}
+
+% **********************************************************************************************************
+% Formation
+% **********************************************************************************************************
+
+\section{Formations}
+
+\cventry{2011 --- 2016}{ESME Sudria}{Ecole d'Ingénieur}{Ivry-Sur-Seine}{Majeur Informatique, Spécialité Technologie Emergente}{%
+  \begin{itemize}%
+    \item Projet master 2 en \textbf{NodeJS}: Reconnaissance vocale et apprentissage autonome dans la gestion des peripherique au quotidien (2015--2016 7 mois)
+    \item Projet master 1 en \textbf{NodeJS}: Synchronisation de deux dossiers dans le cadre de gestion de données (2014--2015 4 mois) 
+%    \item \textbf{C++}: Programme générant des deplacements dimultannés et aléatoire de piece d'échequier en respectant les règles du jeu (2015 2 mois) 
+  \end{itemize}
+}
+\cventry{2014 (5 mois)}{Shanghai JioTong University}{Ecole d'ingénieur}{Shanghai}{}{(étude de système embarqués, base de données, c++)}
+
+% **********************************************************************************************************
+% Formation
+% **********************************************************************************************************
+
+%\section{Certifications}%
+
+%\cventry{Juillet 2017}{Certification LFCE}{The Linux Foundation}{Valide 2 ans}{\href{https://www.alexis-madrzejewski.com/ressources/lfce-madrzejewski.pdf}{LFCE-1700-0334-0200}}{%
+%Certification \textit{Linux Foundation Certified Engineer} créé par \textit{The Linux Foundation}.
+%Les compétences testées sont en rapport avec Linux et l'administration système avancé.\newline
+%}
+%\cventry{Août 2016}{Certification LFCS}{The Linux Foundation}{Valide 2 ans}{\href{https://www.alexis-madrzejewski.com/ressources/lfcs-madrzejewski.pdf}{LFCS-1600-0922-0100}}{%
+%Certification \textit{Linux Foundation Certified System Administrator}.
+%}
+
+% **********************************************************************************************************
+% Competence
+% **********************************************************************************************************
+
+\section{Compétences} % \section{Compétences en informatique}
+\cvitem{\textbf{OS}}{Centos 7, Debian 7/8/9}
+\cvitem{\textbf{Prog.}}{CSS, HTML, PHP, SQL, Python3, BASH, JS, Docker}
+\cvitem{\textbf{Framework/Lib.}}{Angular 2/4, Symfony 2/3/4, Sphynx, Bootstrap 3}
+\cvitem{\textbf{Admin.}}{Ansile, Apache, Nginx, K8S, Artifactory, Vault, SonarQube, MySQL, Git, Gitlab, Gitlab-ci}
+%\cvitem{\textbf{Sécurité}}{Notions SELinux, CSF, iptables, firewalld}
+\cvlanguage{\textbf{Anglais}}{lu, écrit, parlé --- \underline{Technique}: lu, écrit }{Toeic 815 \texttt{/} 990}
+\cvdoubleitem{\textbf{Espagnol}}{Niveau Lycée}{\textbf{Chinois}}{Notion}
+
+% **********************************************************************************************************
+% Interests
+% **********************************************************************************************************
+
+\section{Centres d'intérêt}
+
+\cvdoubleitem{\textbf{Jeu}}{Jeu de société, Go, Jeu de role}{\textbf{Lecture}}{Manga, Fantasy, Science Fiction}
+\cvitem{\textbf{Art}}{Cirque, Cardistry, Magie, Dessin, Couture, Cuisine, Flute, Web Design}
+\cvitem{\textbf{Science}}{Mathématique, Informatique}
+
+\end{document}

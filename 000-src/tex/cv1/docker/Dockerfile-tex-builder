@@ -1,0 +1,30 @@
+FROM ubuntu:bionic
+
+RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
+    && echo "Etc/UTC" > /etc/timezone \
+    && apt-get update \
+    && apt-get upgrade -y
+
+RUN apt-get install texlive-latex-base texlive-latex-extra texlive-fonts-recommended lacheck chktex xzdec -y \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir workdir
+
+WORKDIR workdir
+
+COPY . .
+
+RUN rm -rf build; mkdir build
+# RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build cv-test.tex
+# RUN lacheck cv-test.tex
+# RUN chktex cv-test.tex
+
+# ex-002-cv-mcdowellcv.tex
+#RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build ex-002-cv-mcdowellcv.tex
+#RUN lacheck ex-002-cv-mcdowellcv.tex
+#RUN chktex ex-002-cv-mcdowellcv.tex
+
+RUN find -name "*.tex" -exec pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build '{}' \;
+RUN find -name "*.tex" -exec lacheck '{}' \;
+RUN find -name "*.tex" -exec chktex '{}' \;
+RUN find -name "*.tex" -exec echo "'{}'" \;
