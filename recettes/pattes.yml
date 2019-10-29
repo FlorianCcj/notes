@@ -33,8 +33,33 @@ ABCDE:
       9. ajouter les spag deja cuit et une tasse d eau
       10. verser dans un plat a four, verser le reste du fromage dessus
       11. enfourner 15 min a 160 degre celsius
-  totest-todo- Linguines carbonara legeres:
+  Linguines carbonara legeres:
     source: https://www.cuisine-etudiant.fr/recette/4983-linguines-carbonara-legeres
+    realisation:
+      préparation : 30 min
+      cuisson : 0 min
+      Difficulté : Intermediaire
+      prix: 5e/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 1 personnes
+      Sel, poivre
+      - 150g linguines
+      - lardons de volaille
+      - oignons
+      - lait
+      - crème légère
+      - 1 oeuf
+      - parmesan
+    steps:
+      author: La recette de Christophe Delcourt
+      Dans une casserole mettre de l'eau et faire chauffer. Ajouter les linguines.
+      Dans une poêle mettre un filet d'huile d'olive, ajoutez des oignons émincés préalablement et les lardons de volailles (moins gras*). Assaisonnez (sel légé, poivre, ail en poudre). laissez cuire.
+      Quand les lardons et les oignons ont caramélisé, ajoutez le lait et la crème légère.
+      Mélanger dans un plat les linguines et la carbonara et ajoutez un jaune d'oeuf si vous souhaitez plus d'onctuosité, mais pas nécessaire.
+      Servez.
+      Pour un petit plaisir: Ajoutez un peu de parmesan en poudre.
+      Bon appétit
   totest-todo-spag alla carbonara:
     source: Vrais spaghettis alla carbonara 
   totest-todo-Tagliatelles à la carbonara :
@@ -94,7 +119,7 @@ FGHIJ:
 KLMNO: ~
   totest-Nouilles chinoises au poulet :
     source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
-  totest-todo-Nouille a la crme:
+  totest-todo-Nouille a la creme:
     source: https://www.cuisine-etudiant.fr/recette/5950-nouilles-a-la-creme
   totest-todo-Pad Thai aux crevettes et citron vert:
     source: https://www.cuisine-etudiant.fr/recette/3205-pad-thai-aux-crevettes-et-citron-vert
@@ -121,7 +146,6 @@ KLMNO: ~
       3. Mettez vos pâtes à cuire.
       4. Pendant ce temps, faites revenir les dès de chorizo dans une poêle sans huile.
       5. Une fois qu'ils sont un petit peu croustillants, ajoutez la crème, poivrez.
-
   totest-todo-Pates aux oignons caramélisés:
     source: https://www.cuisine-etudiant.fr/recette/5860-pates-aux-oignons-caramelises
   totest-todo-Pâtes sauce crémeuse aux champignons:

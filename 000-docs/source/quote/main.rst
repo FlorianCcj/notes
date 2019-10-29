@@ -14,6 +14,11 @@ Community
     2) J'essaie de la reposer quelque fois pour voir si j'ai bien retenue (et je retiens assez rapidement quand je la repose juste après)
     3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
 
+Mentalism
+=========
+
+:Phillipe Peytroux: Ayez peur de la mort, et Dieu existera, n'ayez craintes, et c'est vous qui existerez.
+
 Other
 =====
 

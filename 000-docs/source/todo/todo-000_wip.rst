@@ -6,17 +6,22 @@ Folder in sulfur
 
 * syndic
 * carte micro sim
-* tang
-* plumber * 2
+* tang, riz
+* plumber
 * clean up kitchen
 * clean up room
+* cv
+* room
 
 Daily
 *****
 
-* golang - one chapter
-* python pentest - ???
-* mentalism - one video
+* 10 min
+
+    * mentalism - one video
+    * fr
+    * python pentest - ???
+
 * scan - 10 pages
 
 # dessin
@@ -135,7 +140,6 @@ Doc to read/to write
 
     * sso
     * dossier maif/casden
-    * git submodule
     * gerrit
     * vmware/octant
     * kubernetic

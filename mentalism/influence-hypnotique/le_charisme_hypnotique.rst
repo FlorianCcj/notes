@@ -119,11 +119,38 @@ Chapitre 2 - Obtenir une voix hypnotique
 Comment avoir une voix Charismatique
 ====================================
 
+La societe actuelle fait qu on fait toujours attention a ne pas prendre de place, a s ecraser
+
+Exercice:
+
+1. Mettre sa main sur le plexus cardiadiaque
+2. Faire le bourdon "mmmmmmmmmmmhh"
+3. Faire varier aigue, grave. Determiner a quel moment c est le plus naturel
+4. Une fois trouvé le plus naturel faire sortir sa voix "aaaaaaaaaaaaaaaaaaaaaaaah"
+5. Enfin faire en sorte que sa voix prenne le plus d espace possible, sans forcer
+
 Determiner le probleme
 ======================
 
+Le voix se travaille quotidiennement, voici quelques exercices pour resoudre les problemes :
+* d elocution
+* de vitesse
+* de profondeur, de portée
+* de respiration
+* de musicalité
+
 Echauffement et respiration
 ===========================
+
+* echauffement la tete (20 chaque) : rond de tete, droite gauche
+* echauffement des epaules (20 chaque) : rond de bras, rond d epaule
+* echauffement de la bouche: 
+    * mache une pomme imaginaire de maniere exagere en y prenant du plaisir
+* echauffement des levres : 
+    * bouche fermer faire brrrrrrrr pour faire vibrer les levres, 
+    * prononcer Q.I.Q.A plusieur fois
+    * mettre son doigt sous son nez et faire huuuuuuuum, le but est que ton doigt tremble grace a la puissance de l air qui sort de ton nez
+* la respiration (5 min: inspirer la le nez lentement, et expirer par la bouche de maniere a ce que vous respiriez par le ventre, une personne stressé respirera au niveau du coeur/plexus
 
 Profondeur et portee
 ====================
