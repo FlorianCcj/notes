@@ -7,6 +7,7 @@
     git/git-submodule.rst
     math/math-exercise_code.rst
     python/python-venv.rst
+    python/python-good_practices.rst
     js/js-import.rst
     ansible/ansible-if.rst
     vault/vault-install.rst
@@ -21,5 +22,6 @@
     linux/linux-history.rst
     linux/default_bin.rst
     linux/linux-triks.rst
+    linux/linux-tmux.rst
     mentalism/influence_hypnotique-youtube.rst
     60_days_plan.rst
