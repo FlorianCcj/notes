@@ -1,5 +1,10 @@
 job:
   - salaire
+    * net -> post pas -> brut -> brut annuel
+    * 2600 -> 2340 -> 3467 -> 42k
+    * 2900 -> 2600 -> 3867 -> 47k
+    * 3200 -> 2816 -> 4267 -> 51k
+    * 3700 -> 3200 -> 4933 -> 59k
   - ce
   - vacances
   - horaire
@@ -346,5 +351,37 @@ note:
   - source: https://www.404works.com/
   - source: https://www.lafabriquedunet.fr/blog/cout-creation-intranet/
 
+en cqs de pperte de motibationm se demander, pourquoi/pour qui est ce que je fais ca ?
+
 https://gerer-mon-budget.fr/ebook-budget-sp
 https://formation.operationbusiness.fr/programmes?fbclid=IwAR26Kww0jQsq1FZTtmWotwjoDFurjN1tBavV8sdmvT6aRdD6iX0B1NqSaEI
+
+
+etoile:
+  tank
+  cariole heal
+  archer
+  boniche
+  alcolo
+violent:
+  tank et son bestiau
+  bagareur
+  tabasseur
+  feufeu
+sauvage:
+  glouglou
+  chevalier
+  bourin sauteur
+  lapin
+undead:
+  sorciere aoe
+  grapin
+  archer volant
+  momie
+  rogue
+
+leg:
+  centaure
+
+  faucheur
+  
