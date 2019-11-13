@@ -27,7 +27,7 @@ ctrl+b
     * :code:`: -> swap-window -s 0 -t 3`: swap window 0 to 3
     * :code:`: -> swap-window -t 3`: swap current window to 3
     * :code:`: -> swap-window -t -1`: swap current window to left
-    * [: to scroll (q to quit)
+    * :code:`[`: to scroll (q to quit)(or ctrl+b -> : -> set -g mouse on or set -g mode-mouse on)
 * panes:
     * ": horizontal separation
     * %: vertical separation
