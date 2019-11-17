@@ -155,6 +155,11 @@ Echauffement et respiration
 Profondeur et portee
 ====================
 
+* Mettre les mains sur les hanches, Respiration ventral, sentir ses mains s ecarter
+* respiration ventral avec la bouche legerement ouverture, lors de l expiration, l air doit sortir par la bouche et le nez
+* respiration ventral + lors de l expiration faire aaaaaaaaaaah
+* meme chose que precedement mais faire echo "aaaaaaaaaaah ah ah ah ah"
+
 La clarte et l elocution
 ========================
 

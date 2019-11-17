@@ -8,6 +8,7 @@
     math/math-exercise_code.rst
     python/python-venv.rst
     python/python-good_practices.rst
+    js-method-need-to-know.rst
     js/js-import.rst
     ansible/ansible-if.rst
     vault/vault-install.rst
@@ -19,6 +20,7 @@
     sphinx/travis.rst
     quote/main.rst
     reading/disk_world.rst
+    draw/draw-apprendre-a-dessiner.rst
     linux/linux-history.rst
     linux/default_bin.rst
     linux/linux-triks.rst
