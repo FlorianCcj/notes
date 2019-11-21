@@ -9,6 +9,18 @@ echec mean that you will progress
 
 chalenge: sprort, intelect, financial, health
 
+Youtube - Comment devenir plus heureux
+**************************************
+
+:source: https://www.youtube.com/watch?v=Op1uEDrf1bE
+
+* Deux idees recu
+    * ne baser pas votre bonheur sur les autres, vous etes responsables, ne laisser pas les autres influencer dessus
+    * c est la faute des autres: c est faut, c est entierement votre faute, vous n aimez pas votre boulot ? changez le
+* reflechissez a ce qui vous rend heureux, raprochez vous de ceux qui ont le niveau que vous souaitez
+* banissez probleme et non: changez le par challenge, des difficultés, et par des explications
+* elliminez ce qui ne vous rend pas heureux
+
 Youtube - Comment faire de la visualisation
 *******************************************
 
