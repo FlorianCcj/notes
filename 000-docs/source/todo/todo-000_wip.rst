@@ -148,6 +148,8 @@ Doc to read/to write
     * https://freecoursesite.us/category/all-tutorials/hacking-tutorials/
     * https://blog.ropnop.com/docker-for-pentesters
     * elk 
+    * https://security.googleblog.com/2019/11/opentitan-open-sourcing-transparent.html
+    * https://www.youtube.com/watch?v=Gw8mcFkBKe8
     
 
 Document history
