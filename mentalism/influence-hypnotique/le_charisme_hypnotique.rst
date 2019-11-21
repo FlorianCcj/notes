@@ -163,8 +163,20 @@ Profondeur et portee
 La clarte et l elocution
 ========================
 
+* Un stylo entre les dents, parler
+* Q.I.Q.A ou Q.I.Q.R en ouvrant le plus possible la bouche
+* dire des phrases complique
+    * les chaussettes de l archiduchesse sont elles seches ? archi-seches ?
+    * je suis passe chez sosh
+    * j exige un paroisme spasmodique
+* se filmer et bouger enormement les levres
+
 Les modulations et le rythme
 ============================
+
+* regarder des videos, et ecouter la melodie de la voix
+* si tu veux rajouter de l energie, parler plus fort et potentiellement plus vite
+* pour ajouter du suspense, faire une pause, puis reprendre
 
 180 Virelangus (pour travailler l elocution)
 ============================================
