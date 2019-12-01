@@ -5,8 +5,23 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
     && apt-get update \
     && apt-get upgrade -y
 
-RUN apt-get install texlive-latex-base texlive-latex-extra texlive-fonts-recommended lacheck chktex xzdec -y \
-    && rm -rf /var/lib/apt/lists/*
+# cv
+#RUN apt-get install texlive-latex-base texlive-latex-extra texlive-fonts-recommended lacheck chktex xzdec -y \
+#    && rm -rf /var/lib/apt/lists/*
+
+# fiche de perso
+RUN apt-get install \
+   texlive-latex-base \
+   texlive-latex-extra \
+   texlive-fonts-recommended \
+   lacheck chktex xzdec \
+   texlive-fonts-extra \
+   -y \
+   && rm -rf /var/lib/apt/lists/*
+
+RUN echo ' ---------------------------------------------------------\n --------------------------------------------------------- \n Packages list \n --------------------------------------------------------- \n ---------------------------------------------------------'
+RUN ls /usr/share/texlive/texmf-dist/tex/latex/**/*.sty
+RUN echo ' ---------------------------------------------------------\n --------------------------------------------------------- \n ---------------------------------------------------------'
 
 RUN mkdir workdir
 

@@ -46,7 +46,7 @@ filter()
     const evenNumbers = numbers.filter( x => x % 2 === 0 ); 
     console.log(evenNumbers); // returns [2, 4, 10]
 
-..code-block:: js
+..code-block:: javascript
 
     const items = [ 
     { name: 'item1', id: 1 , price: 200 },
@@ -59,18 +59,19 @@ filter()
     console.log(filteredItems); 
 
     /* Output
+
     [
-    {
+      {
         "name": "test3",
         "id": 3,
         "price": 400
-    },
-    {
+      }, {
         "name": "test4",
         "id": 4,
         "price": 500
-    }
-    ] 
+      }
+    ]
+
     */
 
 includes()
@@ -165,12 +166,17 @@ Creating and copying objects
 ..code-block:: js
 
     let source = 
+
     { 
-    a: 1,
-    b: { 
-        c: 2,
-    },
+        a: 1,
+        b: {
+
+            c: 2,
+
+        },
+
     };
+
     let destObj = JSON.parse(JSON.stringify(obj));
 
 ..code-block:: js

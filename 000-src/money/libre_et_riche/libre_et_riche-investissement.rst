@@ -177,6 +177,72 @@ before sleeping, remenber all what you did today, what you did well or you did b
 5 formules de la richesse
 *************************
 
+Richesse dans le temps
+======================
+
+* richesse <=/=> objet ou argent
+* richesse <=> temps de liberte (vivre sans emploi, juste avec epargne et prevoyance)
+* richesse = (actif liquide / depense mensuelle)/12
+    * actif liquide = rente, argent dans un compte, action, obligation AAA, actif pouvant etre vendu rapidement
+    * frait mesuelle = depense alimentaire -> depense de loisir en passant par les frais de vie, et les passif generant des frais
+    * exemple:
+        * une personne semble riche, 
+            * ses depenses monte a 10k euros, 
+            * son compte + epargne et rent mensuel monte a 120k
+            * (120/10)/12 = 1 => il survivra 1 an sans bosser
+        * une personne semble modeste, 
+            * ses depenses monte a 900 euros, 
+            * son compte + epargne et rent mensuel monte a 54k
+            * (54/10,9)/12 = 5 => il survivra 5 an sans bosser
+
+Potentiel de liberte financiere
+===============================
+
+* il faut des revenus passif, actif et passif prepare pour etre libre financierement
+* 100 - taux de dependance au revenu actif = (revenu financier (revenu passif) / revenu actifs (fruit de ton travail))*100
+* une location a 300e et un revenu de 1500e
+    * (300/1500)*100 = 20%
+    * dependance a 80% du revenu salariale
+* objectif 100% de revenu passif
+* si revenu passif > 90% et que depence < revenu passif => tu peux renoncer a ton travail
+
+PER (Price Earning Ratio)
+=========================
+
+* PER = cout de l action / benefice net
+* PER: nombre d annee necessaire avant de pouvoir recuperer l investissement initial
+
+* prix du bien / lover annuel
+* un bien a 100k dans un quartier populaire a un loyer de 6k par an
+    * 16,67 ans
+* un bien a 500k dans un quartier uppé avec a un loyer de 48k par an
+    * 10,42 ans
+* calculler le PER moyen d une zone/prix du metre carré/...
+
+PER
+* 0 -> 10: actifs sous evalues / diminution des benefices
+* 10 -> 17: adequat
+* 17 -> 25: actifs surevalues / augmentation des benefices
+* 25+: bulles speculatives
+
+Taux de variation
+=================
+
+* Taux de variation moyen = ((Taux_{n} - Taux_{n-1})/Taux_{n-1})*100
+* + gain
+* - perte
+* ((prix actuel - prix acquisition) / prix d acquisition)*100
+
+Ratio effet de levier
+=====================
+
+* (Dettes totals / revenu totaux)*100
+* exemple:
+    * salaire: 1500e
+    * bien: credit 400e, location 500e
+    * futur bien: credit 400e, location 500e
+    * taux d endetement = (400 + 400) / (1500 + 500 + 500) = 32% < 33%
+
 Millionaire avec 5e par jour
 ****************************
 

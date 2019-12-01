@@ -22,8 +22,6 @@ FGHIJ:
       2. faire cuire les oeufs a la poile
       3. quand le blanc devient blanc verser le furikake dessus
       4. Servir le riz, verser 1 cuilliere a soupe de sauce soja et un cuillere a cafe de soja dessus
-  totest-todo-Jambalaya:
-    source: https://www.cuisine-etudiant.fr/recette/3826-jambalaya
 KLMNO: ~
 PQRST: ~
   totest-todo-paella en solo:
@@ -160,7 +158,7 @@ PQRST: ~
       10. Verser le riz, mélanger, ajouter le bouillon, le safran, 
       couvrir et laisser cuire 20 minutes. 
       11. Verser les légumes, le chorizo, le poulet, et laisser cuire 5 minutes.
-  totest-Riz, poulet, chapignons et oignons au miel :
+  Riz, poulet, chapignons et oignons au miel :
     source: https://www.cuisine-etudiant.fr/recette/297-riz-poulet-chapignons-et-oignons-au-miel
     realisation:
       préparation : 20 min

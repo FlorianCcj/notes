@@ -10,7 +10,7 @@ Notes
 * See Tox
 * jdango
 * docker django
-* `guipsamora/pandas_exercises<https://github.com/guipsamora/pandas_exercises>`_
+* `guipsamora/pandas_exercises <https://github.com/guipsamora/pandas_exercises>`_
 
 Document history
 ================

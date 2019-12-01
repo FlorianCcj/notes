@@ -14,6 +14,7 @@ Notes
 * l huile et l eau de Anthony Owen
 * Sans temps mort de john carey (voir les autres effets)
 * Minimalistica de John Carey
+* Max Madem, livre focus, no-gaff differential et snap differential
 
 Document history
 ================

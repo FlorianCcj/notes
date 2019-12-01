@@ -22,7 +22,7 @@ Git - Submodule
 Sources
 *******
 
-* `My colleague Frank<https://perdu.com>`_
+* `My colleague Frank <https://perdu.com/>`_
 
 
 Document history

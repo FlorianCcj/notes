@@ -13,11 +13,11 @@ Toujours doubler le temps, temps de pratique = 2 fois temps de la theorie
 
 Exercice:
 
-Dessiner une piece, ce que vous voulez, 30 min/jour
+* Dessiner une piece, ce que vous voulez, 30 min/jour
+* Quand vous observer quelque chose essayer de voir un cube autour, puis la forme geometrique la plus proche
+* Observer les ombres, la lumiere
 
-Quand vous observer quelque chose essayer de voir un cube autour, puis la forme geometrique la plus proche
 
-Observer les ombres, la lumiere
 
 Module 1
 ========

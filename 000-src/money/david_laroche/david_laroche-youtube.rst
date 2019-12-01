@@ -69,3 +69,58 @@ Video temporaire - 6 obsessions contre intuitive de Jeff Bezoss, Elon Musk, Warr
     * la capacite de vision un futur incohérent avec le passé
     * se creer un vision plus ou moins flou
 6. le story telling
+
+Webinar - Comment accomplir ce que vous desirez vraiment
+********************************************************
+
+
+SECRET #1 - Pourquoi les approches que vous utilisez aujourd'hui sont obselètes ​​​​​​​et Comment VRAIMENT produire des résultats
+SECRET #2 - Comment avoir le "DÉCLIC" pour passer à l'action, avoir confiance en soi et être motivé ? et cela en toutes circonstances
+​​​​​​​SECRET #3 - Comment avancer peu importe l'entourage que vous avez ? Et littéralement vous programmer à réussir
+
+resultat = (Potenciel - Croyance Limitante) x Perception que tu as x Groupe
+
+obsession: identifier les facteurs qui font qu on realise ses reves
+
+8 causes d echecs:
+1. La peur du regard des autres ou de l echec: axe de la qulite ou de la quantite
+2. Motivation instable ou irreguliere
+3. etre hante par un evenement du passe (n empeche pas de reussir mais ralenti le fait d etre heureux), 
+4. aborder le probleme de la meme maniere
+5. l impuissance apprise
+6. je n arrive pas a oser faire cee qui est importqnt
+7. jemmanque de discipline d organisation
+8. je n ai pas l environnement le groupse adequa et qui ne me laisse pas le choix
+
+reframing:
+    * strategie1: reframing de perception
+        * tout les problemes non resolus sont le resultat de
+            * de mon etat d esprit
+            * de mon energie
+            * de maniere de perception et de penser
+            * d aborder mon probleme
+        * changer de point de vue, 
+        * regarder la scene sous l axe de quelqu un d autre, 
+        * puis du coatch, 
+        * puis du temps (dans 15 ans si on te demande comment tu as autant d energie)
+        * tout evenemnt dans ta vie  peut devenir un tramplin
+    * strategie2: reframing de coryance
+        * a cause de la 5e cause
+    * strat3 : le reframing grace au groupe no choice
+    * etre soutenu et encourage
+    * etre challenger par les autres
+    * la norme est de se depasser
+    * partager les memes valeurs
+    * strat4: le reframing de motivation
+        * 4 question indispensable
+            * qu est ce que je veux ? (qu est ce qui me fait vibrer ? c est quoi qui rend ma vie wahouu ?)
+            * comment je vais me sentir ? (Heureux, joyeux, fier, confiant, inspirantm inaretable)
+            * quel impact ca a dans ma vie (dans mes autres domaines de viem a court, moyen long therme)
+            * dans celle des autres ? (en particulier pour ceux que j aime)
+
+eperience:
+    * mettre les yex le plus bas possible, pas la tete le yeux
+    * trouver un souvenir triste, d angoisse
+    * redresse toi, sort de ca et rigole
+    * puis met les yeux le plus haut possible et retrouve un souvenir triste, une difficulté
+

@@ -187,11 +187,42 @@ Chapitre 3 - Acquerir un langage non verbal puissant
 Les secrets du regard
 =====================
 
+Parfois quelqu un a trop de charisme il est complique de soutenir son regard
+
+astuces:
+
+* regarder juste au dessus du nez, en bas du front ou juste en dessous de l oeil
+* regarder un oeil puis l autre
+* pensez a quelque chose de positif en la personne en face, ca va detendre
+* cernez la couleur et la nuance de l oeil
+
 Le regard dans un groupe
 ========================
 
+* erreurs 1: ne pas considérer chacune des personnes
+    * les regarder au moins une secondes
+    * attendre que la personne acquiesse, ou acquiesser soit meme
+    * pensez a des choses positives, aux qualités
+
 Le langage non verbal faible
 ============================
+
+es-tu dominant ou domine:
+
+* le dominant prend le plus d espace possible, 
+    * de grand geste
+    * se met face a une personne
+    * etc
+* le domine
+    * acquiesse
+    * se met sur le cote
+    * detourne les yeux
+
+Le faible:
+* gratte le nez, croise les bras, touche la nuque
+* se protege deriere quelque chose
+* pqs totalement de face, semble vouloir fuir, un peu fermé
+* avoir les mains totalemnt dans les poches
 
 Le langage non verbal fort
 ==========================

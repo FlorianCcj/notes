@@ -37,6 +37,21 @@ Daily
 * tous les ans - dentiste
 * tous les ans - ophtalmo
 
+Big project
+***********
+
+* gn
+* mentalist
+* challenge
+* draw
+* go game
+* money
+
+* music
+* fast reading
+* xiehuiguanli
+* mlf
+
 .. _priority:
 
 Priority
@@ -76,6 +91,7 @@ Doc to read/to write
 
 - pes1
 - https://www.notion.so/Salary-Equity-3ddfc71ec61743b08d8f4787ceb44591
+- https://youtu.be/aY1et6mlSGo
 - info:
 
   - american fuzzy lop
@@ -150,8 +166,35 @@ Doc to read/to write
     * elk 
     * https://security.googleblog.com/2019/11/opentitan-open-sourcing-transparent.html
     * https://www.youtube.com/watch?v=Gw8mcFkBKe8
+    * Weave wksctl
     
-
+* tmp:
+    * https://medium.com/better-programming/how-to-use-components-recursively-in-angular-6569459f6318
+    * https://medium.com/swlh/vue-vs-react-vs-angular-4fce47857eda
+    * https://psiloveyou.xyz/the-only-thing-you-have-to-do-before-9-a-m-5e51c708ac99
+    * https://medium.com/javascript-in-plain-english/ecmascript-2019-asynchronous-iteration-using-for-of-dc1893f99fd9
+    * https://medium.com/better-programming/4-dangerous-problems-in-javascript-easily-solved-by-the-builder-design-pattern-7f0eb5b4455c
+    * https://onezero.medium.com/looking-at-cute-animals-online-is-literally-good-for-your-brain-2eaa291d8568
+    * https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers
+    * https://medium.com/coding-at-dawn/es6-object-is-vs-in-javascript-7ce873064719
+    * https://medium.com/javascript-in-plain-english/why-i-always-prefer-async-await-72fd325792f2
+    * https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle
+    * https://dev.to/adrianbdesigns/you-can-create-these-elements-without-javascript-525a
+    * https://dev.to/paco_ita/train-your-css-skills-with-online-games-4ah3
+    * https://medium.com/better-programming/how-to-learn-any-new-programming-language-quickly-94996895669b
+    * https://medium.com/swlh/automating-front-end-development-a97f98c15af6
+    * https://medium.com/better-programming/understanding-content-projection-in-angular-81c9a40d63dc
+    * https://dev.to/duomly/the-best-practices-of-coding-in-python-and-what-to-avoid-3c65?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
+    * https://dev.to/digitalocean/understanding-this-bind-call-and-apply-in-javascript-dla?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
+    * https://dev.to/bnevilleoneill/5-things-you-can-do-with-css-instead-of-javascript-975?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
+    * https://medium.com/swlh/optimize-the-hell-out-of-your-javascript-programs-with-memoization-eadf7ca22caf
+    * https://medium.com/better-programming/drag-and-drop-made-easy-with-rxjs-8cd4a8994a07
+    * https://medium.com/free-code-camp/how-to-use-the-javascript-console-going-beyond-console-log-5128af9d573b
+    * https://codeburst.io/managing-svg-images-in-vue-js-applications-88a0570d8e88
+    * https://medium.com/@smashingmag/learning-to-code-by-writing-code-poems-cd29cd3ba320
+    * https://medium.com/@smashingmag/building-mobile-apps-with-capacitor-and-vue-js-944b22ec4780
+    * https://onezero.medium.com/to-revive-the-mac-apple-wants-to-kill-electron-154873336e78
+    
 Document history
 ================
 

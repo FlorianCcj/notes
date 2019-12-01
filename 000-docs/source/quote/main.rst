@@ -17,7 +17,13 @@ Community
 Mentalism
 =========
 
+:GoodByeComfort: Nous ne voyons pas le monde tel qu il est, nous le voyons tel que nous sommes
+
 :Phillipe Peytroux: Ayez peur de la mort, et Dieu existera, n'ayez craintes, et c'est vous qui existerez.
+
+:Philippe Peytroux: "Si tu veux trouver un prince, tu es censé embrassé un crapaud, pas baiser tout l'étang" 
+
+:Elon Musk: "si l on ne trouve pas la reponse c est que la question est mal formulé"
 
 Other
 =====
@@ -35,6 +41,8 @@ Other
 :Somewhere: "La vie est un jeu. Vous pouvez etre joueur ou ... un jouet."
 
 :Tommy, developpeur back-end chez Diji: la vie d un geek ne tient qu a un fil ... le cable internet
+
+:Libre et riche: La difference entre ce que tu es et ce que tu veux etre reside en ce que tu fais
 
 Scientist
 =========

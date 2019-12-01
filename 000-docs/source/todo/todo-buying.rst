@@ -5,8 +5,8 @@ Folder in sulfur
 ================
 
 * liseuse
-* pantalon
 * couteau de cuisine
+* https://www.souffledor.fr/jeux-de-tirage/24-conduire-sa-vie
 
 Notes
 =====
