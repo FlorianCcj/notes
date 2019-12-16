@@ -6,9 +6,12 @@
     ansible/ansible-if.rst
     db/db-neo4j-cypher.rst
     db/db-neo4j-from_sql_to_neo4j.rst
+    git/git-config.rst
     git/git-crash-course.rst
     git/git-hook.rst
     git/git-submodule.rst
+    git/git-trics.rst
+    k8s/k8s-deploy-troubleshooting.rst
     linux/default_bin.rst
     linux/linux-history.rst
     linux/linux-triks.rst
