@@ -227,6 +227,15 @@ Le faible:
 Le langage non verbal fort
 ==========================
 
+* les mains derniere la tete, on montre ses aiselles donc c est qu on est confiant
+* les mains dans les poches, avec les pouces dehors, egale on a pas peur de se faire couper les pouces
+* se toiletter tout seul, pas peur du regard des autres
+* les jambes ecartées, a la jonny, bien la, present, ancré
+* utilise sont environnement, accoudé a quelque chose, n a pas peur de lui, que tu l apprivoises
+* avoir des mouvements lents,
+
+Quand tu arrives dans un endroit pose toi les jambes ecarté les mains dans les poches pouces dehors ou les bras deriere le dos ou en akimbo
+
 Le pouvoir du sourire
 =====================
 

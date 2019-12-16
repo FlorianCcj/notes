@@ -82,6 +82,10 @@ Definisser ce qui est important pour vous dans chaque domaine de vie (sante/bien
 Votre quartier general
 ======================
 
+Votre cadre de vie a un impact sur le cadre emotionnel
+espace organisé => impact positif sur etat d esprit
+QG = la ou on peut recharger ses acus, la ou on tombe le masque
+
 Une vision magique
 ==================
 
@@ -94,3 +98,7 @@ Votre super pouvoir
 Le codex final
 ==============
 
+Message loader
+**************
+
+resultat = ambitions x actions

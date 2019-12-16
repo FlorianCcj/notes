@@ -1,6 +1,16 @@
 Todos
 #####
 
+* https://mail.google.com
+* https://formations.influence-hypnotique.fr
+* https://www.apprendre-a-dessiner.org/
+* https://heroes.goodbyecomfort.zone/
+* https://cours.davidlaroche.fr
+* https://www.facebook.com/
+* https://tsumego-hero.com/
+* https://docs.google.com -> compte
+* https://florianccj.github.io/notes/60_days_plan.html
+
 Folder in sulfur
 ****************
 
@@ -194,7 +204,44 @@ Doc to read/to write
     * https://medium.com/@smashingmag/learning-to-code-by-writing-code-poems-cd29cd3ba320
     * https://medium.com/@smashingmag/building-mobile-apps-with-capacitor-and-vue-js-944b22ec4780
     * https://onezero.medium.com/to-revive-the-mac-apple-wants-to-kill-electron-154873336e78
-    
+    * https://pythonawesome.com/tiny-experimental-nlp-deep-learning-library-for-text-classification-and-ner/    
+    * https://medium.com/@romaricp/the-perfect-kit-starter-for-a-symfony-4-project-with-docker-and-php-7-2-fda447b6bca1
+    * https://medium.com/@CKGrafico/taking-decisions-to-structure-big-projects-with-hooks-stores-services-and-more-a703c7874480
+    * https://forge.medium.com/why-its-so-hard-to-learn-from-our-mistakes-113367d54fe1
+    * https://medium.com/better-programming/your-next-app-may-not-have-a-backend-aacc728bd032
+    * https://medium.com/nautilus-magazine/how-designers-engineer-luck-into-video-games-7d4dea1767b2
+    * https://dev.to/sylwiavargas/33-app-ideas-for-bootcamp-students-code-newbies-3n28
+    * https://dev.to/kodekat/terminal-lover-which-tools-do-you-use-daily-2ape
+    * https://medium.com/swlh/how-i-reduced-my-css-bundle-size-by-more-than-20-76433e7330eb
+    * https://medium.com/javascript-in-plain-english/how-to-loop-through-arrays-in-react-3eaa8a14445
+    * https://medium.com/frontend-digest/axios-vs-fetch-which-to-use-in-2019-6678c083c5c
+    * https://rangle.slides.com/yazanalaboudi/deck#/
+    * https://itnext.io/how-do-ngrx-action-creators-work-bd8b17e02584
+    * https://dev.to/shadid12/how-i-reverse-engineered-rxjs-and-learned-reactive-programming-part-2-4m4g?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+    * https://blog.logrocket.com/using-typescript-to-stop-unexpected-data-from-breaking-your-app/?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter#utm_campaign=Angular%2520Weekly&utm_medium=email&utm_source=Revue%2520newsletter
+    * https://dev.to/duomly/how-to-build-an-angular-8-application-with-api-request-in-10-minutes-34m8?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+    * https://medium.com/@traviskaufman/demystifying-rxjs-part-i-building-our-own-observables-e7a985fd8153
+    * https://fiyazhasan.me/angular-file-upload-using-asp-net-core/?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+    * https://github.com/jagenjo/litegraph.js?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+    * https://github.com/Redocly/redoc?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+    * https://medium.com/free-code-camp/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76
+    * https://medium.com/@vuefront/finding-the-perfect-component-file-structure-for-out-vuejs-app-b808a69dacac
+    * https://medium.com/wizdm-genesys/angular-handling-unsaved-changes-with-a-pop-up-dialog-8127b9f2d79
+    * https://itnext.io/micro-frontend-architecture-dynamic-import-chunks-from-another-webpack-bundle-at-runtime-1132d8cb6051
+    * https://medium.com/better-programming/does-dependency-injection-have-a-place-in-javascript-37831c204a0b
+    * https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
+    * https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
+    * https://medium.com/bauer-kirch/a-domain-driven-vue-js-architecture-77771c20f0da
+    * Three.js
+    * http://direccte.gouv.fr/
+    * atelier-rgpd.cnil.fr
+    * https://medium.com/@bretcameron/12-javascript-tricks-you-wont-find-in-most-tutorials-a9c9331f169d
+    * https://medium.com/free-code-camp/introducing-the-single-element-pattern-dfbd2c295c5d
+    * https://medium.com/better-programming/building-basic-react-authentication-e20a574d5e71
+    * https://coletiv.com/blog/how-to-setup-continuous-integration-and-deployment-workflows-for-reactjs-using-github-actions/?utm_source=reactdigest&utm_medium=email&utm_campaign=featured
+    * https://itnext.io/how-to-boost-vue-js-performance-c7df027ff3f5
+    * https://netbasal.com/reduce-change-detection-cycles-with-event-coalescing-in-angular-c4037199859f
+    * https://itnext.io/test-driven-development-in-an-angular-world-part-3-fc65f0d44383
 Document history
 ================
 
