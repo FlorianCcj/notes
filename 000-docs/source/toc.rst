@@ -21,9 +21,11 @@
     vault/vault-install.rst
     vault/vault-user.rst
 
+    js/angular-ngclass_and_ngstyle.rst
     js/angular-pwa.rst
     js/js-import.rst
     js/js-method-need-to-know.rst
+    js/js-redux.rst
     js/js-trick.rst
     js/js-vue-router_middleware.rst
     js/js-what_s_new_in_es.rst
