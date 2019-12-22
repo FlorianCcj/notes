@@ -5,12 +5,12 @@ Requires=docker.service
 
 [Service]
 Restart=on-failure
-ExecStartPre=-/usr/bin/docker kill ldap_server
-ExecStartPre=-/usr/bin/docker rm ldap_server
+ExecStartPre=-/usr/bin/docker kill ldap-server
+ExecStartPre=-/usr/bin/docker rm ldap-server
 ExecStart=/usr/bin/docker run \
   --rm \
-  --name ldap_server \
-  --hostname ldap_server \
+  --name ldap-server \
+  --hostname ldap-server \
   --env LDAP_ORGANISATION="{{ mlf_network_name }}" \
   --env LDAP_DOMAIN="{{ mlf_zone_name }}" \
   --env LDAP_CONFIG_PASSWORD="{{ admin_passwd }}" \
@@ -20,8 +20,8 @@ ExecStart=/usr/bin/docker run \
   -p {{ ldap_server_port_ldap }}:389 \
   -p {{ ldap_server_port_ldaps }}:636 \
   {{ ldap_server_image_name }}:{{ ldap_server_image_tag }} --loglevel debug
-ExecStop=/usr/bin/docker stop ldap_server
-ExecStopPost=-/usr/bin/docker rm ldap_server
+ExecStop=/usr/bin/docker stop ldap-server
+ExecStopPost=-/usr/bin/docker rm ldap-server
 
 [Install]
 WantedBy=multi-user.target
