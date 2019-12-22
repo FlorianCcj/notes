@@ -166,7 +166,7 @@ Doc to read/to write
 
     * sso
     * dossier maif/casden
-    * gerrit
+    * gerrit: revue de code
     * vmware/octant
     * kubernetic
     * rm -rf var/lib/apt/list + voir slimer
@@ -177,6 +177,10 @@ Doc to read/to write
     * https://security.googleblog.com/2019/11/opentitan-open-sourcing-transparent.html
     * https://www.youtube.com/watch?v=Gw8mcFkBKe8
     * Weave wksctl
+    * gobuster: find sub domain
+    * dart + fluter to replace reactnative
+    * inspiration project
+        * monday.com
     
 * tmp:
     * https://medium.com/better-programming/how-to-use-components-recursively-in-angular-6569459f6318
@@ -242,6 +246,7 @@ Doc to read/to write
     * https://itnext.io/how-to-boost-vue-js-performance-c7df027ff3f5
     * https://netbasal.com/reduce-change-detection-cycles-with-event-coalescing-in-angular-c4037199859f
     * https://itnext.io/test-driven-development-in-an-angular-world-part-3-fc65f0d44383
+
 Document history
 ================
 

@@ -22,6 +22,8 @@
 
     js/js-method-need-to-know.rst
     js/js-import.rst
+    js/js-vue-router_middleware.rst
+    js/js-what_s_new_in_es.rst
     python/python-venv.rst
     python/python-good_practices.rst
     php/php-best-practices.rst
@@ -29,8 +31,15 @@
     sphinx/travis.rst
 
     draw/draw-apprendre-a-dessiner.rst
+    language/duolinguo-chinese.rst
+    language/duolinguo-chinese-voc.rst
+    language/duolinguo-german.rst
+    language/duolinguo-german-voc.rst
+    language/duolinguo-italian.rst
+    language/duolinguo-italian-voc.rst
     math/math-exercise_code.rst
     mentalism/influence_hypnotique-youtube.rst
+    methodology/methodology-fail_over.rst
     reading/disk_world.rst
     quote/main.rst
     60_days_plan.rst

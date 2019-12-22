@@ -45,6 +45,32 @@ FGHIJ: ~
 KLMNO: ~
   totest-todo-Lasagnes au chèvre et au bacon:
     source: https://www.cuisine-etudiant.fr/recette/4528-lasagnes-au-chevre-et-au-bacon
+  totest-lasagne_de_pomme_de_terre:
+    source: https://www.youtube.com/watch?v=51Iwi4OE4sA
+    realisation:
+      préparation : 0 min
+      cuisson : 0 min
+      Difficulté : ???
+      prix: 0/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 0 personnes
+      4 pomme de terre
+      Sel, poivre
+    steps:
+      author: Scrumdiddlyumptious
+      1. sans le eplucher decouper les pommes de terre en tranches
+      2. les etaler sur une plaque a four couverte de papier sulfurisé
+      3. etaler de l huile d olive, su sel du poivre dessus
+      4. faire chauffer 15 min a 325 degree Farenheit
+      5. les etaler en fleur sur un moule en metale beuré et sur le bord du plat
+      6. mettre 2 tranches de jambon par dessus
+      7. recouvrer de gruyere rapé
+      8. melanger 1/2 littre de creme et 3 oeuf et une noix de muscade en poudre
+      9. verser un louche du melange sur le fromage
+      10. pomme de terre, jambon, fromage, creme, ...
+      11. finir par une couche de pomme de terre
+      12. cuir a 325 degree farenheit pendant 60 min
   totest-Naan au fromage:
     source: https://www.cuisine-etudiant.fr/recette/5565-naan-au-fromage
   totest-todo-Nachos:
@@ -96,6 +122,36 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/4888-pommes-de-terre-au-chorizo-et-a-l-emmental
   totest-todo-pommes de terre sautées, dorées et croustillantes :
     source: https://www.cuisine-etudiant.fr/recette/5569-pommes-de-terre-sautees-dorees-et-croustillantes
+  Totest-Genius_Idea_That_starts_with_a_potato_Ring:
+    source: https://www.youtube.com/watch?v=51Iwi4OE4sA
+    realisation:
+      préparation : 00 min
+      cuisson : 00 min
+      Difficulté : ???
+      prix: 0/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 0 personnes
+      Une pomme de terre
+      du parmesan
+      de la sauce tomate
+      de l origan
+      une boule de mozza
+      un oeuf
+      un champignon
+    steps:
+      author: Scrumdiddlyumptious
+      1. eplucher la pomme de terre
+      2. la decouper en tranche
+      3. sur une poele avec un fillet d huile deposer les pommes de terre en fleur
+      4. recouvrer de parmesan
+      5. couvrer et mijotter 5 minutes
+      6. recouvrir de sauce tomate
+      7. saupoudrer d origan
+      8. decouper et placer quelque tranche de champignon
+      9. placer quelque morceau de mozza de maniere a ce que champi et mozza face un cercle
+      10. placer un oeuf dans le cerlce
+      11. couvrer et mijoter 5 minutes
   totest-todo-Sheng Jian Bao (Brioches au Porc à la Vapeur):
     source: https://www.cuisine-etudiant.fr/recette/3528-sheng-jian-bao-brioches-au-porc-a-la-vapeur
   totest-todo-Tourte aux champignons:
