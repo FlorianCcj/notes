@@ -1,2 +1,2 @@
-k8s - deploy - troubleshooting
+K8S - Deploy - Troubleshooting
 ##############################

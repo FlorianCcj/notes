@@ -1,5 +1,5 @@
-js-method-need-to-know.rst
-##########################
+JS - Method you need to know
+############################
 
 Array
 *****

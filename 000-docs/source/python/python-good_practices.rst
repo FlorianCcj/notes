@@ -1,2 +1,2 @@
-python - good_practices
+Python - Good Practices
 #######################

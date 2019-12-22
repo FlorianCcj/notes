@@ -1,4 +1,4 @@
-Vue - router middleware
+Vue - Router Middleware
 #######################
 
 ..code-block:: js

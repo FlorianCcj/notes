@@ -1,5 +1,5 @@
-linux-tmux.rst
-##############
+Linux - Tmux
+############
 
 command
 *******
