@@ -20,8 +20,10 @@
     vault/vault-install.rst
     vault/vault-user.rst
 
-    js/js-method-need-to-know.rst
+    js/angular-pwa.rst
     js/js-import.rst
+    js/js-method-need-to-know.rst
+    js/js-trick.rst
     js/js-vue-router_middleware.rst
     js/js-what_s_new_in_es.rst
     python/python-venv.rst
