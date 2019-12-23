@@ -246,6 +246,17 @@ Doc to read/to write
     * https://itnext.io/how-to-boost-vue-js-performance-c7df027ff3f5
     * https://netbasal.com/reduce-change-detection-cycles-with-event-coalescing-in-angular-c4037199859f
     * https://itnext.io/test-driven-development-in-an-angular-world-part-3-fc65f0d44383
+    * https://scrimba.com/allcourses
+    * learn cypress
+    * learn jest
+    * learn webpack
+    * application shell angular
+    * js
+        * angular
+            * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
+        * react
+            * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
+            * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
 
 Document history
 ================

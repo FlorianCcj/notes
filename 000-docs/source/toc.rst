@@ -21,6 +21,7 @@
     vault/vault-install.rst
     vault/vault-user.rst
 
+    js/angular-environment.rst
     js/angular-ngclass_and_ngstyle.rst
     js/angular-pwa.rst
     js/js-import.rst

@@ -10,3 +10,8 @@ Auto-reload
     cd <static file dir>
     http-server -o
     # then go http://127.0.0.1:8080
+
+Npm - bin
+#########
+
+Access to npm bin in npm script :code:`"cypress:open": "$(npm bin)/cypress open"`
