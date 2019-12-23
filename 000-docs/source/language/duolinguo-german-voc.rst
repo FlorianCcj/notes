@@ -1,4 +1,4 @@
-Duolinguo - German - Voc
+Duolingo - German - Voc
 ########################
 
 1-1 Basics

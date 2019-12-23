@@ -1,4 +1,4 @@
-Duolinguo - Italian - Voc
+Duolingo - Italian - Voc
 #########################
 
 1-1 Basics

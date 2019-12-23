@@ -1,4 +1,4 @@
-Duolingua - Chinese - Voc
+Duolingo - Chinese - Voc
 #########################
 
 yi1: 1
