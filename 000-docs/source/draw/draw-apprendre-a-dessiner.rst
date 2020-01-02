@@ -17,10 +17,15 @@ Exercice:
 * Quand vous observer quelque chose essayer de voir un cube autour, puis la forme geometrique la plus proche
 * Observer les ombres, la lumiere
 
-
-
 Module 1
 ========
+
+Perspective a 1,2,3 points de fuite
+vue en plongé, contre-plongé
+
+1 point de fuite: on est parallele a la face (on se deplace comme un crabe)
+2 points de fuite: les verticales sont verticales mais les horizontales ne le sont pas (on tourne autour du cube)
+3 points de fuite: on regarde en plongé ou contre plongé
 
 Module 2
 ========

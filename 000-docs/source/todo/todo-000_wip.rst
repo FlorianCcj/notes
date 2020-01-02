@@ -251,12 +251,19 @@ Doc to read/to write
     * learn jest
     * learn webpack
     * application shell angular
+    * https://www.dictionnaire-academie.fr/
+    * https://caniuse.com/
+    * https://bitoduc.fr/
+    * https://github.com/msd0pe-1/cve-maker
     * js
         * angular
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
+            * https://levelup.gitconnected.com/ngrx-and-angular-route-guards-a3fc3d5255f8
         * react
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
             * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
+    * cloud
+        * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
 
 Document history
 ================

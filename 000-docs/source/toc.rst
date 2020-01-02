@@ -24,17 +24,22 @@
     js/angular-environment.rst
     js/angular-ngclass_and_ngstyle.rst
     js/angular-pwa.rst
+    js/js-console_log.rst
     js/js-import.rst
     js/js-method-need-to-know.rst
     js/js-redux.rst
     js/js-trick.rst
     js/js-vue-router_middleware.rst
+    js/js-webpack_from_zero_to_hero.rst
     js/js-what_s_new_in_es.rst
     python/python-venv.rst
     python/python-good_practices.rst
     php/php-best-practices.rst
     sphinx/ccj_init_project.rst
     sphinx/travis.rst
+    uiux/uiux-design-tricks.rst
+
+    conferences/2018-php_tour-montpelier.rst
 
     draw/draw-apprendre-a-dessiner.rst
     language/duolinguo-chinese.rst
