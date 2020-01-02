@@ -1,3 +1,6 @@
+David Laroche - Youtube
+#######################
+
 5 cles pour des resultats extrordinaires
 ****************************************
 
@@ -70,9 +73,17 @@ Video temporaire - 6 obsessions contre intuitive de Jeff Bezoss, Elon Musk, Warr
     * se creer un vision plus ou moins flou
 6. le story telling
 
+Voici pourquoi DISCIPLINE = SUCCES ! Comment atteindre ses objectifs facillement
+********************************************************************************
+
+:source: https://www.youtube.com/watch?v=cODzGYCISYQ
+
+A la fin de l année voila les 1, 2 ou 3 objectifs que je veux realiser
+Etre clair sur les objectifs de la journée, de la semaine, du mois, etc
+Faire le premortem (qu'est ce qui va m empecher de le faire)
+
 Webinar - Comment accomplir ce que vous desirez vraiment
 ********************************************************
-
 
 SECRET #1 - Pourquoi les approches que vous utilisez aujourd'hui sont obselètes ​​​​​​​et Comment VRAIMENT produire des résultats
 SECRET #2 - Comment avoir le "DÉCLIC" pour passer à l'action, avoir confiance en soi et être motivé ? et cela en toutes circonstances
@@ -89,7 +100,7 @@ obsession: identifier les facteurs qui font qu on realise ses reves
 4. aborder le probleme de la meme maniere
 5. l impuissance apprise
 6. je n arrive pas a oser faire cee qui est importqnt
-7. jemmanque de discipline d organisation
+7. je manque de discipline d organisation
 8. je n ai pas l environnement le groupse adequa et qui ne me laisse pas le choix
 
 reframing:

@@ -239,8 +239,28 @@ Quand tu arrives dans un endroit pose toi les jambes ecarté les mains dans les 
 Le pouvoir du sourire
 =====================
 
+Le sourire est toujours un element important de la communication non verbale.
+Comme tout les muscle on peut s entrainer a sourire
+
+un sourire sincere passe par 2 elements:
+* les pattes d'oie au coin des yeux
+* l intention derriere le sourire (generalement quand on rescent de la bienveillance)
+
+Exercices:
+* soit devant la glace 3-5min par jour entraine toi
+* soit met toi de la musique qui donne la peche la patate la joie, ...
+
 Les différentes poignées de main
 ================================
+
+Les poignees de main et le comportement qui les accompagnent peuvent en dire long
+
+* la main vers le ciel: position soumise, il attend que la personne se place au dessus de lui
+* la main vers le sol: position dominante, ecrasante, il attend que la personne se place en dessous de lui (generalement sert, la main fort)
+
+regarder les gens droits dans le yeux, conciderer l autre, etc
+
+si quelqu un te tend la main en dominateur, mais ta main gauche sur son epaule, ca anehentira son halo de domination
 
 Analyse du charisme non verbal
 ==============================

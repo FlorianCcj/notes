@@ -1,6 +1,23 @@
 Potion de vie
 #############
 
+Apprendre rapidement
+********************
+
+:source: https://www.youtube.com/watch?v=_6c4rsTeHZc
+
+1. comprendre
+    * technique Feynman: expliquer a quelqu un qui n y connait rien ou a un enfant, s il comprend c est que vous avez compris, si il posedes question c est encore mieux
+    * lecture active:
+        * survoler l ensemble de ce que vous voulez apprendre aujourd hui
+        * liser par petit bout (1 paragraph)
+        * fermer le livre et se poser les questions
+            * qu est ce que je viens de lire, quel est l idee importante dans ce paragraphe
+            * pourquoi on parle de ca
+            * qui a creer ce comcept, quand, dans quel but
+            * QQOQCP (qui, quoi, ou, quand, pourquoi, comment)
+2. se rapeller: se reposer les questions selon la courbe d oublie
+
 La methode Eisenhower
 *********************
 

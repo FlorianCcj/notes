@@ -50,4 +50,15 @@ Youtube - Comment parler en public
 4. Have emotionnal suport in the public, people you know, people you see interest in his eye
 5. engage the public, ask the lvl of your public, they will have the vision that you will adapt the presentation to them
 
+Youtube - Comment utiliser la loi d'attraction
+**********************************************
 
+:source: https://www.youtube.com/watch?v=6UEFCAXHDgU
+
+Ecole de pensée qui va demander de formuler, visualiser et affirmer votre reve. 
+Jusqu'a ce que grace a cette valoririsation et a l'impact sur vos decision, ca arrive
+N.B. a 99% vous etes responsable de ce qu il vous arrive, prenez en conscience et influer dessus
+* prenez 5 min pour vous dire "qu est ce que je souhaiterez avoir", preciser vos reves
+* prenez conscience qu entre la loi d attraction et votre vie de reve, il manque l action, la loi d attraction sans action est tout a fait inneficace, mais elle vous apporte de la motivation, du bien etre, et de l orientation dans vos choix
+* ne pas dire "je ne veux PAS etre pauvre" dire "JE VEUX etre riche"
+* un echec, c est une reussite qui prend un peu plus de temps

@@ -44,7 +44,9 @@ Other
 
 :Libre et riche: La difference entre ce que tu es et ce que tu veux etre reside en ce que tu fais
 
-:???: La vie est un jeu a toi de savoir si tu veux etre joueur ou jouet
+:Theophile Eliet: un echec, c est une reussite qui prend un peu plus de temps
+
+:???: tant que je me fais rire c est que je suis drole
 
 Scientist
 =========
