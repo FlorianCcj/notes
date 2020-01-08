@@ -116,7 +116,82 @@ FGHIJ:
       - Enfournez le tout pendant 10 min.
   totest-todo-Gratin de pâtes au chorizo et jambon:
     source: https://www.cuisine-etudiant.fr/recette/5632-gratin-de-pates-au-chorizo-et-jambon
-KLMNO: ~
+KLMNO:
+  totest-mac_n_cheese-boxed_4_cheese:
+    source: 
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Sel, poivre
+    steps:
+      author: La recette de Christophe Delcourt
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+  totest-mac_n_cheese-butter_chicken:
+    source: 
+    realisation:
+      préparation : ? min
+      cuisson : ? min
+      Difficulté : Facile
+      prix: ?/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      400g chicken
+      1 onion
+      1 tspn floor
+      300mL milk
+      250g mozza
+      250g chedar
+      200g macaroni
+    steps:
+      author: La recette de Christophe Delcourt
+      1. melt a nuts of butter on a pan
+      2. cut the chicken 2cmx3cm
+      3. cook the chicken with a tea spoon of peper
+      4. release the meet and add minced oinion
+      5. cook it, then add the flour and milk
+      6. let cook
+      7. add mozza, chedar
+      8. cook it, add the chicken and the pasta
+      9. add cheese and bake eat 180C or 350F 15min
+  totest-mac_n_cheese-green:
+    source: 
+    realisation:
+      préparation : ? min
+      cuisson : ? min
+      Difficulté : Facile
+      prix: ?/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour ? personnes
+      4 cup of fresh spinach
+      1/2 cup of parsley
+      1/2 cup of milk
+
+      1/4 cup flour
+      1/4 cup butter
+      2 cup of milk
+      2 tsp garlic powder
+      2 tsp onion powder
+      1 tsp paprica
+      1 tsp pepper
+      1 tsp salt
+      16 ounces white cheddar
+      1 pound of macaroni
+    steps:
+      author: La recette de Christophe Delcourt
+      1. blend spinach, parsey and milk
+      2. melt butter + flour on a pan, mix it
+      3. add milk, garlic, onion, paprica, pepper, salt, cheddar
+      4. mix
+      5. add spinach
+      6. mix then finaly add macaroni
+      7. add mozza and broil 5 min
   totest-Nouilles chinoises au poulet :
     source: https://www.cuisine-etudiant.fr/recette/2805-nouilles-chinoises-au-poulet
   totest-todo-Nouille a la creme:
@@ -180,20 +255,50 @@ KLMNO: ~
   totest-todo-Porc saute aux nouilles chinoises:
     source: https://www.cuisine-etudiant.fr/recette/5447-porc-saute-aux-nouilles-chinoises
     categories: [pattes, porc, chinois, sucre-sale]
-PQRST: ~
-  totest-todo-Tagliatelles de courgettes au saumon:
-    source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile
-  profil:
-    source: 
+PQRST:
+  totest:
+    source: https://www.youtube.com/watch?v=88SMbSkJ4Ew
     realisation:
-      préparation : 15 min
-      cuisson : 30 min
+      préparation : ? min
+      cuisson : ? min
       Difficulté : Facile
-      prix: 4,4/personne
+      prix: ?/personne
       types: [Plat]
     ingredient:
       quantite: pour 4 personnes
       Sel, poivre
     steps:
-      author: La recette de Christophe Delcourt
+      author: 
       1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+  totest-todo-Tagliatelles de courgettes au saumon:
+    source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile
+  profil:
+    source: 
+    realisation:
+      préparation : ? min
+      cuisson : ? min
+      Difficulté : Facile
+      prix: ?/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      Spag
+      4 eggs
+      1/2 cup parmesan
+      1 tsp italian spice
+      1 cup ricotta
+      2 cup of shredded mozza
+      1,5 cup marinara sauce
+      0,5 cup of parmesan
+    steps:
+      author: La recette de ???
+      1. cook spag
+      2. mix beaten eggs, parmesan, spices and spag
+      3. put it on a plate which can pe bake
+      4. cover with ricotta, let a border
+      5. put mozza
+      6. cover mozza with marinara sauce
+      7. add mozza, the parmesan
+      8. bake 45 min 180C or 350F
+      9. broil 2 min
+      10. serve with 1 tsp of parsay
