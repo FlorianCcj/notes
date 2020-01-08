@@ -1,4 +1,4 @@
-UIUX - 2020 Web Dev
+UiUx - 2020 Web Dev
 ###################
 
 Tools

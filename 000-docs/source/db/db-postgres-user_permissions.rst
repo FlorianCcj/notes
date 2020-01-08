@@ -1,5 +1,5 @@
-DB - Postgres User Permissions
-##############################
+Db - Postgres - User Permissions
+################################
 
 There are no users in Postgres, just role
 

@@ -1,4 +1,4 @@
-uiux - uiux design tricks
+UiUx - uiux design tricks
 #########################
 
 blogduwebdesign - 7 astuces pour améliorer le design de vos interfaces

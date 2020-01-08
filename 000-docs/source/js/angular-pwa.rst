@@ -17,7 +17,7 @@ Features of PWA
 Which process
 *************
 
-.. code-blocks:: bash
+.. code-block:: bash
 
     node -v # need 12+
     npm i -g @angular/cli

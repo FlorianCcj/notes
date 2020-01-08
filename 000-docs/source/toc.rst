@@ -31,9 +31,9 @@
     js/js-method-need-to-know.rst
     js/js-redux.rst
     js/js-trick.rst
-    js/js-vue-router_middleware.rst
     js/js-webpack_from_zero_to_hero.rst
     js/js-what_s_new_in_es.rst
+    js/vue-router_middleware.rst
     python/python-venv.rst
     python/python-good_practices.rst
     php/php-best-practices.rst

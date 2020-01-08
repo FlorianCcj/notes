@@ -1,4 +1,4 @@
-UIUX - CSS breakpoint
+UiUx - CSS breakpoint
 #####################
 
 * mobile portrait: less than 640px
