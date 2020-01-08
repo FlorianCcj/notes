@@ -15,3 +15,8 @@ Npm - bin
 #########
 
 Access to npm bin in npm script :code:`"cypress:open": "$(npm bin)/cypress open"`
+
+Npx
+###
+
+:code:`npx browserslist` launch without installing, just for one launch

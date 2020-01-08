@@ -254,7 +254,11 @@ Doc to read/to write
     * https://www.dictionnaire-academie.fr/
     * https://caniuse.com/
     * https://bitoduc.fr/
-    * https://github.com/msd0pe-1/cve-maker
+    * https://github.com/msd0pe-1/cve-maker 
+    * contrat: https://www.youtube.com/watch?v=60HN3BHeNtc
+    * decrypt disney: https://www.youtube.com/watch?v=2jo5u0TBpJM
+    * bon cours go: https://www.youtube.com/watch?v=M-u7svEYvSI
+    * Hitler veut du ipv4: https://www.youtube.com/watch?v=8OxIV7o6OCY
     * js
         * angular
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
@@ -262,6 +266,12 @@ Doc to read/to write
         * react
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
             * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
+            * redux:
+                * https://dev.to/ibrahima92/7-steps-to-understand-react-redux-121j
+            * googlesheet as db:
+                * https://itnext.io/using-google-sheets-as-a-database-for-react-apps-6c15b4481680
+            * hook:
+                * https://github.com/antonioru/beautiful-react-hooks
     * cloud
         * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
 

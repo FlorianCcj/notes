@@ -1,6 +1,12 @@
 Git - Tricks
 ############
 
+git config
+**********
+
+git config core.filemode false
+git config --global core.filemode false
+
 git diff
 ********
 
@@ -13,6 +19,11 @@ git rebase
 
 git rebase <branch>
 git rebase -i <branch>
+
+git remote
+**********
+
+git remote -v: print remote origin
 
 git log
 *******
