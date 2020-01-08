@@ -24,6 +24,7 @@
 
     js/angular-environment.rst
     js/angular-ngclass_and_ngstyle.rst
+    js/angular-ngrx-pokedex.rst
     js/angular-pwa.rst
     js/js-console_log.rst
     js/js-import.rst
