@@ -41,6 +41,7 @@
     sphinx/travis.rst
     uiux/uiux-css_breakpoint.rst
     uiux/uiux-design-tricks.rst
+    uiux/uiux-less.rst
 
     conferences/2018-php_tour-montpelier.rst
 
