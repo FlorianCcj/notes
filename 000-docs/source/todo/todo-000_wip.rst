@@ -259,6 +259,7 @@ Doc to read/to write
     * decrypt disney: https://www.youtube.com/watch?v=2jo5u0TBpJM
     * bon cours go: https://www.youtube.com/watch?v=M-u7svEYvSI
     * Hitler veut du ipv4: https://www.youtube.com/watch?v=8OxIV7o6OCY
+    * storybook
     * js
         * angular
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a

@@ -1,6 +1,34 @@
 JS - console.log
 ################
 
+Don t use console.log anymore
+*****************************
+
+:source: https://medium.com/productops/preventing-accessibility-regressions-in-angular-fd29bef6d55e
+
+as in this angular project, create an object which will use console log but only in development not in prod
+
+Example:
+
+.. code-block:: typescript
+
+    import { environment } from '../environments/environment';
+
+    export class Logger {
+
+      static log(msg: string | object): void {
+        if (!environment.production) {
+          console.log(msg);
+        }
+      }
+
+      static error(msg: string): void {
+        if (!environment.production) {
+          console.error(msg);
+        }
+      }
+    }
+
 Don t underestimate console oject
 *********************************
 
