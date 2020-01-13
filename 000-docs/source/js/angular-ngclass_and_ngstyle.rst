@@ -14,7 +14,7 @@ NgClass can take the following as input:
 Exemple
 =======
 
-..code-block:: js
+.. code-block:: js
 
     <!-- Native Class and Style Attributes -->
     <input class="is-danger my-button" style="border: none; color: blue">
@@ -44,7 +44,7 @@ Ngstyle
 Example
 =======
 
-..code-block:: js
+.. code-block:: js
 
     <!-- ngStyle -->
     <input [ngStyle]="{'border': borderProp, 'color': colorProp}">

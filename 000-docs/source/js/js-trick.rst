@@ -4,7 +4,7 @@ JS - Trick
 Auto-reload
 ***********
 
-..code-block:: JS
+.. code-block:: JS
 
     npm i -g http-server
     cd <static file dir>

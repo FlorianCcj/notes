@@ -22,7 +22,7 @@ ES2018
     * :code:`[...array1]`
     * :code:`const fn = (a,b,..restOfTheArgs) => {...}`
 
-        * ..code-block:: js
+        * .. code-block:: js
 
             const sum = (a,b,...otherNums) => {
             return a + b + otherNums.reduce((x,y)=>x+y, 0);

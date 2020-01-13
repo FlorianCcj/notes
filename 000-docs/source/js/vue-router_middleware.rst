@@ -1,7 +1,7 @@
 Vue - Router Middleware
 #######################
 
-..code-block:: js
+.. code-block:: js
 
     const Root = { template: '<div>Root</div>' }
     const Page1 = { template: '<div>Page1</div>' }

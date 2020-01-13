@@ -2,7 +2,7 @@ Git - gitconfig
 ###############
 # ~/.gitconfig
 
-..code-block:: bash
+.. code-block:: bash
 
 	[push]
 		default = simple

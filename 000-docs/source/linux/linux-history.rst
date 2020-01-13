@@ -11,7 +11,7 @@ no need export
 zsh
 ***
 
-..code-block:: bash
+.. code-block:: bash
     
     #!/bin/zsh
     \history -i

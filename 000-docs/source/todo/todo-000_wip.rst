@@ -119,8 +119,6 @@ Doc to read/to write
   - https://lyrislaser.com/wp-content/uploads/2014/08/Pai-Sho-Rules-Gameplay.pdf
   - https://www.jeuxavolonte.asso.fr/regles/le_donjon_de_naheulbeuk.pdf
 
-# Let A and B be two very large arrays of integers, both sorted. Write a function that takes in array A and B and returns an array which represents intersection of A and B, i.e. the set of elements present in both.
-
 
 - laver - le four
 - manga:

@@ -7,7 +7,7 @@ Array
 find
 ====
 
-..code-block:: js
+.. code-block:: js
 
     const numbers = [1, 2, 3, 4, 10];
     numbers.find( x => x === 4 ); // returns 4
@@ -16,7 +16,7 @@ find
     const itemPresent = numbers.find( x => x === 4 );
     return itemPresent ? true : false;
 
-..code-block:: js
+.. code-block:: js
 
     const people = [ 
     { name: 'test1', id: 1 , email: 'test1@test.com'},
@@ -31,7 +31,7 @@ find
 findIndex()
 ===========
 
-..code-block:: js
+.. code-block:: js
 
     const numbers = [1, 2, 3, 4, 10];
     numbers.findIndex( x => x === 4 ); // returns 3
@@ -40,13 +40,13 @@ findIndex()
 filter()
 ========
 
-..code-block:: js
+.. code-block:: js
 
     const numbers = [1, 2, 3, 4, 10];
     const evenNumbers = numbers.filter( x => x % 2 === 0 ); 
     console.log(evenNumbers); // returns [2, 4, 10]
 
-..code-block:: javascript
+.. code-block:: javascript
 
     const items = [ 
         { name: 'item1', id: 1 , price: 200 },
@@ -80,7 +80,7 @@ filter()
 includes()
 ==========
 
-..code-block:: js
+.. code-block:: js
 
     const cars = ['BMW', 'Toyota', 'Tesla', 'Audi'];
     console.log(cars.includes('Toyota'));  // true
@@ -89,7 +89,7 @@ includes()
 Spread operator
 ===============
 
-..code-block:: js
+.. code-block:: js
 
     const cars = ['BMW', 'Toyota', 'Tesla', 'Audi'];
     let newCarsArray = [...cars]; 
@@ -109,7 +109,7 @@ Strings
 startsWith()
 ============
 
-..code-block:: js
+.. code-block:: js
 
     const str = 'Hello world, welcome to the javascript.';
     console.log(str.startsWith('Hello')); // true
@@ -118,7 +118,7 @@ startsWith()
 endWith()
 =========
 
-..code-block:: js
+.. code-block:: js
 
     const str = 'Hello world, welcome to the javascript.';
     console.log(str.endsWith('javascript.')); // true
@@ -127,7 +127,7 @@ endWith()
 includes()
 ==========
 
-..code-block:: js
+.. code-block:: js
 
     var str = "Hello world, welcome to the universe.";
     console.log(str.includes("world")); // true
@@ -139,7 +139,7 @@ Object
 Creating and copying objects
 ============================
 
-..code-block:: js
+.. code-block:: js
 
     const dest1 = { a: 1};
     const source = { b: 2, c: 3};
@@ -154,19 +154,19 @@ Creating and copying objects
     Object.assign(dest2, source1,source2);
     console.log(dest2);  // {aa: 1, bb: 2, cc: 3, dd: 4, ee: 5}
 
-..code-block:: js
+.. code-block:: js
 
     const original = { a: 1};
     const copyObject = Object.assign({},original);
     console.log(copyObject); // { a: 1};
 
-..code-block:: js
+.. code-block:: js
 
     const original = { a: 1};
     const copyObject = {...original}
     console.log(copyObject); // { a: 1};
 
-..code-block:: js
+.. code-block:: js
 
     let source = 
 
@@ -181,17 +181,6 @@ Creating and copying objects
     };
 
     let destObj = JSON.parse(JSON.stringify(obj));
-
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
-..code-block:: js
 
 Sources
 *******

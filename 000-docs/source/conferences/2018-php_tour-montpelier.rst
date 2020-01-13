@@ -78,7 +78,7 @@ en realité le process va rarement faire appel au kernell, il va passer par des 
     * :code:`strace -e "read,write,connect" php ws_call.php`
     * :code:`ltrace -e "SSL_read,SSL_write" php ws_call.php` on option des pointeurs sur la memoire ...
     * vi ~/.ltrace.conf
-        * ..code-block:: ini
+        * .. code-block:: ini
 
             int SSL_write(void *, string, int)
             # ne marche pas car c est apres que la command soit executé que l on a le string en clair
