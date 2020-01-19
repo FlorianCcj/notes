@@ -258,10 +258,15 @@ Doc to read/to write
     * bon cours go: https://www.youtube.com/watch?v=M-u7svEYvSI
     * Hitler veut du ipv4: https://www.youtube.com/watch?v=8OxIV7o6OCY
     * storybook
+    * https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/linPEAS/linpeas.sh
+    * https://medium.com/@michael.karen/learning-modern-javascript-with-tetris-92d532bcd057
     * js
+        * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
             * https://levelup.gitconnected.com/ngrx-and-angular-route-guards-a3fc3d5255f8
+            * https://medium.com/wizdm-genesys/rendering-text-with-style-in-angular-b006bdb945e7
+            * https://medium.com/better-programming/how-to-handle-async-providers-in-angular-51884647366
         * react
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
             * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
@@ -271,8 +276,11 @@ Doc to read/to write
                 * https://itnext.io/using-google-sheets-as-a-database-for-react-apps-6c15b4481680
             * hook:
                 * https://github.com/antonioru/beautiful-react-hooks
+                * https://itnext.io/optimizing-react-code-with-hooks-3eaaf5978351
     * cloud
         * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
+        * https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes/
+        * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
 
 Document history
 ================
