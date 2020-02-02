@@ -1,8 +1,8 @@
 Duolingo - Italian - Voc
 #########################
 
-1-1 Basics
-**********
+ITA-01-1-01 Basics
+******************
 
 (P) I : Io
 (N) sugar: zucchero
@@ -21,8 +21,8 @@ book: il libro
 write: scrivere
 newspapper: giornale
 
-1-4 Food
-********
+ITA-04-1-04 Food
+****************
 
 the bottle: la bottiglia
 beef: manzo
@@ -60,8 +60,8 @@ he cuts: taglia
 boils: bolle
 he cooks: cucina
 
-1-5 Plurals
-***********
+ITA-05-1-05 Plurals
+*******************
 
 cats: i gatte
 dogs: i cani

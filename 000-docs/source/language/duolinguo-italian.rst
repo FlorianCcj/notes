@@ -1,8 +1,8 @@
 Duolingo - Italian
 ##################
 
-1-1 Basics
-**********
+ITA-01-1-01 Basics
+******************
 
 (V) I drink: Io bevo
 You eat sugar: Io mangio lo zucchero
@@ -14,8 +14,8 @@ You drink water: Tu bevi l'acqua
 The woman drinks: La donna beve
 I am a girl: Io sono una ragazza
 
-1-2 Basics 2
-************
+ITA-02-1-02 Basics 2
+********************
 
 To be
 =====
@@ -54,8 +54,8 @@ you read a book: Tu leggete un libro
 in the sugar: Nello zucchero
 I write to the children: Io scrivo ai ragazzi
 
-Ciao !
-******
+ITA-03-1-03 Ciao !
+******************
 
 good morning: Buongiorno
 good afternoon: Buonasera
@@ -74,8 +74,8 @@ pardon: prego
 goodbye: arrivedesci
 sorry: spaciente
 
-Food
-====
+ITA-04-1-04 Food
+****************
 
 chocolate cream => cream al cioccolato
 coffee ice-cream => gelato al caffe

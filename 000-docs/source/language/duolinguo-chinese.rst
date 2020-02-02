@@ -1,8 +1,8 @@
 Duolingo - Chinese
 ##################
 
-1-1 Greeting
-************
+CHN-01-1-01 Greeting
+********************
 
 ni3hao3: hello
 ha3o: good
@@ -18,8 +18,8 @@ ma3: horse
 ma4: to scold
 yuan: chinese money
 
-1-3 Name
-********
+CHN-03-1-03 Name
+****************
 
 ni3 jia4o she2nme?: What's your name?
 ni3 xi4ng she2nme?: What's your last name?

@@ -1,8 +1,8 @@
 Duolingo - German
 #################
 
-1-1 Basics
-**********
+DEU-01-1-01 Basics
+******************
 
 A man drinks: Ein Mann trinkt
 Does he drink: Trinkt er ?
@@ -21,8 +21,8 @@ we are: wir sind
 you all are: ihr seid
 they are: sie sind
 
-1-3 Basics 2 (Plural)
-*********************
+DEU-03-1-03 Basics 2 (Plural)
+*****************************
 
 der Mann => die Ma.nner
 das Kind => die Kinder
@@ -33,8 +33,8 @@ das Ma.dchen => die Ma.dchen
 We are woman you are men: Wir sind Frauen und ihr seid Manner
 That is a man: Das ist ein Mann
 
-1-4 Phrases
-***********
+DEU-04-1-04 Phrases
+*******************
 
 Guten Morgen!
 =============
@@ -54,14 +54,14 @@ No, no idea: Nein, kein Ahnung
 All right, see you tomorow: Alles klar, bis Morgen!
 you're welcome: gern geschehen
 
-1-5 Acc case
-************
+DEU-05-1-05 Acc case
+********************
 
 der Apfel => Ich habe den Apfel
 ein Apfel => Ich esse einen Apfel
 
-1-6 Intro
-*********
+DEU-06-1-06 Intro
+*****************
 
 You come from Germany: Du kommst aus Deutschland
 Do you come from Germany: Kommst du aus Deutschland
