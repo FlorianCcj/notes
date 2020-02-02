@@ -71,3 +71,44 @@ We understand: Wir verstehen
 Do you speak German: Sprichst du Deutsch?
 He speak english: Er spricht Englisch
 I speak: Ich spreche
+
+DEU-07-1-07 Food 1
+******************
+
+Let's eat
+=========
+
+ich esse
+du isst
+er/sie/es isst
+wir essen
+ihr esst
+sie essen
+
+Feed me
+=======
+
+Ich habe Hunger: I am hungry
+Ich habe Durst: I am thirsty
+
+Phrases
+=======
+
+Die Pizza schmeckt gut: The pizza tastes gut
+Zucker ust suss: sugar is sweet
+
+DEU-08-1-08 Animal 1
+********************
+
+Eating like...!
+===============
+
+Essen (for animals) = fressen
+
+Frankenwordes
+=============
+
+das Haus (home) + das Tier (animal) = das Haustier
+die Orange + der Saft = der Orangesaft
+
+The gender is always whatever gender the last word in the combo-word

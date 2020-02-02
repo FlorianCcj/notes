@@ -1,37 +1,85 @@
 Duolingo - German - Voc
 ########################
 
-1-1 Basics
-**********
+DEU-01-1-01 Basics
+******************
 
-(N) Child: Das Kind
-(P) She: Sie
-(V) I am: Ich bin
-(V) He drinks: Er trinkt
-(N) Bread: Das Brot
-(P) And: Und
-the Water: Das Wasser
-You are: Du bist
-The man: Der Mann
-The woman: Die Frau
-The boy: Der Junge
+Sie: (P) She
+Und: (P) And
 
-1-5 Acc case
-************
+Ich bin: (V) I am
+Du bist: You are
+Er trinkt: (V) He drinks
 
-milk: Milch
-exactly: genau
-unfortunately: leider
+Das Brot: (N) Bread
+Die Frau: The woman
+Der Junge: The boy
+Das Kind: (N) Child
+Der Mann: The man
+Das Wasser: the Water
 
-1-6 Intro
-*********
+DEU-05-1-05 Acc case
+********************
 
-England: England
+Milch: milk
+genau: exactly
+leider: unfortunately
+
+DEU-06-1-06 Intro
+*****************
+
 Berlin: Berlin
-You come: Du kommst
 Chicago: Chicago
-Great Britain: Grossbritannien
+Deutschland: Germany
+England: England
+Frankreich: France
+Grossbritannien: Great Britain
 Hamburg: Hamburg
-Austria: O.sterreich
-Germany: Deutschland
-France: Frankreich
+O.sterreich: Austria
+
+Du kommst: You come
+
+DEU-07-1-07 Food 1
+******************
+
+?? Eis: ice cream
+die Erdebeer: the strawberry
+das Fleisch: the meat
+das Gemu.se: the vegetables
+?? Kafee: the coffee
+?? Kartoffel: The potato
+des Kase: the cheese
+?? Nudeln: the noodle
+?? Obst: the fruit
+?? O.l: the oil
+?? Reis: the rice
+der Salz: the salt
+die Schokolade: the chocolate
+der Tee: the tea
+
+frisch: fresh
+lecker: tasty
+das Essen: the food
+
+DEU-08-1-08 Animal 1
+********************
+
+?? Fliege: the fly
+das Haustier: the pet
+?? Insect: the insect
+su.ss: cute
+das Tier: the animal
+
+der Ba.r: the bear
+?? Bienne: the bee
+?? Elefant: the elephant
+die Ente: the duck
+?? Hund: the dog
+?? Ka.fer: the beetle
+die Katze: the cat
+die Kuh: the cow
+die Maus: the mouse
+?? Pferd: the horse
+das Schwein: the pig
+die Spinne: the spider
+der Vogel: the bird
