@@ -4,6 +4,9 @@ Todo - Manga
 Aiki
 ====
 
+A Returner s Magic Should Be Special
+====================================
+
 Ares
 ====
 
@@ -34,6 +37,12 @@ Sites:
 - http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1
 - https://www.japanread.cc/manga/douluo-dalu/121
 
+Dimensional Mercenary
+=====================
+
+Dreamland
+=========
+
 duds hunt
 =========
 
@@ -54,6 +63,9 @@ Sites:
 - https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5
 - https://www.lelscan-vf.com/manga/fairy-tail-100-years-quest/33/20
 
+Fairy_Tail_100_Years_Quest
+==========================
+
 Hikaru no go
 ============
 
@@ -61,6 +73,17 @@ hunterXhunter
 =============
 
 - https://www.scan-vf.co/hunter-x-hunter (188-390)
+
+I Am The Sorcerer King
+======================
+
+Manhua Release That Witch
+=========================
+
+Sorciere mal accepter, concurence de prince, in prince accepte les sorcieres
+
+Manhua Supreme Spirit Master
+============================
 
 Mar
 ===
@@ -98,6 +121,9 @@ one punch man
 reset
 =====
 
+Shikkaku Mon No Saikyou Kenja
+=============================
+
 shokugeki no souma
 ==================
 
@@ -116,6 +142,8 @@ Solo leveling
 Tales of Demons and Gods
 ========================
 
+Reincarnation, homme vs bete
+
 * dwl 1 - 200
 * good order: 1 -> 34
 
@@ -124,6 +152,18 @@ Sites:
 - https://www.mangakawaii.to/manga/yaoshenji/23/1
 - http://www.scan-op.com/manga/tales-of-demons-and-gods/1/1
 - https://www.lelscan-vf.com/manga/tales-of-demons-and-gods/232.5/12
+
+The Dungeon Master
+==================
+
+The Gamer
+=========
+
+The God of High School
+======================
+
+The Legendary Moonlight Sculptor
+================================
 
 wanted
 ======
