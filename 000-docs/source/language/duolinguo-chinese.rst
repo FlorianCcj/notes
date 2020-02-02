@@ -29,15 +29,16 @@ ni3 jia4o she2nme mi2ngzi4?: What's your name?
 wo3 mi2ngzi4 jia4o Zhang Hua: my name is Zhang Hua
 wo3 xi4ng Zhang: My last name is Zhang
 
-1-4 Greetings 2
-***************
+CHN-04-1-04 Greetings 2
+***********************
 
-Li Hua he3n ga1oi4ng: Li Hua is happy
+Li Hua he3n ga1oxi4ng: Li Hua is happy
 ni3 xi4ng Wang, wo3 ye3 xi4ng Wang: Your last name is Wang, my last name is Wang too
 ni3 ye3 re4nshi2 Li Hua: You know Li Hua too
 wo3 he3n ga1oxi4ng re4nshi2 ni3: Nice to meet you
 
-1-5 Food 1
+CHN-05-1-05 Food 1
+******************
 
 bu4: not
 chi1: eat

@@ -28,6 +28,7 @@ mi2ng: (like in mi2ngzi4)
 zi4: (like in mi2ngzi4)
 ye3: also, too
 he3n: very
+shi4: to be
 re4n: (like in re4nshi2: to know)
 shi2: (like in re4nshi2: to know)
 bu4: not
