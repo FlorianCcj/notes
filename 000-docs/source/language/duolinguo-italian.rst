@@ -89,3 +89,75 @@ lui/lei cucina
 noi cuciniamo
 voi cuciniate
 loro cucinano
+
+ITA-06-1-06 Animals
+*******************
+
+Question
+========
+
+Is it a bird?: E un ucello?
+It is a bird: E un ucello
+
+Nello zoo
+=========
+
+In + il => nel
+In + lo => nello
+
+Phrases
+=======
+
+The chicken is a bird: Il pollo e un ucello
+I do not have a cat: Non ho un gatto
+The dog eats an ant: Il cane mangia una formica
+
+ITA-07-1-07 Food
+****************
+
+Fruits are generaly feminine
+The fruit in masculine is the tree
+
+Ho fame
+=======
+
+I am hungry: Io ho fame
+
+Phrases
+=======
+
+The orange is sweet: L arancia e dolce
+They eat jam: Mangiano la marmellata
+The fruit has a sweet taste: La frutta ha un gusto dolce
+She has a grill: Lei ha una griglia
+The jam has an acidic taste: La marmellata a un gusto acido
+
+ITA-08-1-08 Possession
+**********************
+
+Oh my !
+=======
+
+il mio/mia
+il tio/tua
+il suo/sua
+il nostro/nostra 
+il vostro/vostra
+il loro/loro
+
+for several thing
+
+il miei/mie
+il tuoi/tue
+il suoi/sue
+il nostri/nostre
+il vostri/vostre
+il loro/loro
+
+la propia torta: one's own cake
+
+mine mine mine
+==============
+
+E il mio gatto: it is my cat
+Il gatto e mio: the cat is mine
