@@ -125,6 +125,42 @@ source dinvestissement
 * la bourse
 * monter sa propre affaire
 
+Comment Choisir Les Meilleurs ETF | Guide d'Achat Des ETF | Partie 2
+********************************************************************
+
+:source: https://www.youtube.com/watch?v=C_oDyDc3wT4
+
+Investissement intelligent
+where to buy it: BlackRock, LyxorEtf, Vanguard, Amundi
+
+Replication synthetique
+=======================
+
+take an example: LYXOR PEA DOW JONES INDUSTRIAL AVERAGE UCITS ETF CAPI
+* LYXOR: Le fournisseur
+* PEA: eligible au PEA (PEA -> synthetique)
+* DOW JONES INDUSTRIAL AVERAGE type d indice que l ETF va repliquer
+* UCITS: suis la reglementation europeenne
+* ETF: it is a ETF
+* CAPI: pas de dividende, reinvestissement imediat (sinon DIST)
+
+Replication Physique
+====================
+
+example: LYXOR EURO STOXX 50 (DR) UCITS ETF DIST
+* LYXOR: fournisseur
+* EURO STOXX 50: indice de reference
+* (DR): replication direct
+* UCITS: suis la european law
+* ETF: etf
+* DIST: dividende DISTtribution
+
+Comment choisir son ETF
+=======================
+
+4 pilliers fondemmentaux:
+* choix de l indice: quel indice sous-jacent
+
 Le Triangle de la Richesse: Stratégie en 3 étapes
 *************************************************
 
