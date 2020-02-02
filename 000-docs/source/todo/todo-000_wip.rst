@@ -260,14 +260,21 @@ Doc to read/to write
     * storybook
     * https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/linPEAS/linpeas.sh
     * https://medium.com/@michael.karen/learning-modern-javascript-with-tetris-92d532bcd057
+    * https://www.amen.fr/nom-de-domaine/
+    * https://www.cnil.fr/fr/guide-rgpd-du-developpeur
+    * https://manticoresearch.com/
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
+            * https://medium.com/angular-in-depth/angular-workspace-no-application-for-you-4b451afcc2ba
+            * https://medium.com/@michael.karen/angular-library-tutorial-46a7e1b129b3
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
             * https://levelup.gitconnected.com/ngrx-and-angular-route-guards-a3fc3d5255f8
             * https://medium.com/wizdm-genesys/rendering-text-with-style-in-angular-b006bdb945e7
             * https://medium.com/better-programming/how-to-handle-async-providers-in-angular-51884647366
+            * https://medium.com/@OlegVaraksin/designing-scalable-angular-applications-6629b5158277
         * react
+            * https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
             * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
             * redux:
@@ -277,10 +284,12 @@ Doc to read/to write
             * hook:
                 * https://github.com/antonioru/beautiful-react-hooks
                 * https://itnext.io/optimizing-react-code-with-hooks-3eaaf5978351
+                * https://www.telerik.com/kendo-react-ui/react-hooks-guide/?utm_medium=cpm&utm_source=reactstatus&utm_campaign=kendo-ui-react-blog-react-hooks-guide&utm_content=sponsored-link
     * cloud
         * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
         * https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes/
         * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
+        * https://collabnix.github.io/kubelabs/
 
 Document history
 ================
