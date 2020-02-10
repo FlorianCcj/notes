@@ -53,6 +53,7 @@ Yes, I am well/fine: Ja mir geht's gut
 No, no idea: Nein, kein Ahnung
 All right, see you tomorow: Alles klar, bis Morgen!
 you're welcome: gern geschehen
+Schon gut: All right!
 
 DEU-05-1-05 Acc case
 ********************
