@@ -24,6 +24,7 @@ git remote
 **********
 
 git remote -v: print remote origin
+git remote prune origin: remoev useless branch
 
 git log
 *******
