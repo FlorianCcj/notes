@@ -123,8 +123,6 @@ CHN-11-2-05 Phrases 1
 * qi4: (like in bu3ke4qi4: You are welcome)
 * gua1n: (like in me2igua1nqi2: no worries)
 * qi2: (like in me2igua1nqi2: no worries)
-* a4i: love
-* xi4:
 
 CHN-12-2-06 Family 1
 ********************
@@ -145,7 +143,7 @@ CHN-12-2-06 Family 1
 * yo3u: to have
 * he2: and
 
-jia1ren: family
+jia1re2n: family
 
 CHN-13-2-07 Phrases 2
 *********************

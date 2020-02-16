@@ -204,7 +204,7 @@ Phrases
 * wo3 a4i wo3 de jia1ren: I love my family
 * na4 shi2 ta1men de yi1she1ng: That is their doctor
 * na4 ge4 re4n shi2 she2i ?: Who is that person ?
-* zhe4 ge4 re4n shi2 she2i ?: Who is that person ?
+* zhe4 ge4 re4n shi2 she2i ?: Who is this person ?
 * na4 ge4 shi2 wo3 de dia4nhua4 ha4oma3: That is my phone number
 * na4 shi2 ta1men de yi1she1ng: That is their doctor
 * wo3 de jie3jie he3n ma2ng: My sister is busy
@@ -213,7 +213,9 @@ Phrases
 * ma1ma yo3u sa1n ge4 ge1ge: Mom has three older brothers
 * Wang yi1she1ng yo3u wu3 ge4 me4imei: Doctor Wang has five younger sisters
 * zhe4 shi2 wo3 de ba4ba he2 ma1ma: This is my father and mother
-* li la3oshi1 me2iyo3u di4di: Teacher Li does not have a younger brother
+* li3 la3oshi1 me2iyo3u di4di: Teacher Li does not have a younger brother
+* zhe4 ge4 shi4 ni3 de ba4ba ma?: is this person your papa
+* na3 ge4 re2n shi4 wo3men de yi1she1ng: That person is our doctor
 
 CHN-13-2-07 Phrases 2
 *********************
