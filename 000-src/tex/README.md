@@ -35,3 +35,5 @@ http://www.nongnu.org/chktex/ChkTeX.pdf
 
 unwanted spaced => add an empty comment after `{`
 Wrong length of dash may have been used => add `-` or `--` before `-`
+
+https://fr.wikibooks.org/wiki/LaTeX/Options_de_mise_en_forme_avanc%C3%A9es#Cadre_et_couleur_du_fond
