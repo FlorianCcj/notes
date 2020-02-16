@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  sonarqube:
+    build: ./docker
+    volumes:
+      - .mounts/conf:/opt/sonarqube/conf
+      - .mounts/data:/opt/sonarqube/data
+#      - .mounts/extensions:/opt/sonarqube/extensions
+      - .mounts/log:/opt/sonarqube/log
+    environment:
+      sonar.jdbc.username: sonar
+      sonar.jdbc.password: sonar
+    port:
+      - 9000:9000
