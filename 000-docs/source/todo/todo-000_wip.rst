@@ -266,6 +266,7 @@ Doc to read/to write
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
+            * https://timdeschryver.dev/blog/help-angular-to-make-your-application-faster
             * https://medium.com/angular-in-depth/angular-workspace-no-application-for-you-4b451afcc2ba
             * https://medium.com/@michael.karen/angular-library-tutorial-46a7e1b129b3
             * https://levelup.gitconnected.com/a-guide-to-managing-loading-state-for-angular-app-api-requests-83b7429d0e3a
