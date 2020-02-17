@@ -62,3 +62,11 @@ Scanner
 =======
 
 docker run --network=host -ti -v $(pwd):/usr/src sonar-scanner:3.3.3 sonar-scanner -Dsonar.projectKey=<key in sonar> -Dsonar.sources=. -Dsonar.host.url="http://127.0.0.1:9000"
+
+Linter (pylint, hadolint, phpcs)
+Sonar
+Check dependencies security
+scan security (trivy, anchor, docker bench security )
+TU
+Git hook
+check git flow
