@@ -20,7 +20,6 @@ Folder in sulfur
 * plumber
 * clean up kitchen
 * clean up room
-* cv
 * room
 
 Daily
@@ -50,7 +49,6 @@ Daily
 Big project
 ***********
 
-* gn
 * mentalist
 * challenge
 * draw
@@ -61,6 +59,10 @@ Big project
 * fast reading
 * xiehuiguanli
 * mlf
+
+* istqb
+* reseau
+* monitoring
 
 .. _priority:
 
@@ -291,6 +293,8 @@ Doc to read/to write
         * https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes/
         * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
         * https://collabnix.github.io/kubelabs/
+    * quality:
+        * https://www.guru99.com/istqb.html
 
 Document history
 ================
