@@ -113,3 +113,30 @@ das Haus (home) + das Tier (animal) = das Haustier
 die Orange + der Saft = der Orangesaft
 
 The gender is always whatever gender the last word in the combo-word
+
+DEU-09-2-01 Plurals
+*******************
+
+The, the, the or the?!
+======================
+
+Many, many plurals
+==================
+
+DEU-10-2-02 Adjectives
+**********************
+
+DEU-11-2-03 Not
+***************
+
+DEU-12-2-04 Question 1
+**********************
+
+DEU-14-2-05 Present 1
+*********************
+
+DEU-15-2-06 Clothing
+********************
+
+DEU-16-2-07 Nature 1
+********************

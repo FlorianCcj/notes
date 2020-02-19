@@ -83,3 +83,24 @@ die Maus: the mouse
 das Schwein: the pig
 die Spinne: the spider
 der Vogel: the bird
+
+DEU-09-2-01 Plurals
+*******************
+
+DEU-10-2-02 Adjectives
+**********************
+
+DEU-11-2-03 Not
+***************
+
+DEU-12-2-04 Question 1
+**********************
+
+DEU-14-2-05 Present 1
+*********************
+
+DEU-15-2-06 Clothing
+********************
+
+DEU-16-2-07 Nature 1
+********************
