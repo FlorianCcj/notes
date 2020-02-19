@@ -1,6 +1,6 @@
 Check style:
 
-ansible-playbook install.yml --syntax-check; ansible-playbook service-deploy.yml --syntax-check
+ansible-playbook mlf.yml --syntax-check; ansible-playbook mlf.yml --syntax-check
 
 dry-run:
 
@@ -23,3 +23,4 @@ ansible-playbook mlf.yml --tags "ldap-server"
 - dhcp
 - gestion de doc
 - dns
+- chat (zullip, mattermost, ...)

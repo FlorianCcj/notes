@@ -1,5 +1,5 @@
 mlf_network_name: mlf
-zone_name: "{{ mlf_network_name }}.srv"
+mlf_zone_name: "{{ mlf_network_name }}.srv"
 
 ldap_server_dir: "/var/opt/ldap"
 ldap_server_data_dir: "{{ ldap_server_dir }}/data"

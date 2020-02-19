@@ -1,6 +1,13 @@
-gitlab_omnibus_data_dir: "/var/opt/gitlab-omnibus"
+gitlab_omnibus_data_dir: "/var/opt/gitlab-omnibus/data"
+gitlab_omnibus_log_dir: "/var/opt/gitlab-omnibus/log"
+gitlab_omnibus_config_dir: "/var/opt/gitlab-omnibus/config"
 gitlab_omnibus_host_http_port: 80
 gitlab_omnibus_host_https_port: 443
 gitlab_omnibus_host_ssh_port: 22
 gitlab_omnibus_image_name: gitlab/gitlab-ce
 gitlab_omnibus_image_tag: latest
+
+gitlab_rails_lfs_enabled: true
+gitlab_rails_impersonation_enabled: true
+gitlab_rails_initial_shared_runners_registration_token: hehe
+gitlab_rails_initial_root_password: qwertyuiop

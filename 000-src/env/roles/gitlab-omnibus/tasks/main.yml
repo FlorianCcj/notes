@@ -6,10 +6,17 @@
     mode: 0755
   tags:
     - gitlab-omnibus
-- name: systemd artifactory service
+- name: systemd gitlab-omnibus service
   template:
     src: gitlab-omnibus.service.j2
     dest: /etc/systemd/system/gitlab-omnibus.service
+  notify: restart gitlab-omnibus
+  tags:
+    - gitlab-omnibus
+- name: gitlab-omnibus config
+  template:
+    src: gitlab.rb.j2
+    dest: "{{ gitlab_omnibus_config_dir }}"
   notify: restart gitlab-omnibus
   tags:
     - gitlab-omnibus

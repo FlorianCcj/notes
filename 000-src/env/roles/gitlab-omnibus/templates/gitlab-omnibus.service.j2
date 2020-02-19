@@ -14,9 +14,9 @@ ExecStart=/usr/bin/docker run \
     -p {{ gitlab_omnibus_host_http_port }}:80 \
     -p {{ gitlab_omnibus_host_ssh_port }}:22 \
     -p {{ gitlab_omnibus_host_https_port }}:443 \
-    -v {{ gitlab_omnibus_data_dir }}/data:/var/opt/gitlab:rw \
-    -v {{ gitlab_omnibus_data_dir }}/logs:/var/log/gitlab:rw \
-    -v {{ gitlab_omnibus_data_dir }}/config:/etc/gitlab:rw \
+    -v {{ gitlab_omnibus_data_dir }}:/var/opt/gitlab:rw \
+    -v {{ gitlab_omnibus_log_dir }}:/var/log/gitlab:rw \
+    -v {{ gitlab_omnibus_config_dir }}:/etc/gitlab:rw \
     {{ gitlab_omnibus_image_name }}:{{ gitlab_omnibus_image_tag }}
 ExecStop=/usr/bin/docker stop gitlab-omnibus
 ExecStopPost=-/usr/bin/docker rm gitlab-omnibus

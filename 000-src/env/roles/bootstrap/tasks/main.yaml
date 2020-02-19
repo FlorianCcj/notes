@@ -29,7 +29,6 @@
     - virtualenv
   tags:
     - bootstrap
-  
 
 - name: Install docker-py
   pip:
