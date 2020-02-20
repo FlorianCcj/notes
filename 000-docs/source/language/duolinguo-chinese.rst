@@ -215,7 +215,9 @@ Phrases
 * zhe4 shi2 wo3 de ba4ba he2 ma1ma: This is my father and mother
 * li3 la3oshi1 me2iyo3u di4di: Teacher Li does not have a younger brother
 * zhe4 ge4 shi4 ni3 de ba4ba ma?: is this person your papa
-* na3 ge4 re2n shi4 wo3men de yi1she1ng: That person is our doctor
+* na4 ge4 re2n shi4 wo3men de yi1she1ng: That person is our doctor
+* she2i shi4 ni3 de ba4ba?: Who is your dad?
+* zhe4 shi4 she2nme?: What is that?
 
 CHN-13-2-07 Phrases 2
 *********************

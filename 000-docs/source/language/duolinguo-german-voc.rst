@@ -87,20 +87,66 @@ der Vogel: the bird
 DEU-09-2-01 Plurals
 *******************
 
+
+
 DEU-10-2-02 Adjectives
 **********************
+
+klein: small
+kurz: short
+leicht: light
+round: round
+ruhig: quiet
+schlecht: bad
+schwach: weak
+toll: great
 
 DEU-11-2-03 Not
 ***************
 
+gesund: healthy
+lustig: funny
+fertig: ready
+traurig: sad
+
 DEU-12-2-04 Question 1
 **********************
+
+heiss: hot
+jung: young
+kalt: cold
+sauber: clean
+suss: sweet
+warm: 
 
 DEU-14-2-05 Present 1
 *********************
 
+wollen: to want
+mo.gen: to like
+
 DEU-15-2-06 Clothing
 ********************
 
+trage: to wear
+
 DEU-16-2-07 Nature 1
 ********************
+
+der Baum: the tree
+der Berg: the mountain
+die Blume: the flower
+die Erde: the earth
+das Feuer: the fire
+die Luft: the air
+der Himmel: the sky
+das Meer: the sea
+der Mond: the moon
+die Natur: the nature
+die Sonne: the sun
+der Stern: the star
+der Wind: the wind
+
+gehen: to go
+leben: to live
+sehen: to see
