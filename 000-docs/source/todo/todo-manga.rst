@@ -66,6 +66,13 @@ Sites:
 Fairy_Tail_100_Years_Quest
 ==========================
 
+Hazure Waku no 'Joutai Ijou Skill' de Saikyou ni Natta Ore ga Subete wo Juuri Suru
+==================================================================================
+
+in english: I Became the Strongest With the Failure Frame "Abnormal State Skill" as I Devastated Everything
+
+Invok in an other world by a godess but E rank so kick
+
 Hikaru no go
 ============
 
