@@ -311,6 +311,7 @@ Truncating Array
 ================
 
 .. code-block:: js
+
     var array = [1,2,3,4,5,6];
     console.log(array.length); // 6
     array.length = 3;
@@ -319,6 +320,16 @@ Truncating Array
 
 Boolean
 *******
+
+Optionnal chaining and nulling coalescing
+=========================================
+
+.. code-block:: js
+
+    let thing = obj?.node?.thing ?? 2
+    const tenthItem = arr?.[10]
+    const message = obj?.stringFunction()
+    functionDoesNotExist?.()
 
 Converting to Boolean Using the !! Operator
 ===========================================
@@ -458,6 +469,7 @@ Sources
 * https://medium.com/better-programming/most-useful-javascript-methods-355139f96d7
 * https://medium.com/better-programming/11-extremely-useful-javascript-tips-4484429a5655
 * https://medium.com/better-programming/you-dont-need-loops-in-javascript-1dc8139eab4b
+* https://dev.to/laurieontech/optional-chaining-has-arrived-111l
 
 Document history
 ****************
@@ -465,6 +477,8 @@ Document history
 +------------+---------+--------------------------------------------------------------------+
 | Date       | Version | Comment                                                            |
 +============+=========+====================================================================+
+| 2020.02.20 | V1.0.2  | Optionnal chaining and nulling coalescing                          |
++------------+---------+--------------------------------------------------------------------+
 | 2020.01.19 | V1.0.1  | add how to replace loop                                            |
 +------------+---------+--------------------------------------------------------------------+
 | 2020.01.19 | V1.0.1  | add tips from 11 Extremely Useful JavaScript Tips                  |
