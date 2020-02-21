@@ -265,6 +265,8 @@ Doc to read/to write
     * https://www.amen.fr/nom-de-domaine/
     * https://www.cnil.fr/fr/guide-rgpd-du-developpeur
     * https://manticoresearch.com/
+    * entrepreunariat
+        * https://www.blogduwebdesign.com/logiciels-crm-gratuits/
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
@@ -293,6 +295,7 @@ Doc to read/to write
         * https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes/
         * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
         * https://collabnix.github.io/kubelabs/
+        * https://assets.digitalocean.com/books/kubernetes-for-full-stack-developers.pdf
     * quality:
         * https://www.guru99.com/istqb.html
 
