@@ -10,6 +10,7 @@ ansible-playbook install.yml --check; ansible-playbook service-deploy.yml --chec
 
 
 ansible-playbook mlf.yml --tags "ldap-server"
+ansible-playbook mlf.yml --tags="gitlab-runner"
 
 - vsm
 - ci

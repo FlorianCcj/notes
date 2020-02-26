@@ -1,5 +1,5 @@
 [Unit]
-Description=Start Gitlab-omnibus Server
+Description=Start Gitlab-runner Server
 After=docker.service
 Requires=docker.service
 
@@ -12,19 +12,18 @@ ExecStart=/usr/bin/docker run \
     --name gitlab-runner \
     --hostname gitlab-runner \
     --network=host \
-    -e REGISTRATION_TOKEN={{ gitlab_runner_registration_token }} \ {# runner_shared_token #}
-    -e CI_SERVER_URL={{ gitlab_runner_ci_server_url }} \ {# http://localhost:4080 #}
+    -e REGISTRATION_TOKEN={{ gitlab_runner_registration_token }} \
+    -e CI_SERVER_URL={{ gitlab_runner_ci_server_url }} \
     -e RUNNER_EXECUTOR=docker \
-    -e DOCKER_IMAGE={{ gitlab_runner_docker_image }} \ {# debian:latest #}
+    -e DOCKER_IMAGE={{ gitlab_runner_docker_image }} \
     -e RUNNER_NAME=runner-127.0.0.1 \
-    -v /var/run/docker.sock:/var/run/docker.sock
-    -v /var/opt/gitlab-runner/config/runner:/etc/gitlab-runner \
+    -v /var/run/docker.sock:/var/run/docker.sock \
     -v /usr/bin/docker:/bin/docker \
+    -v {{ gitlab_runner_conf_dir }}:/etc/gitlab-runner \
     -p 80:80 \
     -p 8080:9252 \
-    gitlab-runner:v12.1.0 \
+    gitlab/gitlab-runner:v12.1.0 \
     register --docker-volumes /var/run/docker.sock:/var/run/docker.sock --docker-volumes /usr/bin/docker:/bin/docker -n
-    # -e DOCKER_PRIVILEGED="true"
 ExecStop=/usr/bin/docker stop gitlab-runner
 ExecStopPost=-/usr/bin/docker rm gitlab-runner
 

@@ -6,4 +6,5 @@
     - bootstrap
     - ldap
     - gitlab-omnibus
+    - gitlab-runner
     - nexus3
