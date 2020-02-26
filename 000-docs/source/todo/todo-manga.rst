@@ -172,6 +172,11 @@ The God of High School
 The Legendary Moonlight Sculptor
 ================================
 
+The last human
+==============
+
+roll back in is own corpse, post apo
+
 wanted
 ======
 

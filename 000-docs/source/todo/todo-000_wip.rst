@@ -270,6 +270,7 @@ Doc to read/to write
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
+            * https://itnext.io/clean-code-checklist-in-angular-%EF%B8%8F-10d4db877f74
             * https://timdeschryver.dev/blog/help-angular-to-make-your-application-faster
             * https://medium.com/angular-in-depth/angular-workspace-no-application-for-you-4b451afcc2ba
             * https://medium.com/@michael.karen/angular-library-tutorial-46a7e1b129b3
@@ -296,6 +297,12 @@ Doc to read/to write
         * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
         * https://collabnix.github.io/kubelabs/
         * https://assets.digitalocean.com/books/kubernetes-for-full-stack-developers.pdf
+    * menta
+        * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
+        * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
+        * https://apprendre-la-communication-non-verbale.com/comment-observer-langage-corporel/
+        * https://apprendre-la-communication-non-verbale.com/comment-lire-langage-corporel/
+        * https://apprendre-la-communication-non-verbale.com/comment-lire-gens/
     * quality:
         * https://www.guru99.com/istqb.html
 
