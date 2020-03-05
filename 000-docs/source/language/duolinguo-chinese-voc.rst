@@ -1,56 +1,99 @@
 Duolingo - Chinese - Voc
 #########################
 
-* yi1: 1
-* e4r: 4
-* sa1n: 3
-* si4: 4
-* wu3: 5
-* liu4: 6
-* qi1: 7
-* ba1: 8
-* jiu4: 9
-* shi2: 10
+CHN-01-1-01 Greeting 1
+**********************
 
-* wo3: I
-* ni3: you
+* ni3 (你): you
+* ha3o (好): good
+* za4i (再): (like in za4ijia4n: goodbye)
+* jia4n (见): (like in za4ijia4n: goodbye)
+
+* ni3hao3: hello
 * ha3o: good
-* za4i: (like in za4ijia4n: goodbye)
-* jia4n: (like in za4ijia4n: goodbye)
+* za4ijia4n: goodbye
+
+CHN-02-1-02 Numbers
+*******************
+
+* li2ng (零): 0
+* yi1 (一): 1
+* e4r (二): 2
+* sa1n (三): 3
+* si4 (四): 4
+* wu3 (五): 5
+* liu4 (六): 6
+* qi1 (七): 7
+* ba1 (八): 8
+* jiu4 (九): 9
+* shi2 (十): 10
+* ba3i (百): 100
+* yuan (元): chinese money
+
+* ga1oxi4ng: happy
+* ma1: mother
+* ma2: hemp
+* ma3: horse
+* ma4: to scold
 * yuan: chinese money
-* xi4ng: last name
-* ga1o: (like in ga1oxi4ng: happy)
-* xi4ng: (like in ga1oxi4ng: happy)
-* jia4o: (like in wo3 jia4o Li Hua: My name is Li Hua)
-* she2n: (like in she2nme: what/how)
-* me: (like in she2nme: what/how)
-* mi2ng: (like in mi2ngzi4)
-* zi4: (like in mi2ngzi4)
-* ye3: also, too
-* he3n: very
-* shi4: to be
-* re4n: (like in re4nshi2: to know)
-* shi2: (like in re4nshi2: to know)
-* bu4: not
-* chi1: eat
-* he1: drink
-* yu2: fish
-* f4n: rice
-* cha2: tea
-* mia4n: noodles
-* shui3: water
-* ta1: he/him
-* ta1: she/her
-* ta1: it
-* qu4: to go
-* ma: question mark
-* men: plural mark
-* xue2: study
-* she1ng: (like in xue2she1ng: student or yi1she1ng: doctor)
-* la3o: (like in la3oshi1: teacher)
-* shi1: (like in la3oshi1: teacher)
-* yi1: (like in yi1she1ng: doctor)
-* dui4: right, correct
+
+CHN-03-1-03 Name
+****************
+
+* li3 (李): name of someone
+* hua2 (华): name of someone
+* wa2ng (王): name of someone
+* zhang (张): name of someone
+* ming (明): name of someone
+
+* jia4o (叫): (like in jia4o: s'appeler)
+* me (么): (like in she2nme: what/how)
+* mi2ng (名): (like in mi2ngzi4)
+* ne (呢): (like in ni3ne: what about you)
+* she2n (什): (like in she2nme: what/how)
+* shi4 (是): to be
+* xi4ng (姓): last name
+* wo3 (我): I
+* zi4 (字): (like in mi2ngzi4)
+
+CHN-04-1-04 Greetings 2
+***********************
+
+* ga1o (高): (like in ga1oxi4ng: happy)
+* he3n (很): very
+* re4n (认): (like in re4nshi2: to know)
+* shi2 (识): (like in re4nshi2: to know)
+* xi4ng (兴): (like in ga1oxi4ng: happy)
+* ye3 (也): also, too
+
+CHN-05-1-05 Food 1
+******************
+
+* bu4 (不): not
+* cha2 (茶): tea
+* chi1 (吃): eat
+* fa4n (饭): rice
+* fe1i (啡): (like in ka1fe1i: coffee)
+* he1 (喝): drink
+* ka1 (咖): (like in ka1fe1i: coffee)
+* mia4n (面): noodles
+* shui3 (水): water
+* yu4 (鱼): fish
+
+CHN-06-1-06 occupation
+**********************
+
+* la3o (老): (like in la3oshi1: teacher)
+* ma (吗): question mark
+* men (们): plural mark
+* qu4 (去): to go
+* she1ng (生): (like in xue2she1ng: student or yi1she1ng: doctor)
+* shi1 (师): (like in la3oshi1: teacher)
+* ta1 (他): he/him
+* ta1 (她): she/her
+* ta1 (它): it
+* xue2 (学): study (like in xue2she1ng: student)
+* yi1 (医): (like in yi1she1ng: doctor)
 
 CHN-07-2-01 Contact
 *******************
@@ -59,20 +102,20 @@ CHN-07-2-01 Contact
 * sha3o: (like in duo1sha3o: how much)
 * ha4o: (like in ha4nma3: number)
 * ma3: (like in ha4nma3: number)
-* dia4n: (like in dia4nhua4: phone)
+* dia4n (电): (like in dia4nhua4: phone)
 * hua4: (like in dia4nhua4: phone)
 
 CHN-08-2-02 Nation
 ******************
 
-* zho1ng: (zho1ngguo2: china)
-* guo2: (zho1ngguo2: china)
-* re2n: people
-* me4i: (me4iguo2: america)
+* zho1ng: (like in zho1ngguo2: china)
+* guo2: 国 (like in zho1ngguo2: china)
+* re2n: 人 people
+* me4i: (like in me4iguo2: america)
 * jia1: (like in jia1na2da4: canada)
 * na2: (like in jia1na2da4: canada)
 * da4: (like in jia1na2da4: canada)
-* yi1ng: (yi1ngguo2: England)
+* yi1ng: 英 (like in yi1ngguo2: England)
 * do1u: all
 * dui4: right
 
@@ -82,7 +125,7 @@ CHN-09-2-03 Greetings 3
 * za3o: (like in za3osha4ng: morning)
 * sha4ng: (like in za3osha4ng: morning)
 * ma2ng: busy
-* ji1n: (like in ji1ntia1n: today)
+* ji1n: 今, (like in ji1ntia1n: today)
 * tia1n: (like in ji1ntia1n: today)
 * ze3n: (like in ze3nmeya4ng: how)
 * ya4ng: (like in ze3nmeya4ng: how)
@@ -121,13 +164,18 @@ CHN-11-2-05 Phrases 1
 * xie4: (like in xie4xie: thanks)
 * ke4: (like in bu3ke4qi4: You are welcome)
 * qi4: (like in bu3ke4qi4: You are welcome)
-* gua1n: (like in me2igua1nqi2: no worries)
-* qi2: (like in me2igua1nqi2: no worries)
+* gua1n: (like in me2igua1nxi?: no worries)
+* xi4: (like in me2igua1nqi2: no worries)
+* qi3: (like in dui4bu3qi3: Sorry)
+
+* dui4bu3qi3: Sorry
+* me2igua1nqi2: no worries
+* bu3ke4qi4: You are welcome
 
 CHN-12-2-06 Family 1
 ********************
 
-* zhe4: this
+* zhe4: 这, this
 * na4: that
 * na3: which
 * ge: (like in na4 ge re2n: that person) measure word
@@ -137,39 +185,42 @@ CHN-12-2-06 Family 1
 * me4i: (like in me4imei: younger sister)
 * di4: (like in di4di: younger brother)
 * a4i: love
-* ma1: (like in ma1ma: mother)
+* ma1: 妈 (like in ma1ma: mother)
 * ba4: (like in ba4ba: father)
 * she2i: who
 * yo3u: to have
 * he2: and
 
-jia1re2n: family
+* jia1re2n: family
 
 CHN-13-2-07 Phrases 2
 *********************
 
-* qi3ng: (like in qi3ngwe4n: Excuse me)
-* we4n: (like in qi3ngwe4n: Excuse me)
-* da4o: (like in zhida4o: to know something)
-* zhi: (like in zhida4o: to know something)
-* shuo1: to speak
-* yu3: (like in yi1ngyu3: english (the language))
-* ha4n: (like in ha4nyu3: chinese (the language))
+* qi3ng: 请 (like in qi3ngwe4n: Excuse me)
+* we4n: 问, ask (like in qi3ngwe4n: Excuse me)
+* da4o: 道 (like in zhi1da4o: to know something)
+* zhi1: 知 (like in zhi1da4o: to know something)
+* shuo1: 说, to speak
+* yu3: 语 (like in yi1ngyu3: english (the language))
+* ha4n: 汉 (like in ha4nyu3: chinese (the language))
 * ba1ng: (like in ba1ngzhu4: to help)
 * zhu4: (like in ba1ngzhu4: to help)
+* za4i: 再, to say ???
+
+* yi1ci4: 一次, one time
 
 CHN-14-2-08 Greeting 4
 **********************
 
 * zui4: most
-* ji4n: (like in zui4jia4n: recently)
+* ji4n: (like in ji4njia4n: recently)
 * hui4: ???
 * a1n: ???
 * ya4o: to want
 * jiu3: ???
 * cuo4: bad
 
-* zui4jia4n: recently, these day
+* ji4njia4n: recently, these day
 
 CHN-15-2-09 Drink
 *****************
@@ -214,3 +265,8 @@ CHN-17-2-11 Time 1
 * jiu3 dia3n: 9h
 * jiu3 dia3n ba4n: 9h30
 * za3osha4ng: morning
+
+
+
+* de: 的, possessive
+* dui4: right, correct

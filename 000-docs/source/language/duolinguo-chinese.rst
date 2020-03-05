@@ -4,19 +4,8 @@ Duolingo - Chinese
 CHN-01-1-01 Greeting
 ********************
 
-* ni3hao3: hello
-* ha3o: good
-* za4ijia4n: goodbye
-* yi1: one
-* sa1n: three
-* qi1: seven
-* ba1: eight
-* ga1oxi4ng: happy
-* ma1: mother
-* ma2: hemp
-* ma3: horse
-* ma4: to scold
-* yuan: chinese money
+CHN-02-1-02 Numbers
+*******************
 
 CHN-03-1-03 Name
 ****************
@@ -32,7 +21,7 @@ CHN-03-1-03 Name
 CHN-04-1-04 Greetings 2
 ***********************
 
-* Li Hua he3n ga1oxi4ng: Li Hua is happy
+* Li3 Hua2 he3n ga1oxi4ng: Li Hua is happy
 * ni3 xi4ng Wang, wo3 ye3 xi4ng Wang: Your last name is Wang, my last name is Wang too
 * ni3 ye3 re4nshi2 Li Hua: You know Li Hua too
 * wo3 he3n ga1oxi4ng re4nshi2 ni3: Nice to meet you
@@ -40,15 +29,12 @@ CHN-04-1-04 Greetings 2
 CHN-05-1-05 Food 1
 ******************
 
-* bu4: not
-* chi1: eat
-* he1: drink
-* yu4: fish
-* f4n: rice
-* cha2: tea
-* mia4n: noodles
-* shui3: water
 * ni3 he1 she2nme?: What do you dring?
+
+CHN-06-1-06 occupation
+**********************
+
+* Ta1 qu4 ma?: Is she going?
 
 CHN-07-2-01 Contact
 *******************
@@ -250,7 +236,8 @@ Phrases
 
 * wo3men we4n yi1she1ng: We ask the doctor
 * qi3ngwe4n, ni3 shi4 li3 la3oshi1 ma?: Excuse me, are you teacher Li?
-* wo3 bu4 zhi?dao4: I don t know
+* ni3 zhi1dao4 ma?: Do you know?
+* wo3 bu4 zhi1dao4: I don t know
 * ni3 shuo1 yi1ngyu3 ma?: Do you speak English?
 * ta1 shuo1 she2nme?: What does he say ?
 * zho1ngguo2 re4n shuo1 ha4nyu3: Chinese people speak Chinese
@@ -259,6 +246,8 @@ Phrases
 * qi3ng ba1ngzhu4 wo3 de di4di: Please help me younger brother
 * qi3ng ba1ngzhu4 wo3: Please help me
 * ni3 za4i we4n yi1ci4: Ask it again
+* ni3 we4n ta1: you ask him
+* zhe4 shi4 ni3 de ha4nyu3 la3oshi1 ma?: Is this your Chinese teacher?
 
 CHN-14-2-08 Greeting 4
 **********************
