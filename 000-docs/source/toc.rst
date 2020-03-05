@@ -36,6 +36,7 @@
     js/js-trick.rst
     js/js-webpack_from_zero_to_hero.rst
     js/js-what_s_new_in_es.rst
+    js/rxjs-tricks.rst
     js/vue-router_middleware.rst
     python/python-venv.rst
     python/python-good_practices.rst

@@ -4,6 +4,29 @@ JS - Method you need to know
 Array
 *****
 
+The bitwise NOT operator
+========================
+
+the tilde ~ will return true if indexOf returns 0 or higher.
+
+.. code-block:: js
+
+    // before
+    const array = [0, 1, 2, 3, 4];
+    if (array.indexOf(5) > -1) {
+        return 'exists';
+    } else {
+        return 'does not exist';
+    }
+
+    // after
+    const array = [0, 1, 2, 3, 4];
+    if (~array.indexOf(5)) {
+        return 'exists';
+    } else {
+        return 'does not exist';
+    }
+
 find
 ====
 
@@ -423,6 +446,39 @@ Creating and copying objects
 
     let destObj = JSON.parse(JSON.stringify(obj));
 
+Destructuring
+=============
+
+2020.02.19
+
+.. code-blocks:: JS
+
+    // before
+    const names = {
+        user1: 'Ann',
+        user2: 'Bob',
+        user3: 'Julie',
+        user4: 'Mike',
+    }
+
+    console.log(names.user1);
+    console.log(names.user2);
+    console.log(names.user3);
+    console.log(names.user4);
+
+    // now
+
+    const { user1, user2, user3, 'user4': mike}
+
+    console.log(user1)
+    console.log(user2)
+    console.log(user3)
+    console.log(mike)
+
+    const x = [1, 2, 3]
+    const [y, z] = x
+    const [a, b, ...rest] = x
+
 Strings
 *******
 
@@ -462,7 +518,6 @@ includes()
     console.log(str.includes("world")); // true
     console.log(str.includes("test"));  // false
 
-
 Sources
 *******
 
@@ -470,6 +525,7 @@ Sources
 * https://medium.com/better-programming/11-extremely-useful-javascript-tips-4484429a5655
 * https://medium.com/better-programming/you-dont-need-loops-in-javascript-1dc8139eab4b
 * https://dev.to/laurieontech/optional-chaining-has-arrived-111l
+* https://levelup.gitconnected.com/ultimate-guide-to-tips-tricks-and-javascript-features-you-should-know-27e0a4a6ffdf
 
 Document history
 ****************
@@ -477,6 +533,8 @@ Document history
 +------------+---------+--------------------------------------------------------------------+
 | Date       | Version | Comment                                                            |
 +============+=========+====================================================================+
+| 2020.02.20 | V1.1.0  | destructuring                                                      |
++------------+---------+--------------------------------------------------------------------+
 | 2020.02.20 | V1.0.2  | Optionnal chaining and nulling coalescing                          |
 +------------+---------+--------------------------------------------------------------------+
 | 2020.01.19 | V1.0.1  | add how to replace loop                                            |

@@ -34,11 +34,14 @@ Don t underestimate console oject
 
 :source: https://medium.com/free-code-camp/how-to-use-the-javascript-console-going-beyond-console-log-5128af9d573b
 
+:source: https://dev.to/leirasanchez/like-console-log-but-better-nhm
+
 * console.log
 * console.table
 * console.group
 * console.warn
 * console.error
+* console.count
 * console.log + color
 * console.trace: make a stack trace
 * console.time: permit to time a code part
@@ -71,9 +74,19 @@ Don t underestimate console oject
 
     console.time("For loop");
     while (i < 1000000) {
-    i++;
+      i++;
     }
     console.timeEnd("For loop");
+
+    let dev = '';
+    const followMe = (dev) => {
+      console.count('followers');
+      return `${dev} is following you`;
+    }
+
+    followMe('John'); // followers: 1
+    followMe('Karen'); // followers: 2
+    followMe('Camila'); // followers: 3
 
 Sources
 *******
