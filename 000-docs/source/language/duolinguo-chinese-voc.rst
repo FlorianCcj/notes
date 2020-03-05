@@ -9,6 +9,9 @@ CHN-01-1-01 Greeting 1
 * za4i (再): (like in za4ijia4n: goodbye)
 * jia4n (见): (like in za4ijia4n: goodbye)
 
+Voc
+===
+
 * ni3hao3: hello
 * ha3o: good
 * za4ijia4n: goodbye
@@ -30,6 +33,9 @@ CHN-02-1-02 Numbers
 * ba3i (百): 100
 * yuan (元): chinese money
 
+Voc
+===
+
 * ga1oxi4ng: happy
 * ma1: mother
 * ma2: hemp
@@ -40,12 +46,6 @@ CHN-02-1-02 Numbers
 CHN-03-1-03 Name
 ****************
 
-* li3 (李): name of someone
-* hua2 (华): name of someone
-* wa2ng (王): name of someone
-* zhang (张): name of someone
-* ming (明): name of someone
-
 * jia4o (叫): (like in jia4o: s'appeler)
 * me (么): (like in she2nme: what/how)
 * mi2ng (名): (like in mi2ngzi4)
@@ -55,6 +55,15 @@ CHN-03-1-03 Name
 * xi4ng (姓): last name
 * wo3 (我): I
 * zi4 (字): (like in mi2ngzi4)
+
+Voc
+===
+
+* li3 (李): name of someone
+* hua2 (华): name of someone
+* wa2ng (王): name of someone
+* zhang (张): name of someone
+* ming (明): name of someone
 
 CHN-04-1-04 Greetings 2
 ***********************
@@ -149,6 +158,9 @@ CHN-10-2-04 Location 1
 * wa1n: (like in ta2iwa1n: Taiwan)
 * zhu4: to live
 
+Voc
+===
+
 * za4i: se situer
 * lu2ndu1n: London
 * xue2xio4a: school
@@ -167,6 +179,9 @@ CHN-11-2-05 Phrases 1
 * gua1n: (like in me2igua1nxi?: no worries)
 * xi4: (like in me2igua1nqi2: no worries)
 * qi3: (like in dui4bu3qi3: Sorry)
+
+Voc
+===
 
 * dui4bu3qi3: Sorry
 * me2igua1nqi2: no worries
@@ -191,6 +206,9 @@ CHN-12-2-06 Family 1
 * yo3u: to have
 * he2: and
 
+Voc
+===
+
 * jia1re2n: family
 
 CHN-13-2-07 Phrases 2
@@ -207,6 +225,9 @@ CHN-13-2-07 Phrases 2
 * zhu4: (like in ba1ngzhu4: to help)
 * za4i: 再, to say ???
 
+Voc
+===
+
 * yi1ci4: 一次, one time
 
 CHN-14-2-08 Greeting 4
@@ -219,6 +240,9 @@ CHN-14-2-08 Greeting 4
 * ya4o: to want
 * jiu3: ???
 * cuo4: bad
+
+Voc
+===
 
 * ji4njia4n: recently, these day
 
@@ -240,6 +264,9 @@ CHN-16-2-10 Location 2
 * xi3: ???
 * jia1n: ???
 
+Voc
+===
+
 * xi3sho3ujia1n: bathroom
 * yi1yua4n: hospital
 * fa4ngua3n: restaurant
@@ -259,6 +286,9 @@ CHN-17-2-11 Time 1
 * dia3n: hours
 * ba4n: half (for a hours)
 * xia4n: (like in xia4nza4i: now)
+
+Voc
+===
 
 * xi1ngqi1: week
 * mi2ngjia1n: tomorrow

@@ -21,6 +21,8 @@ project = 'my_knowledge'
 copyright = '2019, ccj'
 author = 'ccj'
 
+language = 'zh_CN'
+
 # The full version, including alpha/beta/rc tags
 release = '0.0.0'
 
