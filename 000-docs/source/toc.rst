@@ -4,6 +4,7 @@
     todo/todo-000_wip.rst
 
     ansible/ansible-if.rst
+    db/db-mysql-tricks.rst
     db/db-neo4j-cypher.rst
     db/db-neo4j-from_sql_to_neo4j.rst
     db/db-postgres-user_permissions.rst
