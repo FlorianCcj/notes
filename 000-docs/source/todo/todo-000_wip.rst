@@ -183,32 +183,22 @@ Doc to read/to write
         * monday.com
     
 * tmp:
-    * https://medium.com/better-programming/how-to-use-components-recursively-in-angular-6569459f6318
-    * https://medium.com/swlh/vue-vs-react-vs-angular-4fce47857eda
     * https://psiloveyou.xyz/the-only-thing-you-have-to-do-before-9-a-m-5e51c708ac99
     * https://medium.com/javascript-in-plain-english/ecmascript-2019-asynchronous-iteration-using-for-of-dc1893f99fd9
     * https://medium.com/better-programming/4-dangerous-problems-in-javascript-easily-solved-by-the-builder-design-pattern-7f0eb5b4455c
-    * https://onezero.medium.com/looking-at-cute-animals-online-is-literally-good-for-your-brain-2eaa291d8568
     * https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers
     * https://medium.com/coding-at-dawn/es6-object-is-vs-in-javascript-7ce873064719
     * https://medium.com/javascript-in-plain-english/why-i-always-prefer-async-await-72fd325792f2
     * https://dev.to/mateuszjarzyna/linux-s-commands-and-tricks-i-m-using-in-my-daily-job-as-a-developer-4cle
-    * https://dev.to/adrianbdesigns/you-can-create-these-elements-without-javascript-525a
     * https://dev.to/paco_ita/train-your-css-skills-with-online-games-4ah3
     * https://medium.com/better-programming/how-to-learn-any-new-programming-language-quickly-94996895669b
     * https://medium.com/swlh/automating-front-end-development-a97f98c15af6
-    * https://medium.com/better-programming/understanding-content-projection-in-angular-81c9a40d63dc
     * https://dev.to/duomly/the-best-practices-of-coding-in-python-and-what-to-avoid-3c65?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
     * https://dev.to/digitalocean/understanding-this-bind-call-and-apply-in-javascript-dla?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
     * https://dev.to/bnevilleoneill/5-things-you-can-do-with-css-instead-of-javascript-975?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
     * https://medium.com/swlh/optimize-the-hell-out-of-your-javascript-programs-with-memoization-eadf7ca22caf
-    * https://medium.com/better-programming/drag-and-drop-made-easy-with-rxjs-8cd4a8994a07
     * https://medium.com/free-code-camp/how-to-use-the-javascript-console-going-beyond-console-log-5128af9d573b
-    * https://codeburst.io/managing-svg-images-in-vue-js-applications-88a0570d8e88
     * https://medium.com/@smashingmag/learning-to-code-by-writing-code-poems-cd29cd3ba320
-    * https://medium.com/@smashingmag/building-mobile-apps-with-capacitor-and-vue-js-944b22ec4780
-    * https://onezero.medium.com/to-revive-the-mac-apple-wants-to-kill-electron-154873336e78
-    * https://pythonawesome.com/tiny-experimental-nlp-deep-learning-library-for-text-classification-and-ner/    
     * https://medium.com/@romaricp/the-perfect-kit-starter-for-a-symfony-4-project-with-docker-and-php-7-2-fda447b6bca1
     * https://medium.com/@CKGrafico/taking-decisions-to-structure-big-projects-with-hooks-stores-services-and-more-a703c7874480
     * https://forge.medium.com/why-its-so-hard-to-learn-from-our-mistakes-113367d54fe1
@@ -217,19 +207,12 @@ Doc to read/to write
     * https://dev.to/sylwiavargas/33-app-ideas-for-bootcamp-students-code-newbies-3n28
     * https://dev.to/kodekat/terminal-lover-which-tools-do-you-use-daily-2ape
     * https://medium.com/swlh/how-i-reduced-my-css-bundle-size-by-more-than-20-76433e7330eb
-    * https://medium.com/javascript-in-plain-english/how-to-loop-through-arrays-in-react-3eaa8a14445
-    * https://medium.com/frontend-digest/axios-vs-fetch-which-to-use-in-2019-6678c083c5c
     * https://rangle.slides.com/yazanalaboudi/deck#/
     * https://itnext.io/how-do-ngrx-action-creators-work-bd8b17e02584
-    * https://dev.to/shadid12/how-i-reverse-engineered-rxjs-and-learned-reactive-programming-part-2-4m4g?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
-    * https://blog.logrocket.com/using-typescript-to-stop-unexpected-data-from-breaking-your-app/?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter#utm_campaign=Angular%2520Weekly&utm_medium=email&utm_source=Revue%2520newsletter
     * https://dev.to/duomly/how-to-build-an-angular-8-application-with-api-request-in-10-minutes-34m8?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
-    * https://medium.com/@traviskaufman/demystifying-rxjs-part-i-building-our-own-observables-e7a985fd8153
-    * https://fiyazhasan.me/angular-file-upload-using-asp-net-core/?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
     * https://github.com/jagenjo/litegraph.js?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
     * https://github.com/Redocly/redoc?utm_campaign=Angular%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
     * https://medium.com/free-code-camp/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76
-    * https://medium.com/@vuefront/finding-the-perfect-component-file-structure-for-out-vuejs-app-b808a69dacac
     * https://medium.com/wizdm-genesys/angular-handling-unsaved-changes-with-a-pop-up-dialog-8127b9f2d79
     * https://itnext.io/micro-frontend-architecture-dynamic-import-chunks-from-another-webpack-bundle-at-runtime-1132d8cb6051
     * https://medium.com/better-programming/does-dependency-injection-have-a-place-in-javascript-37831c204a0b
@@ -265,11 +248,24 @@ Doc to read/to write
     * https://www.amen.fr/nom-de-domaine/
     * https://www.cnil.fr/fr/guide-rgpd-du-developpeur
     * https://manticoresearch.com/
+    * storybook
+    * https://medium.com/javascript-in-plain-english/amazon-software-development-engineer-interview-questions-a40a6b092c3a
+    * https://www.youtube.com/watch?v=hrwOJj8AV88 (music a dwl)
+    * kotlin
+    * dive
+    * https://github.com/veggiemonk/awesome-docker
+    * design
+        * https://medium.com/@smashingmag/getting-started-with-css-layout-58dc92809293
+        * https://css-tricks.com/snippets/css/css-grid-starter-layouts/
+        * https://css-tricks.com/snippets/css/complete-guide-grid/
     * entrepreunariat
         * https://www.blogduwebdesign.com/logiciels-crm-gratuits/
+        * https://www.journaldugeek.com/2020/02/27/konami-code-createur-cheat-jeu-video-mort/
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * angular
+            * https://medium.com/bb-tutorials-and-thoughts/angular-how-to-read-environment-info-at-runtime-for-ci-cd-9a788478aa9b
+            * https://medium.com/angular-in-depth/optimize-angular-bundle-size-in-4-steps-4a3b3737bf45
             * https://itnext.io/clean-code-checklist-in-angular-%EF%B8%8F-10d4db877f74
             * https://timdeschryver.dev/blog/help-angular-to-make-your-application-faster
             * https://medium.com/angular-in-depth/angular-workspace-no-application-for-you-4b451afcc2ba
@@ -279,6 +275,12 @@ Doc to read/to write
             * https://medium.com/wizdm-genesys/rendering-text-with-style-in-angular-b006bdb945e7
             * https://medium.com/better-programming/how-to-handle-async-providers-in-angular-51884647366
             * https://medium.com/@OlegVaraksin/designing-scalable-angular-applications-6629b5158277
+            * https://medium.com/angular-in-depth/angular-smart-404-page-85a45b109fd8
+            * https://angular-academy.com/angular-architecture-best-practices/
+            * https://medium.com/monstar-lab-bangladesh-engineering/making-configurable-angular-feature-modules-using-strategy-pattern-b8f43340550a
+            * https://medium.com/free-code-camp/bet-you-cant-solve-this-google-interview-question-4a6e5a4dc8ee
+            * https://medium.com/angular-in-depth/rxjs-in-angular-part-1c5409610d8e
+            * https://youtu.be/49FrsKDkt04
         * react
             * https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
@@ -292,19 +294,28 @@ Doc to read/to write
                 * https://itnext.io/optimizing-react-code-with-hooks-3eaaf5978351
                 * https://www.telerik.com/kendo-react-ui/react-hooks-guide/?utm_medium=cpm&utm_source=reactstatus&utm_campaign=kendo-ui-react-blog-react-hooks-guide&utm_content=sponsored-link
     * cloud
+        * https://www.netlify.com/pricing/
         * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
         * https://pingcap.com/blog/chaos-mesh-your-chaos-engineering-solution-for-system-resiliency-on-kubernetes/
         * https://www.weave.works/blog/manage-thousands-of-clusters-with-gitops-and-the-cluster-api
         * https://collabnix.github.io/kubelabs/
         * https://assets.digitalocean.com/books/kubernetes-for-full-stack-developers.pdf
+        * https://github.com/dpeckett/pangolin (hpa)
+        * https://github.com/vmware/weathervane (bench)
+        * gogs
+        * longhorn
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
         * https://apprendre-la-communication-non-verbale.com/comment-observer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-lire-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-lire-gens/
+        * https://www.girlschase.com/
+        * https://influence-hypnotique.fr/technique-hypnose-conversationnelle/
     * quality:
         * https://www.guru99.com/istqb.html
+        * https://github.com/projecthamster/hamster
+        * https://blog.myagilepartner.fr/index.php/retrospective/
 
 Document history
 ================
