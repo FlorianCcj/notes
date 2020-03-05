@@ -14,6 +14,7 @@
     git/git-submodule.rst
     git/git-trics.rst
     k8s/cloud_native-security_101.rst
+    k8s/docker-tricks.rst
     k8s/k8s-deploy-troubleshooting.rst
     linux/default_bin.rst
     linux/linux-history.rst
