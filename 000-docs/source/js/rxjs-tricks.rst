@@ -1,4 +1,4 @@
-RXJS - Tricks
+RxJs - Tricks
 #############
 
 avoid double http request

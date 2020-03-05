@@ -133,7 +133,7 @@ Querying the Graph
 Which Employee had the Highest Cross-Selling Count of ‘Chocolade’ and Which Product?
 ------------------------------------------------------------------------------------
 
-.. code-block:: none
+.. code-block:: cypher
 
     MATCH (choc:Product {productName:'Chocolade'})<-[:PRODUCT]-(:Order)<-[:SOLD]-(employee),
         (employee)-[:SOLD]->(o2)-[:PRODUCT]->(other:Product)
@@ -152,7 +152,7 @@ How are Employees Organized? Who Reports to Whom?
 Which Employees Report to Each Other Indirectly?
 ------------------------------------------------
 
-.. code-block:: none
+.. code-block:: cypher
 
     MATCH path = (e:Employee)<-[:REPORTS_TO*]-(sub)
     WITH e, sub, [person in NODES(path) | person.employeeID][1..-1] AS path

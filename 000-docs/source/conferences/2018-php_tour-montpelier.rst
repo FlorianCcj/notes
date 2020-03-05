@@ -51,7 +51,9 @@ on trop verbeux donc filtrons
 Exemple d utilisation: 
 * ou va chercher php pour les valeurs de conf (:code:`strace -e "open" php -i > /dev/null`)
 * why my homepage is so slow:
+
     * with strace
+
         * :code:`php slow_homepage.php`
         * :code:`ps awx`
         * :code:`strace -p 1132`
@@ -59,11 +61,15 @@ Exemple d utilisation:
         * :code:`strace -T -p 1132` pour  avoir le temps d execution des appel
         * effectivement le poll 5sec -> connection au fd 3 -> la premiere ouverture c est faite avec un connect a une url -> effectivement l url est lente a repondre
     * with lsod
+
         * lsof montre tout les fichiers ouverts
         * :code:`lsof -p 1132`
+
 * what my process is doing
+
     * strace -e write -s -p 1161 le -s 1000 permet d augmenter les chaines de caracteres du retour de strace
 * i am processing a huge file where my process is at
+
     * :code:`strace -p 1182` on voit au il fait des read sur le fd 3
     * :code:`lsod -p 1181` on voit bien aue c est le fichier qu il est en train de lire
     * le code est en train de faire un :code:`fgetcsv`
@@ -72,12 +78,15 @@ Exemple d utilisation:
 en realité le process va rarement faire appel au kernell, il va passer par des libs -> espionnage avec ltrace
 
 * quel variable d environnement son lut par mon programme:
+
     * :code:`man man` -> les appels aux libs -> page 3
     * ltrace -e getenv php reading_env.php
 * my webservice call seems to get strange response
+
     * :code:`strace -e "read,write,connect" php ws_call.php`
     * :code:`ltrace -e "SSL_read,SSL_write" php ws_call.php` on option des pointeurs sur la memoire ...
     * vi ~/.ltrace.conf
+
         * .. code-block:: ini
 
             int SSL_write(void *, string, int)

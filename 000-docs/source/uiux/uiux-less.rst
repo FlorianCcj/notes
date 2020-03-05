@@ -183,50 +183,50 @@ Parent selector
 .. code-block:: less
 
     a {
-        color: blue;
-        &:hover { // result in a:hover
-            color: green;
-        }
+      color: blue;
+      &:hover { // result in a:hover
+        color: green;
+      }
     }
 
     .button {
-        &-ok {
-            background-image: url("ok.png");
-        }
-        &-cancel {
-            background-image: url("cancel.png");
-        }
+      &-ok {
+        background-image: url("ok.png");
+      }
+      &-cancel {
+        background-image: url("cancel.png");
+      }
 
-        &-custom {
-            background-image: url("custom.png");
-        }
+      &-custom {
+        background-image: url("custom.png");
+      }
     }
 
 .. code-block:: less
 
     .grand {
-        .parent {
-            & > & {
-            color: red;
-            }
-
-            & & {
-            color: green;
-            }
-
-            && {
-            color: blue;
-            }
-
-            &, &ish {
-            color: cyan;
-            }
+      .parent {
+        & > & {
+          color: red;
         }
+
+        & & {
+          color: green;
+        }
+
+        && {
+          color: blue;
+        }
+
+        &, &ish {
+          color: cyan;
+        }
+      }
     }
 
 result in
 
-.. code-block:: less
+.. code-block:: css
 
     .grand .parent > .grand .parent {
       color: red;

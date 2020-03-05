@@ -67,7 +67,7 @@ CSS Framework
 * Bulma
 
 Video Recomand
-==============
+**************
 
 * Tailwind CSS Crash Course
 * Bootstrap CSS Crash Course
@@ -84,7 +84,7 @@ Vanilla JavaScript
 * Modern JS (ES6)
 
 Video Recomand
-==============
+**************
 
 * JavaScript Crash Course
 * DOM Crash Course
@@ -104,7 +104,7 @@ Tools2
 * Webpack or Parcel (JS Module Bundlers)
 
 Video Recomand
-==============
+**************
 
 * Linux Command Line Basics
 * Git Crash Course
@@ -128,7 +128,7 @@ Basic Deployment
 * CLI & Git
 
 Video Recomand
-==============
+**************
 
 * Web Hosting & cPanel Guide
 * Deploy Websites In Seconds With Netlify

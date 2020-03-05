@@ -76,7 +76,7 @@ read node
 add relation
 ============
 
-.. code-block:: none
+.. code-block:: cypher
 
     // Add company
     MATCH (me:User {name:"medru"})

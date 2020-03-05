@@ -120,7 +120,7 @@ Last Item: Getting the Last Item in the Array
     console.log(array.slice(-3)); // [4,5,6]
 
 Length: Caching the array.length in the Loop
-====================================
+============================================
 
 .. code-block:: js
 
@@ -451,7 +451,7 @@ Destructuring
 
 2020.02.19
 
-.. code-blocks:: JS
+.. code-block:: JS
 
     // before
     const names = {

@@ -20,7 +20,7 @@
     linux/linux-history.rst
     linux/linux-triks.rst
     linux/linux-tmux.rst
-    libux/linux-vi.rst
+    linux/linux-vi.rst
     vault/vault-admin.rst
     vault/vault-install.rst
     vault/vault-user.rst

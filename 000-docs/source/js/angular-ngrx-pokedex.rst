@@ -17,22 +17,30 @@ Part1
 
 dans le tsconfig.json
 
-compilerOptions.baseUrl: "src"
-compilerOptions."resolveJsonModule": true,
-compilerOptions."path": {
-      "@shared/*": ["app/shared/*"],
-      "@services/*": ["app/shared/services/*"],
-      "@states/*": ["app/shared/states/*"],
-      "@views/*": ["app/views/*"],
-      "@models/*": ["app/shared/interfaces/*"],
-      "@environments/*": ["environments/*"]
+.. code-block:: json
+    :name: tsconfig.json
+    :caption: tsconfig.json
+
+    compilerOptions.baseUrl: "src"
+    compilerOptions."resolveJsonModule": true,
+    compilerOptions."path": {
+        "@shared/*": ["app/shared/*"],
+        "@services/*": ["app/shared/services/*"],
+        "@states/*": ["app/shared/states/*"],
+        "@views/*": ["app/views/*"],
+        "@models/*": ["app/shared/interfaces/*"],
+        "@environments/*": ["environments/*"]
     }
 
-// environment.ts
-export const environment = {
-    production: false,
-    backendUrl: '/api/pokemons/'
-}
+.. code-block:: json
+    :name: environment.ts
+    :caption: environment.ts
+
+    // environment.ts
+    export const environment = {
+        production: false,
+        backendUrl: '/api/pokemons/'
+    }
 
 @ngrx/store
 

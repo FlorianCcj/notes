@@ -18,6 +18,7 @@ Run: Orchestrated runs anywhere
 Shared responsibility = Platform Owner + Platform Provider
 Platform Owner = Images + Infra + Worload
 3 domains:
+
     1. vuln and risk management
     2. Compliance
     3. Runtime
