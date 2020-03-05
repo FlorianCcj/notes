@@ -52,6 +52,7 @@
     conferences/2018-php_tour-montpelier.rst
 
     draw/draw-apprendre-a-dessiner.rst
+    enigma/amazon-software_development_engineer_interview.rst
     language/duolinguo-chinese.rst
     language/duolinguo-chinese-voc.rst
     language/duolinguo-german.rst
@@ -62,6 +63,7 @@
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
     methodology/methodology-fail_over.rst
+    methodology/methodology-suck_in_programming.rst
     reading/disk_world.rst
     quote/main.rst
     60_days_plan.rst
