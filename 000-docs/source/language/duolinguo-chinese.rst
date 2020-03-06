@@ -71,7 +71,7 @@ Phrases
 
 * ni3 shi2 zho1ngguo2 re2n ma?: Are you chinese?
 * bu4 dui4: incorrect
-* ni3men do1u shi2 me4igu02re2n, dui4 ma?: you all are american, right?
+* ni3men do1u shi2 me3igu02re2n, dui4 ma?: you all are american, right?
 
 CHN-09-2-03 Greeting 3
 **********************
@@ -128,7 +128,7 @@ Phrases
 * la3oshi1 bu3 za4i jia1: laoshi is not at home
 * ta1men za4i Yi1ngguo2 ma?: Are they in the UK
 * ta1 de jia1 za4i na3r?: Where is your home?
-* niu3yue1 za4i me4igu02: NY is in the US
+* niu3yue1 za4i me3igu02: NY is in the US
 * la3oshi1 de jia1 za4i xia1ngga3ng: The teacher's house is in Hong Kong
 * ni3men zhu4 za4i zho1ngguo2 na3r?: Where do you leave in China
 * lu2ndu1n za4i yi1ngguo2: London is in the UK
@@ -185,9 +185,9 @@ Phrases
 =======
 
 * wo3 de ba4ba shi4 yi1she1ng: my father is a doctor
-* wo3 de jia1ren zhu4 za4i Jia1na2da4 re4n: My family lives in Canada
+* wo3 de jia1re2n zhu4 za4i Jia1na2da4 re4n: My family lives in Canada
 * ba4ba a4i ma1ma: Dad loves mom
-* wo3 a4i wo3 de jia1ren: I love my family
+* wo3 a4i wo3 de jia1re2n: I love my family
 * na4 shi2 ta1men de yi1she1ng: That is their doctor
 * na4 ge4 re4n shi2 she2i ?: Who is that person ?
 * zhe4 ge4 re4n shi2 she2i ?: Who is this person ?
@@ -248,6 +248,7 @@ Phrases
 * ni3 za4i we4n yi1ci4: Ask it again
 * ni3 we4n ta1: you ask him
 * zhe4 shi4 ni3 de ha4nyu3 la3oshi1 ma?: Is this your Chinese teacher?
+* za4i yi1ci4: One more time
 
 CHN-14-2-08 Greeting 4
 **********************
@@ -257,19 +258,20 @@ zui4, most
 
 Use zui4 (most) before an adjective to say that something is the most or the best
 
-* wo3 zui4 ma2ng: I am the busiest: I am the busiest
+* wo3 zui4 ma2ng: I am the busiest
 * wo3 de ba4ba zui4 ga1oxi4ng: My dad is the happiest
 
 Phrases
 =======
 
-* ??? ba4ba, ma1ma, wa?n a1n: Father, mother, good night !
-* ??? yi1 hui4 er jia4n: See you in a bit
-* ??? wo3 yi1 hui4 er jia4n wo3 de yi1she1ng: I see my doctor in a bit
+* ba4ba, ma1ma, wa3n a1n: Father, mother, good night !
+* yi1 hui4 er jia4n: See you in a bit
+* wo3 yi1 hui4 er jia4n ta1: I will see him in a bit
 * wo3 zui4ji4n he3n ma2ng: I recently have been busy
 * wo3 bu4 cuo4, ni3 ne?: i am not bad, and you?
-* ??? ho3o jiu3 bu4 jia4n ! ni3 zenmeyang ?: Long time no see ! How are you doing ?
+* ha3o jiu3 bu4 jia4n! : Long time no see !
 * wo3men zui4ji4n bu4 cuo4: we have not been bad recently
+* wo3 de jia1re2n zui4ji4n bu cuo4: My family has been prety good recently
 
 CHN-15-2-09 Drink
 *****************
