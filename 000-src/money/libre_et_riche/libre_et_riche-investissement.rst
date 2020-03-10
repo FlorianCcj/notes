@@ -161,6 +161,49 @@ Comment choisir son ETF
 4 pilliers fondemmentaux:
 * choix de l indice: quel indice sous-jacent
 
+Stratégies Pour Sortir De Sa Zone De Confort Et Atteindre Tous Ses Objectifs !
+********************************************************************************
+
+:source: https://www.youtube.com/watch?v=yuSAc8Xo1wo
+
+4 zone:
+* zone de confort: 'securite' et confort
+* zone de peur: manque de confiance en soi, affecte par le regard et l opinion des autres, trouve des excuses
+* zone d apprentissage: trouve des solutions, acquiert de nouvelles competences, agrandit sa zone de confort
+* zone de grandeur: vit ses reves, regard different sur le monde, croyances et resultats, curiosité et culture general, confiance en soi, se distingue
+
+Les 6 etapes:
+* L importance du pourquoi: ikigai
+  * la narration: trouve un but, toi aussi tu es quelqu un d important, tu as une mission de vie, reste motive
+  * perception: etre percu comme un heros est forcement une grande source de motivation, la reconnaissance obtenue est encore plus grande et gratifiante
+  * la communaute: appartenir a un groupe avec des valuers et interets communs donne du sens a son pourquoi
+  * debutant: c est ta destinee, l etincelle te permettant de connaitre tes premiers succes, cercle vertueux de la reussite, si tu essaies effectivement tu peux perdre mais si tu n essaies pas, tu as deja perdue d avance
+* L envie de progression
+  * cercle vertueux de progression
+  * difficulte adequat
+    * aucun obstacle -> ennui abandon
+    * trop difficile -> abandon marre
+  * todolist court terme: 4 objectifs de la journee
+  * todolist moyen/long terme
+  * list de progression
+* le mystere de la pression sociale
+  * pyramide de Macelot
+    * Base: besoin physiologique
+    * besoin de securite
+    * besoin social
+    * besoin d estime
+    * sommet: besoin d accomplissement
+  => entraine
+    * Jalousie, critique facile, volonte de detruire
+      ce n est pas le fait que l autre possede plus que toi qui derange mais le fait que ce ne soit pas toi
+    * comprehension de la reussite de l autre
+  * 3 astuces
+    * trouver un mentor
+    * integrer un groupe
+    * discretion
+* Le pouvoir du hasard et de la curiosité
+13:04
+
 Le Triangle de la Richesse: Stratégie en 3 étapes
 *************************************************
 

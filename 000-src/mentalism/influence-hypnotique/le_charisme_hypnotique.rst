@@ -268,6 +268,10 @@ Analyse du charisme non verbal
 La synchronisation
 ==================
 
+Tu vas faire exactement la meme chose que l autre, utiliser les memes mots, au meme rythme
+
+Tu peux le faire de maniere consciente pour la rendre inconsciente
+
 Chapitre 4 - Les mots captivants
 ********************************
 

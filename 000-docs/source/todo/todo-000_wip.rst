@@ -263,7 +263,18 @@ Doc to read/to write
         * https://www.journaldugeek.com/2020/02/27/konami-code-createur-cheat-jeu-video-mort/
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
+        * https://medium.com/javascript-in-plain-english/3-awesome-but-small-javascript-libraries-you-need-to-try-d43df5c0b5dd
+        * https://medium.com/better-programming/learn-about-decorators-in-javascript-d19c8795e8a
+        * https://medium.com/swlh/how-not-to-write-code-javascript-62a7fa1f819c
+        * https://medium.com/javascript-in-plain-english/javascript-top-level-await-in-a-nutshell-4e352b3fc8c8
+        * https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa
+        * https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99
         * angular
+            * https://medium.com/better-programming/let-angular-manage-your-rxjs-subscriptions-better-9243073e94b0
+            * https://blog.bitsrc.io/10-tricks-to-optimize-your-angular-app-44208f616bf0
+            * https://levelup.gitconnected.com/using-angular-viewchild-to-implement-multiple-visualizations-of-data-sets-b626689938f7
+            * https://medium.com/angular-in-depth/all-you-need-to-know-about-ivy-the-new-angular-engine-9cde471f42cf
+            * https://medium.com/@bmarti44/10-helpful-tips-i-wish-i-knew-before-i-started-using-angular-2-c25bcaa6fe2f
             * https://medium.com/bb-tutorials-and-thoughts/angular-how-to-read-environment-info-at-runtime-for-ci-cd-9a788478aa9b
             * https://medium.com/angular-in-depth/optimize-angular-bundle-size-in-4-steps-4a3b3737bf45
             * https://itnext.io/clean-code-checklist-in-angular-%EF%B8%8F-10d4db877f74
@@ -304,6 +315,10 @@ Doc to read/to write
         * https://github.com/vmware/weathervane (bench)
         * gogs
         * longhorn
+<<<<<<< Updated upstream
+=======
+        * https://www.stackrox.com/post/2019/09/docker-security-101/
+>>>>>>> Stashed changes
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
