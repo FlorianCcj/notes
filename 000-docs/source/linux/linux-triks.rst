@@ -17,6 +17,12 @@ Cowsay
 
 * :code:`fortune | cowsay -f $(ls /usr/share/cowsay/cows/ | shuf -n1)`
 
+default text editor
+*******************
+
+* :code:`export EDITOR='vim'`
+* :code:`export VISUAL='less'`
+
 find heavy directory/file
 *************************
 
@@ -34,3 +40,8 @@ kick someone
 ************
 
 * :code:`pkill -o -u <username> sshd`
+
+Sources
+*******
+
+* https://www.a2hosting.com/kb/developer-corner/linux/setting-the-default-text-editor-in-linux
