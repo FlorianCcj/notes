@@ -202,7 +202,13 @@ Les 6 etapes:
     * integrer un groupe
     * discretion
 * Le pouvoir du hasard et de la curiosité
-13:04
+  * le random et l unknown est un atrait puissant
+  * note toutes les interrogations et idees durant la journee et cherche les reponses apres
+* la force de la peur
+  * ameliorer sa postion ou reduire sa soufrance
+  * la peur est un mecanisme eessentiel pour reveiler notre cerveau un jeu qui ne comporte aucun risque de ou perdre n est pas possible n a rien d engageant
+* Les epreuves de la vie
+  * certaine personne n ont pas 'la chance' de profiter d une zone de confort la zone de peur est de courte duree et ilfaut mettre en oeuvre tres rapidement la zone d apprentissage. les epreuves douloureuses de la vvie amenent certaines personnes a faire face a des situations inattendues
 
 Le Triangle de la Richesse: Stratégie en 3 étapes
 *************************************************
