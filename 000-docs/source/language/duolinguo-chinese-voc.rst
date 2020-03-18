@@ -12,9 +12,9 @@ CHN-01-1-01 Greeting 1
 Voc
 ===
 
-* ni3hao3: hello
-* ha3o: good
-* za4ijia4n: goodbye
+- ni3hao3: hello
+- ha3o: good
+- za4ijia4n: goodbye
 
 CHN-02-1-02 Numbers
 *******************
@@ -36,17 +36,17 @@ CHN-02-1-02 Numbers
 Voc
 ===
 
-* ga1oxi4ng: happy
-* ma1: mother
-* ma2: hemp
-* ma3: horse
-* ma4: to scold
-* yuan: chinese money
+- ga1oxi4ng: happy
+- ma1: mother
+- ma2: hemp
+- ma3: horse
+- ma4: to scold
+- yuan: chinese money
 
 CHN-03-1-03 Name
 ****************
 
-* jia4o (叫): (like in jia4o: s'appeler)
+* jia4o (叫): s'appeler
 * me (么): (like in she2nme: what/how)
 * mi2ng (名): (like in mi2ngzi4)
 * ne (呢): (like in ni3ne: what about you)
@@ -59,11 +59,11 @@ CHN-03-1-03 Name
 Voc
 ===
 
-* li3 (李): name of someone
-* hua2 (华): name of someone
-* wa2ng (王): name of someone
-* zhang (张): name of someone
-* ming (明): name of someone
+- li3 (李): name of someone
+- hua2 (华): name of someone
+- wa2ng (王): name of someone
+- zhang (张): name of someone
+- ming (明): name of someone
 
 CHN-04-1-04 Greetings 2
 ***********************
@@ -167,14 +167,14 @@ City Key
 Voc
 ===
 
-* be3iji1ng: Beijing
-* jia1re2n: family
-* lu2ndu1n: London
-* niu3yue1: NY
-* xia1ngga3ng: Hong Kong
-* xue2xio4a: school
-* za4i: se situer
-* zhu4: to live
+- be3iji1ng: Beijing
+- jia1re2n: family
+- lu2ndu1n: London
+- niu3yue1: NY
+- xia1ngga3ng: Hong Kong
+- xue2xio4a: school
+- za4i: se situer
+- zhu4: to live
 
 CHN-11-2-05 Phrases 1
 *********************
@@ -190,9 +190,9 @@ CHN-11-2-05 Phrases 1
 Voc
 ===
 
-* bu3ke4qi4 (不客气): You are welcome
-* dui4bu3qi3 (对不起): Sorry
-* me2igua1nxi4 (没关系): no worries
+- bu3ke4qi4 (不客气): You are welcome
+- dui4bu3qi3 (对不起): Sorry
+- me2igua1nxi4 (没关系): no worries
 
 CHN-12-2-06 Family 1
 ********************
@@ -220,8 +220,8 @@ Family
 Voc
 ===
 
-* jia1re2n: family
-* na4 ge re2n: that person
+- jia1re2n: family
+- na4 ge re2n: that person
 
 CHN-13-2-07 Phrases 2
 *********************
@@ -241,7 +241,7 @@ CHN-13-2-07 Phrases 2
 Voc
 ===
 
-* yi1ci4 (一次): one time
+- yi1ci4 (一次): one time
 
 CHN-14-2-08 Greeting 4
 **********************
@@ -259,9 +259,9 @@ CHN-14-2-08 Greeting 4
 Voc
 ===
 
-* zui4ji4n: recently, these day
-* za3o a1n: good morning
-* wa3n a1n: good night
+- zui4ji4n: recently, these day
+- za3o a1n: good morning
+- wa3n a1n: good night
 
 CHN-15-2-09 Drink
 *****************
@@ -277,43 +277,84 @@ CHN-15-2-09 Drink
 CHN-16-2-10 Location 2
 **********************
 
-* yua4n: ???
-* sho3u: ???
-* xi3: ???
-* jia1n: ???
+* gua3n (馆): (like in fa4ngua3n: restaurant)
+* jia1n (间): (like in xi3sho3ujia1n: bathroom, restroom)
+* sho3u (手): (like in xi3sho3ujia1n: bathroom, restroom)
+* xi3 (洗): (like in xi3sho3ujia1n: bathroom, restroom)
+* yua4n (院): (like in yi1yua4n: hospital)
 
 Voc
 ===
 
-* xi3sho3ujia1n: bathroom
-* yi1yua4n: hospital
-* fa4ngua3n: restaurant
+- xi3sho3ujia1n: bathroom
+- yi1yua4n: hospital
+- fa4ngua3n: restaurant
 
 CHN-17-2-11 Time 1
 ******************
 
-* xi1ng: (like in xi1ngqi1: week)
-* qi1: (like in xi1ngqi1: week)
-* tia1n: sky
-* ri4: sun
-* yue4: month
-* nia2n: year
-* ha4o: number
-* ji3: how many
-* ji2di3an: what hours ?
-* dia3n: hours
-* ba4n: half (for a hours)
-* xia4n: (like in xia4nza4i: now)
+* ba4n (半): half (for a hours)
+* dia3n (点): (like in ji2di3an: what hours ?)
+* ha4o (号): number
+* ji2 (几): (like in ji2di3an: what hours ?)
+* ji3 (几): how many (like in ji3 yue4 ji3 ha4o: what month what day)
+* nia2n (年): year
+* qi1 (期): (like in xi1ngqi1: week)
+* ri4 (日): sun
+* tia1n (天): sky (like in mi2ngjia1n: tomorrow)
+* xi1ng (星): (like in xi1ngqi1: week)
+* xia4n (现): (like in xia4nza4i: now)
+* yue4 (月): month
 
 Voc
 ===
 
-* xi1ngqi1: week
-* mi2ngjia1n: tomorrow
-* jiu3 dia3n: 9h
-* jiu3 dia3n ba4n: 9h30
-* za3osha4ng: morning
+- ji2di3an: what hours ?
+- ji4njia1n: today
+- jiu3 dia3n ba4n: 9h30
+- jiu3 dia3n: 9h
+- mi2ngjia1n: tomorrow
+- xi1ngqi1: week
+- xia4nza4i (现在): now
+- yue4: month
+- za3osha4ng: morning
 
+CHN-18-3-01 Family 2
+********************
 
+CHN-19-3-02 Telephone
+*********************
 
+CHN-20-3-03 People 1
+********************
+
+CHN-21-3-04 Time 2
+******************
+
+CHN-22-3-05 Location 3
+**********************
+
+CHN-23-3-06 Hobbies 1
+*********************
+
+CHN-24-3-07 Routine 1
+*********************
+
+CHN-25-3-08 Payment
+*******************
+
+CHN-26-3-09 Entertain
+*********************
+
+CHN-27-3-10 Location 4
+**********************
+
+CHN-28-3-11 Restaurant
+**********************
+
+CHN-29-3-12 Market
+******************
+
+CHN-30-3-13 Hobbies 2
+*********************
 
