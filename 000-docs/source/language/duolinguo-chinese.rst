@@ -366,8 +366,66 @@ Phrases
 CHN-18-3-01 Family 2
 ********************
 
+Asking Questions
+================
+
+To a yes noquestion you can add ma (吗) at the end of the line
+
+But you can also double the verb and add bu4 (不) in the middle
+
+* Na4 shi4 bu shi4 ni3 de qi1zi?: Is that your wife?
+* Ta1 ya4o bu ya4o niu2na3i?: Does he want milk? 
+
+lia3ng (两) vs. e4r (二)
+=======================
+
+To say two of something, or to say both use lia3ng (两)
+
+Phrases
+=======
+
+* Ta1 ji3 sui4? (他几岁？): How old is he?
+* Ta1 me2iyo3u ha2izi3 (他没有孩子): He does not have children
+* Ta1men me2iyo3u nu.3e2r: They do not have daughter
+* Ta1men yo3u ji3 ge4 ha2izi3? (他们有几个孩子?): How many children do they have?
+* Wang yi1she1ng ye3 yo3u lia3ng ge4 ha2izi3 (王医生也有两个孩子): Doctor Wang also has two children
+* ta1 chi1 yu4, ye3 chi1 fa4n (它吃鱼，也吃饭): it eats fish and rice
+* ta1 liu4 sui4 (它六岁): It is six years old
+* wo3 de nu.e2r shi2qi1 sui4 (我的女儿十七岁): My daughter is 17 years old
+* wo3men yo3u yi1ge4 nu.3e2r (我们有一个女儿): We have a daughter
+* zhe4 shi4 she2i de ma1o? (这是谁的猫?): Whose cat is it?
+* zhe4 shi4bu4shi4 Wang la3oshi1 de qi1zi? (这是不是王老师的妻子?): Is this Teacher Wang's wife?
+
 CHN-19-3-02 Telephone
 *********************
+
+Tone changes with yi1 (一)
+==========================
+
+* Counting: yi1, e4r, sa1n, ...
+* Followed by 1st, 2nd, 3rd tone: yi4 dia3r (a little bit)
+* Followed by 4th tone: yi2ci4 (one time)
+
+de (得) to describe actions
+===========================
+
+* Ni3 shuo1 de he3n kua4i (你说得很快): You speak quickly
+* Wo3 chi1 de he3n ma4n (我吃得很慢): I eat slowly
+* Ta1 shuo1 de he3n ha3o (他说得很好): He speaks well
+
+Hello
+=====
+
+ni2hoa3 (你好) is use when you speak to a person. on the phone say we2i (喂)
+
+Phrases
+=======
+
+* kua4i yi4 dia3r! (慢一点儿!): Faster!
+* ma4n yi4 dia3r! (慢一点儿!): Slow down!
+* ni3 mi2ngba2i ma? (你明白吗?): Do you understand?
+* qi3ng shuo1 ma4n yi4 dia3r (请说慢一点儿): please speak slowly
+* ta1 shuo1 de bu3 kua4i (她说得不快): She does not understand
 
 CHN-20-3-03 People 1
 ********************

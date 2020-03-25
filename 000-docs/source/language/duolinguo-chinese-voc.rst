@@ -100,7 +100,6 @@ CHN-06-1-06 occupation
 * shi1 (师): (like in la3oshi1: teacher)
 * ta1 (他): he/him
 * ta1 (她): she/her
-* ta1 (它): it
 * xue2 (学): study (like in xue2she1ng: student)
 * yi1 (医): (like in yi1she1ng: doctor)
 
@@ -241,6 +240,7 @@ CHN-13-2-07 Phrases 2
 Voc
 ===
 
+- ba1ngzhu4: to help
 - yi1ci4 (一次): one time
 
 CHN-14-2-08 Greeting 4
@@ -248,7 +248,8 @@ CHN-14-2-08 Greeting 4
 
 * a1n (安): (like in wa3n a1n: good night)
 * cuo4 (错): bad
-* hui4 (会): (like in yi1hui4: in a bit, later)
+* e2r (儿): (like in yi1hui4e2r: in a bit, later)
+* hui4 (会): (like in yi1hui4e2r: in a bit, later)
 * ji4n (近): (like in zui4ji4n: recently)
 * jia4n (见): to see (like in za4ijia4n: goodbye)
 * jiu3 (久): time, at (like is ha3ojiu3 bu3 jia4n: lonng time no see)
@@ -298,6 +299,7 @@ CHN-17-2-11 Time 1
 * ha4o (号): number
 * ji2 (几): (like in ji2di3an: what hours ?)
 * ji3 (几): how many (like in ji3 yue4 ji3 ha4o: what month what day)
+* mi2ng (明): (like in mi2ngtia1n: tomorrow)
 * nia2n (年): year
 * qi1 (期): (like in xi1ngqi1: week)
 * ri4 (日): sun
@@ -322,8 +324,49 @@ Voc
 CHN-18-3-01 Family 2
 ********************
 
+* e2r (儿): (like in nu.3e2r: daughter or e2rzi3: son)
+* fu1 (夫): (like in zha4ngfu1 (丈夫): husband)
+* go3u (狗): dog
+* ha2i (孩): (like in ha2izi3 (孩子): children)
+* kua4i (快): quick
+* lia3ng (两): 2, for thing or both
+* ma1o (猫): cat
+* nu.3 (女): (like in nu.3e2r: daughter)
+* qi1 (妻): (like in qi1zi (妻子): wife)
+* sui4 (岁): old, age
+* ta1 (它): it
+* zha4ng (丈): (like in zha4ngfu1 (丈夫): husband)
+* zi3 (子): (like in ha2izi3: children)
+
+Voc
+===
+
+- a1nqua2n (安全): safe
+- e2rzi3 (儿子): son
+- go3u (狗): dog
+- ha2izi3 (孩子): children
+- ma1o (猫): cat
+- nu.3e2r (女儿): daughter
+- qi1zi (妻子): wife
+- xu1ya4o (需要): need
+- zha4ngfu1 (丈夫): husband
+
 CHN-19-3-02 Telephone
 *********************
+
+* ba2i (白): (like in mi2ngba2i (明白): understand)
+* de (得): to describe actions
+* ma4n (慢): slow
+* we2i (喂): hello, on the phone
+
+Voc
+===
+
+- kua4i (快): quick
+- ma4n (慢): slow
+- mi2ngba2i (明白): understand
+- we2i (喂): hello, on the phone
+- yi4 dia3r (一点儿): a little bit
 
 CHN-20-3-03 People 1
 ********************
