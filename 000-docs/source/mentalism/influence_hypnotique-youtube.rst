@@ -16,23 +16,33 @@ Quel est ton type d'humour ?
 
 :source: https://www.youtube.com/watch?v=Sn7QylYANBE&feature=youtu.be
 
-1. L'humour visuel: 
+1. L'humour visuel:
+
   * clown, enfance, charlie chaplin, jim carey
   * expression faciale, situation burlesque
   * signifie que tu as garde une part d enfance
+
 2. L auto derision
+
   * se moquer de soit meme, tres aprecie en stand-up
   * un peu l humour des anxieux
   * permet d eviter les remarque que l on va te faire
+
 3. L humour absurde
 4. L improvisation
 5. Les jeu de mots
 6. L humour thematique
+
   * derision d un sujet du quotidien
+
 7. L'observation
+
   * Observer une situation et la caricaturer
+
 8. L humour vulgaire
+
   * baser sur les grossiertes
   * briser les tabous
   * savoir bien mesurer, ne pas aller trop loin
+
 9. L humour noir
