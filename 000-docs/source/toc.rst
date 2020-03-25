@@ -63,6 +63,7 @@
     math/math-exercise_code.rst
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
+    methodology/good_practices.rst
     methodology/methodology-fail_over.rst
     methodology/methodology-suck_in_programming.rst
     reading/disk_world.rst
