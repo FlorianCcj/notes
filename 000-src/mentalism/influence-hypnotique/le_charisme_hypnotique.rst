@@ -278,14 +278,71 @@ Chapitre 4 - Les mots captivants
 Les sujets de conversation
 ==========================
 
+acronyme FORD
+
+* Famille: 
+    * friend, children, brother and sister and himself, where do they live, what do they do, it s quite easy to speak about it
+    * when you are interesed in someone generally the person is inereted in you
+* Occupation: les hobbies, what do you like to do, you can troll a bit, compare with you where do they practice, who teach them, where do this hobbies come from
+* Rememoration: her past where do she grow, what did she do when she was a child, what does she remember
+* Desir: what will you want to be/do/buy/learn, do you want to launch a new business
+
+
 Le langage émotionnel
 =====================
+
+2 type de mot
+    * rationnel
+    * emotionnel
+
+Charisme entraine l utilisation de mots emotionnel pour affecter les emotions de l interlocuteur
+
+language emotionnel
+    * parler de l autre, de ses passion, de sion ego, de son experience, de ses emotions
+    * utiliser des mots en rapport au sens, la vue, le toucher ou l ouie
+
+Les mots qui ont un rapport au sens seront entendu comme on prend l information de l environnement
+
+* Personne visuelle
+    * apparence primordiale
+    * aime voir, dessiner
+    * cherche le contact visuel
+    * geste bref, ton de voix tonnique, rapide, semble raide
+    * aime attirer les regards
+    * attitude depend de l image qu il pense donner
+    * distance social pour vision d ensemble
+* Personne auditive
+    * disent les choses
+    * aiment ecouter et rebondir
+    * ton juste, mots precis, voix expressive
+    * tete pencher (attitude d ecoute active)
+    * ne manque pas de souffle
+    * contact visuel difficile
+* Personne kynesthesique
+    * posture decontracter, bien dans leur peau
+    * voix chaude, bien timbree
+    * intelligence de mouvement
+    * sportif, nourriture equillibree
+    * sensible aux ambiances
+    * aiment mettre a l aise
+    * mal a l aise a l exces
+    * aime le contact (distance conversationnel courte)
 
 Le storytelling
 ===============
 
+Certain vont raconter des histoire de maniere tres succinte par peur d ennuyer
+
+Quand tu racontes une histoire il faut que tu donnes les sensations a celui qui ecoute, qu il se sente integrer dedans qu elle puisse visualiser la scene (d ou l utilisation des champs lexicaux des sens)
+
+Mettre egalement du rythme, faire des pauses, accelerer, monter dans les aigues, descendre dans les graves
+
 Le fractionnement
 =================
+
+Ne pas devenir une caricature, ne pas montrer que du comique, alterner comique, serieux, triste, gloque, horeur, borderline avec du cul, auto-derision, etc
+
+Quand on est proche avec quelqu un on fait souvent preuve d auto-derision, on hesite pas a parler de chose personnel. Pour creer de la proximité, ca aide
 
 Devenir un leader grâce aux métaphores
 ======================================
