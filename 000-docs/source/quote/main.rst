@@ -23,6 +23,8 @@ Mentalism
 
 :Philippe Peytroux: "Si tu veux trouver un prince, tu es censé embrassé un crapaud, pas baiser tout l'étang" 
 
+:Antoine de Saint-Exupery: "pour ce qui est de l'avenir il ne s'agit pas de le prévoir mais de le rendre possible"
+
 :Elon Musk: "si l on ne trouve pas la reponse c est que la question est mal formulé"
 
 Other
