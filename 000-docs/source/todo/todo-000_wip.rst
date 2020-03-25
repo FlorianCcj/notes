@@ -14,11 +14,8 @@ Todos
 Folder in sulfur
 ****************
 
-* syndic
-* carte micro sim
-* tang, riz
-* plumber
-* clean up kitchen
+* inscription fedegn
+* allemand
 * clean up room
 * room
 
@@ -254,6 +251,7 @@ Doc to read/to write
     * kotlin
     * dive
     * https://github.com/veggiemonk/awesome-docker
+    * https://github.com/gothinkster/realworld
     * design
         * https://medium.com/@smashingmag/getting-started-with-css-layout-58dc92809293
         * https://css-tricks.com/snippets/css/css-grid-starter-layouts/
@@ -270,6 +268,9 @@ Doc to read/to write
         * https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa
         * https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99
         * angular
+            * https://levelup.gitconnected.com/auto-unsubscribing-in-angular-components-like-a-pro-742220b01d0c
+            * https://itnext.io/ngxs-thoughts-patterns-architecture-and-best-practices-c991c42618d9
+            * https://medium.com/angular-in-depth/creating-a-toast-service-with-angular-cdk-a0d35fd8cc12
             * https://medium.com/better-programming/let-angular-manage-your-rxjs-subscriptions-better-9243073e94b0
             * https://blog.bitsrc.io/10-tricks-to-optimize-your-angular-app-44208f616bf0
             * https://levelup.gitconnected.com/using-angular-viewchild-to-implement-multiple-visualizations-of-data-sets-b626689938f7
@@ -292,7 +293,10 @@ Doc to read/to write
             * https://medium.com/free-code-camp/bet-you-cant-solve-this-google-interview-question-4a6e5a4dc8ee
             * https://medium.com/angular-in-depth/rxjs-in-angular-part-1c5409610d8e
             * https://youtu.be/49FrsKDkt04
+            * https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angular-applications-f2f0fab5a8
         * react
+            * https://egghead.io/lessons/react-a-beginners-guide-to-react-introduction
+            * https://www.youtube.com/playlist?list=PLDIXF8nb0VG1v4S-smVy7GV0MHsJ3PJiL&utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_193
             * https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg
             * https://medium.com/better-programming/demystifying-react-hooks-a0b56a6254c2
             * https://medium.com/better-programming/how-to-fetch-data-from-an-api-with-react-hooks-9e7202b8afcd
@@ -304,6 +308,8 @@ Doc to read/to write
                 * https://github.com/antonioru/beautiful-react-hooks
                 * https://itnext.io/optimizing-react-code-with-hooks-3eaaf5978351
                 * https://www.telerik.com/kendo-react-ui/react-hooks-guide/?utm_medium=cpm&utm_source=reactstatus&utm_campaign=kendo-ui-react-blog-react-hooks-guide&utm_content=sponsored-link
+        * vuejs
+            * https://dev.to/heyshadowsmith/vue-component-tdd-with-jest-and-storybook-52od?utm_source=Vue.js+Developers&utm_campaign=40c4c138c7-VJD_NEWSLETTER_152&utm_medium=email&utm_term=0_ae2f1465e2-40c4c138c7-223767501
     * cloud
         * https://www.netlify.com/pricing/
         * https://www.cncf.io/blog/2019/12/16/kubernetes-101/
@@ -315,10 +321,7 @@ Doc to read/to write
         * https://github.com/vmware/weathervane (bench)
         * gogs
         * longhorn
-<<<<<<< Updated upstream
-=======
         * https://www.stackrox.com/post/2019/09/docker-security-101/
->>>>>>> Stashed changes
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
@@ -328,6 +331,7 @@ Doc to read/to write
         * https://www.girlschase.com/
         * https://influence-hypnotique.fr/technique-hypnose-conversationnelle/
     * quality:
+        * https://www.youtube.com/watch?list=PLEx5khR4g7PKMVeAqZdIHRdOwTM1yktD8&v=TqfbAXCCVwE
         * https://www.guru99.com/istqb.html
         * https://github.com/projecthamster/hamster
         * https://blog.myagilepartner.fr/index.php/retrospective/
