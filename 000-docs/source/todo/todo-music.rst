@@ -33,6 +33,12 @@ Folder in sulfur
         * le roi lion
         * unm monstre a paris
 
+sensuel
+* earned it - the weekend
+* slip - elliot moss
+* love is a bitch - two feet
+* snow white - dennis loyd
+
 * download
 
     * add pp juste after youtube
