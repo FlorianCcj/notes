@@ -70,4 +70,5 @@ scan security (trivy, anchor, docker bench security )
 TU
 Git hook
 check git flow
-husky (git hook pour npm)
+husky (git hook for npm)
+crook (git hook for php)
