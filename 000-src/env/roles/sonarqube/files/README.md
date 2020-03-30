@@ -72,3 +72,4 @@ Git hook
 check git flow
 husky (git hook for npm)
 crook (git hook for php)
+bruli/php-git-hooks (git hook for php)
