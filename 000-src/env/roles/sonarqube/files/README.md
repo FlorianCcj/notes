@@ -74,3 +74,7 @@ husky (git hook for npm)
 crook (git hook for php)
 bruli/php-git-hooks (git hook for php)
 BrainMaestro/composer-git-hooks 
+
+https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit
+https://github.com/CookPete/auto-changelog
+https://github.com/git-chglog/git-chglog
