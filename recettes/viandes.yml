@@ -16,6 +16,34 @@ FGHIJ:
     source: https://www.cuisine-etudiant.fr/recette/4891-filet-mignon-de-porc-au-reblochon
   totest-todo-filet mignon en croute:
     source: https://www.cuisine-etudiant.fr/recette/3121-filet-mignon-de-porc-en-croute
+  toteat-giant_swedish_meatball_and_cheesy_mash:
+    source: https://www.youtube.com/watch?v=xvn9mQh0elU
+    realisation:
+      préparation : 15 min
+      cuisson : 30 min
+      Difficulté : Facile
+      prix: 4,4/personne
+      types: [Plat]
+    ingredient:
+      quantite: pour 4 personnes
+      300g Jam
+      120g white bread
+      150g milk
+      800g beef mince
+      500g pork mince
+      1/2 oinion
+      3 eggs
+      1kg potatoes
+      200g emmental
+      20g butter
+      2 tbsp parsley
+    steps:
+      author: La recette de Christophe Delcourt
+      1. In a little bowl put the jam and freeze it
+      2. cover the white bread with the milk
+      3. mix bread, onion, eggs, pork and beef
+      4. bake 45 min 180 C or 356 F
+      5. cook the potatoes, add emental, butter, parsley
 KLMNO: ~
 PQRST: ~
   totest-Papillote de poulet:
