@@ -115,7 +115,7 @@ DEU-10-2-02 Adjectives
 * schlecht: bad
 * schwach: weak
 * toll: great
-* frei free
+* frei: free
 
 DEU-11-2-03 Not
 ***************
