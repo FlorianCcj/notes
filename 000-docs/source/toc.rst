@@ -45,6 +45,7 @@
     python/python-venv.rst
     python/python-good_practices.rst
     php/php-best-practices.rst
+    php/symfony-begining.rst
     sphinx/ccj_init_project.rst
     sphinx/travis.rst
     uiux/uiux-css_breakpoint.rst
