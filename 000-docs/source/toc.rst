@@ -66,6 +66,7 @@
     language/duolinguo-italian.rst
     language/duolinguo-italian-voc.rst
     math/math-exercise_code.rst
+    mentalism/fabien_olicard-votre_temps_est_infini.rst
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
     methodology/good_practices.rst
