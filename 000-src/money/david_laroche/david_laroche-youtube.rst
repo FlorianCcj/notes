@@ -101,7 +101,7 @@ obsession: identifier les facteurs qui font qu on realise ses reves
 5. l impuissance apprise
 6. je n arrive pas a oser faire cee qui est importqnt
 7. je manque de discipline d organisation
-8. je n ai pas l environnement le groupse adequa et qui ne me laisse pas le choix
+8. je n ai pas l environnement le groupe adequa et qui ne me laisse pas le choix
 
 reframing:
     * strategie1: reframing de perception
@@ -129,9 +129,11 @@ reframing:
             * quel impact ca a dans ma vie (dans mes autres domaines de viem a court, moyen long therme)
             * dans celle des autres ? (en particulier pour ceux que j aime)
 
-eperience:
+experience:
     * mettre les yex le plus bas possible, pas la tete le yeux
     * trouver un souvenir triste, d angoisse
     * redresse toi, sort de ca et rigole
     * puis met les yeux le plus haut possible et retrouve un souvenir triste, une difficulté
 
+Resultat = (P - CL) x P x G
+resultat = (Potenciel - Croyance Limitante) x Perception que tu as x Groupe
