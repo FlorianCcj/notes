@@ -32,6 +32,14 @@ Si vous voulez le manipuler, ecriver les choses que vous penez le plus souvent e
 
 Cela permet de de gagner en optimisme, productivite, motivation, etc
 
+Je forme JOYCA au Mentalisme à la RedBox
+****************************************
+
+:source: https://www.youtube.com/watch?v=OuvFl0CP0bg
+
+* le nose knows: quand la personne tend les mains devant lui, la axe du nez pointe tres legerement vers la main qui a la piece
+* le decalage des mains: dans la majorite des cas, on a tendance a vouloir cacher la main qui a la piece, du coup la dites main est legerement en retrait par rapport a l autre
+
 Je vous debloque une competence dans le cerveau!
 ************************************************
 
