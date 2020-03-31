@@ -430,6 +430,30 @@ Phrases
 CHN-20-3-03 People 1
 ********************
 
+Asking Question
+===============
+
+You can ask question with bu4 and the dooble verb shi4 bu shi4
+
+But you can do it with adjective ha3o bu4 ha3o
+
+* Nǐ gāoxìng bu gāoxìng? (你高兴不高兴?): Are you happy?
+* Tā máng bu máng? (他忙不忙？): Is he busy?
+
+Phrases
+=======
+
+* ni3 de ha2izi3 he3n pia4olia4ng (你的孩子很漂亮): Youy child is pretty
+* ta1 ga1o ma? (他高吗): Is he tall?
+* wo3 de pe2ngyo3u pia4olia4ng bu4 pia4olia4ng? (我的朋友漂亮不漂亮): Is my friend pretty?
+* ni3 de ge1ge he3n a3i (他们的哥哥很矮): Their older sister is short
+* wo3 de na2npe2ngyo3u a4i ma1o(我的男朋友爱猫): My boyfriend loves cats
+* go3u shi4 wo3men de ha3o pe2ngyo3u (狗是我们的好朋友): Dogs are our good friends
+* ji1ntia1n wo3men fe1icha2ng ga1oxi4ng (今天我们非常高兴): Today we are very happy
+* ta1 de go3u fe1icha2ng ke3a4i (他的狗非常可爱): his dog is very cute
+* wo3 de ge1ge de nu.3pe2ngyo3u he3n pia4olia4ng (我的哥哥的女朋友很漂亮): My older brother's girlfriend is very pretty
+* wo3 de nu.3er fe1icha2ng ke3a4i (我的女儿非常可爱): My daughter is very cute
+
 CHN-21-3-04 Time 2
 ******************
 

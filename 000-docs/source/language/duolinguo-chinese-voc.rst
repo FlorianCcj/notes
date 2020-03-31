@@ -371,6 +371,29 @@ Voc
 CHN-20-3-03 People 1
 ********************
 
+* lia4ng (亮): (like in pia4olia4ng (漂亮): pretty, beautifull)
+* pia4o (漂): (like in pia4olia4ng (漂亮): pretty, beautifull)
+* na2n (男): (like in na2npe2ngyo3u (男朋友): boyfriend)
+* yo3u (友): (like in pe2ngyo3u (朋友): friend)
+* pe2ng (朋): (like in pe2ngyo3u (朋友): friend)
+* a3i (矮): short
+* ke3 (可): but (like in ke3a4i (可爱): cute)
+* fe1i (非): (like in fe1icha2ng (非常): very)
+* cha2ng (常): ever (like in fe1icha2ng (非常): very)
+
+Voc
+===
+
+- ke3a4i (可爱): cute
+- fe1icha2ng (非常): very, quite, extremely
+- cha2ng (常): ever
+- na2npe2ngyo3u (男朋友): boyfriend
+- nu.3pe2ngyo3u (女朋友): girlfriend
+- pe2ngyo3u (朋友): friend
+- ga1o (高): tall, high, pointy
+- pia4olia4ng (漂亮): pretty, beautifull
+- a3i (矮): short
+
 CHN-21-3-04 Time 2
 ******************
 
