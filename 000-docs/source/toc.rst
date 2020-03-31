@@ -57,6 +57,8 @@
     draw/draw-apprendre-a-dessiner.rst
     enigma/amazon-software_development_engineer_interview.rst
     enigma/enigma-youtube.rst
+    gogame/gogame-teacher.rst
+    gogame/gogame-youtube.rst
     language/duolinguo-chinese.rst
     language/duolinguo-chinese-voc.rst
     language/duolinguo-german.rst
