@@ -48,21 +48,25 @@ sensuel
 * totest
     * Blackpink - Kill this love
     * Everglow - Dundun
-    * exo - love shot
+    * Exo - love shot
     * GI-DLE - Hann(alone)
     * GI-DLE - Uh-Oh
     * Hyuna - flower shower
     * Twice - feel special
     * Twice medley - Dance the night way
     * WJSN - as you wish
-    * exo - love shot
-    * mamamoo - gogobebe
-    * seventeen - snap shoot
-    * sunmi - lalalay
-    * twice - fancy
-    * twice - heart shaker
+    * Mamamoo - gogobebe
+    * Seventeen - snap shoot
+    * Sunmi - lalalay
+    * Twice - fancy
+    * Twice - heart shaker
     * Clean Bandit - Symphony (feat. Zara Larsson) 
     * Clean Bandit - Rockabye
+    * Momoland - i m so hot
+    * Itzy - icy
+    * Kard - Bomb Bomb
+    * Everglow - Adios
+    * HwaSa X Chunga - Mi Gente
 
 Document history
 ================
