@@ -48,6 +48,8 @@ entity and migration
 * property in lowerCamelCase
 * :code:`bin/console make:migration`
 * :code:`bin/console doctrine:migrations:migrate`
+* :code:`bin/console doctrine:migrations:execute --<up|down> <version>`
+* :code:`bin/console doctrine:migrations:execute --up 20200404184326`
 
 fixture
 =======
@@ -87,16 +89,30 @@ dependency injection
 
     /**
      * @Route("/blog/{id}", name="blog_show")
+     * @ParamConverter("post", class="SensioBlogBundle:Post")
      */
     public function blog(Article $article){
         // code
     }
 
+to manage exception in json
+
+.. code-block:: yaml
+    :name: config/routes/annotations.yaml
+    :caption: config/routes/annotations.yaml
+
+    # config/routes/annotations.yaml
+    controllers:
+        ...
+        defaults:
+            _format: json
+
 form
 ****
 
-* :code:`bin/console make:form ArticleType`
-* Article
+* :code:`composer require form`
+* :code:`bin/console make:form <FormName> <classBaseName>`
+* :code:`bin/console make:form ArticleType Article`
 .. code-block:: php
     :caption: controller
     :name: controller
@@ -136,6 +152,17 @@ Serialisation
 Firt try
 ========
 
+:code:`composer require symfony/serializer`
+
+.. code-block:: yaml
+    :name: config/services.yaml
+    :caption: config/services.yaml
+
+    services:
+        get_set_method_normalizer:
+            class: Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer
+            tags: [serializer.normalizer]
+
 .. code-block: php
 
     use Symfony\Component\Routing\Annotation\Route;
@@ -146,7 +173,7 @@ Firt try
      */
     public function list(PostRepository $postRepository, NormalizerInterface $normalizer){
         // get posts
-        $posts = $postRepository->getAll();
+        $posts = $postRepository->findAll();
 
         // all property are private, so you need a normalizer to access to the getter
         // //!\\ WARNING //!\\ if there is a reference in comment, you will have a circular reference
@@ -181,7 +208,7 @@ Fix it
      */
     public function list(PostRepository $postRepository, NormalizerInterface $normalizer){
         // get posts
-        $posts = $postRepository->getAll();
+        $posts = $postRepository->findAll();
 
         // all property are private, so you need a normalizer to access to the getter
         // only focus ic property target by this group
@@ -206,7 +233,7 @@ Reduce code
      */
     public function list(PostRepository $postRepository, SerializerInterface $serializer){
         // get posts
-        $posts = $postRepository->getAll();
+        $posts = $postRepository->findAll();
         $json = $serializer->serialize($posts, 'json', ['groups' => 'post:list']);
 
         return new JsonResponce($json, 200, [], true);
@@ -224,11 +251,13 @@ Reduce code v2
      * @Route("/api/post", name="api_post_list", methods={"GET"})
      */
     public function list(PostRepository $postRepository) {
-        return $this->json($postRepository->getAll(), 200, [], ['groups' => 'post:list']);
+        return $this->json($postRepository->findAll(), 200, [], ['groups' => 'post:list']);
     }
 
 Deserialisation
 ***************
+
+To install validator: :code:`composer require symfony/validator`
 
 .. code-block:: php
 
@@ -277,6 +306,36 @@ If you want to add constraints, do it like in :code:`validation` with :code:`Ass
             ], 400)
         }
     }
+
+Paramconverter
+**************
+
+Todo
+
+:code:`composer require annotations`
+
+.. code-block:: php
+
+    /**
+     * @Route("/{category_slug}/{slug}", name="content_show")
+     * @ParamConverter("content", options={"mapping": {"slug": "slug"}})
+     * @ParamConverter("category", options={"mapping": {"category_slug": "slug"}})
+     * ParamConverter("category", class="Category::class", options={"mapping": {"category_slug": "slug"}})
+     * @Method("GET")
+     */
+    public function show(Category $category, Content $content)
+
+debug
+*****
+
+* list entity: :code:`bin/console doctrine:mapping:info`
+* list bundle: :code:`bin/console config:dump-reference`
+* list service: :code:`bin/console debug:autowiring`
+
+request
+*******
+
+Force answer in json: add header :code:`Accept: application/json`
 
 sources
 *******

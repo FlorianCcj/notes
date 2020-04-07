@@ -1,0 +1,102 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.2.5",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "doctrine/annotations": "^1.8",
+        "sensio/framework-extra-bundle": "^5.5",
+        "symfony/browser-kit": "5.0.*",
+        "symfony/console": "5.0.*",
+        "symfony/dotenv": "5.0.*",
+        "symfony/flex": "^1.3.1",
+        "symfony/form": "5.0.*",
+        "symfony/framework-bundle": "5.0.*",
+        "symfony/http-client": "5.0.*",
+        "symfony/orm-pack": "^1.0",
+        "symfony/serializer": "5.0.*",
+        "symfony/validator": "5.0.*",
+        "symfony/yaml": "5.0.*"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "liip/test-fixtures-bundle": "^1.0.0",
+        "symfony/maker-bundle": "^1.14",
+        "symfony/phpunit-bridge": "^5.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "replace": {
+        "paragonie/random_compat": "2.*",
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php71": "*",
+        "symfony/polyfill-php70": "*",
+        "symfony/polyfill-php56": "*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ],
+        "server": [
+            "php -S localhost:8000 -t public",
+            "echo 'be carefull, timeout'"
+        ],
+        "lint" : [
+            "php -l src; phpcs --standard=PSR1,PSR2 src"
+        ],
+        "db:init": ["docker run --rm --name mysql -e MYSQL_ROOT_PASSWORD='root' -e MYSQL_DATABASE='symfony' -e MYSQL_USER='symfony' -e MYSQL_PASSWORD='symfony' -d -p 3306:3306 mysql --default-authentication-plugin=mysql_native_password"],
+        "db:init:test": ["docker run --rm --name mysql_test -e MYSQL_ROOT_PASSWORD='root' -e MYSQL_DATABASE='symfony_test' -e MYSQL_USER='symfony_test' -e MYSQL_PASSWORD='symfony_test' -d -p 3307:3306 mysql --default-authentication-plugin=mysql_native_password"],
+        "dbi": ["@db:init"],
+        "dbit": ["@db:init:test"],
+        "db:populate": [
+            "bin/console doctrine:database:drop --force",
+            "bin/console doctrine:database:create",
+            "bin/console doctrine:migrations:migrate -n",
+            "bin/console doctrine:fixtures:load -n"
+        ],
+        "db:populate:test": [
+            "bin/console doctrine:database:drop --env=test --force",
+            "bin/console doctrine:database:create --env=test",
+            "bin/console doctrine:schema:update --force --env=test",
+            "bin/console doctrine:fixtures:load -n --env=test"
+        ],
+        "dbp": ["@db:populate"],
+        "db": ["@db:populate", "@db:populate:test"],
+        "dbpt": ["@db:populate:test"],
+        "tu": ["bin/phpunit --testdox"],
+        "test": ["@tu", "@lint"]
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "5.0.*"
+        }
+    }
+}
