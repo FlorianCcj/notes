@@ -27,3 +27,9 @@ Regle
 * coin
 
 Forcer l autre a te faire jouer ce que tu veux jouer
+
+prosody
+*******
+
+Pour un oeil entre 2 et 7 liberte
+(n (n-3))/2 +3
