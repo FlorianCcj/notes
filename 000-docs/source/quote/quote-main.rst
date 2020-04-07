@@ -46,6 +46,8 @@ Other
 
 :Libre et riche: La difference entre ce que tu es et ce que tu veux etre reside en ce que tu fais
 
+:Libre et riche: impossible est un possible en devenir
+
 :Theophile Eliet: un echec, c est une reussite qui prend un peu plus de temps
 
 :???: tant que je me fais rire c est que je suis drole
