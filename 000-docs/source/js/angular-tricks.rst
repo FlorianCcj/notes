@@ -124,6 +124,18 @@ To use this directive you must provide a container element that sets the [ngPlur
         <ng-template ngPluralCase=">1">{{components}} components removed </ng-template>    
     </p>
 
+Production
+**********
+
+.. code-block:: js
+
+    if (environment.production) {
+        enableProdMode();
+        if (window) {
+            window.console.log = () => {};
+        }
+    }
+
 Title
 *****
 

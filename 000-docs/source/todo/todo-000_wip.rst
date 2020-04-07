@@ -10,12 +10,11 @@ Todos
 * https://tsumego-hero.com/
 * https://docs.google.com -> compte
 * https://florianccj.github.io/notes/60_days_plan.html
+* https://www.youtube.com/watch?v=ZHNfCzCZbFs
 
 Folder in sulfur
 ****************
 
-* inscription fedegn
-* allemand
 * clean up room
 * room
 
@@ -180,6 +179,8 @@ Doc to read/to write
         * monday.com
     
 * tmp:
+    * sentry
+    * https://www.youtube.com/watch?v=sFk8kPNJ0XE
     * https://psiloveyou.xyz/the-only-thing-you-have-to-do-before-9-a-m-5e51c708ac99
     * https://medium.com/javascript-in-plain-english/ecmascript-2019-asynchronous-iteration-using-for-of-dc1893f99fd9
     * https://medium.com/better-programming/4-dangerous-problems-in-javascript-easily-solved-by-the-builder-design-pattern-7f0eb5b4455c
@@ -252,10 +253,14 @@ Doc to read/to write
     * dive
     * https://github.com/veggiemonk/awesome-docker
     * https://github.com/gothinkster/realworld
+    * ntask
+    * freedom
+    * darkreader
     * design
         * https://medium.com/@smashingmag/getting-started-with-css-layout-58dc92809293
         * https://css-tricks.com/snippets/css/css-grid-starter-layouts/
         * https://css-tricks.com/snippets/css/complete-guide-grid/
+        * https://www.freecodecamp.org/news/systems-design-for-interviews/
     * entrepreunariat
         * https://www.blogduwebdesign.com/logiciels-crm-gratuits/
         * https://www.journaldugeek.com/2020/02/27/konami-code-createur-cheat-jeu-video-mort/
@@ -268,6 +273,8 @@ Doc to read/to write
         * https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa
         * https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99
         * angular
+            * https://medium.com/angular-in-depth/angular-fat-dumb-and-happy-6409c7c01ff9
+            * https://medium.com/angular-in-depth/creatively-decouple-ngonchanges-fab95395cc6e
             * https://levelup.gitconnected.com/auto-unsubscribing-in-angular-components-like-a-pro-742220b01d0c
             * https://itnext.io/ngxs-thoughts-patterns-architecture-and-best-practices-c991c42618d9
             * https://medium.com/angular-in-depth/creating-a-toast-service-with-angular-cdk-a0d35fd8cc12
@@ -322,6 +329,9 @@ Doc to read/to write
         * gogs
         * longhorn
         * https://www.stackrox.com/post/2019/09/docker-security-101/
+        * https://ttt.io/anatomy-of-my-kubernetes-cluster
+        * https://ops.tips/notes/kubelet-qos-and-oom/
+        * Flagger
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
@@ -335,6 +345,8 @@ Doc to read/to write
         * https://www.guru99.com/istqb.html
         * https://github.com/projecthamster/hamster
         * https://blog.myagilepartner.fr/index.php/retrospective/
+    * sf
+        * https://medium.com/@ideneal/symfony-4-a-good-way-to-deal-with-exceptions-for-rest-api-afd8b615c923
 
 Document history
 ================

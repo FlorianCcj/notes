@@ -46,6 +46,7 @@
     python/python-good_practices.rst
     php/php-best-practices.rst
     php/symfony-begining.rst
+    php/symfony-test.rst
     sphinx/ccj_init_project.rst
     sphinx/travis.rst
     uiux/uiux-css_breakpoint.rst
