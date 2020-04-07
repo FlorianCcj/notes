@@ -32,13 +32,16 @@ Si vous voulez le manipuler, ecriver les choses que vous penez le plus souvent e
 
 Cela permet de de gagner en optimisme, productivite, motivation, etc
 
-Je forme JOYCA au Mentalisme à la RedBox
-****************************************
+Je forme JOYCA au Mentalisme à la RedBox (+4 tours de mentalisme pour trouver un objet caché - Explications)
+************************************************************************************************************
 
 :source: https://www.youtube.com/watch?v=OuvFl0CP0bg
+:source: https://www.youtube.com/watch?v=sFk8kPNJ0XE
 
 * le nose knows: quand la personne tend les mains devant lui, la axe du nez pointe tres legerement vers la main qui a la piece
 * le decalage des mains: dans la majorite des cas, on a tendance a vouloir cacher la main qui a la piece, du coup la dites main est legerement en retrait par rapport a l autre
+
+@TODO note the 2nd video
 
 Je vous debloque une competence dans le cerveau!
 ************************************************
@@ -87,6 +90,43 @@ La table de rappel - Technique de mémoire
   - tout les 10 mots, j'alterne entre: animal/humain (fictif ou non) et objet/plante (de 0 à 9 animal, 10 à 19 objet, etc...)
   - les mots choisis riment avec le nombre ou commencent par la même syllabe
   - les mots choisis sont en rapport avec l'élément, ou peuvent y faire penser
+
+Mentalisme : Explication d une prediction
+*****************************************
+
+:source: https://www.youtube.com/watch?v=mkW2Oy4RUOI
+
+Demo
+====
+
+* J ai avec moi ces deux petit carton, avec un cerveau dessine dessus. C est un test en fait. C est un test d analyse psychomoteur. Tu vas voir c est tres interessant.
+* Y en a deux, celui ci je vais le mettre a pars. Il restera a vu tout le long.
+* Et deriere le second il y a des symboles, je ne te les fais pas voir a toi, se sont des formes completements bizares, aleatoires, un peu mystique, qui vont determiner si le hasard psychomoteur existe ou pas.
+* En clair deriere il y a 16 cases, avec 16 symboles, et tu vas en choisir un. Tu vas compter, tu sais comme si tu comptais les cases d un echequier, et tu compteras de la gauche vers la droite et de haut en bas (demo) comme quand on lit un livre.
+* Pour ca je vais te demander de fermer les yeux, de faire passer les chiffres de 1 a 16 dans ta tete, et tu vas en choisir un spontanement, tu m en dis un, entre 1 et 16. 1 et 16 etant inclus.
+* 8
+* tu as choisi le 8, je vais juste retourner le carton, et tu vas compter 1, 2, 3, 4, 5, 6, 7, 8.
+* tu vois ce symbole la, il est unique, et ce petit carton que je n ai pas toucher depuis le debut, qui n a pas bouger, a un symbole lui aussi, tout particulier, c est exactement le meme
+
+Explication
+===========
+
+Pour ca il faut ces deux cartons, qui sont imprime recto verso. Ce qui importe c est celui avec les 16 cases et comment il est construit.
+
+Il y a 16  symboles originaux dessus, en fait il y en a 4 qui sont les memes mais tourne d un quart de tour, mais comme ce ne sont que des formes tres arondi et particuliere, on ne s en rend pas compte
+
+* 1-6-8-14
+* 2-10-12-13
+* 3-9-11-16
+* 4-5-7-15
+
+ils sont place a des endroits bien strategiques pour que suivant comment tu le tournes tu vas reussir a couvrir les 16 possibilites
+
+il y a des indices du cote du cerveau, c est pourquoi il faut bien imprimer recto verso, quand vous retourner la carte pour montrer les symboles, il faut que le chiffre choisi soit du coté ou l on commence a compter
+
+il ne reste plus qu a montrer le symbole predis, en l orientant dans le bon sens
+
+#olicarton
 
 Retenir un jeu de carte entier avec le système PAO, technique de mémoire
 ************************************************************************
