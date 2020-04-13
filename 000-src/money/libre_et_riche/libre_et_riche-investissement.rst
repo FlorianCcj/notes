@@ -210,6 +210,26 @@ Les 6 etapes:
 * Les epreuves de la vie
   * certaine personne n ont pas 'la chance' de profiter d une zone de confort la zone de peur est de courte duree et ilfaut mettre en oeuvre tres rapidement la zone d apprentissage. les epreuves douloureuses de la vvie amenent certaines personnes a faire face a des situations inattendues
 
+Comment Gagner N'importe quel débat et Discussion !
+***************************************************
+
+:source: https://www.librairiche.com/single-post/2020/04/06/Comment-Gagner-Nimporte-quel-d%C3%A9bat-et-Discussion-?cid=bef46f7e-d390-4fb0-9ea7-8ba0849f9eac&utm_campaign=fa5224ae-7e95-45d7-83b2-2fba20c2f5d3&utm_medium=mail&utm_source=so
+
+01. Évite les controverses pour sortir vainqueur
+02. Ne jamais dire à ton interlocuteur qu’il a tort
+03. Si tu as tort admets le énergiquement
+  * ecoute je n etais pas du tout de cet avis mais je peux me tromper si tel est le cas je veux bien rectifier mon opinion
+  * on obtient peu en s opposant bien d avantage en accordant
+04. Commence de façon amicale
+05. Pose des questions qui suscitent un Oui
+06. Laisse ton interlocuteur parler tout à son aise
+07. Accorde a ton interlocuteur le plaisir de croire que l idee vient de lui
+08. efforce toi de voir les choses selon le point de vue de ton interlocuteur
+09. Accueille avec sympathie les idees et desirs des autres
+10. fais appel aux sentiments
+11. frappe la vue et l imagination
+12. n hesite pas a lancer un defi
+
 Le Triangle de la Richesse: Stratégie en 3 étapes
 *************************************************
 
