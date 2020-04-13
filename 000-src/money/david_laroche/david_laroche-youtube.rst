@@ -137,3 +137,41 @@ experience:
 
 Resultat = (P - CL) x P x G
 resultat = (Potenciel - Croyance Limitante) x Perception que tu as x Groupe
+
+Webinar - Tout Dechirer en periode de crise
+*******************************************
+
+Dans un an de quoi je voudrais etre fier
+* ameliorer mon network
+* etre bien (dans le sens bien etre)
+* gagner des sous a partir de mon site
+
+Le locus interne: tu ne depends que de toi, si tu ne fais pas d effort tu n as pas de resultat
+
+les 3 parametres
+* avoir une strategie, prendre du recul
+    * reactif: 
+        * sensation d etre perdu,
+        * de ne pas avoir de plan,
+        * d etre en retard, deborde,
+        * tu fais comme tout le monde
+    * stratege: 
+        * possede un plan d action pour atteindre l objectif, 
+        * creatif, innovantm novateur, paradoxal
+        * mobilise moins d efforts pour ??? resultats
+* Performer
+    * Dans le flou: La sensation de passer a cote de ses ressources
+        * Perte de moyen + dispersion
+        * Hesitation, manque de focus
+    * Performer: capacite a produire des resultats hors norme de maniere fluide
+        * Flow + efficacite
+        * Focus, presence, intuition, Certitude
+* Team Player
+    * Entouré: de personne qui ne te permettent pas vraiment de progresser
+        * solitude + perte de temps + limitation
+        * Toujours les memes idees
+    * team player: entourer de personnes qui nourissent un projet commun
+        * projet commun + adn
+        * reflexion, energie, reponses
+
+Devenir un cafard: le cafard survie a tout
