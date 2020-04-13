@@ -6,11 +6,18 @@
   "dependencies": {
     "discord.js": "^12.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-aqua": "^7.2.3"
+  },
   "scripts": {
     "start": "node src/main.js",
+    "lint": "$(npm bin)/eslint src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "eslintConfig": {
+		"extends": "aqua"
+	},
   "keywords": [],
   "author": "",
   "license": "ISC"

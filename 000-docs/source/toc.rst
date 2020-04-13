@@ -9,6 +9,7 @@
     db/db-neo4j-from_sql_to_neo4j.rst
     db/db-postgres-user_permissions.rst
     discord/discord-bot-node.rst
+    discord/discord-bot-node-example.rst
     git/git-config.rst
     git/git-crash-course.rst
     git/git-hook.rst

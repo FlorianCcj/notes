@@ -1,0 +1,7 @@
+{
+	"extends": "aqua/node",
+	"rules": {
+		"indent": ["error", 2],
+		"semi-style": "warning"
+	}
+}
