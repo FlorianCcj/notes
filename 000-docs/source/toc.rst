@@ -74,6 +74,7 @@
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
     methodology/good_practices.rst
+    methodology/methodology-event_sourcing_and_DDD.rst
     methodology/methodology-fail_over.rst
     methodology/methodology-make_a_readme.rst
     methodology/methodology-suck_in_programming.rst
