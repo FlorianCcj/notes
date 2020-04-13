@@ -75,6 +75,7 @@
     mentalism/influence_hypnotique-youtube.rst
     methodology/good_practices.rst
     methodology/methodology-fail_over.rst
+    methodology/methodology-make_a_readme.rst
     methodology/methodology-suck_in_programming.rst
     reading/disk_world.rst
     quote/quote-main.rst
