@@ -45,6 +45,25 @@ levier pour passer a l action: la recherche de plaisir, l evitement de la douleu
 90% de nos actions sont engendrer pour eviter la douleur
 un peu aussi une cause, pour les autres on peut soulever des montagnes
 
+Anxieux face à L’AVENIR ? Regarde absolument cette vidéo !
+**********************************************************
+
+C est l histoire d un paysan francais qui s occupe de ses terres. On est a une epoque ou l agriculteur n a pas les machines d aujourd hui. Il utilise des chevaux, pour s occuper et labourer ses terres. 
+
+Il a un cheval, qu il adore vraiment, il est puissant ils ont une relation particuliere et en plus il lui permet de labourer les champs comme il veut et nourrir pleinement sa famille. Tout le monde lui dis autour de lui, ses amis, son entourage, son village, quand il passe et voit son cheval ils lui disent: "Mais en fait tu as tellement de la chance, pour toi c est plus facile". Lui a chaque fois leur repond "Chance ou pas chance je ne sais pas"
+
+Il se leve un matin et s approche de l ecurie pour aller rejoindre son cheval et faire sa journne de travail et il ne sait pas pourquoi l enclos a ete ouvert. Son cheval el plus important s est en alle. Tout ses amis son entourage, le village se rassemble et disent "Han c est horrible ce qui t arrives c est une catastrophe mais comment tu vas faire c est ton cheval qui te permet de faire plus de 50% de ton activité tu tenais tellement a ce cheval, comment tu vas faire" et il repond "ca m attriste mais ... chance ou pas chance je ne sais pas". Ces amis sont abassourdit par la reponse. Lui il continue sa vie, avec le reste de ses chevaux.
+
+Un jour il se balade en foret et il apercoit quelque chose au loin qui bouge. Il s approche et voit son cheval qui est la, entouré de deux autres chevaux. Il rentre a la maison avec non seulement son cheval mais aussi une super jument, qui a l air d etre une jument de race, et un autre cheval. Tout ses amis sont rapidement au courant ils viennent le voir en lui disant "Mais toi tu as vraiment une chance incroyable tu reviens a la maison avec non seulement ton cheval mais en plus deux autres chevaux en debut de moisson, c est incroyable" et il dit "je comprends que vous dites ca vraiment mais chance ou pas chance je ne sais pas"
+
+Quelques semaines plus tard, le printemps a bien debute, il s agit de s occuper vraiment de ses terres il demande comme chaque annee a son fils aine de s occuper avec lui des terres. Son fils aine prend en charge les chevaux et commence a laborer la terre et apres quelques heures, un de ses chevaux se cabre et son fils aine, tombe par terre et est gravement blesse. Non seuelement c est horrible pour on fils, dont on ne sait pas si il va pouvoir se remarcher facilement ou rapidement. Mais en plus de ca tout le monde lui dit "mais comment tu vas faire pour t occuper de ta ferme si t as pas ton fils ? Tu va avoir beaucoup de difficultes pour trouver quelqu un d autre pour le remplacer. C est une catastrophe. Comment tu vas faire tu n as vraiment pas de chance." et il repond "c est vrai que je souffre pour mon fils de le voir comme ca mais ... chance ou pas chance je ne sais pas". ils sont toujours plus abasourdit par les reponses de ce paysan qu ils ne comprennent pas.
+
+Cinq jours plus tard la france entre en guerre. Les medias, les journeaux publient, que tout les jeunes de 18 a 30 ans sont mobilise pour la guerre. L arme arrive dans son village et requisitionne chacun des jeunes de 18 a 30 ans jusqu a arriver dans la ferme et dire "Dans les dossiers nous avons un jeune de 22 ans est-ce que c est bien le cas" il dit "oui c est bien le cas" il leur montre son fils qui est toujours gravement blesse et l armee decide de ne pas prendre son fils, de ne pas l envoyer en guerre. Tout les amis autour de lui meme si ils sont a la fois content pour lui, quelque part son un peu jaloux en disant "mais toi tu as vraiment de la chance, il n y a que ton fils qui est protege, qui ne va pas en guerre toi tu as vraiment de la chance, c est incroyable" et le paysan repond "je suis desole mes amis et je me mets a votre place, je comprends que se soit dur pour vous neamoins ... chance ou pas chance je ne sais pas parce que je ne connais pas la fin de l histoire"
+
+L etre humain a tendance a dire que quelque chose n est QUE mauvaise ou QUE bonne AVANT de voir qu est ce qui va se passer plutot que APRES pour en tirer les conclusions
+
+chance ou pas chance je ne sais pas, parce que je ne vois pas tout.
+
 Video temporaire - 6 obsessions contre intuitive de Jeff Bezoss, Elon Musk, Warren Buffet
 *****************************************************************************************
 
