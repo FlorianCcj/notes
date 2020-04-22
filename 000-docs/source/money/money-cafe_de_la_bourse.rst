@@ -52,6 +52,86 @@ Compte Titre
 * aucun plafond
 * dividende imposable (peut atteindre 60%)
 
+Investir en Bourse : nos 12 conseils pour débuter sur les marchés
+*****************************************************************
+
+:source: https://www.cafedelabourse.com/dossiers/article/8-conseils-pour-bien-investir
+
+Les tops courtier en bourse
+===========================
+
+* Degiro: 0,04 % par ordre sans minimum sur Euronext. Accès à 2 millions d’instruments et 60 places boursières. Aucuns frais cachés. Aucun dépôt minimum. Inscription en ligne
+* Bourse direct: A partir de 0,99 € l'ordre de Bourse, frais de transfert remboursés et formation gratuite*
+* B for Bank: 2000 € de frais de transfert remboursés + ProRealTime offert jusqu’au 05/05/20
+* Fortuneo Banque: 100 ordres offerts et remboursement de vos frais de transfert jusqu'au 06/05/20
+* Boursorama: A partir de 1,99 € l'ordre de Bourse et remboursement de vos frais de transfert x2
+
+Douze conseils pour bien investir en Bourse
+===========================================
+
+1) Investissez en Bourse de l’argent que vous êtes prêt à perdre
+2) Informez-vous et formez-vous
+
+  * suivi de l’actualité économique et financière
+  * analyse fondamentale et en analyse technique
+
+3) Ayez bien en tete votre profil d’investisseur avant de placer votre argent en Bourse
+
+  * « Connais-toi toi-même » enseigne Socrate.
+
+4) Définissez une stratégie d’investissement en Bourse
+
+  * votre horizon d’investissement (la durée du placement)
+  * vos objectifs de gains
+  * le montant maximal de pertes que vous pouvez supporter.
+
+5) gardez votre calme et restez simple en toute situation
+6) En Bourse, il n’y a pas de miracle : gagner de l’argent n’est pas systématique
+7) Soyez prêt à investir en Bourse sur le long terme
+
+  * Prévoir les mouvements du marché à court terme est impossible
+
+8) Vous achetez une action en Bourse ? Pensez comme un associé
+9) Recherchez des actions de qualité en Bourse
+10) Prenez toujours en compte la valeur intrinsèque de la société cotée en Bourse
+
+  * Pour investir en Bourse efficacement, il vous faudra donc procéder à de nombreuses analyses, mais aussi vous armer de patience.
+
+11) réservez-vous toujours une marge de sécurité
+12) pensez de manière indépendante pour bien investir
+
+Quels placements financiers pour investir en Bourse ?
+=====================================================
+
+* Les OPCVM (Placement Collectif en Valeurs Mobilieres): Ces enveloppes, constituées d’un grand nombre de titres et qui peuvent d’ailleurs regrouper plusieurs classes d’actifs (actions mais aussi obligations par exemple) permettent de facilement diversifier ses avoirs. En outre, un gérant s’occupe de la sélection des titres et de la gestion du portefeuille. Il vous facture en contrepartie des frais de gestion.
+* ETF:  fonds indiciels ou trackers, qui répliquent la performance d’un indice ou bien un indice sectoriel ou encore un indice géographique 
+* marchés financiers avec produits dérivés: facilite le trading court terme.  Ils peuvent aussi constituer des outils de couverture de portefeuille.
+* actions en direct: investissement moyen long terme
+
+Titres au porteur ou titre au nominatif
+=======================================
+
+* actions en direct au nominatif pur
+
+  * economiser sur les éventuels frais de garde
+  * relation privilégiée avec l’entreprise
+
+    * invitations personnelles aux assemblées générales
+    * envoi des lettres aux actionnaires et des rapports annuels
+    * éventuellement droit de vote double ou dividendes majorés,
+    * obligation d’ouvrir un compte auprès de chaque société cotée dont il détient des actions
+    * peut eventuellement avoir recours au nominatif administré
+
+* titres au porteur
+
+  * actionnaire anonyme pour l entreprise
+  * rassemblement des titres dans PEA ou compte titre
+
+Assurance vie, PEA, compte titres : les enveloppes pour investir en Bourse
+==========================================================================
+
+* PEA (Plan Epargne Action): exonere d impot a partir de 5 ans. max 150k po, titre interne UE
+
 Strategie de trading
 ********************
 
