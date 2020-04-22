@@ -32,3 +32,6 @@ https://www.variantes.com/jeux-societe-voyage-boutique/47555-fluxx-cthulhu-84354
 5min dungeon (2-5)
 similo (2-8) (coop, devinette, familiale)
 la princesse au echelles (a test, coop)
+crossfire (bluff, vip agent, tueur)
+team up (coop, empilement de carton)
+bazar bizarre 2.0 (jungle speed like)
