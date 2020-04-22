@@ -19,8 +19,8 @@ Base of life
 ------------
 
 * En cas de probleme sur un bord, penser au scorpion
-  * le scorpion permet soit de vivre sur place, soit de faire une belle extension (generalement en ogeima)
-  * ne pas connecter le scorpion
+    * le scorpion permet soit de vivre sur place, soit de faire une belle extension (generalement en ogeima)
+    * ne pas connecter le scorpion
 
 Murphy
 ------
@@ -54,9 +54,9 @@ Corner
 ------
 
 * controler la balance des coins
-  * si une couleur a les 4 coins, il a enormement de cash, l autre couleur doit necessairement faire un gros moyo
-  * permet d avoir une assurance de quelques points
-  * si on veut laisser un ponuki (et prendre le coin), le laisser du coté qui arrange le moins
+    * si une couleur a les 4 coins, il a enormement de cash, l autre couleur doit necessairement faire un gros moyo
+    * permet d avoir une assurance de quelques points
+    * si on veut laisser un ponuki (et prendre le coin), le laisser du coté qui arrange le moins
 * apres invasion au san-san en san-san nobi keima (R3-R4-S6) pensez au kosumi plutot que le keima (R7 au lieu de Q7)
 * quand on a un hoshi + une pierre (autre que keima) et que l autre approche, nobi, si on a un keima -> tobi
 * penser a orienter votre invasion au san-san grace a un tsuke (3-4 ou 4-3) pour que le mur creer par l autre soit moins interessant que s il avait choisi le sens de la defense
@@ -65,9 +65,9 @@ Fuseki
 ------
 
 * prio fuseki
-  * groupe faible, les coups urgents
-  * les points, les coins
-  * la direction de jeu
+    * groupe faible, les coups urgents
+    * les points, les coins
+    * la direction de jeu
 * ne pas jouer toutes ses pierres en 3e ligne
 
 Base of life
@@ -84,7 +84,7 @@ Moyo
 ----
 
 * moyo toujours faire le plus gros possible
-  * attention bien penser au double emploi des coups, que le coup agrandisse le moyo ET ecrase un groupe, ou le menace ...
+    * attention bien penser au double emploi des coups, que le coup agrandisse le moyo ET ecrase un groupe, ou le menace ...
 
 Homework
 --------
@@ -103,7 +103,7 @@ Base of life
 ------------
 
 * toujours reflechir a la premiere regle, POUR LES 2 JOUEURS !!! quels sont mes groupes faibles (y compris quels coups m obligeront a repondre pour sauver mes groupes faibles (coup hyper sente pour le partenaire)) et quels sont ses groupes faibles
-  * si possible, si ca repond au 2 c est encore mieux (double sente)
+    * si possible, si ca repond au 2 c est encore mieux (double sente)
 * quand on a une pierre en 3e ligne, avec lautre en double tobi en 4 ligne au dessus, on joue generalement du coté que l on ne veut pas
 * si on connect tout nos groupes on a beaucoup moins de problemes
 * si l autre a des problemes, ne le laissez pas se connecter, qu il continue a avoir des problemes
@@ -128,20 +128,20 @@ Tsumego
 -------
 
 * Lire les shicho
-  * jusqu au bout
-  * toutes les pierres
+    * jusqu au bout
+    * toutes les pierres
 * lire, jusqu a etre sur a 100% d avoir la bonne reponse, pas 99, 100 et ... ne pas regarder la reponse <3
 
 Homework
 --------
 
-* Tellecharger les apps
-  * tsumego pro
-  * go4go (pas sur ios)
-  * go quest
+* Telecharger les apps
+    * tsumego pro
+    * go4go (pas sur ios)
+    * go quest
 * Faire des tsumegos
 * Regarder des parties de pro (pas de dan, on a bien dit de pro)
-  * essayer d identifier le(s) pro(s) dont on prefere le style de jeu
+    * essayer d identifier le(s) pro(s) dont on prefere le style de jeu
 
 .. --------------------------------------------------------
 

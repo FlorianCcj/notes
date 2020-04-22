@@ -7,18 +7,18 @@ Money - Libre et riche
 :source: https://www.youtube.com/watch?v=xromeTD4Vb0
 
 * Le paradigme des crabes: 
-    * au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces. 
-    * Le crabe a une carapace tres dur afin de le proteger des predateurs, mais malgré cette robustesse il a la faiblesse et la particularité de se comporter comme certaine personne peu scrupuleuse. C est d ailleurs de la d ou vient l expression du panier de crabe. Celle ci nee au milieu du XXe siecle, empreinte l image du panier de pecheur a l interieur duquel les crabes se marchent dessus, s entasse, et les pinces menacantes, grouillent dans toutes les directions, ils cherchent a s entre devorer.
-    * en fait, chaque fois qu un crabe essait de sortir, un autre le saisi et le retient avec sa pince pour le tirer vers le bas. Par reflexe, ce meme crabe, qui se retrouve au fond, va a son tour retenir celui du dessus pour qu il reste en bas avec lui l empechant de sortir et ainsi de suite avec tout les autres crabes.
-    * Resultat de l operation aucun ne reussira a sortir et tous mourront
+  * au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces. 
+  * Le crabe a une carapace tres dur afin de le proteger des predateurs, mais malgré cette robustesse il a la faiblesse et la particularité de se comporter comme certaine personne peu scrupuleuse. C est d ailleurs de la d ou vient l expression du panier de crabe. Celle ci nee au milieu du XXe siecle, empreinte l image du panier de pecheur a l interieur duquel les crabes se marchent dessus, s entasse, et les pinces menacantes, grouillent dans toutes les directions, ils cherchent a s entre devorer.
+  * en fait, chaque fois qu un crabe essait de sortir, un autre le saisi et le retient avec sa pince pour le tirer vers le bas. Par reflexe, ce meme crabe, qui se retrouve au fond, va a son tour retenir celui du dessus pour qu il reste en bas avec lui l empechant de sortir et ainsi de suite avec tout les autres crabes.
+  * Resultat de l operation aucun ne reussira a sortir et tous mourront
 * Le paradigme des singes
-    * experience imaginaire menee sur un groupe de singe. Elle exprime la transmission et la perpetuation de croyance collective au sein d une population progressivement renouvelé et ce meme apres que la cause premiere de ces croyances soit eteinte et apres la disparition de tout temoins de cette cause.
-    * une vingtaine de chimpanzee sont isolés dans une piece ou se trouve une banane tout en haut d une echelle. Des qu un singe commence a grimper a l echelle, les autres recoivent automatiquement une douche froide. Rapidement les chimpanzees apprennent qu ils ne doivent pas escalader l echelle s ils veulent eviter d etre arosé.
-    * La douche est ensuite desactivé mais les chimpanzees concervent l experience acquise et ne tente pas d approcher de l echelle.
-    * un des singes est remplacé par un nouveau. lorsque ce dernier s approche de l echelle les autres singes l agresse violement et le repouse. lorsqu un second singes est remplace, lui aussi se fait agresser en tentant d escalader l echelle y compris par le premier singe remplacant.
-    * l experience est poursuivi jusqu a ce que la totalité des premiers chimpanzees qui avait effectivement eu a subir une douche froide soit tous remplacés. Pourtant les singes ne tentent toujours pas d escalader l echelle pour atteindre la banane, et si l un d entre eux s y essaye neanmoin, il est puni par les autres sans qu aucun ne sache pourquoi cela est interdit malgre le fait qu aucun n ait subit de douche froide
+  * experience imaginaire menee sur un groupe de singe. Elle exprime la transmission et la perpetuation de croyance collective au sein d une population progressivement renouvelé et ce meme apres que la cause premiere de ces croyances soit eteinte et apres la disparition de tout temoins de cette cause.
+  * une vingtaine de chimpanzee sont isolés dans une piece ou se trouve une banane tout en haut d une echelle. Des qu un singe commence a grimper a l echelle, les autres recoivent automatiquement une douche froide. Rapidement les chimpanzees apprennent qu ils ne doivent pas escalader l echelle s ils veulent eviter d etre arosé.
+  * La douche est ensuite desactivé mais les chimpanzees concervent l experience acquise et ne tente pas d approcher de l echelle.
+  * un des singes est remplacé par un nouveau. lorsque ce dernier s approche de l echelle les autres singes l agresse violement et le repouse. lorsqu un second singes est remplace, lui aussi se fait agresser en tentant d escalader l echelle y compris par le premier singe remplacant.
+  * l experience est poursuivi jusqu a ce que la totalité des premiers chimpanzees qui avait effectivement eu a subir une douche froide soit tous remplacés. Pourtant les singes ne tentent toujours pas d escalader l echelle pour atteindre la banane, et si l un d entre eux s y essaye neanmoin, il est puni par les autres sans qu aucun ne sache pourquoi cela est interdit malgre le fait qu aucun n ait subit de douche froide
 * Le paradigme des grenouilles
-    * si l on jette une grenouille dans une casserole d eau bouillante, l acte est a priori cruel mais l animal ne meurt pas car bien evidement elle saute immediatement en dehors du recipient. En revanche si on place une grenouille a sang froid dans une casserole d eau froide et qu on chauffe l eau lentement jusqu a ebulition la grenouille s habituera peu a peu a la chaleur et finira par mourir ebouillanté sans reagir et avoir tenté de s echapper.
+  * si l on jette une grenouille dans une casserole d eau bouillante, l acte est a priori cruel mais l animal ne meurt pas car bien evidement elle saute immediatement en dehors du recipient. En revanche si on place une grenouille a sang froid dans une casserole d eau froide et qu on chauffe l eau lentement jusqu a ebulition la grenouille s habituera peu a peu a la chaleur et finira par mourir ebouillanté sans reagir et avoir tenté de s echapper.
 
 1. ne veulent pas ce que tu possedes mais simplement que tu ne le possedes pas => evite les personnes toxiques
 2. la tradition veut que l on agisse d une certaine maniere et il faut s y resigner sans s informer => informe toi avant de prendre une decision
@@ -30,35 +30,37 @@ Les 6 niveaux de l investiseur
 :source: https://www.youtube.com/watch?v=f1CNl6Uk7aI
 
 1. Niveau debiteur, endete : 
-    * note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne 
-    * argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere
-    * think: reussicite sociale, illusion de vie confortable
-    * time: posseder qqc => plaisir
+
+  * note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne 
+  * argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere
+  * think: reussicite sociale, illusion de vie confortable
+  * time: posseder qqc => plaisir
+
 2. Niveau epargnant incertitude
-    * notes: "un centime epargne est un centime gagne", paye comptant, livret A, plus d argent nominal, moins de reel
-    * think: 
-        * peur des dettes, epargne, investissement
-        * peur de manque, manque d education financiere
-    * time:
-        * economise 5e en passant son temps a calculer
+  * notes: "un centime epargne est un centime gagne", paye comptant, livret A, plus d argent nominal, moins de reel
+  * think:
+    * peur des dettes, epargne, investissement
+    * peur de manque, manque d education financiere
+  * time:
+    * economise 5e en passant son temps a calculer
 3. Niveau investisseur inteligent
-    * note: bon diplome, education, bon salaire, classe moyenne
-        * ne pas etre deranger : ne sais pas comment fonctionne les finances, "reserver a une elite", peur
-        * cynique : croit comprendre le monde des finances "ca ne vaut pas la peine", pessimiste, ignorant, immobilisme
-        * joueur: il n investi pas, il parie, court terme, compulsif
+  * note: bon diplome, education, bon salaire, classe moyenne
+    * ne pas etre deranger : ne sais pas comment fonctionne les finances, "reserver a une elite", peur
+    * cynique : croit comprendre le monde des finances "ca ne vaut pas la peine", pessimiste, ignorant, immobilisme
+    * joueur: il n investi pas, il parie, court terme, compulsif
 4. Niveau investisseur long terme
-    * think: strategie d investissement
-    * money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi
-    * time: travaille intelligement
+  * think: strategie d investissement
+  * money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi
+  * time: travaille intelligement
 5. niveau investisseur sophistiqué:
-    * note: ouvre des position sur le marché
-    * think: investissement a haut risque
-    * money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement
-    * time:  time is money
+  * note: ouvre des position sur le marché
+  * think: investissement a haut risque
+  * money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement
+  * time:  time is money
 6. niveau investisseur capitaliste
-    * thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire
-    * money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4
-    * time: souvent critiqué et envie
+  * thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire
+  * money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4
+  * time: souvent critiqué et envie
 
 Les 5 Niveaux de la Liberté Financière
 **************************************
@@ -125,11 +127,11 @@ Les 4 Piliers de la Liberté Financière
     * benefice plus eleve
     * ex: la bourse
 
-* source dinvestissement:
-    * immobilié: stable, concret et immuable
-    * internet
-    * la bourse
-    * monter sa propre affaire
+* source dinvestissement
+  * immobilié: stable, concret et immuable
+  * internet
+  * la bourse
+  * monter sa propre affaire
 
 Comment Choisir Les Meilleurs ETF | Guide d'Achat Des ETF | Partie 2
 ********************************************************************
@@ -144,6 +146,7 @@ Replication synthetique
 =======================
 
 take an example: LYXOR PEA DOW JONES INDUSTRIAL AVERAGE UCITS ETF CAPI
+
 * LYXOR: Le fournisseur
 * PEA: eligible au PEA (PEA -> synthetique)
 * DOW JONES INDUSTRIAL AVERAGE type d indice que l ETF va repliquer
@@ -155,6 +158,7 @@ Replication Physique
 ====================
 
 example: LYXOR EURO STOXX 50 (DR) UCITS ETF DIST
+
 * LYXOR: fournisseur
 * EURO STOXX 50: indice de reference
 * (DR): replication direct
@@ -328,17 +332,18 @@ Richesse dans le temps
 * richesse <=/=> objet ou argent
 * richesse <=> temps de liberte (vivre sans emploi, juste avec epargne et prevoyance)
 * richesse = (actif liquide / depense mensuelle)/12
-    * actif liquide = rente, argent dans un compte, action, obligation AAA, actif pouvant etre vendu rapidement
-    * frait mesuelle = depense alimentaire -> depense de loisir en passant par les frais de vie, et les passif generant des frais
-    * exemple:
-        * une personne semble riche, 
-            * ses depenses monte a 10k euros, 
-            * son compte + epargne et rent mensuel monte a 120k
-            * (120/10)/12 = 1 => il survivra 1 an sans bosser
-        * une personne semble modeste, 
-            * ses depenses monte a 900 euros, 
-            * son compte + epargne et rent mensuel monte a 54k
-            * (54/10,9)/12 = 5 => il survivra 5 an sans bosser
+  * actif liquide = rente, argent dans un compte, action, obligation AAA, actif pouvant etre vendu rapidement
+  * frait mesuelle = depense alimentaire -> depense de loisir en passant par les frais de vie, et les passif generant des frais
+  * exemple:
+
+    * une personne semble riche, 
+      * ses depenses monte a 10k euros, 
+      * son compte + epargne et rent mensuel monte a 120k
+      * (120/10)/12 = 1 => il survivra 1 an sans bosser
+    * une personne semble modeste, 
+      * ses depenses monte a 900 euros, 
+      * son compte + epargne et rent mensuel monte a 54k
+      * (54/10,9)/12 = 5 => il survivra 5 an sans bosser
 
 Potentiel de liberte financiere
 ===============================
@@ -346,8 +351,8 @@ Potentiel de liberte financiere
 * il faut des revenus passif, actif et passif prepare pour etre libre financierement
 * 100 - taux de dependance au revenu actif = (revenu financier (revenu passif) / revenu actifs (fruit de ton travail))*100
 * une location a 300e et un revenu de 1500e
-    * (300/1500)*100 = 20%
-    * dependance a 80% du revenu salariale
+  * (300/1500)*100 = 20%
+  * dependance a 80% du revenu salariale
 * objectif 100% de revenu passif
 * si revenu passif > 90% et que depence < revenu passif => tu peux renoncer a ton travail
 
@@ -359,9 +364,9 @@ PER (Price Earning Ratio)
 
 * prix du bien / lover annuel
 * un bien a 100k dans un quartier populaire a un loyer de 6k par an
-    * 16,67 ans
+  * 16,67 ans
 * un bien a 500k dans un quartier uppé avec a un loyer de 48k par an
-    * 10,42 ans
+  * 10,42 ans
 * calculler le PER moyen d une zone/prix du metre carré/...
 
 PER
@@ -374,8 +379,8 @@ Taux de variation
 =================
 
 * Taux de variation moyen = ((Taux_{n} - Taux_{n-1})/Taux_{n-1})*100
-* + gain
-* - perte
+* :code:`+ gain`
+* :code:`- perte`
 * ((prix actuel - prix acquisition) / prix d acquisition)*100
 
 Ratio effet de levier
@@ -383,10 +388,10 @@ Ratio effet de levier
 
 * (Dettes totals / revenu totaux)*100
 * exemple:
-    * salaire: 1500e
-    * bien: credit 400e, location 500e
-    * futur bien: credit 400e, location 500e
-    * taux d endetement = (400 + 400) / (1500 + 500 + 500) = 32% < 33%
+  * salaire: 1500e
+  * bien: credit 400e, location 500e
+  * futur bien: credit 400e, location 500e
+  * taux d endetement = (400 + 400) / (1500 + 500 + 500) = 32% < 33%
 
 Millionaire avec 5e par jour
 ****************************
@@ -394,21 +399,21 @@ Millionaire avec 5e par jour
 :source: https://www.youtube.com/watch?v=qA8T8-ClB1o
 
 * to know
-    * ignorance: travail et epargne insufisant
-    * inflation de 2% par an ...
+  * ignorance: travail et epargne insufisant
+  * inflation de 2% par an ...
 * strat:
-    * epargne: 5e par jour
-    * investissement: 
-        * investire sur l S&P500, 
-        * calculé la rentabilité geometrique (et non arythmetique)
-        * acheté un fond particulier: ETF
-    * interet compose:
-        * capital1: initial
-        * capital2: capital1 + dividende + augmentation
+  * epargne: 5e par jour
+  * investissement:
+    * investire sur l S&P500, 
+    * calculé la rentabilité geometrique (et non arythmetique)
+    * acheté un fond particulier: ETF
+  * interet compose:
+    * capital1: initial
+    * capital2: capital1 + dividende + augmentation
 * accelerer:
-    * augmenter les apports
-    * augment l interet (risque egalemment)
-    * choisir le bon moment
+  * augmenter les apports
+  * augment l interet (risque egalemment)
+  * choisir le bon moment
 
 14 phrases que les riches ne disent jamais
 ******************************************

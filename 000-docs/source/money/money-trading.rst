@@ -10,6 +10,7 @@ Premier Termes
 * trading: des paris sur la hausse ou la baisse
 
 Actifs:
+
 * Les devises (eur/usd, cad/jyp, gbp/chf)
 * Les matieres premieres (or, petrole, coton)
 * Les indices boursiers (cac40, ger30, sp500)
@@ -20,17 +21,20 @@ Actifs:
 * ForEx : Foreign Echange (open h24 5/7) (devise)
 * Effet cumulé (peut etre calcule sur Circle Markets)
 
-3 fausses coryance
+3 fausses croyances
+
 * pas besoin de gros capitals (peux traider avec 100€)
 * impossible de tout perdre/finir endeter
 * c est du hasard ou de la chance (c est des probas)
 
 style de trading
+
 * scalping: toutes les minutes
 * intraday: quelques heures par jour
 * swing: quelques heures sur plusieurs jours
 
 Les analyses
+
 * Analyses Techniques
 
   * graphiques
@@ -115,7 +119,8 @@ Le chandelier est composé de 2 choses :
 - Le corps, qui est la partie pleine et colorée. La couleur nous donne le sens. Une bougie rouge indique que le prix baisse, une verte que le prix monte.
 - Les mèches, qui sont les petites droites au-dessus et en-desso
 
-Cette bougie nous donne 4 informations, comme on peut le voir sur le dessin ci-dessous :
+Cette bougie nous donne 4 informations, comme on peut le voir sur le dessin ci-dessous:
+
 1. Le prix à l’ouverture durant la période couverte par la bougie.
 2. Le prix à la fin de la période couverte par la bougie.
 3. Le prix le plus haut qui a été atteint durant la période.
@@ -159,12 +164,14 @@ Comment definir la tendance
 * La tendance baissiere: des creux de plus en plus bas
 * Le range ou pas de tendance: quand c est ni haussiere, ni baissiere
 
-Une droite pour definir la tendance: 
+Une droite pour definir la tendance:
+
 * en tendance haussiere la droite doit relier les points les plus bas
 * en tendance baissiere la droite doit relier les points les plus haut
 * la cassure d une droite de tendance indique une fin de tendance
 
 strategie en fonction de la tendance
+
 * suivre la tendance: reperer les respirations (quand le marché est a son extremum a contresens) et ouvrir une position a ce moment (necessite quelques indicateur: RSI, stochastique, bandes de Bollinger, ...)
 * jouer les retournements
 * Trader dans les ranges: on traide plutot des supports et des resistances
