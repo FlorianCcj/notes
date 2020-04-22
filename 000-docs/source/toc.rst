@@ -82,6 +82,7 @@
     money/money-libre_et_riche.rst
     money/money-lucbrialy.rst
     money/money-cafe_de_la_bourse.rst
+    money/money-trading.rst
     reading/disk_world.rst
     recipe/recipe-pasta.rst
     recipe/recipe-full_meal.rst
