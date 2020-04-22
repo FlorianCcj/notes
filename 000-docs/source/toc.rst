@@ -79,6 +79,7 @@
     methodology/methodology-make_a_readme.rst
     methodology/methodology-suck_in_programming.rst
     money/job-the_good_question.rst
+    money/money-libre_et_riche.rst
     money/money-cafe_de_la_bourse.rst
     reading/disk_world.rst
     recipe/recipe-pasta.rst

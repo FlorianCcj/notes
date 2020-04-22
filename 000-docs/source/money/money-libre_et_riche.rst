@@ -1,5 +1,5 @@
-Libre et riche
-##############
+Money - Libre et riche
+######################
 
 3 Dangeureux Pieges financiers, lutter contre les paradigmes qui influencent negativement ta vie
 ************************************************************************************************
@@ -19,6 +19,7 @@ Libre et riche
     * l experience est poursuivi jusqu a ce que la totalité des premiers chimpanzees qui avait effectivement eu a subir une douche froide soit tous remplacés. Pourtant les singes ne tentent toujours pas d escalader l echelle pour atteindre la banane, et si l un d entre eux s y essaye neanmoin, il est puni par les autres sans qu aucun ne sache pourquoi cela est interdit malgre le fait qu aucun n ait subit de douche froide
 * Le paradigme des grenouilles
     * si l on jette une grenouille dans une casserole d eau bouillante, l acte est a priori cruel mais l animal ne meurt pas car bien evidement elle saute immediatement en dehors du recipient. En revanche si on place une grenouille a sang froid dans une casserole d eau froide et qu on chauffe l eau lentement jusqu a ebulition la grenouille s habituera peu a peu a la chaleur et finira par mourir ebouillanté sans reagir et avoir tenté de s echapper.
+
 1. ne veulent pas ce que tu possedes mais simplement que tu ne le possedes pas => evite les personnes toxiques
 2. la tradition veut que l on agisse d une certaine maniere et il faut s y resigner sans s informer => informe toi avant de prendre une decision
 3. sont dans l immobilite et se devient leur but => agis
@@ -29,40 +30,42 @@ Les 6 niveaux de l investiseur
 :source: https://www.youtube.com/watch?v=f1CNl6Uk7aI
 
 1. Niveau debiteur, endete : 
-    note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne 
-    argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere
-    think: reussicite sociale, illusion de vie confortable
-    time: posseder qqc => plaisir
+    * note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne 
+    * argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere
+    * think: reussicite sociale, illusion de vie confortable
+    * time: posseder qqc => plaisir
 2. Niveau epargnant incertitude
-    notes: "un centime epargne est un centime gagne", paye comptant, livret A, plus d argent nominal, moins de reel
-    think: 
+    * notes: "un centime epargne est un centime gagne", paye comptant, livret A, plus d argent nominal, moins de reel
+    * think: 
         * peur des dettes, epargne, investissement
         * peur de manque, manque d education financiere
-    time:
+    * time:
         * economise 5e en passant son temps a calculer
 3. Niveau investisseur inteligent
-    note: bon diplome, education, bon salaire, classe moyenne
-    * ne pas etre deranger : ne sais pas comment fonctionne les finances, "reserver a une elite", peur
-    * cynique : croit comprendre le monde des finances "ca ne vaut pas la peine", pessimiste, ignorant, immobilisme
-    * joueur: il n investi pas, il parie, court terme, compulsif
+    * note: bon diplome, education, bon salaire, classe moyenne
+        * ne pas etre deranger : ne sais pas comment fonctionne les finances, "reserver a une elite", peur
+        * cynique : croit comprendre le monde des finances "ca ne vaut pas la peine", pessimiste, ignorant, immobilisme
+        * joueur: il n investi pas, il parie, court terme, compulsif
 4. Niveau investisseur long terme
-    think: strategie d investissement
-    money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi
-    time: travaille intelligement
+    * think: strategie d investissement
+    * money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi
+    * time: travaille intelligement
 5. niveau investisseur sophistiqué:
-    note: ouvre des position sur le marché
-    think: investissement a haut risque
-    money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement
-    time:  time is money
+    * note: ouvre des position sur le marché
+    * think: investissement a haut risque
+    * money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement
+    * time:  time is money
 6. niveau investisseur capitaliste
-    thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire
-    money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4
-    time: souvent critiqué et envie
+    * thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire
+    * money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4
+    * time: souvent critiqué et envie
 
 Les 5 Niveaux de la Liberté Financière
 **************************************
 
 :source: https://www.youtube.com/watch?v=oNJdTlt35Og
+
+@Todo
 
 Les 4 quadrants de la liberte financiere
 ****************************************
@@ -84,7 +87,7 @@ tu imprimes un texte, tu vois une faute d orthographe, tu mets du blanco, tu rei
 2. eviter la negativité
 3. etablir des objectifs
 
-LLa difference entre ce que tu es et ce que tu veux etre, c est ce que tu fais
+La difference entre ce que tu es et ce que tu veux etre, c est ce que tu fais
 
 Les 4 Piliers de la Liberté Financière
 **************************************
@@ -95,8 +98,10 @@ Les 4 Piliers de la Liberté Financière
 * Attitude
   * richesse: capacité d une personne a s auto suffire durant X temps sans travailler, sans changer ses habitudes de consomation avec l argent qu elle dispose
   * un couple qui gagne 10k euro mais les depences s elevent a 16k euros
+
     * 16k / 10k = 1.6
     * 30 / 1.6 = 19 jours
+
   * un homme seul qui gagne 2k euros et depence 0.8k
     * 0.8k / 2k = 0.4
     * 30 / 0.4 = 75 jours
@@ -108,22 +113,23 @@ Les 4 Piliers de la Liberté Financière
   * passif: ne te rapporte rien voir t en fait perdre
 * investissement
   * rente fixe
+
     * rentabilité connue d avance
     * risque moins elevés
     * benef faible
     * ex: compte d epargne
+
   * rente varibale
     * rentabilite non connue d avance
     * plus risque
     * benefice plus eleve
     * ex: la bourse
 
-source dinvestissement
-
-* immobilié: stable, concret et immuable
-* internet
-* la bourse
-* monter sa propre affaire
+* source dinvestissement:
+    * immobilié: stable, concret et immuable
+    * internet
+    * la bourse
+    * monter sa propre affaire
 
 Comment Choisir Les Meilleurs ETF | Guide d'Achat Des ETF | Partie 2
 ********************************************************************
@@ -131,6 +137,7 @@ Comment Choisir Les Meilleurs ETF | Guide d'Achat Des ETF | Partie 2
 :source: https://www.youtube.com/watch?v=C_oDyDc3wT4
 
 Investissement intelligent
+
 where to buy it: BlackRock, LyxorEtf, Vanguard, Amundi
 
 Replication synthetique
@@ -174,29 +181,38 @@ Stratégies Pour Sortir De Sa Zone De Confort Et Atteindre Tous Ses Objectifs !
 
 Les 6 etapes:
 * L importance du pourquoi: ikigai
+
   * la narration: trouve un but, toi aussi tu es quelqu un d important, tu as une mission de vie, reste motive
   * perception: etre percu comme un heros est forcement une grande source de motivation, la reconnaissance obtenue est encore plus grande et gratifiante
   * la communaute: appartenir a un groupe avec des valuers et interets communs donne du sens a son pourquoi
   * debutant: c est ta destinee, l etincelle te permettant de connaitre tes premiers succes, cercle vertueux de la reussite, si tu essaies effectivement tu peux perdre mais si tu n essaies pas, tu as deja perdue d avance
+
 * L envie de progression
   * cercle vertueux de progression
   * difficulte adequat
+
     * aucun obstacle -> ennui abandon
     * trop difficile -> abandon marre
+
   * todolist court terme: 4 objectifs de la journee
   * todolist moyen/long terme
   * list de progression
 * le mystere de la pression sociale
   * pyramide de Macelot
+
     * Base: besoin physiologique
     * besoin de securite
     * besoin social
     * besoin d estime
     * sommet: besoin d accomplissement
-  => entraine
+
+  * entraine
     * Jalousie, critique facile, volonte de detruire
-      ce n est pas le fait que l autre possede plus que toi qui derange mais le fait que ce ne soit pas toi
+
+      * ce n est pas le fait que l autre possede plus que toi qui derange mais le fait que ce ne soit pas toi
+
     * comprehension de la reussite de l autre
+
   * 3 astuces
     * trouver un mentor
     * integrer un groupe
@@ -218,8 +234,10 @@ Comment Gagner N'importe quel débat et Discussion !
 01. Évite les controverses pour sortir vainqueur
 02. Ne jamais dire à ton interlocuteur qu’il a tort
 03. Si tu as tort admets le énergiquement
+
   * ecoute je n etais pas du tout de cet avis mais je peux me tromper si tel est le cas je veux bien rectifier mon opinion
   * on obtient peu en s opposant bien d avantage en accordant
+
 04. Commence de façon amicale
 05. Pose des questions qui suscitent un Oui
 06. Laisse ton interlocuteur parler tout à son aise
