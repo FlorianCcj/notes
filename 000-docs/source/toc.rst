@@ -81,5 +81,7 @@
     money/job-the_good_question.rst
     money/money-cafe_de_la_bourse.rst
     reading/disk_world.rst
+    recipe/recipe-pasta.rst
+    recipe/recipe-full_meal.rst
     quote/quote-main.rst
     60_days_plan.rst
