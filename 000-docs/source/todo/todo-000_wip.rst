@@ -256,14 +256,23 @@ Doc to read/to write
     * ntask
     * freedom
     * darkreader
+    * catalog - md to html: https://www.youtube.com/watch?v=ypD_oAwEPFU
+    * tutoarduino.com
+    * python data, hack, dessin, chinois, mentalism, karate, rubick, gogame, confiance, flute, allemand, arabe, piano (methode rose)
     * design
         * https://medium.com/@smashingmag/getting-started-with-css-layout-58dc92809293
         * https://css-tricks.com/snippets/css/css-grid-starter-layouts/
         * https://css-tricks.com/snippets/css/complete-guide-grid/
         * https://www.freecodecamp.org/news/systems-design-for-interviews/
+        * https://graphism.fr/
+        * flupa
     * entrepreunariat
         * https://www.blogduwebdesign.com/logiciels-crm-gratuits/
         * https://www.journaldugeek.com/2020/02/27/konami-code-createur-cheat-jeu-video-mort/
+    * finance
+        * https://investisseur-en-herbe.com/debutant-commencez-ici/
+        * https://youtu.be/Hkzd6W-Dlkc
+        * La bourse pour les nuls
     * js
         * make a lib: https://itnext.io/create-a-vue-js-component-library-as-a-module-part-1-a1116e632751
         * https://medium.com/javascript-in-plain-english/3-awesome-but-small-javascript-libraries-you-need-to-try-d43df5c0b5dd
@@ -302,6 +311,7 @@ Doc to read/to write
             * https://youtu.be/49FrsKDkt04
             * https://netbasal.com/introducing-akita-a-new-state-management-pattern-for-angular-applications-f2f0fab5a8
         * react
+            * https://www.sentinelstand.com/article/create-react-app-from-scratch-with-webpack-and-babel
             * https://egghead.io/lessons/react-a-beginners-guide-to-react-introduction
             * https://www.youtube.com/playlist?list=PLDIXF8nb0VG1v4S-smVy7GV0MHsJ3PJiL&utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_193
             * https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg
@@ -345,8 +355,11 @@ Doc to read/to write
         * https://www.guru99.com/istqb.html
         * https://github.com/projecthamster/hamster
         * https://blog.myagilepartner.fr/index.php/retrospective/
+    * security
+        * https://github.com/CTFd/CTFd
     * sf
         * https://medium.com/@ideneal/symfony-4-a-good-way-to-deal-with-exceptions-for-rest-api-afd8b615c923
+        * https://medium.com/better-programming/running-a-smooth-docker-stack-for-web-development-3b6c7dabf85f
 
 Document history
 ================
@@ -528,3 +541,5 @@ Document history
 :ref:`Priority <priority>`
 
 .. include:: todo-sys-network_secu.rst
+
+
