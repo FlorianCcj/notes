@@ -29,6 +29,21 @@ Fail early, fail often, fail forward
 #. Penser que tu es tes comportements
 #. prend le temps d apprecier la beaute de ta vie
 
+10 conseils surprenants pour SAISIR les OPPORTUNITÉS en période de crise
+************************************************************************
+
+1. Identifier qui tu as envie de servir
+2. se demander quels sont leurs problemes, frustrations et desirs ?
+3. Choisir un problem qui a du sens pour toi
+4. Developper tes competences et ton reseau de maniere obsessionnel
+5. Tout faire pour resoudre ton probleme et le tester dans la vie
+6. demander un feedback
+    * demande a tes amis, clients, collegues, ou est-ce que tu es nul ?
+7. ameliorer les domaines ou tu es incompetent
+8. parler de ce que tu ressens et montrer au autres ce que tu peux faire pour eux
+9. Apprendre a parler avec echo aux personnes que tu veux atteindre
+10. Faire de ton mieux car la seule competition saine est avec toi meme
+
 Allez-vous vers le BON RÊVE ?
 *****************************
 
