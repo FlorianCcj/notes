@@ -102,8 +102,31 @@ Youtube - devenez riche
     * test de produit gratuit
 * [...]
 
-Ne Faites Pas Ces 6 Choses Avec Votre Argent !
-**********************************************
+Comment vivre ses reves
+***********************
+
+:source: https://www.youtube.com/watch?v=29zwaTNvP1Y
+
+* Savoir definir precisement ses reves
+    * je veux l emploi de mes reves, oui mais quoi
+    * fermez les yeux et repondez a ces questions
+        * Dans quelle vielle et dans quel pays vivez vous
+        * quel type d habitation occupez vous
+        * vivez vous seul ou a deux
+        * avez vous des enfants et combien
+        * quel est votre environnement
+        * travaillez vous et si oui quel metier exercez vous
+        * a quoi occupez vous votre temps libre
+        * de quel genre de personnes etes vous entoure
+* Croire sincerement que rien est impossible
+    * un impossible est un possible en devenir
+* Se debarasser des peurs et croyances negatives
+* Lister les actions a poser pour realiser ses reves
+* Passer a l action, osez faire le premier pas
+* ne jamais renoncer avant d avoir reussi
+
+Ne Faites Pas Ces 6 Choses Avec Votre Argent
+********************************************
 
 :source: https://www.youtube.com/watch?v=442bq_DnU_w
 
