@@ -406,8 +406,68 @@ Voc
 CHN-21-3-04 Time 2
 ==================
 
+* fe1n (分): minutes, cent
+* la2i (来): to come ???
+* le (了): it is finished (ta1 qu4 le (她去了): She went)
+* me3i (每): every
+* mo4 (周): week (like in mo4zho1u (周末): weekend)
+* wu3 (午): (like in xia4wu3 (下午): afternoon)
+* xia4 (下): next
+* zho1u (末): end (like in mo4zho1u (周末): weekend)
+* zuo2 (昨): (like in zuo2tia1n (昨天): yesterday)
+* zuo4 (做): made, has been, worked as
+
+Voc
+---
+
+- bu2hui4 (不会): won t
+- hui4 (会): will
+- ji1ntia1n (今天): today
+- ji1nnia2n (今天): this year
+- la2i (来): to come ???
+- mi2ngtia1n (明天): tomorrow
+- mi2ngnia2n (明年): next year
+- mo4zho1u (周末): weekend
+- qu4nia2n (去年): last year
+- sha4ng (上): last
+- sha4ngwu3 (上午): morning
+- wa3nsha4ng (晚上): night
+- xia4nza4i (现在): now
+- xia4wu3 (下午): afternoon
+- zho1ngwu3 (中午): noon
+- zuo2tia1n (昨天): yesterday
+
 CHN-22-3-05 Location 3
 ======================
+
+* bia1n (边): (like in zuo3bia1n (左边): left)
+* da4o (到): arrive, get, to, reach
+* ho4u (后): (like in ho4umia4n (后面): back)
+* li (里): (like in na2li (哪里): where)
+* lu4 (路): the way, road, street
+* pa2ng (旁): (like in pa2ngbia1n (旁边): side)
+* qia2n (前): (like in qia2nmia4n (前面): front)
+* wa3ng (往): towards
+* xia4o (校): (like in xue2xio4a (学校): school)
+* yo4u (右): (like in yo4ubia1n (右边): right)
+* zo3u (走): walk (like in ze3nme zo3u (怎么走): how get to)
+* zuo3 (左): (like in zuo3bia1n (左边): left)
+
+Voc
+---
+
+- na2li (哪里): where
+- ze3nme zo3u (怎么走): how get to
+- xue2xio4a (学校): school
+
+Direction
+---------
+
+- ho4umia4n (后面): back
+- pa2ngbia1n (旁边): side, next to
+- qia2nmia4n (前面): front
+- yo4ubia1n (右边): right
+- zuo3bia1n (左边): left
 
 CHN-23-3-06 Hobbies 1
 =====================

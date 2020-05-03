@@ -452,22 +452,128 @@ But you can do it with adjective ha3o bu4 ha3o
 Phrases
 -------
 
-* ni3 de ha2izi3 he3n pia4olia4ng (你的孩子很漂亮): Youy child is pretty
-* ta1 ga1o ma? (他高吗): Is he tall?
-* wo3 de pe2ngyo3u pia4olia4ng bu4 pia4olia4ng? (我的朋友漂亮不漂亮): Is my friend pretty?
-* ni3 de ge1ge he3n a3i (他们的哥哥很矮): Their older sister is short
-* wo3 de na2npe2ngyo3u a4i ma1o(我的男朋友爱猫): My boyfriend loves cats
 * go3u shi4 wo3men de ha3o pe2ngyo3u (狗是我们的好朋友): Dogs are our good friends
 * ji1ntia1n wo3men fe1icha2ng ga1oxi4ng (今天我们非常高兴): Today we are very happy
+* ni3 de ge1ge he3n a3i (他们的哥哥很矮): Their older sister is short
+* ni3 de ha2izi3 he3n pia4olia4ng (你的孩子很漂亮): Youy child is pretty
 * ta1 de go3u fe1icha2ng ke3a4i (他的狗非常可爱): his dog is very cute
+* ta1 ga1o ma? (他高吗): Is he tall?
 * wo3 de ge1ge de nu.3pe2ngyo3u he3n pia4olia4ng (我的哥哥的女朋友很漂亮): My older brother's girlfriend is very pretty
+* wo3 de na2npe2ngyo3u a4i ma1o(我的男朋友爱猫): My boyfriend loves cats
 * wo3 de nu.3er fe1icha2ng ke3a4i (我的女儿非常可爱): My daughter is very cute
+* wo3 de pe2ngyo3u pia4olia4ng bu4 pia4olia4ng? (我的朋友漂亮不漂亮): Is my friend pretty?
 
 CHN-21-3-04 Time 2
-******************
+==================
+
+Completed actions with le (了)
+------------------------------
+
+le means something is finished
+
+* wo3 chi1 le (我吃了): I ate
+* ta1 qu4 le (她去了): She went
+* Ta1 he1le ka1fe1i (他喝了咖啡): He drank coffee
+* Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday. 
+
+Today or tomorrow?
+------------------
+
+* Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday.
+* Mi2ngtia1n ta1 hui4 qu4 zho1ngguo2 (明天她会去中国): She will go to China tomorrow
+* Ni3 ji1ntia1n ma2ng ma? (你今天忙吗？): Are you busy today?
+
+Talking about the future with hui4 (会)
+---------------------------------------
+
+* hui4 (会): will
+* bu2hui4 (不会): won t
+* Ta1men xia4 ge4 yue4 hui4 he3n ma2ng (他们下个月会很忙): They will be busy next month. 
+* Wo3 mi2ngtia1n bu2 hui4 qu4 yi1yua4n (我明天不会去医院): I won t go to the hospital tomorrow. 
+* Ta1 ji1ntia1n wa3nsha4ng hui4 la2i ma? (他今天晚上会来吗？): Will he come tonight?
+
+Measure Words
+-------------
+
+You need to use a measure word after 上 (sha4ng, last), 下 (xia4, next) and 每 (me3i, every).
+
+* sha4ng ge xi1ngqi1 (上个星期): last week
+* xia4 ge yue4 (下个月): next month
+* me3i ge re2n (每个人): everyone
+
+Exceptions include tia1n (天, day) and nia2n (年, year), which don t require measure words
+
+* me3itia1n (每天): every day
+* me3inia2n (每年): every year
+
+Phrases
+-------
+
+* ni3 xia4wu3 za4i na3r? (你下午在哪儿？): Where are you in the afternoon ?
+* ni3men sha4ngwu3 ji3 dia3n he1 cha2 (你们上午几点喝茶？): What time in the morning do you drink tea?
+* sha4ngwu3 ba1 dia3n si4 shi4 wu3 fe1n (上午八点四十五分): 8h45 in the morning
+* ta1 sha4ngwu3 za4i yi1yua4n(她上午在医院): She is at the hospital in the morning
+* ta1 za3osha4ng liu4 dia3n shi4 wu3 fe1n he1 ka1fe1i (他早上六点十五分喝咖啡): He drinks coffee at 6h15 in the morning
+* ta1men zho1ngwu3 chi1 fa4n she2nme? (他们中午吃什么？): What do they eat at noon ?
+* wo3 a4i me2i ge mo4zho1u (我爱每个周末): I love every weekend
+* wo3 de ge1ge zhe4 ge mo4zho1u za4i yi1yua4n (我的哥哥这个周末在医院): My older brother will be in the hospital this weekend
+* wo3 me3i ge mo4zho1u jia4n yi1ngyu3 la3oshi1 (我每个周末见英语老师): I see my English teacher every weekend
+* wo3 me3i tia1n do1u he1 ka1fe1i (我每天都喝咖啡): I drink coffee every day
+* wo3men me3i nia2n jia4n Wang la3oshi1 (我们每年见王老师): We see teacher Wang every year
+* wo3men xia4wu3 jia4n la3oshi1 (我们下午见老师): We meet the the teacher this morning
+* xia4nza4i shi4 wa3nsha4ng shi2 yi1 dia3n li2ng liu4 fe1n(现在是晚上十一点零六分): It is 11h06 in the evening now
+* ni3 sha4ng ge mo4zho1u zuo4 le she2nme?(你上个周末做了什么？): What did you do last weekend?
+* wo3men zuo2tia1n wa3nsha4ng zuo4 le she2nme? (我们昨天晚上做了什么？): What did we do last night ?
+* ji1n nia2n wo3 re4nshi2 le Wang la3oshi1 (今年我认识了王老师): I met teacher Wang this year
+* ta1 de zha4ngfu1 xia4 ge xi1ngqi1 hui4 za4i niu3yue1 (她的丈夫下个星期会在纽约): Her husband will be in New York next week
+* ni3 xia4 ge xi1ngqi1 tia1n hui4 bu4 hui4 jia4n ni3 de ha2izi3? (你下个星期天会不会见你的孩子？): Will you see your child next sunday?
 
 CHN-22-3-05 Location 3
-**********************
+======================
+
+How do you get to... ?
+----------------------
+
+To ask how to get to a place, add da4o (到, arrive) before a place (for example, 到你的家, da4o ni3 de jia4, to your home) and then ze3nme zo3u (怎么走, how get to).
+
+* Da4o yi1yua4n ze3nme zo3u? (到医院怎么走？): How do you get to the hospital?
+
+* Da4o ni3 de jia1 ze3nme zo3u? (到你的家怎么走？): How do you get to your home?
+
+Where? with na2li (哪里)
+-----------------------
+
+na2li (哪里) <=> na3r (哪儿)
+
+* Nǐ zài náli? (你在哪里？): Where are you?
+* Tāmen liùyuè huì qù nǎr? (她们六月会去哪儿？): Where will they go in June?
+
+Where is the cat?
+-----------------
+
+* Ma1o za4i ni3 de qia2nmia4n (猫在你的前面): The cat is in front of you.
+* Ma1o za4i ni3 de ho4umia4n (猫在你的后面): The cat is behind you
+* Ma1o za4i ni3 de pa2ngbia1n (猫在你的旁边): The cat is next to you.
+
+Walk towards the left
+---------------------
+
+To say walk toward a certain direction in Chinese, you’ll say wa3ng (往, towards) before the direction and then add zo3u (走, walk).
+
+* Qi3ng wa3ng zuo3biq1n zo3u (请往左边走): Please walk towards the left (side).
+* Qi3ng wa3ng yo4ubia1n zo3u. (请往右边走):  Please walk towards the right (side).
+* Wa3ng qia2nmia4n zo3u (往前面走): Walk towards the front (side).
+
+Phrases
+-------
+
+* she2i za4i ni3 de pa2ngbia1n? (谁在你的旁边？): Who is next to you?
+* ni3men de xue2xia4o za4i qia2nmia4n (你们的学校在前面): Your school is ahead
+* e2rzi3 za4i ba4ba de qia2nmia4n (儿子在爸爸的前面): The son is in front of the father
+* ni3 re4nshi2 lu4 ma? (你认识路吗？): Do you know the way?
+* ni3 re4nshi2 da4o yi1yua4n de lu4 ma?(你认识到医院的路吗?): Do you know the way to get to the hospital?
+* da4o ni3 de xue2xia4o ze3nme zo3u? (到你的学校怎么走?): How do I get to your school?
+* da4o zho1ngguo2 fa4ngua3n ze3nme zo3u? (到中国饭馆怎么走?): How do I get to the chinese restaurant
 
 CHN-23-3-06 Hobbies 1
 =====================
