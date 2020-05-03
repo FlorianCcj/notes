@@ -4,7 +4,7 @@ Enigma
 Enigmes
 *******
 
-​Olicard 01
+Olicard 01
 ==========
 
 Einstein arive au purgatoire, devant lui deux portes. Devant ces portes deux anges, portes et anges sont identiques en tous points.
@@ -74,31 +74,31 @@ Olicarton 11
 
 Dans un forêt Américaine qui vient de brûler complètement on retrouve le corps d'un homme, intact, qui porte un masque. Que s'est-il passer ?
 
-​Olicarton 12
+Olicarton 12
 ============
 
 Quelle phrase se cache ici : CHAISE Q CHAISE
 
-​Olicarton 13
+Olicarton 13
 ============
 
 Qu’est-ce qui est à vous mais que les gens utilisent beaucoup plus que vous ?
 
-​Olicarton 14
+Olicarton 14
 ============
 
 Je suis d'eau, je suis d'air, et je suis d'électricité
 
 Qui suis-je ?
 
-​Olicarton 15
+Olicarton 15
 ============
 
 Vous êtes sur un pont, son gardien vous dit : "Dites une phrase, si elle est fausse, je vous jette du pont, si elle est vraie, je vous étrangle."
 
 Que lui dites-vous pour passer sans risque ?
 
-​Olicarton 16
+Olicarton 16
 ============
 
 Un aveugle est seul dans le désert. Il a 4 comprimés avec lui : deux rouges et deux verts. 
@@ -113,7 +113,7 @@ Comment peut-il faire ?
 Solution
 ********
 
-​Olicard 01 - Solution
+Olicard 01 - Solution
 =====================
 
 Si tu etais, l autre ange, quelle porte m indiquerais-tu pour aller au paradis ?
@@ -189,29 +189,29 @@ Olicarton 11 - Solution
 
 L'homme était en train de se baigner quand il fut happé par un Canadair avant d'être malheureusement largué avec l'eau sur la forêt.
 
-​Olicarton 12 - Solution
+Olicarton 12 - Solution
 =======================
 
 Avoir le cul entre deux chaises !
 
-​Olicarton 13 - Solution
+Olicarton 13 - Solution
 =======================
 
 Votre prénom !
 
-​Olicarton 14 - Solution
+Olicarton 14 - Solution
 =======================
 
 Le courant !
 
-​Olicarton 15 - Solution
-=======================​
+Olicarton 15 - Solution
+=======================
 
 Dites-lui qu'il va vous jeter du pont. Si c'était vrai, il vous étranglerait et donc ne vous jetterait pas du pont. Cette phrase deviendrait donc fausse MAIS si elle était fausse il vous jetterait du pont alors la phrase serait vraie, il devrait donc vous étrangler, ce qui rendrait la phrase fausse, et comme ceci jusqu'à l'infini !
 
 Le gardien ne pourra rien faire et vous laissera passer.
 
-​​Olicarton 16 - Solution
+Olicarton 16 - Solution
 =======================
 
 Il doit manger la moitié de chaque comprimé !
