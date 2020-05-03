@@ -7,19 +7,31 @@ L'idée est bonne, mais est-ce du bon code ? un bon logiciel ? du code qui perdu
 Proprete de code
 ****************
 
+Clean Code
+==========
+
 Pour avoir un code propre je recommande fortement la lecture de `Clean Code de Robert C. Martin <https\://github.com/SaikrishnaReddy1919/MyBooks/blob/master/%5BPROGRAMMING%5D%5BClean%20Code%20by%20Robert%20C%20Martin%5D.pdf>`_
 
-Linter
-======
+Linter et correcteur
+====================
 
 La mise en place d un linter ou autre verificateur de qualite est indispensable, il en existe pour chaque langage. Le linter fera une analyse statique de votre code pour vous retourner les manquements aux regles.
 
 Il permet d abord de respecter les regles de bonne pratique, ensuite d eviter de nombreuses erreurs classiques et enfin d homogeneiser le code ce qui permetera a tous les developpeurs d utiliser les memes conventions de developpement.
 
+**De la meme maniere un correcteur que se soit pour vos commentaires, votre documentation ou autre est tres important, vous pouvez par exemple utiliser Antidote, Grammalecte, Grammarly ou LangageTool**
+
 Bonnes pratiques
 ================
 
 Que se soit soit lors de l apprentissage d un language, l utilisation d un library ou le developpement au travers d un framework, je ne saurais que trop recommender de regarder s il existe un guide des pratiques sur le sujet.
+
+**Les bonnes pratiques peuvent passer par de multiple aspect**
+
+* **des design patern a utiliser**
+* **des conventions de nomage**
+* **des consignes de securite**
+* **et de nombreux autres**
 
 Bien choisir son editeur
 ========================
@@ -53,7 +65,10 @@ Ceci n'a pas vocation a etre un tuto, mais a donner les grandes lignes.
 
 Git va gerer votre code grace aux modifications, il ne va pas enregistrer votre code, uniquement les modifications effectuees au projet.
 
+**Cette gestion des modifications facilite la gestion des versions, le retour aux versions precedentes ainsi que la revue de code.**
+
 Git va gerer votre code en 5 zones:
+
 0. stash: une zone de sauvegarde temporaire que nous approfondirons un peu plus tard
 1. workspace: la ou est indexe toutes vos modifications
 2. staging: la ou va etre indexe les modifications pretes a etre sauvegardees
@@ -63,6 +78,7 @@ Git va gerer votre code en 5 zones:
 Chaque modification est stockee et referencee par un SHA-1 (ex: 5aaec3b2a305cc47af10e1fd35dfb9bc569cdc1c)
 
 Les references peuvent etre appelees sous plusieurs formes:
+
 - <nom de branche> : alias pour le commit le plus récent de la branche
 - <tag> : alias de branche, jamais déplacé
 - <SHA-1> : si non ambigu, le début du code suffit
@@ -179,7 +195,7 @@ La staging area
 * tres bien on doit separer les commit et bien les nommer mais :code:`git add <nom du fichier` ne le permet pas si j'ai plusieurs fonctionnalites dans le meme fichier.
 * :code:`git add <nom du fichier>`: permet effectivement d ajouter tout un fichier, vous pouvez egalement ajouter une liste de fichier voir un dossier, tant qu il concerne bien une seule et meme fonctionnalitee
 * :code:`git add .`: celui la est vu et revu dans de nombreux tutos, je vous recommande de ne l utiliser qu avec d immense precaution ... voir pas du tout
-* :code: `git add -p`: mon chouchou, permet d ajouter portion de code par portion de code, git vous demandera de choisir
+* :code:`git add -p`: mon chouchou, permet d ajouter portion de code par portion de code, git vous demandera de choisir
 
   * :code:`y`: yes, ajoute le a la staging area
   * :code:`n`: no
@@ -215,6 +231,7 @@ J ai fait des modifications mais je n ai pas encore commit ... mais je dois recu
 ---------------------------------------------------------------------------------------------------------------
 
 Le :code:`stash` est fait pour vous, ca revient un peu a un :code:`commit` temporaire
+
 * :code:`git status`: faite ca avant et apre le :code:`git stash` ce sera plus parlant
 * :code:`git stash`: va creer un commit temporaire de reference :code:`stash@{0}` et va retirer les modifications effectuees dans les fichiers suivi dans la working area
 * :code:`git stash list`: affichera les differents stash sauvegardees
@@ -269,6 +286,8 @@ J ai oublier une portion de code dans mon commit comment je fais
 
   * :code:`git reset <nom du fichier dans la staging area>`: permet de passer un fichier de la staging area vers la working area
   * :code:`git reset HEAD`: va effectuer la command precedente pour l ensemble de la staging area
+  * :code:`git reset --hard <nom du fichier dans la staging area>`: **supprime la modification du fichier present dans la staging area**
+  * :code:`git checkout <nom du fichier dans la working area>`: **supprime la modification du fichier present dans la working area**
   * :code:`git reset HEAD^`: va supprimer le dernier commit
   * :code:`git reset HEAD^^`: va supprimer les 2 derniers commit
   * :code:`git reset HEAD~25`: va supprimer les 25 derniers commit
@@ -347,6 +366,7 @@ Qu est ce qui c est passe?
 --------------------------
 
 Pour ceux qui ont regarder des tutos, vous l aurez vite vu, moi je l aborde que maintenant.
+
 * :code:`git log`: affichera les differents derniers commit
 * :code:`git log -1`: affichera uniquement LE dernier commit
 * :code:`git log --oneline`: affichera les commit mais en simplifier
@@ -365,9 +385,11 @@ Aller plus loin
 ===============
 
 Regarder
+
 * git cherry-pick
 * git flow
 * git hook
+* git submodule
 * la specification semver
 
 Documentation
@@ -429,6 +451,27 @@ Un test permet de s’assurer du fonctionnement correct de tout ou partie d’un
 
 Lors d un refacto, d un ajout de fonctionnalite, ou meme des que quelqu un decouvre le code de votre application, les tests permettent d'avoir un apercu simple des differentes fonctionnalitees que se soit des fonctions, des classes et meme de l application.
 
+il y a de nombreux type de test
+
+* **les tests unitaires: il permet de s’assurer du fonctionnement correct d’une partie isolee d’une application ou d’un programme. Il a pour objectif d’isoler le comportement de la partie de code à tester de tout facteur extérieur et de vérifier qu’il est conforme à ce qui est attendu. (extrait du site** `ici <https://www.nutcache.com/fr/blog/tests-unitaires/>`_)
+* **les tests d integration: Ces tests sont exécutées pour valider l'intégration des différents modules entre eux et dans leur environnement exploitation définitif. Ils permettront de mettre en évidence des problèmes d'interfaces entre différents programmes (extrait de** `ce site <http://www-igm.univ-mlv.fr/~dr/XPOSE2000/TesTs/SiteWeb/typestests.htm>`_)
+* **Smoke test ou sanity check: il consiste en des tests fonctionnels ou unitaires de fonctions logicielles critiques. Les tests de fumée viennent avant d'autres tests approfondis."Est-ce que le programme démarre correctement ?", "Est-ce que les boutons de contrôle principaux fonctionnent ?", "Est-ce que l api repond ?". Si cette fonctionnalité de base échoue, il est inutile d'investir du temps dans un travail plus détaillé à ce stade. (extrait de** `ce site <https://developer.mozilla.org/fr/docs/Glossaire/Test_de_fum%C3%A9e>`_)
+* **les tests fonctionnels: Si les tests fonctionnels parlent d’eux-mêmes (est-ce que l’utilisateur peut faire ou ceci ou cela ?), les tests non fonctionnels sont des vérifications techniques liées à la performance, l’adaptabilité ou à la sécurité du système**
+* **les tests e2e, de validation ou d'acceptation ou encore systeme:  il consiste à simuler des tests à plus grande échelle, en intégrant un nombre important d’éléments, de systèmes différents pour valider l’alimentation successive de bout en bout. En finance, il est usuel de tester la chaîne « Front to Back », c’est-à-dire depuis les systèmes en lien avec les marchés/les clients jusqu’aux outils de valorisation ou de génération de confirmation automatique par exemple. (extrait de** `ce site <https://meritis.fr/methodo/tests-informatiques-bonnes-pratiques/>`_)
+* **les tests manuels: cela revient a utiliser le logiciel vous meme et voir a quel moment une erreur ressort, les tests precedents sont la pour automatiser le plus possible, mais generalement un test manuel reste necessaire**
+* **les tests utilisateurs de design: ce test s adresse principalement pour les logiciels grand publique. Le test conciste a demander a 2-3-5 personnes de realiser divers scenario sur le logiciel. Observer leurs reactions, ne pas leur donner d explication sur le logiciel et noter les axes d amelioratione**
+* **les tests de performance ou test de charge: ils ont pour principal objectif la validation d'une solution logicielle et de son architecture sous-jacente liées à une utilisation simultanée multi-utilisateurs, permettant ainsi d'éviter certains problèmes en production. Ils permettent de garantir une qualité de service applicative dans des conditions réelles d'utilisation (extrait de** `ce site <https://www.tests-performance.fr/?page_id=691>`_)
+* **les tests d intrusion: il permet d’évaluer le niveau global de sécurité du système (extrait de** `ce site <https://www.cnpp-cybersecurity.com/pages/audit-technique.php>`_)
+
+Le scan de securite
+===================
+
+**De la meme maniere que le linter, des analyses de vulnerabilites peuvent etre effectuees automatiquement.**
+
+**Rechercher les outils d analyses de code concernant les technologies employees en rapport avec la securite ou les vulnerabilites. Ces analyses degrossiront la recherche de vulnerabilite mais il sera toujours necessaire de se tenir a jour.**
+
+**Prenez donc l habitude de rechercher les vulnerabilites cela ne peut etre que benefique et ameliorera votre culture de la technologie que vous utilisez et ameliorera votre maniere de coder.**
+
 Sources
 *******
 
@@ -436,4 +479,5 @@ Sources
 * https://symfony.com/doc/current/contributing/code/bugs.html
 * https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9
 * https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit
+* https://www.nutcache.com/fr/blog/tests-unitaires/
 * My crazy mad little head
