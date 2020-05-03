@@ -352,12 +352,22 @@ Pour ceux qui ont regarder des tutos, vous l aurez vite vu, moi je l aborde que 
 * :code:`git log --oneline`: affichera les commit mais en simplifier
 * :code:`git log --graph --oneline --decorate`: avec plusieur branch cela permet d avoir une visualisation d ensemble
 
+Que et Quand verifier
+---------------------
+
+* Avant de commit toujours verifier ce que vous allez commit avec :code:`git diff --staged`
+* avant de recuperer un :code:`stash`, toujours verifier le continue avec :code:`git show stash@{0}`
+* avant de merge toujours verifier que l on a bien recuperer la branch source, sur la branch en cours de developpement faire :code:`git rebase <branch source>`
+* avant de merge, toujours verifier le diff entre les deux branch :code:`git diff <branch source> <branch target>`
+* en cours de :code:`git rebase -i`, toujours verifier les commit que l on va manipuler avec :code:`git show <numero du commit>`
+
 Aller plus loin
 ===============
 
 Regarder
 * git cherry-pick
 * git flow
+* git hook
 * la specification semver
 
 Documentation
