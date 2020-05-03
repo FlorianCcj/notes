@@ -7,17 +7,22 @@ Money - Libre et riche
 :source: https://www.youtube.com/watch?v=xromeTD4Vb0
 
 * Le paradigme des crabes: 
+
   * au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces. 
   * Le crabe a une carapace tres dur afin de le proteger des predateurs, mais malgré cette robustesse il a la faiblesse et la particularité de se comporter comme certaine personne peu scrupuleuse. C est d ailleurs de la d ou vient l expression du panier de crabe. Celle ci nee au milieu du XXe siecle, empreinte l image du panier de pecheur a l interieur duquel les crabes se marchent dessus, s entasse, et les pinces menacantes, grouillent dans toutes les directions, ils cherchent a s entre devorer.
   * en fait, chaque fois qu un crabe essait de sortir, un autre le saisi et le retient avec sa pince pour le tirer vers le bas. Par reflexe, ce meme crabe, qui se retrouve au fond, va a son tour retenir celui du dessus pour qu il reste en bas avec lui l empechant de sortir et ainsi de suite avec tout les autres crabes.
   * Resultat de l operation aucun ne reussira a sortir et tous mourront
+
 * Le paradigme des singes
+
   * experience imaginaire menee sur un groupe de singe. Elle exprime la transmission et la perpetuation de croyance collective au sein d une population progressivement renouvelé et ce meme apres que la cause premiere de ces croyances soit eteinte et apres la disparition de tout temoins de cette cause.
   * une vingtaine de chimpanzee sont isolés dans une piece ou se trouve une banane tout en haut d une echelle. Des qu un singe commence a grimper a l echelle, les autres recoivent automatiquement une douche froide. Rapidement les chimpanzees apprennent qu ils ne doivent pas escalader l echelle s ils veulent eviter d etre arosé.
   * La douche est ensuite desactivé mais les chimpanzees concervent l experience acquise et ne tente pas d approcher de l echelle.
   * un des singes est remplacé par un nouveau. lorsque ce dernier s approche de l echelle les autres singes l agresse violement et le repouse. lorsqu un second singes est remplace, lui aussi se fait agresser en tentant d escalader l echelle y compris par le premier singe remplacant.
   * l experience est poursuivi jusqu a ce que la totalité des premiers chimpanzees qui avait effectivement eu a subir une douche froide soit tous remplacés. Pourtant les singes ne tentent toujours pas d escalader l echelle pour atteindre la banane, et si l un d entre eux s y essaye neanmoin, il est puni par les autres sans qu aucun ne sache pourquoi cela est interdit malgre le fait qu aucun n ait subit de douche froide
+
 * Le paradigme des grenouilles
+
   * si l on jette une grenouille dans une casserole d eau bouillante, l acte est a priori cruel mais l animal ne meurt pas car bien evidement elle saute immediatement en dehors du recipient. En revanche si on place une grenouille a sang froid dans une casserole d eau froide et qu on chauffe l eau lentement jusqu a ebulition la grenouille s habituera peu a peu a la chaleur et finira par mourir ebouillanté sans reagir et avoir tenté de s echapper.
 
 1. ne veulent pas ce que tu possedes mais simplement que tu ne le possedes pas => evite les personnes toxiques
@@ -37,27 +42,40 @@ Les 6 niveaux de l investiseur
   * time: posseder qqc => plaisir
 
 2. Niveau epargnant incertitude
+
   * notes: "un centime epargne est un centime gagne", paye comptant, livret A, plus d argent nominal, moins de reel
   * think:
+
     * peur des dettes, epargne, investissement
     * peur de manque, manque d education financiere
+
   * time:
+
     * economise 5e en passant son temps a calculer
+
 3. Niveau investisseur inteligent
+
   * note: bon diplome, education, bon salaire, classe moyenne
+
     * ne pas etre deranger : ne sais pas comment fonctionne les finances, "reserver a une elite", peur
     * cynique : croit comprendre le monde des finances "ca ne vaut pas la peine", pessimiste, ignorant, immobilisme
     * joueur: il n investi pas, il parie, court terme, compulsif
+
 4. Niveau investisseur long terme
+
   * think: strategie d investissement
   * money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi
   * time: travaille intelligement
+
 5. niveau investisseur sophistiqué:
+
   * note: ouvre des position sur le marché
   * think: investissement a haut risque
   * money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement
   * time:  time is money
+
 6. niveau investisseur capitaliste
+
   * thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire
   * money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4
   * time: souvent critiqué et envie
@@ -403,10 +421,12 @@ Millionaire avec 5e par jour
   * inflation de 2% par an ...
 * strat:
   * epargne: 5e par jour
+
   * investissement:
     * investire sur l S&P500, 
     * calculé la rentabilité geometrique (et non arythmetique)
     * acheté un fond particulier: ETF
+
   * interet compose:
     * capital1: initial
     * capital2: capital1 + dividende + augmentation

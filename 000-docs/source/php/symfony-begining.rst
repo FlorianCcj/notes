@@ -10,7 +10,8 @@ init
 * :code:`composer create-project symfony/skeleton demo`
 * :code:`composer require symfony/orm-pack`
 * :code:`composer require --dev symfony/maker-bundle`
-* add in composer 
+* add in composer
+
 ..code-block:: json
     :caption: composer.json
     :name: composer.json
@@ -56,6 +57,7 @@ fixture
 
 * :code:`composer require orm-fixtures --dev`
 * :code:`bin/console make:fixtures TodoFixtures`
+
 .. code-block:: php
     :caption: ArticleFixtures.php
     :name: ArticleFixtures.php
@@ -84,7 +86,7 @@ dependency injection
 ====================
 
 .. code-block:: php
-    :main: controller
+    :name: controller
     :caption: controller
 
     /**
@@ -113,6 +115,7 @@ form
 * :code:`composer require form`
 * :code:`bin/console make:form <FormName> <classBaseName>`
 * :code:`bin/console make:form ArticleType Article`
+
 .. code-block:: php
     :caption: controller
     :name: controller

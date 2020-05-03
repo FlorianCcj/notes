@@ -19,7 +19,7 @@ Realisation
 Ingredient
 ==========
 
-* quantite: pour 1 personne
+- quantite: pour 1 personne
 - Une côte de porc désossée (ou une escalope de poulet)
 - 250 g de riz blanc cuit
 - Une tranche de pain de mie
@@ -60,7 +60,7 @@ Realisation
 Ingredient
 ==========
 
-* quantite: pour 1 personne
+- quantite: pour 1 personne
 - 150 g de farine
 - 8 cl d'eau
 - 2 petits champignons de Paris
@@ -101,7 +101,7 @@ Realisation
 Ingredient
 ==========
 
-* quantite: pour 3 personnes
+- quantite: pour 3 personnes
 - 300 g de poulet (blanc ou hauts de cuisse)
 - 1/2 oignon
 - 1/2 poivron rouge
@@ -140,10 +140,10 @@ Realisation
 Ingredient
 ==========
 
-* quantite: pour 2-3 personnes
+- quantite: pour 2-3 personnes
 - 500g de riz blanc cuit
 - 300g de porc (ici nous avons prit de l'échine)
-- 2 œufs
+- 2 oeufs
 - Une branche de cébette
 - Une échalote
 - Une gousse d'ail
@@ -166,7 +166,7 @@ Steps
 8. Couper le feu et ajouter la cébette
 9. DÉGUSTER !!!
 
-Totest - SOBORO DON - DONBURI - Le Riz Jaune
+Totest - Soboro Don - Donburi - Le Riz Jaune
 ********************************************
 
 :source: https://www.youtube.com/watch?v=JWdYwKYFiG0&feature=youtu.be&fbclid=IwAR1RK4XBz99WJZGOwMOKR_ibYV4SNbdDet6Dn95d3M_MiCpqVzjvLZxlLXw
@@ -184,7 +184,7 @@ Realisation
 Ingredient
 ==========
 
-* quantite: pour 2 personnes
+- quantite: pour 2 personnes
 - 300 g de poulet (blanc ou haut de cuisse)
 - 2 œufs
 - 150 g de riz cru qu'il faudra cuire au préalable

@@ -176,8 +176,6 @@ strategie en fonction de la tendance
 * jouer les retournements
 * Trader dans les ranges: on traide plutot des supports et des resistances
 
-
-
 Comment utiliser les supports et les résistances
 ------------------------------------------------
 

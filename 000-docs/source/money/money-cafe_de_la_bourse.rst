@@ -179,8 +179,10 @@ L analyses graphique
 * Figures de continuation (drapeaux, triangles)
   * drapeau: court moment haussier lors d une tendance baissiere ou reciproquement
   * triangle: les lignes qui délimitent la zone d’évolution de l’actif ne sont pas parallèles, mais convergentes. Au lieu de petits canaux haussiers ou baissiers apparaissent des triangles, ascendants ou descendants.
+
     * triangle ascendant: resistance horizontal, lors de tendance baissiere (traduit une pression haussiere temporaire)
     * triangle descendant: support horizontal, lors de tendance haussiere (traduit une pression baissiere temporaire)
+
 * figure de retournement
   * tete epaule: sommet ou creux d une courbe
   * double top: deux pique indiquand une forte tendance haussiere
