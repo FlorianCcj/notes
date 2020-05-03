@@ -74,6 +74,7 @@
     mentalism/fabien_olicard-votre_temps_est_infini.rst
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
+    mentalism/mentalism-other.rst
     methodology/methodology-code-beginner.rst
     methodology/good_practices.rst
     methodology/methodology-event_sourcing_and_DDD.rst
