@@ -142,6 +142,51 @@ Homework
 * Faire des tsumegos
 * Regarder des parties de pro (pas de dan, on a bien dit de pro)
     * essayer d identifier le(s) pro(s) dont on prefere le style de jeu
+* https://www.goratings.org/en/
+* https://www.go4go.net/go/games/byplayer/1313
+
+2020.04.28 - Revue de parties
+=============================
+
+* Prendre le temps de lire avant de jouer
+
+Base of life
+------------
+
+* Connecter deux territoires evite des yose des deux cotes
+* quand on est obliger de vivre, essayer de faire des coups sente pour eviter l oeil gote de 1 point
+
+Form
+----
+
+* tsuke hane nobi (solide) ou tsuke hane double hane (faire une forme)
+* hane a la tete de deux pierre a enormement de valeur
+* quand tu peux pas faire hane, fait tobi
+
+Ko
+--
+
+* celui qui gagne un ko, perd localement, perd globalament
+* un ko est toujours plus petit que ce qu on a jouer a coté
+* ne jamais essayer de gagner un ko
+* toujours repondre au menace de l autre
+
+Moyo
+----
+
+* Pour reduire un moyo jouer 4e ligne, et rester cohérent
+* Lors d une invasion rester loin de la force et prevoir la possibilité que l autre face un scorpion
+
+Tsumego
+-------
+
+* on s appuie sur ce qu on veut pas attaquer pour attaquer ce qu on veut attaquer
+* les pierres de coupes doivent couper deux groupes faibles (ou au moins un), sinon elles servent a rien
+
+Homework
+--------
+
+* jouer
 
 .. --------------------------------------------------------
 
@@ -150,14 +195,17 @@ Different part
 
 .. --------------------------------------------------------
 
+Base of life
+------------
+
 Corner
 ------
 
+Form
+----
+
 Fuseki
 ------
-
-Base of life
-------------
 
 Moyo
 ----
