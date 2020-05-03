@@ -13,7 +13,9 @@ Some diff
 
 * data-driven: focus on the data and how to manage it
   * more or less means CRUD
+
     * data (mcd)
+
       * Subscription Plan
       * Subscription
       * Membership
@@ -23,14 +25,19 @@ Some diff
       * UserController
       * DashboardController
       * SessionController
+
   * but ... plu value ... as much as an excel
+
 * domain-driven: focus on the behavior, what function do we need
   * more or less task based ui
+
     * Uses cases
+
       * CreateSubscriptionPlan
       * Subscribe
       * SubscriptionGrossRevenue
       * StartSession
+
   * no need to have all use case to work
 
 entity vs value object
@@ -53,11 +60,16 @@ Agregate root
 * is the main object which permit to manage all the other object
   * enforce integrity
   * some object have a lifecycle which depend on some other
+
     * if someone have a subscription, if you remove the guy, the subscription do not need to exist
+
 * query and command
+
   * command: write, mutation
+
     * need an handler which will to business
     * the handler manage only interface
+
       * permit to replace when you want
       * constructor -> manage colaborator
       * listento -> which class will activate the handle
@@ -107,17 +119,23 @@ the bus
 When we need some behavior which are not in the MVP, nor query nor command
 * like, performance, login, logging, cache, error, etc
 * the bus call middleware
+
   * middleware
+
     * __construct(CommandBusMiddleware $next, LoggerInterface $logger)
     * dispatch(Command $command): CommandResponse
+
       * code before
       * then call next operation
       * code after
+
   * the dispatcher
+
     * match command and the handler
     * __construct(iterator $handlers) { foreach ($handlers as $handler) { $this->handlers[$handler->listenTo()] = $handler; } }
       * register each handler with its associated command
     * dispatch(Command $command): CommandResponse
+
 * then call the dispatcher which call handler
 * recuperation of all handler thanks to dependencies injection container of sf
 
@@ -292,7 +310,7 @@ Withvalue signature
 :code:`static function withValue($value, Event... $events): CommandResponse`
 
 .. code-block:: php
-    :main: event handler
+    :name: event handler
     :caption: event handler
 
     class SendWelcomeMailOnMemberJoined implements EventHandler
