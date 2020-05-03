@@ -14,7 +14,7 @@ Un jeu vient d etre creer. Une personne est choisi au hasard, chaque matin on lu
 
 Qu est ce que vous feriez avec, jour apres jour, mois apres mois, annee apres annee, qu est ceque vous feriez de cet argent ?
 
-***
+\*\*\*
 
 Et bien oui en fait ce n est pas 1440 euros que l on a par jour mais 1440 minutes, utilisez les comme il faut.
 
