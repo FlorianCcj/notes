@@ -1,14 +1,17 @@
 Duolingo - Chinese
 ##################
 
+Part 1
+******
+
 CHN-01-1-01 Greeting
-********************
+====================
 
 CHN-02-1-02 Numbers
-*******************
+===================
 
 CHN-03-1-03 Name
-****************
+================
 
 * jia4o wo3 Li Hua: call me Li Hua
 * ni3 jia4o she2nme mi2ngzi4?: What's your name?
@@ -19,7 +22,7 @@ CHN-03-1-03 Name
 * wo3 xi4ng Zhang: My last name is Zhang
 
 CHN-04-1-04 Greetings 2
-***********************
+=======================
 
 * Li3 Hua2 he3n ga1oxi4ng: Li Hua is happy
 * ni3 xi4ng Wang, wo3 ye3 xi4ng Wang: Your last name is Wang, my last name is Wang too
@@ -27,69 +30,72 @@ CHN-04-1-04 Greetings 2
 * wo3 he3n ga1oxi4ng re4nshi2 ni3: Nice to meet you
 
 CHN-05-1-05 Food 1
-******************
+==================
 
 * ni3 he1 she2nme?: What do you dring?
 
 CHN-06-1-06 occupation
-**********************
+======================
 
 * Ta1 qu4 ma?: Is she going?
 
+Part 2
+******
+
 CHN-07-2-01 Contact
-*******************
+===================
 
 de
-==
+--
 
 like in english "'s"
 
 Phrases
-=======
+-------
 
 * dia4nhua4 ha4oma3: phone number
 * ni3 de dia4nhua4 ha4oma3 shi4 duo1sha3o?: what is your phone number?
 * ta1 de la3oshi1 de dia4nhua4: His teacher's phone
-* wo3 de cha4: My tea
+* wo3 de cha2: My tea
 * yi1she1ng de dia4nhua4 ha4oma3: The doctor's phone number
 
 CHN-08-2-02 Nation
-******************
+==================
 
 na3 guo2 which country
-======================
+----------------------
 
 ni3 shi2 na3 guo2re2n?: which country are you from?
 
 Q&A
-===
+---
 
 Think about your answer and replace the unknown by she2nme (what), na3 (which) or duo1sha3o (how many)
 
 Phrases
-=======
+-------
 
 * bu4 dui4: incorrect
 * ni3 shi2 zho1ngguo2 re2n ma?: Are you chinese?
 * ni3men do1u shi2 me3igu02re2n, dui4 ma?: you all are american, right?
 
 CHN-09-2-03 Greeting 3
-**********************
+======================
 
 Chinese grammar
-===============
+---------------
 
 Whatever the time, the verb stay. It is only the envornment which change
 
 Tone Changes
-============
+------------
 
 When two 3rd tone is followed, the first one become a 2nd tone
 
 ni3 he3n ga1oxi4ng -> ni2 he3n ga1oxi4ng
 
 Phrases
-=======
+-------
 
 * ni3 ji1ntia1n ze3nmeya4ng: How are you today ?
 * ta1 za3osha4ng bu4 he1 cha2: he does not drink tea in the morning
@@ -99,10 +105,10 @@ Phrases
 * za3osha4ng ha3o: Good morning
 
 CHN-10-2-04 Location 1
-**********************
+=====================*
 
 za4i for location
-=================
+-----------------
 
 To talk about where someone or something is located use za4i
 
@@ -115,7 +121,7 @@ za4i can also be used after ceraint verbs to tell where the action is taking pla
 * ni3 zhu4 za4i Zhongguo ma?: Do you leave in China?
 
 na3r to ask where
-=================
+-----------------
 
 na3r is used to ask where questions or to ask about places
 
@@ -123,9 +129,9 @@ na3r is used to ask where questions or to ask about places
 * ta1 de jia1 za4i na3r?: Where is her home?
 
 Phrases
-=======
+-------
 
-* la3oshi1 bu3 za4i jia1: laoshi is not at home
+* la3oshi1 bu3 za4i jia1: the teacher is not at home
 * la3oshi1 de jia1 za4i xia1ngga3ng: The teacher's house is in Hong Kong
 * lu2ndu1n za4i yi1ngguo2: London is in the UK
 * ni3men zhu4 za4i zho1ngguo2 na3r?: Where do you leave in China
@@ -138,12 +144,12 @@ Phrases
 * wo3men de jia1 za4i ta2iwa1n: Our home is in Taiwan
 
 CHN-11-2-05 Phrases 1
-*********************
+=====================
 
 Nothing
 
 Phrases
-=======
+-------
 
 * dui4bu3xi4! me2igua1nqi2!: Sorry! No worries!
 * me2igua1nqi2: No worries, it s ok, nevermind
@@ -152,10 +158,10 @@ Phrases
 * xie4xie ni3: Thank you
 
 CHN-12-2-06 Family 1
-********************
+====================
 
 Measure Words
-=============
+-------------
 
 To talk about many thing you need some word, like in one piece of paper, two cups of coffee. The most common is ge4
 
@@ -168,13 +174,13 @@ We also need a measure word after zhe4 (this), na4 (that), and na3 (which)
 * na3 ge4 la3oshi1: which teacher?
 
 me2i with yo3u
-==============
+--------------
 
 * ta1 me2iyo3u me4imei: She doesn't have a younger sister
 * wo3 me2iyo3u ni3 de dia4nhua4 ha4oma3: I don't have your phone number
 
 Family Members
-==============
+--------------
 
 * jie3jie: older sister
 * ge1ge: older brother
@@ -182,7 +188,7 @@ Family Members
 * di4di: younger brother
 
 Phrases
-=======
+-------
 
 * Wang yi1she1ng yo3u wu3 ge4 me4imei: Doctor Wang has five younger sisters
 * ba4ba a4i ma1ma: Dad loves mom
@@ -206,10 +212,10 @@ Phrases
 * zhe4 shi4 she2nme?: What is that?
 
 CHN-13-2-07 Phrases 2
-*********************
+=====================
 
 Excuse me
-=========
+---------
 
 To get the attention of a stranger or someone you don t know well, add qi3ngwe4n before the question you want to ask
 
@@ -217,7 +223,7 @@ To get the attention of a stranger or someone you don t know well, add qi3ngwe4n
 * qi3ngwe4n, ni3 shi4 Li3 la3oshi1 ma?: Excuse me, are you teacher Li ?
 
 za4i for request
-================
+----------------
 
 If you want to ask someone to do something again, use za4i before the verb! (same za4i as in za4ijia4n)
 
@@ -225,14 +231,14 @@ If you want to ask someone to do something again, use za4i before the verb! (sam
 * za4i shuo1 yi2 ci4: Say it again
 
 You know me!
-============
+------------
 
-* ta1 re4nchi2 wo3: She knows me
-* wo3 re4nchi2 ta1: I know her
-* ta1men re4nchi2 ta1men: They know them
+* ta1 re4nshi2 wo3: She knows me
+* wo3 re4nshi2 ta1: I know her
+* ta1men re4nshi2 ta1men: They know them
 
 Phrases
-=======
+-------
 
 * ni3 shuo1 yi1ngyu3 ma?: Do you speak English?
 * ni3 we4n ta1: you ask him
@@ -251,10 +257,10 @@ Phrases
 * zho1ngguo2 re4n shuo1 ha4nyu3: Chinese people speak Chinese
 
 CHN-14-2-08 Greeting 4
-**********************
+======================
 
 zui4, most
-==========
+----------
 
 Use zui4 (most) before an adjective to say that something is the most or the best
 
@@ -262,7 +268,7 @@ Use zui4 (most) before an adjective to say that something is the most or the bes
 * wo3 de ba4ba zui4 ga1oxi4ng: My dad is the happiest
 
 Phrases
-=======
+-------
 
 * ba4ba, ma1ma, wa3n a1n: Father, mother, good night !
 * ha3o jiu3 bu4 jia4n! : Long time no see !
@@ -274,12 +280,12 @@ Phrases
 * yi1 hui4 er jia4n: See you in a bit
 
 CHN-15-2-09 Drink
-*****************
+=================
 
 Nothing
 
 Phrases
-=======
+-------
 
 * ??? wo3 ya4o kafe1i, bu4 ya4o niu2na3i: I want coffee, not want milk
 * ??? wo3men zaoshang he1 kafe1i: we drink coffee in the morning
@@ -288,12 +294,12 @@ Phrases
 * ta1men ya4o re4 niu2na3i: they want hot milk
 
 CHN-16-2-10 Location 2
-**********************
+======================
 
 Nothing
 
 Phrases
-=======
+-------
 
 * bu4, za4i na4r: No,it is there
 * dui4bu3qi3, wo3men me2iyo3u xi3sho3ujia1n: Sorry, we do not have a bathroom
@@ -307,10 +313,10 @@ Phrases
 * zhe4r me2iyo3u xi3sho3ujia1n: There is no bathroom here
 
 CHN-17-2-11 Time 1
-******************
+==================
 
 Days and Months
-===============
+---------------
 
 * xi1ngqi1yi1: Monday
 * xi1ngqi1ye4r: Tuesday
@@ -327,19 +333,19 @@ Days and Months
 * shi2'e4ryue4: December
 
 Years
-=====
+-----
 
 * e4r li2ng yi1 ba1 nia2n: 2018 year
 * yi1 jiu3 ba1 yi1 nia2n: 1981 year
 
 Talking about dates
-===================
+-------------------
 
 * e4r li2ng yi1 yi1 nia2n shi2yue4 sa1nshi2 ha4o: November 30, 2011
 * shi2'e4ryue4 yi1 ha4o, xi1ngqi1yi1: Monday, December 1
 
 What day is it?
-===============
+---------------
 
 * ji1ntia1n xi1ngqi1 ji3 ?: What day is it today?
 * ji1ntia1n xi1ngqi1liu4: Today is Saturday
@@ -349,7 +355,7 @@ What day is it?
 * ji1ntia1n qi1 yue4 wu3 ha4o: Today is July 5th
 
 Phrases
-=======
+-------
 
 * ji1ntia1n ji3 yue4 ji3 ha4o?: What date is today?
 * ji1ntia1n xi1ngqi1tia1n: Today is Sunday
@@ -363,11 +369,14 @@ Phrases
 * xi1ngqi1tia1n ji3 ha4o?: What day is sunday?
 * xi1ngqi1tia1n wo3 he1 cha2: Sundays I drink tea
 
+Part 3
+******
+
 CHN-18-3-01 Family 2
-********************
+====================
 
 Asking Questions
-================
+----------------
 
 To a yes noquestion you can add ma (吗) at the end of the line
 
@@ -377,12 +386,12 @@ But you can also double the verb and add bu4 (不) in the middle
 * Ta1 ya4o bu ya4o niu2na3i?: Does he want milk? 
 
 lia3ng (两) vs. e4r (二)
-=======================
+------------------------
 
 To say two of something, or to say both use lia3ng (两)
 
 Phrases
-=======
+-------
 
 * Ta1 ji3 sui4? (他几岁？): How old is he?
 * Ta1 me2iyo3u ha2izi3 (他没有孩子): He does not have children
@@ -397,29 +406,29 @@ Phrases
 * zhe4 shi4bu4shi4 Wang la3oshi1 de qi1zi? (这是不是王老师的妻子?): Is this Teacher Wang's wife?
 
 CHN-19-3-02 Telephone
-*********************
+=====================
 
 Tone changes with yi1 (一)
-==========================
+--------------------------
 
 * Counting: yi1, e4r, sa1n, ...
 * Followed by 1st, 2nd, 3rd tone: yi4 dia3r (a little bit)
 * Followed by 4th tone: yi2ci4 (one time)
 
 de (得) to describe actions
-===========================
+---------------------------
 
 * Ni3 shuo1 de he3n kua4i (你说得很快): You speak quickly
 * Wo3 chi1 de he3n ma4n (我吃得很慢): I eat slowly
 * Ta1 shuo1 de he3n ha3o (他说得很好): He speaks well
 
 Hello
-=====
+-----
 
 ni2hoa3 (你好) is use when you speak to a person. on the phone say we2i (喂)
 
 Phrases
-=======
+-------
 
 * kua4i yi4 dia3r! (慢一点儿!): Faster!
 * ma4n yi4 dia3r! (慢一点儿!): Slow down!
@@ -428,10 +437,10 @@ Phrases
 * ta1 shuo1 de bu3 kua4i (她说得不快): She does not understand
 
 CHN-20-3-03 People 1
-********************
+====================
 
 Asking Question
-===============
+---------------
 
 You can ask question with bu4 and the dooble verb shi4 bu shi4
 
@@ -441,7 +450,7 @@ But you can do it with adjective ha3o bu4 ha3o
 * Tā máng bu máng? (他忙不忙？): Is he busy?
 
 Phrases
-=======
+-------
 
 * ni3 de ha2izi3 he3n pia4olia4ng (你的孩子很漂亮): Youy child is pretty
 * ta1 ga1o ma? (他高吗): Is he tall?
@@ -461,25 +470,25 @@ CHN-22-3-05 Location 3
 **********************
 
 CHN-23-3-06 Hobbies 1
-*********************
+=====================
 
 CHN-24-3-07 Routine 1
-*********************
+=====================
 
 CHN-25-3-08 Payment
-*******************
+===================
 
 CHN-26-3-09 Entertain
-*********************
+=====================
 
 CHN-27-3-10 Location 4
-**********************
+======================
 
 CHN-28-3-11 Restaurant
-**********************
+======================
 
 CHN-29-3-12 Market
-******************
+==================
 
 CHN-30-3-13 Hobbies 2
 *********************

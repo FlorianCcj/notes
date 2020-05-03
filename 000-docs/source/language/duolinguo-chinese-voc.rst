@@ -1,23 +1,26 @@
 Duolingo - Chinese - Voc
 #########################
 
+Part 1
+******
+
 CHN-01-1-01 Greeting 1
-**********************
+======================
 
 * ni3 (你): you
 * ha3o (好): good
 * za4i (再): to say (like in za4ijia4n: goodbye)
-* jia4n (见): to see (like in za4ijia4n: goodbye)
+* jia4n (见): to see, to meet (like in za4ijia4n: goodbye)
 
 Voc
-===
+---
 
 - ni3hao3: hello
 - ha3o: good
 - za4ijia4n: goodbye
 
 CHN-02-1-02 Numbers
-*******************
+===================
 
 * li2ng (零): 0
 * yi1 (一): 1
@@ -34,7 +37,7 @@ CHN-02-1-02 Numbers
 * yuan (元): chinese money
 
 Voc
-===
+---
 
 - ga1oxi4ng: happy
 - ma1: mother
@@ -44,7 +47,7 @@ Voc
 - yuan: chinese money
 
 CHN-03-1-03 Name
-****************
+================
 
 * jia4o (叫): s'appeler
 * me (么): (like in she2nme: what/how)
@@ -57,7 +60,7 @@ CHN-03-1-03 Name
 * zi4 (字): (like in mi2ngzi4)
 
 Voc
-===
+---
 
 - li3 (李): name of someone
 - hua2 (华): name of someone
@@ -66,7 +69,7 @@ Voc
 - ming (明): name of someone
 
 CHN-04-1-04 Greetings 2
-***********************
+=======================
 
 * ga1o (高): (like in ga1oxi4ng: happy)
 * he3n (很): very
@@ -76,7 +79,7 @@ CHN-04-1-04 Greetings 2
 * ye3 (也): also, too
 
 CHN-05-1-05 Food 1
-******************
+==================
 
 * bu4 (不): not
 * cha2 (茶): tea
@@ -90,7 +93,7 @@ CHN-05-1-05 Food 1
 * yu4 (鱼): fish
 
 CHN-06-1-06 occupation
-**********************
+======================
 
 * la3o (老): (like in la3oshi1: teacher)
 * ma (吗): question mark
@@ -103,8 +106,11 @@ CHN-06-1-06 occupation
 * xue2 (学): study (like in xue2she1ng: student)
 * yi1 (医): (like in yi1she1ng: doctor)
 
+Part 2
+******
+
 CHN-07-2-01 Contact
-*******************
+===================
 
 * de (的): possessive
 * dia4n (电): (like in dia4nhua4: phone)
@@ -115,7 +121,7 @@ CHN-07-2-01 Contact
 * sha3o (少): (like in duo1sha3o: how much)
 
 CHN-08-2-02 Nation
-******************
+==================
 
 * da4 (大): (like in jia1na2da4: canada)
 * do1u (都): all
@@ -130,19 +136,19 @@ CHN-08-2-02 Nation
 * zho1ng (中): (like in zho1ngguo2: china)
 
 CHN-09-2-03 Greetings 3
-***********************
+=======================
 
 * ji1n (今): (like in ji1ntia1n: today)
 * ma2ng (忙): busy
 * me (么): (like in she2nme: what/how or ze3nmeya4ng: how)
-* tia1n (天): (like in ji1ntia1n: today)
-* sha4ng (上): (like in za3osha4ng: morning)
+* tia1n (天): day (like in ji1ntia1n: today)
+* sha4ng (上): last (like in za3osha4ng: morning)
 * ya4ng (样): (like in ze3nmeya4ng: how)
 * za3o (早): (like in za3osha4ng: morning)
 * ze3n (怎): (like in ze3nmeya4ng: how)
 
 CHN-10-2-04 Location 1
-**********************
+======================
 
 * er (儿): (like in na3r: where)
 * ji1a (家): home (like in ji1are2n: family)
@@ -150,7 +156,7 @@ CHN-10-2-04 Location 1
 * zhu4 (住): to live
 
 City Key
-========
+--------
 
 * be1i (北): (like in be3iji1ng: Beijing)
 * ji1ng (京): (like in be3iji1ng: Beijing)
@@ -164,7 +170,7 @@ City Key
 * wa1n (湾): (like in ta2iwa1n: Taiwan)
 
 Voc
-===
+---
 
 - be3iji1ng: Beijing
 - jia1re2n: family
@@ -176,7 +182,7 @@ Voc
 - zhu4: to live
 
 CHN-11-2-05 Phrases 1
-*********************
+=====================
 
 * gua1n (关): (like in me2igua1nxi4: no worries)
 * ke4 (客): (like in bu3ke4qi4: You are welcome)
@@ -187,14 +193,14 @@ CHN-11-2-05 Phrases 1
 * me2i (没): (like in me2igua1nxi4: no worries)
 
 Voc
-===
+---
 
 - bu3ke4qi4 (不客气): You are welcome
 - dui4bu3qi3 (对不起): Sorry
 - me2igua1nxi4 (没关系): no worries
 
 CHN-12-2-06 Family 1
-********************
+====================
 
 * a4i (爱): love
 * ge (个): (like in na4 ge re2n: that person) measure word
@@ -207,7 +213,7 @@ CHN-12-2-06 Family 1
 * zhe4 (这): this
 
 Family
-======
+------
 
 * ba4 (爸): (like in ba4ba: father)
 * di4 (弟): (like in di4di: younger brother)
@@ -217,13 +223,13 @@ Family
 * me4i (妹): (like in me4imei: younger sister)
 
 Voc
-===
+---
 
 - jia1re2n: family
 - na4 ge re2n: that person
 
 CHN-13-2-07 Phrases 2
-*********************
+=====================
 
 * ba1ng (帮): (like in ba1ngzhu4: to help)
 * ci4 (次): (like in yi1ci4: one time)
@@ -238,13 +244,13 @@ CHN-13-2-07 Phrases 2
 * zhu4 (助): (like in ba1ngzhu4: to help)
 
 Voc
-===
+---
 
 - ba1ngzhu4: to help
 - yi1ci4 (一次): one time
 
 CHN-14-2-08 Greeting 4
-**********************
+======================
 
 * a1n (安): (like in wa3n a1n: good night)
 * cuo4 (错): bad
@@ -258,14 +264,14 @@ CHN-14-2-08 Greeting 4
 * zui4 (最): the most, the best
 
 Voc
-===
+---
 
 - zui4ji4n: recently, these day
 - za3o a1n: good morning
 - wa3n a1n: good night
 
 CHN-15-2-09 Drink
-*****************
+=================
 
 * bi1ng (冰): ice
 * fe1i (啡): (like in ka1fe1i: coffee)
@@ -276,7 +282,7 @@ CHN-15-2-09 Drink
 * ya4o (要): to want
 
 CHN-16-2-10 Location 2
-**********************
+======================
 
 * gua3n (馆): (like in fa4ngua3n: restaurant)
 * jia1n (间): (like in xi3sho3ujia1n: bathroom, restroom)
@@ -285,14 +291,14 @@ CHN-16-2-10 Location 2
 * yua4n (院): (like in yi1yua4n: hospital)
 
 Voc
-===
+---
 
 - xi3sho3ujia1n: bathroom
 - yi1yua4n: hospital
 - fa4ngua3n: restaurant
 
 CHN-17-2-11 Time 1
-******************
+==================
 
 * ba4n (半): half (for a hours)
 * dia3n (点): (like in ji2di3an: what hours ?)
@@ -309,7 +315,7 @@ CHN-17-2-11 Time 1
 * yue4 (月): month
 
 Voc
-===
+---
 
 - ji2di3an: what hours ?
 - ji4njia1n: today
@@ -321,8 +327,11 @@ Voc
 - yue4: month
 - za3osha4ng: morning
 
+Part 3
+******
+
 CHN-18-3-01 Family 2
-********************
+====================
 
 * e2r (儿): (like in nu.3e2r: daughter or e2rzi3: son)
 * fu1 (夫): (like in zha4ngfu1 (丈夫): husband)
@@ -339,7 +348,7 @@ CHN-18-3-01 Family 2
 * zi3 (子): (like in ha2izi3: children)
 
 Voc
-===
+---
 
 - a1nqua2n (安全): safe
 - e2rzi3 (儿子): son
@@ -352,7 +361,7 @@ Voc
 - zha4ngfu1 (丈夫): husband
 
 CHN-19-3-02 Telephone
-*********************
+=====================
 
 * ba2i (白): (like in mi2ngba2i (明白): understand)
 * de (得): to describe actions
@@ -360,7 +369,7 @@ CHN-19-3-02 Telephone
 * we2i (喂): hello, on the phone
 
 Voc
-===
+---
 
 - kua4i (快): quick
 - ma4n (慢): slow
@@ -369,7 +378,7 @@ Voc
 - yi4 dia3r (一点儿): a little bit
 
 CHN-20-3-03 People 1
-********************
+====================
 
 * lia4ng (亮): (like in pia4olia4ng (漂亮): pretty, beautifull)
 * pia4o (漂): (like in pia4olia4ng (漂亮): pretty, beautifull)
@@ -382,7 +391,7 @@ CHN-20-3-03 People 1
 * cha2ng (常): ever (like in fe1icha2ng (非常): very)
 
 Voc
-===
+---
 
 - ke3a4i (可爱): cute
 - fe1icha2ng (非常): very, quite, extremely
@@ -395,32 +404,32 @@ Voc
 - a3i (矮): short
 
 CHN-21-3-04 Time 2
-******************
+==================
 
 CHN-22-3-05 Location 3
-**********************
+======================
 
 CHN-23-3-06 Hobbies 1
-*********************
+=====================
 
 CHN-24-3-07 Routine 1
-*********************
+=====================
 
 CHN-25-3-08 Payment
-*******************
+===================
 
 CHN-26-3-09 Entertain
-*********************
+=====================
 
 CHN-27-3-10 Location 4
-**********************
+======================
 
 CHN-28-3-11 Restaurant
-**********************
+======================
 
 CHN-29-3-12 Market
-******************
+==================
 
 CHN-30-3-13 Hobbies 2
-*********************
+=====================
 
