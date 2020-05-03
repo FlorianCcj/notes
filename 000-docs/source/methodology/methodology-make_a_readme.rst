@@ -1,5 +1,5 @@
-What to write in a README
-#########################
+Methodology - What to write in a README
+#######################################
 
 :source: https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
 

@@ -1,5 +1,5 @@
-Methodo - Comment etre sur de rater ton projet informatique
-###########################################################
+Methodology - Comment etre sur de rater ton projet informatique
+###############################################################
 
 :source: https://www.jesuisundev.com/comment-etre-sur-de-rater-ton-projet-informatique/
 
