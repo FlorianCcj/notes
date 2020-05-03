@@ -179,6 +179,7 @@ Doc to read/to write
         * monday.com
     
 * tmp:
+    * avocat fiscaliste ou expert comptable
     * sentry
     * https://www.youtube.com/watch?v=sFk8kPNJ0XE
     * https://psiloveyou.xyz/the-only-thing-you-have-to-do-before-9-a-m-5e51c708ac99
@@ -342,6 +343,7 @@ Doc to read/to write
         * https://ttt.io/anatomy-of-my-kubernetes-cluster
         * https://ops.tips/notes/kubelet-qos-and-oom/
         * Flagger
+        * * https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
