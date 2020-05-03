@@ -57,15 +57,14 @@ First code
 config file
 ***********
 
-.. block-code:: js
+.. code-block:: js
     :name: config.js
     :caption: config.js
 
     exports.TOKEN = 'NjA1MDAzMTI4NTU5MTA4MTA3.XozUjw.h2gMIMh-xvtJeMqju4XrNyWtb1U';
     exports.PREFIX = 'f?'
 
-
-.. block-code:: js
+.. code-block:: js
     :name: src/main.js
     :caption: src/main.js
 
@@ -95,7 +94,7 @@ bot on heroku
 
     worker: node src/main.js
 
-* install `heroku cli<https://devcenter.heroku.com/categories/command-line>`_
+* install `heroku cli <https://devcenter.heroku.com/categories/command-line>`_
 * heroku login
 * heroku create <name_app>
 * heroku create dreadnought-branch --buildpack heroku/nodejs
