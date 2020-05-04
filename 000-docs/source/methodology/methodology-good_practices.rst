@@ -1,5 +1,5 @@
-Code - Good Practices
-#####################
+Methodology - Code - Good Practices
+###################################
 
 :source: thanks to Sam G.
 

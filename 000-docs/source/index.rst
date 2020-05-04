@@ -6,7 +6,10 @@
 Welcome to my_knowledge's documentation!
 ========================================
 
-https://florianccj.github.io/notes/
+* https://florianccj.github.io/notes/
+* https://github.com/florianccj/notes/
+
+Ce depot est la juste pour noter toutes mes connaissances, pas pour retranscrire pour la lecture des autres, pas pour le partage, juste pour moi.
 
 .. include:: toc.rst
 

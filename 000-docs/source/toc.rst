@@ -12,6 +12,7 @@
     discord/discord-bot-node-example.rst
     git/git-config.rst
     git/git-crash-course.rst
+    git/git-for_beginner.rst
     git/git-hook.rst
     git/git-submodule.rst
     git/git-trics.rst
@@ -76,9 +77,9 @@
     mentalism/influence_hypnotique-youtube.rst
     mentalism/mentalism-other.rst
     methodology/methodology-code-beginner.rst
-    methodology/good_practices.rst
     methodology/methodology-event_sourcing_and_DDD.rst
     methodology/methodology-fail_over.rst
+    methodology/methodology-good_practices.rst
     methodology/methodology-make_a_readme.rst
     methodology/methodology-suck_in_programming.rst
     money/job-the_good_question.rst
