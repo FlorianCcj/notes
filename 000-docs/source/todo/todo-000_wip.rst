@@ -293,6 +293,10 @@ Doc to read/to write
     * catalog - md to html: https://www.youtube.com/watch?v=ypD_oAwEPFU
     * tutoarduino.com
     * python data, hack, dessin, chinois, mentalism, karate, rubick, gogame, confiance, flute, allemand, arabe, piano (methode rose)
+    * strapi.js: https://www.youtube.com/watch?v=6FnwAbd2SDY
+    * final fantasy les creature de l esprir
+    * titan iae
+    * promeruim, operateur d authent couplé a oidc
     * design
         * https://medium.com/@smashingmag/getting-started-with-css-layout-58dc92809293
         * https://css-tricks.com/snippets/css/css-grid-starter-layouts/
@@ -315,7 +319,10 @@ Doc to read/to write
         * https://medium.com/javascript-in-plain-english/javascript-top-level-await-in-a-nutshell-4e352b3fc8c8
         * https://dev.to/bushraalam/cypress-end-to-end-testing-framework-3naa
         * https://dev.to/theindiancodinggrl/20-days-of-html-learn-20-amazing-things-about-html-part-1-2p99
+        * full tuto: https://medium.com/better-programming/9-projects-you-can-do-to-become-a-front-end-master-in-2020-97577110cca1
         * angular
+            * !!! https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e
+            * active jest: https://itnext.io/how-to-use-jest-in-angular-aka-make-unit-testing-great-again-e4be2d2e92d1
             * https://medium.com/angular-in-depth/angular-fat-dumb-and-happy-6409c7c01ff9
             * https://medium.com/angular-in-depth/creatively-decouple-ngonchanges-fab95395cc6e
             * https://levelup.gitconnected.com/auto-unsubscribing-in-angular-components-like-a-pro-742220b01d0c
@@ -359,6 +366,8 @@ Doc to read/to write
                 * https://github.com/antonioru/beautiful-react-hooks
                 * https://itnext.io/optimizing-react-code-with-hooks-3eaaf5978351
                 * https://www.telerik.com/kendo-react-ui/react-hooks-guide/?utm_medium=cpm&utm_source=reactstatus&utm_campaign=kendo-ui-react-blog-react-hooks-guide&utm_content=sponsored-link
+        * sveltejs
+            * https://medium.com/codingthesmartway-com-blog/building-a-svelte-3-todo-app-from-start-to-deployment-1737f72c23a6
         * vuejs
             * https://dev.to/heyshadowsmith/vue-component-tdd-with-jest-and-storybook-52od?utm_source=Vue.js+Developers&utm_campaign=40c4c138c7-VJD_NEWSLETTER_152&utm_medium=email&utm_term=0_ae2f1465e2-40c4c138c7-223767501
     * cloud
@@ -376,7 +385,8 @@ Doc to read/to write
         * https://ttt.io/anatomy-of-my-kubernetes-cluster
         * https://ops.tips/notes/kubelet-qos-and-oom/
         * Flagger
-        * * https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals
+        * https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/#xref_monitoring_golden-signals
+        * kustomize
     * menta
         * https://apprendre-la-communication-non-verbale.com/comment-ameliorer-langage-corporel/
         * https://apprendre-la-communication-non-verbale.com/comment-savoir-quand-personne-ment/
