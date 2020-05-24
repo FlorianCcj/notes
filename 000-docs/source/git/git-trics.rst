@@ -21,7 +21,13 @@ git config
 **********
 
 git config core.filemode false
+
 git config --global core.filemode false
+
+git config --global user.name florianccj
+git config --global user.email xxx@aaa.bbb
+
+git config --global core.excludesfile ~/.gitignore_global
 
 git diff
 ********
