@@ -16,7 +16,40 @@ Folder in sulfur
 ****************
 
 * clean up room
-* room
+* jdr boost
+* sup
+
+  * prom 114/394
+  * SRE 0/550
+  * Devops with kube 0/344
+
+* sf challenge
+* money 
+    * art 4/409
+    * for dummy 0/406
+* boulot
+
+  * well architect
+
+* go
+* mentalism
+
+  * cold reading
+  * charism
+  * switch
+  * persuade
+  * domin
+  * action
+  * succes social
+
+* Ludochrono - Dig Your Way Out
+* dessin
+
+  * module 1 3/06
+  * module 2 0/10
+  * module 3 0/04
+  * module 4 0/10
+  * module 5 0/01
 
 Daily
 *****
