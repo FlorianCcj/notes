@@ -7,6 +7,8 @@ Folder in sulfur
 * liseuse
 * couteau de cuisine
 * https://www.souffledor.fr/jeux-de-tirage/24-conduire-sa-vie
+* ecran
+* carte micro sd
 
 Notes
 =====
