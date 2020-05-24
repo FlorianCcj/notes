@@ -89,6 +89,7 @@
     money/money-cafe_de_la_bourse.rst
     money/money-trading.rst
     reading/disk_world.rst
+    recipe/recipe-eggs.rst
     recipe/recipe-pasta.rst
     recipe/recipe-full_meal.rst
     quote/quote-main.rst
