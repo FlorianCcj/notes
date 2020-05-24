@@ -77,7 +77,7 @@ Phrases
 
 * bu4 dui4: incorrect
 * ni3 shi2 zho1ngguo2 re2n ma?: Are you chinese?
-* ni3men do1u shi2 me3igu02re2n, dui4 ma?: you all are american, right?
+* ni3men do1u shi2 me3iguo2re2n, dui4 ma?: you all are american, right?
 
 CHN-09-2-03 Greeting 3
 ======================
@@ -136,7 +136,7 @@ Phrases
 * lu2ndu1n za4i yi1ngguo2: London is in the UK
 * ni3men zhu4 za4i zho1ngguo2 na3r?: Where do you leave in China
 * ni3men zhu4 za4i zho1ngguo2 na3r?: Where in China do you live?
-* niu3yue1 za4i me3igu02: NY is in the US
+* niu3yue1 za4i me3iguo2: NY is in the US
 * ta1 de jia1 za4i na3r?: Where is your home?
 * ta1 de jia1 za4i xia1nggo3ng na3r?: Where in HongKong is his home?
 * ta1 za4i na3r?: Where is she?
@@ -151,9 +151,9 @@ Nothing
 Phrases
 -------
 
-* dui4bu3xi4! me2igua1nqi2!: Sorry! No worries!
-* me2igua1nqi2: No worries, it s ok, nevermind
-* wo3 he3n ma2ng, dui4bu3xi4: I am busy, sorry!
+* dui4bu3qi3! me2igua1nxi4!: Sorry! No worries!
+* me2igua1nxi4: No worries, it s ok, nevermind
+* wo3 he3n ma2ng, dui4bu3qi3: I am busy, sorry!
 * xie4xie ! bu3ke4qi4: Thank you ! You are welcome
 * xie4xie ni3: Thank you
 
@@ -336,7 +336,7 @@ Years
 -----
 
 * e4r li2ng yi1 ba1 nia2n: 2018 year
-* yi1 jiu3 ba1 yi1 nia2n: 1981 year
+* yi1 jiu4 ba1 yi1 nia2n: 1981 year
 
 Talking about dates
 -------------------
@@ -364,7 +364,7 @@ Phrases
 * mi2ngjia4n xi1ngqi1 ji3?: What day is Tomorrow?
 * mi2ngjia4n xi1ngqi1ri4 ma?: Is Sunday Tomorrow?
 * ni3 ji3 dia3n chi fa4n?: What time do you eat ?
-* ni3men mi2ngjia4n za3osha4ng jiu3 dia3n ba4n za4i na3r?: Where will you be tomorrow morning at 9:30?
+* ni3men mi2ngjia4n za3osha4ng jiu4 dia3n ba4n za4i na3r?: Where will you be tomorrow morning at 9:30?
 * wo3 yi1 dia3n ba4n chi1 fa4n: I eat at 1:30
 * xi1ngqi1tia1n ji3 ha4o?: What day is sunday?
 * xi1ngqi1tia1n wo3 he1 cha2: Sundays I drink tea
@@ -446,8 +446,8 @@ You can ask question with bu4 and the dooble verb shi4 bu shi4
 
 But you can do it with adjective ha3o bu4 ha3o
 
-* Nǐ gāoxìng bu gāoxìng? (你高兴不高兴?): Are you happy?
-* Tā máng bu máng? (他忙不忙？): Is he busy?
+* Ni3 ga1oxi4ng bu ga1oxi4ng? (你高兴不高兴?): Are you happy?
+* Ta1 ma2ng bu ma2ng? (他忙不忙？): Is he busy?
 
 Phrases
 -------
@@ -545,8 +545,8 @@ Where? with na2li (哪里)
 
 na2li (哪里) <=> na3r (哪儿)
 
-* Nǐ zài náli? (你在哪里？): Where are you?
-* Tāmen liùyuè huì qù nǎr? (她们六月会去哪儿？): Where will they go in June?
+* Ni3 za4i na2li? (你在哪里？): Where are you?
+* Ta1men liu4yue4 hui4 qu4 na3r? (她们六月会去哪儿？): Where will they go in June?
 
 Where is the cat?
 -----------------
@@ -560,7 +560,7 @@ Walk towards the left
 
 To say walk toward a certain direction in Chinese, you’ll say wa3ng (往, towards) before the direction and then add zo3u (走, walk).
 
-* Qi3ng wa3ng zuo3biq1n zo3u (请往左边走): Please walk towards the left (side).
+* Qi3ng wa3ng zuo3bia1n zo3u (请往左边走): Please walk towards the left (side).
 * Qi3ng wa3ng yo4ubia1n zo3u. (请往右边走):  Please walk towards the right (side).
 * Wa3ng qia2nmia4n zo3u (往前面走): Walk towards the front (side).
 
@@ -578,14 +578,174 @@ Phrases
 CHN-23-3-06 Hobbies 1
 =====================
 
+Yes and No
+----------
+
+* There is no "yes" of "no"
+* The easiest way is to repeat the verb or adj of the question
+* To say no, add bu4 (不) before the repeated verb or adjective.
+
+* Ni3 xi3hua1n bu xi3hua1n go3u? (你喜欢不喜欢狗？): Do you like dogs?
+* Xi3hua1n (喜欢): Yes
+* Ta1men ma2ng ma? (她们忙吗？): Are they busy?
+* Ma2ng (忙): Yes
+* Ni3 ya4o bu ya4o ka1fe1i? )你要不要咖啡？): Do you want coffee?
+* Bu2 ya4o (不要): No
+* Ni3 qu4 me3iguo2 ma? (你去美国吗？): Are you going to the US?
+* Bu2 qu4 (不去): No
+
+za4i (在) for things that are happening right now
+-------------------------------------------------
+
+* Add za4i (在) before a verb to show that something is happening right now. 
+
+* Wo3 de pe2ngyo3u za4i ka4nshu1 (我的朋友在看书): My friend is reading a book
+* Ta1 za4i ti1ng yi1nyue4 (她在听音乐): She is listening to music.
+
+Phrases
+-------
+
+* ta1men bu4 ka4n ha4nyu3 shu1 (他们不看汉语书): They do not read chinese book
+* ni3 za4i zuo4 she2nme? (你在做什么？): What are you doing?
+* ni3 xi3hua1n ka4n shu1 ma (你喜欢看书吗？): Do you like reading?
+* ni3 xi3hua1n ka4n she2nme shu1 (你喜欢看什么书？): What books do you like to read?
+* wo3 de nu.3 pe2ngyo3u zui4 pia4olia4ng (我的女朋友最漂亮): My girlfriend is the most beautifull
+* ta1men de ge1ge me3i tia1n xia4wu3 ??? dia4nna3o yo2uxi4 (她们的哥哥每天下午玩电脑游戏): Their older brother plays computer games every afternoon
+* ni zui4 xi3hua1n she2i? (你最喜欢谁？): Who do you like the most?
+* ni3men wa2n bu4 wa2n dia4nna3o yo2uxi4? (你们玩不玩电脑游戏？): Do you play computer games?
+* zhe4 shi4 she2nme yi1nyue4? (这是什么音乐？): What music is this?
+* wo3 bu4 xi3hua1n ti1ng ta1 de yi1nyue4 (我不喜欢听他的音乐): I don't like to listen to his music
+* wo3 de ha2izi3 a4i yi1ngyu3 ge1 (我的孩子爱英语歌): my child loves english songs
+* ta1 zui4 xi3hua1n ti1ng she2nme yi1nyue4? (她最喜欢听什么音乐？): What music does she like listening to the most?
+* ta1 bu4 hui4 tia2owu3 (他不会跳舞): He can t dance
+* wo3 xi3hua1n ti1ng ge1, bu4 hui4 cha4ng ge1 (我喜欢听歌，不会唱歌): I like to listen to songs, I can't sing
+* wo3 de pe2ngyo3u do1u xi3hua1n tia2owu3 (我的朋友都喜欢跳舞): All of my friends like dancing
+
 CHN-24-3-07 Routine 1
 =====================
+
+From here to there!
+-------------------
+
+* co2ng (从, from) and da4o (到, to).
+
+* co2ng Me3iguo2 da4o Zho1ngguo2 (从美国到中国): from the U.S. to China
+* co2ng Wu3yue4 da4o Liu4yue4 (从五月到六月): from May to June
+* co2ng jiu4 dia3n da4o wu2 dia3n (从九点到五点): from 9 o’clock to 5 o’clock
+
+sha4ng (上) and xia4 (下)​
+------------------------
+
+* sha4ng (上): last and xia4 (下)​: next
+* but also
+* sha4ng (上): go to and xia4 (下)​: get off
+
+* Wo3men sha4ngwu3 jiu4 dia3n sha4ngba1n (我们上午九点上班): We go to work at 9 in the morning.​
+​* Ni3 mi2ngtia1n ji3 dia3n xia4ba1n? (你明天几点下班？​): What time do you get off work tomorrow?​
+​* Wo3 de me4imei shi2yi1 dia3n sha4ngxue2 (我的妹妹十一点上学): My younger sister goes to school at 11 o'clock.​
+
+Phrases
+-------
+
+* wo3men a4i zuo4 zho1ngguo2 fa4n (我们爱做中国饭): We love cooking chinese food
+* wo3 de ba4ba liu4 dia3n ba4n qi3chua2ng (我的爸爸六点半起床): My father gets up at 6h30
+* yi1she1ng ji3dia3n sha4ngba1n? (医生几点上班？): What time does the doctor go to work?
+* ta1 co2ng liu4 dia3n ba4n da4o jiu4 dia3n he1 cha2 (她从六点半到九点喝茶): she drinks tea from 6h30 to 9h
+* wo3 me2i tia1n do1u co2ng shi4 dia3n da4o liu4 dia3n ba4n shui4jia4o (我每天都从十点到六点睡觉): I sleep from 10 to 6 every day
+* xia4 ge1 xi1ngqi1 wo3 he2 pe2ngyo3u chi1 wu3fa4n (下个星期我和朋友吃午饭): I am having lunch with friends next week
+* yi1she1ng ji1ntia1n ji3dia3n xia4ba1n? (医生今天几点下班？): What time does the doctor get off work today?
+* wo3men mi2ngtia1n sa1n dia3n fa4ng xue2 (我们明天三点放学): We finish school at 3 tomorrow
+* ni3 me3i tia1n ji3dia3n hui2 jia1? (你每天几点回家？): What time do you go home every day?
+* zhe4 ge1 mo4zho1u wo3men za4i jia1 chi1 wa3n fa4n ma? (这个周末我们在家吃晚饭吗？):  Are we having dinner at home this weekend ?
+* ji1ntia1n wa3nsha4ng wo3 bu4 hui2 jia1 (今天晚上我不回家): I m not going home tonight
+* wo3men mi2ng nia2n hui2 lu2ndu1n (我们明年回伦敦): We are going back to London next year
 
 CHN-25-3-08 Payment
 ===================
 
+How much?
+---------
+
+* duo1sha3o qia2n (多少钱？): how much money?
+* Zhe4ge duo1sha3o qia2n? (这个多少钱？): How much is this?
+* Na4ge dia4nna3o duo1sha3o qia2n? (那个电脑多少钱？): How much is that computer?
+
+Numbers
+-------
+
+* sa1nba3i yi1shi2wu3 (三百一十五): 315
+* si4ba3i yi1shi2'e4r (四百一十二): 412
+* yi4ba3i li2ng e4r (一百零二): 102
+* jiu4qia1n ba1ba3i li2ng liu4 (九千八百零六): 9 806
+* liu4qia1n li2ng qi1shi2 (六千零七十): 6 070
+yi2wa4n (一万): 10 000
+* wu3wa4n sa1nqia1n liu4ba3i si4shi2jiu4 (五万三千六百四十九): 53 649
+
+Too expensive!
+--------------
+
+* Ta4i gui4 le! (太贵了！): Too expensive!
+* Ta4i re4 le! (太热了！): Too hot!
+* Ta4i ha3o le! (太好了！): Very good!
+* Ta4i ke3'a4i le! (太可爱了！): So cute!
+
+Phrases
+-------
+
+* sa1n ba3i yi1 shi2 wu3 kua4i (三百一十五块。): 315 yuan
+* wo3 me2iyo3u qia2n (我没有钱。): I do not have money
+* ta1 bu4 ma3i (他不买。): He's not buying
+* wo3 zhi3 hui4 shuo1 yi1ngyu3 (我只会说英语): I only speak English
+* wo3 zhi3 yo3u ba1 ba3i kua4i (我只有八百块。): I only have 800 Yuan
+* wo3 ma3i Zhe4ge, duo1sha3o qia2n (我买这个，多少钱？): I am buying this, how much money is it?
+* Zhe4ge duo1sha3o qia2n (这个多少钱？)How much is this ?
+* ni3 ma3i le ji3 ge1 yo2uxi4? (你买了几个游戏？): How many games did you buy?
+*Zhe4ge qi1 ba3i sa1n shi2 e2r kua4i wu3 ma3o (这个七百三十二块五毛。): This is 732.50 Yuan
+* yi1go2ng wu3 ba3i kua4i (一共五百块。): Altogeter it's 500 Yuan
+* zhe4ge jiu4 kua4i jiu4 ma3o jiu4 fe1n(这个九块九毛九分。): This is 9.99 Yuan
+* wo3 yi1go2ng ma3i liu4 ge1 (我一共买六个。): I am buying six altogether
+* dui4bu3qi3, wo3men bu4 sho1u xi4nyo4ng ka3 (对不起,我们不收信用卡。): Sorry, we do not take credit cards
+* na4 ge1 yo2uxi4 he3n gui4 (那个游戏很贵): That game is expensive
+* na4li de cha2 he3n pia2nyi (那里的茶很便宜): The tea is cheap there
+* wo3men bu4 sho1u xi4nyo4ng ka3, zhi3 xi4nyo4ng ka3 (我们不收信用卡，只收现金。): We don't take credit cards, we only take cash.
+* na4 ge1 dia4nna3o he3n gui4 (那个电脑很贵。): That computer is expensive
+* qi3ng pia2nyi yi1 dia3r (请便宜一点儿。): Please make it a bit cheaper.
+* bu4 xi2ng (不行): no way
+* she2i yo3u yi1 wa4n kua4i? (谁有一万块？): Who has ten thousand yuan
+* zhe4li ta4i re4 le! (这里太热了！): It is too hot here!
+* pia2nyi ti1 dia3r, xi2ng bu4 xi2ng? (便宜一点儿，行不行？): Can this be a bit cheaper?
+
 CHN-26-3-09 Entertain
 =====================
+
+za4i (在) for location
+---------------------
+
+* ta1 za4i jia1 ka4n ba4ozhi3. (她在家看报纸。): She reads the newspaper at home.
+* wo3 za4i xi3sho3ujia1n tia4owu3. (我在洗手间跳舞。): I dance in the bathroom.
+* go3u za4i na4li shui4jia4o. (狗在那里睡觉。): The dog sleeps there. 
+
+Phrases
+-------
+
+* zhe4ge mo4zho1u wo3men hui4 ga4n she2nme? (这个周末我们会干什么？): What are we going to do this weekend?
+* mi2ngtia1n zuo4 sha4ng ni3 xia3ng ga4n she2nme? (明天晚上你想干什么？): What do you want to do tomorrow evening?
+* ni3 xia3ng yo3u dia4nyi3ng ma?(你想看电影吗？): Do you want to watch a movie?
+* ta1men xia3ng mi2ngtia1n ka4n dia4nyi3ng (他们想明天看电影。): They want to watch a movie tomorrow
+* ni3 xi3hua1n ka4n dia4nshi4 ma? (你喜欢看电视吗？): Do you like watching television?
+* ni3 xi3hua1n sha4ngwa3ng zuo4 she2nme? (你喜欢上网做什么？): What do you like to do online ?
+* wo3 xia3ng sha4ngwa3ng ti1ng yi1nyue4 (我想上网听音乐。): I want to go online and listen to music
+* ni3 ka4n le ji1ntia1n de ba4ozhi3 ma? (你看了今天的报纸吗？): Did you read today's newspaper?
+* ni3 ka4n le xi1nwe2n ma? (你看了新闻吗？): Did you read the newspaper?
+* ni3 de sho3uji1 ha4oma3 shi4 duo1sha3o? (你的手机号码是多少？): What is your cellphone humber?
+* wo3men yo4ng sho3uji1 ka4n xi1nwe2n (我们用手机看新闻。): We use cell phones to read the news
+* ni3 xi3hua1n na3 ge na2n mingxi1ng? (你喜欢哪个男明星？): Which male celebrity do you like?
+* ta1 za4i zho1ngguo2 shi4 yi1 ge mingxi1ng (她在中国是一个明星。): she is a celebrity in China
+* wo3 yo4ng dia4nna3o ka4n xi1nwe2n (我用电脑看新闻。): I read the news on my computer.
+* wo3 xia3ng yo4ng sho3uji1 wa2n yo2uxi4 (我想用手机玩游戏。): I want to use my phone to play games
+* wo3men mo4zho1u hui4 ka4n ha2nguo2 dia4nyi3ng (我们周末会看韩国电影。): We will watch Korean movie on the weekend
+* ni3men xi3hua1n ka4n she2nme dia4nshi4 mu4jie2 (你们喜欢看什么电视节目): What TV shows do you like watching?
+* ta1 me3itia1n ka4n (他每天看体育新闻。): He reads the sports news every day.
 
 CHN-27-3-10 Location 4
 ======================

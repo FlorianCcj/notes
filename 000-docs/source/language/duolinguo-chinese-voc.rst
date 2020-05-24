@@ -113,7 +113,7 @@ CHN-07-2-01 Contact
 ===================
 
 * de (的): possessive
-* dia4n (电): (like in dia4nhua4: phone)
+* dia4n (电): electricity (like in dia4nhua4: phone)
 * duo1 (多): (like in duo1sha3o: how much)
 * ha4o (号): (like in ha4nma3: number)
 * hua4 (话): (like in dia4nhua4: phone)
@@ -142,7 +142,7 @@ CHN-09-2-03 Greetings 3
 * ma2ng (忙): busy
 * me (么): (like in she2nme: what/how or ze3nmeya4ng: how)
 * tia1n (天): day (like in ji1ntia1n: today)
-* sha4ng (上): last (like in za3osha4ng: morning)
+* sha4ng (上): last, go to (like in za3osha4ng: morning)
 * ya4ng (样): (like in ze3nmeya4ng: how)
 * za3o (早): (like in za3osha4ng: morning)
 * ze3n (怎): (like in ze3nmeya4ng: how)
@@ -310,7 +310,7 @@ CHN-17-2-11 Time 1
 * qi1 (期): (like in xi1ngqi1: week)
 * ri4 (日): sun
 * tia1n (天): sky (like in mi2ngjia1n: tomorrow)
-* xi1ng (星): (like in xi1ngqi1: week)
+* xi1ng (星): star (like in xi1ngqi1: week)
 * xia4n (现): (like in xia4nza4i: now)
 * yue4 (月): month
 
@@ -412,10 +412,10 @@ CHN-21-3-04 Time 2
 * me3i (每): every
 * mo4 (周): week (like in mo4zho1u (周末): weekend)
 * wu3 (午): (like in xia4wu3 (下午): afternoon)
-* xia4 (下): next
+* xia4 (下): next, get off
 * zho1u (末): end (like in mo4zho1u (周末): weekend)
 * zuo2 (昨): (like in zuo2tia1n (昨天): yesterday)
-* zuo4 (做): made, has been, worked as
+* zuo4 (做): make, has been, worked as
 
 Voc
 ---
@@ -472,14 +472,131 @@ Direction
 CHN-23-3-06 Hobbies 1
 =====================
 
+* cha4ng (唱): to sing
+* hua1n (欢): (xi3hua1n (喜欢): to like)
+* ge1 (歌): song
+* ka4n (看): read
+* na3o (脑): (like in dia4nna3o (电脑): computer)
+* shu1 (书): book
+* tia2o (跳): (like in tia2owu3 (跳舞): to dance)
+* ti1ng (听): to listen
+* wa2n (玩): to play
+* wu3 (舞): (like in tia2owu3 (跳舞): to dance)
+* xi3 (喜): (xi3hua1n (喜欢): to like)
+* xi4 (戏): (like in yo2uxi4 (游戏): games)
+* yo2u (游): (like in yo2uxi4 (游戏): games)
+* yi1n (音): (like in yi1nyue4 (音乐): music)
+* yue4 (乐): (like in yi1nyue4 (音乐): music)
+
+Voc
+---
+
+- dia4nna3o (电脑): computer
+- xi3hua1n (喜欢): to like
+- tia2owu3 (跳舞): to dance
+- yi1nyue4 (音乐): music
+- yo2uxi4 (游戏): games
+- zui4 pia4olia4ng (最漂亮): the pretiest
+- zui4 xi3hua1n (最喜欢): the favorite
+
 CHN-24-3-07 Routine 1
 =====================
+
+* ba1n (班): work
+* co2ng (从): from, with, at
+* chua2ng (床): (like in qi3chua2ng (起床): to get up)
+* da4o (到): to, until, reach
+* shui4 (睡): (like in shui4jia4o (睡觉): sleep, go to bed)
+* jia4o (觉): (like in shui4jia4o (睡觉): sleep, go to bed)
+* hui2 (回): return, come
+* fa4ng (放): to leave, to set off, to put
+
+Voc
+---
+
+- sha4ng (上): go to
+- xia4 (下)​: get off
+- zuo2tia1n wa3nsha4ng(昨天晚上): last night
+- qi3chua2ng (起床): to get up
+- sha4ngba1n (上班): go to work
+- shui4jia4o (睡觉): sleep, go to bed
+- xia4ba1n (下班): get off work
+- sha4ngxue2 (上学): go to school
+- wu3fa4n (午饭): lunch
+- za3ofa4n (早饭): breakfast
+- wa3nfa4n (晚饭): dinner
+- zuo4 (做): cook, make
+- fa4ngxue2 (放学): to finish school
 
 CHN-25-3-08 Payment
 ===================
 
+* go2ng (共): (like in yi1go2ng (一共): altogether, in total)
+* gui4 (贵): expensive, honorable's, your
+* ji1n (金): (like in xia4nji1n (现金): cash)
+* ka3 (卡): card
+* kua4i (块): Yuan, piece of
+* ma3i (买): to buy
+* ma3o (毛): ten cents
+* pia2n (便): (like in pia2nyi (便宜): cheap)
+* qia2n (钱): money
+* qia1n (千): 1 000
+* sho1u (收): to take, to accept
+* ta2i (太): ???
+* wa4n (万): 10 000
+* xi4n (信): letter (like in xi4nyo4ng (信用): credit)
+* xi2ng (行): fine, okay (like in bu4 xi2ng (不行): no way)
+* yi (宜): (like in pia2nyi (便宜): cheap)
+* yo4ng (用): take, with, using (like in xi4nyo4ng (信用): credit)
+* zhi3 (只): only, just, an order of
+
+Voc
+---
+
+- bu4 xi2ng (不行): no way
+- xia4nji1n (现金): cash
+- duo1sha3o qia2n (多少钱): how much money
+- pia2nyi (便宜): cheap
+- xi4nyo4ng (信用): credit
+- yi1go2ng (一共): altogether, in total
+- zhe4jia1 (这家): this
+
 CHN-26-3-09 Entertain
 =====================
+
+* ba4o (报): (like in ba4ozhi3 (报纸): newspaper)
+* ga4n (干): do, dry
+* ha2n (韩): (like in ha2nguo2 (韩国): Korea)
+* ji1 (机): (like in sho3uji1 (手机): cellphone)
+* jie2 (节): festival (like in mu4jie2 (节目): show, program)
+* mu4 (目): (like in mu4jie2 (节目): show, program)
+* shi4 (视): (like in dia4nshi4 (电视): television, tv shows)
+* ti3 (体): (like in ti3yu4 (体育): sports)
+* tia4o (跳): (like in tia4owu3 (跳舞): dance)
+* wu3 (舞): (like in tia4owu3 (跳舞): dance)
+* xia3ng (想): want to, would like, would
+* wa3ng (网): web,net (like in sha4ngwa3ng (上网): online)
+* we2n (闻): (like in xi1nwe2n (新闻): news)
+* xi1n (新): (like in xi1nwe2n (新闻): news)
+* yi3ng (影): (like in dia4nyi3ng (电影): movie)
+* yu4 (育): (like in ti3yu4 (体育): sports)
+* zhi3 (纸): (like in ba4ozhi3 (报纸): newspaper)
+
+Voc
+---
+
+- ba4ozhi3 (报纸): newspaper
+- dia4nyi3ng (电影): movie
+- dia4nshi4 (电视): television, tv shows
+- ha2nguo2 (韩国): Korea
+- mingxi1ng (明星): celebrity, star
+- mu4jie2 (节目): show, program
+- xi1nwe2n (新闻): news
+- sha4ngwa3ng (上网): online
+- ti3yu4 (体育): sports
+- tia4owu3 (跳舞): dance
+- sho3uji1 (手机): cellphone
+- sho3uji1 ha4oma3 (手机号码): number
 
 CHN-27-3-10 Location 4
 ======================
