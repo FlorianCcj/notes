@@ -142,11 +142,16 @@ La staging area
 * :code:`git add .`: celui la est vu et revu dans de nombreux tutos, je vous recommande de ne l utiliser qu avec d immense precaution ... voir pas du tout
 * :code:`git add -p`: mon chouchou, permet d ajouter portion de code par portion de code, git vous demandera de choisir
 
-  * :code:`y`: yes, ajoute le a la staging area
-  * :code:`n`: no
-  * :code:`s`: split, permet de separer si c est faisable facilement par git
-  * :code:`e`: edit, vous affichera les lignes avec des :code:`+` et des :code:`-` pour montrer les lignes ajoutees et retirees, il suffit de les supprimer pour ne pas mettre la modification de la staging area
-  * vous avez les 4 options que j utilise principalement, les autres options peuvent peut etre vous aider mais je n ai pas encore apris a les utiliser
+  * :code:`y`: stage this hunk
+  * :code:`n`: do not stage this hunk
+  * :code:`q`: quit; do not stage this hunk nor any of the remaining ones
+  * :code:`a`: stage this hunk and all later hunks in the file
+  * :code:`d`: do not stage this hunk nor any of the later hunks in the file
+  * :code:`/`: search for a hunk matching the given regex
+  * :code:`s`: split the current hunk into smaller hunks
+  * :code:`e`: manually edit the current hunk
+  * :code:`?`: print help
+  * les 4 options que j utilise principalement sont :code:`y`, :code:`n`, :code:`s` et :code:`e`
 
 * :code:`git add -u`: ajoute les modifications des fichiers DEJA SUIVIS, les fichiers qui ne l etaient pas encore ne seront pas prit en compte
 * :code:`git commit -a -m "mon super message"` revient a faire une :code:`git add -u` puis un :code:`git commit -m "mon super message"`
@@ -333,3 +338,8 @@ Regarder
 * git hook
 * git submodule
 * la specification semver
+
+Sources
+*******
+
+* `<https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/>`_
