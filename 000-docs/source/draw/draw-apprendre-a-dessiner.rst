@@ -27,6 +27,15 @@ vue en plongé, contre-plongé
 2 points de fuite: les verticales sont verticales mais les horizontales ne le sont pas (on tourne autour du cube)
 3 points de fuite: on regarde en plongé ou contre plongé
 
+s'entrainer a faire des traits droits
+
+* a partir des doigts
+* a partir du poignet
+* a partir du coude
+* a partir de l epaule
+
+Faire plusieurs mouvements fantomes avant de tirer le trait. Des qu on pense avoir le bon mouvement, on le realise
+
 Module 2
 ========
 
