@@ -46,3 +46,5 @@ La barre haute MacMahon est à 2 Dan et la barre basse est à 20 kyu
 Pas d'handicap dans le top groupe
 
 Dans le cas ou votre adversaire ne vient pas à un rdv que vous avez fixé la partie est déclaré forfait au bout de 30 minutes sans nouvelles, sauf si les deux joueurs peuvent jouer la partie avant la date de la prochaine ronde. Dans le cas ou vous ne pourriez pas jouer une ronde, contactez moi en avance , vous n'allez pas perdre par forfait.
+
+Si differente platfrom penser a noter les different pseudo en fonction des platform
