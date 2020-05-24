@@ -48,6 +48,7 @@ TLDR
 * :code:`git checkout <ref>`: accede a n importe quel reference
 * :code:`git checkout -`: revient a la reference precedente
 * :code:`git merge <branch de integre dans la branch courante>`: pour ajouter les modifications de la branch :code:`ma-premiere-feature` dans la branch :code:`master`
+* :code:`git merge --ff <branch de integre dans la branch courante>`: fera comme precedemment mais ne creara pas de commit de merge
 
 Pour un nouveau projet
 ======================
@@ -94,6 +95,7 @@ Debut des branches
 * :code:`git diff <source branch> <target branch>`: permet de comprendre la difference entre les deux branch
 * :code:`git diff ma-premiere-feature master`
 * :code:`git merge ma-premiere-feature`: pour ajouter les modifications de la branch :code:`ma-premiere-feature` dans la branch :code:`master`
+* ou :code:`git merge --ff <branch de integre dans la branch courante>`: fera comme precedemment mais ne creara pas de commit de merge
 * :code:`git push origin master`: permet d envoyer les modifications de la branch sur le depot distant
 * l'idée sera a l avenir de dire a l un de vos collegue "j ai travailler sur la branch :code:`ma-premiere-feature` peux tu la recuperer la verifier et si tout te conviens alors on integrera les modifications dans :code:`master`"
 * aujourd hui vous travaillez seul ? faites la meme chose "je verifie que j ai bien code, que je n ai pas laisse de commentaires inutiles, etc"
