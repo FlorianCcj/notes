@@ -12,6 +12,11 @@ Copy tricks
 * :code:`md5sum -c test.chk`
 * date rfc 5425: "$(date +"%Y-%m-%dT%H:%M:%S%z")"
 
+Countdown
+*********
+
+* :code:`secs=$((30 * 1)); while [ $secs -gt 0 ]; do echo -ne "$secs\033[0K\r"; sleep 1; secs=$((secs-1)); done`
+
 Cowsay
 ******
 
