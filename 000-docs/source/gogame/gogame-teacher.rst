@@ -205,6 +205,122 @@ Homework
 
 * jouer
 
+2020.05.05 - La special
+=======================
+
+La special: comme la methode mdz mais c est mdz qui joue avec les eleves
+
+Base of life
+------------
+
+* attaque du ponuki en 2e ligne (exemple apres Bd4-Wc3-Bc4-Wd3-Be3-We2-Bf2-Wf3-Be4-Wg2-Bd2-Wf1-Bc2)
+
+  * on peut approcher en gueule du tigre (Bh3)
+  * tape sur le nez (Wj3)
+  * et quoi que joue l autre (Bh2 ou Bh4)
+  * descente pour connecter avec le ponuki (Wj2)
+
+Proverbe
+--------
+
+* magari (angle plein) 1000 dollars
+
+Tsumego
+-------
+
+* Si vous avez des coupes partout, capturez l autre groupe vous n aurez plus de probleme.
+* Pour capturez essayez au plus de retirez des libertes a chaque coup
+
+Homework
+--------
+
+* jouer
+
+2020.05.07 - Comment jouer plus lentement
+=========================================
+
+Merci gourou Zororo
+
+* mettre un petit rituel en place, a chaque coup
+  * enlever la main de la souris
+  * se demander si il y a des groupes faibles sur le goban
+  * s assurer de vraiment le faire a chaque coup meme si c est ennuyeux
+  * si l intuition donne un coups, en prendre conscience, le rationaliser et se dire que ce n est pas necessairement le meilleur coup (le plus important) et reflechir pour en trouver un mieux
+  * permettra de jouer plus calmement que la reflexion intuitive du "ho j'ai envie de jouer là"
+* way to think: se dire que pour progresser, il faut faire l'effort de rechercher des meilleurs coups que ceux habituels. Si les coups habituels ou intuitifs sont jouer des qu ils viennent a l esprit, tu stagnes. Pour s ameliorer il faut trouver mieux. Prendre le temps de trouver mieux.
+
+2020.05.12 - La special (2nd partie)
+====================================
+
+Corner
+------
+
+* blanc hoshi, kosumi, noir san san, noir meurt
+
+Form
+----
+
+* quand on a 2 pierres en 3e ligne, faire le hane des 2 cotés puis pousse pousse pour avoir 3 pierres puis vivre
+* tester le coup a l aisselle, dans des situation ou l autre est deja fort
+* a partir un ponuki en 1ere ligne, faire une extension en ogeima/pas d elephant
+
+Murphy
+------
+
+* Approcher en keima
+* quand on est en danger et qu on sort, soit on se fait une force pour attaquer ou couper, soit on genere un nouveau groupe faible chez l autre
+
+Proverbe
+--------
+
+* quand quelqu un veut faire un keima dechire accepte le
+* si quelqu un veut trancher votre tobi, refuser le
+
+Homework
+--------
+
+* Voir la serie "The rookie: Le flic de Los Angeles"
+
+2020.05.19 - Cours 06 - La simultanée
+=====================================
+
+Base of life
+------------
+
+* keima 2e ligne !!!! attaque la base de vie des 2 groupes
+
+Form
+----
+
+* ne jamais laisser un dos de tortue ni ponuki, sortir une fois
+* pour proteger un keima, si blanc brise la tete de chien, ne pas faire systematiquement un nobi kosumi pour connecter
+* ne pas laisser les gueules du tigre
+* lors d invasion regarder le hane pour ennuyer l autre et l obliger a faire des formes qui abimeront ses autres groupes
+* on regarde le hane si ca nous plat pas, on regarde le nobi, sinon le tobi
+* semedori: force l autre a capturer toutes les pierres pour se faire des libertées
+* quand quelqu un vous fait des ataris en cascade ca vous fait une super force
+* c est toujours cool d avoir des coups qui menace des groupes sans vouloir les kills
+* on en coupe jamais un tobi !!!
+* quand il y a un tsuke -> repondre !
+
+Murphy
+------
+
+* n ayez pas peur du cross-cut regarder les soutiens des deux cotés et lire
+* parfois on peut approcher un groupe, en kosumi tsuke, dans le but de l alourdir
+* quand on joue a handicap, faire des points ennuies souvent blanc
+* sortir et deconnecter permet toujours d attaquer reduire ect
+
+Respect
+-------
+
+* ne pas jouer le joueur, jouer le goban
+
+Homework
+--------
+
+* jouer, encore, toujours, play powa !
+
 .. --------------------------------------------------------
 
 Different part
