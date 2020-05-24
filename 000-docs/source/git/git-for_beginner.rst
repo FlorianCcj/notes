@@ -238,6 +238,9 @@ J ai oublier une portion de code dans mon commit comment je fais
   * :code:`git reset HEAD^`: va supprimer le dernier commit
   * :code:`git reset HEAD^^`: va supprimer les 2 derniers commit
   * :code:`git reset HEAD~25`: va supprimer les 25 derniers commit
+  * :code:`git reset --mixed`: comportement par default, revient a faire :code:`git reset HEAD`
+  * :code:`git reset --soft`: supprimera les modifications ciblées (commit) et les mettra dans la staging zone
+  * :code:`git reset --hard`: supprimera definitement les modifications ciblées.
 
 Bon rearangeons nos commit
 ==========================
@@ -343,3 +346,4 @@ Sources
 *******
 
 * `<https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/>`_
+* `<https://dev.to/milu_franz/git-explained-an-in-depth-comparison-18mk>`_
