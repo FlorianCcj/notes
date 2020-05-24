@@ -70,6 +70,7 @@
     language/duolinguo-german-voc.rst
     language/duolinguo-italian.rst
     language/duolinguo-italian-voc.rst
+    language/duolinguo-letter.rst
     magic/magic-youtube.rst
     math/math-exercise_code.rst
     mentalism/fabien_olicard-votre_temps_est_infini.rst
