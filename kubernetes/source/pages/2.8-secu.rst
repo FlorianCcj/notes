@@ -1,6 +1,0 @@
-Security
-********
-
-Overview of Cloud Native Security
-=================================
-

@@ -18,9 +18,28 @@
     git/git-trics.rst
     k8s/cloud_native-security_101.rst
     k8s/docker-network.rst
-    k8s/k8s-observability.rst
     k8s/docker-tricks.rst
     k8s/k8s-deploy-troubleshooting.rst
+    k8s/k8s-getting_started.rst
+    k8s/k8s-no_yaml.rst
+    k8s/k8s-observability.rst
+    k8s/k8s-security.rst
+    k8s/xavki-ansible.rst
+    k8s/xavki-aws.rst
+    k8s/xavki-consul.rst
+    k8s/xavki-docker.rst
+    k8s/xavki-docker_compose.rst
+    k8s/xavki-docker_swarm.rst
+    k8s/xavki-haproxy.rst
+    k8s/xavki-jenkins.rst
+    k8s/xavki-jmeter.rst
+    k8s/xavki-k8s.rst
+    k8s/xavki-lxc_lxd.rst
+    k8s/xavki-mesh.rst
+    k8s/xavki-netcat.rst
+    k8s/xavki-sum.rst
+    k8s/xavki-terraform.rst
+    k8s/xavki-vagrant.rst
     linux/default_bin.rst
     linux/linux-history.rst
     linux/linux-triks.rst

@@ -73,3 +73,13 @@ recommend
 * trivy (github.com/aquasecurity/trivy)
 * kube-bench (github.com/aquasecurity/kube-bench)
 * kube-hunter (github.com/aquasecurity/kube-hunter)
+
+Document history
+****************
+
++------------+---------+--------------------------------------------------------------------+
+| Date       | Version | Comment                                                            |
++============+=========+====================================================================+
+| 2020.07.12 | V1.0    | Begin note                                                         |
++------------+---------+--------------------------------------------------------------------+
+

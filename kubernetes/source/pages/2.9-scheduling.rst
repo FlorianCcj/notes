@@ -1,9 +1,0 @@
-Scheduling
-**********
-
-Kubernetes Scheduler
-====================
-
-Scheduler Performance Tuning
-============================
-
