@@ -41,6 +41,8 @@
     k8s/xavki-terraform.rst
     k8s/xavki-vagrant.rst
     linux/default_bin.rst
+    linux/linux-check_port.rst
+    linux/linux-debug.rst
     linux/linux-history.rst
     linux/linux-triks.rst
     linux/linux-tmux.rst
