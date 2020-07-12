@@ -1,0 +1,13 @@
+- prometheus
+- grafana
+- elastic search
+- logstash
+- kibana
+- metric beat
+- telegraf
+- influxDB
+- filebeat
+- rsyslog
+- fluentd
+- Telegraf influxDB Chronograf Kapacitor
+- Elastic search Logstash Kibana

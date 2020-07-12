@@ -26,6 +26,10 @@
     linux/linux-triks.rst
     linux/linux-tmux.rst
     linux/linux-vi.rst
+    sup/sup-grafana.rst
+    sup/sup-monitoring_with_prometheus.rst
+    sup/sup-promql.rst
+    sup/sup-thanos.rst
     vault/vault-admin.rst
     vault/vault-install.rst
     vault/vault-user.rst
