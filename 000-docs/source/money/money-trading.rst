@@ -176,18 +176,6 @@ strategie en fonction de la tendance
 * jouer les retournements
 * Trader dans les ranges: on traide plutot des supports et des resistances
 
-Comment utiliser les supports et les résistances
-------------------------------------------------
-
-Comment utiliser les vagues d’Elliott
--------------------------------------
-
-Comment utiliser les volumes
-----------------------------
-
-Connaître l’état des marchés grâce aux indices boursiers
---------------------------------------------------------
-
 La psychologie des marchés
 --------------------------
 
@@ -195,8 +183,8 @@ La psychologie des marchés
 * FUD (Fear, uncertainty and doubt) (la peur, l’incertitude et le doute): after a FOMO, when it begin to decrease, people afraid, will sell, add accelerate the decreasement. Don t try to hope it will increase, hope is a bad consailor
 * Les initiés: those who have priviledge information, they know how it will move
 
-Les 4 figures techniques qu’il faut connaitre
----------------------------------------------
+Une technique de scalpin
+************************
 
-Les configurations de chandeliers japonais à connaître
-------------------------------------------------------
+@todo
+https://www.youtube.com/watch?v=fGYXpVoG198

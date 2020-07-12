@@ -113,6 +113,7 @@
     money/money-libre_et_riche.rst
     money/money-lucbrialy.rst
     money/money-cafe_de_la_bourse.rst
+    money/money-thiami_kabbay-trading_art.rst
     money/money-trading.rst
     reading/disk_world.rst
     recipe/recipe-eggs.rst
