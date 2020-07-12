@@ -142,7 +142,7 @@ CHN-09-2-03 Greetings 3
 * ma2ng (忙): busy
 * me (么): (like in she2nme: what/how or ze3nmeya4ng: how)
 * tia1n (天): day (like in ji1ntia1n: today)
-* sha4ng (上): last, go to (like in za3osha4ng: morning)
+* sha4ng (上): last, go to, on, get on, top (like in za3osha4ng: morning)
 * ya4ng (样): (like in ze3nmeya4ng: how)
 * za3o (早): (like in za3osha4ng: morning)
 * ze3n (怎): (like in ze3nmeya4ng: how)
@@ -600,6 +600,25 @@ Voc
 
 CHN-27-3-10 Location 4
 ======================
+
+* zhuo1 (桌): (like in zhuo1zi? (桌子): table)
+* zha3o ():
+* shei??? (找): look for, find
+* yi3 (椅): (like in yi3zi? (椅子): chair)
+* fa2ng (房): (like in fa2ngjia1n (房间): room)
+* wa2i (外): foreign, out, outside
+* xia1ng (箱): (like in bi1ngxia1ng (冰箱): fridge, refrigerator)
+
+Voc
+----
+
+- yi3zi (椅子): chair
+- zhuo1zi (桌子): table
+- sha4ng (上): on, get on, top
+- xia4 (下): under, gave, next
+- fa2ngjia1n (房间): room
+- bi1ngxia1ng (冰箱): fridge, refrigerator
+- li3 (里): in, inside, within
 
 CHN-28-3-11 Restaurant
 ======================

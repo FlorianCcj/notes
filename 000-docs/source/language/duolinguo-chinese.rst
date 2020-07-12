@@ -750,6 +750,57 @@ Phrases
 CHN-27-3-10 Location 4
 ======================
 
+The dog is on the table!
+------------------------
+
+* go3u (狗, dog) + za4i (在, be located) + zhuo1zi (桌子, table) + sha4ng (上, on)
+
+* sha4ng (上): on
+* xia4 (下): under
+* li3 (里): inside
+* wa4i (外): outside
+
+Have you seen my phone?
+------------------------
+
+* ni3 ka4njia4n (你看见) + the thing or person you're looking for + le ma (了吗)？
+
+* Ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?
+* Ni3 ka4njia4n ta1 de ha2izi le ma? (你看见他的孩子了吗？): Have you seen his kid?
+
+sha4ng (上) vs xia4 (下)
+------------------------
+
+* sha4ng ge zho1umo4 (上个周末): last weekend
+* sha4ngxue2 (上学): go to school
+* za4i zhuo1zi sha4ng (在桌子上): on the table
+
+* xia4 ge4 yue4 (下个月): next month
+* xia4ba1n (下班): get off work
+* za4i yi3zi xia4 (在椅子下): under the chair
+
+Phrases
+-------
+
+* ni3 shei??? she2i? (你找谁？): Who are you looking for?
+* ka1fe1i za4i zhuo1zi sha4ng (咖啡在桌子上): The coffee is on the table
+* ni3 za4i shei??? she2nme? (你在找什么?): What are you looking for?
+* ni3 de sho3uji1 za4i zhuo1zi sha4ng (你的手机在桌子上。): Your phone is on the table
+* dia4nna3o za4i zhuo1zi sha4ng (电脑在桌子上): The computer is on the table
+* wo3 za4i shei??? wo3 de sho3uji1 (我在找我的手机): I am looking for my phone
+* ga1o za4i yi3zi xia4 (狗在椅子下): The dog is under the chair
+* ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?
+* ma1o za4i yi3zi sha4ng (猫在椅子上): The cat is on the chair
+* ta1men za4i xue2xia4o wa2i (他们在学校外): They are outside the school
+* shui3 za4i bi1ngxia1ng sha4ng (水在冰箱上): The water is on the fridge
+* ta1men do1u za4i fa2ngjia1n  (他们都在房间里睡觉): They are all sleeping in the room
+* niu2na3i za4i bi1ngxia1ng li3 ma?(牛奶在冰箱里吗？): Is the milk in the fridge?
+* wo3 za4i fa2ngjia1n wa2i (我在房间外): I m outside the room
+* wo3 de jia1 li3 me2iyo3u xi3sho3ujia1n (我的家里没有洗手间): There is no bathroom in my house
+* she2i za4i fa2ngjia1n wa2i? (谁在房间外？): Who's outside the room?
+* bi1ngxia1ng li3 yo3u she2nme? (冰箱里有什么？): What s in the refrigerator?
+* zhe4 shi4 she2i de fa2ngjia1n? (这是谁的房间？): Whose room is this?
+
 CHN-28-3-11 Restaurant
 ======================
 
