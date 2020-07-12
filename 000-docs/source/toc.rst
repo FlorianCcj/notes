@@ -86,6 +86,9 @@
     enigma/amazon-software_development_engineer_interview.rst
     enigma/enigma-youtube.rst
     gogame/gogame-teacher.rst
+    gogame/gogame-teacher-ish.rst
+    gogame/gogame-teacher-mdz.rst
+    gogame/gogame-variante.rst
     gogame/gogame-youtube.rst
     language/duolinguo-chinese.rst
     language/duolinguo-chinese-voc.rst
