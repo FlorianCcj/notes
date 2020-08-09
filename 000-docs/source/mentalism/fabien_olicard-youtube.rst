@@ -16,6 +16,130 @@ Comment s entrainer a detecter le mensonge
   * if the response is "YES" so the second person is a truth teller
 * if both tell the true
 
+Cul de chouette
+***************
+
+3 des 6 faces, 2 de meme couleur (la chouette) et 1 different (le cul de la chouette)
+
+minimum 2 joueurs
+
+on jette d abord la chouette puis le cul de la chouette
+
+challenge: all player have to do
+
+le but est de faire 343 points
+
+chouette de N
+==============
+
+2 des de meme valeurs (N)
+
+gain: N*N
+
+Velute
+======
+
+la somme de 2 des vaux le 3e (N)
+
+gain: 2*N*N
+
+chouette velute
+===============
+
+2 des de meme valeur, dont la somme vaux le 3e de
+
+challenge:
+
+- frapper sur leurs genoux simultanement
+- dire "pas mou le cailloux"
+
+gain: 
+
+- 1er a le faire: gagne la velute
+- egalite: ceux a egalite perdent des points equivalent a la velute
+
+Cul de chouette
+===============
+
+3 des de la meme valeur
+
+gain: 40 + 10*N
+
+Suite
+=====
+
+la valeur des 3 des se suivent
+
+challenge: 
+
+- frapper du poing sur la table
+- crier "grelotte ca picote"
+
+gain: the last lost 10 point
+
+Sirotage
+========
+
+if you have a chouette you can try to make a cul de chouette
+
+launch once again the dice which is bad
+
+fail:
+
+- win a civet 
+- lost points that you could win with the initial chouette
+
+Chalenge for other player:
+
+- bid on which face will apear
+- gain: 25 for winning bid
+
+1. Linotte
+2. Alouette
+3. Fauvette
+4. Mouette
+5. Bergeronette
+6. Chouette
+
+Civet
+=====
+
+Bid your point on your launch (max 102 points)
+
+will I do
+
+- a chouette
+- a velute
+- a chouette velute
+- a cul de chouette (with or without sirotage)
+
+Win: double the point you bid
+
+Neant
+=====
+
+ni chouette, ni cul de chouette, ni suite, ni velutte
+
+gain: grelotine (si n en a pas encore)
+
+Grelotine
+=========
+
+Crier grelotine, si en meme temps c est celui qui a le moins de point qui lance le defi
+
+challenge: defi quelqu un qui a deja une grelotine de faire une combinaison (choisi par celui qui defi), mise max 30% de celui qui a le moins de point
+
+le defie:
+* win: gagne les point de la combinaisonm et vole les points que le defieur avait mis en jeu
+* fail: gagne ce les point de la combinaison, le defieur lui vole les points miser
+
+Bevue
+=====
+
+challenge rate, des sortie de tapis, ...
+
+gain: -5
+
 Effet Dorian Grey
 *****************
 

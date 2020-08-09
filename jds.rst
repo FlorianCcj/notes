@@ -39,3 +39,13 @@ avalon (loup garou)
 claim (2 joueur mais funky)
 via magica (gestion de rssource)
 poule mouille (jungle speed plus lobo77)
+12 Gangsters
+Bazar quest (2-6, gestion de ressource, sur table)
+Flyin’ Goblin
+Ludochrono - Dig Your Way Out
+level 8 super mario
+picto rush (20 mots a toi de les retenir)
+top ten
+push (stop ou encore)
+
+
