@@ -270,6 +270,52 @@ Comment Gagner N'importe quel débat et Discussion !
 11. frappe la vue et l imagination
 12. n hesite pas a lancer un defi
 
+Comment se Faire des Amis et Influencer les Autres
+**************************************************
+
+:source: https://www.youtube.com/watch?v=708u5tlvmfw
+
+influencer
+
+* 
+  * eviter les critiques qui provoquent de la rancune, 
+  * corige toi toi meme avant de critiquer 
+  * essai plutot de la comprendre
+* on ne transforme pas les autres en blessant leur amour propre
+  * quand ils font quelque chose de bien complimentent les
+  * quand ils font quelque chose de mal, guide les pour les mener a faire quelque chose de bien
+* eveille un ardent desir chez la personne a influencer
+
+gagner la sympatie
+
+* interesse toi reellement aux autres
+* avoir le sourire
+* retient les prenoms
+* ecouter et encourage les autres a parler d eux meme
+* parle a ton interlocuteur de ce qui l interesse
+* faire sentir a l autre de leur importance
+
+L'investissement du Futur ? Investir dans le CrowdFunding ! + Exemple réel
+**************************************************************************
+
+:source: https://www.youtube.com/watch?v=JXiDx27Ohv4
+
+* fintech: finance + technologie
+* verifier que la platform est certifier amf
+* lendololis
+
+* hedoniste avec contrepartie (reward-base)
+
+  * recompense: remerciements, dedicaces, echantillons, aucun retour sur investissement
+  * pre-vente: permet de tester l appetence des consommateurs avant le lancement
+
+* altruiste sans contrepartie (crowdgiving)
+* commerciale (crowndinvesting)
+
+  * crowdlending: vente d obligation, remboursement comme un emprun a la banque
+  * crowdroyalty: redevence sur le chiffre d affaire de l entreprise
+  * crowdequity: l investisseur devient actionnaire
+
 Le Triangle de la Richesse: Stratégie en 3 étapes
 *************************************************
 

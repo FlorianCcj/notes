@@ -102,6 +102,23 @@ Youtube - devenez riche
     * test de produit gratuit
 * [...]
 
+7 Façons d'Investir Quand on a 500 Euros Seulement
+**************************************************
+
+:source: https://www.youtube.com/watch?v=f3X22_Ild3U
+
+* Investir dans l immobilier papier
+    * dans des societes civiles de placement immobilier
+* investir dans des parts de societes
+    * crowdfunding
+* investir dans des plans d epargne
+    * en perte de vitesse
+* investir dans des produits boursiers
+    * obligation, moins lucratif mais plus stable
+* investir dans des produits a louer (outil, vetement, chaise, ...)
+* investir dans un site web de qualiter
+* investir dans une formation porteuse
+
 Comment vivre ses reves
 ***********************
 
