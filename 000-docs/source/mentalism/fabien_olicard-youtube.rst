@@ -1,6 +1,99 @@
 Fabien Olicard - Youtube
 ########################
 
+Chifoumi
+********
+
+:source: https://www.youtube.com/watch?v=7Sdff9fkqvg
+
+La classique
+============
+
+* La pierre ecrase les ciseaux
+* les ciseaux coupent la feuille
+* la feuille recouvre la pierre
+
+Variation a 4
+=============
+
+* Comme la classique
+* On ajoute le puit
+
+  * le puit englouti la pierre et les ciseaux
+  * la feuille recouvre le puit
+
+Variante a 5 ou pierre papier ciseaux lezard spock
+==================================================
+
+* La classique
+
+* Plus
+
+  * spock
+
+    * symboliser par la main a plat avec 
+    
+      * le pouce separer de l index, 
+      * l index et le majeur colles
+      * le majeur et la annulaire separer
+      * l annulaire et l auriculaire colle
+
+    * spock bat la pierre et le ciseaux
+    * la feuille bat spock
+
+  * le lezard
+
+    * symbolise par
+    
+      * le pouce qui represente la machoire inferieur
+      * les qutres doigts qui representent la machoire superieur
+
+    * le lezard bat spock et le papier
+    * la pierre et le ciseau battent le lezard
+
+La version canadienne
+=====================
+
+Roche, papier, ciseau, allumette, bol de toillette
+
+comme la variante a 5 mais l allumette remplace spock et le bol de toilette remplace de lezard
+
+La version de mongoli
+=====================
+
+* on ne joue que avec le pouce l index et le majeur
+* le pouce bat l index
+* l index bat le majeur
+* le majeur bat le pouce
+
+La variante a 7 ou La version de david lovelace
+===============================================
+
+scissors, sponge, paper, air, water, rock, Fire
+
+* Scissors: index et majeur a l horizontal
+* Sponge: paume vers le haut, les doigts recrovilles
+* Paper: paume vers le bas le doigts serres
+* Air: forme un "o" avec les doigts
+* Water: Comme paper mais les doigts vers le bas
+* Rock: poing serre
+* Fire: 3 doigts a la veriticals vers le haut
+
+Dans cette ordre, chacun bat les 3 suivants: Les ciseaux battent l eponge, le papier et l air et sont battus par les 3 autres
+
+La mourre
+=========
+
+A trois on affiche entre 0 et 5 doigts et on annonce un chiffre (entre 0 et 5 fois le nombre de joueur) qui doit etre l estimation du cumul du nombre de doigt sorti
+
+Win ?
+=====
+
+* Debut de parti rapeler bien qu il n y a pas puits => intuitivement l autre jouera pierre
+* Une personne jouerra tres rarement 3 fois de suite le meme symbole
+* si une personne gagne il y a 66% de chance qu il garde le meme symbole
+* si une personne perds il y a 66% de chance pour qu il face le symbole qui aurait battu l autre
+
 Comment s entrainer a detecter le mensonge
 ******************************************
 
@@ -36,8 +129,8 @@ chouette de N
 
 gain: N*N
 
-Velute
-======
+Velute de N
+===========
 
 la somme de 2 des vaux le 3e (N)
 
@@ -112,13 +205,14 @@ will I do
 - a velute
 - a chouette velute
 - a cul de chouette (with or without sirotage)
+- etc
 
 Win: double the point you bid
 
 Neant
 =====
 
-ni chouette, ni cul de chouette, ni suite, ni velutte
+ni chouette, ni cul de chouette, ni suite, ni velutte, ni ...
 
 gain: grelotine (si n en a pas encore)
 

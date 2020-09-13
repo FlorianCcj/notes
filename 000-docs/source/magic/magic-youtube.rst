@@ -48,3 +48,153 @@ Explication
 * on va commencer en partant par le paquet a votre gauche (gauche du magicien) et on se demandera votre carte est elle un roi ou une dame. On retourne le paquet le plus a notre gauche
 * on prend le paquet le plus a droite et on redistribue
 * le 2e paquet nous revele la couleur
+
+La carte rapiece magique
+************************
+
+Prendre une carte
+la couper au milieu de la largeur la plus longue jusqu au milieu de la largeur la plus courte, de l autre cote couper de parte et d autre de la coupure de maniere symetrique
+Marquer les plie
+puis mettre la carte face a soit et faire un demi tour avec un des cotes
+
+Magic Bet
+*********
+
+:source: https://www.youtube.com/watch?v=RKlJL7UcdAk
+
+Pari de moule
+=============
+
+Je te paris que je peux retourner ta main sans la toucher, met ta main a plat face a toi, nan dans l autre sens, voila je l ai retourne
+
+Le poignet verouille
+====================
+
+Pari
+----
+
+Tu mets ta main devant toi, face vers le haut, le but du jeu c est de te retrouver face vers le bas, sans tourner le poignet
+
+Solution
+--------
+
+* On ramene la main au niveau de l epaule
+* puis au niveau du ventre
+* puis au a la position initial
+* on remonte a l epaule
+* au ventre
+* position initial
+* la main a ete retournee
+
+La bouteille
+============
+
+Pari
+----
+
+Un bouteille sur une feuille de papier sur une table
+
+Le but est de prendre la feuille de papier sans faire tomber la bouteille ni la toucher
+
+Solution
+--------
+
+Tambouriner sur la table en meme temps que l on tire la feuille
+
+Les six verres
+==============
+
+Pari
+----
+
+Six verres sur la table les 3 de gauche vers le haut les trois de droite vers le bas
+Il faut en 3 mouvement exactement, que l on se retrouve avec un verre sur deux vers le haut et vers le bas.
+A chaque mouvement tu dois retourner deux verres
+
+Solution
+--------
+
+Le truc est que lorsque l on montre comment on peut retourner on se focus que sur les 3 verres de droite ou ceux de gauche, ca piege l autre (on montre que l on peut retourner deux cote a cote ou deux separes sans probleme)
+on commence par les 2 du milieu
+puis les 2 les plus au centre de droite
+puis les 2 les plus au centre de gauche
+Les deux du milieu sont donc retoune deux fois
+plusieurs solutions sont possibles (on retourne trois fois ceux du milieu droit et milieu gauche)
+
+L as de pique
+=============
+
+Pari
+----
+
+Tu poses une carte d as de pique a cote d un billet de celui avec qui tu paris
+et le but c est qu on met les sous en jeu, si il perd il perd l argent et si il gagne on lui donne l argent
+On lui pose 3 questions, pour recuperer gagner il faut repondre a chaque fois "l as de pique" et il ne doit jamais rire
+
+Solution
+--------
+
+Les deux premieres questions importent peu, la troisieme doit etre "qu est ce que tu accepterais que je t echange contre ton argent et la victiore"
+
+Tout confort
+============
+
+Pari
+----
+
+Faire assoir le parieur, le mettre a l aise, et parier que l on peut s assoir a un endroit ou jamais au grand jamais il ne pourra s assoir
+
+Solution
+--------
+
+S assoir sur ses genoux
+
+La carte va direct dedans
+=========================
+
+Pari
+----
+
+Le but est de faire entrer une carte a jouer dans un saladier en la lancant d un mettre au dessus
+
+Solution
+--------
+
+Si on la lache verticalement elle part n importe comment, si on la lache horizintallement et tombera bien droite
+
+Les mains tordus
+================
+
+Pari
+----
+
+On met les mains devant soit
+on les croise
+on les retourne
+puis on les sert
+
+Le but est de le remettre dans la position initial
+
+Solution
+--------
+
+Une fois qu on les a serrer on lache pour verifier que l autre les a bien misesm et quand on les ressert on tourne juste une main et on l attrape avec l autre pour etre en bonne position, visuellement on a la meme position mais ca passe mieux
+
+Buvons un coup
+==============
+
+Pari
+----
+
+On a 2 shooter et 3 demi
+Celui qui a 3 demi pari qu il pourra finir ses verres avant que l autre n ai fini les 2 shooter
+
+avec 3 conditions
+* Le buveur de shooter ne doit pas toucher au verre du buveur de demi sinon il perd le pari
+* Le buveur de demi ne doit pas toucher au verre du buveur de shooter sinon il perd le pari
+Le buveur de shooteur doit attendre que celui qui boit les demi ait fini de reposer son premier verre
+
+Solution
+--------
+
+Celui qui boit des demis boit son premier verre et plutot que de le poser normalement il le retourne et le pose sur les shooter

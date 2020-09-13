@@ -67,6 +67,10 @@ sensuel
     * Kard - Bomb Bomb
     * Everglow - Adios
     * HwaSa X Chunga - Mi Gente
+    * High hopes . Panic at the disco!
+    * Juice Lizzo
+    * Whatever makes you happy . Empire
+    * Instruction . Demi Lovato 
 
 Document history
 ================

@@ -68,6 +68,19 @@ SP: Les artisants, les explorateurs
 * on gout a la liberte
 * discuter des passions, de leur vie du quotidien 
 
+Profiling
+*********
+
+* Intuition sans jugement sans ego
+* deduction, par l observation
+* communication, echanger avec la personne c est important, pour avoir le contexte, l environnement
+
+L iceberg:
+* observer la personne, son comportement, son attitude
+* l intrasec, quels sont les valeurs de la personne
+* le passe quel a ete son enfance
+
+
 Quel est ton type d'humour ?
 ****************************
 

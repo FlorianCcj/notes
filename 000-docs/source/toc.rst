@@ -16,6 +16,7 @@
     git/git-hook.rst
     git/git-submodule.rst
     git/git-trics.rst
+    k8s/aws-foundations_technical.rst
     k8s/cloud_native-security_101.rst
     k8s/docker-network.rst
     k8s/docker-tricks.rst
@@ -62,6 +63,7 @@
     js/angular-pwa.rst
     js/angular-tricks.rst
     js/js-console_log.rst
+    js/js-cypress.rst
     js/js-import.rst
     js/js-method-need-to-know.rst
     js/js-redux.rst
@@ -87,6 +89,7 @@
     draw/draw-apprendre-a-dessiner.rst
     enigma/amazon-software_development_engineer_interview.rst
     enigma/enigma-youtube.rst
+    fantasy/fantasy-kabbale_angel.rst
     gogame/gogame-teacher.rst
     gogame/gogame-teacher-ish.rst
     gogame/gogame-teacher-mdz.rst
@@ -98,6 +101,8 @@
     language/duolinguo-german-voc.rst
     language/duolinguo-italian.rst
     language/duolinguo-italian-voc.rst
+    language/duolingo-japanese.rst
+    language/duolingo-japanese-voc.rst
     language/duolinguo-letter.rst
     magic/magic-youtube.rst
     math/math-exercise_code.rst
@@ -105,6 +110,7 @@
     mentalism/fabien_olicard-youtube.rst
     mentalism/influence_hypnotique-youtube.rst
     mentalism/mentalism-other.rst
+    methodology/methodology-architecture.rst
     methodology/methodology-code-beginner.rst
     methodology/methodology-event_sourcing_and_DDD.rst
     methodology/methodology-fail_over.rst
@@ -114,6 +120,7 @@
     money/job-the_good_question.rst
     money/money-libre_et_riche.rst
     money/money-lucbrialy.rst
+    money/money-pierre_olivier.rst
     money/money-cafe_de_la_bourse.rst
     money/money-thiami_kabbay-trading_art.rst
     money/money-trading.rst
@@ -121,5 +128,6 @@
     recipe/recipe-eggs.rst
     recipe/recipe-pasta.rst
     recipe/recipe-full_meal.rst
+    recipe/recipe-vegetables.rst
     quote/quote-main.rst
     60_days_plan.rst

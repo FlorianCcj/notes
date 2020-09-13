@@ -95,6 +95,11 @@ Le jour de la marmotte
 Debout les campeurs et haut les coeurs, n'oubliez pas vos bottes parce que ça caille aujourd'hui.Ça caille tous les jours par ici, on n'est pas à Miami. On en est même loin et il faut s'attendre à quelques problèmes de circulation ce soir avec ce comment déjà.. oui ce blizzard. Blizzard vous avez dit blizzard ? Comme c'est étrange, hé bien voici les prévisions, la météo nationale prévoit un super blizzard ça va décoiffer. Oui ça va décoiffer mais il y a une autre raison pour laquelle cette journée est si particulièrement passionnante. Oui et particulièrement froide. Oui particulièrement froide, mais une question majeure est sur toutes les lèvres. Lèvres gercées. Oui les lèvres gercées. Poils au nez. Croyez vous que Phil verra son ombre à son réveil? Le Phil de Punxsutawney. Oui, le rongeur, C'est le JOUR DE LA MARMOTTE.
 Voir sur https://citations.ouest-france.fr/citation-film-un-jour-sans-fin/debout-campeurs-haut-coeurs-oubliez-111513.html
 
+Pirates des caraibes
+--------------------
+
+:Captain Jack Sparow: Le probleme c est pas le probleme. Le probleme c est ton attitude face au probleme.
+
 Tex avery
 ---------
 

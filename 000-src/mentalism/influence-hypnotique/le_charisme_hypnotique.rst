@@ -347,8 +347,24 @@ Quand on est proche avec quelqu un on fait souvent preuve d auto-derision, on he
 Devenir un leader grâce aux métaphores
 ======================================
 
+Utiliser les metaphores prouve que tu vas plus loin que de savoir expliquer, tu es aussi capable d actionner l inconscient, car l inconscient fonctionne grace au image.
+
+Dans notre inconscient la joie est en haut, la tristesse est en bas
+
+Voir une personne comme un elephant et un cycliste, le cycliste c est la pensee rationnel, consciente, celle qui voit les choses, l elephant c est l inconscient, 98% du bagage du cycliste
+
 L'effet Zeigarnik
 =================
+
+Exemple les serveurs se souviennent de la commande tant qu elle n est pas delivre
+
+Le cerveau se souvient d une tache tant qu elle n est pas realisee
+
+Tu peux donc capter l attention des gens en ne devoilant pas l integralite des informations
+
+* apres le boulot faut que je te dise quelque chose d hyper important
+* au fait t es au courant de la derniere nouvelle
+* 
 
 29 La congruence.mp4
 ====================

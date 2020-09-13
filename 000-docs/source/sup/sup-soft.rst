@@ -11,3 +11,10 @@
 - fluentd
 - Telegraf influxDB Chronograf Kapacitor
 - Elastic search Logstash Kibana
+- Kubecost
+- kube-resource-report
+- shinken: framework de supervision, du coup entierement customisable au besoin
+- Rsyslog: gestion des logs tout va bien
+- Loki: le prometheus des logs
+- Collecd: pour scrapper les metrics
+- Sysdig pour facilite le diagnostic et le depanage
