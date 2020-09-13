@@ -1,5 +1,66 @@
-k8s - security
+K8S - Security
 ##############
+
+K8s Security anatomy
+********************
+
+Cloud + Cluster
+===============
+
+* 1st level
+
+  * Cloud Account
+  * Compute (Node)
+  * Network
+  * Storage
+
+* 2nd lvl
+
+  * Identity (Authentication)
+  * Control Plane
+
+* 3rd lvl
+
+  * RBAC (Authorization)
+  * Validating Admission Control
+  * Mutating Admission Control
+
+Workload
+========
+
+* 1st lvl
+
+  * Pod Security Policies/OPA
+  * Container Security Context
+  * Pod Security Context
+  * Pod QoS
+
+* 2nd lvl
+
+  * Secrets
+  * Dynamic Secret Injection
+  * Pod Identity Webhook
+
+* 3rd lvl
+
+  * Network Policies
+  * Services
+  * Ingress
+
+App Code
+========
+
+* 1st lvl
+
+  * Container Image Scan
+  * Image Signing
+  * Image Policy Webhook
+
+* 2nd lvl
+
+  * Code Scan
+  * SAST
+  * DAST
 
 Vuln scan
 *********
@@ -114,11 +175,17 @@ Service Mesh Interface: SMI is a spec that covers the most common service mesh c
 * Trafic telemetry: capture key metrics like error rate and latency between svc
 * Traffic management: shift traffic etween different svc
 
+Secret Management
+*****************
+
+https://youtu.be/zpaDajHKab4?t=636
+
 Source
 ******
 
 * https://www.cncf.io/webinars/stay-on-top-of-ongoing-kubernetes-security-hygiene/
 * https://www.youtube.com/watch?time_continue=1&v=OfoppsRb7dE&feature=emb_logo
+* https://www.youtube.com/watch?v=Dp1RCYCpyJk
 
 Go futher
 =========

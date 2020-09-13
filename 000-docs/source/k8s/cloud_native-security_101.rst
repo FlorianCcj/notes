@@ -74,6 +74,8 @@ recommend
 * kube-bench (github.com/aquasecurity/kube-bench)
 * kube-hunter (github.com/aquasecurity/kube-hunter)
 
+* db are in ~/.cache/trivy/{metadata.json,trivy.db}
+
 Document history
 ****************
 
