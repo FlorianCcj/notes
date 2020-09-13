@@ -804,11 +804,144 @@ Phrases
 CHN-28-3-11 Restaurant
 ======================
 
+A bit!
+------
+
+* Qi3ng de3ng yi2xia4. (请等一下。): Please wait a moment. (literally) Please wait a bit.
+* Qi3ng ka4n yi2xia4. (请看一下。): Please take a look. (literally) Please look a bit.
+
+How many?
+---------
+
+* Qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?
+* Ta1men yo3u ji3 ge ha2izi? (他们有几个孩子？): How many children do they have?
+
+How many of you?
+----------------
+
+* Qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?
+* Lia3ng we4i. (两位。): Two.
+
+Phrases
+-------
+
+* ta1men xi3hua1n bu2 xi3hua1n wa2n yo2uxi4? (他们喜欢不喜欢玩游戏？): Do they enjoy playing games?
+* qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?
+* Li3 la3oshi1 shuo1 "qi3ng ji4n!" (老师说“请进！”): The teache says "please come in"
+* qi3ng za4i zhe4li de3ng (请在这里等): Please wait here
+* qi3ng ka4n yi2xia4 (请看一下): Please take a look
+* lia3ng we4i (两位): Two people
+* qi3ng ji4n! (请进！): Please come in!
+* wo3men yi1go2ng shi2 we4i (我们一共十位): We are ten altogether
+* wo3 bu2 xia3ng ji4n (我不想进): I do not want to enter
+* qi3ng de3ng yi2xia4 (请等一下):  Please wait for a moment
+* qi3ng zuo4 (请坐！): Please sit
+* dui4bu3qi3, wo3men me2iyo3u yi1ngwe2n ca4ida1n (对不起，我们没有英文菜单): Sorry, we do not have english menus
+* qi3ng ka4n yi2ci4 ca4ida1n (请看一下菜单): Please take a look at the menu
+* wo3 xia3ng dia3nca4i (我想点菜): I would like to order
+* wo3men ya4o ma3ida1n (我们要买单): We want to get the check
+* fa4ngua3n de dia4nhua4 ha4oma3 shi4 duo1sha3o? wo3 ya4o di4ngwe4i. (饭馆的电话号码是多少？我要订位。): what is the restaurant's phone number? I want to book a table.
+* fu2wu4yua2n, wo3men ya4o dia3nca4i. (服务员，我们要点菜。): Waiterm we want to order
+* wo3 de ma1ma di4ngwe4i le. (我的妈妈订位了。): My mom made a reservation
+* fu2wu4yua2n, ma3ida1n (服务员，买单！): Waiterm the check
+* zhe4 ci4 wo3 ma3ida1n. (这次我买单。): I get the check this time.
+
 CHN-29-3-12 Market
 ==================
 
+xie1 (些) for Plural
+--------------------
+
+When you need to specify that you talk about multiple thing.
+
+* Xi1gua1 duo1sha3o qia2n? (西瓜多少钱？): How much is watermelon?
+* Zhe4xie1 xi1gua1 duo1sha3o qia2n? (这些西瓜多少钱？): How much are these watermelons?
+
++-----------------+-----------------------+
+| ​singular        | ​plural                |
++=================+=======================+
+| yi1 (一), one   | yi4xie1 (一些), some   |
++-----------------+-----------------------+
+| zhe4 (这), this | zhe4xie1 (这些), these |
++-----------------+-----------------------+
+| na4 (那), that  | na4xie1 (那些), those  |
++-----------------+-----------------------+
+
+* Wo3 xia3ng ma3i yi4xie1 pi2ngguo3. (我想买一些苹果。): I want to buy some apples.
+* Na4xie1 ji1da4n bu4 ha3o. (那些鸡蛋不好。): Those eggs are not good.
+
+Phrases
+-------
+
+* qi3ngwe4n, zhe4xie1 yi1go2ng duo1sha3o qia2n? (请问,这些一共多少钱？): Excuse me, how much are these altogether?
+* ni3 xia3ng ma3i she2nme do1ngxi1? (你想买什么东西？): What do you want to buy ?
+* wo3 he3n ma2ng, qi3ng ba1ng wo3. (我很忙，请帮我。): I am busy, please help me.
+* wo3men xia3ng ma3i do1ngxi1. (我们想买东西。): we want to go shopping.
+* qi3ng ba1ng wo3 ma3i yi4xie1 do1ngxi1. (请帮我买一些东西。): Please help me buy some things.
+* zhe4xie1 yu4 fe1icha2ng gui4. (这些鱼非常贵。): These fish are very expensive.
+* qi3ng ba1ng dia3n kafe1i. (请帮我点咖啡。): Please help me order a coffee
+* wo3 de ma1ma xia3ng ma3i yi4xie1 do1ngxi1. (我的妈妈想买一些东西。): My mother would like to buy a few things.
+* wo3 xia3ng za4i cha1oshi4 ma3i shui3guo3. (我想在超市买水果。): I would like to buy fruit at the supermarket.
+* wo3 de jia1re2n he3n xi3hua1n chi1 shui3guo3. (我的家人很喜欢吃水果。): My family really likes to eat fruit.
+* qi3ngwe4n, cha1oshi4 za4i na2li? (请问，超市在哪里？): Excuse me, where is the supermarket?
+* ta1 bu2 ge3i wo3 qia2n. (他不给我钱。): He does not give me money.
+* qi3ng ge3i wo3 ge1 xi1gua1. (请给我五个西瓜。): Please give me five watermelons.
+* yi1 tia1n yi1 ge1 pi2ngguo3, yi1she1ng bu she2i wo3. (一天一个苹果，医生不找我。): An apple a day keeps the doctor away.
+* zhe4xie1 shui3guo3 bu ta4i xi1nxia1n. (这些水果不太新鲜。): These fruits aren t very fresh
+* wo3men ya4o ma3i yi4xie1 ji1da4n. (我们要买一些鸡蛋。): we want to buy some eggs.
+* wo3 xia3ng ma3i shu1ca4i he2 shui3guo3. (我想买蔬菜和水果。): I want to buy vegetables and fruits
+* ha2izi3 bu2 xi3hua1n chi1 shu1ca4i. (孩子不喜欢吃蔬菜。): Children do not like to eat vegetables.
+* ni3 xi3hua1n she2nme shu1ca4i? (你喜欢什么蔬菜？): What vegetables do you like?
+* zhe4ge shi4 mi3 ma? (这个是米吗？): Is this rice?
+* na4ge ba4o shi4 ni3 de? (哪个包是你的？): Which bag is yours?
+* qi3ng ba1ng wo3 ma3i yi1 da4i ta2ng (请帮我买一袋糖。): Please help me buy a bag of sugar.
+* ta1men za4i cha1oshi4 ma3i mi3 ma? (他们在超市买米吗？): Do they buy rice at the supermarket?
+* mi2ngtia1n za3ofa4n wo3men hui4 chi1 shui3guo3 he1 mia4nba1o. (明天早饭我们会吃水果和面包。):  We will eat fruit and bread for breakfast tomorrow.
+* wo3 xia3ng ma3i yi1 ba4o mi3 (我想买一包米。): I want to buy a bag of rice.
+
 CHN-30-3-13 Hobbies 2
 =====================
+
+we4ishe2nme (为什么, why)?
+-------------------------
+
+* We4ishe2nme ni3 xia3ng qu4 Xi1ba1nya2? (为什么你想去西班牙？): Why do you want to go to Spain?
+* Ni3 we4ishe2nme xue2xi2 Zho1ngwe2n? (你为什么学习中文？): Why are you learning Chinese?
+
+yi1nwe4i (因为, because) vs. suo2yi3 (所以, so)
+----------------------------------------------
+
+Informal Settings
+"""""""""""""""""
+
+* Yi1nwe4i zhe4ge ta4i gui4, wo3 bu2 ma3i. (因为这个太贵，我不买。): Because this is too expensive, I won’t buy it.
+* Wo3 ya4o qu4 Zho1ngguo2, suo2yi3 wo3 xue2xi2 Zho1ngwe2n. (我要去中国，所以我学习中文。) : I want to go to China, so I’m learning Chinese.
+
+Formal Settings
+"""""""""""""""
+
+* Yi1nwe4i zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (因为这个太贵，所以我不买。): Because this is too expensive, (so) I won’t buy it.
+* Yi1nwe4i wo3 ya4o qu4 Zho1ngguo2, suo2yi3 wo3 xue2xi2 Zho1ngwe2n. (因为我要去中国，所以我学习中文。): (Because) I want to go to to China, so I’m learning Chinese.
+
+Phrases
+-------
+
+* we4ishe2nme ta1 bu2 ga1oxi4ng? (为什么他不高兴？): why is he not happy?
+* wo3 xia3ng qu4 zho1ngguo2. (我想去中国。): I want to go to China
+* ni3 hui4 shuo1 Zho1ngwe2n ma? (你会说中文吗？):Can you speak chinese?
+* wo3 yo4ng dia4nna3o xue2xi2 Zho1ngwe2n (我用电脑学习中文。): I learn Chinese using a computer.
+* ta1 xia3ng zhu4 za4i xi1ba1nya2, yi1nwe4i ta1 de nu.3pe2ngyo3u shi4 xi1ba1nya2 re2n (他想住在西班牙，因为他的女朋友是西班牙人。): He wants to live in spain because his girlfriend is spanish
+* zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (这个太贵，所以我不买。): This is too expensive so i m not buying it
+* ta1 shuo1 de he3n kua4i, suo2yi3 wo3 bu2 mi2ngba2i. (他说得很快，所以我不明白。): He speaks very fast so i do not understand.
+* wo3 xue2xi2 zho1ngwe2n yi1nwe4i wo ya4o qu4 zho1ngguo2 (我学习中文因为我要去中国): I am learning Chinese because I need to go to China.
+* wo3 ma3i le yi1ge4 xi1n sho3uji1. (我买了一个新手机。): I bought a new phone.
+* ta1 ji1ntia1n bu2 ma2ng, ta1 he3n qi1ngso1ng (他今天不忙，他很轻松。): He is not busy today, he is relaxed.
+* ta1 de a4iha4o shi4 ti1ng yi1nyue4 (他的爱好是听音乐。): His hobby is listening to music.
+* yi1nwe4i wo3 xi3hua1n re4nshi2 xi1n pe2ngyo3u, suo2yi3 wo3 xia3ng lu.3yo2u (因为我喜欢认识新朋友，所以我想旅游。): I  want to go traveling because I like making new friends.
+* wo3 ta4i ma2ng le, wo3 zhi3 xia3ng qi1ngso1ng yi2xia4. (我太忙了，我只想轻松一下。): I am too busy, I just want to relax a bit.
+* wo3 xia3ng qu4 xi1ba1nya2 lu.3yo2u (我想去西班牙旅游。): I want to travel to Spain.
+* ta1men xi3hua1n yo4ng zha4oxia4ngji1 pa1izha4o (他们喜欢用照相机拍照。): They enjoy using a camera to take pictures.
+* mi2ng nia2n sa1n yue4 wo3men hui4 qu4 yi4ndu4 lu.3yo2u (明年三月我们会去印度旅游。): We will travel to India in March of next year.
 
 Part 4
 ******

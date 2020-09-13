@@ -37,7 +37,7 @@ CHN-02-1-02 Numbers
 * yuan (元): chinese money
 
 Voc
----
+----
 
 - ga1oxi4ng: happy
 - ma1: mother
@@ -301,7 +301,7 @@ CHN-17-2-11 Time 1
 ==================
 
 * ba4n (半): half (for a hours)
-* dia3n (点): (like in ji2di3an: what hours ?)
+* dia3n (点): to order (like in ji2di3an: what hours ?)
 * ha4o (号): number
 * ji2 (几): (like in ji2di3an: what hours ?)
 * ji3 (几): how many (like in ji3 yue4 ji3 ha4o: what month what day)
@@ -542,7 +542,7 @@ CHN-25-3-08 Payment
 * qia2n (钱): money
 * qia1n (千): 1 000
 * sho1u (收): to take, to accept
-* ta2i (太): ???
+* ta2i (太): too
 * wa4n (万): 10 000
 * xi4n (信): letter (like in xi4nyo4ng (信用): credit)
 * xi2ng (行): fine, okay (like in bu4 xi2ng (不行): no way)
@@ -577,7 +577,7 @@ CHN-26-3-09 Entertain
 * xia3ng (想): want to, would like, would
 * wa3ng (网): web,net (like in sha4ngwa3ng (上网): online)
 * we2n (闻): (like in xi1nwe2n (新闻): news)
-* xi1n (新): (like in xi1nwe2n (新闻): news)
+* xi1n (新): new (like in xi1nwe2n (新闻): news)
 * yi3ng (影): (like in dia4nyi3ng (电影): movie)
 * yu4 (育): (like in ti3yu4 (体育): sports)
 * zhi3 (纸): (like in ba4ozhi3 (报纸): newspaper)
@@ -586,48 +586,150 @@ Voc
 ---
 
 - ba4ozhi3 (报纸): newspaper
-- dia4nyi3ng (电影): movie
 - dia4nshi4 (电视): television, tv shows
+- dia4nyi3ng (电影): movie
 - ha2nguo2 (韩国): Korea
 - mingxi1ng (明星): celebrity, star
 - mu4jie2 (节目): show, program
-- xi1nwe2n (新闻): news
 - sha4ngwa3ng (上网): online
-- ti3yu4 (体育): sports
-- tia4owu3 (跳舞): dance
 - sho3uji1 (手机): cellphone
 - sho3uji1 ha4oma3 (手机号码): number
+- ti3yu4 (体育): sports
+- tia4owu3 (跳舞): dance
+- xi1nwe2n (新闻): news
 
 CHN-27-3-10 Location 4
 ======================
 
-* zhuo1 (桌): (like in zhuo1zi? (桌子): table)
-* zha3o ():
-* shei??? (找): look for, find
-* yi3 (椅): (like in yi3zi? (椅子): chair)
 * fa2ng (房): (like in fa2ngjia1n (房间): room)
+* shei2 (找): look for, find
 * wa2i (外): foreign, out, outside
 * xia1ng (箱): (like in bi1ngxia1ng (冰箱): fridge, refrigerator)
+* yi3 (椅): (like in yi3zi? (椅子): chair)
+* zha3o ():
+* zhuo1 (桌): (like in zhuo1zi? (桌子): table)
 
 Voc
 ----
 
-- yi3zi (椅子): chair
-- zhuo1zi (桌子): table
+- bi1ngxia1ng (冰箱): fridge, refrigerator
+- fa2ngjia1n (房间): room
+- li3 (里): in, inside, within
 - sha4ng (上): on, get on, top
 - xia4 (下): under, gave, next
-- fa2ngjia1n (房间): room
-- bi1ngxia1ng (冰箱): fridge, refrigerator
-- li3 (里): in, inside, within
+- yi3zi (椅子): chair
+- zhuo1zi (桌子): table
 
 CHN-28-3-11 Restaurant
 ======================
 
+* ca4i (菜): dish, cuisines (like in ca4ida1n (菜单): menu)
+* da1n (单): list (like in ca4ida1n (菜单): menu)
+* de3ng (等): to wait
+* ji4n (进): come in, go in, enter
+* wa4i (外): outside
+* we2n (文): (like in yi1ngwe2n (英文): english)
+* we4i (位): (like in ji3 we4i (几位): how many of people)
+* zuo4 (坐): sit, take, sitting
+* wu4 (务): (like in fu2wu4yua2n (服务员): server, waiter, waitress)
+* di4ng (订): (like in di4ngwe4i (订位): book a table, make a reservation, booked)
+* fu2 (服): (like in fu2wu4yua2n (服务员): server, waiter, waitress)
+* yua2n (员): (like in fu2wu4yua2n (服务员): server, waiter, waitress)
+
+Voc
+----
+
+- ca4ida1n (菜单): menu
+- ji3 we4i (几位): how many of people
+- yi1ngwe2n (英文): english
+- yi2xia4 (一下): a bit
+- fu2wu4yua2n (服务员): server, waiter, waitress
+- dia3n (点): order, little
+- ma3ida1n (买单): check, get the check
+- di4ngwe4i (订位): book a table, make a reservation, booked
+
 CHN-29-3-12 Market
 ==================
 
+* xie1 (些): plural
+* gua1 (瓜): (like in xi1gua1 (西瓜): watermelon)
+* pi2ng (苹): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
+* guo3 (果): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
+* ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
+* da4n (蛋): (like in ji1da4n (鸡蛋): egg)
+* do1ng (东): (like in do1ngxi1 (东西): thing)
+* cha1o (超): (like in cha1oshi4 (超市): supermarket)
+* shi4 (市): (like in cha1oshi4 (超市): supermarket)
+* ge3i (给): give, to
+* xia1n (鲜): (like in xi1nxia1n (新鲜): fresh)
+* shu1 (蔬): (like in shu1ca4i (蔬菜): vegetables)
+* ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
+* da4n (蛋): (like in ji1da4n (鸡蛋): egg)
+* ba1o (包): bag (like in mia4nba1o (西包): bread)
+* ta2ng (糖): sugar, candy
+* mi3 (米): rice, meter
+* da4i (袋): bag, bag of
+
+Voc
+----
+
+- xi1gua1 (西瓜): watermelon
+- shei2 (找): look for, find
+- pi2ngguo3 (苹果): apple
+- ji1da4n (鸡蛋): egg
+- do1ngxi1 (东西): thing
+- she2nme do1ngxi1 (什么东西): something, anything
+- ba1ng (帮): to help
+- shui3guo3 (水果): fruit
+- cha1oshi4 (超市): supermarket
+- shu1ca4i (蔬菜): vegetables
+- xi1nxia1n (新鲜): fresh
+- mia4nba1o (西包): bread
+
+Pronoun
+"""""""
+
+- yi1 (一): one
+- yi4xie1 (一些): some
+- zhe4 (这): this
+- zhe4xie1 (这些): these
+- na4 (那): that
+- na4xie1 (那些): those
+- dia3n (点): to order
+
 CHN-30-3-13 Hobbies 2
 =====================
+
+* we4i (为): like in (we4ishe2nme (为什么): why or yi1nwe4i (因为): because)
+* ya2 (牙): (like in Xi1ba1nya2 (西班牙): Spain)
+* Xi1 (西): (like in Xi1ba1nya2 (西班牙): Spain)
+* yi1n (因): (like in yi1nwe4i (因为): because)
+* suo2 (所): (like in suo2yi3 (所以): so)
+* yi3 (以): (like in suo2yi3 (所以): so)
+* xi2 (习): (like in xue2xi2 (学习): to learn)
+* qi1ng (轻): new (like in qi1ngso1ng (轻松): relax, easily)
+* lu.3 (旅): (like in lu.3yo2u (旅游): travel)
+* so1ng (松): (like in qi1ngso1ng (轻松): relax, easily)
+* pa1i (拍): (like in pa1izha4o (拍照): take picture, take photo)
+* du4 (度): (like in yi4ndu4 (印度): India)
+* zha4o (照): (like in zha4oxia4ngji1 (照相机): camera)
+* xia4ng (相): (like in zha4oxia4ngji1 (照相机): camera)
+* yi4n (印): (like in yi4ndu4 (印度): India)
+
+Voc
+----
+
+- we4ishe2nme (为什么): why
+- Xi1ba1nya2 (西班牙): Spain
+- yi1nwe4i (因为): because
+- suo2yi3 (所以): so
+- xue2xi2 (学习): to learn
+- a4iha4o (爱好): hobby, interested
+- qi1ngso1ng (轻松): relax, easily
+- lu.3yo2u (旅游): travel
+- zha4oxia4ngji1 (照相机): camera
+- pa1izha4o (拍照): take picture, take photo
+- yi4ndu4 (印度): India
 
 Part 4
 ******
