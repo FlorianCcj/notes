@@ -39,7 +39,7 @@ Go is magic
 * leaning attack ???
 * tsuke en tobi, bonne forme pour driving
 * on peut souvent sacrifier des pierres pour proteger une coupe ou obtenir le sente
-* sacrifise, probe and peep master it to be high level
+* SPP: sacrifise, probe and peep master it to be high level
 
 SLP
 ====
@@ -56,7 +56,7 @@ SLP
 05. sabaki
 ==========
 
-
+* after an invasion, and a pince, think about tsuke hane or crosscut
 
 to review
 ==========

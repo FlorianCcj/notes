@@ -567,6 +567,12 @@ Proverbe
 * La lecture c est comme la muscu, il faut en faire un peu tout les jours et pas 24h une fois c est comme ca que tu progresses (doctor baduk)
 * le respect: etre bjectif, respecter le jeu, les formes,
 
+2020.08.16 - Après Guess the Move, voici Play the Move ! - CHILL A5
+*******************************************************************
+
+* on vient en keima les pierres en 4e lignes que l on veut attaquer
+* apres boshi souvent keima
+
 .. ========================================================
 
 Different part
