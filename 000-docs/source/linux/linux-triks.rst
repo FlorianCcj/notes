@@ -46,6 +46,22 @@ kick someone
 
 * :code:`pkill -o -u <username> sshd`
 
+package
+*******
+
+* :code:`apt list --installed` list installed package
+* `<https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/>`_
+
+path
+****
+
+* :code:`export PATH=${PATH}:$HOME/software/bin`
+
+process
+********
+
+* :code:`ps -p 2053 -o comm=`: find process by pid
+
 Sources
 *******
 

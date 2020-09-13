@@ -1,6 +1,8 @@
 Linux - Tmux
 ############
 
+tmux set-option -g history-limit 5000
+
 command
 *******
 
