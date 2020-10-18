@@ -346,6 +346,27 @@ il ne reste plus qu a montrer le symbole predis, en l orientant dans le bon sens
 
 #olicarton
 
+Petit test de biais cognitif
+****************************
+
+:source: https://www.youtube.com/watch?v=xwsh_uuXsPA
+
+1. Je suis le frere de ces deux medecins. Pourtant ces deux medecins ne sont pas mes frere. Pourquoi ?
+2. Un homme peut-il epouser la soeur de sa veuve ? (s il n est pas medecin ?)
+3. Avant la decouverte de l everest, quel etait le sommet le plus haut de la terre ?
+4. Un train part de paris direction Marseille, il roule a 100 km/h. Au meme moment un train part de marseille vers Paris a 200 km/h. Au moment ou ils vont se croiser quel sera le train le plus proche de paris ?
+5. Trois personnes sont dans le desert ils sont a la file indienne et regarde dans le meme sens, ils mesurent la meme taille
+  * le premier dit: "Devant moi, je vois que le desert"
+  * le deuxieme dit: "Devant moi, je vois la tete du mec devant moi"
+  * le troisieme dit: "Devant moi, je vois que le desert"
+  * Comment est ce possible
+
+1. ce sont mes soeurs
+2. Non ... il est mort
+3. L everest, il existait deja 
+4. Aucun des deux ils se croisent ils sont au meme endroit
+5. Il ment
+
 Retenir un jeu de carte entier avec le système PAO, technique de mémoire
 ************************************************************************
 
