@@ -10,9 +10,10 @@ Gogame - Teacher
 * https://eyd.yunguseng.com/lectures.html
 * http://kaminoitte.fr/
 * https://tsumegodojo.wordpress.com/
+*  https://www.nordicgodojo.eu/  (Dacat on kgs)
 
 30 day challenge
-***************
+*****************
 
 * Day02: rappel pour ceux qui suivent, on est au jour 2
 * Day03: On garde le rythme ! Avec en prime les sgf
