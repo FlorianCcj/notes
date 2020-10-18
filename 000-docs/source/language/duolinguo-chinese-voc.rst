@@ -657,7 +657,7 @@ CHN-29-3-12 Market
 * guo3 (果): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
 * ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
 * da4n (蛋): (like in ji1da4n (鸡蛋): egg)
-* do1ng (东): (like in do1ngxi1 (东西): thing)
+* do1ng (东): (like in do1ngxi1 (东西): thing, food, stuff)
 * cha1o (超): (like in cha1oshi4 (超市): supermarket)
 * shi4 (市): (like in cha1oshi4 (超市): supermarket)
 * ge3i (给): give, to
@@ -677,7 +677,7 @@ Voc
 - shei2 (找): look for, find
 - pi2ngguo3 (苹果): apple
 - ji1da4n (鸡蛋): egg
-- do1ngxi1 (东西): thing
+- do1ngxi1 (东西): thing, food, stuff
 - she2nme do1ngxi1 (什么东西): something, anything
 - ba1ng (帮): to help
 - shui3guo3 (水果): fruit
@@ -737,8 +737,53 @@ Part 4
 CHN-31-4-01 Dining 1
 ====================
 
+* ha2i (还): (like in háishì (还是): or)
+* ha3i (海): sea
+* be3n (本): (like a tree)
+* yáng (羊): sheep (like in yángròu (羊肉): lamb) 
+* ròu (肉): meat (like in yángròu (羊肉): lamb)
+* ??? (条): (like in mia4n??? (面条): noodles)
+* mi??? (米): (like in mi???fa4n(米饭): rice)
+* ??? (鸡): (like in ???ròu (鸡肉): chicken)
+* zhu1 (猪): ???
+* yi3n (饮): drink (like in yi3nlia4o (饮料): a drink)
+* lia4o (料): paint (like in yi3nlia4o (饮料): a drink)
+
+Voc
+----
+
+- ca4i (菜): cuisine, food, dish
+- háishì (还是): or
+- niúròu (牛肉): beef (to eat)
+- zhu1ròu (猪肉): porc
+- ròu (肉): meat
+- ???ròu (鸡肉): chicken
+- yángròu (羊肉): lamb
+- ???be3n (日本): Japanese
+- mi???fa4n(米饭): rice
+- mia4n??? (面条): noodles
+- yi3nlia4o (饮料): a drink
+
 CHN-32-4-02 Health 1
 ====================
+
+* zuo4 (作): (like in go1ngzuo4 (工作): to work)
+* le4i (累): tired
+* jue2 (觉): (like in jue2de (觉得): feel, feeling, think)
+* go1ng (工): (like in go1ngzuo4 (工作): to work)
+* jia4n (健): (like in jia4nka1ng (健康): healthy)
+* pa4ng (胖): fat
+* ka1ng (康): (like in jia4nka1ng (健康): healthy)
+
+Voc
+----
+
+- jue2de (觉得): feel, feeling, think
+- go1ngzuo4 (工作): to work
+- le4i (累): tired
+- yo3u dia3r (有点儿): a little, a bit
+- jia4nka1ng (健康): healthy
+- pa4ng (胖): fat
 
 CHN-33-4-03 Transport
 =====================

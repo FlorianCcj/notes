@@ -949,8 +949,91 @@ Part 4
 CHN-31-4-01 Dining 1
 ====================
 
+Noodles or rice?
+----------------
+
+háishì (还是): or
+
+When you ask with `or` no need `ma`
+
+* Nǐ yào miàntiáo háishì mǐfàn? (你要面条还是米饭？): Would you like noodles or rice?
+* Tā xiǎng chī yángròu háishì niúròu? (她想吃羊肉还是牛肉？): Does she want to eat lamb or beef?
+
+Phrases
+-------
+
+* ni3 ya4o he1 ka1fe1i ha2ishi4 he1 cha2 (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
+* ni3men xia3ng chi1 zho1ngguo2 zai??? ha2ishi4 yi1ngguo2 zai??? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
+* wo3 hui2 qu4 sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend.
+* ji1ntia1n wa3nsha4ng wo3men hui2 chi1 ??? zai??? ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight
+* wo3 hui4 qu4 Sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend
+* wo3 he3n xi3hua1n chi1 sha4ngha3i ca4i. (我很喜欢吃上海菜。): I really like to eat Shanghai cuisine.
+* ni3 ya4o he1 ka1fe1i ha2i he1 cha2? (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
+* ni3 xi3hua1n chi1 ha2nguo2 ca4iha2i shi2 ???be3n ca4i? (你喜欢吃韩国菜还是日本菜？): Do you like to eat Korean food or Japanese food?
+* wa3nsha4ng ni3 xia3ng chi1 sha4ngha3i ca4iha2i shi4 be3iji1ng ca4i? (晚上你想吃上海菜还是北京菜？): Would you like to eat food from Shanghai or Beijing in the evening?
+* ji1ntia1n wa3nsha4ng wo3men hui4 chi1 ???be3n ca4i ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight ?
+* ni3men xia3ng chi1 zho1ngguo2 ca4iha2i shi4 yi1ngguo2 ca4i ? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
+* ni3 xia3ng qu4 xi1ba1nya2 lu.3yo2u háishì ???be3n lu.3yo2u? (你想去西班牙旅游还是日本旅游？): Would you like to travel to Spain or Japan ?
+* zhe4ge fa4ngua3n de ???ròu bu2 ha3o (这个饭馆的鸡肉不好。): This restaurant s chicken is not good
+* wo3 xi3hua1n chi1 ???ròu mia4n??? (我喜欢吃鸡肉面条。): I like to eat chicken noodles
+* ni3 xi3hua1n chi1 she2nme ro4u? (你最喜欢吃什么肉？): What kind of meat do you like to eat the most?
+* ge3i wo3 wu3 ge mi???fa4n (给我五个米饭。): Give me five servings of rice.
+* ni3men yo3u she2nme yi3nlia4o? (你们有什么饮料？): what drinks do you have?
+* zuo2tia1n wa3nfa4n wo3 he1 pe2ngyo3u chi1 le yángròu (昨天晚饭我和朋友吃了羊肉。): My friend and I ate lamb for dinner yesterday.
+* ni3 chi1 zhu1ròu ha2ishi4 ???ròu? (你吃猪肉还是鸡肉？): Do you eat pork or chicken?
+
 CHN-32-4-02 Health 1
 ====================
+
+Grrrrr...
+---------
+
+* yo3udia3r (有点儿): a little too much (to complain politely)
+
+yo3udia3r (有点儿) + adj
+
+* Wǒmen dōu juédé yóudiǎr lèi (我们都觉得有点儿累。): We all feel a bit tired.
+* Wǒ jīntiān yóudiǎr máng (我今天有点儿忙。): I am a bit busy today.
+* Nà ge yóudiǎr guì. (那个有点儿贵。): That is a bit expensive. 
+
+Don't look! 
+-----------
+
+* bú yào (不要): do not want something but can be use for imperative
+
+* Búyào kàn! (不要看！): Don't look!
+* Búyào shuìjiào! (不要睡觉！): Don’t sleep!
+
+Every single day!
+-----------------
+
+* měi ge rén (每个人): every person
+* měitiān (每天): every day
+* Měi ge rén dōu zài shuìjiào. (每个人都在睡觉。): Every single person is sleeping. 
+* Wǒ měitiān dōu duànliàn. (我每天都锻炼。): I work out every single day. 
+
+Adjective + 的
+--------------
+
+* nu.3er he3n ga1o (女人很高): The woman is tall
+* ga1o de nu.3er (高的女人): tall woman
+
+* Zhèxiē dōngxi hěn jiànkāng. (这些东西很健康。): These things are healthy. 
+* Wǒ xiǎng chī jiànkāng de dōngxi. (我想吃健康的东西。): I want to eat healthy things.
+
+Phrases
+-------
+
+* wo3 ji1ntia1n bu2 xia3ng go1ngzuo4. (我今天不想工作。): I don t want to work today.
+* ni3 jue2de ze3nmeya4ng? (你觉得怎么样？): How do you feel?
+* ta1men ta4i le4i le. (他们太累了。): They are too tired.
+* ni3 yo3u dia3r ga1o. (你有点儿高。): You are a bit tall
+* she2nme shu1ca4i zui4 jia4nka1ng (什么蔬菜最健康？): What vegetables is the healthiest ?
+* na3 ge la3oshi1 bu2. (那个老师不胖。): That teacher is not fat.
+* bu2 ya4o shui4jia4o! (不要睡觉！): don t sleep
+* bu2 ya4o chi1 bu2 (不要吃不健康的东西。): Don t eat unhealthy food
+* wo3men de ma1o he3n pa4ng. (我们的猫很胖。): Our cat is fat.
+* we4ishe2nme ni3 jue2de ni3 he3n pa4ng? (为什么你觉得你很胖？): Why do you think that you are fat?
 
 CHN-33-4-03 Transport
 =====================
