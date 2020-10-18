@@ -11,6 +11,11 @@ Loup garou pour une nuit  15e (10) () (20-30 min)
 Dixit 30e (3-6) () (30 min)
 Hanabi + 3 extension 24e90 (2-5) (coop) (30 min)
 
+tatamokatsu jeu cool 2-5 joueur voyage
+oriflamme (ambiance bluff, got)
+the crew (faire des plit avec des mission, espace)
+AnLudim (sorcier, faire des combinaisons)
+À La Conquête Des Catacombes (carte pour deplacement, pichenette)
 
 https://www.variantes.com/jeux-de-societe-commerce-nego-bluff-boutique/49439-senators-jeu.html
 https://www.variantes.com/jeux-societe-voyage-boutique/50266-hanabi-grands-feux.html
@@ -47,5 +52,7 @@ level 8 super mario
 picto rush (20 mots a toi de les retenir)
 top ten
 push (stop ou encore)
+tea for two (deck building funky)
+La mascarade des frères Grimm (trouve l identite en fonction des action, gros jeu)
 
 
