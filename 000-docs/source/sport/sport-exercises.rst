@@ -90,5 +90,48 @@ Series by Antonin
 
 * Twist
 
+  * assis par terre, les jambe tendu
   * on pose le poids a droite et a gauche
   * repeat: 10 chaque cote
+
+Avoir son grand eccard
+**********************
+
+:source: https://www.youtube.com/watch?v=ylhUHD6vmAU
+
+0. Echauffement: soit apres seance de sport, soit une minute de course sur place
+1. La piramide: 
+  * jambe parallele, largeur de hanche
+  * avancer la jambe a travailler
+  * coller son ventre sur sa jambe
+  * garder les hanche droite
+  * garder la pose 15-60 sec
+2. la fente
+  * jambe avant a 90 degre
+  * jambe arriere tendu sur la pointe des pieds
+  * buste droit
+  * laisser agir le poids
+  * pour les confirmes
+
+    * poser la jambe ariere 
+    * pousser le poids sur la jambe avant
+
+3. ???
+
+  * s assoir sur son talon
+  * tendre la jambe
+  * poser son ventre sur la jambe
+  * variantes, ouvrir la jambe sur laquelle on est assis
+
+4. ???
+
+  * sur le dos
+  * on tend la jambe
+  * on essai de ramener la jambe a soit (pas tout droit legerement sur le cote pour respecter l articulation)
+  * tirer au niveau de la cheville, possibilite avec foulard
+
+ la pose du pigeon
+
+  * jambe plier sous la hanche
+  * 2e jambe sur le cote
+  * s allonger sur la jambe
