@@ -58,6 +58,37 @@ SLP
 
 * after an invasion, and a pince, think about tsuke hane or crosscut
 
+Timing to invade
+================
+
+
+Tsuke hane
+==========
+
+Corner
+======
+
+moderne go
+==========
+
+pince
+=====
+
+bambou
+======
+
+crosscut
+========
+
+chasser c est bien
+==================
+
+fuseki de zororo
+================
+
+wedge
+=====
+
 to review
 ==========
 * slp
