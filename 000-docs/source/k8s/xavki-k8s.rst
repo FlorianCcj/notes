@@ -15,6 +15,8 @@ k3s - gitlab ci integration et runner
 k8s
 ****
 
+https://www.youtube.com/watch?v=37VLg7mlHu8&list=PLn6POgpklwWqfzaosSgX2XEKpse5VY2v5&index=1
+
 k8s - introduction
 k8s - notions et définitions | tutos fr
 k8s - minikube

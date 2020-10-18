@@ -6,6 +6,7 @@ Good Practice - Remove useless file
 
 * :code:`apt-get clean`
 * :code:`rm -rf /var/lib/apt/lists/*`
+* https://docs.docker.com/develop/dev-best-practices/?mkt_tok=eyJpIjoiTVdNeE1Ua3hPRFUyTW1JMyIsInQiOiJFR0VleitPSUpsK1RTQkxEeXRCckJIaitrR1RXb3hCenltY1NkY0Z2bnRpUGVkcUpMa21mSkJ0em5GYkcrZEJJU2ZkUDhsMTBZeTk4VUpFNHI0dFFCV29NcXdROE9uTWFOdHpWWEI5SHRVK3J2UXZBVjJxRXZOV0NXZjcrbkRPUyJ9
 
 Good Practice - Label
 *********************

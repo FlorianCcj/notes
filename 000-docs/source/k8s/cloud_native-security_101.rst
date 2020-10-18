@@ -75,6 +75,7 @@ recommend
 * kube-hunter (github.com/aquasecurity/kube-hunter)
 
 * db are in ~/.cache/trivy/{metadata.json,trivy.db}
+* https://www.ssi.gouv.fr/publication/recommandations-de-securite-relatives-au-deploiement-de-conteneurs-docker/
 
 Document history
 ****************
