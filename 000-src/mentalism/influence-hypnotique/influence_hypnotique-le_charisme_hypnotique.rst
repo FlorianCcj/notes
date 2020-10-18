@@ -91,7 +91,7 @@ Comment faire une bonne premiere impression
 ===========================================
 
 1. Le body language
-    * sourire (igne de soumission chez les singes)
+    * sourire (signe de soumission chez les singes)
     * regard franche
     * mimetisme
     * privilegier l ouverture a la confiance

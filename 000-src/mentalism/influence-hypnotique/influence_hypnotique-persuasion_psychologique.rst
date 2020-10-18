@@ -286,11 +286,39 @@ Il ne faut pas tout dire, faire un teaser, de maniere a allecher, faire des morc
 Biais cognitif N°5 - Tendance à la disponibilité et jugement erroné
 ===================================================================
 
+On veut que quelque chose soit disponible directement, on ne veut pas perdre du temps ni de l energie
+
+Il faut etre clair precis visuel
+
 BONUS
 *****
 
 Technique de persuasion - L'appel de la peur
 ============================================
 
+Ca va atteindre les gens directement
+
+mais attention au biais cognitif de l invincibilite
+
+Pour atteindre il faut que la personne s identifie a la victime
+
+il faut bien appeler a la peur et pas faire peur
+
+La peur paralise
+
+L appel a la peur necessite une proposition de solution qui lui permettra d eviter le danger
+
+On va donc faire appel au danger plutot que l appel a la peur
+
 Comment CONVAINCRE UN ENFANT de manger ses épinards - #PEA1
 ===========================================================
+
+Les gens vont defendre leur liberte quand elle est menacee
+
+On cherche plus a attendre quelque chose de difficillement atteignable, que quelque chose a porter de main (d ou les offres limitee)
+
+On va aussi rendre intelligible les choses, on lui montre combien de bouchee il faudra pour tout manger
+
+Lui montrer les benifice
+
+Le rendre ludique, on peut lui donner une recompence et surtout il faut le feliceter
