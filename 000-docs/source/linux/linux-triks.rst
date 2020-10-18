@@ -3,6 +3,7 @@ Linux - Triks
 
 * :code:`while [ $? -ne 0 ]; do !!; done`
 * pstree: guedin tricks
+* :code:`tree`: can be replace by :code:`ls -R`
 
 Copy tricks
 ***********
