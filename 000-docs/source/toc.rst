@@ -4,6 +4,7 @@
     todo/todo-000_wip.rst
 
     ansible/ansible-if.rst
+    ansible/ansible-molecule.rst
     db/db-mysql-tricks.rst
     db/db-neo4j-cypher.rst
     db/db-neo4j-from_sql_to_neo4j.rst
@@ -112,7 +113,7 @@
     mentalism/mentalism-other.rst
     methodology/methodology-architecture.rst
     methodology/methodology-code-beginner.rst
-    methodology/methodology-event_sourcing_and_DDD.rst
+    methodology/methodology-CQRS_event_sourcing_and_DDD.rst
     methodology/methodology-fail_over.rst
     methodology/methodology-good_practices.rst
     methodology/methodology-make_a_readme.rst
