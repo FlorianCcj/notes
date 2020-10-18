@@ -448,3 +448,7 @@ CQRS
 
 http://blog.arkency.com/2016/05/the-anatomy-of-domain-event/
 https://www.youtube.com/watch?v=QGGZs0KqxZw
+
+* https://dev.to/patrykwozinski/symfony-messenger-component-for-cqrs-applications-884
+* https://github.com/CodelyTV/php-ddd-example/tree/master/src/Shared
+* https://github.com/jorge07/symfony-5-es-cqrs-boilerplate/blob/symfony-5/src/UI/Http/Web/Controller/HomeController.php
