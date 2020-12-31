@@ -1,6 +1,6 @@
 const io = require('socket.io')();
 const { initGame, gameLoop, getUpdatedVelocity } = require('./game');
-const { FRAME_RATE } = require('./constants');
+const { FRAME_RATE, ID_SIZE } = require('./constants');
 const { makeid } = require('./utils');
 
 const state = {};
@@ -43,7 +43,7 @@ io.on('connection', client => {
   }
 
   function handleNewGame() {
-    let roomName = makeid(5);
+    let roomName = makeid(ID_SIZE);
     clientRooms[client.id] = roomName;
     client.emit('gameCode', roomName);
 

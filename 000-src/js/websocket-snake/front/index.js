@@ -2,7 +2,9 @@ const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
 
-const socket = io('https://sleepy-island-33889.herokuapp.com/');
+const socket = io('http://localhost:3000/');
+const debug = 3;
+console.log('test');
 
 socket.on('init', handleInit);
 socket.on('gameState', handleGameState);
@@ -23,11 +25,13 @@ joinGameBtn.addEventListener('click', joinGame);
 
 
 function newGame() {
+  if (debug > 2) { console.log('index.js - newGame()'); }
   socket.emit('newGame');
   init();
 }
 
 function joinGame() {
+  if (debug > 2) { console.log('index.js - joinGame()'); }
   const code = gameCodeInput.value;
   socket.emit('joinGame', code);
   init();
@@ -38,6 +42,7 @@ let playerNumber;
 let gameActive = false;
 
 function init() {
+  if (debug > 2) { console.log('index.js - init()'); }
   initialScreen.style.display = "none";
   gameScreen.style.display = "block";
 
@@ -54,10 +59,12 @@ function init() {
 }
 
 function keydown(e) {
+  if (debug > 2) { console.log('index.js - keydown()'); }
   socket.emit('keydown', e.keyCode);
 }
 
 function paintGame(state) {
+  if (debug > 2) { console.log('index.js - paintGame()'); }
   ctx.fillStyle = BG_COLOUR;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -73,6 +80,7 @@ function paintGame(state) {
 }
 
 function paintPlayer(playerState, size, colour) {
+  if (debug > 2) { console.log('index.js - paintPlayer()'); }
   const snake = playerState.snake;
 
   ctx.fillStyle = colour;
@@ -82,10 +90,12 @@ function paintPlayer(playerState, size, colour) {
 }
 
 function handleInit(number) {
+  if (debug > 2) { console.log('index.js - handleInit()'); }
   playerNumber = number;
 }
 
 function handleGameState(gameState) {
+  if (debug > 2) { console.log('index.js - handleGameState()'); }
   if (!gameActive) {
     return;
   }
@@ -94,6 +104,7 @@ function handleGameState(gameState) {
 }
 
 function handleGameOver(data) {
+  if (debug > 2) { console.log('index.js - handleGameOver()'); }
   if (!gameActive) {
     return;
   }
@@ -109,20 +120,24 @@ function handleGameOver(data) {
 }
 
 function handleGameCode(gameCode) {
+  if (debug > 2) { console.log('index.js - handleGameCode()'); }
   gameCodeDisplay.innerText = gameCode;
 }
 
 function handleUnknownCode() {
+  if (debug > 2) { console.log('index.js - handleUnknownCode()'); }
   reset();
   alert('Unknown Game Code')
 }
 
 function handleTooManyPlayers() {
+  if (debug > 2) { console.log('index.js - handleTooManyPlayers()'); }
   reset();
   alert('This game is already in progress');
 }
 
 function reset() {
+  if (debug > 2) { console.log('index.js - reset()'); }
   playerNumber = null;
   gameCodeInput.value = '';
   initialScreen.style.display = "block";
