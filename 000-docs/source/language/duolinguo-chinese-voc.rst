@@ -640,96 +640,96 @@ Voc
 ----
 
 - ca4ida1n (菜单): menu
+- di4ngwe4i (订位): book a table, make a reservation, booked
+- dia3n (点): order, little
+- fu2wu4yua2n (服务员): server, waiter, waitress
 - ji3 we4i (几位): how many of people
+- ma3ida1n (买单): check, get the check
 - yi1ngwe2n (英文): english
 - yi2xia4 (一下): a bit
-- fu2wu4yua2n (服务员): server, waiter, waitress
-- dia3n (点): order, little
-- ma3ida1n (买单): check, get the check
-- di4ngwe4i (订位): book a table, make a reservation, booked
 
 CHN-29-3-12 Market
 ==================
 
-* xie1 (些): plural
-* gua1 (瓜): (like in xi1gua1 (西瓜): watermelon)
-* pi2ng (苹): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
-* guo3 (果): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
-* ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
+* ba1o (包): bag (like in mia4nba1o (西包): bread)
+* cha1o (超): (like in cha1oshi4 (超市): supermarket)
+* da4i (袋): bag, bag of
+* da4n (蛋): (like in ji1da4n (鸡蛋): egg)
 * da4n (蛋): (like in ji1da4n (鸡蛋): egg)
 * do1ng (东): (like in do1ngxi1 (东西): thing, food, stuff)
-* cha1o (超): (like in cha1oshi4 (超市): supermarket)
-* shi4 (市): (like in cha1oshi4 (超市): supermarket)
 * ge3i (给): give, to
-* xia1n (鲜): (like in xi1nxia1n (新鲜): fresh)
-* shu1 (蔬): (like in shu1ca4i (蔬菜): vegetables)
+* gua1 (瓜): (like in xi1gua1 (西瓜): watermelon)
+* guo3 (果): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
 * ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
-* da4n (蛋): (like in ji1da4n (鸡蛋): egg)
-* ba1o (包): bag (like in mia4nba1o (西包): bread)
-* ta2ng (糖): sugar, candy
+* ji1 (鸡): (like in ji1da4n (鸡蛋): egg)
 * mi3 (米): rice, meter
-* da4i (袋): bag, bag of
+* pi2ng (苹): (like in pi2ngguo3 (苹果): apple or shui3guo3 (水果): fruit)
+* shi4 (市): (like in cha1oshi4 (超市): supermarket)
+* shu1 (蔬): (like in shu1ca4i (蔬菜): vegetables)
+* ta2ng (糖): sugar, candy
+* xia1n (鲜): (like in xi1nxia1n (新鲜): fresh)
+* xie1 (些): plural
 
 Voc
 ----
 
-- xi1gua1 (西瓜): watermelon
-- shei2 (找): look for, find
-- pi2ngguo3 (苹果): apple
-- ji1da4n (鸡蛋): egg
-- do1ngxi1 (东西): thing, food, stuff
-- she2nme do1ngxi1 (什么东西): something, anything
 - ba1ng (帮): to help
-- shui3guo3 (水果): fruit
 - cha1oshi4 (超市): supermarket
-- shu1ca4i (蔬菜): vegetables
-- xi1nxia1n (新鲜): fresh
+- do1ngxi1 (东西): thing, food, stuff
+- ji1da4n (鸡蛋): egg
 - mia4nba1o (西包): bread
+- pi2ngguo3 (苹果): apple
+- she2nme do1ngxi1 (什么东西): something, anything
+- shei2 (找): look for, find
+- shu1ca4i (蔬菜): vegetables
+- shui3guo3 (水果): fruit
+- xi1gua1 (西瓜): watermelon
+- xi1nxia1n (新鲜): fresh
 
 Pronoun
 """""""
 
+- dia3n (点): to order
+- na4 (那): that
+- na4xie1 (那些): those
 - yi1 (一): one
 - yi4xie1 (一些): some
 - zhe4 (这): this
 - zhe4xie1 (这些): these
-- na4 (那): that
-- na4xie1 (那些): those
-- dia3n (点): to order
 
 CHN-30-3-13 Hobbies 2
 =====================
 
-* we4i (为): like in (we4ishe2nme (为什么): why or yi1nwe4i (因为): because)
-* ya2 (牙): (like in Xi1ba1nya2 (西班牙): Spain)
-* Xi1 (西): (like in Xi1ba1nya2 (西班牙): Spain)
-* yi1n (因): (like in yi1nwe4i (因为): because)
-* suo2 (所): (like in suo2yi3 (所以): so)
-* yi3 (以): (like in suo2yi3 (所以): so)
-* xi2 (习): (like in xue2xi2 (学习): to learn)
-* qi1ng (轻): new (like in qi1ngso1ng (轻松): relax, easily)
-* lu.3 (旅): (like in lu.3yo2u (旅游): travel)
-* so1ng (松): (like in qi1ngso1ng (轻松): relax, easily)
-* pa1i (拍): (like in pa1izha4o (拍照): take picture, take photo)
 * du4 (度): (like in yi4ndu4 (印度): India)
-* zha4o (照): (like in zha4oxia4ngji1 (照相机): camera)
+* lu.3 (旅): (like in lu.3yo2u (旅游): travel)
+* pa1i (拍): (like in pa1izha4o (拍照): take picture, take photo)
+* qi1ng (轻): new (like in qi1ngso1ng (轻松): relax, easily)
+* so1ng (松): (like in qi1ngso1ng (轻松): relax, easily)
+* suo2 (所): (like in suo2yi3 (所以): so)
+* we4i (为): like in (we4ishe2nme (为什么): why or yi1nwe4i (因为): because)
+* xi1 (西): (like in Xi1ba1nya2 (西班牙): Spain)
+* xi2 (习): (like in xue2xi2 (学习): to learn)
 * xia4ng (相): (like in zha4oxia4ngji1 (照相机): camera)
+* ya2 (牙): (like in Xi1ba1nya2 (西班牙): Spain)
+* yi1n (因): (like in yi1nwe4i (因为): because)
+* yi3 (以): (like in suo2yi3 (所以): so)
 * yi4n (印): (like in yi4ndu4 (印度): India)
+* zha4o (照): (like in zha4oxia4ngji1 (照相机): camera)
 
 Voc
 ----
 
-- we4ishe2nme (为什么): why
-- Xi1ba1nya2 (西班牙): Spain
-- yi1nwe4i (因为): because
-- suo2yi3 (所以): so
-- xue2xi2 (学习): to learn
 - a4iha4o (爱好): hobby, interested
-- qi1ngso1ng (轻松): relax, easily
 - lu.3yo2u (旅游): travel
-- zha4oxia4ngji1 (照相机): camera
 - pa1izha4o (拍照): take picture, take photo
+- qi1ngso1ng (轻松): relax, easily
+- suo2yi3 (所以): so
+- we4ishe2nme (为什么): why
+- xi1ba1nya2 (西班牙): Spain
+- xue2xi2 (学习): to learn
+- yi1nwe4i (因为): because
 - yi4ndu4 (印度): India
+- zha4oxia4ngji1 (照相机): camera
 
 Part 4
 ******
@@ -737,53 +737,66 @@ Part 4
 CHN-31-4-01 Dining 1
 ====================
 
+* ??? (条): (like in mia4n??? (面条): noodles)
+* ??? (鸡): (like in ???ròu (鸡肉): chicken)
+* be3n (本): (like a tree)
 * ha2i (还): (like in háishì (还是): or)
 * ha3i (海): sea
-* be3n (本): (like a tree)
-* yáng (羊): sheep (like in yángròu (羊肉): lamb) 
-* ròu (肉): meat (like in yángròu (羊肉): lamb)
-* ??? (条): (like in mia4n??? (面条): noodles)
-* mi??? (米): (like in mi???fa4n(米饭): rice)
-* ??? (鸡): (like in ???ròu (鸡肉): chicken)
-* zhu1 (猪): ???
-* yi3n (饮): drink (like in yi3nlia4o (饮料): a drink)
 * lia4o (料): paint (like in yi3nlia4o (饮料): a drink)
+* mi??? (米): (like in mi???fa4n(米饭): rice)
+* ròu (肉): meat (like in yángròu (羊肉): lamb)
+* yi3n (饮): drink (like in yi3nlia4o (饮料): a drink)
+* yáng (羊): sheep (like in yángròu (羊肉): lamb) 
+* zhu1 (猪): ???
 
 Voc
 ----
 
+- ???be3n (日本): Japanese
+- ???ròu (鸡肉): chicken
 - ca4i (菜): cuisine, food, dish
 - háishì (还是): or
-- niúròu (牛肉): beef (to eat)
-- zhu1ròu (猪肉): porc
-- ròu (肉): meat
-- ???ròu (鸡肉): chicken
-- yángròu (羊肉): lamb
-- ???be3n (日本): Japanese
 - mi???fa4n(米饭): rice
 - mia4n??? (面条): noodles
+- niúròu (牛肉): beef (to eat)
+- ròu (肉): meat
 - yi3nlia4o (饮料): a drink
+- yángròu (羊肉): lamb
+- zhu1ròu (猪肉): porc
 
 CHN-32-4-02 Health 1
 ====================
 
-* zuo4 (作): (like in go1ngzuo4 (工作): to work)
-* le4i (累): tired
-* jue2 (觉): (like in jue2de (觉得): feel, feeling, think)
+* dua4n (锻): (like in dua4nlia4n (锻炼): work out, exercises)
 * go1ng (工): (like in go1ngzuo4 (工作): to work)
 * jia4n (健): (like in jia4nka1ng (健康): healthy)
-* pa4ng (胖): fat
+* jue2 (觉): (like in jue2de (觉得): feel, feeling, think)
+* ka1i (开): (like in ka1ishi3 (开始): start, begin)
 * ka1ng (康): (like in jia4nka1ng (健康): healthy)
+* le4i (累): tired
+* lia4n (炼): (like in dua4nlia4n (锻炼): work out, exercises)
+* pa4ng (胖): fat
+* she1n (身): (like in she1nti3 (身体): health)
+* shi3 (始): (like in ka1ishi3 (开始): start, begin)
+* yi4 (意): (like in zhu4yi4 (注意): pay attention to, attention, careful)
+* zhu4 (注): (like in zhu4yi4 (注意): pay attention to, attention, careful)
+* zuo4 (作): (like in go1ngzuo4 (工作): to work)
 
 Voc
 ----
 
-- jue2de (觉得): feel, feeling, think
+- dua4nlia4n (锻炼): work out, exercises
 - go1ngzuo4 (工作): to work
-- le4i (累): tired
-- yo3u dia3r (有点儿): a little, a bit
 - jia4nka1ng (健康): healthy
+- jue2de (觉得): feel, feeling, think
+- ka1ishi3 (开始): start, begin
+- le4i (累): tired
 - pa4ng (胖): fat
+- she1nti3 (身体): health
+- she1nti3 bu4cuo4 (身体不错): in good health
+- she1nti3 jia4nka1ng (身体健康): good health
+- yo3u dia3r (有点儿): a little, a bit
+- zhu4yi4 (注意): pay attention to, attention, careful
 
 CHN-33-4-03 Transport
 =====================

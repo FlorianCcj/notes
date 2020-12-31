@@ -509,9 +509,13 @@ Exceptions include tia1n (天, day) and nia2n (年, year), which don t require m
 Phrases
 -------
 
+* ji1n nia2n wo3 re4nshi2 le Wang la3oshi1 (今年我认识了王老师): I met teacher Wang this year
+* ni3 sha4ng ge mo4zho1u zuo4 le she2nme?(你上个周末做了什么？): What did you do last weekend?
+* ni3 xia4 ge xi1ngqi1 tia1n hui4 bu4 hui4 jia4n ni3 de ha2izi3? (你下个星期天会不会见你的孩子？): Will you see your child next sunday?
 * ni3 xia4wu3 za4i na3r? (你下午在哪儿？): Where are you in the afternoon ?
 * ni3men sha4ngwu3 ji3 dia3n he1 cha2 (你们上午几点喝茶？): What time in the morning do you drink tea?
 * sha4ngwu3 ba1 dia3n si4 shi4 wu3 fe1n (上午八点四十五分): 8h45 in the morning
+* ta1 de zha4ngfu1 xia4 ge xi1ngqi1 hui4 za4i niu3yue1 (她的丈夫下个星期会在纽约): Her husband will be in New York next week
 * ta1 sha4ngwu3 za4i yi1yua4n(她上午在医院): She is at the hospital in the morning
 * ta1 za3osha4ng liu4 dia3n shi4 wu3 fe1n he1 ka1fe1i (他早上六点十五分喝咖啡): He drinks coffee at 6h15 in the morning
 * ta1men zho1ngwu3 chi1 fa4n she2nme? (他们中午吃什么？): What do they eat at noon ?
@@ -521,12 +525,8 @@ Phrases
 * wo3 me3i tia1n do1u he1 ka1fe1i (我每天都喝咖啡): I drink coffee every day
 * wo3men me3i nia2n jia4n Wang la3oshi1 (我们每年见王老师): We see teacher Wang every year
 * wo3men xia4wu3 jia4n la3oshi1 (我们下午见老师): We meet the the teacher this morning
-* xia4nza4i shi4 wa3nsha4ng shi2 yi1 dia3n li2ng liu4 fe1n(现在是晚上十一点零六分): It is 11h06 in the evening now
-* ni3 sha4ng ge mo4zho1u zuo4 le she2nme?(你上个周末做了什么？): What did you do last weekend?
 * wo3men zuo2tia1n wa3nsha4ng zuo4 le she2nme? (我们昨天晚上做了什么？): What did we do last night ?
-* ji1n nia2n wo3 re4nshi2 le Wang la3oshi1 (今年我认识了王老师): I met teacher Wang this year
-* ta1 de zha4ngfu1 xia4 ge xi1ngqi1 hui4 za4i niu3yue1 (她的丈夫下个星期会在纽约): Her husband will be in New York next week
-* ni3 xia4 ge xi1ngqi1 tia1n hui4 bu4 hui4 jia4n ni3 de ha2izi3? (你下个星期天会不会见你的孩子？): Will you see your child next sunday?
+* xia4nza4i shi4 wa3nsha4ng shi2 yi1 dia3n li2ng liu4 fe1n(现在是晚上十一点零六分): It is 11h06 in the evening now
 
 CHN-22-3-05 Location 3
 ======================
@@ -567,13 +567,13 @@ To say walk toward a certain direction in Chinese, you’ll say wa3ng (往, towa
 Phrases
 -------
 
-* she2i za4i ni3 de pa2ngbia1n? (谁在你的旁边？): Who is next to you?
-* ni3men de xue2xia4o za4i qia2nmia4n (你们的学校在前面): Your school is ahead
-* e2rzi3 za4i ba4ba de qia2nmia4n (儿子在爸爸的前面): The son is in front of the father
-* ni3 re4nshi2 lu4 ma? (你认识路吗？): Do you know the way?
-* ni3 re4nshi2 da4o yi1yua4n de lu4 ma?(你认识到医院的路吗?): Do you know the way to get to the hospital?
 * da4o ni3 de xue2xia4o ze3nme zo3u? (到你的学校怎么走?): How do I get to your school?
 * da4o zho1ngguo2 fa4ngua3n ze3nme zo3u? (到中国饭馆怎么走?): How do I get to the chinese restaurant
+* e2rzi3 za4i ba4ba de qia2nmia4n (儿子在爸爸的前面): The son is in front of the father
+* ni3 re4nshi2 da4o yi1yua4n de lu4 ma?(你认识到医院的路吗?): Do you know the way to get to the hospital?
+* ni3 re4nshi2 lu4 ma? (你认识路吗？): Do you know the way?
+* ni3men de xue2xia4o za4i qia2nmia4n (你们的学校在前面): Your school is ahead
+* she2i za4i ni3 de pa2ngbia1n? (谁在你的旁边？): Who is next to you?
 
 CHN-23-3-06 Hobbies 1
 =====================
@@ -605,21 +605,21 @@ za4i (在) for things that are happening right now
 Phrases
 -------
 
-* ta1men bu4 ka4n ha4nyu3 shu1 (他们不看汉语书): They do not read chinese book
-* ni3 za4i zuo4 she2nme? (你在做什么？): What are you doing?
-* ni3 xi3hua1n ka4n shu1 ma (你喜欢看书吗？): Do you like reading?
-* ni3 xi3hua1n ka4n she2nme shu1 (你喜欢看什么书？): What books do you like to read?
-* wo3 de nu.3 pe2ngyo3u zui4 pia4olia4ng (我的女朋友最漂亮): My girlfriend is the most beautifull
-* ta1men de ge1ge me3i tia1n xia4wu3 ??? dia4nna3o yo2uxi4 (她们的哥哥每天下午玩电脑游戏): Their older brother plays computer games every afternoon
 * ni zui4 xi3hua1n she2i? (你最喜欢谁？): Who do you like the most?
+* ni3 xi3hua1n ka4n she2nme shu1 (你喜欢看什么书？): What books do you like to read?
+* ni3 xi3hua1n ka4n shu1 ma (你喜欢看书吗？): Do you like reading?
+* ni3 za4i zuo4 she2nme? (你在做什么？): What are you doing?
 * ni3men wa2n bu4 wa2n dia4nna3o yo2uxi4? (你们玩不玩电脑游戏？): Do you play computer games?
-* zhe4 shi4 she2nme yi1nyue4? (这是什么音乐？): What music is this?
+* ta1 bu4 hui4 tia2owu3 (他不会跳舞): He can t dance
+* ta1 zui4 xi3hua1n ti1ng she2nme yi1nyue4? (她最喜欢听什么音乐？): What music does she like listening to the most?
+* ta1men bu4 ka4n ha4nyu3 shu1 (他们不看汉语书): They do not read chinese book
+* ta1men de ge1ge me3i tia1n xia4wu3 ??? dia4nna3o yo2uxi4 (她们的哥哥每天下午玩电脑游戏): Their older brother plays computer games every afternoon
 * wo3 bu4 xi3hua1n ti1ng ta1 de yi1nyue4 (我不喜欢听他的音乐): I don't like to listen to his music
 * wo3 de ha2izi3 a4i yi1ngyu3 ge1 (我的孩子爱英语歌): my child loves english songs
-* ta1 zui4 xi3hua1n ti1ng she2nme yi1nyue4? (她最喜欢听什么音乐？): What music does she like listening to the most?
-* ta1 bu4 hui4 tia2owu3 (他不会跳舞): He can t dance
-* wo3 xi3hua1n ti1ng ge1, bu4 hui4 cha4ng ge1 (我喜欢听歌，不会唱歌): I like to listen to songs, I can't sing
+* wo3 de nu.3 pe2ngyo3u zui4 pia4olia4ng (我的女朋友最漂亮): My girlfriend is the most beautifull
 * wo3 de pe2ngyo3u do1u xi3hua1n tia2owu3 (我的朋友都喜欢跳舞): All of my friends like dancing
+* wo3 xi3hua1n ti1ng ge1, bu4 hui4 cha4ng ge1 (我喜欢听歌，不会唱歌): I like to listen to songs, I can't sing
+* zhe4 shi4 she2nme yi1nyue4? (这是什么音乐？): What music is this?
 
 CHN-24-3-07 Routine 1
 =====================
@@ -633,32 +633,32 @@ From here to there!
 * co2ng Wu3yue4 da4o Liu4yue4 (从五月到六月): from May to June
 * co2ng jiu4 dia3n da4o wu2 dia3n (从九点到五点): from 9 o’clock to 5 o’clock
 
-sha4ng (上) and xia4 (下)​
+sha4ng (上) and xia4 (下)
 ------------------------
 
-* sha4ng (上): last and xia4 (下)​: next
+* sha4ng (上): last and xia4 (下): next
 * but also
-* sha4ng (上): go to and xia4 (下)​: get off
+* sha4ng (上): go to and xia4 (下): get off
 
-* Wo3men sha4ngwu3 jiu4 dia3n sha4ngba1n (我们上午九点上班): We go to work at 9 in the morning.​
-​* Ni3 mi2ngtia1n ji3 dia3n xia4ba1n? (你明天几点下班？​): What time do you get off work tomorrow?​
-​* Wo3 de me4imei shi2yi1 dia3n sha4ngxue2 (我的妹妹十一点上学): My younger sister goes to school at 11 o'clock.​
+* Wo3men sha4ngwu3 jiu4 dia3n sha4ngba1n (我们上午九点上班): We go to work at 9 in the morning.
+* Ni3 mi2ngtia1n ji3 dia3n xia4ba1n? (你明天几点下班？): What time do you get off work tomorrow?
+* Wo3 de me4imei shi2yi1 dia3n sha4ngxue2 (我的妹妹十一点上学): My younger sister goes to school at 11 o'clock.
 
 Phrases
 -------
 
-* wo3men a4i zuo4 zho1ngguo2 fa4n (我们爱做中国饭): We love cooking chinese food
-* wo3 de ba4ba liu4 dia3n ba4n qi3chua2ng (我的爸爸六点半起床): My father gets up at 6h30
-* yi1she1ng ji3dia3n sha4ngba1n? (医生几点上班？): What time does the doctor go to work?
+* ji1ntia1n wa3nsha4ng wo3 bu4 hui2 jia1 (今天晚上我不回家): I m not going home tonight
+* ni3 me3i tia1n ji3dia3n hui2 jia1? (你每天几点回家？): What time do you go home every day?
 * ta1 co2ng liu4 dia3n ba4n da4o jiu4 dia3n he1 cha2 (她从六点半到九点喝茶): she drinks tea from 6h30 to 9h
+* wo3 de ba4ba liu4 dia3n ba4n qi3chua2ng (我的爸爸六点半起床): My father gets up at 6h30
 * wo3 me2i tia1n do1u co2ng shi4 dia3n da4o liu4 dia3n ba4n shui4jia4o (我每天都从十点到六点睡觉): I sleep from 10 to 6 every day
+* wo3men a4i zuo4 zho1ngguo2 fa4n (我们爱做中国饭): We love cooking chinese food
+* wo3men mi2ng nia2n hui2 lu2ndu1n (我们明年回伦敦): We are going back to London next year
+* wo3men mi2ngtia1n sa1n dia3n fa4ng xue2 (我们明天三点放学): We finish school at 3 tomorrow
 * xia4 ge1 xi1ngqi1 wo3 he2 pe2ngyo3u chi1 wu3fa4n (下个星期我和朋友吃午饭): I am having lunch with friends next week
 * yi1she1ng ji1ntia1n ji3dia3n xia4ba1n? (医生今天几点下班？): What time does the doctor get off work today?
-* wo3men mi2ngtia1n sa1n dia3n fa4ng xue2 (我们明天三点放学): We finish school at 3 tomorrow
-* ni3 me3i tia1n ji3dia3n hui2 jia1? (你每天几点回家？): What time do you go home every day?
+* yi1she1ng ji3dia3n sha4ngba1n? (医生几点上班？): What time does the doctor go to work?
 * zhe4 ge1 mo4zho1u wo3men za4i jia1 chi1 wa3n fa4n ma? (这个周末我们在家吃晚饭吗？):  Are we having dinner at home this weekend ?
-* ji1ntia1n wa3nsha4ng wo3 bu4 hui2 jia1 (今天晚上我不回家): I m not going home tonight
-* wo3men mi2ng nia2n hui2 lu2ndu1n (我们明年回伦敦): We are going back to London next year
 
 CHN-25-3-08 Payment
 ===================
@@ -692,28 +692,28 @@ Too expensive!
 Phrases
 -------
 
-* sa1n ba3i yi1 shi2 wu3 kua4i (三百一十五块。): 315 yuan
-* wo3 me2iyo3u qia2n (我没有钱。): I do not have money
-* ta1 bu4 ma3i (他不买。): He's not buying
-* wo3 zhi3 hui4 shuo1 yi1ngyu3 (我只会说英语): I only speak English
-* wo3 zhi3 yo3u ba1 ba3i kua4i (我只有八百块。): I only have 800 Yuan
-* wo3 ma3i Zhe4ge, duo1sha3o qia2n (我买这个，多少钱？): I am buying this, how much money is it?
-* Zhe4ge duo1sha3o qia2n (这个多少钱？)How much is this ?
-* ni3 ma3i le ji3 ge1 yo2uxi4? (你买了几个游戏？): How many games did you buy?
-*Zhe4ge qi1 ba3i sa1n shi2 e2r kua4i wu3 ma3o (这个七百三十二块五毛。): This is 732.50 Yuan
-* yi1go2ng wu3 ba3i kua4i (一共五百块。): Altogeter it's 500 Yuan
-* zhe4ge jiu4 kua4i jiu4 ma3o jiu4 fe1n(这个九块九毛九分。): This is 9.99 Yuan
-* wo3 yi1go2ng ma3i liu4 ge1 (我一共买六个。): I am buying six altogether
+* bu4 xi2ng (不行): no way
 * dui4bu3qi3, wo3men bu4 sho1u xi4nyo4ng ka3 (对不起,我们不收信用卡。): Sorry, we do not take credit cards
+* na4 ge1 dia4nna3o he3n gui4 (那个电脑很贵。): That computer is expensive
 * na4 ge1 yo2uxi4 he3n gui4 (那个游戏很贵): That game is expensive
 * na4li de cha2 he3n pia2nyi (那里的茶很便宜): The tea is cheap there
-* wo3men bu4 sho1u xi4nyo4ng ka3, zhi3 xi4nyo4ng ka3 (我们不收信用卡，只收现金。): We don't take credit cards, we only take cash.
-* na4 ge1 dia4nna3o he3n gui4 (那个电脑很贵。): That computer is expensive
-* qi3ng pia2nyi yi1 dia3r (请便宜一点儿。): Please make it a bit cheaper.
-* bu4 xi2ng (不行): no way
-* she2i yo3u yi1 wa4n kua4i? (谁有一万块？): Who has ten thousand yuan
-* zhe4li ta4i re4 le! (这里太热了！): It is too hot here!
+* ni3 ma3i le ji3 ge1 yo2uxi4? (你买了几个游戏？): How many games did you buy?
 * pia2nyi ti1 dia3r, xi2ng bu4 xi2ng? (便宜一点儿，行不行？): Can this be a bit cheaper?
+* qi3ng pia2nyi yi1 dia3r (请便宜一点儿。): Please make it a bit cheaper.
+* sa1n ba3i yi1 shi2 wu3 kua4i (三百一十五块。): 315 yuan
+* she2i yo3u yi1 wa4n kua4i? (谁有一万块？): Who has ten thousand yuan
+* ta1 bu4 ma3i (他不买。): He's not buying
+* wo3 ma3i Zhe4ge, duo1sha3o qia2n (我买这个，多少钱？): I am buying this, how much money is it?
+* wo3 me2iyo3u qia2n (我没有钱。): I do not have money
+* wo3 yi1go2ng ma3i liu4 ge1 (我一共买六个。): I am buying six altogether
+* wo3 zhi3 hui4 shuo1 yi1ngyu3 (我只会说英语): I only speak English
+* wo3 zhi3 yo3u ba1 ba3i kua4i (我只有八百块。): I only have 800 Yuan
+* wo3men bu4 sho1u xi4nyo4ng ka3, zhi3 xi4nyo4ng ka3 (我们不收信用卡，只收现金。): We don't take credit cards, we only take cash.
+* yi1go2ng wu3 ba3i kua4i (一共五百块。): Altogeter it's 500 Yuan
+* zhe4ge duo1sha3o qia2n (这个多少钱？)How much is this ?
+* zhe4ge jiu4 kua4i jiu4 ma3o jiu4 fe1n(这个九块九毛九分。): This is 9.99 Yuan
+* zhe4ge qi1 ba3i sa1n shi2 e2r kua4i wu3 ma3o (这个七百三十二块五毛。): This is 732.50 Yuan
+* zhe4li ta4i re4 le! (这里太热了！): It is too hot here!
 
 CHN-26-3-09 Entertain
 =====================
@@ -728,24 +728,24 @@ za4i (在) for location
 Phrases
 -------
 
-* zhe4ge mo4zho1u wo3men hui4 ga4n she2nme? (这个周末我们会干什么？): What are we going to do this weekend?
 * mi2ngtia1n zuo4 sha4ng ni3 xia3ng ga4n she2nme? (明天晚上你想干什么？): What do you want to do tomorrow evening?
-* ni3 xia3ng yo3u dia4nyi3ng ma?(你想看电影吗？): Do you want to watch a movie?
-* ta1men xia3ng mi2ngtia1n ka4n dia4nyi3ng (他们想明天看电影。): They want to watch a movie tomorrow
-* ni3 xi3hua1n ka4n dia4nshi4 ma? (你喜欢看电视吗？): Do you like watching television?
-* ni3 xi3hua1n sha4ngwa3ng zuo4 she2nme? (你喜欢上网做什么？): What do you like to do online ?
-* wo3 xia3ng sha4ngwa3ng ti1ng yi1nyue4 (我想上网听音乐。): I want to go online and listen to music
+* ni3 de sho3uji1 ha4oma3 shi4 duo1sha3o? (你的手机号码是多少？): What is your cellphone humber?
 * ni3 ka4n le ji1ntia1n de ba4ozhi3 ma? (你看了今天的报纸吗？): Did you read today's newspaper?
 * ni3 ka4n le xi1nwe2n ma? (你看了新闻吗？): Did you read the newspaper?
-* ni3 de sho3uji1 ha4oma3 shi4 duo1sha3o? (你的手机号码是多少？): What is your cellphone humber?
-* wo3men yo4ng sho3uji1 ka4n xi1nwe2n (我们用手机看新闻。): We use cell phones to read the news
+* ni3 xi3hua1n ka4n dia4nshi4 ma? (你喜欢看电视吗？): Do you like watching television?
 * ni3 xi3hua1n na3 ge na2n mingxi1ng? (你喜欢哪个男明星？): Which male celebrity do you like?
-* ta1 za4i zho1ngguo2 shi4 yi1 ge mingxi1ng (她在中国是一个明星。): she is a celebrity in China
-* wo3 yo4ng dia4nna3o ka4n xi1nwe2n (我用电脑看新闻。): I read the news on my computer.
-* wo3 xia3ng yo4ng sho3uji1 wa2n yo2uxi4 (我想用手机玩游戏。): I want to use my phone to play games
-* wo3men mo4zho1u hui4 ka4n ha2nguo2 dia4nyi3ng (我们周末会看韩国电影。): We will watch Korean movie on the weekend
+* ni3 xi3hua1n sha4ngwa3ng zuo4 she2nme? (你喜欢上网做什么？): What do you like to do online ?
+* ni3 xia3ng yo3u dia4nyi3ng ma?(你想看电影吗？): Do you want to watch a movie?
 * ni3men xi3hua1n ka4n she2nme dia4nshi4 mu4jie2 (你们喜欢看什么电视节目): What TV shows do you like watching?
 * ta1 me3itia1n ka4n (他每天看体育新闻。): He reads the sports news every day.
+* ta1 za4i zho1ngguo2 shi4 yi1 ge mingxi1ng (她在中国是一个明星。): she is a celebrity in China
+* ta1men xia3ng mi2ngtia1n ka4n dia4nyi3ng (他们想明天看电影。): They want to watch a movie tomorrow
+* wo3 xia3ng sha4ngwa3ng ti1ng yi1nyue4 (我想上网听音乐。): I want to go online and listen to music
+* wo3 xia3ng yo4ng sho3uji1 wa2n yo2uxi4 (我想用手机玩游戏。): I want to use my phone to play games
+* wo3 yo4ng dia4nna3o ka4n xi1nwe2n (我用电脑看新闻。): I read the news on my computer.
+* wo3men mo4zho1u hui4 ka4n ha2nguo2 dia4nyi3ng (我们周末会看韩国电影。): We will watch Korean movie on the weekend
+* wo3men yo4ng sho3uji1 ka4n xi1nwe2n (我们用手机看新闻。): We use cell phones to read the news
+* zhe4ge mo4zho1u wo3men hui4 ga4n she2nme? (这个周末我们会干什么？): What are we going to do this weekend?
 
 CHN-27-3-10 Location 4
 ======================
@@ -782,23 +782,23 @@ sha4ng (上) vs xia4 (下)
 Phrases
 -------
 
-* ni3 shei??? she2i? (你找谁？): Who are you looking for?
-* ka1fe1i za4i zhuo1zi sha4ng (咖啡在桌子上): The coffee is on the table
-* ni3 za4i shei??? she2nme? (你在找什么?): What are you looking for?
-* ni3 de sho3uji1 za4i zhuo1zi sha4ng (你的手机在桌子上。): Your phone is on the table
+* bi1ngxia1ng li3 yo3u she2nme? (冰箱里有什么？): What s in the refrigerator?
 * dia4nna3o za4i zhuo1zi sha4ng (电脑在桌子上): The computer is on the table
-* wo3 za4i shei??? wo3 de sho3uji1 (我在找我的手机): I am looking for my phone
 * ga1o za4i yi3zi xia4 (狗在椅子下): The dog is under the chair
-* ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?
+* ka1fe1i za4i zhuo1zi sha4ng (咖啡在桌子上): The coffee is on the table
 * ma1o za4i yi3zi sha4ng (猫在椅子上): The cat is on the chair
-* ta1men za4i xue2xia4o wa2i (他们在学校外): They are outside the school
+* ni3 de sho3uji1 za4i zhuo1zi sha4ng (你的手机在桌子上。): Your phone is on the table
+* ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?
+* ni3 shei??? she2i? (你找谁？): Who are you looking for?
+* ni3 za4i shei??? she2nme? (你在找什么?): What are you looking for?
+* niu2na3i za4i bi1ngxia1ng li3 ma?(牛奶在冰箱里吗？): Is the milk in the fridge?
+* she2i za4i fa2ngjia1n wa2i? (谁在房间外？): Who's outside the room?
 * shui3 za4i bi1ngxia1ng sha4ng (水在冰箱上): The water is on the fridge
 * ta1men do1u za4i fa2ngjia1n  (他们都在房间里睡觉): They are all sleeping in the room
-* niu2na3i za4i bi1ngxia1ng li3 ma?(牛奶在冰箱里吗？): Is the milk in the fridge?
-* wo3 za4i fa2ngjia1n wa2i (我在房间外): I m outside the room
+* ta1men za4i xue2xia4o wa2i (他们在学校外): They are outside the school
 * wo3 de jia1 li3 me2iyo3u xi3sho3ujia1n (我的家里没有洗手间): There is no bathroom in my house
-* she2i za4i fa2ngjia1n wa2i? (谁在房间外？): Who's outside the room?
-* bi1ngxia1ng li3 yo3u she2nme? (冰箱里有什么？): What s in the refrigerator?
+* wo3 za4i fa2ngjia1n wa2i (我在房间外): I m outside the room
+* wo3 za4i shei??? wo3 de sho3uji1 (我在找我的手机): I am looking for my phone
 * zhe4 shi4 she2i de fa2ngjia1n? (这是谁的房间？): Whose room is this?
 
 CHN-28-3-11 Restaurant
@@ -825,25 +825,25 @@ How many of you?
 Phrases
 -------
 
-* ta1men xi3hua1n bu2 xi3hua1n wa2n yo2uxi4? (他们喜欢不喜欢玩游戏？): Do they enjoy playing games?
-* qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?
-* Li3 la3oshi1 shuo1 "qi3ng ji4n!" (老师说“请进！”): The teache says "please come in"
-* qi3ng za4i zhe4li de3ng (请在这里等): Please wait here
-* qi3ng ka4n yi2xia4 (请看一下): Please take a look
-* lia3ng we4i (两位): Two people
-* qi3ng ji4n! (请进！): Please come in!
-* wo3men yi1go2ng shi2 we4i (我们一共十位): We are ten altogether
-* wo3 bu2 xia3ng ji4n (我不想进): I do not want to enter
-* qi3ng de3ng yi2xia4 (请等一下):  Please wait for a moment
-* qi3ng zuo4 (请坐！): Please sit
 * dui4bu3qi3, wo3men me2iyo3u yi1ngwe2n ca4ida1n (对不起，我们没有英文菜单): Sorry, we do not have english menus
+* fa4ngua3n de dia4nhua4 ha4oma3 shi4 duo1sha3o? wo3 ya4o di4ngwe4i. (饭馆的电话号码是多少？我要订位。): what is the restaurant's phone number? I want to book a table.
+* fu2wu4yua2n, ma3ida1n (服务员，买单！): Waiterm the check
+* fu2wu4yua2n, wo3men ya4o dia3nca4i. (服务员，我们要点菜。): Waiterm we want to order
+* li3 la3oshi1 shuo1 "qi3ng ji4n!" (老师说“请进！”): The teache says "please come in"
+* lia3ng we4i (两位): Two people
+* qi3ng de3ng yi2xia4 (请等一下):  Please wait for a moment
+* qi3ng ji4n! (请进！): Please come in!
 * qi3ng ka4n yi2ci4 ca4ida1n (请看一下菜单): Please take a look at the menu
+* qi3ng ka4n yi2xia4 (请看一下): Please take a look
+* qi3ng za4i zhe4li de3ng (请在这里等): Please wait here
+* qi3ng zuo4 (请坐！): Please sit
+* qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?
+* ta1men xi3hua1n bu2 xi3hua1n wa2n yo2uxi4? (他们喜欢不喜欢玩游戏？): Do they enjoy playing games?
+* wo3 bu2 xia3ng ji4n (我不想进): I do not want to enter
+* wo3 de ma1ma di4ngwe4i le. (我的妈妈订位了。): My mom made a reservation
 * wo3 xia3ng dia3nca4i (我想点菜): I would like to order
 * wo3men ya4o ma3ida1n (我们要买单): We want to get the check
-* fa4ngua3n de dia4nhua4 ha4oma3 shi4 duo1sha3o? wo3 ya4o di4ngwe4i. (饭馆的电话号码是多少？我要订位。): what is the restaurant's phone number? I want to book a table.
-* fu2wu4yua2n, wo3men ya4o dia3nca4i. (服务员，我们要点菜。): Waiterm we want to order
-* wo3 de ma1ma di4ngwe4i le. (我的妈妈订位了。): My mom made a reservation
-* fu2wu4yua2n, ma3ida1n (服务员，买单！): Waiterm the check
+* wo3men yi1go2ng shi2 we4i (我们一共十位): We are ten altogether
 * zhe4 ci4 wo3 ma3ida1n. (这次我买单。): I get the check this time.
 
 CHN-29-3-12 Market
@@ -858,7 +858,7 @@ When you need to specify that you talk about multiple thing.
 * Zhe4xie1 xi1gua1 duo1sha3o qia2n? (这些西瓜多少钱？): How much are these watermelons?
 
 +-----------------+-----------------------+
-| ​singular        | ​plural                |
+| singular        | plural                |
 +=================+=======================+
 | yi1 (一), one   | yi4xie1 (一些), some   |
 +-----------------+-----------------------+
@@ -873,31 +873,31 @@ When you need to specify that you talk about multiple thing.
 Phrases
 -------
 
-* qi3ngwe4n, zhe4xie1 yi1go2ng duo1sha3o qia2n? (请问,这些一共多少钱？): Excuse me, how much are these altogether?
-* ni3 xia3ng ma3i she2nme do1ngxi1? (你想买什么东西？): What do you want to buy ?
-* wo3 he3n ma2ng, qi3ng ba1ng wo3. (我很忙，请帮我。): I am busy, please help me.
-* wo3men xia3ng ma3i do1ngxi1. (我们想买东西。): we want to go shopping.
-* qi3ng ba1ng wo3 ma3i yi4xie1 do1ngxi1. (请帮我买一些东西。): Please help me buy some things.
-* zhe4xie1 yu4 fe1icha2ng gui4. (这些鱼非常贵。): These fish are very expensive.
-* qi3ng ba1ng dia3n kafe1i. (请帮我点咖啡。): Please help me order a coffee
-* wo3 de ma1ma xia3ng ma3i yi4xie1 do1ngxi1. (我的妈妈想买一些东西。): My mother would like to buy a few things.
-* wo3 xia3ng za4i cha1oshi4 ma3i shui3guo3. (我想在超市买水果。): I would like to buy fruit at the supermarket.
-* wo3 de jia1re2n he3n xi3hua1n chi1 shui3guo3. (我的家人很喜欢吃水果。): My family really likes to eat fruit.
-* qi3ngwe4n, cha1oshi4 za4i na2li? (请问，超市在哪里？): Excuse me, where is the supermarket?
-* ta1 bu2 ge3i wo3 qia2n. (他不给我钱。): He does not give me money.
-* qi3ng ge3i wo3 ge1 xi1gua1. (请给我五个西瓜。): Please give me five watermelons.
-* yi1 tia1n yi1 ge1 pi2ngguo3, yi1she1ng bu she2i wo3. (一天一个苹果，医生不找我。): An apple a day keeps the doctor away.
-* zhe4xie1 shui3guo3 bu ta4i xi1nxia1n. (这些水果不太新鲜。): These fruits aren t very fresh
-* wo3men ya4o ma3i yi4xie1 ji1da4n. (我们要买一些鸡蛋。): we want to buy some eggs.
-* wo3 xia3ng ma3i shu1ca4i he2 shui3guo3. (我想买蔬菜和水果。): I want to buy vegetables and fruits
 * ha2izi3 bu2 xi3hua1n chi1 shu1ca4i. (孩子不喜欢吃蔬菜。): Children do not like to eat vegetables.
-* ni3 xi3hua1n she2nme shu1ca4i? (你喜欢什么蔬菜？): What vegetables do you like?
-* zhe4ge shi4 mi3 ma? (这个是米吗？): Is this rice?
-* na4ge ba4o shi4 ni3 de? (哪个包是你的？): Which bag is yours?
-* qi3ng ba1ng wo3 ma3i yi1 da4i ta2ng (请帮我买一袋糖。): Please help me buy a bag of sugar.
-* ta1men za4i cha1oshi4 ma3i mi3 ma? (他们在超市买米吗？): Do they buy rice at the supermarket?
 * mi2ngtia1n za3ofa4n wo3men hui4 chi1 shui3guo3 he1 mia4nba1o. (明天早饭我们会吃水果和面包。):  We will eat fruit and bread for breakfast tomorrow.
+* na4ge ba4o shi4 ni3 de? (哪个包是你的？): Which bag is yours?
+* ni3 xi3hua1n she2nme shu1ca4i? (你喜欢什么蔬菜？): What vegetables do you like?
+* ni3 xia3ng ma3i she2nme do1ngxi1? (你想买什么东西？): What do you want to buy ?
+* qi3ng ba1ng dia3n kafe1i. (请帮我点咖啡。): Please help me order a coffee
+* qi3ng ba1ng wo3 ma3i yi1 da4i ta2ng (请帮我买一袋糖。): Please help me buy a bag of sugar.
+* qi3ng ba1ng wo3 ma3i yi4xie1 do1ngxi1. (请帮我买一些东西。): Please help me buy some things.
+* qi3ng ge3i wo3 ge1 xi1gua1. (请给我五个西瓜。): Please give me five watermelons.
+* qi3ngwe4n, cha1oshi4 za4i na2li? (请问，超市在哪里？): Excuse me, where is the supermarket?
+* qi3ngwe4n, zhe4xie1 yi1go2ng duo1sha3o qia2n? (请问,这些一共多少钱？): Excuse me, how much are these altogether?
+* ta1 bu2 ge3i wo3 qia2n. (他不给我钱。): He does not give me money.
+* ta1men za4i cha1oshi4 ma3i mi3 ma? (他们在超市买米吗？): Do they buy rice at the supermarket?
+* wo3 de jia1re2n he3n xi3hua1n chi1 shui3guo3. (我的家人很喜欢吃水果。): My family really likes to eat fruit.
+* wo3 de ma1ma xia3ng ma3i yi4xie1 do1ngxi1. (我的妈妈想买一些东西。): My mother would like to buy a few things.
+* wo3 he3n ma2ng, qi3ng ba1ng wo3. (我很忙，请帮我。): I am busy, please help me.
+* wo3 xia3ng ma3i shu1ca4i he2 shui3guo3. (我想买蔬菜和水果。): I want to buy vegetables and fruits
 * wo3 xia3ng ma3i yi1 ba4o mi3 (我想买一包米。): I want to buy a bag of rice.
+* wo3 xia3ng za4i cha1oshi4 ma3i shui3guo3. (我想在超市买水果。): I would like to buy fruit at the supermarket.
+* wo3men xia3ng ma3i do1ngxi1. (我们想买东西。): we want to go shopping.
+* wo3men ya4o ma3i yi4xie1 ji1da4n. (我们要买一些鸡蛋。): we want to buy some eggs.
+* yi1 tia1n yi1 ge1 pi2ngguo3, yi1she1ng bu she2i wo3. (一天一个苹果，医生不找我。): An apple a day keeps the doctor away.
+* zhe4ge shi4 mi3 ma? (这个是米吗？): Is this rice?
+* zhe4xie1 shui3guo3 bu ta4i xi1nxia1n. (这些水果不太新鲜。): These fruits aren t very fresh
+* zhe4xie1 yu4 fe1icha2ng gui4. (这些鱼非常贵。): These fish are very expensive.
 
 CHN-30-3-13 Hobbies 2
 =====================
@@ -926,22 +926,22 @@ Formal Settings
 Phrases
 -------
 
-* we4ishe2nme ta1 bu2 ga1oxi4ng? (为什么他不高兴？): why is he not happy?
-* wo3 xia3ng qu4 zho1ngguo2. (我想去中国。): I want to go to China
+* mi2ng nia2n sa1n yue4 wo3men hui4 qu4 yi4ndu4 lu.3yo2u (明年三月我们会去印度旅游。): We will travel to India in March of next year.
 * ni3 hui4 shuo1 Zho1ngwe2n ma? (你会说中文吗？):Can you speak chinese?
-* wo3 yo4ng dia4nna3o xue2xi2 Zho1ngwe2n (我用电脑学习中文。): I learn Chinese using a computer.
-* ta1 xia3ng zhu4 za4i xi1ba1nya2, yi1nwe4i ta1 de nu.3pe2ngyo3u shi4 xi1ba1nya2 re2n (他想住在西班牙，因为他的女朋友是西班牙人。): He wants to live in spain because his girlfriend is spanish
-* zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (这个太贵，所以我不买。): This is too expensive so i m not buying it
-* ta1 shuo1 de he3n kua4i, suo2yi3 wo3 bu2 mi2ngba2i. (他说得很快，所以我不明白。): He speaks very fast so i do not understand.
-* wo3 xue2xi2 zho1ngwe2n yi1nwe4i wo ya4o qu4 zho1ngguo2 (我学习中文因为我要去中国): I am learning Chinese because I need to go to China.
-* wo3 ma3i le yi1ge4 xi1n sho3uji1. (我买了一个新手机。): I bought a new phone.
-* ta1 ji1ntia1n bu2 ma2ng, ta1 he3n qi1ngso1ng (他今天不忙，他很轻松。): He is not busy today, he is relaxed.
 * ta1 de a4iha4o shi4 ti1ng yi1nyue4 (他的爱好是听音乐。): His hobby is listening to music.
-* yi1nwe4i wo3 xi3hua1n re4nshi2 xi1n pe2ngyo3u, suo2yi3 wo3 xia3ng lu.3yo2u (因为我喜欢认识新朋友，所以我想旅游。): I  want to go traveling because I like making new friends.
+* ta1 ji1ntia1n bu2 ma2ng, ta1 he3n qi1ngso1ng (他今天不忙，他很轻松。): He is not busy today, he is relaxed.
+* ta1 shuo1 de he3n kua4i, suo2yi3 wo3 bu2 mi2ngba2i. (他说得很快，所以我不明白。): He speaks very fast so i do not understand.
+* ta1 xia3ng zhu4 za4i xi1ba1nya2, yi1nwe4i ta1 de nu.3pe2ngyo3u shi4 xi1ba1nya2 re2n (他想住在西班牙，因为他的女朋友是西班牙人。): He wants to live in spain because his girlfriend is spanish
+* ta1men xi3hua1n yo4ng zha4oxia4ngji1 pa1izha4o (他们喜欢用照相机拍照。): They enjoy using a camera to take pictures.
+* we4ishe2nme ta1 bu2 ga1oxi4ng? (为什么他不高兴？): why is he not happy?
+* wo3 ma3i le yi1ge4 xi1n sho3uji1. (我买了一个新手机。): I bought a new phone.
 * wo3 ta4i ma2ng le, wo3 zhi3 xia3ng qi1ngso1ng yi2xia4. (我太忙了，我只想轻松一下。): I am too busy, I just want to relax a bit.
 * wo3 xia3ng qu4 xi1ba1nya2 lu.3yo2u (我想去西班牙旅游。): I want to travel to Spain.
-* ta1men xi3hua1n yo4ng zha4oxia4ngji1 pa1izha4o (他们喜欢用照相机拍照。): They enjoy using a camera to take pictures.
-* mi2ng nia2n sa1n yue4 wo3men hui4 qu4 yi4ndu4 lu.3yo2u (明年三月我们会去印度旅游。): We will travel to India in March of next year.
+* wo3 xia3ng qu4 zho1ngguo2. (我想去中国。): I want to go to China
+* wo3 xue2xi2 zho1ngwe2n yi1nwe4i wo ya4o qu4 zho1ngguo2 (我学习中文因为我要去中国): I am learning Chinese because I need to go to China.
+* wo3 yo4ng dia4nna3o xue2xi2 Zho1ngwe2n (我用电脑学习中文。): I learn Chinese using a computer.
+* yi1nwe4i wo3 xi3hua1n re4nshi2 xi1n pe2ngyo3u, suo2yi3 wo3 xia3ng lu.3yo2u (因为我喜欢认识新朋友，所以我想旅游。): I  want to go traveling because I like making new friends.
+* zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (这个太贵，所以我不买。): This is too expensive so i m not buying it
 
 Part 4
 ******
@@ -962,25 +962,25 @@ When you ask with `or` no need `ma`
 Phrases
 -------
 
-* ni3 ya4o he1 ka1fe1i ha2ishi4 he1 cha2 (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
-* ni3men xia3ng chi1 zho1ngguo2 zai??? ha2ishi4 yi1ngguo2 zai??? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
-* wo3 hui2 qu4 sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend.
-* ji1ntia1n wa3nsha4ng wo3men hui2 chi1 ??? zai??? ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight
-* wo3 hui4 qu4 Sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend
-* wo3 he3n xi3hua1n chi1 sha4ngha3i ca4i. (我很喜欢吃上海菜。): I really like to eat Shanghai cuisine.
-* ni3 ya4o he1 ka1fe1i ha2i he1 cha2? (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
-* ni3 xi3hua1n chi1 ha2nguo2 ca4iha2i shi2 ???be3n ca4i? (你喜欢吃韩国菜还是日本菜？): Do you like to eat Korean food or Japanese food?
-* wa3nsha4ng ni3 xia3ng chi1 sha4ngha3i ca4iha2i shi4 be3iji1ng ca4i? (晚上你想吃上海菜还是北京菜？): Would you like to eat food from Shanghai or Beijing in the evening?
-* ji1ntia1n wa3nsha4ng wo3men hui4 chi1 ???be3n ca4i ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight ?
-* ni3men xia3ng chi1 zho1ngguo2 ca4iha2i shi4 yi1ngguo2 ca4i ? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
-* ni3 xia3ng qu4 xi1ba1nya2 lu.3yo2u háishì ???be3n lu.3yo2u? (你想去西班牙旅游还是日本旅游？): Would you like to travel to Spain or Japan ?
-* zhe4ge fa4ngua3n de ???ròu bu2 ha3o (这个饭馆的鸡肉不好。): This restaurant s chicken is not good
-* wo3 xi3hua1n chi1 ???ròu mia4n??? (我喜欢吃鸡肉面条。): I like to eat chicken noodles
-* ni3 xi3hua1n chi1 she2nme ro4u? (你最喜欢吃什么肉？): What kind of meat do you like to eat the most?
 * ge3i wo3 wu3 ge mi???fa4n (给我五个米饭。): Give me five servings of rice.
-* ni3men yo3u she2nme yi3nlia4o? (你们有什么饮料？): what drinks do you have?
-* zuo2tia1n wa3nfa4n wo3 he1 pe2ngyo3u chi1 le yángròu (昨天晚饭我和朋友吃了羊肉。): My friend and I ate lamb for dinner yesterday.
+* ji1ntia1n wa3nsha4ng wo3men hui2 chi1 ??? zai??? ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight
+* ji1ntia1n wa3nsha4ng wo3men hui4 chi1 ???be3n ca4i ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight ?
 * ni3 chi1 zhu1ròu ha2ishi4 ???ròu? (你吃猪肉还是鸡肉？): Do you eat pork or chicken?
+* ni3 xi3hua1n chi1 ha2nguo2 ca4iha2i shi2 ???be3n ca4i? (你喜欢吃韩国菜还是日本菜？): Do you like to eat Korean food or Japanese food?
+* ni3 xi3hua1n chi1 she2nme ro4u? (你最喜欢吃什么肉？): What kind of meat do you like to eat the most?
+* ni3 xia3ng qu4 xi1ba1nya2 lu.3yo2u háishì ???be3n lu.3yo2u? (你想去西班牙旅游还是日本旅游？): Would you like to travel to Spain or Japan ?
+* ni3 ya4o he1 ka1fe1i ha2i he1 cha2? (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
+* ni3 ya4o he1 ka1fe1i ha2ishi4 he1 cha2 (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?
+* ni3men xia3ng chi1 zho1ngguo2 ca4iha2i shi4 yi1ngguo2 ca4i ? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
+* ni3men xia3ng chi1 zho1ngguo2 zai??? ha2ishi4 yi1ngguo2 zai??? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?
+* ni3men yo3u she2nme yi3nlia4o? (你们有什么饮料？): what drinks do you have?
+* wa3nsha4ng ni3 xia3ng chi1 sha4ngha3i ca4iha2i shi4 be3iji1ng ca4i? (晚上你想吃上海菜还是北京菜？): Would you like to eat food from Shanghai or Beijing in the evening?
+* wo3 he3n xi3hua1n chi1 sha4ngha3i ca4i. (我很喜欢吃上海菜。): I really like to eat Shanghai cuisine.
+* wo3 hui2 qu4 sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend.
+* wo3 hui4 qu4 Sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend
+* wo3 xi3hua1n chi1 ???ròu mia4n??? (我喜欢吃鸡肉面条。): I like to eat chicken noodles
+* zhe4ge fa4ngua3n de ???ròu bu2 ha3o (这个饭馆的鸡肉不好。): This restaurant s chicken is not good
+* zuo2tia1n wa3nfa4n wo3 he1 pe2ngyo3u chi1 le yángròu (昨天晚饭我和朋友吃了羊肉。): My friend and I ate lamb for dinner yesterday.
 
 CHN-32-4-02 Health 1
 ====================
@@ -1024,16 +1024,22 @@ Adjective + 的
 Phrases
 -------
 
-* wo3 ji1ntia1n bu2 xia3ng go1ngzuo4. (我今天不想工作。): I don t want to work today.
-* ni3 jue2de ze3nmeya4ng? (你觉得怎么样？): How do you feel?
-* ta1men ta4i le4i le. (他们太累了。): They are too tired.
-* ni3 yo3u dia3r ga1o. (你有点儿高。): You are a bit tall
-* she2nme shu1ca4i zui4 jia4nka1ng (什么蔬菜最健康？): What vegetables is the healthiest ?
-* na3 ge la3oshi1 bu2. (那个老师不胖。): That teacher is not fat.
-* bu2 ya4o shui4jia4o! (不要睡觉！): don t sleep
 * bu2 ya4o chi1 bu2 (不要吃不健康的东西。): Don t eat unhealthy food
-* wo3men de ma1o he3n pa4ng. (我们的猫很胖。): Our cat is fat.
+* bu2 ya4o shui4jia4o! (不要睡觉！): don t sleep
+* dia4nyi3ng ji3dia3n ka1ishi3? (电影几点开始？): What time does the movie start?
+* na3 ge la3oshi1 bu2. (那个老师不胖。): That teacher is not fat.
+* ni3 de go1ngzuo4 ta4i ma2ng le, ya4o zhu4yi4 she1nti3 jia4nka1ng. (你的工作太忙了，要注意身体健康。): You are too busy at work, you need to pay attention to your health.
+* ni3 jue2de ze3nmeya4ng? (你觉得怎么样？): How do you feel?
+* ni3 yo3u dia3r ga1o. (你有点儿高。): You are a bit tall
+* qi3ng zhu4yi4 jia4nka1ng! (请注意健康！): Please pay attention to your health!
+* she2nme shu1ca4i zui4 jia4nka1ng (什么蔬菜最健康？): What vegetables is the healthiest ?
+* ta1 me2i ge1 xi1ngqi1ri4 do1u qu4 dua4nlia4n. (他每个星期日都去锻炼。): He goes work out every Sunday.
+* ta1men ta4i le4i le. (他们太累了。): They are too tired.
 * we4ishe2nme ni3 jue2de ni3 he3n pa4ng? (为什么你觉得你很胖？): Why do you think that you are fat?
+* wo3 de she1n (我的身体不错。): My health  is pretty good
+* wo3 hui2 zhu4yi4 she1nti3 (我会注意身体。): I ll pay attention to my health
+* wo3 ji1ntia1n bu2 xia3ng go1ngzuo4. (我今天不想工作。): I don t want to work today.
+* wo3men de ma1o he3n pa4ng. (我们的猫很胖。): Our cat is fat.
 
 CHN-33-4-03 Transport
 =====================
