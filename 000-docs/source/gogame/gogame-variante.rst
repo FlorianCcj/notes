@@ -58,6 +58,17 @@ Les joueurs jouent dos à dos, chacun sur son goban, sans voir les coups de l’
 
 Une partie est généralement jouée sur 9×9. 
 
+* https://play.google.com/store/apps/details?id=de.roland_illig.android.phantomgo
+* https://go.kahv.io/ (prevu)
+
+La strasbourgeoise
+*******************
+
+Pio2001 (Guillaume)Hier à 23:31
+Salut, la règle strasbourgeoise (ou "stone scoring", en anglais, également équivalent à la notion de "group tax"), c'est celui qui a le plus de pierres sur le goban qui est le gagnant. Il faut donc remplir tous ses territoires jusqu'à ce qu'il n'y ait plus que deux yeux dans chacun. Le score (nombre de pierres) est alors maximal. Cela revient au même que la règle française / chinoise avec "group tax" : on est pénalisé de deux points par groupe vivant (les deux yeux). L'intérêt pédagogique est de faire découvrir pourquoi on passe notre tour à un certain moment. Avec cette règle, on apprend par l'exemple pourquoi l'invasion devient inutile à la fin et pourquoi les espaces vides sont des points pour nous. A moment donné, il devient évident qu'au lieu de tout remplir, on peut faire comme si, et compter les points.
+
+https://strasbourg.jeudego.org/regle_strasbourgeoise.htm
+
 Le go du demineur
 *****************
 
@@ -111,6 +122,13 @@ Play in this kind of goban
 
 .. image:: assets/Roundgo.jpg
 
+Torigo
+******
+
+Les bords ne sont plus des bords, la ligne de demarcation droit partage ses libertes avec la ligne de demarcation droit. De meme pour le haut et le bas
+
+https://torigo.io/
+
 Tsuke go
 *********
 
@@ -126,3 +144,6 @@ Source
 
 * http://go.quebecjeux.org/dimanche-22-dec-on-revisite-le-go-au-senthe-pour-noel/
 * http://www.youdzone.com/go.html
+* https://leweyg.github.io/FreedGames/FreedGo/ 
+* http://www.lewcid.com/lg/lc/freedgo.html
+* https://go.kahv.io/#

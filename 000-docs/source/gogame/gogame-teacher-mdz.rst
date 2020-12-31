@@ -573,6 +573,39 @@ Proverbe
 * on vient en keima les pierres en 4e lignes que l on veut attaquer
 * apres boshi souvent keima
 
+2020.11.12 - Opende France r1
+*****************************
+
+Game 1
+======
+
+* attaquer pour gagner quelque chose
+* attaquer pour construire
+* n attaquer pas juste pour attaquer sans savoir ce qu on y gagne
+* si vous ne voyez pas de benefice d attaque, jouer ailleur
+
+technique hamashi: 
+* laisser un groupe faible pour qu il vous attaque et qu il perde du temps a vous tuer
+
+Game 2
+======
+
+Revoir egalement ses victoires, on peut y voir des erreurs.
+
+Ne jamais prendre pour acquis qu un groupe est vivant
+
+Game 3
+======
+
+Quand on est faible a deux, la coupe c est la vie
+Les moyos c est pour faire de la force, pas des points
+
+Game 4
+======
+
+perdre c est progresser
+
+
 .. ========================================================
 
 Different part
