@@ -1,0 +1,34 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[fc][fd][hd][md][ge][he][ch][qj][dk][cn][dn][qn]AB[dd][gd][pd][fe][df][ff][gf][hf][pf][co][dp][fp][np][pp][jq]TR[hf]
+(;B[qh]
+;W[je]C[Blanc est trop heureux])
+(;B[jd]
+(;W[je]
+(;B[ke]
+;W[if]
+;B[kf]
+;W[ig]
+;B[mf]LB[kd:A][ld:B]C[Noir est plus tranquile blanc peut jouer A mais noir repond B et concerve la coupe])
+(;B[ie]
+;W[id]
+;B[if]
+;W[jc]
+;B[kd]
+;W[kc]C[Blanc s est connecte, blanc n a pas profiter de la mauvaise forme de blanc]))
+(;W[ie]
+;B[ke]
+;W[if]
+;B[kg]LB[mf:B][ig:A]C[A et B sont miai et c est tres douloureux pour blanc])
+(;W[hc]
+;B[jf]C[Correct for both])
+(;W[qq]
+;B[hc]
+;W[ic]
+;B[id]
+;W[gc]
+;B[hb]
+;W[ib]
+;B[ie]
+;W[gd]
+;B[jb]C[Si blanc tenuki il est pas bien])))

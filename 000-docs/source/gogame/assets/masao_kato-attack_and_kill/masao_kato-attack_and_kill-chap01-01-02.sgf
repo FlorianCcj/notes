@@ -1,0 +1,32 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[mp][fq][nq][oq]AB[dn][pn][no][dp][np][pp][pq]LB[kp:B][hq:A][kq:C]
+(;B[hq]
+;AW[bn][cq][jq][br][cr][dr]AB[gp][dq][eq][er][ds]LB[bn:12][gp:3][cq:4][dq:5][eq:11][hq:1][jq:2][br:8][cr:10][dr:6][er:7][ds:9]C[WRONG.
+
+Blanc est pas mal installe, il a prit le coin et noir a fait 4 points])
+(;B[kp]
+;AW[kr]LB[hq:5][jq:3][lq:1][jr:4][lr:2]C[WRONG.
+
+Noir peut mieux faire
+Blanc peut encore s installer (exemple sequence de 1 a 5) puis prendre le coin])
+(;B[kq]
+(;W[mo]
+;B[mn]
+;W[ko]
+;B[mq]C[CORRECT.
+
+Excellent profit])
+(;W[lq]
+;B[kp]
+;W[mo]
+;B[mn]
+;W[lo]C[CORRECT.
+
+Donne une mauvaise forme a blanc])
+(;W[lo]
+;B[ko]
+;W[kn]
+;B[kp]C[CORRECT.
+
+Noir aura deux coupes possibles])))

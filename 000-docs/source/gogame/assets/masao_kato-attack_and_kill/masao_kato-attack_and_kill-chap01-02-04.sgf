@@ -1,0 +1,10 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[cb][db][ec][jc][cd][dd][ed][jd][ld][nd][ge][ef][eh][ei][ej][qj][ck][dk][cl][qm][ln][fp][gp][dq][eq][fq][kq][mq][br][cr][fr][ir][jr]AB[fa][eb][gb][cc][dc][fc][lc][nc][oc][gd][id][qd][fe][qh][fi][fj][ek][dl][fl][dm][im][co][io][qo][dp][ep][pp][bq][cq][gq][hq][iq][oq][gr]
+;B[ke]
+(;W[kd]
+;B[je]C[Forcing a bad shape is a good idea])
+(;W[je]
+;B[kd]
+;W[qe]
+;B[md]C[White will not let a bad shape]))

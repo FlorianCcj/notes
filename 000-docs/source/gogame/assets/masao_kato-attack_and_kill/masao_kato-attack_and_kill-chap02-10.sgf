@@ -1,0 +1,28 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[cb][pb][dc][ec][fc][nc][jd][ld][ee][fe][dh][ph][rh][qi][qj][rk][rl][rm][cn][dn][en][mo][bp][np][lq][mq][nq][pq][qq][kr][lr][or][qr][ps]AB[bc][cc][qc][dd][pd][de][cf][ef][pf][qg][rg][oh][oi][pj][dk][qk][ql][dm][qm][nn][no][dp][fp][kp][lp][mp][op][pp][qp][cq][iq][oq][mr][nr]TR[dn]
+(;B[cm]C[Point vital car balnc n a pas fini le joseki]
+(;W[bm]
+;B[bl]
+;W[bn]
+;B[fk]LB[fh:B][gn:A]C[A et B miai])
+(;W[gn]
+;B[bn]
+;W[bo]
+;B[bm]
+;W[cp]
+;B[bq]LB[dh:A]C[Blanc va devoir courir pour vivre et n aura pas l occasion de sauver sa pierre A]))
+(;B[gn]
+;W[bk]C[Conciderer comme bon par certain pro])
+(;B[bq]
+;W[bk]C[C est gros mais blanc est vivant])
+(;B[fh]
+;W[bk]
+;B[bl]
+;W[cl]
+;B[ck]
+;W[bm]
+;B[bj]
+;W[al]
+;B[ci]C[mauvaise direction de jeu])
+(;B[bm]C[Fonctionne aussi pour prendre le point vital]))

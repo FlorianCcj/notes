@@ -1,0 +1,47 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ea][db][fb][bc][cc][ec][hc][mc][bd][dd][ed][fd][hd][de][ge][he][ie][le][ne][df][ef][if][jf][of][jg][qg][ih][jh][bi][ci][dj][fj][qj][gk][hk][ik][kk][mk][jl][co][dp][fp][fr]AB[fc][gc][jc][kc][oc][cd][gd][id][kd][od][qd][be][ce][ee][fe][je][ke][cf][ff][hf][kf][dg][eg][fg][gg][ig][kg][ch][hh][kh][ii][ji][ki][hj][ck][el][gm][im][jm][km][cn][dn][hp][pp]LB[mk:A]C[Comment profiter du groupe en A]
+(;B[pk]
+(;W[pj]
+;B[oj]
+;W[ok]
+;B[nk]
+;W[ol]
+;B[nl]C[Est ce trop beau pour etre vrai ?])
+(;W[nl]
+;B[pj]
+;W[qi]
+;B[oh]LB[qk:A]C[Jouer A par blanc ou noir va faire mal a blanc]))
+(;B[oj]
+(;W[ok]
+;B[pk]
+;W[pj]
+;B[nk]
+;W[ol]
+;B[nl]C[Non non non c est pas bien de rever])
+(;W[nl]
+;B[qk]
+;W[rk]
+;B[pk]
+;W[rl]
+;B[qm]C[The game
+
+Blanc s etend tranquillement et se fait une base de vie
+Noir fait une belle forme mais .... insufisante]
+;W[ni]
+;B[qi]
+;W[ri]
+;B[pj]
+;W[rj]
+;B[nj]
+;W[mj]
+;B[mi]
+;W[mh]
+;B[li]
+;W[om]
+;B[pm]
+;W[no]C[Blanc vie et l attaque a echoue]))
+(;B[mm]
+;W[ok]
+;B[om]
+;W[iq]C[Noir tente de faire du territoire mais c est encore grand ouvert grace a J3]))

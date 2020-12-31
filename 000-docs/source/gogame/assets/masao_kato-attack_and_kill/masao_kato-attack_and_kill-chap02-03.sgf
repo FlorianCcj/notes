@@ -1,0 +1,43 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[db][lb][jc][kc][lc][mc][cd][md][nd][de][ee][ne][ff][dg][eg][fg][ng][bh][ni][qm][cn][co][do][cp][fp][pp][fq]AB[na][mb][ob][ec][gc][hc][nc][oc][pc][jd][ld][od][qd][fe][ge][le][ef][gf][bg][cg][lg][ch][ci][pj][cm][dm][bn][dn][eq]LB[ni:A]C[Comment mettre la pression sur la pierre A et le groupe ratache]
+(;B[nk]
+;W[ph]LB[ok:A]C[Mauvaise reponse
+
+Blanc est virtuellement en vie
+Il reste une faiblesse en A])
+(;B[pl]
+;W[pm]
+;B[ol]
+;W[ph]C[
+
+Blanc est virtuellement en vie])
+(;B[pg]
+;W[og]
+;B[ph]
+;W[mj]LB[rj:A]C[Si noir essaie de faire du territoire, blanc s en sort et il reste une grosse ouverture en A])
+(;B[nf]
+(;W[mf]
+;B[of]
+;W[me]
+;B[mg]
+;W[lf]
+;B[kg]
+;W[je]
+;B[nh]C[Noir se fait une forcemonstrueuse et blanc est clompletement enferme :v:
+Mais blanc pouvait resister])
+(;W[of]
+;B[mf]
+;W[oe]
+;B[og]
+;W[pg]
+;B[oh]
+;W[qf]
+;B[oi]
+;W[rj]C[Echange satisfaisant pour noir blanc a quand meme sauver ses groupes avec un peu de territoire]
+;AB[nj]LB[nj:A]C[Si noir arrive a avoir la pierre une faiblesse sur le groupe blanc se reveille]
+;B[qh]
+;W[rh]
+;B[rg]
+;W[qi]
+;B[ph])))

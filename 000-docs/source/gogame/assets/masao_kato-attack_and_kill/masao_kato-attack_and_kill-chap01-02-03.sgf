@@ -1,0 +1,28 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[dc][jd][nd][de][ch][ql][co][ro][cp][rp][dq][fq]AB[qc][pe][nf][cj][qj][cn][dn][do][pp][qp][oq][rq]LB[ld:A][me:C][ej:B][ol:D][rm:E][qn:F]
+(;B[ld]
+;W[me]C[WRONG.
+
+quite complex])
+(;B[ej]
+;W[ol]C[WRONG.
+
+it s equal, you can do bettre])
+(;B[oj]
+;W[pn]C[WRONG.
+
+Inadequate, you give white life to easy])
+(;B[ol]
+;W[pk]C[WONRG.
+
+quite complex])
+(;B[rm]
+;AW[ok][rl][pm]AB[qm][qn]LB[ok:6][rl:2][pm:4][qm:3][rm:1][qn:5]C[WRONG.
+
+Destroy life base is good but can do better])
+(;B[qn]
+;AW[ol][rl][rm][rn]AB[ej][oj][rk][qm]LB[oj:7][rk:5][ol:8][rl:6][qm:3][rm:4][qn:1][rn:2]C[CORRECT.
+
+Just one eye shape
+Construct on the top right]))

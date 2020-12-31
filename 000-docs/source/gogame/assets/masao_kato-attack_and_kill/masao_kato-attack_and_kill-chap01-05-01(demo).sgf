@@ -1,0 +1,7 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[ol][pl][nm][om][mp][nq]AB[pd][pj][ok][nl][pn][no][np][pp]LB[ok:2][nl:4][ol:3][pl:1][nm:9][om:5][no:8][mp:7][np:6]
+(;B[mo]
+;AW[ml][lm]AB[nk][lp]LB[nk:2][ml:1][lm:3][lp:4]C[On attack d un cote pour mettre la pression de l autre, mais si blanc s echappe on peut attaquer le groupe laisser a l abandon])
+(;B[mq]
+;AW[lo][mo][lq][oq][lr]AB[mm][mn][lp][pq][mr]LB[mm:12][nm:3][mn:10][lo:11][mo:9][lp:8][lq:5][mq:4][oq:1][pq:2][lr:7][mr:6]C[Blanc peut essayer de se debattre]))

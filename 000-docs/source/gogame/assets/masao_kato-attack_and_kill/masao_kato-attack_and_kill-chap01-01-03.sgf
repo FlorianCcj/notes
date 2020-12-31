@@ -1,0 +1,12 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[kl][km][kn][lo][mo][mp][fq][nq][oq]AB[jm][dn][jn][pn][ko][no][dp][kp][np][pp][kq][pq]
+(;B[hq]
+;AW[dq][cr][er]AB[cp][cq]LB[cp:5][cq:3][dq:2][hq:1][cr:4][er:6]C[WRONG.
+
+Blanc obtient une forme vivant beaucoup trop facillement])
+(;B[eq]
+;AW[fp][iq][er][fr][jr]AB[fn][io][dr][kr]LB[fn:3][io:5][fp:2][eq:1][iq:4][mq:B][dr:9][er:8][fr:10][hr:A][jr:6][kr:7]C[CORRECT.
+
+Il reste une faiblesse en A
+La sequence reveille la faiblesse en B grace a 7]))

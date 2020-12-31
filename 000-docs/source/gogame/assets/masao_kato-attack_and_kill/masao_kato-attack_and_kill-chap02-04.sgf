@@ -1,0 +1,37 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[dc][gc][qc][be][ce][he][ke][af][cf][bg][di][ei][fi][ii][oi][pi][qi][qj][fk][dl][dm][cn][co][eo][fo][oo][qo][bp][cp][dp][fp][lp][mp][pp][cq][pq][qr]AB[ic][oc][kd][ld][pd][qd][df][ff][cg][og][qg][bh][ch][eh][fh][gh][cj][dj][pj][pk][cl][ml][cm][ep][bq][dq][eq][kq][mq][nq][oq][br][cr][gr][pr]LB[nj:B]C[Begin with B]
+;B[nj]LB[qk:A]C[If black block at A white group will be weak
+But white connecting is too small]
+(;W[ql]
+;B[pl]
+;W[qm]
+;B[mh]C[Black can t be attack anymore])
+(;W[ni]
+;B[mj]
+;W[mi]
+;B[lj]
+;W[mg]
+;B[qk]C[Black is virtually alive])
+(;W[oj]
+;B[ok]
+;W[mj]
+(;B[ni]
+;W[nk]
+(;B[mk]
+;W[nl]LB[nm:A]C[The ladder in A does not word so white make good teritory])
+(;B[nl]
+;W[mk]
+(;B[mi]
+;W[ol]LB[lj:A][lk:B]C[Ladder at A or B doesn t work])
+(;B[om]
+;W[nh])))
+(;B[mn]
+;W[ni]
+;B[kp]
+;W[ko]
+;B[lo]
+;W[mo]
+;B[ln]
+;W[jo]C[The game
+White switch from defensive to offensive])))

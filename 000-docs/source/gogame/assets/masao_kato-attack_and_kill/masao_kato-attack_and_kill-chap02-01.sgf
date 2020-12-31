@@ -1,0 +1,40 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qb][dc][jc][lc][nc][oc][qc][nd][ce][of][ck][ek][ol][ql][do][jo][ro][dp][jp][cq][eq][jq][br][cr]AB[rc][ld][od][pd][qd][ne][oe][lf][qg][qj][bm][dm][dn][co][lo][po][cp][gp][ip][bq][fq][lq][pq][rq]LB[ip:1][jp:2]
+(;B[jm]
+(;W[kn]
+;B[mm]
+;W[km]
+;B[mk]LB[jl:A][rm:B]C[Splitting attack
+
+Permit to attack both group
+
+A and B dangerous for white])
+(;W[in]
+;B[eo]
+;W[im]
+;B[jk]LB[jk:5][im:4][jm:1][rm:A][in:2][eo:3]C[You need to protect with 3 but you can still attack in A])
+(;W[ho]
+;B[eo]
+;W[ep]
+;B[fo]
+;W[hm]
+;B[er]
+;W[bp]
+;B[bo]
+;W[aq]
+;B[fl]
+;W[hk]
+;B[fk]
+;W[ej]
+;B[rm]
+;W[qk]
+;B[qn]
+;W[pj]
+;B[qi]C[The actual game]))
+(;B[km]
+;W[jm]
+;B[jl]
+;W[im]
+;B[kl]
+;W[fo]LB[rm:A]C[Black is very strong so A can easily be attack]))

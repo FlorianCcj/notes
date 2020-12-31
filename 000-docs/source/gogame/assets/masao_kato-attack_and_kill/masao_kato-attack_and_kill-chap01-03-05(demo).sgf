@@ -1,0 +1,22 @@
+(;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
+RU[Japanese]SZ[19]KM[0.00]
+PW[White]PB[Black]AW[qc][bd][be][pf][ch][pi][qo][fp][jq][pq]AB[bc][ec][cd][dd][jd][nd][cj][dn][fn][cq]
+(;B[cf]
+;W[eh]C[Resultat pas terrible])
+(;B[ej]
+;W[eh]C[Pas beaucoup mieux])
+(;B[eh]
+(;W[df]
+;B[ef]
+;W[dg]
+;B[eg]
+;W[bi]
+;B[bj]
+;W[bg]
+;B[mh]C[Blanc se stabilise et noir moyote])
+(;W[di]
+;B[fj]
+;W[dj]
+;B[ck]
+;W[dk]
+;B[cl]C[Si blanc force le passage ca ne lui apporte pas grand chose])))
