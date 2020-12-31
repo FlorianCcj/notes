@@ -46,6 +46,12 @@ kick someone
 ************
 
 * :code:`pkill -o -u <username> sshd`
+* :code:`skill -u <username>`: kill session
+
+Network
+*******
+
+* :code:`apt install wireless-tools`
 
 package
 *******
@@ -62,6 +68,18 @@ process
 ********
 
 * :code:`ps -p 2053 -o comm=`: find process by pid
+
+Terminal
+********
+
+Guake
+=====
+
+appear just with :code:`F12`
+
+shortbut -> RMB -> preferance
+
+launch at startup: :code:`sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/`
 
 Sources
 *******

@@ -91,6 +91,7 @@
     enigma/amazon-software_development_engineer_interview.rst
     enigma/enigma-youtube.rst
     fantasy/fantasy-kabbale_angel.rst
+    gogame/gogame-reading.rst
     gogame/gogame-teacher.rst
     gogame/gogame-teacher-ish.rst
     gogame/gogame-teacher-mdz.rst
@@ -117,14 +118,18 @@
     methodology/methodology-fail_over.rst
     methodology/methodology-good_practices.rst
     methodology/methodology-make_a_readme.rst
+    methodology/methodology-parcours_colaborateur.rst
     methodology/methodology-suck_in_programming.rst
     money/job-the_good_question.rst
     money/money-libre_et_riche.rst
     money/money-lucbrialy.rst
     money/money-pierre_olivier.rst
     money/money-cafe_de_la_bourse.rst
+    money/money-central_chart-formation_complete_trading.rst
+    money/money-new_begin_2021
     money/money-thiami_kabbay-trading_art.rst
     money/money-trading.rst
+    music/music-beatbox.rst
     reading/disk_world.rst
     recipe/recipe-eggs.rst
     recipe/recipe-pasta.rst

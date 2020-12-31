@@ -135,3 +135,66 @@ Avoir son grand eccard
   * jambe plier sous la hanche
   * 2e jambe sur le cote
   * s allonger sur la jambe
+
+Des Abdos sans crunch ni gym
+****************************
+
+:source: https://www.youtube.com/watch?v=GIYsipURsRY
+
+* cercle de bras
+
+  * 20 sec chaque sens
+  * contracte les abdos
+
+* cercle de jambe
+
+  * main sur les hanches
+  * faire tourner la jambe sur le cote
+  * l une apres l autres
+  * 20 sec chaque sens
+
+* levee de jambe
+
+  * pose sur une chaise
+  * lever la jambe
+  * doigt de pied tendu
+  * 20 sec
+  * si reussite de 10 repetition, levee de jambe plus haut
+
+* contraction sur chaise
+
+  * souleve tes faissiers avec les bras
+  * 30 sec
+  * si possible souleve les jambes
+
+* pompe sur chaise
+
+  * 5 repetitions
+
+* balancement des genoux
+
+  * ramene les genoux sur la poitrine
+  * puis lance les d un cote puis de l autre
+
+* batement des jambes
+
+  * 30 sec
+  * plus tu tepenche en ariere plus tu travailleras
+
+* coup de pied ciseau
+
+  * 20 sec
+  * croise les l une au dessus de l autre
+  * leve les pour augmenter la difficulter
+  * ne pas se pencher en arriere
+
+* genoux au coude
+
+  * 40 sec
+  * le coude touche le genoux assis sur la chaise
+
+* dips des triceps
+
+  * mains sur la chaise
+  * les fesses en dehors
+  * on monte et on dessend les fesses

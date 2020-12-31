@@ -42,5 +42,4 @@ Comment trouver un bon locataire
   * si en retard qu il me contact avant, pour eviter que des procedure a son encontre ne soit lancer
   * les fluides a sa charge
 
-
 Si probleme de paiement -> huissier

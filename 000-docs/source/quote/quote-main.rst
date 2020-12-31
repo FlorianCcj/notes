@@ -30,7 +30,7 @@ Mentalism
 Other
 =====
 
-:David Laroche: Je peu pas vous dire que si vous y croyez vous allez reussir, mais je peux vous garantir que si vous arétez d y croire vous allez echouer
+:David Laroche: Je peux pas vous dire que si vous y croyez vous allez reussir, mais je peux vous garantir que si vous arétez d y croire vous allez echouer
 
 :John Lenon: "La vie cest ce qui vous arrive quand vous etes occupe a d autre projet"
 
@@ -57,6 +57,14 @@ Other
 :???: il ne savait pas que c'etait impossible alors ils l ont fait
 
 :???: il vaut mieux être approximativement juste que précisément faux 
+
+:Goethe: Traitez les gens comme s ils etaient ce qu ils pourraient etre et vous les aiderez a devenir ce qu ils sont capables d etre
+
+:Fabien (groupe facebook): Tiens toi loin des gens negatifs ils ont un probleme a chaque solution
+
+:Socrate: C est souffrir plus que necessaire que de souffrir avant que ne ce ne soit necessaire
+
+:???: Les folies sont les seuls choses qu on ne regrettent jamais
 
 Proverbe Geek #042
 Dans le doute, reboot
