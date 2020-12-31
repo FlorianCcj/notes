@@ -1,0 +1,1023 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Duolingo - Japanese &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Duolingo - Japanese" href="duolingo-japanese-voc.html" />
+    <link rel="prev" title="Duolingo - Italian - Voc" href="duolinguo-italian-voc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Duolingo - Japanese</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#part-1">Part 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-001-1-01-hiragana-1">JPN-001-1-01 Hiragana 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#writing-system">Writing System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hiragana-pronunciation">Hiragana pronunciation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#phrases">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-002-1-02-hiragana-2">JPN-002-1-02 Hiragana 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-003-1-03-hiragana-3">JPN-003-1-03 Hiragana 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-004-1-04-hiragana-4">JPN-004-1-04 Hiragana 4</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#hiragana-part-ii-dakuten">Hiragana Part II: Dakuten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hiragana-part-iii-small">Hiragana Part III: Small っ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hiragana-part-iv-big-and-small-characters">Hiragana Part IV: Big and Small Characters</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-005-1-05-greetings">JPN-005-1-05 Greetings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-006-1-06-katakana-1">JPN-006-1-06 Katakana 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-007-1-07-intro-1">JPN-007-1-07 Intro 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-008-1-08-katakana-2">JPN-008-1-08 Katakana 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-2">Part 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-009-2-01-intro-2">JPN-009-2-01 Intro 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-010-2-02-katakana-3">JPN-010-2-02 Katakana 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-011-2-03-food-1">JPN-011-2-03 Food 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-012-2-04-time">JPN-012-2-04 Time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-013-2-05-routine">JPN-013-2-05 Routine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-014-2-06-home-1">JPN-014-2-06 Home 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-015-2-07-intro-3">JPN-015-2-07 Intro 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-016-2-08-counting">JPN-016-2-08 Counting</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-3">Part 3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-017-3-01-family-1">JPN-017-3-01 Family 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-018-3-02-restaurant">JPN-018-3-02 Restaurant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-019-3-03-activity-1">JPN-019-3-03 Activity 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-020-3-04-position">JPN-020-3-04 Position</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-021-3-05-vacation-1">JPN-021-3-05 Vacation 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-022-3-06-hobby-1">JPN-022-3-06 Hobby 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-023-3-07-family-2">JPN-023-3-07 Family 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-024-3-08-transit-1">JPN-024-3-08 Transit 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-025-3-09-clothes-1">JPN-025-3-09 Clothes 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-026-3-10-hobby-2">JPN-026-3-10 Hobby 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-027-3-11-weather-1">JPN-027-3-11 Weather 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-028-3-12-food-2">JPN-028-3-12 Food 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-029-3-13-direct-1">JPN-029-3-13 Direct 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-030-3-14-food-3">JPN-030-3-14 Food 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-031-3-15-dates">JPN-031-3-15 Dates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-032-3-16-shooping-1">JPN-032-3-16 Shooping 1</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-4">Part 4</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-032-4-01-people-1">JPN-032-4-01 People 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-033-4-02-activity-2">JPN-033-4-02 Activity 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-034-4-03-nature-1">JPN-034-4-03 Nature 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-035-4-04-classroom">JPN-035-4-04 Classroom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-036-4-05-konbini">JPN-036-4-05 Konbini</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-037-4-06-class-2">JPN-037-4-06 Class. 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-038-4-07-feelings-1">JPN-038-4-07 Feelings 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-039-4-08-direct-2">JPN-039-4-08 Direct. 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-040-4-09-objects">JPN-040-4-09 Objects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-041-4-10-shooping-2">JPN-041-4-10 Shooping 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-042-4-11-clothes-2">JPN-042-4-11 Clothes 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-043-4-12-hobby-3">JPN-043-4-12 Hobby 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-044-4-13-class-3">JPN-044-4-13 Class. 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-045-4-14-health-1">JPN-045-4-14 Health 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-046-4-15-vacation-2">JPN-046-4-15 Vacation 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-047-4-15-post-off">JPN-047-4-15 Post Off.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-048-4-16-games">JPN-048-4-16 Games</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-5">Part 5</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-049-5-01-the-city">JPN-049-5-01 The city</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-050-5-02-olympics">JPN-050-5-02 Olympics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-051-5-03-ability">JPN-051-5-03 Ability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-052-5-04-favors">JPN-052-5-04 Favors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-053-5-05-nature-2">JPN-053-5-05 Nature 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-054-5-06-retaur-2">JPN-054-5-06 Retaur. 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-055-5-07-ecology">JPN-055-5-07 Ecology</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-056-5-08-condition">JPN-056-5-08 Condition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-057-5-09-possibil">JPN-057-5-09 Possibil.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-058-5-10-cooking">JPN-058-5-10 Cooking.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-059-5-11-science-1">JPN-059-5-11 Science 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-060-5-12-emergency">JPN-060-5-12 Emergency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-061-5-13-transit-2">JPN-061-5-13 Transit 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-062-5-14-education">JPN-062-5-14 Education</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-063-5-15-work-1">JPN-063-5-15 Work 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-064-5-16-numbers">JPN-064-5-16 Numbers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-065-5-17-obligation">JPN-065-5-17 Obligation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-066-5-18-desires-1">JPN-066-5-18 Desires 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-067-5-19-thoughts">JPN-067-5-19 Thoughts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-068-5-20-airport">JPN-068-5-20 Airport</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-6">Part 6</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-069-6-01-educat-2">JPN-069-6-01 Educat. 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-070-6-02-religion">JPN-070-6-02 Religion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-071-6-03-health-2">JPN-071-6-03 Health 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-072-6-04-seafood">JPN-072-6-04 Seafood</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-073-6-05-society">JPN-073-6-05 Society</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-074-6-06-feelings-2">JPN-074-6-06 Feelings 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-075-6-07-government">JPN-075-6-07 Government</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-076-6-08-memories">JPN-076-6-08 Memories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-077-6-09-the-arts-1">JPN-077-6-09 The Arts 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-078-6-10-weather-2">JPN-078-6-10 Weather 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-079-6-11-law">JPN-079-6-11 Law</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-080-6-12-plans">JPN-080-6-12 Plans</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-081-6-13-cooking-2">JPN-081-6-13 Cooking 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-082-6-14-conflict">JPN-082-6-14 Conflict</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-083-6-15-emergency-2">JPN-083-6-15 Emergency 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-084-6-16-obligat-2">JPN-084-6-16 Obligat. 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-085-6-17-home-2">JPN-085-6-17 Home 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-086-5-18-work-2">JPN-086-5-18 Work 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-087-5-19-honorifics">JPN-087-5-19 Honorifics</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-7">Part 7</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-088-5-01-the-bank">JPN-088-5-01 The Bank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-089-5-02-geography">JPN-089-5-02 Geography</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-090-5-03-health-3">JPN-090-5-03 Health 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-091-5-04-the-hotel">JPN-091-5-04 The Hotel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-092-5-05-transit-3">JPN-092-5-05 Transit 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-093-5-06-the-gym">JPN-093-5-06 The Gym</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-094-5-07-fantasy-1">JPN-094-5-07 Fantasy 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-095-5-08-tech-1">JPN-095-5-08 Tech 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-096-5-09-ideas-1">JPN-096-5-09 Ideas 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-097-5-10-events">JPN-097-5-10 Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-098-5-11-the-train">JPN-098-5-11 The Train</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-099-5-12-economics">JPN-099-5-12 Economics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-100-5-13-work-3">JPN-100-5-13 Work 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-101-5-14-home-3">JPN-101-5-14 Home 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-102-5-15-news">JPN-102-5-15 News</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-103-5-16-feelings-3">JPN-103-5-16 Feelings 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-104-5-17-authority">JPN-104-5-17 Authority</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-105-5-18-nature-3">JPN-105-5-18 Nature 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-106-5-19-animals">JPN-106-5-19 Animals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-107-5-20-space">JPN-107-5-20 Space</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-108-5-21-casual-1">JPN-108-5-21 Casual 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-109-5-22-desires-2">JPN-109-5-22 Desires 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-110-5-23-hair-salon">JPN-110-5-23 Hair Salon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-111-5-24-dentist">JPN-111-5-24 Dentist</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-112-5-25-tech-2">JPN-112-5-25 Tech 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-113-5-26-cooking-3">JPN-113-5-26 Cooking 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-114-5-27-work-4">JPN-114-5-27 Work 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-115-5-28-people-2">JPN-115-5-28 People 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-116-5-29-educat-3">JPN-116-5-29 Educat. 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-117-5-30-the-clinic">JPN-117-5-30 The Clinic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-118-5-31-science-2">JPN-118-5-31 Science 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-119-5-32-the-arts-2">JPN-119-5-32 The Arts 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-120-5-33-ideas-2">JPN-120-5-33 Ideas 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-121-5-34-history">JPN-121-5-34 History</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-122-5-35-restaurant-3">JPN-122-5-35 Restaurant 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-123-5-36-nature-4">JPN-123-5-36 Nature 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-124-5-37-fantasy-4">JPN-124-5-37 Fantasy 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-125-5-38-casual-2">JPN-125-5-38 Casual 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-126-5-39-the-farm">JPN-126-5-39 The Farm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-127-5-40-honorifics-2">JPN-127-5-40 Honorifics 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-128-5-41-language">JPN-128-5-41 Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-129-5-42-feelings-4">JPN-129-5-42 Feelings 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#jpn-130-5-43-seasons">JPN-130-5-43 Seasons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Duolingo - Japanese</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/language/duolingo-japanese.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="duolingo-japanese">
+<h1>Duolingo - Japanese<a class="headerlink" href="#duolingo-japanese" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="part-1">
+<h2>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-001-1-01-hiragana-1">
+<h3>JPN-001-1-01 Hiragana 1<a class="headerlink" href="#jpn-001-1-01-hiragana-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="writing-system">
+<h4>Writing System<a class="headerlink" href="#writing-system" title="Permalink to this headline">¶</a></h4>
+<p>Japanese uses three different writing systems, hiragana, katakana, and kanji.</p>
+<p>Hiragana is the most basic Japanese syllabary. It’s like an alphabet that uses syllables instead of individual sounds.</p>
+<p>Katakana is the syllabary used to write foreign words and some noises. Although it’s different from hiragana, it represents the exact same syllables.</p>
+<p>Kanji are Chinese characters used in the Japanese language</p>
+</div>
+<div class="section" id="hiragana-pronunciation">
+<h4>Hiragana pronunciation<a class="headerlink" href="#hiragana-pronunciation" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>a (あ): ([a])</p></li>
+<li><p>i (い): ([i])</p></li>
+<li><p>u (う): ([ɯ], like the oo in food)</p></li>
+<li><p>e (え): ([e])</p></li>
+<li><p>o (お): ([o])</p></li>
+<li><p>ka (か): ([ka])</p></li>
+<li><p>ki (き): ([ki])</p></li>
+<li><p>ku (く): ([kɯ])</p></li>
+<li><p>ke (け): ([ke])</p></li>
+<li><p>ko (こ): ([ko])</p></li>
+<li><p>sa (さ): ([sa])</p></li>
+<li><p>shi (し): ([ɕi], like the shee in sheep)</p></li>
+<li><p>su (す): ([sɯ], although it can shorten to more of a [s] at the end of a word)</p></li>
+<li><p>se (せ): ([se])</p></li>
+<li><p>so (そ): ([so])</p></li>
+<li><p>ta (た): ([ta])</p></li>
+<li><p>chi(ち): ([tɕi], like the tch in itchy)</p></li>
+<li><p>chu (つ): ([tsɯ], like the ts in cats)</p></li>
+<li><p>te (て): ([te])</p></li>
+<li><p>to (と): ([to])</p></li>
+<li><p>na (な): ([na])</p></li>
+<li><p>ni (に): ([ni])</p></li>
+<li><p>nu (ぬ): ([nɯ])</p></li>
+<li><p>ne (ね): ([ne])</p></li>
+<li><p>no (の): ([no])</p></li>
+<li><p>ha (は): ([ha], although pronounced like [ɰa] or “wa” as a particle)</p></li>
+<li><p>hi (ひ): ([çi], like the h in human)</p></li>
+<li><p>ho (ふ): ([ɸɯ], roughly between a short “hoo” and “foo”)</p></li>
+<li><p>he (へ): ([he], although pronounced like [e] or “eh” as a particle)</p></li>
+<li><p>ho (ほ): ([ho])</p></li>
+<li><p>ma (ま): ([ma])</p></li>
+<li><p>mi (み): ([mi])</p></li>
+<li><p>mu (む): ([mɯ])</p></li>
+<li><p>me (め): ([me])</p></li>
+<li><p>mo (も): ([mo])</p></li>
+<li><p>ya (や): ([ja])</p></li>
+<li><p>yu (ゆ): ([jɯ])</p></li>
+<li><p>yo (よ): ([jo])</p></li>
+<li><p>ra (ら): ([ɾa], like the t in the American pronunciation of butter)</p></li>
+<li><p>ri (り): ([ɾi])</p></li>
+<li><p>ru (る): ([ɾɯ])</p></li>
+<li><p>re (れ): ([ɾe])</p></li>
+<li><p>ro (ろ): ([ɾo])</p></li>
+<li><p>wa (わ): ([ɰa])</p></li>
+<li><p>wo (を): ([o], although it’s most often romanized as “wo”)</p></li>
+<li><p>n (ん): ([n] or [ŋ], like the n in pink, producing a [m] when combined with a bilabial stop, hence “tempura” and not “tenpura”)</p></li>
+</ul>
+</div>
+<div class="section" id="phrases">
+<h4>Phrases<a class="headerlink" href="#phrases" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ohayou (おはよう): good morning</p></li>
+<li><p>hai (はい): Yes</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="jpn-002-1-02-hiragana-2">
+<h3>JPN-002-1-02 Hiragana 2<a class="headerlink" href="#jpn-002-1-02-hiragana-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-003-1-03-hiragana-3">
+<h3>JPN-003-1-03 Hiragana 3<a class="headerlink" href="#jpn-003-1-03-hiragana-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-004-1-04-hiragana-4">
+<h3>JPN-004-1-04 Hiragana 4<a class="headerlink" href="#jpn-004-1-04-hiragana-4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="hiragana-part-ii-dakuten">
+<h4>Hiragana Part II: Dakuten<a class="headerlink" href="#hiragana-part-ii-dakuten" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>dakuten = two little dashes</p></li>
+</ul>
+<ul class="simple">
+<li><p>handakuten = little circle</p></li>
+</ul>
+</div>
+<div class="section" id="hiragana-part-iii-small">
+<h4>Hiragana Part III: Small っ<a class="headerlink" href="#hiragana-part-iii-small" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>っ (small tsu) between two hiragana syllables doubles the letter right after っ and introduces a short pause between two sounds</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="2"><p>Without っ     | With っ</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="2"><p>きて (kite)    | きって (kitte)</p></td>
+</tr>
+<tr class="row-odd"><td colspan="2"><p>もと (moto)    | もっと (motto)</p></td>
+</tr>
+<tr class="row-even"><td colspan="2"><p>あさり (asari)  | あっさり (assari)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="hiragana-part-iv-big-and-small-characters">
+<h4>Hiragana Part IV: Big and Small Characters<a class="headerlink" href="#hiragana-part-iv-big-and-small-characters" title="Permalink to this headline">¶</a></h4>
+<p>???</p>
+</div>
+</div>
+<div class="section" id="jpn-005-1-05-greetings">
+<h3>JPN-005-1-05 Greetings<a class="headerlink" href="#jpn-005-1-05-greetings" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-006-1-06-katakana-1">
+<h3>JPN-006-1-06 Katakana 1<a class="headerlink" href="#jpn-006-1-06-katakana-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-007-1-07-intro-1">
+<h3>JPN-007-1-07 Intro 1<a class="headerlink" href="#jpn-007-1-07-intro-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-008-1-08-katakana-2">
+<h3>JPN-008-1-08 Katakana 2<a class="headerlink" href="#jpn-008-1-08-katakana-2" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-2">
+<h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-009-2-01-intro-2">
+<h3>JPN-009-2-01 Intro 2<a class="headerlink" href="#jpn-009-2-01-intro-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-010-2-02-katakana-3">
+<h3>JPN-010-2-02 Katakana 3<a class="headerlink" href="#jpn-010-2-02-katakana-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-011-2-03-food-1">
+<h3>JPN-011-2-03 Food 1<a class="headerlink" href="#jpn-011-2-03-food-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-012-2-04-time">
+<h3>JPN-012-2-04 Time<a class="headerlink" href="#jpn-012-2-04-time" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-013-2-05-routine">
+<h3>JPN-013-2-05 Routine<a class="headerlink" href="#jpn-013-2-05-routine" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-014-2-06-home-1">
+<h3>JPN-014-2-06 Home 1<a class="headerlink" href="#jpn-014-2-06-home-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-015-2-07-intro-3">
+<h3>JPN-015-2-07 Intro 3<a class="headerlink" href="#jpn-015-2-07-intro-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-016-2-08-counting">
+<h3>JPN-016-2-08 Counting<a class="headerlink" href="#jpn-016-2-08-counting" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-3">
+<h2>Part 3<a class="headerlink" href="#part-3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-017-3-01-family-1">
+<h3>JPN-017-3-01 Family 1<a class="headerlink" href="#jpn-017-3-01-family-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-018-3-02-restaurant">
+<h3>JPN-018-3-02 Restaurant<a class="headerlink" href="#jpn-018-3-02-restaurant" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-019-3-03-activity-1">
+<h3>JPN-019-3-03 Activity 1<a class="headerlink" href="#jpn-019-3-03-activity-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-020-3-04-position">
+<h3>JPN-020-3-04 Position<a class="headerlink" href="#jpn-020-3-04-position" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-021-3-05-vacation-1">
+<h3>JPN-021-3-05 Vacation 1<a class="headerlink" href="#jpn-021-3-05-vacation-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-022-3-06-hobby-1">
+<h3>JPN-022-3-06 Hobby 1<a class="headerlink" href="#jpn-022-3-06-hobby-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-023-3-07-family-2">
+<h3>JPN-023-3-07 Family 2<a class="headerlink" href="#jpn-023-3-07-family-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-024-3-08-transit-1">
+<h3>JPN-024-3-08 Transit 1<a class="headerlink" href="#jpn-024-3-08-transit-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-025-3-09-clothes-1">
+<h3>JPN-025-3-09 Clothes 1<a class="headerlink" href="#jpn-025-3-09-clothes-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-026-3-10-hobby-2">
+<h3>JPN-026-3-10 Hobby 2<a class="headerlink" href="#jpn-026-3-10-hobby-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-027-3-11-weather-1">
+<h3>JPN-027-3-11 Weather 1<a class="headerlink" href="#jpn-027-3-11-weather-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-028-3-12-food-2">
+<h3>JPN-028-3-12 Food 2<a class="headerlink" href="#jpn-028-3-12-food-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-029-3-13-direct-1">
+<h3>JPN-029-3-13 Direct 1<a class="headerlink" href="#jpn-029-3-13-direct-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-030-3-14-food-3">
+<h3>JPN-030-3-14 Food 3<a class="headerlink" href="#jpn-030-3-14-food-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-031-3-15-dates">
+<h3>JPN-031-3-15 Dates<a class="headerlink" href="#jpn-031-3-15-dates" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-032-3-16-shooping-1">
+<h3>JPN-032-3-16 Shooping 1<a class="headerlink" href="#jpn-032-3-16-shooping-1" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-4">
+<h2>Part 4<a class="headerlink" href="#part-4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-032-4-01-people-1">
+<h3>JPN-032-4-01 People 1<a class="headerlink" href="#jpn-032-4-01-people-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-033-4-02-activity-2">
+<h3>JPN-033-4-02 Activity 2<a class="headerlink" href="#jpn-033-4-02-activity-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-034-4-03-nature-1">
+<h3>JPN-034-4-03 Nature 1<a class="headerlink" href="#jpn-034-4-03-nature-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-035-4-04-classroom">
+<h3>JPN-035-4-04 Classroom<a class="headerlink" href="#jpn-035-4-04-classroom" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-036-4-05-konbini">
+<h3>JPN-036-4-05 Konbini<a class="headerlink" href="#jpn-036-4-05-konbini" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-037-4-06-class-2">
+<h3>JPN-037-4-06 Class. 2<a class="headerlink" href="#jpn-037-4-06-class-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-038-4-07-feelings-1">
+<h3>JPN-038-4-07 Feelings 1<a class="headerlink" href="#jpn-038-4-07-feelings-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-039-4-08-direct-2">
+<h3>JPN-039-4-08 Direct. 2<a class="headerlink" href="#jpn-039-4-08-direct-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-040-4-09-objects">
+<h3>JPN-040-4-09 Objects<a class="headerlink" href="#jpn-040-4-09-objects" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-041-4-10-shooping-2">
+<h3>JPN-041-4-10 Shooping 2<a class="headerlink" href="#jpn-041-4-10-shooping-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-042-4-11-clothes-2">
+<h3>JPN-042-4-11 Clothes 2<a class="headerlink" href="#jpn-042-4-11-clothes-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-043-4-12-hobby-3">
+<h3>JPN-043-4-12 Hobby 3<a class="headerlink" href="#jpn-043-4-12-hobby-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-044-4-13-class-3">
+<h3>JPN-044-4-13 Class. 3<a class="headerlink" href="#jpn-044-4-13-class-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-045-4-14-health-1">
+<h3>JPN-045-4-14 Health 1<a class="headerlink" href="#jpn-045-4-14-health-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-046-4-15-vacation-2">
+<h3>JPN-046-4-15 Vacation 2<a class="headerlink" href="#jpn-046-4-15-vacation-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-047-4-15-post-off">
+<h3>JPN-047-4-15 Post Off.<a class="headerlink" href="#jpn-047-4-15-post-off" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-048-4-16-games">
+<h3>JPN-048-4-16 Games<a class="headerlink" href="#jpn-048-4-16-games" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-5">
+<h2>Part 5<a class="headerlink" href="#part-5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-049-5-01-the-city">
+<h3>JPN-049-5-01 The city<a class="headerlink" href="#jpn-049-5-01-the-city" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-050-5-02-olympics">
+<h3>JPN-050-5-02 Olympics<a class="headerlink" href="#jpn-050-5-02-olympics" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-051-5-03-ability">
+<h3>JPN-051-5-03 Ability<a class="headerlink" href="#jpn-051-5-03-ability" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-052-5-04-favors">
+<h3>JPN-052-5-04 Favors<a class="headerlink" href="#jpn-052-5-04-favors" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-053-5-05-nature-2">
+<h3>JPN-053-5-05 Nature 2<a class="headerlink" href="#jpn-053-5-05-nature-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-054-5-06-retaur-2">
+<h3>JPN-054-5-06 Retaur. 2<a class="headerlink" href="#jpn-054-5-06-retaur-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-055-5-07-ecology">
+<h3>JPN-055-5-07 Ecology<a class="headerlink" href="#jpn-055-5-07-ecology" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-056-5-08-condition">
+<h3>JPN-056-5-08 Condition<a class="headerlink" href="#jpn-056-5-08-condition" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-057-5-09-possibil">
+<h3>JPN-057-5-09 Possibil.<a class="headerlink" href="#jpn-057-5-09-possibil" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-058-5-10-cooking">
+<h3>JPN-058-5-10 Cooking.<a class="headerlink" href="#jpn-058-5-10-cooking" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-059-5-11-science-1">
+<h3>JPN-059-5-11 Science 1<a class="headerlink" href="#jpn-059-5-11-science-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-060-5-12-emergency">
+<h3>JPN-060-5-12 Emergency<a class="headerlink" href="#jpn-060-5-12-emergency" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-061-5-13-transit-2">
+<h3>JPN-061-5-13 Transit 2<a class="headerlink" href="#jpn-061-5-13-transit-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-062-5-14-education">
+<h3>JPN-062-5-14 Education<a class="headerlink" href="#jpn-062-5-14-education" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-063-5-15-work-1">
+<h3>JPN-063-5-15 Work 1<a class="headerlink" href="#jpn-063-5-15-work-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-064-5-16-numbers">
+<h3>JPN-064-5-16 Numbers<a class="headerlink" href="#jpn-064-5-16-numbers" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-065-5-17-obligation">
+<h3>JPN-065-5-17 Obligation<a class="headerlink" href="#jpn-065-5-17-obligation" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-066-5-18-desires-1">
+<h3>JPN-066-5-18 Desires 1<a class="headerlink" href="#jpn-066-5-18-desires-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-067-5-19-thoughts">
+<h3>JPN-067-5-19 Thoughts<a class="headerlink" href="#jpn-067-5-19-thoughts" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-068-5-20-airport">
+<h3>JPN-068-5-20 Airport<a class="headerlink" href="#jpn-068-5-20-airport" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-6">
+<h2>Part 6<a class="headerlink" href="#part-6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-069-6-01-educat-2">
+<h3>JPN-069-6-01 Educat. 2<a class="headerlink" href="#jpn-069-6-01-educat-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-070-6-02-religion">
+<h3>JPN-070-6-02 Religion<a class="headerlink" href="#jpn-070-6-02-religion" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-071-6-03-health-2">
+<h3>JPN-071-6-03 Health 2<a class="headerlink" href="#jpn-071-6-03-health-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-072-6-04-seafood">
+<h3>JPN-072-6-04 Seafood<a class="headerlink" href="#jpn-072-6-04-seafood" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-073-6-05-society">
+<h3>JPN-073-6-05 Society<a class="headerlink" href="#jpn-073-6-05-society" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-074-6-06-feelings-2">
+<h3>JPN-074-6-06 Feelings 2<a class="headerlink" href="#jpn-074-6-06-feelings-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-075-6-07-government">
+<h3>JPN-075-6-07 Government<a class="headerlink" href="#jpn-075-6-07-government" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-076-6-08-memories">
+<h3>JPN-076-6-08 Memories<a class="headerlink" href="#jpn-076-6-08-memories" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-077-6-09-the-arts-1">
+<h3>JPN-077-6-09 The Arts 1<a class="headerlink" href="#jpn-077-6-09-the-arts-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-078-6-10-weather-2">
+<h3>JPN-078-6-10 Weather 2<a class="headerlink" href="#jpn-078-6-10-weather-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-079-6-11-law">
+<h3>JPN-079-6-11 Law<a class="headerlink" href="#jpn-079-6-11-law" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-080-6-12-plans">
+<h3>JPN-080-6-12 Plans<a class="headerlink" href="#jpn-080-6-12-plans" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-081-6-13-cooking-2">
+<h3>JPN-081-6-13 Cooking 2<a class="headerlink" href="#jpn-081-6-13-cooking-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-082-6-14-conflict">
+<h3>JPN-082-6-14 Conflict<a class="headerlink" href="#jpn-082-6-14-conflict" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-083-6-15-emergency-2">
+<h3>JPN-083-6-15 Emergency 2<a class="headerlink" href="#jpn-083-6-15-emergency-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-084-6-16-obligat-2">
+<h3>JPN-084-6-16 Obligat. 2<a class="headerlink" href="#jpn-084-6-16-obligat-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-085-6-17-home-2">
+<h3>JPN-085-6-17 Home 2<a class="headerlink" href="#jpn-085-6-17-home-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-086-5-18-work-2">
+<h3>JPN-086-5-18 Work 2<a class="headerlink" href="#jpn-086-5-18-work-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-087-5-19-honorifics">
+<h3>JPN-087-5-19 Honorifics<a class="headerlink" href="#jpn-087-5-19-honorifics" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-7">
+<h2>Part 7<a class="headerlink" href="#part-7" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="jpn-088-5-01-the-bank">
+<h3>JPN-088-5-01 The Bank<a class="headerlink" href="#jpn-088-5-01-the-bank" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-089-5-02-geography">
+<h3>JPN-089-5-02 Geography<a class="headerlink" href="#jpn-089-5-02-geography" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-090-5-03-health-3">
+<h3>JPN-090-5-03 Health 3<a class="headerlink" href="#jpn-090-5-03-health-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-091-5-04-the-hotel">
+<h3>JPN-091-5-04 The Hotel<a class="headerlink" href="#jpn-091-5-04-the-hotel" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-092-5-05-transit-3">
+<h3>JPN-092-5-05 Transit 3<a class="headerlink" href="#jpn-092-5-05-transit-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-093-5-06-the-gym">
+<h3>JPN-093-5-06 The Gym<a class="headerlink" href="#jpn-093-5-06-the-gym" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-094-5-07-fantasy-1">
+<h3>JPN-094-5-07 Fantasy 1<a class="headerlink" href="#jpn-094-5-07-fantasy-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-095-5-08-tech-1">
+<h3>JPN-095-5-08 Tech 1<a class="headerlink" href="#jpn-095-5-08-tech-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-096-5-09-ideas-1">
+<h3>JPN-096-5-09 Ideas 1<a class="headerlink" href="#jpn-096-5-09-ideas-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-097-5-10-events">
+<h3>JPN-097-5-10 Events<a class="headerlink" href="#jpn-097-5-10-events" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-098-5-11-the-train">
+<h3>JPN-098-5-11 The Train<a class="headerlink" href="#jpn-098-5-11-the-train" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-099-5-12-economics">
+<h3>JPN-099-5-12 Economics<a class="headerlink" href="#jpn-099-5-12-economics" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-100-5-13-work-3">
+<h3>JPN-100-5-13 Work 3<a class="headerlink" href="#jpn-100-5-13-work-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-101-5-14-home-3">
+<h3>JPN-101-5-14 Home 3<a class="headerlink" href="#jpn-101-5-14-home-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-102-5-15-news">
+<h3>JPN-102-5-15 News<a class="headerlink" href="#jpn-102-5-15-news" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-103-5-16-feelings-3">
+<h3>JPN-103-5-16 Feelings 3<a class="headerlink" href="#jpn-103-5-16-feelings-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-104-5-17-authority">
+<h3>JPN-104-5-17 Authority<a class="headerlink" href="#jpn-104-5-17-authority" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-105-5-18-nature-3">
+<h3>JPN-105-5-18 Nature 3<a class="headerlink" href="#jpn-105-5-18-nature-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-106-5-19-animals">
+<h3>JPN-106-5-19 Animals<a class="headerlink" href="#jpn-106-5-19-animals" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-107-5-20-space">
+<h3>JPN-107-5-20 Space<a class="headerlink" href="#jpn-107-5-20-space" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-108-5-21-casual-1">
+<h3>JPN-108-5-21 Casual 1<a class="headerlink" href="#jpn-108-5-21-casual-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-109-5-22-desires-2">
+<h3>JPN-109-5-22 Desires 2<a class="headerlink" href="#jpn-109-5-22-desires-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-110-5-23-hair-salon">
+<h3>JPN-110-5-23 Hair Salon<a class="headerlink" href="#jpn-110-5-23-hair-salon" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-111-5-24-dentist">
+<h3>JPN-111-5-24 Dentist<a class="headerlink" href="#jpn-111-5-24-dentist" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-112-5-25-tech-2">
+<h3>JPN-112-5-25 Tech 2<a class="headerlink" href="#jpn-112-5-25-tech-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-113-5-26-cooking-3">
+<h3>JPN-113-5-26 Cooking 3<a class="headerlink" href="#jpn-113-5-26-cooking-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-114-5-27-work-4">
+<h3>JPN-114-5-27 Work 4<a class="headerlink" href="#jpn-114-5-27-work-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-115-5-28-people-2">
+<h3>JPN-115-5-28 People 2<a class="headerlink" href="#jpn-115-5-28-people-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-116-5-29-educat-3">
+<h3>JPN-116-5-29 Educat. 3<a class="headerlink" href="#jpn-116-5-29-educat-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-117-5-30-the-clinic">
+<h3>JPN-117-5-30 The Clinic<a class="headerlink" href="#jpn-117-5-30-the-clinic" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-118-5-31-science-2">
+<h3>JPN-118-5-31 Science 2<a class="headerlink" href="#jpn-118-5-31-science-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-119-5-32-the-arts-2">
+<h3>JPN-119-5-32 The Arts 2<a class="headerlink" href="#jpn-119-5-32-the-arts-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-120-5-33-ideas-2">
+<h3>JPN-120-5-33 Ideas 2<a class="headerlink" href="#jpn-120-5-33-ideas-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-121-5-34-history">
+<h3>JPN-121-5-34 History<a class="headerlink" href="#jpn-121-5-34-history" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-122-5-35-restaurant-3">
+<h3>JPN-122-5-35 Restaurant 3<a class="headerlink" href="#jpn-122-5-35-restaurant-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-123-5-36-nature-4">
+<h3>JPN-123-5-36 Nature 4<a class="headerlink" href="#jpn-123-5-36-nature-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-124-5-37-fantasy-4">
+<h3>JPN-124-5-37 Fantasy 4<a class="headerlink" href="#jpn-124-5-37-fantasy-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-125-5-38-casual-2">
+<h3>JPN-125-5-38 Casual 2<a class="headerlink" href="#jpn-125-5-38-casual-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-126-5-39-the-farm">
+<h3>JPN-126-5-39 The Farm<a class="headerlink" href="#jpn-126-5-39-the-farm" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-127-5-40-honorifics-2">
+<h3>JPN-127-5-40 Honorifics 2<a class="headerlink" href="#jpn-127-5-40-honorifics-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-128-5-41-language">
+<h3>JPN-128-5-41 Language<a class="headerlink" href="#jpn-128-5-41-language" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-129-5-42-feelings-4">
+<h3>JPN-129-5-42 Feelings 4<a class="headerlink" href="#jpn-129-5-42-feelings-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="jpn-130-5-43-seasons">
+<h3>JPN-130-5-43 Seasons<a class="headerlink" href="#jpn-130-5-43-seasons" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duolingo-japanese-voc.html" class="btn btn-neutral float-right" title="Duolingo - Japanese" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="duolinguo-italian-voc.html" class="btn btn-neutral float-left" title="Duolingo - Italian - Voc" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

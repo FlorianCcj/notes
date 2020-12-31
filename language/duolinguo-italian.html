@@ -1,0 +1,553 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Duolingo - Italian &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Duolingo - Italian - Voc" href="duolinguo-italian-voc.html" />
+    <link rel="prev" title="Duolingo - German - Voc" href="duolinguo-german-voc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Duolingo - Italian</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ita-01-1-01-basics">ITA-01-1-01 Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-02-1-02-basics-2">ITA-02-1-02 Basics 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#to-be">To be</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plural">Plural</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#to-read">To read</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#phrases">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-03-1-03-ciao">ITA-03-1-03 Ciao !</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#manners">Manners</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-04-1-04-food">ITA-04-1-04 Food</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cucinare-to-cook">Cucinare (to cook)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-06-1-06-animals">ITA-06-1-06 Animals</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#question">Question</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nello-zoo">Nello zoo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-07-1-07-food">ITA-07-1-07 Food</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ho-fame">Ho fame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ita-08-1-08-possession">ITA-08-1-08 Possession</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#oh-my">Oh my !</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mine-mine-mine">mine mine mine</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Duolingo - Italian</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/language/duolinguo-italian.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="duolingo-italian">
+<h1>Duolingo - Italian<a class="headerlink" href="#duolingo-italian" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ita-01-1-01-basics">
+<h2>ITA-01-1-01 Basics<a class="headerlink" href="#ita-01-1-01-basics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><ol class="upperalpha simple" start="22">
+<li><p>I drink: Io bevo</p></li>
+</ol>
+</li>
+<li><p>You eat sugar: Io mangio lo zucchero</p></li>
+<li><p>She eat bread: Lei mangia il pane</p></li>
+<li><ol class="upperalpha simple" start="22">
+<li><p>You drink: Tu bevi</p></li>
+</ol>
+</li>
+<li><p>You eat the apple: Tu mangi la mela</p></li>
+<li><p>He eats bread: Lui mangia il pane</p></li>
+<li><p>You drink water: Tu bevi l’acqua</p></li>
+<li><p>The woman drinks: La donna beve</p></li>
+<li><p>I am a girl: Io sono una ragazza</p></li>
+</ul>
+</div>
+<div class="section" id="ita-02-1-02-basics-2">
+<h2>ITA-02-1-02 Basics 2<a class="headerlink" href="#ita-02-1-02-basics-2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="to-be">
+<h3>To be<a class="headerlink" href="#to-be" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>to be: essere</p></li>
+<li><p>I am: io sono</p></li>
+<li><p>You are: tu sei</p></li>
+<li><p>he/she is: lui/lei è</p></li>
+<li><p>we are: noi siamo</p></li>
+<li><p>you all are: voi siete</p></li>
+<li><p>they are: loro sono</p></li>
+</ul>
+</div>
+<div class="section" id="plural">
+<h3>Plural<a class="headerlink" href="#plural" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>il ragazzo =&gt; i ragazzi</p></li>
+<li><p>la ragazza =&gt; le ragazze</p></li>
+<li><p>l’uomo =&gt; gli uomini</p></li>
+</ul>
+</div>
+<div class="section" id="to-read">
+<h3>To read<a class="headerlink" href="#to-read" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>to read: leggere</p></li>
+<li><p>I read: Io leggo</p></li>
+<li><p>you read: Tu leggi</p></li>
+<li><p>he/she reads: Lui/lei legge</p></li>
+<li><p>we read: Noi leggiamo</p></li>
+<li><p>you all read: Voi leggette</p></li>
+<li><p>they read: noro legiano</p></li>
+</ul>
+</div>
+<div class="section" id="phrases">
+<h3>Phrases<a class="headerlink" href="#phrases" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The girls drink water: Le ragazze bevono l’acqua</p></li>
+<li><p>you read a book: Tu leggete un libro</p></li>
+<li><p>in the sugar: Nello zucchero</p></li>
+<li><p>I write to the children: Io scrivo ai ragazzi</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ita-03-1-03-ciao">
+<h2>ITA-03-1-03 Ciao !<a class="headerlink" href="#ita-03-1-03-ciao" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>good morning: Buongiorno</p></li>
+<li><p>good afternoon: Buonasera</p></li>
+<li><p>good evening: Buonasera</p></li>
+<li><p>good night: Buonanotte</p></li>
+</ul>
+<p>It is not a apple:</p>
+<div class="section" id="manners">
+<h3>Manners<a class="headerlink" href="#manners" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>please: per favor</p></li>
+<li><p>thank you: grazie</p></li>
+<li><p>you’re wlecome: prego</p></li>
+<li><p>pardon: prego</p></li>
+<li><p>goodbye: arrivedesci</p></li>
+<li><p>sorry: spaciente</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ita-04-1-04-food">
+<h2>ITA-04-1-04 Food<a class="headerlink" href="#ita-04-1-04-food" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>chocolate cream =&gt; cream al cioccolato</p></li>
+<li><p>coffee ice-cream =&gt; gelato al caffe</p></li>
+</ul>
+<div class="section" id="cucinare-to-cook">
+<h3>Cucinare (to cook)<a class="headerlink" href="#cucinare-to-cook" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>io cucino</p></li>
+<li><p>tu cucini</p></li>
+<li><p>lui/lei cucina</p></li>
+<li><p>noi cuciniamo</p></li>
+<li><p>voi cuciniate</p></li>
+<li><p>loro cucinano</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ita-06-1-06-animals">
+<h2>ITA-06-1-06 Animals<a class="headerlink" href="#ita-06-1-06-animals" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="question">
+<h3>Question<a class="headerlink" href="#question" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Is it a bird?: E un ucello?</p></li>
+<li><p>It is a bird: E un ucello</p></li>
+</ul>
+</div>
+<div class="section" id="nello-zoo">
+<h3>Nello zoo<a class="headerlink" href="#nello-zoo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>In + il =&gt; nel</p></li>
+<li><p>In + lo =&gt; nello</p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h3>Phrases<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The chicken is a bird: Il pollo e un ucello</p></li>
+<li><p>I do not have a cat: Non ho un gatto</p></li>
+<li><p>The dog eats an ant: Il cane mangia una formica</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ita-07-1-07-food">
+<h2>ITA-07-1-07 Food<a class="headerlink" href="#ita-07-1-07-food" title="Permalink to this headline">¶</a></h2>
+<p>Fruits are generaly feminine</p>
+<p>The fruit in masculine is the tree</p>
+<div class="section" id="ho-fame">
+<h3>Ho fame<a class="headerlink" href="#ho-fame" title="Permalink to this headline">¶</a></h3>
+<p>I am hungry: Io ho fame</p>
+</div>
+<div class="section" id="id2">
+<h3>Phrases<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The orange is sweet: L arancia e dolce</p></li>
+<li><p>They eat jam: Mangiano la marmellata</p></li>
+<li><p>The fruit has a sweet taste: La frutta ha un gusto dolce</p></li>
+<li><p>She has a grill: Lei ha una griglia</p></li>
+<li><p>The jam has an acidic taste: La marmellata a un gusto acido</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ita-08-1-08-possession">
+<h2>ITA-08-1-08 Possession<a class="headerlink" href="#ita-08-1-08-possession" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="oh-my">
+<h3>Oh my !<a class="headerlink" href="#oh-my" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>il mio/mia</p></li>
+<li><p>il tio/tua</p></li>
+<li><p>il suo/sua</p></li>
+<li><p>il nostro/nostra</p></li>
+<li><p>il vostro/vostra</p></li>
+<li><p>il loro/loro</p></li>
+</ul>
+<p>for several thing</p>
+<ul class="simple">
+<li><p>il miei/mie</p></li>
+<li><p>il tuoi/tue</p></li>
+<li><p>il suoi/sue</p></li>
+<li><p>il nostri/nostre</p></li>
+<li><p>il vostri/vostre</p></li>
+<li><p>il loro/loro</p></li>
+</ul>
+<p>la propia torta: one’s own cake</p>
+</div>
+<div class="section" id="mine-mine-mine">
+<h3>mine mine mine<a class="headerlink" href="#mine-mine-mine" title="Permalink to this headline">¶</a></h3>
+<p>E il mio gatto: it is my cat</p>
+<p>Il gatto e mio: the cat is mine</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duolinguo-italian-voc.html" class="btn btn-neutral float-right" title="Duolingo - Italian - Voc" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="duolinguo-german-voc.html" class="btn btn-neutral float-left" title="Duolingo - German - Voc" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

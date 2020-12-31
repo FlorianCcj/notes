@@ -1,0 +1,704 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Vault - Admin &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Vault - Install" href="vault-install.html" />
+    <link rel="prev" title="Sup - Thanos" href="../sup/sup-thanos.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Vault - Admin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#secret-engine">Secret_engine</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#def">Def</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#command">Command</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#token">Token</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Def</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Command</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#token-check">Token check</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#api">API</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#auth">Auth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#policies-and-role">Policies and role</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#policies">Policies</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Command</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#role">Role</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Def</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Command</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#manage-approle">Manage AppRole</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Command</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#todo">Todo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#prod">Prod</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#check-status">Check status</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deployment">Deployment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hardening">Hardening</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#document-history">Document history</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Vault - Admin</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/vault/vault-admin.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="vault-admin">
+<h1>Vault - Admin<a class="headerlink" href="#vault-admin" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="secret-engine">
+<h2>Secret_engine<a class="headerlink" href="#secret-engine" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="def">
+<h3>Def<a class="headerlink" href="#def" title="Permalink to this headline">¶</a></h3>
+<p>I see secret engine as root directory. When you install vault you already one by  default: <code class="code docutils literal notranslate"><span class="pre">secret</span></code>
+But you can create as many as you want</p>
+</div>
+<div class="section" id="command">
+<h3>Command<a class="headerlink" href="#command" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">secrets</span> <span class="pre">list</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">secrets</span> <span class="pre">enable</span> <span class="pre">-path=test</span> <span class="pre">kv</span></code> : add a new secret engine typed kv</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">secrets</span> <span class="pre">disable</span> <span class="pre">test</span></code>: remove secret engine named test</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="token">
+<h2>Token<a class="headerlink" href="#token" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Def<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>You should create token only in some exceptional moment,generally use Github, LDAP, AppRole, etc auth system</p>
+</div>
+<div class="section" id="id2">
+<h3>Command<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">create</span></code>                                : create a token with the same right than the current token used</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">revoke</span> <span class="pre">&lt;token&gt;</span></code>                        : remove all peròission in a token</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">renew</span> <span class="pre">(-increment=&lt;EXTENSION&gt;)</span> <span class="pre">&lt;TOKEN&gt;</span></code>:</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">create</span> <span class="pre">-policy=default</span> <span class="pre">-use-limite=2</span></code>  : create a token with a certain number of use</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/token/roles/zabbix</span> <span class="pre">allowed_policies=&quot;default&quot;</span> <span class="pre">period=&quot;24h&quot;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">create</span> <span class="pre">-role=zabbix</span></code></p></li>
+</ul>
+<div class="section" id="token-check">
+<h4>Token check<a class="headerlink" href="#token-check" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug</span> <span class="pre">vault</span> <span class="pre">token</span> <span class="pre">lookup</span></code>                           : check token detail</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug</span> <span class="pre">vault</span> <span class="pre">write</span> <span class="pre">cubbyhole/token</span> <span class="pre">value=1234567890</span></code> : test to write</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">VAULT_TOKEN=3B1X9cnfkFYSJh4QS2ma7Cug</span> <span class="pre">vault</span> <span class="pre">read</span> <span class="pre">cubbyhole/token</span></code>                   : test to read</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="api">
+<h3>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> like :code:<span class="sb">`</span>vault token create -policy<span class="o">=</span>default -use-limite<span class="o">=</span><span class="m">2</span>
+<span class="go">curl --header &quot;X-Vault-Token: ...&quot; --request POST \</span>
+<span class="go">    --data &#39;{ &quot;policies&quot;: [&quot;default&quot;], &quot;num_uses&quot;:2 }&#39; \</span>
+<span class="go">    http://127.0.0.1:8200/v1/auth/token/create | jq</span>
+</pre></div>
+</div>
+</li>
+<li><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> like :code:<span class="sb">`</span><span class="nb">export</span> <span class="nv">VAULT_TOKEN</span><span class="o">=</span>3oV2cF9K94Z58gwlnKSPHfu1 <span class="o">&amp;&amp;</span> vault token lookup<span class="sb">`</span>
+<span class="go">curl --header &quot;X-Vault-Token: 3oV2cF9K94Z58gwlnKSPHfu1&quot; http://127.0.0.1:8200/v1/auth/token/lookup-self | jq</span>
+</pre></div>
+</div>
+</li>
+<li><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> to write
+<span class="go">curl --header &quot;X-Vault-Token: d9c2f2e5-6b8a-4021-476c-ebd3f166d668&quot;</span>
+<span class="go">    --request POST</span>
+<span class="go">    --data &#39;{ &quot;value&quot;: &quot;d9c2f2e5-6b8a-4021-476c-ebd3f166d668&quot; }&#39;</span>
+<span class="go">    http://127.0.0.1:8200/v1/cubbyhole/token</span>
+</pre></div>
+</div>
+</li>
+<li><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">tee payload.json &lt;&lt;EOF</span>
+<span class="go">{</span>
+<span class="go">    &quot;allowed_policies&quot;: [</span>
+<span class="go">        &quot;default&quot;</span>
+<span class="go">    ],</span>
+<span class="go">    &quot;period&quot;: &quot;24h&quot;</span>
+<span class="go">}</span>
+<span class="go">EOF</span>
+<span class="go">curl --header &quot;X-Vault-Token: ...&quot; --request POST --data @payload.json http://127.0.0.1:8200/v1/auth/token/roles/zabbix</span>
+<span class="go">curl --header &quot;X-Vault-Token: ...&quot; --request POST http://127.0.0.1:8200/v1/auth/token/create/zabbix | jq</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="auth">
+<h2>Auth<a class="headerlink" href="#auth" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">enable</span> <span class="pre">approle</span></code>: activate a new auth method</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">enable</span> <span class="pre">-path=github</span> <span class="pre">github</span></code>: activate github auth method</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/github/map/teams/my-team</span> <span class="pre">value=default,my-policy</span></code>: ???</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">help</span> <span class="pre">github</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">help</span> <span class="pre">aws</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">help</span> <span class="pre">userpass</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">auth</span> <span class="pre">help</span> <span class="pre">token</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">login</span> <span class="pre">-method=github</span></code></p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Find what is github F*** teams are</p>
+</div>
+</div>
+<div class="section" id="policies-and-role">
+<h2>Policies and role<a class="headerlink" href="#policies-and-role" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="policies">
+<h3>Policies<a class="headerlink" href="#policies" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>Command<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul>
+<li><div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># jenkins-pol.hcl</span>
+<span class="c1"># Login with AppRole</span>
+<span class="l l-Scalar l-Scalar-Plain">path &quot;auth/approle/login&quot; {</span>
+    <span class="l l-Scalar l-Scalar-Plain">capabilities = [ &quot;create&quot;, &quot;read&quot; ]</span>
+<span class="l l-Scalar l-Scalar-Plain">}</span>
+
+<span class="l l-Scalar l-Scalar-Plain"># Read test data</span>
+<span class="l l-Scalar l-Scalar-Plain"># Set the path to &quot;secret/data/mysql/*&quot; if you are running `kv-v2`</span>
+<span class="l l-Scalar l-Scalar-Plain">path &quot;secret/mysql/*&quot; {</span>
+    <span class="l l-Scalar l-Scalar-Plain">capabilities = [ &quot;read&quot; ]</span>
+<span class="l l-Scalar l-Scalar-Plain">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">policy</span> <span class="pre">write</span> <span class="pre">&lt;POLICY_NAMES&gt;</span> <span class="pre">&lt;PATH_TO_HCL_FILE&gt;</span></code>: add file <code class="code docutils literal notranslate"><span class="pre">jenkins-pol.hcl</span></code> in policy <code class="code docutils literal notranslate"><span class="pre">jenkins</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">policy</span> <span class="pre">fmt</span> <span class="pre">my-policy.hcl</span></code>: check policy synthax</p></li>
+</ul>
+<div class="section" id="check">
+<h5>Check<a class="headerlink" href="#check" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">token</span> <span class="pre">create</span> <span class="pre">-policy=my-policy</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">login</span> <span class="pre">s.X6gvFko7chPilgV0lpWXsdeu</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="example">
+<h5>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h5>
+<ul>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">policy</span> <span class="pre">write</span> <span class="pre">jenkins</span> <span class="pre">jenkins-pol.hcl</span></code>: example</p></li>
+<li><div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">vault policy write my-policy -&lt;&lt;EOF</span>
+<span class="gp">#</span> Normal servers have version <span class="m">1</span> of KV mounted by default, so will need these
+<span class="gp">#</span> paths:
+<span class="go">path &quot;secret/*&quot; {</span>
+<span class="go">    capabilities = [&quot;create&quot;, &quot;update&quot;]</span>
+<span class="go">}</span>
+<span class="go">path &quot;secret/foo&quot; {</span>
+<span class="go">    capabilities = [&quot;read&quot;]</span>
+<span class="go">}</span>
+
+<span class="gp">#</span> Dev servers have version <span class="m">2</span> of KV mounted by default, so will need these
+<span class="gp">#</span> paths:
+<span class="go">path &quot;secret/data/*&quot; {</span>
+<span class="go">    capabilities = [&quot;create&quot;, &quot;update&quot;]</span>
+<span class="go">}</span>
+<span class="go">path &quot;secret/data/foo&quot; {</span>
+<span class="go">    capabilities = [&quot;read&quot;]</span>
+<span class="go">}</span>
+<span class="go">EOF</span>
+</pre></div>
+</div>
+</li>
+<li><div class="highlight-ECL notranslate"><div class="highlight"><pre><span></span><span class="cp"># Normal servers have version 1 of KV mounted by default, so will need these</span>
+<span class="cp"># paths:</span>
+<span class="n">path</span> <span class="s">&quot;secret/*&quot;</span> <span class="p">{</span>
+    <span class="n">capabilities</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;create&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+<span class="n">path</span> <span class="s">&quot;secret/foo&quot;</span> <span class="p">{</span>
+    <span class="n">capabilities</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;read&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="cp"># Dev servers have version 2 of KV mounted by default, so will need these</span>
+<span class="cp"># paths:</span>
+<span class="n">path</span> <span class="s">&quot;secret/data/*&quot;</span> <span class="p">{</span>
+    <span class="n">capabilities</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;create&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+<span class="n">path</span> <span class="s">&quot;secret/data/foo&quot;</span> <span class="p">{</span>
+    <span class="n">capabilities</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;read&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="role">
+<h3>Role<a class="headerlink" href="#role" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h4>Def<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>A role is a label on which you can asign temporality, periodicity, policies, … to assign  it all together to token</p>
+</div>
+<div class="section" id="id5">
+<h4>Command<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">read</span> <span class="pre">auth/approle/role/jenkins</span></code>: print role</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">list</span> <span class="pre">auth/approle/role</span></code>: list role</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/approle/role/jenkins</span> <span class="pre">policies=&quot;jenkins&quot;</span></code>: associate/create a role with a policy</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/approle/role/jenkins</span> <span class="pre">policies=&quot;jenkins,anotherpolicy&quot;</span></code>: associate a role with multiple policy</p></li>
+<li><dl class="simple">
+<dt><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/token/roles/&lt;ROLE_NAME&gt;</span> <span class="pre">allowed_policies=&quot;&lt;POLICY_NAMES&gt;&quot;</span> <span class="pre">period=&lt;RENEWAL_PERIOD&gt;</span></code></dt><dd><p>: create role for token which will be renewal all <code class="code docutils literal notranslate"><span class="pre">&lt;RENEWAL_PERIOD&gt;</span></code></p>
+</dd>
+</dl>
+</li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/approle/role/jenkins</span> <span class="pre">policies=&quot;jenkins&quot;</span> <span class="pre">period=&quot;72h&quot;</span></code>: Create a role for your app specifying that the generated token should be periodic</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">auth/approle/role/shipping</span> <span class="pre">policies=&quot;shipping&quot;</span> <span class="pre">token_type=&quot;batch&quot;</span> <span class="pre">token_ttl=&quot;60s&quot;:</span> <span class="pre">generate</span> <span class="pre">batch</span> <span class="pre">token</span></code></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="manage-approle">
+<h2>Manage AppRole<a class="headerlink" href="#manage-approle" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h3>Command<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">read</span> <span class="pre">auth/approle/role/jenkins/role-id</span></code>: acces/generate role/secret-id</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">vault</span> <span class="pre">write</span> <span class="pre">-f</span> <span class="pre">auth/approle/role/jenkins/secret-id</span></code>: acces/generate role/secret-id</p></li>
+</ul>
+</div>
+<div class="section" id="todo">
+<h3>Todo<a class="headerlink" href="#todo" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Todo</p>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">login</span><span class="p">:</span>
+  <span class="nt">persona</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">app</span>
+  <span class="nt">cli</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">vault write auth/approle/login role_id=&quot;675a50e7-cfe0-be76-e35f-49ec009731ea&quot; secret_id=&quot;ed0a642f-2acf-c2da-232f-1b21300d5f29&quot;</span>
+  <span class="nt">api</span><span class="p">:</span>
+    <span class="nt">payload.json</span><span class="p">:</span> <span class="p p-Indicator">{</span> <span class="s">&quot;role_id&quot;</span><span class="p p-Indicator">:</span> <span class="s">&quot;675a50e7-cfe0-be76-e35f-49ec009731ea&quot;</span><span class="p p-Indicator">,</span> <span class="s">&quot;secret_id&quot;</span><span class="p p-Indicator">:</span> <span class="s">&quot;ed0a642f-2acf-c2da-232f-1b21300d5f29&quot;</span><span class="p p-Indicator">}</span>
+    <span class="nt">cmd</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">curl --request POST --data @payload.json http://127.0.0.1:8200/v1/auth/approle/login | jq</span>
+<span class="nt">read_secret</span><span class="p">:</span>
+  <span class="nt">cli</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">VAULT_TOKEN=3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e vault kv get secret/mysql/webapp</span> <span class="c1"># No value found at secret/mysql/webapp</span>
+  <span class="nt">cli2</span><span class="p">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">vault login 3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e</span>
+    <span class="no">vault kv get secret/mysql/webapp</span>
+  <span class="nt">api</span><span class="p">:</span> <span class="s">&#39;curl</span><span class="nv"> </span><span class="s">--header</span><span class="nv"> </span><span class="s">&quot;X-Vault-Token:</span><span class="nv"> </span><span class="s">3e7dd0ac-8b3e-8f88-bb37-a2890455ca6e&quot;</span><span class="nv"> </span><span class="s">--request</span><span class="nv"> </span><span class="s">GET</span><span class="nv"> </span><span class="s">http://127.0.0.1:8200/v1/secret/data/mysql/webapp</span><span class="nv"> </span><span class="s">|</span><span class="nv"> </span><span class="s">jq&#39;</span>
+<span class="nt">add_value</span><span class="p">:</span>
+  <span class="nt">mysqldb.json</span><span class="p">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">{</span>
+      <span class="no">&quot;url&quot;: &quot;foo.example.com:35533&quot;,</span>
+      <span class="no">&quot;db_name&quot;: &quot;users&quot;,</span>
+      <span class="no">&quot;username&quot;: &quot;admin&quot;,</span>
+      <span class="no">&quot;password&quot;: &quot;pa$$w0rd&quot;</span>
+    <span class="no">}</span>
+  <span class="nt">cli</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">vault kv put secret/mysql/webapp @mysqldb.txt</span>
+  <span class="nt">api</span><span class="p">:</span> <span class="s">&#39;curl</span><span class="nv"> </span><span class="s">--header</span><span class="nv"> </span><span class="s">&quot;X-Vault-Token:</span><span class="nv"> </span><span class="s">...&quot;</span><span class="nv"> </span><span class="s">--request</span><span class="nv"> </span><span class="s">POST</span><span class="nv"> </span><span class="s">--data</span><span class="nv"> </span><span class="s">@mysqldb.txt&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="prod">
+<h2>Prod<a class="headerlink" href="#prod" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="check-status">
+<h3>Check status<a class="headerlink" href="#check-status" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">curl</span> <span class="pre">-sS</span> <span class="pre">http://localhost:8200/v1/sys/health</span> <span class="pre">|</span> <span class="pre">jq</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">curl</span> <span class="pre">-sS</span> <span class="pre">http://localhost:8200/v1/sys/seal-status</span> <span class="pre">|</span> <span class="pre">jq</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="deployment">
+<h3>Deployment<a class="headerlink" href="#deployment" title="Permalink to this headline">¶</a></h3>
+<p>multi cluster need entreprise licence</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>8 nodes:</dt><dd><ul>
+<li><p>consul agent on each nodes</p></li>
+<li><p>vault server on 3 of them</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>small_cluster:</dt><dd><ul>
+<li><p>vault: 2 core 4-8 Gi RAM 25 Gi Disk</p></li>
+<li><p>consul: 2 core 8-16 Gi RAM 50 Gi Disk</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>large_cluster:</dt><dd><ul>
+<li><p>vault: 4-8 core 16-32 Gi RAM 50 Gi Disk</p></li>
+<li><p>consul: 4-8 core 32-64+ Gi RAM 100 Gi Disk</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="hardening">
+<h3>Hardening<a class="headerlink" href="#hardening" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>e2e TLS</p></li>
+<li><p>single tenancy: only vault on the machine</p></li>
+<li><p>firewall trafic: ?</p></li>
+<li><p>disable SSH/remote desktop</p></li>
+<li><p>disable swap</p></li>
+<li><p>don t run as root: vault is designed to run as unprevileged user</p></li>
+<li><p>turn off core dumps: set RLIMIT_CORE to 0 to disable core dump</p></li>
+<li><p>immutable upgrade</p></li>
+<li><p>avoid root token:</p></li>
+<li><p>enable auditing</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="document-history">
+<h2>Document history<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2019.08.04</p></td>
+<td><p>V1.0</p></td>
+<td><p>First write</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="vault-install.html" class="btn btn-neutral float-right" title="Vault - Install" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../sup/sup-thanos.html" class="btn btn-neutral float-left" title="Sup - Thanos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,842 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Money - Central Chart - formation complete trading &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Money - New Begin 2021" href="money-new_begin_2021.html" />
+    <link rel="prev" title="Money - Cafe de la Bourse" href="money-cafe_de_la_bourse.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Money - Central Chart - formation complete trading</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#comprendre-les-marches-financiers">1. Comprendre les marchés financiers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#quels-sont-les-mecanismes-d-execution-d-un-ordre-de-bourse">1.1. Quels sont les mécanismes d’exécution d’un ordre de Bourse?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comprendre-les-cfds-a-risque-limite">1.2. Comprendre les CFDs à risque limité</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comprendre-les-futures">1.3. Comprendre les futures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-spread-sur-cfd-a-risque-limite-et-futures">1.4. Le spread sur CFD à risque limité et futures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#qu-est-ce-que-l-effet-de-levier-et-comment-le-calculer">1.5. Qu’est ce que l’effet de levier et comment le calculer?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#qu-est-ce-que-la-marge-ou-couverture">1.6. Qu’est ce que la marge ou couverture?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comparaison-entre-cfd-a-risque-limite-et-futures-sur-indices">1.7. Comparaison entre CFD à risque limité et futures sur indices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-differents-types-d-ordres-de-bourse">1.8. Les différents types d’ordres de bourse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-faire-de-la-vente-a-decouvert">1.9. Comment faire de la vente à découvert?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#a-la-decouverte-de-l-analyse-technique">2. A la découverte de l’analyse technique</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#les-chandeliers-japonais-une-mine-d-informations">2.1. Les chandeliers japonais: une mine d’informations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#savoir-identifier-la-tendance">2.2. Savoir identifier la tendance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-tracer-les-resistances-et-supports">2.3. Comment tracer les résistances et supports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trader-les-figures-chartistes">2.4. Trader les figures chartistes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#utilisation-des-indicateurs-techniques">2.5. Utilisation des indicateurs techniques</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-identifier-les-creux-et-sommets">2.6. Comment identifier les creux et sommets?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#d-un-graphique-vierge-a-une-analyse-technique">2.7. D’un graphique vierge à une analyse technique</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#money-management">3. Money management</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#le-ratio-rendement-risque-et-le-pourcentage-de-trades-gagnants">3.1. Le ratio rendement/risque et le pourcentage de trades gagnants</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#l-importance-du-stop-loss">3.2. L’importance du stop loss</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-determiner-la-taille-de-votre-position">3.3. Comment déterminer la taille de votre position?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-drawdown-un-indicateur-de-risque-majeur">3.4. Le drawdown: Un indicateur de risque majeur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-profit-factor-pour-mesurer-la-qualite-de-votre-trading">3.5. Le profit factor pour mesurer la qualité de votre trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-regles-de-gestion-du-risque">3.6. Les règles de gestion du risque</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#definir-sa-strategie-de-trading">4. Définir sa stratégie de trading</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#l-importance-du-compte-demo">4.1. L’importance du compte démo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-choisir-l-unite-de-temps-sur-vos-trades">4.2. Comment choisir l’unité de temps sur vos trades?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-methode-de-dow-une-strategie-de-swing-trading">4.3. La méthode de Dow: une stratégie de swing trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-la-decouverte-du-scalping">4.4. A la découverte du scalping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-technologie-au-service-de-votre-trading">4.5. La technologie au service de votre trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#faut-il-trader-les-annonces-economiques">4.6. Faut-il trader les annonces économiques?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#peut-on-copier-une-strategie-de-trading">4.7. Peut-on copier une stratégie de trading?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-etapes-d-un-trade">4.8. Les etapes d’un trade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trader-les-crypto-monnaies">4.9. Trader les crypto monnaies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#methode-du-trading-a-sens-unique">5. Méthode du “Trading à sens unique”</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">5.1. Méthode du trading à sens unique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trading-a-sens-unique-les-fondamentaux">5.2. Trading à sens unique - Les fondamentaux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trading-a-sens-unique-la-tendance">5.3. Trading à sens unique - La tendance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trading-a-sens-unique-les-signaux">5.4. Trading à sens unique - Les signaux</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#psychologie-dans-le-trading">6. Psychologie dans le trading</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#les-emotions-le-pire-ennemi-du-trader">6.1. Les emotions: le pire ennemi du trader</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#passage-du-compte-demo-au-compte-reel">6.2. Passage du compte démo au compte réel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-reagir-face-a-une-lourde-perte">6.3. Comment réagir face à une lourde perte?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#l-importance-de-la-discipline-dans-le-trading">6.4. L’importance de la discipline dans le trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#devenir-trader-c-est-etre-un-chef-d-entreprise">6.5. Devenir trader c’est être un chef d’entreprise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#surmonter-un-blocage-psychologique">6.6. Surmonter un blocage psychologique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#faut-il-definir-des-objectifs-de-gains-dans-son-trading">6.7. Faut-il définir des objectifs de gains dans son trading?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-choisir-son-courtier">7. Comment choisir son courtier?</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#qu-est-qu-un-courtier-bien-regule">7.1. Qu’est qu’un courtier bien régulé?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#securisation-des-fonds-avec-les-comptes-segreges">7.2. Sécurisation des fonds avec les comptes ségrégés</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-poids-des-frais-de-transactions-dans-le-trading">7.3. Le poids des frais de transactions dans le trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quels-sont-les-avantages-du-stop-garanti">7.4. Quels sont les avantages du stop garanti?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-criteres-a-prendre-en-compte-pour-choisir-son-courtier">7.5. Les critères à prendre en compte pour choisir son courtier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#devenez-un-trader-performant">8. Devenez un trader performant</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ne-faites-pas-de-trading-si-vous-n-en-n-avez-pas-les-moyens">8.1. Ne faites pas de trading si vous n’en n’avez pas les moyens</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#l-effet-de-levier-n-est-pas-votre-allie">8.2. L’effet de levier n’est pas votre allié</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ne-pensez-pas-a-gagner-mais-a-durer">8.3. Ne pensez pas à gagner mais à durer!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-chaque-trader-sa-strategie">8.4. A chaque trader sa stratégie</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#oubliez-les-gros-coups-cherchez-la-regularite">8.5. Oubliez les gros coups, cherchez la régularité!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installez-une-routine-dans-votre-trading">8.6. Installez une routine dans votre trading</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#un-trader-en-forme-c-est-un-trader-performant">8.7. Un trader en forme, c’est un trader performant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pensez-par-vous-meme">8.8. Pensez par vous même</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#faites-votre-auto-critique">8.9. Faites votre auto critique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ne-pas-etre-en-position-c-est-deja-etre-en-position">8.10. Ne pas être en position, c’est déjà être en position</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-meilleur-moyen-de-trader-une-news-c-est-de-ne-pas-en-tenir-compte">8.11. Le meilleur moyen de trader une news, c’est de ne pas en tenir compte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#apprendre-a-gagner-c-est-apprendre-a-perdre">8.12. Apprendre à gagner, c’est apprendre à perdre</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#n-ayez-aucune-certitude">8.13. N’ayez aucune certitude</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#acceptez-d-avoir-tord">8.14. Acceptez d’avoir tord</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bonus-fonctionnement-des-cryptomonnaies">9. BONUS: Fonctionnement des cryptomonnaies</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#la-blockchain-fonctionnement-et-avantages">9.1. La blockchain : fonctionnement et avantages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-differents-types-de-crypto-monnaies">9.2. Les différents types de crypto-monnaies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-solutions-actuelles-pour-investir-ou-speculer-sur-les-crypto-monnaies">9.3. Les solutions actuelles pour investir ou spéculer sur les crypto-monnaies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#introduction-aux-plateformes-de-crypto-monnaies">9.4. Introduction aux plateformes de crypto-monnaies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#securisez-vos-acces-plateforme">9.5. Sécurisez vos accès plateforme</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bonus-trading-sur-les-cryptomonnaies">10. BONUS: Trading sur les cryptomonnaies</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creer-un-wallet-cle-privee-et-cle-publique-de-wallet">10.1. Créer un wallet - Clé privée et clé publique de wallet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#acheter-des-crypto-monnaie-cas-pratique">10.2. Acheter des crypto-monnaie (CAS PRATIQUE)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-10-erreurs-a-ne-pas-commenttre-sur-les-crypto-monnaies">10.3. Les 10 erreurs à ne pas commenttre sur les crypto-monnaies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quelles-crypto-monnaies-acheter">10.4. Quelles crypto-monnaies acheter?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#les-airdrops-de-crypto-monnaies">10.5. Les airdrops de crypto-monnaies</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Money - Central Chart - formation complete trading</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/money/money-central_chart-formation_complete_trading.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="money-central-chart-formation-complete-trading">
+<h1>Money - Central Chart - formation complete trading<a class="headerlink" href="#money-central-chart-formation-complete-trading" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="comprendre-les-marches-financiers">
+<h2>1. Comprendre les marchés financiers<a class="headerlink" href="#comprendre-les-marches-financiers" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="quels-sont-les-mecanismes-d-execution-d-un-ordre-de-bourse">
+<h3>1.1. Quels sont les mécanismes d’exécution d’un ordre de Bourse?<a class="headerlink" href="#quels-sont-les-mecanismes-d-execution-d-un-ordre-de-bourse" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>Courtier: permet de passer des ordre d achat ou de vente sur differentes classes d actif</p></li>
+<li><p>Ordre:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>l instrument financier traite: un futur, cfd, action, …</p></li>
+<li><p>sens de l operation (achat ou vente)</p></li>
+<li><p>quantite offerte ou demandee</p></li>
+<li><p>type d order: ordre marche, a court limite, ordre stop, …</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>le future:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>marche organise: marche officiel comme la bourse de paris</p></li>
+<li><p>courtier passe l ordre a une entreprise de marche (exemple euronext)</p></li>
+<li><p>le marche le met sur un carnet d ordre</p></li>
+<li><p>l ordre sera execute quand il y aura une contrepartie: si vous vendez un titre a 100e il faut qu il y ai un vendeur a 100e</p></li>
+<li><p>la chambre de compensation traite les ordres</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>cfd:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>marche de gre a gre</p></li>
+<li><p>contrat directement avec le courtier</p></li>
+<li><p>c est le courtier qui gere tout en interne</p></li>
+<li><p>le courtier se place a l oppose de votre tread l ordre est sur d etre execute</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>carnet d ordre: regroupe l ensemble des ordres d achat ou de vente sur un titre</p></li>
+</ul>
+</div>
+<div class="section" id="comprendre-les-cfds-a-risque-limite">
+<h3>1.2. Comprendre les CFDs à risque limité<a class="headerlink" href="#comprendre-les-cfds-a-risque-limite" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>CFD</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>speculer a la hausse ou a la baisse sans frais supplementaire</p></li>
+<li><p>trader tous les actif via une seule platform</p></li>
+<li><p>acces a de l effet de levier</p></li>
+<li><p>cout de transaction tres faible</p></li>
+<li><p>assurance de voir votre ordre execute</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>CFD a risque limite</p>
+<blockquote>
+<div><ul>
+<li><p>de la famille des produits derives</p></li>
+<li><p>replique l evolution du cours de l actif auquel il est lie (actf sous jacent)</p></li>
+<li><p>simple contrat entre vous et votre courtier (pas de detention physique de l actif -&gt; pas de dividende, droit de vote)</p></li>
+<li><p>vous payez et recevez la difference de cours entre l ouverture et la cloture de position</p></li>
+<li><p>privilegiez des courtiers bien regules qui ne jouent pas contre vous (exemple IG, partenare de PRT)</p></li>
+<li><p>limiter le risque pris par les traders sur le marche (oblige les stop loss)</p>
+<blockquote>
+<div><ul>
+<li><p>stop loss garanti (en temps normal c est juste un ordre de vente)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>extra spread</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>stop loss obligatoire</p></li>
+<li><p>stop loss bloque</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="comprendre-les-futures">
+<h3>1.3. Comprendre les futures<a class="headerlink" href="#comprendre-les-futures" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>future: contrat negocie sur un marche organise definissant:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>un sens</p></li>
+<li><p>une date d echeance</p></li>
+<li><p>un prix</p></li>
+<li><p>une quantite</p></li>
+<li><p>un sous jacent</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Pourquoi le sous jacent (court cash) et le future difere:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>le taux d interet (si &gt; 0  =&gt; future &gt; cash, si &lt; 0  =&gt; cash &gt; future)</p></li>
+<li><p>le dividende</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>a date d echeance cash = future</p></li>
+<li><p>date d echance commune: trimestriel (3, 6, 9 12), le 3 vendredi du mois, mensuel</p></li>
+<li><p>a echeance la position est ferme</p>
+<blockquote>
+<div><ul>
+<li><p>si on attend l echeance</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>marge immobilise inutilement pendant un temps</p></li>
+<li><p>possibilite de livraisont physique du sous jacent</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>cloturer avant echeance</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>possibilite d ouvrir une nouvelle position</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>avantages</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>cotation sur un marche reglemente</p></li>
+<li><p>acces au carnet d ordre</p></li>
+<li><p>acces a de l effet de levier</p></li>
+<li><p>frais de transaction faible</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="le-spread-sur-cfd-a-risque-limite-et-futures">
+<h3>1.4. Le spread sur CFD à risque limité et futures<a class="headerlink" href="#le-spread-sur-cfd-a-risque-limite-et-futures" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>spread: difference entre cours d achat (ask) et le cours de vente (bid)</p></li>
+<li><p>Le spread est influencer par</p>
+<ul>
+<li><p>la liquidite: plus il est liquidite plus le spread est faible</p></li>
+<li><p>la volatilite: plus il est volatile plus le spread est eleve</p></li>
+<li><p>type d instrument: sur cfd &gt; sur les futures</p></li>
+</ul>
+</li>
+<li><p>cours d achat: meilleur prix auquel un vendeur est pret a vendre</p></li>
+<li><p>cours de vente: meilleur prix auquel un acheteur est pret a acheter</p></li>
+<li><p>le cours d achat ne peut pas etre superieur au cours de vente</p></li>
+<li><p>le spread de marche: ecard entre la meilleur offre et la meilleur demande ne descend jamais en dessous du pas de cotasion (cotassion offisiel)</p></li>
+<li><p>le spread de courtier: spread de marche + ecartement potentiel du spread appliquer par le courtier</p></li>
+<li><p>pas de cotasion: ecard minimum imposer entre l offre et la demande</p></li>
+</ul>
+<p>Pour avoir un cout nulle, dans un spread de courtier il va falloir que la variation du prix soit de la valeur du spread, alors que pour un spread de marche, il suffit qu un acheteur se place en opposition avec vous.</p>
+</div>
+<div class="section" id="qu-est-ce-que-l-effet-de-levier-et-comment-le-calculer">
+<h3>1.5. Qu’est ce que l’effet de levier et comment le calculer?<a class="headerlink" href="#qu-est-ce-que-l-effet-de-levier-et-comment-le-calculer" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Effet de levier: pret accorde par votre courtier</p></li>
+<li><p>si vous utilisez l effet de levier, vos gains et pertes sont multiplier</p></li>
+<li><p>taille de position pour une actions = cours de l actif * quantitee achetee ou vendue</p></li>
+<li><p>taille de position pour un indice = cours de l actif * valeur du point</p></li>
+<li><p>effet de levier = taille de votre position / capital disponible sur votre compte</p></li>
+<li><p>la taille minimum sur les indices est importante</p></li>
+</ul>
+</div>
+<div class="section" id="qu-est-ce-que-la-marge-ou-couverture">
+<h3>1.6. Qu’est ce que la marge ou couverture?<a class="headerlink" href="#qu-est-ce-que-la-marge-ou-couverture" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comparaison-entre-cfd-a-risque-limite-et-futures-sur-indices">
+<h3>1.7. Comparaison entre CFD à risque limité et futures sur indices<a class="headerlink" href="#comparaison-entre-cfd-a-risque-limite-et-futures-sur-indices" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-differents-types-d-ordres-de-bourse">
+<h3>1.8. Les différents types d’ordres de bourse<a class="headerlink" href="#les-differents-types-d-ordres-de-bourse" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-faire-de-la-vente-a-decouvert">
+<h3>1.9. Comment faire de la vente à découvert?<a class="headerlink" href="#comment-faire-de-la-vente-a-decouvert" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="a-la-decouverte-de-l-analyse-technique">
+<h2>2. A la découverte de l’analyse technique<a class="headerlink" href="#a-la-decouverte-de-l-analyse-technique" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="les-chandeliers-japonais-une-mine-d-informations">
+<h3>2.1. Les chandeliers japonais: une mine d’informations<a class="headerlink" href="#les-chandeliers-japonais-une-mine-d-informations" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="savoir-identifier-la-tendance">
+<h3>2.2. Savoir identifier la tendance<a class="headerlink" href="#savoir-identifier-la-tendance" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-tracer-les-resistances-et-supports">
+<h3>2.3. Comment tracer les résistances et supports<a class="headerlink" href="#comment-tracer-les-resistances-et-supports" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trader-les-figures-chartistes">
+<h3>2.4. Trader les figures chartistes<a class="headerlink" href="#trader-les-figures-chartistes" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="utilisation-des-indicateurs-techniques">
+<h3>2.5. Utilisation des indicateurs techniques<a class="headerlink" href="#utilisation-des-indicateurs-techniques" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-identifier-les-creux-et-sommets">
+<h3>2.6. Comment identifier les creux et sommets?<a class="headerlink" href="#comment-identifier-les-creux-et-sommets" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="d-un-graphique-vierge-a-une-analyse-technique">
+<h3>2.7. D’un graphique vierge à une analyse technique<a class="headerlink" href="#d-un-graphique-vierge-a-une-analyse-technique" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="money-management">
+<h2>3. Money management<a class="headerlink" href="#money-management" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="le-ratio-rendement-risque-et-le-pourcentage-de-trades-gagnants">
+<h3>3.1. Le ratio rendement/risque et le pourcentage de trades gagnants<a class="headerlink" href="#le-ratio-rendement-risque-et-le-pourcentage-de-trades-gagnants" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="l-importance-du-stop-loss">
+<h3>3.2. L’importance du stop loss<a class="headerlink" href="#l-importance-du-stop-loss" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-determiner-la-taille-de-votre-position">
+<h3>3.3. Comment déterminer la taille de votre position?<a class="headerlink" href="#comment-determiner-la-taille-de-votre-position" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="le-drawdown-un-indicateur-de-risque-majeur">
+<h3>3.4. Le drawdown: Un indicateur de risque majeur<a class="headerlink" href="#le-drawdown-un-indicateur-de-risque-majeur" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="le-profit-factor-pour-mesurer-la-qualite-de-votre-trading">
+<h3>3.5. Le profit factor pour mesurer la qualité de votre trading<a class="headerlink" href="#le-profit-factor-pour-mesurer-la-qualite-de-votre-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-regles-de-gestion-du-risque">
+<h3>3.6. Les règles de gestion du risque<a class="headerlink" href="#les-regles-de-gestion-du-risque" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="definir-sa-strategie-de-trading">
+<h2>4. Définir sa stratégie de trading<a class="headerlink" href="#definir-sa-strategie-de-trading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="l-importance-du-compte-demo">
+<h3>4.1. L’importance du compte démo<a class="headerlink" href="#l-importance-du-compte-demo" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-choisir-l-unite-de-temps-sur-vos-trades">
+<h3>4.2. Comment choisir l’unité de temps sur vos trades?<a class="headerlink" href="#comment-choisir-l-unite-de-temps-sur-vos-trades" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="la-methode-de-dow-une-strategie-de-swing-trading">
+<h3>4.3. La méthode de Dow: une stratégie de swing trading<a class="headerlink" href="#la-methode-de-dow-une-strategie-de-swing-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="a-la-decouverte-du-scalping">
+<h3>4.4. A la découverte du scalping<a class="headerlink" href="#a-la-decouverte-du-scalping" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="la-technologie-au-service-de-votre-trading">
+<h3>4.5. La technologie au service de votre trading<a class="headerlink" href="#la-technologie-au-service-de-votre-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="faut-il-trader-les-annonces-economiques">
+<h3>4.6. Faut-il trader les annonces économiques?<a class="headerlink" href="#faut-il-trader-les-annonces-economiques" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="peut-on-copier-une-strategie-de-trading">
+<h3>4.7. Peut-on copier une stratégie de trading?<a class="headerlink" href="#peut-on-copier-une-strategie-de-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-etapes-d-un-trade">
+<h3>4.8. Les etapes d’un trade<a class="headerlink" href="#les-etapes-d-un-trade" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trader-les-crypto-monnaies">
+<h3>4.9. Trader les crypto monnaies<a class="headerlink" href="#trader-les-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="methode-du-trading-a-sens-unique">
+<h2>5. Méthode du “Trading à sens unique”<a class="headerlink" href="#methode-du-trading-a-sens-unique" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>5.1. Méthode du trading à sens unique<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trading-a-sens-unique-les-fondamentaux">
+<h3>5.2. Trading à sens unique - Les fondamentaux<a class="headerlink" href="#trading-a-sens-unique-les-fondamentaux" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trading-a-sens-unique-la-tendance">
+<h3>5.3. Trading à sens unique - La tendance<a class="headerlink" href="#trading-a-sens-unique-la-tendance" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="trading-a-sens-unique-les-signaux">
+<h3>5.4. Trading à sens unique - Les signaux<a class="headerlink" href="#trading-a-sens-unique-les-signaux" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="psychologie-dans-le-trading">
+<h2>6. Psychologie dans le trading<a class="headerlink" href="#psychologie-dans-le-trading" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="les-emotions-le-pire-ennemi-du-trader">
+<h3>6.1. Les emotions: le pire ennemi du trader<a class="headerlink" href="#les-emotions-le-pire-ennemi-du-trader" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="passage-du-compte-demo-au-compte-reel">
+<h3>6.2. Passage du compte démo au compte réel<a class="headerlink" href="#passage-du-compte-demo-au-compte-reel" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="comment-reagir-face-a-une-lourde-perte">
+<h3>6.3. Comment réagir face à une lourde perte?<a class="headerlink" href="#comment-reagir-face-a-une-lourde-perte" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="l-importance-de-la-discipline-dans-le-trading">
+<h3>6.4. L’importance de la discipline dans le trading<a class="headerlink" href="#l-importance-de-la-discipline-dans-le-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="devenir-trader-c-est-etre-un-chef-d-entreprise">
+<h3>6.5. Devenir trader c’est être un chef d’entreprise<a class="headerlink" href="#devenir-trader-c-est-etre-un-chef-d-entreprise" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="surmonter-un-blocage-psychologique">
+<h3>6.6. Surmonter un blocage psychologique<a class="headerlink" href="#surmonter-un-blocage-psychologique" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="faut-il-definir-des-objectifs-de-gains-dans-son-trading">
+<h3>6.7. Faut-il définir des objectifs de gains dans son trading?<a class="headerlink" href="#faut-il-definir-des-objectifs-de-gains-dans-son-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="comment-choisir-son-courtier">
+<h2>7. Comment choisir son courtier?<a class="headerlink" href="#comment-choisir-son-courtier" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="qu-est-qu-un-courtier-bien-regule">
+<h3>7.1. Qu’est qu’un courtier bien régulé?<a class="headerlink" href="#qu-est-qu-un-courtier-bien-regule" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="securisation-des-fonds-avec-les-comptes-segreges">
+<h3>7.2. Sécurisation des fonds avec les comptes ségrégés<a class="headerlink" href="#securisation-des-fonds-avec-les-comptes-segreges" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="le-poids-des-frais-de-transactions-dans-le-trading">
+<h3>7.3. Le poids des frais de transactions dans le trading<a class="headerlink" href="#le-poids-des-frais-de-transactions-dans-le-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="quels-sont-les-avantages-du-stop-garanti">
+<h3>7.4. Quels sont les avantages du stop garanti?<a class="headerlink" href="#quels-sont-les-avantages-du-stop-garanti" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-criteres-a-prendre-en-compte-pour-choisir-son-courtier">
+<h3>7.5. Les critères à prendre en compte pour choisir son courtier<a class="headerlink" href="#les-criteres-a-prendre-en-compte-pour-choisir-son-courtier" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="devenez-un-trader-performant">
+<h2>8. Devenez un trader performant<a class="headerlink" href="#devenez-un-trader-performant" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ne-faites-pas-de-trading-si-vous-n-en-n-avez-pas-les-moyens">
+<h3>8.1. Ne faites pas de trading si vous n’en n’avez pas les moyens<a class="headerlink" href="#ne-faites-pas-de-trading-si-vous-n-en-n-avez-pas-les-moyens" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="l-effet-de-levier-n-est-pas-votre-allie">
+<h3>8.2. L’effet de levier n’est pas votre allié<a class="headerlink" href="#l-effet-de-levier-n-est-pas-votre-allie" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="ne-pensez-pas-a-gagner-mais-a-durer">
+<h3>8.3. Ne pensez pas à gagner mais à durer!<a class="headerlink" href="#ne-pensez-pas-a-gagner-mais-a-durer" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="a-chaque-trader-sa-strategie">
+<h3>8.4. A chaque trader sa stratégie<a class="headerlink" href="#a-chaque-trader-sa-strategie" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="oubliez-les-gros-coups-cherchez-la-regularite">
+<h3>8.5. Oubliez les gros coups, cherchez la régularité!<a class="headerlink" href="#oubliez-les-gros-coups-cherchez-la-regularite" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="installez-une-routine-dans-votre-trading">
+<h3>8.6. Installez une routine dans votre trading<a class="headerlink" href="#installez-une-routine-dans-votre-trading" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="un-trader-en-forme-c-est-un-trader-performant">
+<h3>8.7. Un trader en forme, c’est un trader performant<a class="headerlink" href="#un-trader-en-forme-c-est-un-trader-performant" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="pensez-par-vous-meme">
+<h3>8.8. Pensez par vous même<a class="headerlink" href="#pensez-par-vous-meme" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="faites-votre-auto-critique">
+<h3>8.9. Faites votre auto critique<a class="headerlink" href="#faites-votre-auto-critique" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="ne-pas-etre-en-position-c-est-deja-etre-en-position">
+<h3>8.10. Ne pas être en position, c’est déjà être en position<a class="headerlink" href="#ne-pas-etre-en-position-c-est-deja-etre-en-position" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="le-meilleur-moyen-de-trader-une-news-c-est-de-ne-pas-en-tenir-compte">
+<h3>8.11. Le meilleur moyen de trader une news, c’est de ne pas en tenir compte<a class="headerlink" href="#le-meilleur-moyen-de-trader-une-news-c-est-de-ne-pas-en-tenir-compte" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="apprendre-a-gagner-c-est-apprendre-a-perdre">
+<h3>8.12. Apprendre à gagner, c’est apprendre à perdre<a class="headerlink" href="#apprendre-a-gagner-c-est-apprendre-a-perdre" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="n-ayez-aucune-certitude">
+<h3>8.13. N’ayez aucune certitude<a class="headerlink" href="#n-ayez-aucune-certitude" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="acceptez-d-avoir-tord">
+<h3>8.14. Acceptez d’avoir tord<a class="headerlink" href="#acceptez-d-avoir-tord" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="bonus-fonctionnement-des-cryptomonnaies">
+<h2>9. BONUS: Fonctionnement des cryptomonnaies<a class="headerlink" href="#bonus-fonctionnement-des-cryptomonnaies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="la-blockchain-fonctionnement-et-avantages">
+<h3>9.1. La blockchain : fonctionnement et avantages<a class="headerlink" href="#la-blockchain-fonctionnement-et-avantages" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-differents-types-de-crypto-monnaies">
+<h3>9.2. Les différents types de crypto-monnaies<a class="headerlink" href="#les-differents-types-de-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-solutions-actuelles-pour-investir-ou-speculer-sur-les-crypto-monnaies">
+<h3>9.3. Les solutions actuelles pour investir ou spéculer sur les crypto-monnaies<a class="headerlink" href="#les-solutions-actuelles-pour-investir-ou-speculer-sur-les-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="introduction-aux-plateformes-de-crypto-monnaies">
+<h3>9.4. Introduction aux plateformes de crypto-monnaies<a class="headerlink" href="#introduction-aux-plateformes-de-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="securisez-vos-acces-plateforme">
+<h3>9.5. Sécurisez vos accès plateforme<a class="headerlink" href="#securisez-vos-acces-plateforme" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="bonus-trading-sur-les-cryptomonnaies">
+<h2>10. BONUS: Trading sur les cryptomonnaies<a class="headerlink" href="#bonus-trading-sur-les-cryptomonnaies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="creer-un-wallet-cle-privee-et-cle-publique-de-wallet">
+<h3>10.1. Créer un wallet - Clé privée et clé publique de wallet<a class="headerlink" href="#creer-un-wallet-cle-privee-et-cle-publique-de-wallet" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="acheter-des-crypto-monnaie-cas-pratique">
+<h3>10.2. Acheter des crypto-monnaie (CAS PRATIQUE)<a class="headerlink" href="#acheter-des-crypto-monnaie-cas-pratique" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-10-erreurs-a-ne-pas-commenttre-sur-les-crypto-monnaies">
+<h3>10.3. Les 10 erreurs à ne pas commenttre sur les crypto-monnaies<a class="headerlink" href="#les-10-erreurs-a-ne-pas-commenttre-sur-les-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="quelles-crypto-monnaies-acheter">
+<h3>10.4. Quelles crypto-monnaies acheter?<a class="headerlink" href="#quelles-crypto-monnaies-acheter" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="les-airdrops-de-crypto-monnaies">
+<h3>10.5. Les airdrops de crypto-monnaies<a class="headerlink" href="#les-airdrops-de-crypto-monnaies" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="money-new_begin_2021.html" class="btn btn-neutral float-right" title="Money - New Begin 2021" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="money-cafe_de_la_bourse.html" class="btn btn-neutral float-left" title="Money - Cafe de la Bourse" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

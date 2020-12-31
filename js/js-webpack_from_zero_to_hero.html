@@ -1,0 +1,747 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>JS - Webpack from Zero to Hero &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="JS - What s new in ES" href="js-what_s_new_in_es.html" />
+    <link rel="prev" title="JS - Trick" href="js-trick.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">JS - Webpack from Zero to Hero</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#chapter-1-getting-started-with-the-basics">Chapter 1: Getting Started with the Basics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#init">init</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#chapter-2-tidying-up-webpack">Chapter 2: Tidying Up Webpack</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#work-with-babel">Work with babel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#development-environment">Development Environment</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#chapter-3-everything-is-a-module">Chapter 3: Everything is a Module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#import-file-file-loader">Import file - File loader</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-some-style-with-sass">Adding Some Style with Sass</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#production-styles">Production Styles</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#keep-clean">Keep clean</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#chapter-4-dynamic-imports-and-code-splitting">Chapter 4: Dynamic Imports and Code Splitting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-history">Document history</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>JS - Webpack from Zero to Hero</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/js/js-webpack_from_zero_to_hero.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="js-webpack-from-zero-to-hero">
+<h1>JS - Webpack from Zero to Hero<a class="headerlink" href="#js-webpack-from-zero-to-hero" title="Permalink to this headline">¶</a></h1>
+<p>Webpack si a module bundler (some other like Parcel or Rollup)
+Transform everything in UMD (Universal Module Definition)</p>
+<p>It is not a task manager like Gulp or Grunt but you can use npm script to manage what wepack can t</p>
+<div class="section" id="chapter-1-getting-started-with-the-basics">
+<h2>Chapter 1: Getting Started with the Basics<a class="headerlink" href="#chapter-1-getting-started-with-the-basics" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="init">
+<h3>init<a class="headerlink" href="#init" title="Permalink to this headline">¶</a></h3>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">init</span><a class="headerlink" href="#id1" title="Permalink to this code">¶</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn init -y
+yarn add webpack webpack-cli --dev
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="index-js">
+<div class="code-block-caption"><span class="caption-text">index.js</span><a class="headerlink" href="#index-js" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="c1">// src/index.js</span>
+<span class="kr">const</span> <span class="nx">hello</span> <span class="o">=</span> <span class="nx">subject</span> <span class="p">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Hello </span><span class="si">${</span><span class="nx">subject</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+<span class="nx">hello</span><span class="p">(</span><span class="s2">&quot;OLX Dev!&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="first-test">
+<div class="code-block-caption"><span class="caption-text">first test</span><a class="headerlink" href="#first-test" title="Permalink to this code">¶</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn webpack
+yarn webpack --mode development
+yarn webpack --mode production
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="src-hello-js">
+<div class="code-block-caption"><span class="caption-text">src/hello.js</span><a class="headerlink" href="#src-hello-js" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="c1">// scr/hello.js</span>
+<span class="kr">export</span> <span class="kr">const</span> <span class="nx">hello</span> <span class="o">=</span> <span class="nx">subject</span> <span class="p">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Hello </span><span class="si">${</span><span class="nx">subject</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="src-index-js">
+<div class="code-block-caption"><span class="caption-text">src/index.js</span><a class="headerlink" href="#src-index-js" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="c1">// src/index.js</span>
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">hello</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;./hello&quot;</span><span class="p">;</span>
+<span class="nx">hello</span><span class="p">(</span><span class="s2">&quot;OLX Dev!&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="package-json">
+<div class="code-block-caption"><span class="caption-text">package.json</span><a class="headerlink" href="#package-json" title="Permalink to this code">¶</a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>// package.json
+&quot;scripts&quot;: {
+  &quot;build&quot;: &quot;webpack --mode production&quot;,
+  &quot;build:dev&quot;: &quot;webpack --mode development&quot;
+}
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="test-with-npm-script">
+<div class="code-block-caption"><span class="caption-text">test with npm script</span><a class="headerlink" href="#test-with-npm-script" title="Permalink to this code">¶</a></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn build
+yarn build:dev
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="chapter-2-tidying-up-webpack">
+<h2>Chapter 2: Tidying Up Webpack<a class="headerlink" href="#chapter-2-tidying-up-webpack" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="work-with-babel">
+<h3>Work with babel<a class="headerlink" href="#work-with-babel" title="Permalink to this headline">¶</a></h3>
+<p><code class="code docutils literal notranslate"><span class="pre">yarn</span> <span class="pre">add</span> <span class="pre">&#64;babel/core</span> <span class="pre">&#64;babel/preset-env</span> <span class="pre">babel-loader</span> <span class="pre">--dev</span></code></p>
+<ul class="simple">
+<li><p>Babel Core: it has all logic necessary for transformations and also some polyfills;</p></li>
+<li><p>Babel Preset Env: it is able to choose the right transformations/polyfills depending on the target browser list;</p></li>
+<li><p>Babel Loader: it will be responsible for receiving the input file from Webpack and passing it through BabelJS.</p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="babelrc">
+<div class="code-block-caption"><span class="caption-text">.babelrc</span><a class="headerlink" href="#babelrc" title="Permalink to this code">¶</a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nt">&quot;presets&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;@babel/preset-env&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-text">package.json</span><a class="headerlink" href="#id2" title="Permalink to this code">¶</a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;browserslist&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="s2">&quot;last 2 versions&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;not dead&quot;</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="webpack-config-js">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#webpack-config-js" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">module</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">rules</span><span class="o">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.js$/</span><span class="p">,</span>
+                <span class="nx">use</span><span class="o">:</span> <span class="s2">&quot;babel-loader&quot;</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="development-environment">
+<h3>Development Environment<a class="headerlink" href="#development-environment" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>webpack-dev-server: hot module reloading</p></li>
+<li><p>html-webpack-plugin: auto insert bundle in an html file</p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">HtmlWebpackPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;html-webpack-plugin&quot;</span><span class="p">);</span> <span class="c1">// first import ...</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">module</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">rules</span><span class="o">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.js$/</span><span class="p">,</span>
+                <span class="nx">use</span><span class="o">:</span> <span class="s2">&quot;babel-loader&quot;</span>
+            <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span>
+        <span class="k">new</span> <span class="nx">HtmlWebpackPlugin</span><span class="p">()</span> <span class="c1">// ... then register it</span>
+    <span class="p">]</span>
+<span class="p">};</span>
+</pre></div>
+</div>
+</div>
+<p>Tip of the day: If you don’t want to output an index.html on the production builds, we can skip it by checking the webpack argv.mode:</p>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id4" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="c1">// To prevent argv being undefined, let&#39;s use a default value</span>
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">(</span><span class="nx">env</span><span class="o">=</span><span class="p">{},</span> <span class="nx">argv</span><span class="o">=</span><span class="p">{})</span> <span class="p">=&gt;</span> <span class="p">({</span>
+    <span class="c1">// ...</span>
+    <span class="nx">plugins</span><span class="o">:</span> <span class="p">[</span>
+        <span class="c1">// Any option given to Webpack client can be captured on the &quot;argv&quot;</span>
+        <span class="nx">argv</span><span class="p">.</span><span class="nx">mode</span> <span class="o">===</span> <span class="s2">&quot;development&quot;</span> <span class="o">?</span> <span class="k">new</span> <span class="nx">HtmlWebpackPlugin</span><span class="p">()</span> <span class="o">:</span> <span class="kc">null</span>
+    <span class="p">].</span><span class="nx">filter</span><span class="p">(</span>
+        <span class="c1">// To remove any possibility of &quot;null&quot; values inside the plugins array, we filter it</span>
+        <span class="nx">plugin</span> <span class="p">=&gt;</span> <span class="o">!!</span><span class="nx">plugin</span>
+    <span class="p">)</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</div>
+<ul class="simple">
+<li><p>webpack accept object or function as conf</p></li>
+<li><p>env arg: <code class="code docutils literal notranslate"><span class="pre">--env.test</span> <span class="pre">or</span> <span class="pre">--env.customValue=&quot;Hello</span> <span class="pre">there!&quot;</span></code></p></li>
+<li><p>argv arg: … the rest <code class="code docutils literal notranslate"><span class="pre">--mode=production</span></code></p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="id5">
+<div class="code-block-caption"><span class="caption-text">package.json</span><a class="headerlink" href="#id5" title="Permalink to this code">¶</a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;scripts&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&quot;build&quot;</span><span class="p">:</span> <span class="s2">&quot;webpack --mode=production&quot;</span><span class="p">,</span>
+    <span class="nt">&quot;start:dev&quot;</span><span class="p">:</span> <span class="s2">&quot;webpack-dev-server --mode=development&quot;</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+</div>
+<p>will be see at <code class="code docutils literal notranslate"><span class="pre">localhost:8080</span></code>
+when you see the source you ll see the transpilled code
+to have the source code</p>
+<div class="literal-block-wrapper docutils container" id="id6">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id6" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">devtool</span><span class="o">:</span> <span class="s2">&quot;source-map&quot;</span><span class="p">,</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="chapter-3-everything-is-a-module">
+<h2>Chapter 3: Everything is a Module<a class="headerlink" href="#chapter-3-everything-is-a-module" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="import-file-file-loader">
+<h3>Import file - File loader<a class="headerlink" href="#import-file-file-loader" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn add file-loader --dev
+<span class="c1"># file loader permit to inject a file in the html, example as in src in an image</span>
+</pre></div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id7">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id7" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">module</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">rules</span><span class="o">:</span> <span class="p">[</span>
+        <span class="c1">//...</span>
+        <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.(gif|png|jpe?g|svg)$/i</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="s1">&#39;file-loader&#39;</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn add image-webpack-loader --dev
+<span class="c1"># permit to optimize image</span>
+</pre></div>
+</div>
+<p>It has some image compressors already enabled by default:</p>
+<ul class="simple">
+<li><p>mozjpeg — Compress JPEG images</p></li>
+<li><p>optipng — Compress PNG images</p></li>
+<li><p>pngquant — Compress PNG images</p></li>
+<li><p>svgo — Compress SVG images</p></li>
+<li><p>gifsicle — Compress GIF images</p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="id8">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id8" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.(gif|png|jpe?g|svg)$/i</span><span class="p">,</span>
+    <span class="nx">use</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s1">&#39;file-loader&#39;</span><span class="p">,</span>
+        <span class="p">{</span>
+        <span class="nx">loader</span><span class="o">:</span> <span class="s1">&#39;image-webpack-loader&#39;</span><span class="p">,</span>
+        <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">disable</span><span class="o">:</span> <span class="kc">true</span> <span class="c1">// Disables on development mode</span>
+        <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id9">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id9" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.(ogg|mp3|wav|mpe?g)$/i</span><span class="p">,</span>
+    <span class="nx">use</span><span class="o">:</span> <span class="s1">&#39;file-loader&#39;</span>
+<span class="p">}</span>
+<span class="c1">// permit to :code:`import andHisNameIs from &quot;./assets/and-his-name-is.mp3&quot;;`</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="adding-some-style-with-sass">
+<h3>Adding Some Style with Sass<a class="headerlink" href="#adding-some-style-with-sass" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn add node-sass sass-loader css-loader style-loader --dev
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>sass-loader + node-sass: receive your Sass files and output CSS</p></li>
+<li><p>css-loader: turns it into a JS module</p></li>
+<li><p>style-loader: gets the CSS module and inserts it into the page inside a &lt;style&gt;&lt;/style&gt; tag</p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="id10">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id10" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">module</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">rules</span><span class="o">:</span> <span class="p">[</span>
+        <span class="c1">//...</span>
+        <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.scss$/</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="p">[</span><span class="s2">&quot;style-loader&quot;</span><span class="p">,</span> <span class="s2">&quot;css-loader&quot;</span><span class="p">,</span> <span class="s2">&quot;sass-loader&quot;</span><span class="p">]</span> <span class="c1">// It&#39;s like a pipeline</span>
+        <span class="p">}</span>
+    <span class="p">];</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="production-styles">
+<h4>Production Styles<a class="headerlink" href="#production-styles" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>yarn add mini-css-extract-plugin --dev
+</pre></div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id11">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id11" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span>const MiniCssExtractPlugin = require(“mini-css-extract-plugin”);
+
+{
+    test: /\.scss$/,
+    use: [
+        argv.mode === &quot;production&quot; ? MiniCssExtractPlugin.loader : &quot;style-loader&quot;,
+        { loader: &quot;css-loader&quot;, options: { sourceMap: true }},
+        { loader: &quot;sass-loader&quot;, options: { sourceMap: true }}
+    ]
+}
+[ ... ]
+plugins: [
+    // Any option given to Webpack client can be captured on the &quot;argv&quot;
+    argv.mode === &quot;development&quot; ? new HtmlWebpackPlugin() : null,
+    argv.mode === &quot;production&quot;
+        ? new MiniCssExtractPlugin({
+            filename: &quot;[name].css&quot;,
+            chunkFilename: &quot;[id].css&quot;
+        }) : null
+].filter(
+    // To remove any possibility of &quot;null&quot; values inside the plugins array, we filter it
+    plugin =&gt; !!plugin
+);
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="keep-clean">
+<h3>Keep clean<a class="headerlink" href="#keep-clean" title="Permalink to this headline">¶</a></h3>
+<div class="literal-block-wrapper docutils container" id="webpack-module-rules">
+<div class="code-block-caption"><span class="caption-text">./webpack/module.rules</span><a class="headerlink" href="#webpack-module-rules" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">MiniCssExtractPlugin</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;mini-css-extract-plugin&quot;</span><span class="p">);</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">(</span><span class="nx">env</span><span class="p">,</span> <span class="nx">argv</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.js$/</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="s2">&quot;babel-loader&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.(gif|png|jpe?g|svg)$/i</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="p">[</span>
+        <span class="s2">&quot;file-loader&quot;</span><span class="p">,</span>
+        <span class="p">{</span>
+            <span class="nx">loader</span><span class="o">:</span> <span class="s2">&quot;image-webpack-loader&quot;</span><span class="p">,</span>
+            <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+            <span class="nx">disable</span><span class="o">:</span> <span class="kc">true</span> <span class="c1">// webpack@2.x and newer</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.(ogg|mp3|wav|mpe?g)$/i</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="s2">&quot;file-loader&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="nx">test</span><span class="o">:</span> <span class="sr">/\.scss$/</span><span class="p">,</span>
+        <span class="nx">use</span><span class="o">:</span> <span class="p">[</span>
+        <span class="nx">argv</span><span class="p">.</span><span class="nx">mode</span> <span class="o">===</span> <span class="s2">&quot;production&quot;</span> <span class="o">?</span> <span class="nx">MiniCssExtractPlugin</span><span class="p">.</span><span class="nx">loader</span> <span class="o">:</span> <span class="s2">&quot;style-loader&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;css-loader&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sass-loader&quot;</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">];</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="id12">
+<div class="code-block-caption"><span class="caption-text">webpack.config.js</span><a class="headerlink" href="#id12" title="Permalink to this code">¶</a></div>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="nx">module</span><span class="o">:</span> <span class="p">{</span>
+  <span class="nx">rules</span><span class="o">:</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;./webpack/module.rules&quot;</span><span class="p">)(</span><span class="nx">env</span><span class="p">,</span> <span class="nx">argv</span><span class="p">)</span>
+<span class="p">},</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="chapter-4-dynamic-imports-and-code-splitting">
+<h2>Chapter 4: Dynamic Imports and Code Splitting<a class="headerlink" href="#chapter-4-dynamic-imports-and-code-splitting" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Chap0: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-5540b6d620ec">https://tech.olx.com/webpack-from-zero-to-hero-5540b6d620ec</a></p></li>
+<li><p>Chap1: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-60673ea906aa">https://tech.olx.com/webpack-from-zero-to-hero-60673ea906aa</a></p></li>
+<li><p>Chap2: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-1e02cb42ab7b">https://tech.olx.com/webpack-from-zero-to-hero-1e02cb42ab7b</a></p></li>
+<li><p>Chap3: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-cf1b77b852c9">https://tech.olx.com/webpack-from-zero-to-hero-cf1b77b852c9</a></p></li>
+<li><p>Chap4: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-f64924e4d06">https://tech.olx.com/webpack-from-zero-to-hero-f64924e4d06</a></p></li>
+<li><p>Chap5: <a class="reference external" href="https://tech.olx.com/webpack-from-zero-to-hero-10a7dc26c74">https://tech.olx.com/webpack-from-zero-to-hero-10a7dc26c74</a></p></li>
+</ul>
+</div>
+<div class="section" id="document-history">
+<h2>Document history<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2019.12.31</p></td>
+<td><p>V1.0</p></td>
+<td><p>First write</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="js-what_s_new_in_es.html" class="btn btn-neutral float-right" title="JS - What s new in ES" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="js-trick.html" class="btn btn-neutral float-left" title="JS - Trick" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

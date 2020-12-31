@@ -1,0 +1,533 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Db - Neo4j - From SQL to NEO4J &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Db - Postgres - User Permissions" href="db-postgres-user_permissions.html" />
+    <link rel="prev" title="Db - Neo4j - Cypher" href="db-neo4j-cypher.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Db - Neo4j - From SQL to NEO4J</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#export-data">Export data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#import-data">Import Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#querying-the-graph">Querying the Graph</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#which-employee-had-the-highest-cross-selling-count-of-chocolade-and-which-product">Which Employee had the Highest Cross-Selling Count of ‘Chocolade’ and Which Product?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-are-employees-organized-who-reports-to-whom">How are Employees Organized? Who Reports to Whom?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#which-employees-report-to-each-other-indirectly">Which Employees Report to Each Other Indirectly?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-many-orders-were-made-by-each-part-of-the-hierarchy">How Many Orders were Made by Each Part of the Hierarchy?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#upgrading-the-graph">Upgrading the Graph</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#new-manager">New Manager</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Db - Neo4j - From SQL to NEO4J</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/db/db-neo4j-from_sql_to_neo4j.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="db-neo4j-from-sql-to-neo4j">
+<h1>Db - Neo4j - From SQL to NEO4J<a class="headerlink" href="#db-neo4j-from-sql-to-neo4j" title="Permalink to this headline">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://neo4j.com/developer/guide-importing-data-and-etl/">https://neo4j.com/developer/guide-importing-data-and-etl/</a></p>
+</dd>
+</dl>
+<p>Will use a postgresql database</p>
+<div class="section" id="export-data">
+<h2>Export data<a class="headerlink" href="#export-data" title="Permalink to this headline">¶</a></h2>
+<p><code class="code docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">northwind</span> <span class="pre">&lt;</span> <span class="pre">export_csv.sql</span></code></p>
+<div class="highlight-sql notranslate"><div class="highlight"><pre><span></span><span class="o">#</span> <span class="n">export_csv</span><span class="p">.</span><span class="k">sql</span>
+
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">customers</span><span class="p">)</span> <span class="k">TO</span> <span class="s1">&#39;/tmp/customers.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span><span class="p">;</span>
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">suppliers</span><span class="p">)</span> <span class="k">TO</span> <span class="s1">&#39;/tmp/suppliers.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span><span class="p">;</span>
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">products</span><span class="p">)</span>  <span class="k">TO</span> <span class="s1">&#39;/tmp/products.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span><span class="p">;</span>
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">employees</span><span class="p">)</span> <span class="k">TO</span> <span class="s1">&#39;/tmp/employees.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span><span class="p">;</span>
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">categories</span><span class="p">)</span> <span class="k">TO</span> <span class="s1">&#39;/tmp/categories.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span><span class="p">;</span>
+
+<span class="k">COPY</span> <span class="p">(</span><span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="n">orders</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span> <span class="n">order_details</span>
+    <span class="k">ON</span> <span class="n">order_details</span><span class="p">.</span><span class="n">OrderID</span> <span class="o">=</span> <span class="n">orders</span><span class="p">.</span><span class="n">OrderID</span><span class="p">)</span>
+    <span class="k">TO</span> <span class="s1">&#39;/tmp/orders.csv&#39;</span> <span class="k">WITH</span> <span class="n">CSV</span> <span class="n">header</span>
+<span class="p">;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="import-data">
+<h2>Import Data<a class="headerlink" href="#import-data" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span><span class="c1">// import_csv.cypher</span>
+
+<span class="c1">// Step 1: Create schema</span>
+
+<span class="c1">// Create customers</span>
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:customers.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(:</span><span class="n">Customer</span><span class="w"> </span><span class="p">{</span><span class="n">companyName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CompanyName</span><span class="p">,</span><span class="w"> </span><span class="n">customerID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CustomerID</span><span class="p">,</span><span class="w"> </span><span class="n">fax</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">Fax</span><span class="p">,</span><span class="w"> </span><span class="n">phone</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">Phone</span><span class="p">});</span><span class="w"></span>
+
+<span class="c1">// Create products</span>
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:products.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(:</span><span class="n">Product</span><span class="w"> </span><span class="p">{</span><span class="n">productName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ProductName</span><span class="p">,</span><span class="w"> </span><span class="n">productID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ProductID</span><span class="p">,</span><span class="w"> </span><span class="n">unitPrice</span><span class="p">:</span><span class="w"> </span><span class="n">toFloat</span><span class="p">(</span><span class="n">row</span><span class="p">.</span><span class="n">UnitPrice</span><span class="p">)});</span><span class="w"></span>
+
+<span class="c1">// Create suppliers</span>
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:suppliers.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(:</span><span class="n">Supplier</span><span class="w"> </span><span class="p">{</span><span class="n">companyName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CompanyName</span><span class="p">,</span><span class="w"> </span><span class="n">supplierID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">SupplierID</span><span class="p">});</span><span class="w"></span>
+
+<span class="c1">// Create employees</span>
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:employees.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">employeeID</span><span class="p">:</span><span class="n">row</span><span class="p">.</span><span class="n">EmployeeID</span><span class="p">,</span><span class="w">  </span><span class="n">firstName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">FirstName</span><span class="p">,</span><span class="w"> </span><span class="n">lastName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">LastName</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">Title</span><span class="p">});</span><span class="w"></span>
+
+<span class="c1">// Create categories</span>
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:categories.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(:</span><span class="n">Category</span><span class="w"> </span><span class="p">{</span><span class="n">categoryID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CategoryID</span><span class="p">,</span><span class="w"> </span><span class="n">categoryName</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CategoryName</span><span class="p">,</span><span class="w"> </span><span class="n">description</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">Description</span><span class="p">});</span><span class="w"></span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:orders.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="k">order</span><span class="p">:</span><span class="k">Order</span><span class="w"> </span><span class="p">{</span><span class="n">orderID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">OrderID</span><span class="p">})</span><span class="w"> </span><span class="k">ON CREATE</span><span class="w"> </span><span class="k">SET</span><span class="w"> </span><span class="k">order</span><span class="p">.</span><span class="n">shipName</span><span class="w"> </span><span class="p">=</span><span class="w">  </span><span class="n">row</span><span class="p">.</span><span class="n">ShipName</span><span class="p">;</span><span class="w"></span>
+
+<span class="c1">// Step 2: create index</span>
+
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Product</span><span class="p">(</span><span class="n">productID</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Product</span><span class="p">(</span><span class="n">productName</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Category</span><span class="p">(</span><span class="n">categoryID</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Employee</span><span class="p">(</span><span class="n">employeeID</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Supplier</span><span class="p">(</span><span class="n">supplierID</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Customer</span><span class="p">(</span><span class="n">customerID</span><span class="p">);</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="n">INDEX</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">:</span><span class="n">Customer</span><span class="p">(</span><span class="n">customerName</span><span class="p">);</span><span class="w"></span>
+
+<span class="c1">// Step 3: add constraint</span>
+
+<span class="k">CREATE</span><span class="w"> </span><span class="n">CONSTRAINT</span><span class="w"> </span><span class="n">ON</span><span class="w"> </span><span class="p">(</span><span class="n">o</span><span class="p">:</span><span class="k">Order</span><span class="p">)</span><span class="w"> </span><span class="k">ASSERT</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">orderID</span><span class="w"> </span><span class="k">IS UNIQUE</span><span class="p">;</span><span class="w"></span>
+
+<span class="c1">// Step 4: wait asynchronous request ended</span>
+
+<span class="n">scema</span><span class="w"> </span><span class="n">await</span><span class="w"></span>
+
+<span class="c1">// Step 5: create relationships to orders products and employees</span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:orders.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="k">order</span><span class="p">:</span><span class="k">Order</span><span class="w"> </span><span class="p">{</span><span class="n">orderID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">OrderID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">product</span><span class="p">:</span><span class="n">Product</span><span class="w"> </span><span class="p">{</span><span class="n">productID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ProductID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="k">order</span><span class="p">)</span><span class="o">-[</span><span class="n">pu</span><span class="p">:</span><span class="n">PRODUCT</span><span class="o">]-&gt;</span><span class="p">(</span><span class="n">product</span><span class="p">)</span><span class="w"></span>
+<span class="k">ON CREATE</span><span class="w"> </span><span class="k">SET</span><span class="w"> </span><span class="n">pu</span><span class="p">.</span><span class="n">unitPrice</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">toFloat</span><span class="p">(</span><span class="n">row</span><span class="p">.</span><span class="n">UnitPrice</span><span class="p">),</span><span class="w"> </span><span class="n">pu</span><span class="p">.</span><span class="n">quantity</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">toFloat</span><span class="p">(</span><span class="n">row</span><span class="p">.</span><span class="n">Quantity</span><span class="p">);</span><span class="w"></span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:orders.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="k">order</span><span class="p">:</span><span class="k">Order</span><span class="w"> </span><span class="p">{</span><span class="n">orderID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">OrderID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">employee</span><span class="p">:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">employeeID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">EmployeeID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="n">employee</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">SOLD</span><span class="o">]-&gt;</span><span class="p">(</span><span class="k">order</span><span class="p">);</span><span class="w"></span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:orders.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="k">order</span><span class="p">:</span><span class="k">Order</span><span class="w"> </span><span class="p">{</span><span class="n">orderID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">OrderID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">customer</span><span class="p">:</span><span class="n">Customer</span><span class="w"> </span><span class="p">{</span><span class="n">customerID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CustomerID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="n">customer</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">PURCHASED</span><span class="o">]-&gt;</span><span class="p">(</span><span class="k">order</span><span class="p">);</span><span class="w"></span>
+
+<span class="n">Step</span><span class="w"> </span><span class="m">6</span><span class="p">:</span><span class="w"> </span><span class="k">create</span><span class="w"> </span><span class="n">relationships</span><span class="w"> </span><span class="n">between</span><span class="w"> </span><span class="n">products</span><span class="p">,</span><span class="w"> </span><span class="n">suppliers</span><span class="p">,</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">categories</span><span class="w"></span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:products.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">product</span><span class="p">:</span><span class="n">Product</span><span class="w"> </span><span class="p">{</span><span class="n">productID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ProductID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">supplier</span><span class="p">:</span><span class="n">Supplier</span><span class="w"> </span><span class="p">{</span><span class="n">supplierID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">SupplierID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="n">supplier</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">SUPPLIES</span><span class="o">]-&gt;</span><span class="p">(</span><span class="n">product</span><span class="p">);</span><span class="w"></span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:products.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">product</span><span class="p">:</span><span class="n">Product</span><span class="w"> </span><span class="p">{</span><span class="n">productID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ProductID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">category</span><span class="p">:</span><span class="n">Category</span><span class="w"> </span><span class="p">{</span><span class="n">categoryID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">CategoryID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="n">product</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">PART_OF</span><span class="o">]-&gt;</span><span class="p">(</span><span class="n">category</span><span class="p">);</span><span class="w"></span>
+
+<span class="c1">// Step 7: make a relationship between employees and a reporting structure</span>
+
+<span class="k">USING PERIODIC COMMIT</span><span class="w"></span>
+<span class="n">LOAD</span><span class="w"> </span><span class="n">CSV</span><span class="w"> </span><span class="k">WITH</span><span class="w"> </span><span class="n">HEADERS</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="s">&quot;file:employees.csv&quot;</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">row</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">employee</span><span class="p">:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">employeeID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">EmployeeID</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">manager</span><span class="p">:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">employeeID</span><span class="p">:</span><span class="w"> </span><span class="n">row</span><span class="p">.</span><span class="n">ReportsTo</span><span class="p">})</span><span class="w"></span>
+<span class="k">MERGE</span><span class="w"> </span><span class="p">(</span><span class="n">employee</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">REPORTS_TO</span><span class="o">]-&gt;</span><span class="p">(</span><span class="n">manager</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">bin/neo4j-shell</span> <span class="pre">-path</span> <span class="pre">northwind.db</span> <span class="pre">-file</span> <span class="pre">import_csv.cypher</span></code></p>
+</div>
+<div class="section" id="querying-the-graph">
+<h2>Querying the Graph<a class="headerlink" href="#querying-the-graph" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="which-employee-had-the-highest-cross-selling-count-of-chocolade-and-which-product">
+<h3>Which Employee had the Highest Cross-Selling Count of ‘Chocolade’ and Which Product?<a class="headerlink" href="#which-employee-had-the-highest-cross-selling-count-of-chocolade-and-which-product" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span>MATCH (choc:Product {productName:&#39;Chocolade&#39;})&lt;-[:PRODUCT]-(:Order)&lt;-[:SOLD]-(employee),
+    (employee)-[:SOLD]-&gt;(o2)-[:PRODUCT]-&gt;(other:Product)
+RETURN employee.employeeID, other.productName, count(distinct o2) as count
+ORDER BY count DESC
+LIMIT 5;
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-are-employees-organized-who-reports-to-whom">
+<h3>How are Employees Organized? Who Reports to Whom?<a class="headerlink" href="#how-are-employees-organized-who-reports-to-whom" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span><span class="k">MATCH</span><span class="w"> </span><span class="n">path</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">(</span><span class="n">e</span><span class="p">:</span><span class="n">Employee</span><span class="p">)</span><span class="o">&lt;-[</span><span class="p">:</span><span class="n">REPORTS_TO</span><span class="o">]-</span><span class="p">(</span><span class="n">sub</span><span class="p">)</span><span class="w"></span>
+<span class="k">RETURN</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">employeeID</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">manager</span><span class="p">,</span><span class="w"> </span><span class="n">sub</span><span class="p">.</span><span class="n">employeeID</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">employee</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="which-employees-report-to-each-other-indirectly">
+<h3>Which Employees Report to Each Other Indirectly?<a class="headerlink" href="#which-employees-report-to-each-other-indirectly" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span>MATCH path = (e:Employee)&lt;-[:REPORTS_TO*]-(sub)
+WITH e, sub, [person in NODES(path) | person.employeeID][1..-1] AS path
+RETURN e.employeeID AS manager, sub.employeeID AS employee, CASE WHEN LENGTH(path) = 0 THEN &quot;Direct Report&quot; ELSE path END AS via
+ORDER BY LENGTH(path);
+</pre></div>
+</div>
+</div>
+<div class="section" id="how-many-orders-were-made-by-each-part-of-the-hierarchy">
+<h3>How Many Orders were Made by Each Part of the Hierarchy?<a class="headerlink" href="#how-many-orders-were-made-by-each-part-of-the-hierarchy" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span><span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">e</span><span class="p">:</span><span class="n">Employee</span><span class="p">)</span><span class="w"></span>
+<span class="k">OPTIONAL MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">e</span><span class="p">)</span><span class="o">&lt;-[</span><span class="p">:</span><span class="n">REPORTS_TO</span><span class="p">*</span><span class="m">0</span><span class="p">..</span><span class="o">]-</span><span class="p">(</span><span class="n">sub</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">SOLD</span><span class="o">]-&gt;</span><span class="p">(</span><span class="k">order</span><span class="p">)</span><span class="w"></span>
+<span class="k">RETURN</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">employeeID</span><span class="p">,</span><span class="w"> </span><span class="o">[</span><span class="n">x</span><span class="w"> </span><span class="k">IN</span><span class="w"> </span><span class="n">COLLECT</span><span class="p">(</span><span class="k">DISTINCT</span><span class="w"> </span><span class="n">sub</span><span class="p">.</span><span class="n">employeeID</span><span class="p">)</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="p">&lt;&gt;</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">employeeID</span><span class="o">]</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">reports</span><span class="p">,</span><span class="w"> </span><span class="n">COUNT</span><span class="p">(</span><span class="k">distinct</span><span class="w"> </span><span class="k">order</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">totalOrders</span><span class="w"></span>
+<span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">totalOrders</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="upgrading-the-graph">
+<h2>Upgrading the Graph<a class="headerlink" href="#upgrading-the-graph" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="new-manager">
+<h3>New Manager<a class="headerlink" href="#new-manager" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-cypher notranslate"><div class="highlight"><pre><span></span><span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">mgr</span><span class="p">:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">EmployeeID</span><span class="p">:</span><span class="m">5</span><span class="p">})</span><span class="w"></span>
+<span class="k">MATCH</span><span class="w"> </span><span class="p">(</span><span class="n">emp</span><span class="p">:</span><span class="n">Employee</span><span class="w"> </span><span class="p">{</span><span class="n">EmployeeID</span><span class="p">:</span><span class="m">3</span><span class="p">})</span><span class="o">-[</span><span class="n">rel</span><span class="p">:</span><span class="n">REPORTS_TO</span><span class="o">]-&gt;</span><span class="p">()</span><span class="w"></span>
+<span class="k">DELETE</span><span class="w"> </span><span class="n">rel</span><span class="w"></span>
+<span class="k">CREATE</span><span class="w"> </span><span class="p">(</span><span class="n">emp</span><span class="p">)</span><span class="o">-[</span><span class="p">:</span><span class="n">REPORTS_TO</span><span class="o">]-&gt;</span><span class="p">(</span><span class="n">mgr</span><span class="p">)</span><span class="w"></span>
+<span class="k">RETURN</span><span class="w"> </span><span class="p">*;</span><span class="w"></span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="db-postgres-user_permissions.html" class="btn btn-neutral float-right" title="Db - Postgres - User Permissions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="db-neo4j-cypher.html" class="btn btn-neutral float-left" title="Db - Neo4j - Cypher" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

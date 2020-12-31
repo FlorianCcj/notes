@@ -1,0 +1,603 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recipe - Full Meal &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Recipe - Vegetables" href="recipe-vegetables.html" />
+    <link rel="prev" title="Recipe - Pasta" href="recipe-pasta.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Recipe - Full Meal</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#totest-katsudon-special-confinement-le-riz-jaune">Totest - Katsudon spécial confinement - Le Riz Jaune</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#realisation">Realisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ingredient">Ingredient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#totest-nouilles-udon-sautees-au-boeuf-hache-special-confinement-le-riz-jaune">Totest - Nouilles UDON sautées au boeuf haché - Spécial confinement - Le Riz Jaune</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Realisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Ingredient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#poulet-sauce-aigre-douce-special-confinement-le-riz-jaune">Poulet sauce aigre douce Spécial Confinement - Le Riz Jaune</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Realisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Ingredient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#totest-riz-saute-au-porc-le-riz-jaune">Totest - Riz Sauté au Porc - Le Riz Jaune</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Realisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Ingredient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#totest-soboro-don-donburi-le-riz-jaune">Totest - Soboro Don - Donburi - Le Riz Jaune</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Realisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Ingredient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Steps</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Recipe - Full Meal</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/recipe/recipe-full_meal.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="recipe-full-meal">
+<h1>Recipe - Full Meal<a class="headerlink" href="#recipe-full-meal" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="totest-katsudon-special-confinement-le-riz-jaune">
+<h2>Totest - Katsudon spécial confinement - Le Riz Jaune<a class="headerlink" href="#totest-katsudon-special-confinement-le-riz-jaune" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=6h9peh6zlYg">https://www.youtube.com/watch?v=6h9peh6zlYg</a></p>
+</dd>
+</dl>
+<div class="section" id="realisation">
+<h3>Realisation<a class="headerlink" href="#realisation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Author: Le Riz Jaune</p></li>
+<li><p>Préparation : 0 min</p></li>
+<li><p>Cuisson : 0 min</p></li>
+<li><p>Difficulté :</p></li>
+<li><p>Prix: 0/personne</p></li>
+<li><p>Tags: [Plat]</p></li>
+</ul>
+</div>
+<div class="section" id="ingredient">
+<h3>Ingredient<a class="headerlink" href="#ingredient" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quantite: pour 1 personne</p></li>
+<li><p>Une côte de porc désossée (ou une escalope de poulet)</p></li>
+<li><p>250 g de riz blanc cuit</p></li>
+<li><p>Une tranche de pain de mie</p></li>
+<li><p>15 cl de bouillon de poule</p></li>
+<li><p>1/2 oignon</p></li>
+<li><p>Un oeuf</p></li>
+<li><p>Quelques branches de ciboulette</p></li>
+<li><p>2 cuillères à soupe de sauce de soja</p></li>
+<li><p>Une cuillère à café de sucre</p></li>
+<li><p>Sel, poivre</p></li>
+<li><p>Farine pour paner la viande</p></li>
+</ul>
+</div>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Hacher le pain de mie afin d’obtenir une taille équivalente à des grains de riz, déposer le tout sur une plaque et enfourner à 60° pendant 10 minutes.</p></li>
+<li><p>Ciseler la ciboulette, émincer l’oignon et battre l’oeuf. Déposer la farine sur une assiette et la chapelure sur une autre une fois celle-ci cuite.</p></li>
+<li><p>Entailler les bords de la viande avec un espacement régulier afin qu’elle soit bien plate pendant la cuisson puis la saler et la poivrer. Fariner la viande, la déposer dans l’oeuf battu puis la recouvrir de chapelure.</p></li>
+<li><p>Porter un bain d’huile à environ 160°, mettre la viande panée à cuire 3 minutes de chaque côté puis la retirer sur du papier absorbant puis la trancher.</p></li>
+<li><p>Pour finir, dans une petite poêle à feu moyen mettre un filet d’huile, faire revenir les oignons 2 minutes, ajouter ensuite le bouillon de poule, le sucre et la sauce de soja, mélanger et laisser bouillir une minute. Déposer la viande, laisser de nouveau cuire une minute, verser autour de la viande le reste de l’oeuf battu et laisser cuire 30 secondes.</p></li>
+<li><p>Déposer le tout sur le riz cuit et finir par la ciboulette ciselée.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="totest-nouilles-udon-sautees-au-boeuf-hache-special-confinement-le-riz-jaune">
+<h2>Totest - Nouilles UDON sautées au boeuf haché - Spécial confinement - Le Riz Jaune<a class="headerlink" href="#totest-nouilles-udon-sautees-au-boeuf-hache-special-confinement-le-riz-jaune" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=aczL03z8OWI&amp;feature=youtu.be&amp;fbclid=IwAR2OsADT-A_f27ouBr2FjUTPg6TwCrsSY1Z9yFdVDNNJ79WCMHqNFbVOX1k">https://www.youtube.com/watch?v=aczL03z8OWI&amp;feature=youtu.be&amp;fbclid=IwAR2OsADT-A_f27ouBr2FjUTPg6TwCrsSY1Z9yFdVDNNJ79WCMHqNFbVOX1k</a></p>
+</dd>
+</dl>
+<div class="section" id="id1">
+<h3>Realisation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Author: Le Riz Jaune</p></li>
+<li><p>Préparation : 0 min</p></li>
+<li><p>Cuisson : 0 min</p></li>
+<li><p>Difficulté : Facile</p></li>
+<li><p>Prix: 0,0/personne</p></li>
+<li><p>Tags: [Plat]</p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Ingredient<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quantite: pour 1 personne</p></li>
+<li><p>150 g de farine</p></li>
+<li><p>8 cl d’eau</p></li>
+<li><p>2 petits champignons de Paris</p></li>
+<li><p>1/4 d’oignon</p></li>
+<li><p>Une gousse d’ail</p></li>
+<li><p>Une branche de cébette</p></li>
+<li><p>4 tranches de gingembre</p></li>
+<li><p>3 cuillères à soupe de sauce de soja claire</p></li>
+<li><p>Une cuillère à café d’huile de sésame</p></li>
+<li><p>Sel, poivre</p></li>
+<li><p>Une cuillère à café de fécule de pomme de terre</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3>Steps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Préparer la pâte pour les nouilles udon :  dans un saladier mélanger la farine, une grosse pincée de sel et les 8 cl d’eau, pétrir et rendre l’ensemble homogène. Écraser ensuite la pâte à l’aide d’un rouleau sur toute la longueur, replier chaque tiers des extrémités vers le centre et recommencer ainsi de suite au moins une dizaine de fois. Recouvrir ensuite d’un film plastique et laisser reposer au minimum 30 minutes.</p></li>
+<li><p>Ciseler l’oignon, couper en brunoise l’ail et le gingembre et réserver ensemble. Couper les champignons en petits cubes en réservant quelques tranches pour la décoration. Pour la cébette couper en biais la partie la plus blanche et en grosses rondelles le reste.</p></li>
+<li><p>Une fois reposée, fleurer la surface de travail, étaler la pâte sur une épaisseur de 5 mm environ, fariner légèrement le dessus, replier celle-ci en 2 puis encore en 2. Détailler ensuite au couteau des bandes de 5 mm de largeur et séparer les nouilles.</p></li>
+<li><p>Porter une casserole d’eau à ébullition, y déposer les nouilles udon, reporter à ébullition, laisser bouillir 30 secondes, verser 10 cl d’eau froide, recommencer pour la 2ème ébullition, et on termine avec la 3ème ébullition, attendre 20 secondes, égoutter les nouilles et les rincer à l’eau froide pour stopper la cuisson.</p></li>
+<li><p>Dans une sauteuse, à feu moyen, mettre 3 cuillères à soupe d’huile, faire revenir l’ail, l’oignon et le gingembre 20 secondes, ajouter la viande haché, puis les champignons, cuire 2 minutes, assaisonner de sauce de soja, de poivre, mouiller avec 12 cl d’eau, porter à ébullition, mélanger la fécule avec un peu d’eau et l’ajouter, mélanger jusqu’à ce que cela épaississe, ajouter les nouilles, les rondelles de cébette, l’huile de sésame et bien amalgamer l’ensemble.</p></li>
+<li><p>Dresser, ajouter les fines lamelles de champignons et la partie blanche de la cébette.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="poulet-sauce-aigre-douce-special-confinement-le-riz-jaune">
+<h2>Poulet sauce aigre douce Spécial Confinement - Le Riz Jaune<a class="headerlink" href="#poulet-sauce-aigre-douce-special-confinement-le-riz-jaune" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=r1XKFpGLcg0&amp;feature=youtu.be&amp;fbclid=IwAR3KdqMEcCzV-nsTJtT8bt7tgoNa3wTDZ0B0dk-esZjEspi6SWhxoZG4ug0">https://www.youtube.com/watch?v=r1XKFpGLcg0&amp;feature=youtu.be&amp;fbclid=IwAR3KdqMEcCzV-nsTJtT8bt7tgoNa3wTDZ0B0dk-esZjEspi6SWhxoZG4ug0</a></p>
+</dd>
+</dl>
+<div class="section" id="id4">
+<h3>Realisation<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Author: Unknown</p></li>
+<li><p>Préparation : 0 min</p></li>
+<li><p>Cuisson : 0 min</p></li>
+<li><p>Difficulté : Facile</p></li>
+<li><p>Prix: 0,0/personne</p></li>
+<li><p>Tags: [Plat]</p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h3>Ingredient<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quantite: pour 3 personnes</p></li>
+<li><p>300 g de poulet (blanc ou hauts de cuisse)</p></li>
+<li><p>1/2 oignon</p></li>
+<li><p>1/2 poivron rouge</p></li>
+<li><p>Une cuillère à soupe de vinaigre blanc</p></li>
+<li><p>2 cuillères à soupe de sauce de soja claire</p></li>
+<li><p>Une cuillère à soupe de sucre</p></li>
+<li><p>4 cuillères à soupe de ketchup</p></li>
+<li><p>70 g de farine de blé</p></li>
+<li><p>15 g de fécule de pomme de terre</p></li>
+<li><p>12 cl d’eau</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Découper en cubes d’un cm sur un l’oignon, le poivron et le poulet. Saler et poivrer le poulet et réserver.</p></li>
+<li><p>Préparer la sauce de cuisson : mettre dans un bol le ketchup, le sucre, le vinaigre blanc, la sauce de soja et 5 cuillères à soupe d’eau. Mélanger et réserver.</p></li>
+<li><p>Dans un saladier, mettre la farine et la fécule, ajouter les 12 cl d’eau et bien mélanger l’ensemble. Y ajouter les morceaux de poulet et bien enrober les morceaux.</p></li>
+<li><p>Porter un bain d’huile à 170-180°, mettre le poulet à frire en 2 ou 3 fois. Retirer les morceaux au bout de 3 à 4 minutes de cuisson. Laisser reposer 5 minutes puis les replonger dans l’huile pour un deuxième bain jusqu’à ce qu’il soit bien dorés puis les retirer sur du papier absorbant.</p></li>
+<li><p>Dans une sauteuse à feu vif, mettre 3 cuillères à soupe d’huile, faire revenir l’oignon et le poivron 30 secondes, ajouter la sauce de cuisson, mélanger 10 secondes, ajouter les beignets de poulet puis bien les enrober de la sauce.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="totest-riz-saute-au-porc-le-riz-jaune">
+<h2>Totest - Riz Sauté au Porc - Le Riz Jaune<a class="headerlink" href="#totest-riz-saute-au-porc-le-riz-jaune" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=T-pDHNWCTIg">https://www.youtube.com/watch?v=T-pDHNWCTIg</a></p>
+</dd>
+</dl>
+<div class="section" id="id7">
+<h3>Realisation<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Author: Le Riz Jaune</p></li>
+<li><p>Préparation : 0 min</p></li>
+<li><p>Cuisson : 0 min</p></li>
+<li><p>Difficulté :</p></li>
+<li><p>Prix: 0/personne</p></li>
+<li><p>Tags: [Plat]</p></li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h3>Ingredient<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quantite: pour 2-3 personnes</p></li>
+<li><p>500g de riz blanc cuit</p></li>
+<li><p>300g de porc (ici nous avons prit de l’échine)</p></li>
+<li><p>2 oeufs</p></li>
+<li><p>Une branche de cébette</p></li>
+<li><p>Une échalote</p></li>
+<li><p>Une gousse d’ail</p></li>
+<li><p>Une cuillère à soupe de sauce soja noire</p></li>
+<li><p>2 cuillères à soupe de sauce soja claire</p></li>
+<li><p>Une cuillère à café d’huile de sésame</p></li>
+<li><p>Une cuillère à café de sucre</p></li>
+<li><p>Sel, poivre</p></li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h3>Steps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Découper le porc en petits cubes</p></li>
+<li><p>Ajouter les sauces de soja, l’huile de sésame, le sucre et l’ail haché. Réserver</p></li>
+<li><p>Ciseler l’échalote et émincer la cébette</p></li>
+<li><p>Battre légèrement les œufs dans un bol</p></li>
+<li><p>Faire revenir le porc dans de l’huile 4 à 5 minutes à feu vif, ajouter l’échalote, cuire 1 minute de plus et réserver dans un saladier</p></li>
+<li><p>Brouiller les œufs dans un filet d’huile, ajouter le riz, bien mélanger, saler et poivrer selon votre goût</p></li>
+<li><p>Ajouter le porc grillé et bien mélanger l’ensemble</p></li>
+<li><p>Couper le feu et ajouter la cébette</p></li>
+<li><p>DÉGUSTER !!!</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="totest-soboro-don-donburi-le-riz-jaune">
+<h2>Totest - Soboro Don - Donburi - Le Riz Jaune<a class="headerlink" href="#totest-soboro-don-donburi-le-riz-jaune" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=JWdYwKYFiG0&amp;feature=youtu.be&amp;fbclid=IwAR1RK4XBz99WJZGOwMOKR_ibYV4SNbdDet6Dn95d3M_MiCpqVzjvLZxlLXw">https://www.youtube.com/watch?v=JWdYwKYFiG0&amp;feature=youtu.be&amp;fbclid=IwAR1RK4XBz99WJZGOwMOKR_ibYV4SNbdDet6Dn95d3M_MiCpqVzjvLZxlLXw</a></p>
+</dd>
+</dl>
+<div class="section" id="id10">
+<h3>Realisation<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Author: Unknown</p></li>
+<li><p>Préparation : 0 min</p></li>
+<li><p>Cuisson : 0 min</p></li>
+<li><p>Difficulté : Facile</p></li>
+<li><p>Prix: 0,0/personne</p></li>
+<li><p>Tags: [Plat]</p></li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h3>Ingredient<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quantite: pour 2 personnes</p></li>
+<li><p>300 g de poulet (blanc ou haut de cuisse)</p></li>
+<li><p>2 œufs</p></li>
+<li><p>150 g de riz cru qu’il faudra cuire au préalable</p></li>
+<li><p>environ 15 haricots verts (ou autre légume de votre choix)</p></li>
+<li><p>3 cuillères à soupe de sauce de soja claire</p></li>
+<li><p>2 cuillères à soupe de mirin</p></li>
+<li><p>2 cuillères à soupe de saké</p></li>
+<li><p>Une cuillère à soupe de sucre</p></li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h3>Steps<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>1- Équeuter et découper en 3 ou 4 les haricots, saler et battre les 2 œufs, pour le poulet le découper en gros morceaux et le hacher.
+2- Blanchir dans l’eau salée les haricots 3 minutes et les égoutter.  Dans une poêle à feu doux, mettre une cuillère à soupe d’huile, verser les œufs et les brouiller, réserver. Dans la même poêle, à feu moyen, verser la sauce de soja, le saké, le mirin et le sucre, ajouter le poulet et cuire 3 minutes en remuant constamment.
+3- Pour le dressage, mettre le riz dans un bol, ajouter de la viande sur un côté, des œufs brouillés sur un autre et les haricots verts au centre.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="recipe-vegetables.html" class="btn btn-neutral float-right" title="Recipe - Vegetables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="recipe-pasta.html" class="btn btn-neutral float-left" title="Recipe - Pasta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

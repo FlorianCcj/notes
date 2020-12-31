@@ -1,0 +1,581 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Magic - Youtube &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Math - Exercise Code" href="../math/math-exercise_code.html" />
+    <link rel="prev" title="Duolinguo - letter" href="../language/duolinguo-letter.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Magic - Youtube</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#le-detecteur-de-mensonge-tour-de-magie-explique">Le DÉTECTEUR de MENSONGE - Tour de Magie Expliqué !</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#demo">Demo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#explication">Explication</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-carte-rapiece-magique">La carte rapiece magique</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#magic-bet">Magic Bet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pari-de-moule">Pari de moule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-poignet-verouille">Le poignet verouille</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pari">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#solution">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#la-bouteille">La bouteille</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#les-six-verres">Les six verres</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#l-as-de-pique">L as de pique</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#tout-confort">Tout confort</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#la-carte-va-direct-dedans">La carte va direct dedans</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#les-mains-tordus">Les mains tordus</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#buvons-un-coup">Buvons un coup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Pari</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Solution</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Magic - Youtube</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/magic/magic-youtube.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="magic-youtube">
+<h1>Magic - Youtube<a class="headerlink" href="#magic-youtube" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="le-detecteur-de-mensonge-tour-de-magie-explique">
+<h2>Le DÉTECTEUR de MENSONGE - Tour de Magie Expliqué !<a class="headerlink" href="#le-detecteur-de-mensonge-tour-de-magie-explique" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=SpiPFDWk5vY">https://www.youtube.com/watch?v=SpiPFDWk5vY</a></p>
+</dd>
+</dl>
+<p>tag: tour mathematique</p>
+<div class="section" id="demo">
+<h3>Demo<a class="headerlink" href="#demo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Pour ce tour je vais prendre un paquet de carte completement normal, mais je ne vais pas utiliser toutes les cartes.</p></li>
+<li><p>Pour ce tour j ai besoin des quatres dames et des quatres rois</p></li>
+<li><p>Le spectateur peut les verifier, elles ne sont pas truquees</p></li>
+<li><p>Le spectateur va choisir une carte (exemple la dame de coeur)</p></li>
+<li><p>Ce que je vous ai pas dit c est que ces cartes sont particulieres, elle permettent de detecter les mensonges. Mais pour cela j ai besoin de l initialiser.</p></li>
+<li><p>Comment ca va se passer c est simple je vais effectuer 3 echantillonages le principe va etre d isoler 4 cartes sur les 8 en posant la meme question au spectateur, ta carte fait-elle partie de ces 4 cartes</p></li>
+<li><p>Premier echantillonage, je vais isoler 4 cartes de la maniere suivante, moi je ne les regarde pas et je pose la question “est-ce que votre carte est parmi ces quatres cartes”</p></li>
+<li><p>Tres bien je continue je passe au 2e echantillonage, toujours sur le meme principe je vous demande “est-ce que votre carte est parmi ces quatres cartes” sans les regarder</p></li>
+<li><p>ok, on termine d inititialiser en repetant une derniere fois cette manipulation, j isole 4 cartes, vous l avez compris maintenant “est-ce que votre carte est parmi ces quatres cartes”</p></li>
+<li><p>Parfait maintenant notre detecteur est initialise, on va pouvoir verifier si notre spectateur dis la verite ou ment</p></li>
+<li><p>Pour ce faire je vais faire 2 paquets et poser ma premiere question, a savoir “est-ce que votre carte est un roi ou une dame”. Bien sur vous pouvez mentir, mais mon detecteur saurame le dire</p></li>
+<li><p>On verifie (retourne le paquet) c est bien ce que vous avez dit</p></li>
+<li><p>Je continue en separant une nouvelle fois les cartes restantes et on passe a la deuxieme question c est a dire est ce que ta carte est rouge ou noir</p></li>
+<li><p>On demande au detecteur et … non vous m avez menti</p></li>
+<li><p>Bon la derniere question est evidente, c est une dame rouge, mais est-ce du coeur ou du careau</p></li>
+</ul>
+</div>
+<div class="section" id="explication">
+<h3>Explication<a class="headerlink" href="#explication" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Pour ce tour vous avez besoin de 8 cartes, de preference 8 tetes</p></li>
+<li><p>la premiere chose importante c est l ordre des couleurs, les 4 rois sont dans un ordre (ici piques, coeur, trefle, carreau) et les dames sont dans l exacte meme ordre</p></li>
+<li><p>une fois que c est pres vous pouvez demander a spectateur de visualer une de ces cartes visuellement</p></li>
+<li><p>a ce moment on raconte au spectateur que nos cartes sont des detecteurs de mensonges, et que pour fonctionner on a besoin de l echantilloner</p></li>
+<li><p>l astuce commence ici, on va lui montrer 4 cartes et en fonction de sa reponse on ne reposera pas les cartes de la meme facon</p></li>
+<li><p>au premier echantillonage on pose la carte du spectateur en haut</p></li>
+<li><p>au 2e, sa carte va en bas</p></li>
+<li><p>au 3e sa carte va de nouveau en haut</p></li>
+<li><p>pour l echantillonage on procede comme suit: on decale une carte vers nous et une carte vers le spectateur, en alternant une carte sur deux</p></li>
+<li><p>on prend les 4 cartes vers le spectateur (les cartes paires)</p></li>
+<li><p>on les eventails et les montre au spectateur</p></li>
+<li><p>on repete trois fois la procedure en placant correctement les cartes</p></li>
+<li><p>on explique que le detecteur est initialise (et effectivement le tour est pret)</p></li>
+<li><p>il ne nous reste plus qu une chose a savoir, on distribue les cartes de la droite vers la gauche</p></li>
+<li><p>on lui annonce qu on va tester son honnetete, il a le droit de mentir mais on le saura</p></li>
+<li><p>on va commencer en partant par le paquet a votre gauche (gauche du magicien) et on se demandera votre carte est elle un roi ou une dame. On retourne le paquet le plus a notre gauche</p></li>
+<li><p>on prend le paquet le plus a droite et on redistribue</p></li>
+<li><p>le 2e paquet nous revele la couleur</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-carte-rapiece-magique">
+<h2>La carte rapiece magique<a class="headerlink" href="#la-carte-rapiece-magique" title="Permalink to this headline">¶</a></h2>
+<p>Prendre une carte
+la couper au milieu de la largeur la plus longue jusqu au milieu de la largeur la plus courte, de l autre cote couper de parte et d autre de la coupure de maniere symetrique
+Marquer les plie
+puis mettre la carte face a soit et faire un demi tour avec un des cotes</p>
+</div>
+<div class="section" id="magic-bet">
+<h2>Magic Bet<a class="headerlink" href="#magic-bet" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=RKlJL7UcdAk">https://www.youtube.com/watch?v=RKlJL7UcdAk</a></p>
+</dd>
+</dl>
+<div class="section" id="pari-de-moule">
+<h3>Pari de moule<a class="headerlink" href="#pari-de-moule" title="Permalink to this headline">¶</a></h3>
+<p>Je te paris que je peux retourner ta main sans la toucher, met ta main a plat face a toi, nan dans l autre sens, voila je l ai retourne</p>
+</div>
+<div class="section" id="le-poignet-verouille">
+<h3>Le poignet verouille<a class="headerlink" href="#le-poignet-verouille" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pari">
+<h4>Pari<a class="headerlink" href="#pari" title="Permalink to this headline">¶</a></h4>
+<p>Tu mets ta main devant toi, face vers le haut, le but du jeu c est de te retrouver face vers le bas, sans tourner le poignet</p>
+</div>
+<div class="section" id="solution">
+<h4>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>On ramene la main au niveau de l epaule</p></li>
+<li><p>puis au niveau du ventre</p></li>
+<li><p>puis au a la position initial</p></li>
+<li><p>on remonte a l epaule</p></li>
+<li><p>au ventre</p></li>
+<li><p>position initial</p></li>
+<li><p>la main a ete retournee</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-bouteille">
+<h3>La bouteille<a class="headerlink" href="#la-bouteille" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Pari<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>Un bouteille sur une feuille de papier sur une table</p>
+<p>Le but est de prendre la feuille de papier sans faire tomber la bouteille ni la toucher</p>
+</div>
+<div class="section" id="id2">
+<h4>Solution<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<p>Tambouriner sur la table en meme temps que l on tire la feuille</p>
+</div>
+</div>
+<div class="section" id="les-six-verres">
+<h3>Les six verres<a class="headerlink" href="#les-six-verres" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>Pari<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>Six verres sur la table les 3 de gauche vers le haut les trois de droite vers le bas
+Il faut en 3 mouvement exactement, que l on se retrouve avec un verre sur deux vers le haut et vers le bas.
+A chaque mouvement tu dois retourner deux verres</p>
+</div>
+<div class="section" id="id4">
+<h4>Solution<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>Le truc est que lorsque l on montre comment on peut retourner on se focus que sur les 3 verres de droite ou ceux de gauche, ca piege l autre (on montre que l on peut retourner deux cote a cote ou deux separes sans probleme)
+on commence par les 2 du milieu
+puis les 2 les plus au centre de droite
+puis les 2 les plus au centre de gauche
+Les deux du milieu sont donc retoune deux fois
+plusieurs solutions sont possibles (on retourne trois fois ceux du milieu droit et milieu gauche)</p>
+</div>
+</div>
+<div class="section" id="l-as-de-pique">
+<h3>L as de pique<a class="headerlink" href="#l-as-de-pique" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h4>Pari<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<p>Tu poses une carte d as de pique a cote d un billet de celui avec qui tu paris
+et le but c est qu on met les sous en jeu, si il perd il perd l argent et si il gagne on lui donne l argent
+On lui pose 3 questions, pour recuperer gagner il faut repondre a chaque fois “l as de pique” et il ne doit jamais rire</p>
+</div>
+<div class="section" id="id6">
+<h4>Solution<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<p>Les deux premieres questions importent peu, la troisieme doit etre “qu est ce que tu accepterais que je t echange contre ton argent et la victiore”</p>
+</div>
+</div>
+<div class="section" id="tout-confort">
+<h3>Tout confort<a class="headerlink" href="#tout-confort" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h4>Pari<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<p>Faire assoir le parieur, le mettre a l aise, et parier que l on peut s assoir a un endroit ou jamais au grand jamais il ne pourra s assoir</p>
+</div>
+<div class="section" id="id8">
+<h4>Solution<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<p>S assoir sur ses genoux</p>
+</div>
+</div>
+<div class="section" id="la-carte-va-direct-dedans">
+<h3>La carte va direct dedans<a class="headerlink" href="#la-carte-va-direct-dedans" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h4>Pari<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<p>Le but est de faire entrer une carte a jouer dans un saladier en la lancant d un mettre au dessus</p>
+</div>
+<div class="section" id="id10">
+<h4>Solution<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<p>Si on la lache verticalement elle part n importe comment, si on la lache horizintallement et tombera bien droite</p>
+</div>
+</div>
+<div class="section" id="les-mains-tordus">
+<h3>Les mains tordus<a class="headerlink" href="#les-mains-tordus" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h4>Pari<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<p>On met les mains devant soit
+on les croise
+on les retourne
+puis on les sert</p>
+<p>Le but est de le remettre dans la position initial</p>
+</div>
+<div class="section" id="id12">
+<h4>Solution<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<p>Une fois qu on les a serrer on lache pour verifier que l autre les a bien misesm et quand on les ressert on tourne juste une main et on l attrape avec l autre pour etre en bonne position, visuellement on a la meme position mais ca passe mieux</p>
+</div>
+</div>
+<div class="section" id="buvons-un-coup">
+<h3>Buvons un coup<a class="headerlink" href="#buvons-un-coup" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id13">
+<h4>Pari<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<p>On a 2 shooter et 3 demi
+Celui qui a 3 demi pari qu il pourra finir ses verres avant que l autre n ai fini les 2 shooter</p>
+<p>avec 3 conditions
+* Le buveur de shooter ne doit pas toucher au verre du buveur de demi sinon il perd le pari
+* Le buveur de demi ne doit pas toucher au verre du buveur de shooter sinon il perd le pari
+Le buveur de shooteur doit attendre que celui qui boit les demi ait fini de reposer son premier verre</p>
+</div>
+<div class="section" id="id14">
+<h4>Solution<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<p>Celui qui boit des demis boit son premier verre et plutot que de le poser normalement il le retourne et le pose sur les shooter</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../math/math-exercise_code.html" class="btn btn-neutral float-right" title="Math - Exercise Code" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../language/duolinguo-letter.html" class="btn btn-neutral float-left" title="Duolinguo - letter" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

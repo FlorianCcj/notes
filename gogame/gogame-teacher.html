@@ -1,0 +1,560 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Gogame - Teacher &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Gogame - Teacher - ISH" href="gogame-teacher-ish.html" />
+    <link rel="prev" title="Gogame - Reading" href="gogame-reading.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Gogame - Teacher</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#day-challenge">30 day challenge</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#retour">Retour</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pokemon">Pokemon</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#info">Info</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Gogame - Teacher</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/gogame/gogame-teacher.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gogame-teacher">
+<h1>Gogame - Teacher<a class="headerlink" href="#gogame-teacher" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>riusasori (11/17/19 9:20 PM): Salut, à tout hasard, si on trouve une plage horaire dispo, voici mes tarifs: 10 euros pour un commentaire de partie (45 min) et 20 euros pour un cours classique: partie suivie d’un commentaire (1h30).</p></li>
+<li><p>denid feldman: <a class="reference external" href="https://denisfeldmann.fr/bestiaire.htm">https://denisfeldmann.fr/bestiaire.htm</a></p></li>
+<li><p>to play kgs: <a class="reference external" href="https://chrome.google.com/webstore/detail/gouniverse/iejedhnbogbenkmhfjoolmlibldbkhhj">https://chrome.google.com/webstore/detail/gouniverse/iejedhnbogbenkmhfjoolmlibldbkhhj</a></p></li>
+<li><p><a class="reference external" href="http://yybaduk.mozello.com/go-lessons/">http://yybaduk.mozello.com/go-lessons/</a></p></li>
+<li><p>lieu de stage: <a class="reference external" href="http://lamaisondeverotte.com/index.php/fr/les-tarifs">http://lamaisondeverotte.com/index.php/fr/les-tarifs</a></p></li>
+<li><p><a class="reference external" href="http://goschool.fr/index.php/stage-de-go-aout-2020/">http://goschool.fr/index.php/stage-de-go-aout-2020/</a></p></li>
+<li><p><a class="reference external" href="https://eyd.yunguseng.com/lectures.html">https://eyd.yunguseng.com/lectures.html</a></p></li>
+<li><p><a class="reference external" href="http://kaminoitte.fr/">http://kaminoitte.fr/</a></p></li>
+<li><p><a class="reference external" href="https://tsumegodojo.wordpress.com/">https://tsumegodojo.wordpress.com/</a></p></li>
+<li><p><a class="reference external" href="https://www.nordicgodojo.eu/">https://www.nordicgodojo.eu/</a>  (Dacat on kgs)</p></li>
+</ul>
+<div class="section" id="day-challenge">
+<h2>30 day challenge<a class="headerlink" href="#day-challenge" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Day02: rappel pour ceux qui suivent, on est au jour 2</p></li>
+<li><p>Day03: On garde le rythme ! Avec en prime les sgf</p></li>
+<li><p>Day04: pffff l expression “comme un lundi” porte bien son nom … mais, ce lundi y a tsumego !</p></li>
+<li><p>Day05: Jour 5, tout un programme !</p></li>
+<li><p>Day06: Mais … Je n ai pas fini !</p></li>
+<li><p>Day07: Et … le meilleur moment de la journée, c est quand on va tsumegoté</p></li>
+<li><p>Day08: Attention mesdame et messieur dans un instant, ca va tsumegoter</p></li>
+<li><p>Day09: En ce 30 mai a 7h25 et 30 secondes Badcat le prophete entre les prophetes pronostiqueur en les pronistiqueurs a emergé a contre coeur mais alerte a Paris en Ile de France et a declarer en langue marmotine il n y a aucun doute je vois un tsumego</p></li>
+<li><p>Day10: Debout les [Tsumegoteur] et haut les coeurs, n’oubliez pas vos [chapeau] parce que ça [chauffe] aujourd’hui. […] [ca chauffe oui comme des cerveaux resolvant des tsumego !] ça va décoiffer mais il y a une autre raison pour laquelle cette journée est si particulièrement passionnante. […] Croyez vous que Phil verra son ombre à son réveil? Le Phil de Punxsutawney. Oui, le rongeur, C’est le JOUR DE LA MARMOTTE.</p></li>
+<li><p>Day11:
+- Nous sommes de retour
+- Pour vous jouer un mauvais tour
+- Afin de préserver le monde de la dévastation
+- Afin de rallier tous les peuples à notre nation
+- Afin d’écraser l’amour et la vérité
+- Afin d’étendre notre pouvoir jusqu’à la voie lactée
+- Ko !
+- Seki !
+- La FFG plus rapide que la lumière
+- Rendez-vous tous, ou ce sera les tsumegos
+- San-san, oui, les tsumegos !</p></li>
+<li><p>Day12: Bienvenue dans ce monde foufou ce monde foufou ce mon merveilleux, celui des tsumegos</p></li>
+<li><p>Day13: |
+Allons au insea,
+Faire des tsumegos
+Pour rencontrer noir et  blanc
+Il faut jouer le plus souvent
+Soyons pas froussard
+Les exos sont la
+On est vraiment prêts à tout
+Nous voici et nous voilà,
+C’est nous, les tsumegos</p></li>
+<li><p>Day14: |
+C’était il y a longtemps, bien plus qu’il n’y paraît,
+Au coeur d’un univers dont les enfants rêvaient.
+Et un jour arriva cette étrange aventure,
+Dans le monde du go, présents et futurs.
+Vous êtes-vous demandé d’où provenaient les tsumegos ?
+Non ? Alors suivez-moi, voici l’entrée secrète…</p></li>
+<li><p>Day15:
+C’est ça l’Tsumego, c’est ça l’Tsumego
+Tsumego, Tsumego, Tsumego, Tsumego
+C’est le monde du jeu de go
+Les pierres chantent et les gobans resonnent
+On plaisante, on fait de la coinche
+On ne sait pas quelle sera la prochaine surprise
+Au coin du goban, il y a des inconnus
+Qui surgissent des pierres du partenaire
+Hey ! C’est ça l’Tsumego, blanc et noir, Fuseki
+Quelle horreur ! C’est un enfer !
+Par le feu, par la glace, il faut jouer à pile ou face
+Et s’assurer d’avoir l’plus de point
+C’est la ville du go, c’est la ville du go
+Bienvenue aux Tsumego</p></li>
+<li><p>Day16
+Debout les gars, réveillez-vous
+Il va falloir y jouer son coup
+Debout les gars, réveillez-vous
+On va passer 9dan !</p></li>
+<li><p>Day17: il est la ! non ? vraiment ? il est vraiment la ! LE JOUR 17 !</p></li>
+<li><p>Day18:
+Que vois-je ? Que vois-je ?
+Du noir, du blanc, du beige
+Que vois-je ?
+Des tsumego dans l’air ?
+Que vois-je ?
+Je suis sûrement malade.
+Réveille-toi Jack.
+Ce n’est qu’un rêve, une chimère.
+Que vois-je ?</p></li>
+<li><p>Day19:
+- LES TSUMEGOS
+- quoi ?
+- Tout commenca dans les tsumegos
+- ah bon… d’accord… mais encore…
+- c est une situation située dans une partie … et  donc …
+- ah bon… une partie ?
+- oui enfin … une partie ou au beau milieu d un tournoi et donc …
+- un tournoi ?
+- oui… un tournoi, qui est organisé par des associations ou des organisme professionnel et donc…
+- des associations ?
+- des associations ouiiiii… car le monde du go a bien evoluer depuis sa naissance il y a des miliers d’années et donc…
+- des miliers d’années ?
+- Mais oui bordel, le go est un jeu vieux qui avant d’etre popularisé avait été interdit mais … je me suis un peu éloigné du sujet la ?
+- C’est pas clair, ton truc… On en est où ?
+- Ah ?… On en est qu’on en est dans les tsumegos</p></li>
+<li><p>Day20: j’m’enflame y a plein de tsumego a faire</p></li>
+<li><p>Day21: on a passer les 2/3 guys !!! on tiens le bon bout</p></li>
+<li><p>Day22: veni vedi vici, j espere que c est ce que vous direz apres cette seance</p></li>
+<li><p>Day23: quoi de neuf docteur ? des tsumegos</p></li>
+<li><p>Day24: ca sent l aventure !</p></li>
+<li><p>Day25: il a vu de la lumiere donc il est venu,  qui ca ? le tsumego</p></li>
+<li><p>Day26: Personne n a le droit de nous juger avant la fin, parce qu un groupe est capable du pire comme du meilleur jusqu au bout, au fond ce n est qu au moment de disparaitre qu on peut savoir si un groupe a été utile</p></li>
+<li><p>Day27: La difference entre le maitre et l apprenti est que le maitre a echoue plus de fois que l apprenti</p></li>
+<li><p>Day28: Les erreurs ne sont pas des entraves a la progression mais les fondements meme de ce que nous sommes</p></li>
+<li><p>Day29: Je prefere regretter d y avoir jouer que de regretter de ne pas avoir essayer</p></li>
+<li><p>Day30: Yippee-ki-yay pauvre tsumego</p></li>
+</ul>
+<div class="section" id="retour">
+<h3>Retour<a class="headerlink" href="#retour" title="Permalink to this headline">¶</a></h3>
+<p>zororo 24/05/2020 Bad trop chaud!! Moi je suis tj là
+courgette 25/05/2020 Tu es une personne merveilleuse &#64;Bad :smile: . Merci!
+zororo 25/05/2020 Bad Baduk Coach
+Grablor/Alex 26/05/2020 Year. j’ai jamais tenu aussi longtemps. merci de poster every single day
+zororo 26/05/2020 j’avais fait 17 jours la premiere fois mais là avec bad je sens on va faire les 30 :muscle:
+zororo 26/05/2020 si tu trébuche , tel atlas notre monde s’éffondre :p on compte sur toi :muscle:
+Grablor/Alex 27/05/2020 Bad mon héro
+zororo 27/05/2020 Bad le gars sûr</p>
+</div>
+</div>
+<div class="section" id="pokemon">
+<h2>Pokemon<a class="headerlink" href="#pokemon" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="info">
+<h3>Info<a class="headerlink" href="#info" title="Permalink to this headline">¶</a></h3>
+<p>tiens dit moi tu connais les pedagogues/joueurs fr qui ont … comment dire une reputation ?
+qui sont connu ? ou qui font parti de l ecosysteme du go fr ?</p>
+<ul>
+<li><p>Nom ou Pseudonyme sous lequel/laquelle il/elle est connu ?</p></li>
+<li><p>Photo/Image le/la représentant.</p></li>
+<li><p>Taille Poids (pas necessairement les vraies)</p></li>
+<li><p>Devise ? forme, coup, sequence qu’il/elle a coutume de jouer ? tic de langage ? petite description humoristique en rapport (pour les attaques)</p></li>
+<li><p>s’il/elle était un élément il/elle serait … (pour le type)</p></li>
+<li><p>s’il/elle etait un pokemon il/elle serait (pour la sous evolution ?)</p></li>
+<li><p>Contre qui (parmi les cartes realisées) il/elle gagne/perd souvent (pour les faiblesse et resistance) ?</p></li>
+<li><p>Ca fait d’autant plus de boulot mais si possible, je serais tenté de proposer de faire deux carte par personne, une avec photo et vrai nom, et une avec representation (image, dessin, autre) et pseudonyme</p></li>
+<li><p>Nom ou Pseudonyme sous lequel/laquelle il/elle est connu ?</p></li>
+<li><p>Photo/Image le/la représentant.</p></li>
+<li><p>Taille Poids (pas necessairement les vraies)</p></li>
+<li><p>Devise ? forme, coup, sequence qu’il/elle a coutume de jouer ? tic de langage ? petite description humoristique en rapport</p></li>
+<li><p>s’il/elle était un élément il/elle serait …</p></li>
+<li><p>s’il/elle etait un pokemon il/elle serait</p></li>
+<li><p>Contre qui (parmi les cartes realisées) il/elle gagne/perd souvent ?</p></li>
+<li><p>une anecdote, phrase comique sur lui/elle</p></li>
+<li><p>—– Ca fait d’autant plus de boulot mais si possible, je serais tenté de proposer de faire deux carte par personne, une avec photo et vrai nom, et une avec representation (image, dessin, autre) et pseudonyme</p></li>
+<li><p>Creature
+* Type
+* Nom
+* PV
+* Image
+* Espece
+* Taille
+* Poids</p></li>
+<li><p>Evolution (base, 1, 2)</p></li>
+<li><p>Attaque 1
+* Nom
+* Description
+* Degat
+* Type
+* Cout (1/2/3/4</p></li>
+<li><p>Attaque 2
+* Nom
+* Description
+* Degat
+* Type
+* Cout (1/2/3/4)</p></li>
+<li><p>Ambiance
+* commentaire
+* Illustrateur</p></li>
+<li><p>faiblesse resistance
+* Faiblesse</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Type</p></li>
+<li><p>valeur</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Resistance
+* Type
+* Valeur</p></li>
+<li><p>Cout de retraite</p></li>
+</ul>
+</li>
+</ul>
+<p><a class="reference external" href="https://www.mypokecard.com/fr/">https://www.mypokecard.com/fr/</a></p>
+<p>En francais
+Type: Feu Plante Eau Electrik Psy Combat Incolor Obscurité Metal
+Pas d’espece, ni taille ni poids
+Evolution de niveau 1 et 2 ont besoin de l image de la sous-evolution</p>
+<p><a class="reference external" href="https://www.pokecard.net/">https://www.pokecard.net/</a></p>
+<p>En anglais
+Type: Fire Grass Water Lighting Psychic Fighting Colorless
+Evolution de niveau 1 et 2 ont besoin de l image et du nom de la sous-evolution
+Ambiance:
+* Numero / Total de la serie
+* Rareté (Common, uncommon, Rare)</p>
+<p><a class="reference external" href="http://pokemoncardapp.com/">http://pokemoncardapp.com/</a></p>
+<p>Type: Fire Grass Water Electric Psychic Fighting Normal Stell Dark
+Evolution de niveau 1 et 2 ont besoin de l image et du nom de la sous-evolution
+Pas de partie ambiance</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gogame-teacher-ish.html" class="btn btn-neutral float-right" title="Gogame - Teacher - ISH" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="gogame-reading.html" class="btn btn-neutral float-left" title="Gogame - Reading" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

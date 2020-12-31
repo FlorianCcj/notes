@@ -1,0 +1,502 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Methodology - Code - Beginner &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Methodology - Event Sourcing and Domain Driven Design (DDD)" href="methodology-CQRS_event_sourcing_and_DDD.html" />
+    <link rel="prev" title="Methodology - architecture" href="methodology-architecture.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Methodology - Code - Beginner</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#proprete-de-code">Proprete de code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#clean-code">Clean Code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linter-et-correcteur">Linter et correcteur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonnes-pratiques">Bonnes pratiques</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bien-choisir-son-editeur">Bien choisir son editeur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#versionning">Versionning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#le-readme-md">Le README.md</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#procedure-de-reproductibilite">Procedure de reproductibilite</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tests">Tests</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#le-scan-de-securite">Le scan de securite</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Methodology - Code - Beginner</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/methodology/methodology-code-beginner.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="methodology-code-beginner">
+<h1>Methodology - Code - Beginner<a class="headerlink" href="#methodology-code-beginner" title="Permalink to this headline">¶</a></h1>
+<p>Bien sur on veut developper, creer des programmes, des logiciels, des applications. Par consequent, on apprend un langage de programmation, on developpe, on obtient notre logiciel.
+L’idée est bonne, mais est-ce du bon code ? un bon logiciel ? du code qui perdurera dans le temps ?</p>
+<div class="section" id="proprete-de-code">
+<h2>Proprete de code<a class="headerlink" href="#proprete-de-code" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="clean-code">
+<h3>Clean Code<a class="headerlink" href="#clean-code" title="Permalink to this headline">¶</a></h3>
+<p>Pour avoir un code propre je recommande fortement la lecture de <a class="reference external" href="https://github.com/SaikrishnaReddy1919/MyBooks/blob/master/%5BPROGRAMMING%5D%5BClean%20Code%20by%20Robert%20C%20Martin%5D.pdf">Clean Code de Robert C. Martin</a></p>
+</div>
+<div class="section" id="linter-et-correcteur">
+<h3>Linter et correcteur<a class="headerlink" href="#linter-et-correcteur" title="Permalink to this headline">¶</a></h3>
+<p>La mise en place d un linter ou autre verificateur de qualite est indispensable, il en existe pour chaque langage. Le linter fera une analyse statique de votre code pour vous retourner les manquements aux regles.</p>
+<p>Il permet d abord de respecter les regles de bonne pratique, ensuite d eviter de nombreuses erreurs classiques et enfin d homogeneiser le code ce qui permetera a tous les developpeurs d utiliser les memes conventions de developpement.</p>
+<p><strong>De la meme maniere un correcteur que se soit pour vos commentaires, votre documentation ou autre est tres important, vous pouvez par exemple utiliser Antidote, Grammalecte, Grammarly ou LangageTool</strong></p>
+</div>
+<div class="section" id="bonnes-pratiques">
+<h3>Bonnes pratiques<a class="headerlink" href="#bonnes-pratiques" title="Permalink to this headline">¶</a></h3>
+<p>Que se soit soit lors de l apprentissage d un language, l utilisation d un library ou le developpement au travers d un framework, je ne saurais que trop recommender de regarder s il existe un guide des pratiques sur le sujet.</p>
+<p><strong>Les bonnes pratiques peuvent passer par de multiple aspect</strong></p>
+<ul class="simple">
+<li><p><strong>des design patern a utiliser</strong></p></li>
+<li><p><strong>des conventions de nomage</strong></p></li>
+<li><p><strong>des consignes de securite</strong></p></li>
+<li><p><strong>et de nombreux autres</strong></p></li>
+</ul>
+</div>
+<div class="section" id="bien-choisir-son-editeur">
+<h3>Bien choisir son editeur<a class="headerlink" href="#bien-choisir-son-editeur" title="Permalink to this headline">¶</a></h3>
+<p>Les editeurs de code sont nombreux, varies et offre de multiples fonctionnalites. Certains sont specialises dans un langage, d autres generiques, certains proposent des options annexes au code (gestion de scm, gestion de base de donnee), d autres permettent le developpement de plugin. Chaque editeur a ses points forts et ses points faibles et je vous recommande vivement de peser le pour et le contre de chacun et de vous habituer a plusieurs d entre eux (exemple d editeur: codeblock, clion, intelij, phpstorm, pycharm, vscode, sublime text, vim)</p>
+</div>
+</div>
+<div class="section" id="versionning">
+<h2>Versionning<a class="headerlink" href="#versionning" title="Permalink to this headline">¶</a></h2>
+<p>Qui dit developpement, dit debug, dit sauvegarde, dit open source, dit versionning, dit … beaucoup de chose.</p>
+<p>Les SCM (Sources Control Management) repondent a de nombreux problemes, et des que vous vous lancez dans un projet il est recommandé d’y faire appel.</p>
+<p>Comme toutes applications de nombreuses alternatives existent. Je n ai jusqu alors utilise que <a class="reference external" href="https://git-scm.com/">git</a> et je vous le recommande.</p>
+<p>De nombreux sites permettent de creer des depots Git gratuitement</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://gitlab.com/users/sign_in">Gitlab</a> ,</p></li>
+<li><p><a class="reference external" href="https://bitbucket.org/product">Bitbucket</a> ,</p></li>
+<li><p><a class="reference external" href="https://github.com/">Github</a></p></li>
+<li><p>etc.</p></li>
+</ul>
+<p>“Oui mais quel importance tout ca, je m’en fiche, moi je veux juste coder”</p>
+<p>En fait ca va permetre <strong>plusieurs</strong> choses</p>
+<ul class="simple">
+<li><p>prendre des maintenant les bonnes habitudes meme si vous codez a peine des <code class="code docutils literal notranslate"><span class="pre">hello</span> <span class="pre">word</span></code></p></li>
+<li><p>Partager facilement</p>
+<ul>
+<li><p>que se soit pour collaborer ou faire de l open source, git decentralise met a disposition votre code et n importe qui peut vous proposer des evolutions, un clean up, un correction, etc</p></li>
+<li><p>pour debug: si un jour vous avez un probleme vous pouvez mettre a disposition facilement le code et une partie de son contexte juste en renvoyant sur votre depot</p></li>
+</ul>
+</li>
+<li><p>eviter la perte de donnee: il est bien plus dur de detruire un serveur qui ne nous appartient pas que faire tomber une tasse de cafe sur son ordinateur</p></li>
+<li><p>parcourir facillement l historique: annuler une modification, la re-appliquer,</p></li>
+<li><p>reduire les erreurs au coeur de notre logiciel: le systeme de git permet de creer des branches en parallele au coeur de notre logiciel, on peut bien evidement les appliquer, mais git permet d afficher facilement les modifications entre votre travail principale et celui fait en parallele pour savoir si vous avez generé des erreurs</p></li>
+</ul>
+<p><a class="reference external" href="https://florianccj.github.io/notes/git/git-for_beginner.html">Ce que j ai appris sur git</a></p>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>De nombreuses documentations existent:</p>
+<ul class="simple">
+<li><p>la documentation utilisateur</p></li>
+<li><p>la documentation administrateur</p></li>
+<li><p>la documentation developpeur</p></li>
+<li><p>la documentation contributeur</p></li>
+<li><p>etc</p></li>
+</ul>
+<p>Je vais juste m attarder sur deux types de documentation.</p>
+<div class="section" id="le-readme-md">
+<h3>Le README.md<a class="headerlink" href="#le-readme-md" title="Permalink to this headline">¶</a></h3>
+<p>Le readme est un fichier indispensable a tout projet. Il est la pour presenter l ensemble du projet.</p>
+<p>Une excellent article a ete redige donc autant <a class="reference external" href="https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9">vous redirigez dessus</a></p>
+<p>Sinon pour resumer</p>
+<ol class="arabic simple">
+<li><p>Name the thing</p></li>
+<li><p>An introduction or summary</p></li>
+<li><p>Prerequisites</p></li>
+<li><p>How to install the thing</p></li>
+<li><p>How to use the thing (if more doc detail, link here)</p></li>
+<li><p>How to contribute to the thing</p></li>
+<li><p>Add contributors</p></li>
+<li><p>Add acknowledgements</p></li>
+<li><p>Contact information</p></li>
+<li><p>Add licence information</p></li>
+<li><p>And more: logo, badges or shield, screenshot, emoji</p></li>
+</ol>
+</div>
+<div class="section" id="procedure-de-reproductibilite">
+<h3>Procedure de reproductibilite<a class="headerlink" href="#procedure-de-reproductibilite" title="Permalink to this headline">¶</a></h3>
+<p>Souvent on voit de magnifique message “excusez moi mais ca marche pas” … Oui mais qu est ce qui marche ? Pourquoi ? dans quelle situation ? un peu de context est indispensable.</p>
+<p>Souvent les grosses librairies, les grosses entreprises ou autres projets un peu fonctionnel on deja mis des choses en place. <a class="reference external" href="https://symfony.com/doc/current/contributing/code/bugs.html">Par exemple vous avez celui de symfony ici</a></p>
+<p>De meme je vais copier coller au cas ou ca disparaise:</p>
+<ul class="simple">
+<li><p>Use the title field to clearly describe the issue;</p></li>
+<li><p>Describe the steps needed to reproduce the bug with short code examples (providing a unit test that illustrates the bug is best);</p></li>
+<li><p>If the bug you experienced is not simple or affects more than one layer, providing a simple failing unit test may not be sufficient. In this case, please provide a reproducer;</p></li>
+<li><p>Give as much detail as possible about your environment (OS, PHP version, Symfony version, enabled extensions, …);</p></li>
+<li><p>If you want to provide a stack trace you got on an HTML page, be sure to provide the plain text version, which should appear at the bottom of the page. Do not provide it as a screenshot, since search engines will not be able to index the text inside them. Same goes for errors encountered in a terminal, do not take a screenshot, but copy/paste the contents. If the stack trace is long, consider enclosing it in a &lt;details&gt; HTML tag. Be wary that stack traces may contain sensitive information, and if it is the case, be sure to redact them prior to posting your stack trace.</p></li>
+<li><p>(optional) Attach a patch.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="tests">
+<h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<p>Parfois des library existent pour faciliter la mise en place des tests (phpunit, jest, ctest, etc). Il est important de mettre en place ces test.</p>
+<p>Un test permet de s’assurer du fonctionnement correct de tout ou partie d’une application ou programme. Il permet de verifier qu une fonction ou qu une classe a le comportement conforme.</p>
+<p>Lors d un refacto, d un ajout de fonctionnalite, ou meme des que quelqu un decouvre le code de votre application, les tests permettent d’avoir un apercu simple des differentes fonctionnalitees que se soit des fonctions, des classes et meme de l application.</p>
+<p>il y a de nombreux type de test</p>
+<ul class="simple">
+<li><p><strong>les tests unitaires: il permet de s’assurer du fonctionnement correct d’une partie isolee d’une application ou d’un programme. Il a pour objectif d’isoler le comportement de la partie de code à tester de tout facteur extérieur et de vérifier qu’il est conforme à ce qui est attendu. (extrait du site</strong> <a class="reference external" href="https://www.nutcache.com/fr/blog/tests-unitaires/">ici</a>)</p></li>
+<li><p><strong>les tests d integration: Ces tests sont exécutées pour valider l’intégration des différents modules entre eux et dans leur environnement exploitation définitif. Ils permettront de mettre en évidence des problèmes d’interfaces entre différents programmes (extrait de</strong> <a class="reference external" href="http://www-igm.univ-mlv.fr/~dr/XPOSE2000/TesTs/SiteWeb/typestests.htm">ce site</a>)</p></li>
+<li><p><strong>Smoke test ou sanity check: il consiste en des tests fonctionnels ou unitaires de fonctions logicielles critiques. Les tests de fumée viennent avant d’autres tests approfondis.”Est-ce que le programme démarre correctement ?”, “Est-ce que les boutons de contrôle principaux fonctionnent ?”, “Est-ce que l api repond ?”. Si cette fonctionnalité de base échoue, il est inutile d’investir du temps dans un travail plus détaillé à ce stade. (extrait de</strong> <a class="reference external" href="https://developer.mozilla.org/fr/docs/Glossaire/Test_de_fum%C3%A9e">ce site</a>)</p></li>
+<li><p><strong>les tests fonctionnels: Si les tests fonctionnels parlent d’eux-mêmes (est-ce que l’utilisateur peut faire ou ceci ou cela ?), les tests non fonctionnels sont des vérifications techniques liées à la performance, l’adaptabilité ou à la sécurité du système</strong></p></li>
+<li><p><strong>les tests e2e, de validation ou d’acceptation ou encore systeme:  il consiste à simuler des tests à plus grande échelle, en intégrant un nombre important d’éléments, de systèmes différents pour valider l’alimentation successive de bout en bout. En finance, il est usuel de tester la chaîne « Front to Back », c’est-à-dire depuis les systèmes en lien avec les marchés/les clients jusqu’aux outils de valorisation ou de génération de confirmation automatique par exemple. (extrait de</strong> <a class="reference external" href="https://meritis.fr/methodo/tests-informatiques-bonnes-pratiques/">ce site</a>)</p></li>
+<li><p><strong>les tests manuels: cela revient a utiliser le logiciel vous meme et voir a quel moment une erreur ressort, les tests precedents sont la pour automatiser le plus possible, mais generalement un test manuel reste necessaire</strong></p></li>
+<li><p><strong>les tests utilisateurs de design: ce test s adresse principalement pour les logiciels grand publique. Le test conciste a demander a 2-3-5 personnes de realiser divers scenario sur le logiciel. Observer leurs reactions, ne pas leur donner d explication sur le logiciel et noter les axes d amelioratione</strong></p></li>
+<li><p><strong>les tests de performance ou test de charge: ils ont pour principal objectif la validation d’une solution logicielle et de son architecture sous-jacente liées à une utilisation simultanée multi-utilisateurs, permettant ainsi d’éviter certains problèmes en production. Ils permettent de garantir une qualité de service applicative dans des conditions réelles d’utilisation (extrait de</strong> <a class="reference external" href="https://www.tests-performance.fr/?page_id=691">ce site</a>)</p></li>
+<li><p><strong>les tests d intrusion: il permet d’évaluer le niveau global de sécurité du système (extrait de</strong> <a class="reference external" href="https://www.cnpp-cybersecurity.com/pages/audit-technique.php">ce site</a>)</p></li>
+</ul>
+<div class="section" id="le-scan-de-securite">
+<h3>Le scan de securite<a class="headerlink" href="#le-scan-de-securite" title="Permalink to this headline">¶</a></h3>
+<p><strong>De la meme maniere que le linter, des analyses de vulnerabilites peuvent etre effectuees automatiquement.</strong></p>
+<p><strong>Rechercher les outils d analyses de code concernant les technologies employees en rapport avec la securite ou les vulnerabilites. Ces analyses degrossiront la recherche de vulnerabilite mais il sera toujours necessaire de se tenir a jour.</strong></p>
+<p><strong>Prenez donc l habitude de rechercher les vulnerabilites cela ne peut etre que benefique et ameliorera votre culture de la technologie que vous utilisez et ameliorera votre maniere de coder.</strong></p>
+</div>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.nathalievialaneix.eu/doc/pdf/presentationGit.pdf">http://www.nathalievialaneix.eu/doc/pdf/presentationGit.pdf</a></p></li>
+<li><p><a class="reference external" href="https://symfony.com/doc/current/contributing/code/bugs.html">https://symfony.com/doc/current/contributing/code/bugs.html</a></p></li>
+<li><p><a class="reference external" href="https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9">https://dev.to/scottydocs/how-to-write-a-kickass-readme-5af9</a></p></li>
+<li><p><a class="reference external" href="https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit">https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit</a></p></li>
+<li><p><a class="reference external" href="https://www.nutcache.com/fr/blog/tests-unitaires/">https://www.nutcache.com/fr/blog/tests-unitaires/</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/&#64;koffisani/pourquoi-vous-devez-apprendre-git-aujourdhui-df773a7e1159">https://medium.com/&#64;koffisani/pourquoi-vous-devez-apprendre-git-aujourdhui-df773a7e1159</a></p></li>
+<li><p>My crazy mad little head</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="methodology-CQRS_event_sourcing_and_DDD.html" class="btn btn-neutral float-right" title="Methodology - Event Sourcing and Domain Driven Design (DDD)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="methodology-architecture.html" class="btn btn-neutral float-left" title="Methodology - architecture" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

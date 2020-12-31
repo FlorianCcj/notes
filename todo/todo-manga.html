@@ -1,0 +1,583 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Todo - Manga &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Todo - Manga</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/todo/todo-manga.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="todo-manga">
+<h1>Todo - Manga<a class="headerlink" href="#todo-manga" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="aiki">
+<h2>Aiki<a class="headerlink" href="#aiki" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="a-returner-s-magic-should-be-special">
+<h2>A Returner s Magic Should Be Special<a class="headerlink" href="#a-returner-s-magic-should-be-special" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="ares">
+<h2>Ares<a class="headerlink" href="#ares" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://www.mangakawaii.to/manga/ares/207/20">https://www.mangakawaii.to/manga/ares/207/20</a></p>
+</div>
+<div class="section" id="assassination-classroom">
+<h2>assassination classroom<a class="headerlink" href="#assassination-classroom" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://op-vf.com/manga/assassination-classroom">http://op-vf.com/manga/assassination-classroom</a></p></li>
+</ul>
+</div>
+<div class="section" id="berserk">
+<h2>berserk:<a class="headerlink" href="#berserk" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://op-vf.com/manga/berserk">http://op-vf.com/manga/berserk</a></p></li>
+</ul>
+</div>
+<div class="section" id="bleach">
+<h2>bleach<a class="headerlink" href="#bleach" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://op-vf.com/manga/bleach">http://op-vf.com/manga/bleach</a></p></li>
+</ul>
+</div>
+<div class="section" id="combat-continent">
+<h2>combat continent<a class="headerlink" href="#combat-continent" title="Permalink to this headline">¶</a></h2>
+<p>dwl: 1 -&gt; 122 (10.06.2019)</p>
+<p>Sites:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1">https://www.mangakawaii.to/manga/combat-continent-douluo-dalu/112/1</a></p></li>
+<li><p><a class="reference external" href="http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1">http://www.scan-op.com/manga/combat-continent-douluo-dalu/121/1</a></p></li>
+<li><p><a class="reference external" href="https://www.japanread.cc/manga/douluo-dalu/121">https://www.japanread.cc/manga/douluo-dalu/121</a></p></li>
+</ul>
+</div>
+<div class="section" id="dimensional-mercenary">
+<h2>Dimensional Mercenary<a class="headerlink" href="#dimensional-mercenary" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="dreamland">
+<h2>Dreamland<a class="headerlink" href="#dreamland" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="duds-hunt">
+<h2>duds hunt<a class="headerlink" href="#duds-hunt" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="eyeshield-21">
+<h2>eyeshield 21<a class="headerlink" href="#eyeshield-21" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="fairy-tail">
+<h2>fairy tail<a class="headerlink" href="#fairy-tail" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Download: 1 -&gt; 545 (2019.07.27)</p></li>
+</ul>
+<p>Sites:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://lordmanga.free.fr/scan.php?manga=Fairy_Tail">http://lordmanga.free.fr/scan.php?manga=Fairy_Tail</a></p></li>
+<li><p><a class="reference external" href="http://lelscanv.com/lecture-en-ligne-fairy-tail">http://lelscanv.com/lecture-en-ligne-fairy-tail</a></p></li>
+<li><p><a class="reference external" href="http://op-vf.com/manga/fairy-tail">http://op-vf.com/manga/fairy-tail</a> (258-545)</p></li>
+<li><p><a class="reference external" href="https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5">https://bleachmx.fr/lecture-en-ligne/Fairy_Tail_100_Years_Quest/024/5</a></p></li>
+<li><p><a class="reference external" href="https://www.lelscan-vf.com/manga/fairy-tail-100-years-quest/33/20">https://www.lelscan-vf.com/manga/fairy-tail-100-years-quest/33/20</a></p></li>
+</ul>
+</div>
+<div class="section" id="fairy-tail-100-years-quest">
+<h2>Fairy_Tail_100_Years_Quest<a class="headerlink" href="#fairy-tail-100-years-quest" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juuri-suru">
+<h2>Hazure Waku no ‘Joutai Ijou Skill’ de Saikyou ni Natta Ore ga Subete wo Juuri Suru<a class="headerlink" href="#hazure-waku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juuri-suru" title="Permalink to this headline">¶</a></h2>
+<p>in english: I Became the Strongest With the Failure Frame “Abnormal State Skill” as I Devastated Everything</p>
+<p>Invok in an other world by a godess but E rank so kick</p>
+</div>
+<div class="section" id="hikaru-no-go">
+<h2>Hikaru no go<a class="headerlink" href="#hikaru-no-go" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="hunterxhunter">
+<h2>hunterXhunter<a class="headerlink" href="#hunterxhunter" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.scan-vf.co/hunter-x-hunter">https://www.scan-vf.co/hunter-x-hunter</a> (188-390)</p></li>
+</ul>
+</div>
+<div class="section" id="i-am-the-sorcerer-king">
+<h2>I Am The Sorcerer King<a class="headerlink" href="#i-am-the-sorcerer-king" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="manhua-release-that-witch">
+<h2>Manhua Release That Witch<a class="headerlink" href="#manhua-release-that-witch" title="Permalink to this headline">¶</a></h2>
+<p>Sorciere mal accepter, concurence de prince, in prince accepte les sorcieres</p>
+</div>
+<div class="section" id="manhua-supreme-spirit-master">
+<h2>Manhua Supreme Spirit Master<a class="headerlink" href="#manhua-supreme-spirit-master" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="mar">
+<h2>Mar<a class="headerlink" href="#mar" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://lordmanga.free.fr/scan.php?manga=Mar&amp;chap=01">http://lordmanga.free.fr/scan.php?manga=Mar&amp;chap=01</a></p></li>
+</ul>
+</div>
+<div class="section" id="mxzero">
+<h2>MxZero<a class="headerlink" href="#mxzero" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>dwl: full</p></li>
+</ul>
+</div>
+<div class="section" id="my-wife-is-a-demon-queen">
+<h2>My_Wife_Is_A_Demon_Queen<a class="headerlink" href="#my-wife-is-a-demon-queen" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.scan-fr.co/manga/my-wife-is-a-demon-queen/135/1">https://www.scan-fr.co/manga/my-wife-is-a-demon-queen/135/1</a></p></li>
+</ul>
+</div>
+<div class="section" id="naruto">
+<h2>naruto<a class="headerlink" href="#naruto" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://mangalecture.free.fr/index.php/image/9256-chapitre-scan-naruto-640-vf-page-02">http://mangalecture.free.fr/index.php/image/9256-chapitre-scan-naruto-640-vf-page-02</a></p></li>
+<li><p><a class="reference external" href="https://fr.wikipedia.org/wiki/Liste_des_chapitres_de_Naruto_(2e_partie">https://fr.wikipedia.org/wiki/Liste_des_chapitres_de_Naruto_(2e_partie</a>)#Tomes_61_%C3%A0_70</p></li>
+<li><p><a class="reference external" href="http://op-vf.com/manga/naruto/640/7">http://op-vf.com/manga/naruto/640/7</a></p></li>
+<li><p><a class="reference external" href="http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin">http://lecture.naruto-one.com/naruto-chapitre-640-vf-enfin</a></p></li>
+<li><p><a class="reference external" href="http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage">http://lecture.naruto-one.com/naruto-chapitre-588-vf-assumer-son-titre-de-kage</a></p></li>
+<li><p><a class="reference external" href="http://lelscanv.com/scan-naruto/600">http://lelscanv.com/scan-naruto/600</a></p></li>
+</ul>
+</div>
+<div class="section" id="one-piece">
+<h2>one piece<a class="headerlink" href="#one-piece" title="Permalink to this headline">¶</a></h2>
+<p>dwl: 1 -&gt; 945 (10.06.2019)</p>
+</div>
+<div class="section" id="one-punch-man">
+<h2>one punch man<a class="headerlink" href="#one-punch-man" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="reset">
+<h2>reset<a class="headerlink" href="#reset" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="shikkaku-mon-no-saikyou-kenja">
+<h2>Shikkaku Mon No Saikyou Kenja<a class="headerlink" href="#shikkaku-mon-no-saikyou-kenja" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="shokugeki-no-souma">
+<h2>shokugeki no souma<a class="headerlink" href="#shokugeki-no-souma" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>dwl: 1 -&gt; 315 (10.06.2019)</p></li>
+</ul>
+<p>Sites:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mangakawaii.to/manga/shokugeki-no-soma">https://www.mangakawaii.to/manga/shokugeki-no-soma</a> (102-&gt;315)</p></li>
+<li><p><a class="reference external" href="http://frscan.com/manga/shokugeki-no-soma/275">http://frscan.com/manga/shokugeki-no-soma/275</a></p></li>
+</ul>
+</div>
+<div class="section" id="solo-leveling">
+<h2>Solo leveling<a class="headerlink" href="#solo-leveling" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lelscan-vf.com/manga/solo-leveling/85/31">https://www.lelscan-vf.com/manga/solo-leveling/85/31</a></p></li>
+</ul>
+</div>
+<div class="section" id="tales-of-demons-and-gods">
+<h2>Tales of Demons and Gods<a class="headerlink" href="#tales-of-demons-and-gods" title="Permalink to this headline">¶</a></h2>
+<p>Reincarnation, homme vs bete</p>
+<ul class="simple">
+<li><p>dwl 1 - 200</p></li>
+<li><p>good order: 1 -&gt; 34</p></li>
+</ul>
+<p>Sites:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mangakawaii.to/manga/yaoshenji/23/1">https://www.mangakawaii.to/manga/yaoshenji/23/1</a></p></li>
+<li><p><a class="reference external" href="http://www.scan-op.com/manga/tales-of-demons-and-gods/1/1">http://www.scan-op.com/manga/tales-of-demons-and-gods/1/1</a></p></li>
+<li><p><a class="reference external" href="https://www.lelscan-vf.com/manga/tales-of-demons-and-gods/232.5/12">https://www.lelscan-vf.com/manga/tales-of-demons-and-gods/232.5/12</a></p></li>
+</ul>
+</div>
+<div class="section" id="the-dungeon-master">
+<h2>The Dungeon Master<a class="headerlink" href="#the-dungeon-master" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="the-gamer">
+<h2>The Gamer<a class="headerlink" href="#the-gamer" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="the-god-of-high-school">
+<h2>The God of High School<a class="headerlink" href="#the-god-of-high-school" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="the-legendary-moonlight-sculptor">
+<h2>The Legendary Moonlight Sculptor<a class="headerlink" href="#the-legendary-moonlight-sculptor" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="the-last-human">
+<h2>The last human<a class="headerlink" href="#the-last-human" title="Permalink to this headline">¶</a></h2>
+<p>roll back in is own corpse, post apo</p>
+</div>
+<div class="section" id="wanted">
+<h2>wanted<a class="headerlink" href="#wanted" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="yureka">
+<h2>Yureka<a class="headerlink" href="#yureka" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="to-see">
+<h2>To see<a class="headerlink" href="#to-see" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>tensei shitara slime datta ken (slime, je te bouffe j ai tes pouvoir)</p></li>
+<li><p>tate yuusha no nariagari (invoquer, hais, bouclier en bois)</p></li>
+<li><p>luck and logic</p></li>
+<li><p>nian koi (maudit par les chat)</p></li>
+<li><p>saenai heroine no sodatekata (createur de jeu)</p></li>
+<li><p>rokka no yuusha</p></li>
+<li><p>assassin pride</p></li>
+</ul>
+</div>
+<div class="section" id="full-manga-sites">
+<h2>Full Manga Sites<a class="headerlink" href="#full-manga-sites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.japanread.cc">https://www.japanread.cc</a></p></li>
+</ul>
+<div class="section" id="va">
+<h3>va<a class="headerlink" href="#va" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mangareader.net/">https://www.mangareader.net/</a></p></li>
+</ul>
+</div>
+<div class="section" id="vf">
+<h3>vf<a class="headerlink" href="#vf" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://frscan.com/manga/">http://frscan.com/manga/</a></p></li>
+<li><p><a class="reference external" href="http://lelscanv.com/">http://lelscanv.com/</a></p></li>
+<li><p><a class="reference external" href="https://www.lelscan-vf.com/">https://www.lelscan-vf.com/</a></p></li>
+<li><p><a class="reference external" href="https://www.lirescan.me/">https://www.lirescan.me/</a></p></li>
+<li><p><a class="reference external" href="http://lordmanga.free.fr">http://lordmanga.free.fr</a></p></li>
+<li><p><a class="reference external" href="https://www.mangakawaii.to/">https://www.mangakawaii.to/</a></p></li>
+<li><p><a class="reference external" href="http://op-vf.com/">http://op-vf.com/</a></p></li>
+<li><p><a class="reference external" href="https://www.scan-vf.co">https://www.scan-vf.co</a></p></li>
+<li><p><a class="reference external" href="https://www.scan-fr.io/">https://www.scan-fr.io/</a></p></li>
+<li><p><a class="reference external" href="http://www.scan-op.com/">http://www.scan-op.com/</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="document-history">
+<h2>Document history<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2019.08.13</p></td>
+<td><p>V1.0.1</p></td>
+<td><p>Add short manga</p></td>
+</tr>
+<tr class="row-odd"><td><p>2019.08.10</p></td>
+<td><p>V1.0</p></td>
+<td><p>First write</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,991 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Money - Libre et riche &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Money - Luc Brialy" href="money-lucbrialy.html" />
+    <link rel="prev" title="Job - The Good Questions" href="job-the_good_question.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Money - Libre et riche</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#dangeureux-pieges-financiers-lutter-contre-les-paradigmes-qui-influencent-negativement-ta-vie">3 Dangeureux Pieges financiers, lutter contre les paradigmes qui influencent negativement ta vie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#les-6-niveaux-de-l-investiseur">Les 6 niveaux de l investiseur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#les-5-niveaux-de-la-liberte-financiere">Les 5 Niveaux de la Liberté Financière</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#les-4-quadrants-de-la-liberte-financiere">Les 4 quadrants de la liberte financiere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#les-4-piliers-de-la-liberte-financiere">Les 4 Piliers de la Liberté Financière</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-choisir-les-meilleurs-etf-guide-d-achat-des-etf-partie-2">Comment Choisir Les Meilleurs ETF | Guide d’Achat Des ETF | Partie 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#replication-synthetique">Replication synthetique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#replication-physique">Replication Physique</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comment-choisir-son-etf">Comment choisir son ETF</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#strategies-pour-sortir-de-sa-zone-de-confort-et-atteindre-tous-ses-objectifs">Stratégies Pour Sortir De Sa Zone De Confort Et Atteindre Tous Ses Objectifs !</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-gagner-n-importe-quel-debat-et-discussion">Comment Gagner N’importe quel débat et Discussion !</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-se-faire-des-amis-et-influencer-les-autres">Comment se Faire des Amis et Influencer les Autres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#l-investissement-du-futur-investir-dans-le-crowdfunding-exemple-reel">L’investissement du Futur ? Investir dans le CrowdFunding ! + Exemple réel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#le-triangle-de-la-richesse-strategie-en-3-etapes">Le Triangle de la Richesse: Stratégie en 3 étapes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cas-pratique">cas pratique</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-ameliorer-sa-memoire-les-5-types-de-memoire-techniques-pour-ameliorer-sa-memoire">Comment Améliorer sa Mémoire | Les 5 Types de Mémoire | Techniques pour Améliorer sa Mémoire</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#memory-type">5 memory type</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-need-to-do-every-morning">what you need to do every morning</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercises">Exercises</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#formules-de-la-richesse">5 formules de la richesse</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#richesse-dans-le-temps">Richesse dans le temps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#potentiel-de-liberte-financiere">Potentiel de liberte financiere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#per-price-earning-ratio">PER (Price Earning Ratio)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#taux-de-variation">Taux de variation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ratio-effet-de-levier">Ratio effet de levier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#millionaire-avec-5e-par-jour">Millionaire avec 5e par jour</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#phrases-que-les-riches-ne-disent-jamais">14 phrases que les riches ne disent jamais</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Money - Libre et riche</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/money/money-libre_et_riche.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="money-libre-et-riche">
+<h1>Money - Libre et riche<a class="headerlink" href="#money-libre-et-riche" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dangeureux-pieges-financiers-lutter-contre-les-paradigmes-qui-influencent-negativement-ta-vie">
+<h2>3 Dangeureux Pieges financiers, lutter contre les paradigmes qui influencent negativement ta vie<a class="headerlink" href="#dangeureux-pieges-financiers-lutter-contre-les-paradigmes-qui-influencent-negativement-ta-vie" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=xromeTD4Vb0">https://www.youtube.com/watch?v=xromeTD4Vb0</a></p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>Le paradigme des crabes:</p>
+<ul>
+<li><p>au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces.</p></li>
+<li><p>Le crabe a une carapace tres dur afin de le proteger des predateurs, mais malgré cette robustesse il a la faiblesse et la particularité de se comporter comme certaine personne peu scrupuleuse. C est d ailleurs de la d ou vient l expression du panier de crabe. Celle ci nee au milieu du XXe siecle, empreinte l image du panier de pecheur a l interieur duquel les crabes se marchent dessus, s entasse, et les pinces menacantes, grouillent dans toutes les directions, ils cherchent a s entre devorer.</p></li>
+<li><p>en fait, chaque fois qu un crabe essait de sortir, un autre le saisi et le retient avec sa pince pour le tirer vers le bas. Par reflexe, ce meme crabe, qui se retrouve au fond, va a son tour retenir celui du dessus pour qu il reste en bas avec lui l empechant de sortir et ainsi de suite avec tout les autres crabes.</p></li>
+<li><p>Resultat de l operation aucun ne reussira a sortir et tous mourront</p></li>
+</ul>
+</li>
+<li><p>Le paradigme des singes</p>
+<ul>
+<li><p>experience imaginaire menee sur un groupe de singe. Elle exprime la transmission et la perpetuation de croyance collective au sein d une population progressivement renouvelé et ce meme apres que la cause premiere de ces croyances soit eteinte et apres la disparition de tout temoins de cette cause.</p></li>
+<li><p>une vingtaine de chimpanzee sont isolés dans une piece ou se trouve une banane tout en haut d une echelle. Des qu un singe commence a grimper a l echelle, les autres recoivent automatiquement une douche froide. Rapidement les chimpanzees apprennent qu ils ne doivent pas escalader l echelle s ils veulent eviter d etre arosé.</p></li>
+<li><p>La douche est ensuite desactivé mais les chimpanzees concervent l experience acquise et ne tente pas d approcher de l echelle.</p></li>
+<li><p>un des singes est remplacé par un nouveau. lorsque ce dernier s approche de l echelle les autres singes l agresse violement et le repouse. lorsqu un second singes est remplace, lui aussi se fait agresser en tentant d escalader l echelle y compris par le premier singe remplacant.</p></li>
+<li><p>l experience est poursuivi jusqu a ce que la totalité des premiers chimpanzees qui avait effectivement eu a subir une douche froide soit tous remplacés. Pourtant les singes ne tentent toujours pas d escalader l echelle pour atteindre la banane, et si l un d entre eux s y essaye neanmoin, il est puni par les autres sans qu aucun ne sache pourquoi cela est interdit malgre le fait qu aucun n ait subit de douche froide</p></li>
+</ul>
+</li>
+<li><p>Le paradigme des grenouilles</p>
+<ul>
+<li><p>si l on jette une grenouille dans une casserole d eau bouillante, l acte est a priori cruel mais l animal ne meurt pas car bien evidement elle saute immediatement en dehors du recipient. En revanche si on place une grenouille a sang froid dans une casserole d eau froide et qu on chauffe l eau lentement jusqu a ebulition la grenouille s habituera peu a peu a la chaleur et finira par mourir ebouillanté sans reagir et avoir tenté de s echapper.</p></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple">
+<li><p>ne veulent pas ce que tu possedes mais simplement que tu ne le possedes pas =&gt; evite les personnes toxiques</p></li>
+<li><p>la tradition veut que l on agisse d une certaine maniere et il faut s y resigner sans s informer =&gt; informe toi avant de prendre une decision</p></li>
+<li><p>sont dans l immobilite et se devient leur but =&gt; agis</p></li>
+</ol>
+</div>
+<div class="section" id="les-6-niveaux-de-l-investiseur">
+<h2>Les 6 niveaux de l investiseur<a class="headerlink" href="#les-6-niveaux-de-l-investiseur" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=f1CNl6Uk7aI">https://www.youtube.com/watch?v=f1CNl6Uk7aI</a></p>
+</dd>
+</dl>
+<ol class="arabic simple">
+<li><p>Niveau debiteur, endete :</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>note: “on ne vie qu une fois”, toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne</p></li>
+<li><p>argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere</p></li>
+<li><p>think: reussicite sociale, illusion de vie confortable</p></li>
+<li><p>time: posseder qqc =&gt; plaisir</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Niveau epargnant incertitude</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>notes: “un centime epargne est un centime gagne”, paye comptant, livret A, plus d argent nominal, moins de reel</p></li>
+<li><p>think:</p>
+<ul>
+<li><p>peur des dettes, epargne, investissement</p></li>
+<li><p>peur de manque, manque d education financiere</p></li>
+</ul>
+</li>
+<li><p>time:</p>
+<ul>
+<li><p>economise 5e en passant son temps a calculer</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Niveau investisseur inteligent</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>note: bon diplome, education, bon salaire, classe moyenne</p>
+<ul>
+<li><p>ne pas etre deranger : ne sais pas comment fonctionne les finances, “reserver a une elite”, peur</p></li>
+<li><p>cynique : croit comprendre le monde des finances “ca ne vaut pas la peine”, pessimiste, ignorant, immobilisme</p></li>
+<li><p>joueur: il n investi pas, il parie, court terme, compulsif</p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Niveau investisseur long terme</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>think: strategie d investissement</p></li>
+<li><p>money: ne travaille pas pour l argent fais en sorte que l argent travailel pour toi</p></li>
+<li><p>time: travaille intelligement</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>niveau investisseur sophistiqué:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>note: ouvre des position sur le marché</p></li>
+<li><p>think: investissement a haut risque</p></li>
+<li><p>money: Leverage Buy Out, levier financier, fiscal et juridique, fait usage de n importe quel instruement</p></li>
+<li><p>time:  time is money</p></li>
+</ul>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>niveau investisseur capitaliste</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p>thinking: pilier de l economie, creer de l emploi, permet l enrichissement de tous et ameliore le quotidien, visionnaire</p></li>
+<li><p>money: capte l argent en vendant ses idees, c est lui qui ninja l argent des niveau 3 et 4</p></li>
+<li><p>time: souvent critiqué et envie</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="les-5-niveaux-de-la-liberte-financiere">
+<h2>Les 5 Niveaux de la Liberté Financière<a class="headerlink" href="#les-5-niveaux-de-la-liberte-financiere" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=oNJdTlt35Og">https://www.youtube.com/watch?v=oNJdTlt35Og</a></p>
+</dd>
+</dl>
+<p>&#64;Todo</p>
+</div>
+<div class="section" id="les-4-quadrants-de-la-liberte-financiere">
+<h2>Les 4 quadrants de la liberte financiere<a class="headerlink" href="#les-4-quadrants-de-la-liberte-financiere" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=IL6inXzPN3s">https://www.youtube.com/watch?v=IL6inXzPN3s</a></p>
+</dd>
+</dl>
+<p>L arbre est le fruit de la vie: l arbre est ta vie financiere, plutot que de blaòer l arbre, blame comment il a ete entretenu, comment tu maintiens ses racines</p>
+<ul class="simple">
+<li><p>mental: esprit, entourage, experience, education</p></li>
+<li><p>spirituel: religion, croyance</p></li>
+<li><p>emotionelle</p></li>
+<li><p>la somme des 3 precedents donne notre monde exterieur</p></li>
+</ul>
+<p>si tu ne modifies pas ton monde interieur, comme l exterieur est la somme des trois, tu ne pourras pas modifier le monde exterieur</p>
+<p>tu imprimes un texte, tu vois une faute d orthographe, tu mets du blanco, tu reimprime … inutile de modifier la page si tu modifie pas l ordinateur</p>
+<ol class="arabic simple">
+<li><p>avoir des modeles</p></li>
+<li><p>eviter la negativité</p></li>
+<li><p>etablir des objectifs</p></li>
+</ol>
+<p>La difference entre ce que tu es et ce que tu veux etre, c est ce que tu fais</p>
+</div>
+<div class="section" id="les-4-piliers-de-la-liberte-financiere">
+<h2>Les 4 Piliers de la Liberté Financière<a class="headerlink" href="#les-4-piliers-de-la-liberte-financiere" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=0KcMld81UTk">https://www.youtube.com/watch?v=0KcMld81UTk</a></p>
+</dd>
+</dl>
+<ul>
+<li><p>avant de regarder les 4 piller, assurer vous que vos finances soit saine</p></li>
+<li><p>Attitude
+* richesse: capacité d une personne a s auto suffire durant X temps sans travailler, sans changer ses habitudes de consomation avec l argent qu elle dispose
+* un couple qui gagne 10k euro mais les depences s elevent a 16k euros</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>16k / 10k = 1.6</p></li>
+<li><p>30 / 1.6 = 19 jours</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>un homme seul qui gagne 2k euros et depence 0.8k
+* 0.8k / 2k = 0.4
+* 30 / 0.4 = 75 jours</p></li>
+<li><p>ne pas se dire que seul les revenus actifs existent, ce n est pas parce qu on touche un salaire de 2k5 que l on ne peut pas gagner plus</p></li>
+</ul>
+</li>
+<li><p>Epargne
+* 10% des revenus sont a epargner (si dette, commencer a 1% et augmenter progressivement)</p></li>
+<li><p>Actif et Passif
+* actif: bien qui raporte de l argent
+* passif: ne te rapporte rien voir t en fait perdre</p></li>
+<li><p>investissement
+* rente fixe</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>rentabilité connue d avance</p></li>
+<li><p>risque moins elevés</p></li>
+<li><p>benef faible</p></li>
+<li><p>ex: compte d epargne</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>rente varibale
+* rentabilite non connue d avance
+* plus risque
+* benefice plus eleve
+* ex: la bourse</p></li>
+</ul>
+</li>
+<li><p>source dinvestissement
+* immobilié: stable, concret et immuable
+* internet
+* la bourse
+* monter sa propre affaire</p></li>
+</ul>
+</div>
+<div class="section" id="comment-choisir-les-meilleurs-etf-guide-d-achat-des-etf-partie-2">
+<h2>Comment Choisir Les Meilleurs ETF | Guide d’Achat Des ETF | Partie 2<a class="headerlink" href="#comment-choisir-les-meilleurs-etf-guide-d-achat-des-etf-partie-2" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=C_oDyDc3wT4">https://www.youtube.com/watch?v=C_oDyDc3wT4</a></p>
+</dd>
+</dl>
+<p>Investissement intelligent</p>
+<p>where to buy it: BlackRock, LyxorEtf, Vanguard, Amundi</p>
+<div class="section" id="replication-synthetique">
+<h3>Replication synthetique<a class="headerlink" href="#replication-synthetique" title="Permalink to this headline">¶</a></h3>
+<p>take an example: LYXOR PEA DOW JONES INDUSTRIAL AVERAGE UCITS ETF CAPI</p>
+<ul class="simple">
+<li><p>LYXOR: Le fournisseur</p></li>
+<li><p>PEA: eligible au PEA (PEA -&gt; synthetique)</p></li>
+<li><p>DOW JONES INDUSTRIAL AVERAGE type d indice que l ETF va repliquer</p></li>
+<li><p>UCITS: suis la reglementation europeenne</p></li>
+<li><p>ETF: it is a ETF</p></li>
+<li><p>CAPI: pas de dividende, reinvestissement imediat (sinon DIST)</p></li>
+</ul>
+</div>
+<div class="section" id="replication-physique">
+<h3>Replication Physique<a class="headerlink" href="#replication-physique" title="Permalink to this headline">¶</a></h3>
+<p>example: LYXOR EURO STOXX 50 (DR) UCITS ETF DIST</p>
+<ul class="simple">
+<li><p>LYXOR: fournisseur</p></li>
+<li><p>EURO STOXX 50: indice de reference</p></li>
+<li><p>(DR): replication direct</p></li>
+<li><p>UCITS: suis la european law</p></li>
+<li><p>ETF: etf</p></li>
+<li><p>DIST: dividende DISTtribution</p></li>
+</ul>
+</div>
+<div class="section" id="comment-choisir-son-etf">
+<h3>Comment choisir son ETF<a class="headerlink" href="#comment-choisir-son-etf" title="Permalink to this headline">¶</a></h3>
+<p>4 pilliers fondemmentaux:
+* choix de l indice: quel indice sous-jacent</p>
+</div>
+</div>
+<div class="section" id="strategies-pour-sortir-de-sa-zone-de-confort-et-atteindre-tous-ses-objectifs">
+<h2>Stratégies Pour Sortir De Sa Zone De Confort Et Atteindre Tous Ses Objectifs !<a class="headerlink" href="#strategies-pour-sortir-de-sa-zone-de-confort-et-atteindre-tous-ses-objectifs" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=yuSAc8Xo1wo">https://www.youtube.com/watch?v=yuSAc8Xo1wo</a></p>
+</dd>
+</dl>
+<p>4 zone:
+* zone de confort: ‘securite’ et confort
+* zone de peur: manque de confiance en soi, affecte par le regard et l opinion des autres, trouve des excuses
+* zone d apprentissage: trouve des solutions, acquiert de nouvelles competences, agrandit sa zone de confort
+* zone de grandeur: vit ses reves, regard different sur le monde, croyances et resultats, curiosité et culture general, confiance en soi, se distingue</p>
+<p>Les 6 etapes:
+* L importance du pourquoi: ikigai</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>la narration: trouve un but, toi aussi tu es quelqu un d important, tu as une mission de vie, reste motive</p></li>
+<li><p>perception: etre percu comme un heros est forcement une grande source de motivation, la reconnaissance obtenue est encore plus grande et gratifiante</p></li>
+<li><p>la communaute: appartenir a un groupe avec des valuers et interets communs donne du sens a son pourquoi</p></li>
+<li><p>debutant: c est ta destinee, l etincelle te permettant de connaitre tes premiers succes, cercle vertueux de la reussite, si tu essaies effectivement tu peux perdre mais si tu n essaies pas, tu as deja perdue d avance</p></li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p>L envie de progression
+* cercle vertueux de progression
+* difficulte adequat</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>aucun obstacle -&gt; ennui abandon</p></li>
+<li><p>trop difficile -&gt; abandon marre</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>todolist court terme: 4 objectifs de la journee</p></li>
+<li><p>todolist moyen/long terme</p></li>
+<li><p>list de progression</p></li>
+</ul>
+</li>
+<li><p>le mystere de la pression sociale
+* pyramide de Macelot</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Base: besoin physiologique</p></li>
+<li><p>besoin de securite</p></li>
+<li><p>besoin social</p></li>
+<li><p>besoin d estime</p></li>
+<li><p>sommet: besoin d accomplissement</p></li>
+</ul>
+</div></blockquote>
+<ul>
+<li><p>entraine
+* Jalousie, critique facile, volonte de detruire</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>ce n est pas le fait que l autre possede plus que toi qui derange mais le fait que ce ne soit pas toi</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>comprehension de la reussite de l autre</p></li>
+</ul>
+</li>
+<li><p>3 astuces
+* trouver un mentor
+* integrer un groupe
+* discretion</p></li>
+</ul>
+</li>
+<li><p>Le pouvoir du hasard et de la curiosité
+* le random et l unknown est un atrait puissant
+* note toutes les interrogations et idees durant la journee et cherche les reponses apres</p></li>
+<li><p>la force de la peur
+* ameliorer sa postion ou reduire sa soufrance
+* la peur est un mecanisme eessentiel pour reveiler notre cerveau un jeu qui ne comporte aucun risque de ou perdre n est pas possible n a rien d engageant</p></li>
+<li><p>Les epreuves de la vie
+* certaine personne n ont pas ‘la chance’ de profiter d une zone de confort la zone de peur est de courte duree et ilfaut mettre en oeuvre tres rapidement la zone d apprentissage. les epreuves douloureuses de la vvie amenent certaines personnes a faire face a des situations inattendues</p></li>
+</ul>
+</div>
+<div class="section" id="comment-gagner-n-importe-quel-debat-et-discussion">
+<h2>Comment Gagner N’importe quel débat et Discussion !<a class="headerlink" href="#comment-gagner-n-importe-quel-debat-et-discussion" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.librairiche.com/single-post/2020/04/06/Comment-Gagner-Nimporte-quel-d%C3%A9bat-et-Discussion">https://www.librairiche.com/single-post/2020/04/06/Comment-Gagner-Nimporte-quel-d%C3%A9bat-et-Discussion</a>-?cid=bef46f7e-d390-4fb0-9ea7-8ba0849f9eac&amp;utm_campaign=fa5224ae-7e95-45d7-83b2-2fba20c2f5d3&amp;utm_medium=mail&amp;utm_source=so</p>
+</dd>
+</dl>
+<p>01. Évite les controverses pour sortir vainqueur
+02. Ne jamais dire à ton interlocuteur qu’il a tort
+03. Si tu as tort admets le énergiquement</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>ecoute je n etais pas du tout de cet avis mais je peux me tromper si tel est le cas je veux bien rectifier mon opinion</p></li>
+<li><p>on obtient peu en s opposant bien d avantage en accordant</p></li>
+</ul>
+</div></blockquote>
+<p>04. Commence de façon amicale
+05. Pose des questions qui suscitent un Oui
+06. Laisse ton interlocuteur parler tout à son aise
+07. Accorde a ton interlocuteur le plaisir de croire que l idee vient de lui
+08. efforce toi de voir les choses selon le point de vue de ton interlocuteur
+09. Accueille avec sympathie les idees et desirs des autres
+10. fais appel aux sentiments
+11. frappe la vue et l imagination
+12. n hesite pas a lancer un defi</p>
+</div>
+<div class="section" id="comment-se-faire-des-amis-et-influencer-les-autres">
+<h2>Comment se Faire des Amis et Influencer les Autres<a class="headerlink" href="#comment-se-faire-des-amis-et-influencer-les-autres" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=708u5tlvmfw">https://www.youtube.com/watch?v=708u5tlvmfw</a></p>
+</dd>
+</dl>
+<p>influencer</p>
+<ul class="simple">
+<li><ul>
+<li><p>eviter les critiques qui provoquent de la rancune,</p></li>
+<li><p>corige toi toi meme avant de critiquer</p></li>
+<li><p>essai plutot de la comprendre</p></li>
+</ul>
+</li>
+<li><p>on ne transforme pas les autres en blessant leur amour propre
+* quand ils font quelque chose de bien complimentent les
+* quand ils font quelque chose de mal, guide les pour les mener a faire quelque chose de bien</p></li>
+<li><p>eveille un ardent desir chez la personne a influencer</p></li>
+</ul>
+<p>gagner la sympatie</p>
+<ul class="simple">
+<li><p>interesse toi reellement aux autres</p></li>
+<li><p>avoir le sourire</p></li>
+<li><p>retient les prenoms</p></li>
+<li><p>ecouter et encourage les autres a parler d eux meme</p></li>
+<li><p>parle a ton interlocuteur de ce qui l interesse</p></li>
+<li><p>faire sentir a l autre de leur importance</p></li>
+</ul>
+</div>
+<div class="section" id="l-investissement-du-futur-investir-dans-le-crowdfunding-exemple-reel">
+<h2>L’investissement du Futur ? Investir dans le CrowdFunding ! + Exemple réel<a class="headerlink" href="#l-investissement-du-futur-investir-dans-le-crowdfunding-exemple-reel" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=JXiDx27Ohv4">https://www.youtube.com/watch?v=JXiDx27Ohv4</a></p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>fintech: finance + technologie</p></li>
+<li><p>verifier que la platform est certifier amf</p></li>
+<li><p>lendololis</p></li>
+<li><p>hedoniste avec contrepartie (reward-base)</p>
+<ul>
+<li><p>recompense: remerciements, dedicaces, echantillons, aucun retour sur investissement</p></li>
+<li><p>pre-vente: permet de tester l appetence des consommateurs avant le lancement</p></li>
+</ul>
+</li>
+<li><p>altruiste sans contrepartie (crowdgiving)</p></li>
+<li><p>commerciale (crowndinvesting)</p>
+<ul>
+<li><p>crowdlending: vente d obligation, remboursement comme un emprun a la banque</p></li>
+<li><p>crowdroyalty: redevence sur le chiffre d affaire de l entreprise</p></li>
+<li><p>crowdequity: l investisseur devient actionnaire</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="le-triangle-de-la-richesse-strategie-en-3-etapes">
+<h2>Le Triangle de la Richesse: Stratégie en 3 étapes<a class="headerlink" href="#le-triangle-de-la-richesse-strategie-en-3-etapes" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=3_yco6UFT1M">https://www.youtube.com/watch?v=3_yco6UFT1M</a></p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>competence personnelles hauts revenu:
+* competences acquises permettant de genererun flux d argent regulier
+* vendre ses service, comme coifeur, coach sportif, etc</p></li>
+<li><p>business evolutif
+* necessite peu d entretien
+* ex: ecrire un livre, faire un disque, un site web</p></li>
+<li><p>investissements rentabilite elevee
+* voir s enrichir en s endetant
+* rentabilite: 6-10%
+* ex: immobilié, bourse</p></li>
+</ul>
+<div class="section" id="cas-pratique">
+<h3>cas pratique<a class="headerlink" href="#cas-pratique" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>competence
+* coach sprotif, serieux, publicité par bouche a oreille
+* 200e / personne
+* 15 eleves
+* 3000e/mois
+* si probleme de materiel ou de santé … plus de cours plus d argent</p></li>
+<li><p>business evolutif
+* pour se proteger
+* coaching en ligne
+* ebook
+* recette dietetique
+* centre de remise en forme avec coach pour enseigner a sa place
+* boutique attenante pour complement nutricionelle, materiel, etc</p></li>
+<li><p>investissement
+* en cas de probleme de sante et blocage
+* investissement pour securité</p></li>
+</ul>
+<p>se quantoné a un seul =&gt; precarité</p>
+</div>
+</div>
+<div class="section" id="comment-ameliorer-sa-memoire-les-5-types-de-memoire-techniques-pour-ameliorer-sa-memoire">
+<h2>Comment Améliorer sa Mémoire | Les 5 Types de Mémoire | Techniques pour Améliorer sa Mémoire<a class="headerlink" href="#comment-ameliorer-sa-memoire-les-5-types-de-memoire-techniques-pour-ameliorer-sa-memoire" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=WzpgkaXit3E">https://www.youtube.com/watch?v=WzpgkaXit3E</a></p>
+</dd>
+</dl>
+<div class="section" id="memory-type">
+<h3>5 memory type<a class="headerlink" href="#memory-type" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>short term memory (0,5 sec to 10 min): keep 7 differents ellements</p></li>
+<li><p>semantic memory: fact, theoric concept</p></li>
+<li><p>episodic memory: for vacation anecdote</p></li>
+<li><p>procedural memory: reflex, pavlov, implicitit, , automatic</p></li>
+<li><p>perseptiv memory: what you learn with your 5 senses</p></li>
+</ul>
+</div>
+<div class="section" id="what-you-need-to-do-every-morning">
+<h3>what you need to do every morning<a class="headerlink" href="#what-you-need-to-do-every-morning" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>memorize your dream</p></li>
+<li><p>sleep 7-8h by night, make your bed</p></li>
+<li><p>dink and eat well</p></li>
+<li><p>use to use your weak hand</p></li>
+<li><p>breathe</p></li>
+<li><p>brain tea</p></li>
+<li><p>todo list: 3 personal objectif, 3 professional objectif, read what you did the day before</p></li>
+<li><p>5 min sport</p></li>
+<li><p>brain power smoothy</p></li>
+<li><p>read 30-45 min</p></li>
+</ol>
+</div>
+<div class="section" id="exercises">
+<h3>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h3>
+<p>before sleeping, remenber all what you did today, what you did well or you did bad</p>
+</div>
+</div>
+<div class="section" id="formules-de-la-richesse">
+<h2>5 formules de la richesse<a class="headerlink" href="#formules-de-la-richesse" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="richesse-dans-le-temps">
+<h3>Richesse dans le temps<a class="headerlink" href="#richesse-dans-le-temps" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>richesse &lt;=/=&gt; objet ou argent</p></li>
+<li><p>richesse &lt;=&gt; temps de liberte (vivre sans emploi, juste avec epargne et prevoyance)</p></li>
+<li><p>richesse = (actif liquide / depense mensuelle)/12
+* actif liquide = rente, argent dans un compte, action, obligation AAA, actif pouvant etre vendu rapidement
+* frait mesuelle = depense alimentaire -&gt; depense de loisir en passant par les frais de vie, et les passif generant des frais
+* exemple:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>une personne semble riche,
+* ses depenses monte a 10k euros,
+* son compte + epargne et rent mensuel monte a 120k
+* (120/10)/12 = 1 =&gt; il survivra 1 an sans bosser</p></li>
+<li><p>une personne semble modeste,
+* ses depenses monte a 900 euros,
+* son compte + epargne et rent mensuel monte a 54k
+* (54/10,9)/12 = 5 =&gt; il survivra 5 an sans bosser</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="potentiel-de-liberte-financiere">
+<h3>Potentiel de liberte financiere<a class="headerlink" href="#potentiel-de-liberte-financiere" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>il faut des revenus passif, actif et passif prepare pour etre libre financierement</p></li>
+<li><p>100 - taux de dependance au revenu actif = (revenu financier (revenu passif) / revenu actifs (fruit de ton travail))*100</p></li>
+<li><p>une location a 300e et un revenu de 1500e
+* (300/1500)*100 = 20%
+* dependance a 80% du revenu salariale</p></li>
+<li><p>objectif 100% de revenu passif</p></li>
+<li><p>si revenu passif &gt; 90% et que depence &lt; revenu passif =&gt; tu peux renoncer a ton travail</p></li>
+</ul>
+</div>
+<div class="section" id="per-price-earning-ratio">
+<h3>PER (Price Earning Ratio)<a class="headerlink" href="#per-price-earning-ratio" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>PER = cout de l action / benefice net</p></li>
+<li><p>PER: nombre d annee necessaire avant de pouvoir recuperer l investissement initial</p></li>
+<li><p>prix du bien / lover annuel</p></li>
+<li><p>un bien a 100k dans un quartier populaire a un loyer de 6k par an
+* 16,67 ans</p></li>
+<li><p>un bien a 500k dans un quartier uppé avec a un loyer de 48k par an
+* 10,42 ans</p></li>
+<li><p>calculler le PER moyen d une zone/prix du metre carré/…</p></li>
+</ul>
+<p>PER
+* 0 -&gt; 10: actifs sous evalues / diminution des benefices
+* 10 -&gt; 17: adequat
+* 17 -&gt; 25: actifs surevalues / augmentation des benefices
+* 25+: bulles speculatives</p>
+</div>
+<div class="section" id="taux-de-variation">
+<h3>Taux de variation<a class="headerlink" href="#taux-de-variation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Taux de variation moyen = ((Taux_{n} - Taux_{n-1})/Taux_{n-1})*100</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">+</span> <span class="pre">gain</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">-</span> <span class="pre">perte</span></code></p></li>
+<li><p>((prix actuel - prix acquisition) / prix d acquisition)*100</p></li>
+</ul>
+</div>
+<div class="section" id="ratio-effet-de-levier">
+<h3>Ratio effet de levier<a class="headerlink" href="#ratio-effet-de-levier" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>(Dettes totals / revenu totaux)*100</p></li>
+<li><p>exemple:
+* salaire: 1500e
+* bien: credit 400e, location 500e
+* futur bien: credit 400e, location 500e
+* taux d endetement = (400 + 400) / (1500 + 500 + 500) = 32% &lt; 33%</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="millionaire-avec-5e-par-jour">
+<h2>Millionaire avec 5e par jour<a class="headerlink" href="#millionaire-avec-5e-par-jour" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=qA8T8-ClB1o">https://www.youtube.com/watch?v=qA8T8-ClB1o</a></p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>to know
+* ignorance: travail et epargne insufisant
+* inflation de 2% par an …</p></li>
+<li><p>strat:
+* epargne: 5e par jour</p>
+<ul>
+<li><p>investissement:
+* investire sur l S&amp;P500,
+* calculé la rentabilité geometrique (et non arythmetique)
+* acheté un fond particulier: ETF</p></li>
+<li><p>interet compose:
+* capital1: initial
+* capital2: capital1 + dividende + augmentation</p></li>
+</ul>
+</li>
+<li><p>accelerer:
+* augmenter les apports
+* augment l interet (risque egalemment)
+* choisir le bon moment</p></li>
+</ul>
+</div>
+<div class="section" id="phrases-que-les-riches-ne-disent-jamais">
+<h2>14 phrases que les riches ne disent jamais<a class="headerlink" href="#phrases-que-les-riches-ne-disent-jamais" title="Permalink to this headline">¶</a></h2>
+<p>What you say/think tend to be realised in real life. So avoid to say those phrases.</p>
+<ol class="arabic simple">
+<li><p>Money is made to be spent: just a reason to spend money</p></li>
+<li><p>why save if i can live as I want or Yolo, we have one life</p></li>
+<li><p>why invest of I just can save more money</p></li>
+<li><p>I am not good enougth: you just don t understand what step you need to do</p></li>
+<li><p>I dont have enougth time: time or motivation ?</p></li>
+<li><p>it s not my fault if I failed</p></li>
+<li><p>it s my fault I deserve this failure: maybe but never do it a tragedy</p></li>
+<li><p>I had luck… bad luck: Each one MAKE his own luck</p></li>
+<li><p>It s too late to do what I want: It’s Never Too Late To Be What You Might Have Been, George Eliot</p></li>
+<li><p>I just not very good with moneys</p></li>
+<li><p>I can not afford it: change it by “it does not in my budget”</p></li>
+<li><p>only crazy has free time</p></li>
+<li><p>I have everything I need</p></li>
+<li><p>to each one his hour of glory</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="money-lucbrialy.html" class="btn btn-neutral float-right" title="Money - Luc Brialy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="job-the_good_question.html" class="btn btn-neutral float-left" title="Job - The Good Questions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

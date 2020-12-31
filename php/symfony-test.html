@@ -1,0 +1,565 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Symfony - test &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Sphinx - My personnal custo" href="../sphinx/ccj_init_project.html" />
+    <link rel="prev" title="Symfony - First Step" href="symfony-begining.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Symfony - test</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-01-intro-et-config">Chapitre 01 - Intro et config</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-02-tester-avec-une-base-de-donnee">Chapitre 02 - Tester avec une base de donnee</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-03-tester-une-entite">Chapitre 03 - Tester une entite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-04-tester-un-validateur">Chapitre 04 - Tester un validateur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-05-tester-un-eventsubscriber">Chapitre 05 - Tester un eventSubscriber</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-06-tester-un-controller">Chapitre 06 - Tester un Controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chapitre-07-tester-endtoend-avec-panther">Chapitre 07 - Tester EndToEnd avec Panther</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#to-see">To see</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Symfony - test</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/php/symfony-test.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="symfony-test">
+<h1>Symfony - test<a class="headerlink" href="#symfony-test" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="chapitre-01-intro-et-config">
+<h2>Chapitre 01 - Intro et config<a class="headerlink" href="#chapitre-01-intro-et-config" title="Permalink to this headline">¶</a></h2>
+<p>3 types:
+* unitaire: alone in the dark
+* integration: a class in her context
+* fonctionnel (ou End to End): like a user</p>
+<p>When to write the
+* to check: when you get a code, you write test to check if your modification do not change the goal of the function
+* Test Driven Development: write test before coding</p>
+<p>Tools
+* PHPUnit
+* Behat / Puppeteer / Cypress</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">require</span> <span class="pre">--dev</span> <span class="pre">symfony/phpunit-bridge</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">bin</span> <span class="pre">/phpunit</span></code></p></li>
+<li><p>test class need to finish by <code class="code docutils literal notranslate"><span class="pre">Test</span></code></p></li>
+<li><p>test method need to begin by <code class="code docutils literal notranslate"><span class="pre">test</span></code></p></li>
+<li><p>class to test
+* <code class="code docutils literal notranslate"><span class="pre">PHPUnit\Framework\TestCase</span></code>: to unit test
+* <code class="code docutils literal notranslate"><span class="pre">Symfony\Bundle\FrameworkBundle\Test\KernelTestCase</span></code>: to integration test, can access to Kernel
+* <code class="code docutils literal notranslate"><span class="pre">Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;</span></code>: to check as user (e2e test)</p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="tests-apptest-php">
+<div class="code-block-caption"><span class="caption-text">Tests/AppTest.php</span><a class="headerlink" href="#tests-apptest-php" title="Permalink to this code">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+<span class="k">namespace</span> <span class="nx">App\Tests</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">PHPUnit\Framework\TestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">appTest</span> <span class="k">extends</span> <span class="nx">TestCase</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testTestsAreWorking</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertEquals</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<p><code class="code docutils literal notranslate"><span class="pre">config</span></code> and <code class="code docutils literal notranslate"><span class="pre">.env</span></code> used is test config</p>
+</div>
+<div class="section" id="chapitre-02-tester-avec-une-base-de-donnee">
+<h2>Chapitre 02 - Tester avec une base de donnee<a class="headerlink" href="#chapitre-02-tester-avec-une-base-de-donnee" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">require</span> <span class="pre">--dev</span> <span class="pre">orm-fixtures</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">make:fixtures</span> <span class="pre">TodoFixtures</span></code></p></li>
+</ul>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<div class="literal-block-wrapper docutils container" id="todofixtures-php">
+<div class="code-block-caption"><span class="caption-text">TodoFixtures.php</span><a class="headerlink" href="#todofixtures-php" title="Permalink to this code">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">use App\Entity\Todo;</span>
+
+<span class="x">for($i_todo; $i_todo &lt;=10; $i_todo++){</span>
+<span class="x">    $todo = new Todo();</span>
+<span class="x">    $todo-&gt;setTitle(&quot;Todo s title n $i_todo&quot;)</span>
+<span class="x">        -&gt;setContent(&quot;&lt;p&gt;Todo s content n $i_todo&lt;/p&gt;&quot;)</span>
+<span class="x">        -&gt;setImage(&quot;http://placehold.it/350x150&quot;)</span>
+<span class="x">        -&gt;setCreatedAt(new \Datetime())</span>
+<span class="x">    ;</span>
+
+<span class="x">    $manager-&gt;persist($todo);</span>
+<span class="x">}</span>
+<span class="x">$manager-&gt;flush();</span>
+</pre></div>
+</div>
+</div>
+<div class="literal-block-wrapper docutils container" id="tests-repository-todorepositorytest-php">
+<div class="code-block-caption"><span class="caption-text">Tests/Repository/TodoRepositoryTest.php</span><a class="headerlink" href="#tests-repository-todorepositorytest-php" title="Permalink to this code">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+
+<span class="k">namespace</span> <span class="nx">App\Tests\Repository</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">App\Repository\TodoRepository</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Symfony\Bundle\FrameworkBundle\Test\KernelTestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TodoRepositoryTest</span> <span class="k">extends</span> <span class="nx">KernelTestCase</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testCount</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">self</span><span class="o">::</span><span class="na">bootKernel</span><span class="p">();</span>
+        <span class="nv">$users</span> <span class="o">=</span> <span class="nx">self</span><span class="o">::</span><span class="nv">$container</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nx">TodoRepository</span><span class="o">::</span><span class="na">class</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">count</span><span class="p">([]);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertEquals</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="nv">$users</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<ul class="simple">
+<li><p>config <code class="code docutils literal notranslate"><span class="pre">.env.test</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">bin/console</span> <span class="pre">doctrine:database:create</span> <span class="pre">--env-test</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">bin/console</span> <span class="pre">doctrine:schema:update</span> <span class="pre">--env-test</span> <span class="pre">--force</span></code></p></li>
+</ul>
+<p>Liip bundle</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">require</span> <span class="pre">--dev</span> <span class="pre">liip/test-fixtures-bundle:^1.0.0</span></code></p></li>
+</ul>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">tests/Repository/TodoRepositoryTest.php</span><a class="headerlink" href="#id1" title="Permalink to this code">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+<span class="k">namespace</span> <span class="nx">App\Tests\Repository</span><span class="p">;</span>
+
+<span class="c1">// tests/Repository/TodoRepositoryTest.php</span>
+
+<span class="k">use</span> <span class="nx">App\DataFixtures\TodoFixtures</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">App\Repository\TodoRepository</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Liip\TestFixturesBundle\Test\FixturesTrait</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Symfony\Bundle\FrameworkBundle\Test\KernelTestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TodoRepositoryTest</span> <span class="k">extends</span> <span class="nx">KernelTestCase</span>
+<span class="p">{</span>
+
+    <span class="k">use</span> <span class="nx">FixturesTrait</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testCount</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nx">self</span><span class="o">::</span><span class="na">bootKernel</span><span class="p">();</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">loadFixtures</span><span class="p">([</span><span class="nx">TodoFixtures</span><span class="o">::</span><span class="na">class</span><span class="p">]);</span>
+        <span class="nv">$users</span> <span class="o">=</span> <span class="nx">self</span><span class="o">::</span><span class="nv">$container</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="nx">TodoRepository</span><span class="o">::</span><span class="na">class</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">count</span><span class="p">([]);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertEquals</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="nv">$users</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">warning</dt>
+<dd class="field-odd"><p>you should switch to SQLite as well as use FixturesTrait to test … but do not work on my machine</p>
+</dd>
+</dl>
+<p>Alice Bundle</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">require</span> <span class="pre">--dev</span> <span class="pre">theofidry/alice-data-fixtures</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="chapitre-03-tester-une-entite">
+<h2>Chapitre 03 - Tester une entite<a class="headerlink" href="#chapitre-03-tester-une-entite" title="Permalink to this headline">¶</a></h2>
+<div class="literal-block-wrapper docutils container" id="tests-entity-todotest-php">
+<div class="code-block-caption"><span class="caption-text">tests/Entity/TodoTest.php</span><a class="headerlink" href="#tests-entity-todotest-php" title="Permalink to this code">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+<span class="k">namespace</span> <span class="nx">App\Tests\Entity</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">App\Entity\Todo</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Symfony\Bundle\FrameworkBundle\Test\KernelTestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TodoTest</span> <span class="k">extends</span> <span class="nx">KernelTestCase</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">getEntity</span><span class="p">()</span><span class="o">:</span> <span class="nx">Todo</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="p">(</span><span class="k">new</span> <span class="nx">Todo</span><span class="p">())</span>
+          <span class="o">-&gt;</span><span class="na">setTitle</span><span class="p">(</span><span class="s2">&quot;Todo 1&quot;</span><span class="p">)</span>
+        <span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">assertHasErrors</span><span class="p">(</span><span class="nx">Todo</span> <span class="nv">$todo</span><span class="p">,</span> <span class="nx">int</span> <span class="nv">$number</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">self</span><span class="o">::</span><span class="na">bootKernel</span><span class="p">();</span>
+        <span class="nv">$errors</span> <span class="o">=</span> <span class="nx">self</span><span class="o">::</span><span class="nv">$container</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">(</span><span class="s1">&#39;validator&#39;</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">validate</span><span class="p">(</span><span class="nv">$todo</span><span class="p">);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertCount</span><span class="p">(</span><span class="nv">$number</span><span class="p">,</span> <span class="nv">$errors</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testValidEntity</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nv">$todo</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getEntity</span><span class="p">();</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertHasErrors</span><span class="p">(</span><span class="nv">$todo</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testInvalidEntity</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nv">$todo</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getEntity</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">setTitle</span><span class="p">(</span><span class="k">null</span><span class="p">);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertHasErrors</span><span class="p">(</span><span class="nv">$todo</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<p>You can filter with <code class="code docutils literal notranslate"><span class="pre">bin/phpunit</span> <span class="pre">--filter=TodoTest</span></code></p>
+</div>
+<div class="section" id="chapitre-04-tester-un-validateur">
+<h2>Chapitre 04 - Tester un validateur<a class="headerlink" href="#chapitre-04-tester-un-validateur" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="chapitre-05-tester-un-eventsubscriber">
+<h2>Chapitre 05 - Tester un eventSubscriber<a class="headerlink" href="#chapitre-05-tester-un-eventsubscriber" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="chapitre-06-tester-un-controller">
+<h2>Chapitre 06 - Tester un Controller<a class="headerlink" href="#chapitre-06-tester-un-controller" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">composer</span> <span class="pre">require</span> <span class="pre">--dev</span> <span class="pre">symfony/browser-kit</span></code></p></li>
+</ul>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+<span class="k">namespace</span> <span class="nx">App\Tests\Controller</span><span class="p">;</span>
+
+<span class="k">use</span> <span class="nx">Symfony\Component\HttpFoundation\Response</span><span class="p">;</span>
+<span class="k">use</span> <span class="nx">Symfony\Bundle\FrameworkBundle\Test\WebTestCase</span><span class="p">;</span>
+
+<span class="k">class</span> <span class="nc">TodoControllerTest</span> <span class="k">extends</span> <span class="nx">WebTestCase</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="k">function</span> <span class="nf">testTodoList</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nv">$client</span> <span class="o">=</span> <span class="k">static</span><span class="o">::</span><span class="na">createClient</span><span class="p">();</span>
+        <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="s1">&#39;/api/todos&#39;</span><span class="p">);</span>
+        <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">assertResponseStatusCodeSame</span><span class="p">(</span><span class="nx">Response</span><span class="o">::</span><span class="na">HTTP_OK</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="chapitre-07-tester-endtoend-avec-panther">
+<h2>Chapitre 07 - Tester EndToEnd avec Panther<a class="headerlink" href="#chapitre-07-tester-endtoend-avec-panther" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="to-see">
+<h2>To see<a class="headerlink" href="#to-see" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=ukocHoa8y3o&amp;list=PLjwdMgw5TTLWtWmdMzPaoc45Iztu7tVQ8&amp;index=1">https://www.youtube.com/watch?v=ukocHoa8y3o&amp;list=PLjwdMgw5TTLWtWmdMzPaoc45Iztu7tVQ8&amp;index=1</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../sphinx/ccj_init_project.html" class="btn btn-neutral float-right" title="Sphinx - My personnal custo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="symfony-begining.html" class="btn btn-neutral float-left" title="Symfony - First Step" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

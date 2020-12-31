@@ -1,0 +1,1184 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Gogame - Teacher - MDZ &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Gogame - Variantes" href="gogame-variante.html" />
+    <link rel="prev" title="Gogame - Teacher - ISH" href="gogame-teacher-ish.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Gogame - Teacher - MDZ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#le-premier-cours-la-simultanee">2020.04.11 - Le premier cours - La simultanee</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#corner">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#base-of-life">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#murphy">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#homework">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-revue-de-partie">2020.04.12 - La revue de partie</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#life-base">Life base</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-methode-mdz">2020.04.14 - La methode MDZ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fuseki">Fuseki</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#moyo">Moyo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-revue-de-partie-matchyu-vs-zororo-un-beau-cadeau">2020.04.21 - La revue de partie Matchyu vs Zororo, un beau cadeau</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#respect">Respect</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tsumego">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#revue-de-parties">2020.04.28 - Revue de parties</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#form">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ko">Ko</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Moyo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-special">2020.05.05 - La special</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#proverbe">Proverbe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#comment-jouer-plus-lentement">2020.05.07 - Comment jouer plus lentement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#la-special-2nd-partie">2020.05.12 - La special (2nd partie)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Proverbe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id19">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cours-06-la-simultanee">2020.05.19 - Cours 06 - La simultanée</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id20">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id22">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">Respect</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id24">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cours-07-le-truc-cool">2020.05.26 - Cours 07 - LE truc cool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id25">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">Fuseki</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id27">Moyo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id28">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id29">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id30">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cours-08-la-methode-mdz-le-retour">2020.06.02 - Cours 08 - La methode MDZ le retour</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id31">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id32">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id33">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id34">Proverbe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id35">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id36">Homework</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cours-09-l-interro">2020.06.09 - Cours 09 - L’interro</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id37">Tsumego</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#cours-10-le-bilan">2020.06.16 - Cours 10 - Le bilan</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#les-grands-domaine">Les grands domaine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#le-bilan-de-chacun">Le bilan de chacun</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#nicolas">Nicolas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#louis">Louis</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#julien">Julien</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bad">Bad</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id38">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id39">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id40">Fuseki</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id41">Moyo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id42">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id43">Proverbe</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#la-speciale-avec-jp-et-courgette-mil-b5">2020.06.09 - La Spéciale avec JP et Courgette - MIL B5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#on-fait-le-bilan-calmement-mil-a10">2020.06.19 - On fait le Bilan calmement - MIL A10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#apres-guess-the-move-voici-play-the-move-chill-a5">2020.08.16 - Après Guess the Move, voici Play the Move ! - CHILL A5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#opende-france-r1">2020.11.12 - Opende France r1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#game-1">Game 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#game-2">Game 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#game-3">Game 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#game-4">Game 4</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#different-part">Different part</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id44">Base of life</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id45">Corner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id46">Form</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id47">Fuseki</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id48">Moyo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id49">Murphy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id50">Proverbe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id51">Respect</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id52">Tsumego</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id53">Homework</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Gogame - Teacher - MDZ</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/gogame/gogame-teacher-mdz.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gogame-teacher-mdz">
+<h1>Gogame - Teacher - MDZ<a class="headerlink" href="#gogame-teacher-mdz" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="le-premier-cours-la-simultanee">
+<h2>2020.04.11 - Le premier cours - La simultanee<a class="headerlink" href="#le-premier-cours-la-simultanee" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="corner">
+<h3>Corner<a class="headerlink" href="#corner" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>pour proteger le coin (hoshi keima) proteger avec un tobi plutot qu un keima</p></li>
+<li><p>hoshi, san-san nobi, nobi (d4-c3-c4-d3) faire nobi (e4) plutot que faire un keima (f3) (risque de complication)</p></li>
+</ul>
+</div>
+<div class="section" id="base-of-life">
+<h3>Base of life<a class="headerlink" href="#base-of-life" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>En cas de probleme sur un bord, penser au scorpion</p>
+<ul>
+<li><p>le scorpion permet soit de vivre sur place, soit de faire une belle extension (generalement en ogeima)</p></li>
+<li><p>ne pas connecter le scorpion</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="murphy">
+<h3>Murphy<a class="headerlink" href="#murphy" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>en atari toujours sortir au moins un fois</p></li>
+<li><p>parfois il vaut mieux mourir et le faire payer, plutot que de vivre pour 2 points</p></li>
+</ul>
+</div>
+<div class="section" id="homework">
+<h3>Homework<a class="headerlink" href="#homework" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>voir la video MIL1 sur le keima</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-revue-de-partie">
+<h2>2020.04.12 - La revue de partie<a class="headerlink" href="#la-revue-de-partie" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="life-base">
+<h3>Life base<a class="headerlink" href="#life-base" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Avant de couper, assurez vous que le groupe a partir duquel vous coupez ne risque pas top</p></li>
+<li><p>attention au dame, la partie ne fini que quand les deux joueurs ont passé</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-methode-mdz">
+<h2>2020.04.14 - La methode MDZ<a class="headerlink" href="#la-methode-mdz" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>faire un fuseki</p></li>
+<li><p>demander au deux joueur de la commenter</p></li>
+<li><p>demander a tous quelle couleur on prefererait avoir a la fin de ce fuseki</p></li>
+<li><p>puis le professeur fait le commentaire</p></li>
+</ul>
+<div class="section" id="id1">
+<h3>Corner<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>controler la balance des coins</p>
+<ul>
+<li><p>si une couleur a les 4 coins, il a enormement de cash, l autre couleur doit necessairement faire un gros moyo</p></li>
+<li><p>permet d avoir une assurance de quelques points</p></li>
+<li><p>si on veut laisser un ponuki (et prendre le coin), le laisser du coté qui arrange le moins</p></li>
+</ul>
+</li>
+<li><p>apres invasion au san-san en san-san nobi keima (R3-R4-S6) pensez au kosumi plutot que le keima (R7 au lieu de Q7)</p></li>
+<li><p>quand on a un hoshi + une pierre (autre que keima) et que l autre approche, nobi, si on a un keima -&gt; tobi</p></li>
+<li><p>penser a orienter votre invasion au san-san grace a un tsuke (3-4 ou 4-3) pour que le mur creer par l autre soit moins interessant que s il avait choisi le sens de la defense</p></li>
+</ul>
+</div>
+<div class="section" id="fuseki">
+<h3>Fuseki<a class="headerlink" href="#fuseki" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>prio fuseki</p>
+<ul>
+<li><p>groupe faible, les coups urgents</p></li>
+<li><p>les points, les coins</p></li>
+<li><p>la direction de jeu</p></li>
+</ul>
+</li>
+<li><p>ne pas jouer toutes ses pierres en 3e ligne</p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Base of life<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>apres scorpion noir on fait blanc atari</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3>Murphy<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ne pas laisser les bonnes formes (gueule du tigre) a l autre</p></li>
+</ul>
+</div>
+<div class="section" id="moyo">
+<h3>Moyo<a class="headerlink" href="#moyo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>moyo toujours faire le plus gros possible</p>
+<ul>
+<li><p>attention bien penser au double emploi des coups, que le coup agrandisse le moyo ET ecrase un groupe, ou le menace …</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Homework<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>voir la video MIL1 sur le keima pour le 2020.04.21 (<a class="reference external" href="https://www.youtube.com/watch?v=YUjHnUVFMv8&amp;app=desktop">https://www.youtube.com/watch?v=YUjHnUVFMv8&amp;app=desktop</a>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-revue-de-partie-matchyu-vs-zororo-un-beau-cadeau">
+<h2>2020.04.21 - La revue de partie Matchyu vs Zororo, un beau cadeau<a class="headerlink" href="#la-revue-de-partie-matchyu-vs-zororo-un-beau-cadeau" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h3>Corner<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>komoki, kosumi, tobi (d3-c5-c4-d6-f6), lors de la pinces (d8/c8/autre) tu peux soit nikken tobi (g5) soit hane pour debut de scorpion puis tsuke en ogeima sur le tobi (b4-b3-f4)</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3>Base of life<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>toujours reflechir a la premiere regle, POUR LES 2 JOUEURS !!! quels sont mes groupes faibles (y compris quels coups m obligeront a repondre pour sauver mes groupes faibles (coup hyper sente pour le partenaire)) et quels sont ses groupes faibles</p>
+<ul>
+<li><p>si possible, si ca repond au 2 c est encore mieux (double sente)</p></li>
+</ul>
+</li>
+<li><p>quand on a une pierre en 3e ligne, avec lautre en double tobi en 4 ligne au dessus, on joue generalement du coté que l on ne veut pas</p></li>
+<li><p>si on connect tout nos groupes on a beaucoup moins de problemes</p></li>
+<li><p>si l autre a des problemes, ne le laissez pas se connecter, qu il continue a avoir des problemes</p></li>
+<li><p>pour chasser, chasser a partir de votre groupe faible</p></li>
+<li><p>Ne pas chasser ses propres groupes</p>
+<ul>
+<li><p>Quand on attaque un groupe adverse, attention a la direction que ça va prendre, ne pas aider l’autre a attaquer un de nos groupes faible du cote vers lequel on pousse</p></li>
+<li><p>En cas de  risque, on part de notre groupe faible et idéalement on en profite pour le stabiliser</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="respect">
+<h3>Respect<a class="headerlink" href="#respect" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>rester respectueux</p></li>
+<li><p>pas de taunt, meme pour decompresser</p></li>
+<li><p>pas de discution, juste bonne partie et merci pour la partie</p></li>
+<li><p>deconcentrer l autre se deconcentrer soit meme</p></li>
+<li><p>ne pas tricher … ouais … bon ^^</p></li>
+<li><p>ne pas reprendre les coups, que se soit irl ou sur ordi</p></li>
+<li><p>ne pas ajouter du temps a l autre, il a utilise son temps pour mieux te battre, ne va pas l aider a te battre</p></li>
+<li><p>Quand le partenaire a perdu au temps, note qu il a perdu, la partie est terminé et enregistre le resultat, ENSUITE tu peux la finir, mais le nouveau resultat ne sera pas enregistre</p></li>
+</ul>
+</div>
+<div class="section" id="tsumego">
+<h3>Tsumego<a class="headerlink" href="#tsumego" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Lire les shicho</p>
+<ul>
+<li><p>jusqu au bout</p></li>
+<li><p>toutes les pierres</p></li>
+</ul>
+</li>
+<li><p>lire, jusqu a etre sur a 100% d avoir la bonne reponse, pas 99, 100 et … ne pas regarder la reponse &lt;3</p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h3>Homework<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Telecharger les apps</p>
+<ul>
+<li><p>tsumego pro</p></li>
+<li><p>go4go (pas sur ios)</p></li>
+<li><p>go quest</p></li>
+</ul>
+</li>
+<li><p>Faire des tsumegos</p></li>
+<li><p>Regarder des parties de pro (pas de dan, on a bien dit de pro)</p>
+<ul>
+<li><p>essayer d identifier le(s) pro(s) dont on prefere le style de jeu</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.goratings.org/en/">https://www.goratings.org/en/</a></p></li>
+<li><p><a class="reference external" href="https://www.go4go.net/go/games/byplayer/1313">https://www.go4go.net/go/games/byplayer/1313</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="revue-de-parties">
+<h2>2020.04.28 - Revue de parties<a class="headerlink" href="#revue-de-parties" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Prendre le temps de lire avant de jouer</p></li>
+</ul>
+<div class="section" id="id8">
+<h3>Base of life<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Connecter deux territoires evite des yose des deux cotes</p></li>
+<li><p>quand on est obliger de vivre, essayer de faire des coups sente pour eviter l oeil gote de 1 point</p></li>
+</ul>
+</div>
+<div class="section" id="form">
+<h3>Form<a class="headerlink" href="#form" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>tsuke hane nobi (solide) ou tsuke hane double hane (faire une forme)</p></li>
+<li><p>hane a la tete de deux pierre a enormement de valeur</p></li>
+<li><p>quand tu peux pas faire hane, fait tobi</p></li>
+</ul>
+</div>
+<div class="section" id="ko">
+<h3>Ko<a class="headerlink" href="#ko" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>celui qui gagne un ko, perd localement, perd globalament</p></li>
+<li><p>un ko est toujours plus petit que ce qu on a jouer a coté</p></li>
+<li><p>ne jamais essayer de gagner un ko</p></li>
+<li><p>toujours repondre au menace de l autre</p></li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h3>Moyo<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Pour reduire un moyo jouer 4e ligne, et rester cohérent</p></li>
+<li><p>Lors d une invasion rester loin de la force et prevoir la possibilité que l autre face un scorpion</p></li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h3>Tsumego<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>on s appuie sur ce qu on veut pas attaquer pour attaquer ce qu on veut attaquer</p></li>
+<li><p>les pierres de coupes doivent couper deux groupes faibles (ou au moins un), sinon elles servent a rien</p></li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h3>Homework<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>jouer</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-special">
+<h2>2020.05.05 - La special<a class="headerlink" href="#la-special" title="Permalink to this headline">¶</a></h2>
+<p>La special: comme la methode mdz mais c est mdz qui joue avec les eleves</p>
+<div class="section" id="id12">
+<h3>Base of life<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>attaque du ponuki en 2e ligne (exemple apres Bd4-Wc3-Bc4-Wd3-Be3-We2-Bf2-Wf3-Be4-Wg2-Bd2-Wf1-Bc2)</p>
+<ul>
+<li><p>on peut approcher en gueule du tigre (Bh3)</p></li>
+<li><p>tape sur le nez (Wj3)</p></li>
+<li><p>et quoi que joue l autre (Bh2 ou Bh4)</p></li>
+<li><p>descente pour connecter avec le ponuki (Wj2)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="proverbe">
+<h3>Proverbe<a class="headerlink" href="#proverbe" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>magari (angle plein) 1000 dollars</p></li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h3>Tsumego<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Si vous avez des coupes partout, capturez l autre groupe vous n aurez plus de probleme.</p></li>
+<li><p>Pour capturez essayez au plus de retirez des libertes a chaque coup</p></li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h3>Homework<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>jouer</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="comment-jouer-plus-lentement">
+<h2>2020.05.07 - Comment jouer plus lentement<a class="headerlink" href="#comment-jouer-plus-lentement" title="Permalink to this headline">¶</a></h2>
+<p>Merci gourou Zororo</p>
+<ul class="simple">
+<li><p>mettre un petit rituel en place, a chaque coup
+* enlever la main de la souris
+* se demander si il y a des groupes faibles sur le goban
+* s assurer de vraiment le faire a chaque coup meme si c est ennuyeux
+* si l intuition donne un coups, en prendre conscience, le rationaliser et se dire que ce n est pas necessairement le meilleur coup (le plus important) et reflechir pour en trouver un mieux
+* permettra de jouer plus calmement que la reflexion intuitive du “ho j’ai envie de jouer là”</p></li>
+<li><p>way to think: se dire que pour progresser, il faut faire l’effort de rechercher des meilleurs coups que ceux habituels. Si les coups habituels ou intuitifs sont jouer des qu ils viennent a l esprit, tu stagnes. Pour s ameliorer il faut trouver mieux. Prendre le temps de trouver mieux.</p></li>
+</ul>
+</div>
+<div class="section" id="la-special-2nd-partie">
+<h2>2020.05.12 - La special (2nd partie)<a class="headerlink" href="#la-special-2nd-partie" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id15">
+<h3>Corner<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>blanc hoshi, kosumi, noir san san, noir meurt</p></li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h3>Form<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand on a 2 pierres en 3e ligne, faire le hane des 2 cotés puis pousse pousse pour avoir 3 pierres puis vivre</p></li>
+<li><p>tester le coup a l aisselle, dans des situation ou l autre est deja fort</p></li>
+<li><p>a partir un ponuki en 1ere ligne, faire une extension en ogeima/pas d elephant</p></li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h3>Murphy<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Approcher en keima</p></li>
+<li><p>quand on est en danger et qu on sort, soit on se fait une force pour attaquer ou couper, soit on genere un nouveau groupe faible chez l autre</p></li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h3>Proverbe<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand quelqu un veut faire un keima dechire accepte le</p></li>
+<li><p>si quelqu un veut trancher votre tobi, refuser le</p></li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h3>Homework<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Voir la serie “The rookie: Le flic de Los Angeles”</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cours-06-la-simultanee">
+<h2>2020.05.19 - Cours 06 - La simultanée<a class="headerlink" href="#cours-06-la-simultanee" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id20">
+<h3>Base of life<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>keima 2e ligne !!!! attaque la base de vie des 2 groupes</p></li>
+</ul>
+</div>
+<div class="section" id="id21">
+<h3>Form<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ne jamais laisser un dos de tortue ni ponuki, sortir une fois</p></li>
+<li><p>pour proteger un keima, si blanc brise la tete de chien, ne pas faire systematiquement un nobi kosumi pour connecter</p></li>
+<li><p>ne pas laisser les gueules du tigre</p></li>
+<li><p>lors d invasion regarder le hane pour ennuyer l autre et l obliger a faire des formes qui abimeront ses autres groupes</p></li>
+<li><p>on regarde le hane si ca nous plat pas, on regarde le nobi, sinon le tobi</p></li>
+<li><p>semedori: force l autre a capturer toutes les pierres pour se faire des libertées</p></li>
+<li><p>quand quelqu un vous fait des ataris en cascade ca vous fait une super force</p></li>
+<li><p>c est toujours cool d avoir des coups qui menace des groupes sans vouloir les kills</p></li>
+<li><p>on en coupe jamais un tobi !!!</p></li>
+<li><p>quand il y a un tsuke -&gt; repondre !</p></li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h3>Murphy<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>n ayez pas peur du cross-cut regarder les soutiens des deux cotés et lire</p></li>
+<li><p>parfois on peut approcher un groupe, en kosumi tsuke, dans le but de l alourdir</p></li>
+<li><p>quand on joue a handicap, faire des points ennuies souvent blanc</p></li>
+<li><p>sortir et deconnecter permet toujours d attaquer reduire ect</p></li>
+</ul>
+</div>
+<div class="section" id="id23">
+<h3>Respect<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ne pas jouer le joueur, jouer le goban</p></li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h3>Homework<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>jouer, encore, toujours, play powa !</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cours-07-le-truc-cool">
+<h2>2020.05.26 - Cours 07 - LE truc cool<a class="headerlink" href="#cours-07-le-truc-cool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id25">
+<h3>Form<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>dans le style moderne on aime pas se faire ecarser</p></li>
+<li><p>penser au clamp</p></li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h3>Fuseki<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>apre kosumi de shusaku pincer en extension 2</p></li>
+<li><p>apres komoku keima, pince en extension 3</p></li>
+<li><p>apres l epee de damocles, si noir est fort (full conecté) on peut tapper sur le nez de la pierre</p>
+<ul>
+<li><p>pour l eviter, tobi ou keima</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id27">
+<h3>Moyo<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ne pas se focus sur la balance des coins, faire attention a la balance de l influence</p></li>
+</ul>
+</div>
+<div class="section" id="id28">
+<h3>Murphy<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Areter de faire des coups sente pour recuperer qqc, faire des coups gote</p></li>
+<li><p>c est toujours de connecter deux groupes, meme vivant</p></li>
+</ul>
+</div>
+<div class="section" id="id29">
+<h3>Tsumego<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>toujours attaquer a partir de son groupe faible !!!</p></li>
+<li><p>quand on veut attaquer et que l autre veux attaquer, on approche en keima si il a une base de vie, on prend la base de vie</p></li>
+<li><p>d abord on enferme ensuite on retire la base de vie</p></li>
+</ul>
+</div>
+<div class="section" id="id30">
+<h3>Homework<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Let’s play !</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cours-08-la-methode-mdz-le-retour">
+<h2>2020.06.02 - Cours 08 - La methode MDZ le retour<a class="headerlink" href="#cours-08-la-methode-mdz-le-retour" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id31">
+<h3>Corner<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>si la direction du bord est pas bonne (parce que full 3e ligne), pensee a la pince</p></li>
+<li><p>apres invasion sansan, et mur de trois pierres quand le mur est tranquille pour faire un moyo, keima, si en galere, kosumi</p></li>
+</ul>
+</div>
+<div class="section" id="id32">
+<h3>Form<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand tu essaies d enfermer un gruope, faire des cadeaux pour lui donner des mauvaises formes et le forcer a faire tout les coups sente pour vivre</p></li>
+</ul>
+</div>
+<div class="section" id="id33">
+<h3>Murphy<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand tu pousses sans couper, tu renforces</p></li>
+</ul>
+</div>
+<div class="section" id="id34">
+<h3>Proverbe<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Les coups qui touchent c est sente, les coups qui touchent et qui marchent pas c est risqué</p></li>
+</ul>
+</div>
+<div class="section" id="id35">
+<h3>Tsumego<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>n enleve pas la base de vie si tu n as pas enfermé</p></li>
+</ul>
+</div>
+<div class="section" id="id36">
+<h3>Homework<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>prendre en compte les remarques: si que jouer, faire un peu de tsumego, si que tsumego faire plus de partie, toujours regarder les videos de MDZ, tout ca tout ca</p></li>
+<li><p>presenter le tsumego a mdz</p></li>
+<li><p>quand decider quand jouer un ko</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cours-09-l-interro">
+<h2>2020.06.09 - Cours 09 - L’interro<a class="headerlink" href="#cours-09-l-interro" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id37">
+<h3>Tsumego<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand l autre a un coup styler, le prendre avant</p></li>
+<li><p>un bon coup pour noir est un bon coup pour blanc</p></li>
+<li><p>sacrifier des pierres c est gagner des points</p></li>
+<li><p>pour vivre il y a qu une seul possibilité ou presque, soit on prend les points vitaux soit, soit on agrandi l espace vital</p></li>
+<li><p>1-2 2-1 miai, reduction jusqu a forme tuable, puis jouer les tesujis de la mort qui tue</p></li>
+<li><p>si y a rien qui marche, sacrifie une pierre</p></li>
+<li><p>donner un oeil pour en lui reprendre apres</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="cours-10-le-bilan">
+<h2>2020.06.16 - Cours 10 - Le bilan<a class="headerlink" href="#cours-10-le-bilan" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="les-grands-domaine">
+<h3>Les grands domaine<a class="headerlink" href="#les-grands-domaine" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>lecture (tsumego, le status final, la regularité, )</p></li>
+<li><p>théorie, connaissance (forme, joseki, yose, proverbe, tsumego)</p></li>
+<li><p>instinct</p></li>
+<li><p>psychologie (le respect, l etiquette, les emotions, l objectivité)</p></li>
+<li><p>experience (l’accumulation de partie, le farm)</p></li>
+<li><p>10 -&gt; 4-5 kyu</p></li>
+<li><p>16 -&gt; 1 dan</p></li>
+<li><p>20 -&gt; 1 dan sur et tu dois pouvoir passer 2 dan</p></li>
+</ul>
+</div>
+<div class="section" id="le-bilan-de-chacun">
+<h3>Le bilan de chacun<a class="headerlink" href="#le-bilan-de-chacun" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="nicolas">
+<h4>Nicolas<a class="headerlink" href="#nicolas" title="Permalink to this headline">¶</a></h4>
+<p>Points a travailler:</p>
+<ul>
+<li><p>Experience 8 (manque de partie compta, a enjeux)
+* pas de mystere … il faut en faire, tournoi, compta et en faire
+* jouer sur les serveurs asiatiques (tygem, foxgo server)</p></li>
+<li><p>Lecture 9
+* trouve ta maniere celle que tu aprecies, plus ludique (baduk pop ?)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>jouer sur les serveurs asiatiques (tygem, foxgo server)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Points forts:</p>
+<ul class="simple">
+<li><p>Instinct 13 (tu sais a peu pres ou ca se passe)</p></li>
+<li><p>Psycho 12 (tu laches rien)</p></li>
+<li><p>Connaissance 11
+* video
+* joseki</p></li>
+</ul>
+</div>
+<div class="section" id="louis">
+<h4>Louis<a class="headerlink" href="#louis" title="Permalink to this headline">¶</a></h4>
+<p>Points a travailler:</p>
+<ul class="simple">
+<li><p>Experience 10
+* partie a enjeux, tournoi
+* tsumego
+* partie sur serveurs asiatiques</p></li>
+<li><p>Psycho 11 (areter de jouer ce qu on connait, l attention au mauvaise forme (hane a la tete), l endurence)</p></li>
+</ul>
+<p>Points forts:</p>
+<ul class="simple">
+<li><p>Instinct 14</p></li>
+<li><p>Connaissance 13</p></li>
+<li><p>Lecture 12</p></li>
+</ul>
+</div>
+<div class="section" id="julien">
+<h4>Julien<a class="headerlink" href="#julien" title="Permalink to this headline">¶</a></h4>
+<p>Points a travailler:</p>
+<ul class="simple">
+<li><p>Lecture 10 (en particulier tsumego, tellemtent d instinct et de connaissance que ca passe)
+* baduk pop
+* tsumego pro
+* tsumego hero
+* server asiatiques</p></li>
+<li><p>Experience 12</p></li>
+</ul>
+<p>Points forts:</p>
+<ul class="simple">
+<li><p>Instinct 16</p></li>
+<li><p>Connaissance 14</p></li>
+<li><p>Psychologie 13</p></li>
+</ul>
+</div>
+<div class="section" id="bad">
+<h4>Bad<a class="headerlink" href="#bad" title="Permalink to this headline">¶</a></h4>
+<p>Points a travailler</p>
+<ul class="simple">
+<li><p>Experience
+* partie a enjeux</p></li>
+<li><p>Psychologie
+* partie a enjeux</p></li>
+</ul>
+<p>Points forts:</p>
+<ul class="simple">
+<li><p>Connaissance
+* rediger tout ce bordel ca paierait ?</p></li>
+<li><p>Lecture</p></li>
+<li><p>Instinct</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id38">
+<h3>Base of life<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>un ko vaut 2/3 de la valeur compté</p></li>
+</ul>
+</div>
+<div class="section" id="id39">
+<h3>Form<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>attention au hane a la tete de 3 pierres … plus double hane …</p></li>
+<li><p>attention au hane a la tete de 2 pierres … plus double hane …</p></li>
+<li><p>les coups sur une ligne plus haute sont generalement meilleurs</p></li>
+<li><p>avec un tsuke 2e ligne sortir plutot que d essayer d investir un coin</p></li>
+<li><p>les nobi sont solide ne donne pas de suite, le hane donne une suite mais laisse souvent des faiblesses</p></li>
+<li><p>pousse jusqu au bout du goban, tu peux sauter mais attention au hane a la tete de 2/3 pierres</p></li>
+<li><p>lors de pousse pousse, si l un saute l autre risque de tenuki</p></li>
+<li><p>briser la tete de chien</p></li>
+<li><p>donner le ponuki du coté ou il ne peut pas faire d influence</p></li>
+</ul>
+</div>
+<div class="section" id="id40">
+<h3>Fuseki<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>au fuseki et debut de chuban si l autre joue en 1ere ligne c est pas grave</p></li>
+</ul>
+</div>
+<div class="section" id="id41">
+<h3>Moyo<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>imagine ce que tu construit, si tu es trop court, trouve autre chose (prendre plus, ou entrer directement chez lui)</p></li>
+</ul>
+</div>
+<div class="section" id="id42">
+<h3>Murphy<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>quand tu n as pas envie de toucher un groupe facile, touche l autre</p></li>
+<li><p>quand tu as envie d attaquer deux groupes, ne touche a aucun</p></li>
+<li><p>regle tes problemes en en creant chez l autre</p></li>
+<li><p>tu sais pas quoi faire ? donne la patate chaude a l autre</p></li>
+</ul>
+</div>
+<div class="section" id="id43">
+<h3>Proverbe<a class="headerlink" href="#id43" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>joue un coup quand le coup est bon pour l autre</p></li>
+<li><p>on ne touche pas si on veut pas renforcer/ce qu on veut attaquer</p></li>
+<li><p>quand tu fais des points la ou les 2 peuvent en faire c est top</p></li>
+<li><p>quand c est vivant touche pas avant les 3 regles</p></li>
+<li><p>quand il n y a pas de solution, trouve une solution (ok mais …)</p></li>
+<li><p>on joue pres de ce qui est faible, et on joue pas pres de ce qui est fort</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="la-speciale-avec-jp-et-courgette-mil-b5">
+<h2>2020.06.09 - La Spéciale avec JP et Courgette - MIL B5<a class="headerlink" href="#la-speciale-avec-jp-et-courgette-mil-b5" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>toujours faire attention a l influence du ponuki</p></li>
+<li><p>on imagine le nobi si ca nous plait pas, on fait tobi</p></li>
+<li><p>essayer d imaginer une suite pas juste dire “nobi nnous plait pas, next”</p></li>
+<li><p>un atari qui fait faire un angle vide c est top</p></li>
+<li><p>defendre un groupe faible n est jamais un coup perdu</p></li>
+<li><p>donner le ponuki la ou il y a pas de chance de faire de l influence</p></li>
+<li><p>apres un coup a l epaule,tester le nobi d un coté, nobi de l autre, on empeche la gueule du tigre et l autre fais la table stylée, tu tests des deux coté et tu joues celui que tu preferes</p></li>
+<li><p>apres un coup a l epaule, tu peux nobi plusieur fois puis faire keima du coté que t’as pas push</p></li>
+<li><p>attention a la balance des coins</p></li>
+<li><p>il est sourdinné, on peut parler</p></li>
+<li><p>ca donne envie de couper mais ca va lui donner de la force donc on coupe pas</p></li>
+<li><p>compter ca aide a donner de bonne decision (courgette)</p></li>
+<li><p>reflechir au contre forme de la fleur</p></li>
+</ul>
+</div>
+<div class="section" id="on-fait-le-bilan-calmement-mil-a10">
+<h2>2020.06.19 - On fait le Bilan calmement - MIL A10<a class="headerlink" href="#on-fait-le-bilan-calmement-mil-a10" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list simple">
+<dt class="field-odd">source</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.youtube.com/watch?v=bDiDKYB4BRU">https://www.youtube.com/watch?v=bDiDKYB4BRU</a></p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p>La lecture c est comme la muscu, il faut en faire un peu tout les jours et pas 24h une fois c est comme ca que tu progresses (doctor baduk)</p></li>
+<li><p>le respect: etre bjectif, respecter le jeu, les formes,</p></li>
+</ul>
+</div>
+<div class="section" id="apres-guess-the-move-voici-play-the-move-chill-a5">
+<h2>2020.08.16 - Après Guess the Move, voici Play the Move ! - CHILL A5<a class="headerlink" href="#apres-guess-the-move-voici-play-the-move-chill-a5" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>on vient en keima les pierres en 4e lignes que l on veut attaquer</p></li>
+<li><p>apres boshi souvent keima</p></li>
+</ul>
+</div>
+<div class="section" id="opende-france-r1">
+<h2>2020.11.12 - Opende France r1<a class="headerlink" href="#opende-france-r1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="game-1">
+<h3>Game 1<a class="headerlink" href="#game-1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>attaquer pour gagner quelque chose</p></li>
+<li><p>attaquer pour construire</p></li>
+<li><p>n attaquer pas juste pour attaquer sans savoir ce qu on y gagne</p></li>
+<li><p>si vous ne voyez pas de benefice d attaque, jouer ailleur</p></li>
+</ul>
+<p>technique hamashi:
+* laisser un groupe faible pour qu il vous attaque et qu il perde du temps a vous tuer</p>
+</div>
+<div class="section" id="game-2">
+<h3>Game 2<a class="headerlink" href="#game-2" title="Permalink to this headline">¶</a></h3>
+<p>Revoir egalement ses victoires, on peut y voir des erreurs.</p>
+<p>Ne jamais prendre pour acquis qu un groupe est vivant</p>
+</div>
+<div class="section" id="game-3">
+<h3>Game 3<a class="headerlink" href="#game-3" title="Permalink to this headline">¶</a></h3>
+<p>Quand on est faible a deux, la coupe c est la vie
+Les moyos c est pour faire de la force, pas des points</p>
+</div>
+<div class="section" id="game-4">
+<h3>Game 4<a class="headerlink" href="#game-4" title="Permalink to this headline">¶</a></h3>
+<p>perdre c est progresser</p>
+</div>
+</div>
+<div class="section" id="different-part">
+<h2>Different part<a class="headerlink" href="#different-part" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id44">
+<h3>Base of life<a class="headerlink" href="#id44" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id45">
+<h3>Corner<a class="headerlink" href="#id45" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id46">
+<h3>Form<a class="headerlink" href="#id46" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id47">
+<h3>Fuseki<a class="headerlink" href="#id47" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id48">
+<h3>Moyo<a class="headerlink" href="#id48" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id49">
+<h3>Murphy<a class="headerlink" href="#id49" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id50">
+<h3>Proverbe<a class="headerlink" href="#id50" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id51">
+<h3>Respect<a class="headerlink" href="#id51" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id52">
+<h3>Tsumego<a class="headerlink" href="#id52" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id53">
+<h3>Homework<a class="headerlink" href="#id53" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gogame-variante.html" class="btn btn-neutral float-right" title="Gogame - Variantes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="gogame-teacher-ish.html" class="btn btn-neutral float-left" title="Gogame - Teacher - ISH" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

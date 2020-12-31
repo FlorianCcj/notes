@@ -1,0 +1,688 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Duolingo - German &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Duolingo - German - Voc" href="duolinguo-german-voc.html" />
+    <link rel="prev" title="Duolingo - Chinese - Voc" href="duolinguo-chinese-voc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Duolingo - German</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#deu-01-1-01-basics">DEU-01-1-01 Basics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#to-be">To be</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-03-1-03-basics-2-plural">DEU-03-1-03 Basics 2 (Plural)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-04-1-04-phrases">DEU-04-1-04 Phrases</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#guten-morgen">Guten Morgen!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#phrases">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-05-1-05-acc-case">DEU-05-1-05 Acc case</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-06-1-06-intro">DEU-06-1-06 Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-07-1-07-food-1">DEU-07-1-07 Food 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#let-s-eat">Let’s eat</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#feed-me">Feed me</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-08-1-08-animal-1">DEU-08-1-08 Animal 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#eating-like">Eating like…!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#frankenwordes">Frankenwordes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-09-2-01-plurals">DEU-09-2-01 Plurals</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-the-the-or-the">The, the, the or the?!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#many-many-plurals">Many, many plurals</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-10-2-02-adjectives">DEU-10-2-02 Adjectives</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#multiple-meanings">Multiple Meanings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#let-s-talk-about-bach">Let’s talk about Bach</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-11-2-03-not">DEU-11-2-03 Not</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#not">Not!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#g2g">g2g</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#speak-your-mind">Speak your mind!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-12-2-04-question-1">DEU-12-2-04 Question 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sprechen-sie-deutsch">Sprechen sie Deutsch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#talking-temperature">Talking Temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#i-m-zo-zorry">I’m zo zorry</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-14-2-05-present-1">DEU-14-2-05 Present 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-vowel-they-are-a-changin">The vowel, they are a-changin’</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#i-do-what-i-want">I do what I want!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-are-you-doing">What are you doing?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-15-2-06-clothing">DEU-15-2-06 Clothing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#to-have-and-to-hold">To have and to hold!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#and-an-umlaut-on-top">And an umlaut on top!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#just-a-second">Just a second</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#deu-16-2-07-nature-1">DEU-16-2-07 Nature 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#good-heavens">Good heavens!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-letter-e">The letter e</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#a-window-into-germany">A window into Germany</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Phrases</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Duolingo - German</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/language/duolinguo-german.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="duolingo-german">
+<h1>Duolingo - German<a class="headerlink" href="#duolingo-german" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="deu-01-1-01-basics">
+<h2>DEU-01-1-01 Basics<a class="headerlink" href="#deu-01-1-01-basics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A man drinks: Ein Mann trinkt</p></li>
+<li><p>Does he drink: Trinkt er ?</p></li>
+<li><p>She is a woman: Sie ist ein Frau</p></li>
+<li><p>It is bread: Es ist Brot</p></li>
+<li><p>I am Anng: Ich bin Anng</p></li>
+<li><p>I am a woman: Ich bin eine Frau</p></li>
+</ul>
+<div class="section" id="to-be">
+<h3>To be<a class="headerlink" href="#to-be" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>i am: Ich bin</p></li>
+<li><p>you are: Du bist</p></li>
+<li><p>he/she/it is: er/sie/es ist</p></li>
+<li><p>we are: wir sind</p></li>
+<li><p>you all are: ihr seid</p></li>
+<li><p>they are: sie sind</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="deu-03-1-03-basics-2-plural">
+<h2>DEU-03-1-03 Basics 2 (Plural)<a class="headerlink" href="#deu-03-1-03-basics-2-plural" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>der Mann =&gt; die Ma.nner</p></li>
+<li><p>das Kind =&gt; die Kinder</p></li>
+<li><p>die Frau =&gt; die Frauen</p></li>
+<li><p>der Junge =&gt; die Jungen</p></li>
+<li><p>das Ma.dchen =&gt; die Ma.dchen</p></li>
+<li><p>We are woman you are men: Wir sind Frauen und ihr seid Manner</p></li>
+<li><p>That is a man: Das ist ein Mann</p></li>
+</ul>
+</div>
+<div class="section" id="deu-04-1-04-phrases">
+<h2>DEU-04-1-04 Phrases<a class="headerlink" href="#deu-04-1-04-phrases" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="guten-morgen">
+<h3>Guten Morgen!<a class="headerlink" href="#guten-morgen" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>good morning!: Guten Morgen!</p></li>
+<li><p>good afternoon!: Guten Tag!</p></li>
+<li><p>good evening!: Guten Abend!</p></li>
+<li><p>good night!: Guten Nacht!</p></li>
+<li><p>Please: Bitte</p></li>
+<li><p>You are welcome: Bitte</p></li>
+<li><p>See you soon: bis bald</p></li>
+<li><p>See you later: bis spa.ter</p></li>
+</ul>
+</div>
+<div class="section" id="phrases">
+<h3>Phrases<a class="headerlink" href="#phrases" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Good evening! How is it going ?: Guten Abend! Wie geth’s</p></li>
+<li><p>Yes, I am well/fine: Ja mir geht’s gut</p></li>
+<li><p>No, no idea: Nein, kein Ahnung</p></li>
+<li><p>All right, see you tomorow: Alles klar, bis Morgen!</p></li>
+<li><p>you’re welcome: gern geschehen</p></li>
+<li><p>Schon gut: All right!</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="deu-05-1-05-acc-case">
+<h2>DEU-05-1-05 Acc case<a class="headerlink" href="#deu-05-1-05-acc-case" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>der Apfel =&gt; Ich habe den Apfel</p></li>
+<li><p>ein Apfel =&gt; Ich esse einen Apfel</p></li>
+</ul>
+</div>
+<div class="section" id="deu-06-1-06-intro">
+<h2>DEU-06-1-06 Intro<a class="headerlink" href="#deu-06-1-06-intro" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You come from Germany: Du kommst aus Deutschland</p></li>
+<li><p>Do you come from Germany: Kommst du aus Deutschland</p></li>
+<li><p>I am called Julia: Ich heisse Julia</p></li>
+<li><p>Are you called Anna?: Heisst du Anna?</p></li>
+<li><p>We understand: Wir verstehen</p></li>
+<li><p>Do you speak German: Sprichst du Deutsch?</p></li>
+<li><p>He speak english: Er spricht Englisch</p></li>
+<li><p>I speak: Ich spreche</p></li>
+</ul>
+</div>
+<div class="section" id="deu-07-1-07-food-1">
+<h2>DEU-07-1-07 Food 1<a class="headerlink" href="#deu-07-1-07-food-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="let-s-eat">
+<h3>Let’s eat<a class="headerlink" href="#let-s-eat" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ich esse</p></li>
+<li><p>du isst</p></li>
+<li><p>er/sie/es isst</p></li>
+<li><p>wir essen</p></li>
+<li><p>ihr esst</p></li>
+<li><p>sie essen</p></li>
+</ul>
+</div>
+<div class="section" id="feed-me">
+<h3>Feed me<a class="headerlink" href="#feed-me" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ich habe Hunger: I am hungry</p></li>
+<li><p>Ich habe Durst: I am thirsty</p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h3>Phrases<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Die Pizza schmeckt gut: The pizza tastes gut</p></li>
+<li><p>Zucker ust suss: sugar is sweet</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="deu-08-1-08-animal-1">
+<h2>DEU-08-1-08 Animal 1<a class="headerlink" href="#deu-08-1-08-animal-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="eating-like">
+<h3>Eating like…!<a class="headerlink" href="#eating-like" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Essen (for animals) = fressen</p></li>
+</ul>
+</div>
+<div class="section" id="frankenwordes">
+<h3>Frankenwordes<a class="headerlink" href="#frankenwordes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>das Haus (home) + das Tier (animal) = das Haustier</p></li>
+<li><p>die Orange + der Saft = der Orangesaft</p></li>
+</ul>
+<p>The gender is always whatever gender the last word in the combo-word</p>
+</div>
+</div>
+<div class="section" id="deu-09-2-01-plurals">
+<h2>DEU-09-2-01 Plurals<a class="headerlink" href="#deu-09-2-01-plurals" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-the-the-or-the">
+<h3>The, the, the or the?!<a class="headerlink" href="#the-the-the-or-the" title="Permalink to this headline">¶</a></h3>
+<p>For plurals “the” is always “die”</p>
+</div>
+<div class="section" id="many-many-plurals">
+<h3>Many, many plurals<a class="headerlink" href="#many-many-plurals" title="Permalink to this headline">¶</a></h3>
+<p>a lot of patterns
+* add -e: die Schweine (the pigs)
+* add -er: die Eier (the eggs)
+* add -en: due Frauen (the women)
+* add umlaut: die Vo.gel (the birds)</p>
+</div>
+</div>
+<div class="section" id="deu-10-2-02-adjectives">
+<h2>DEU-10-2-02 Adjectives<a class="headerlink" href="#deu-10-2-02-adjectives" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="multiple-meanings">
+<h3>Multiple Meanings<a class="headerlink" href="#multiple-meanings" title="Permalink to this headline">¶</a></h3>
+<p>“Kurz” can only be used for objects and time. To say a person is short, use “klein”</p>
+<p>Back in the 1950’s “toll” meant crazy or insane. Nowadays, it means great.</p>
+</div>
+<div class="section" id="let-s-talk-about-bach">
+<h3>Let’s talk about Bach<a class="headerlink" href="#let-s-talk-about-bach" title="Permalink to this headline">¶</a></h3>
+<p>Sound</p>
+<ul class="simple">
+<li><p>“ch” usually sound like in “humid”</p></li>
+<li><p>after a or u it s more like “h” in arab</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="deu-11-2-03-not">
+<h2>DEU-11-2-03 Not<a class="headerlink" href="#deu-11-2-03-not" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="not">
+<h3>Not!<a class="headerlink" href="#not" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Die Katze ist lustig (The cat is funny) -&gt; Die Katze ist nicht lustig (The cat is not funny)</p></li>
+<li><p>Er versteht -&gt; Er versteht nicht</p></li>
+</ul>
+</div>
+<div class="section" id="g2g">
+<h3>g2g<a class="headerlink" href="#g2g" title="Permalink to this headline">¶</a></h3>
+<p>Sound</p>
+<ul class="simple">
+<li><p>-ig ound “ich”</p></li>
+</ul>
+</div>
+<div class="section" id="speak-your-mind">
+<h3>Speak your mind!<a class="headerlink" href="#speak-your-mind" title="Permalink to this headline">¶</a></h3>
+<p>It may seem impolite to us, but it s normal for germans to be straightforward and sometimes blunt. Don t be afraid to use nicht to say how you feel!</p>
+</div>
+</div>
+<div class="section" id="deu-12-2-04-question-1">
+<h2>DEU-12-2-04 Question 1<a class="headerlink" href="#deu-12-2-04-question-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="sprechen-sie-deutsch">
+<h3>Sprechen sie Deutsch<a class="headerlink" href="#sprechen-sie-deutsch" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Der Mann ist jung (The man is young) -&gt; Ist der Mann jung? (Is the man young?)</p></li>
+<li><p>Er heisst Hans (He is called Hans) -&gt; Heisst er Hans? (Is he called Hans?)</p></li>
+</ul>
+</div>
+<div class="section" id="talking-temperature">
+<h3>Talking Temperature<a class="headerlink" href="#talking-temperature" title="Permalink to this headline">¶</a></h3>
+<p>Only object can be warm, kalt or heiss</p>
+</div>
+<div class="section" id="i-m-zo-zorry">
+<h3>I’m zo zorry<a class="headerlink" href="#i-m-zo-zorry" title="Permalink to this headline">¶</a></h3>
+<p>Sound</p>
+<p>“s” before a vowel sound “z”</p>
+</div>
+</div>
+<div class="section" id="deu-14-2-05-present-1">
+<h2>DEU-14-2-05 Present 1<a class="headerlink" href="#deu-14-2-05-present-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-vowel-they-are-a-changin">
+<h3>The vowel, they are a-changin’<a class="headerlink" href="#the-vowel-they-are-a-changin" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ich lese</p></li>
+<li><p>du liest</p></li>
+<li><p>er/sie/es liest</p></li>
+<li><p>wir lesen</p></li>
+<li><p>ihr lest</p></li>
+<li><p>sie lesen</p></li>
+</ul>
+</div>
+<div class="section" id="i-do-what-i-want">
+<h3>I do what I want!<a class="headerlink" href="#i-do-what-i-want" title="Permalink to this headline">¶</a></h3>
+<p>Wollen, mo.gen</p>
+<ul class="simple">
+<li><p>ich will, mag</p></li>
+<li><p>du willst, magst</p></li>
+<li><p>er/sie/es will, mag</p></li>
+<li><p>wir wollen, mo.gen</p></li>
+<li><p>ihr wollt, mo.gt</p></li>
+<li><p>sie wollen, mo.gen</p></li>
+</ul>
+</div>
+<div class="section" id="what-are-you-doing">
+<h3>What are you doing?<a class="headerlink" href="#what-are-you-doing" title="Permalink to this headline">¶</a></h3>
+<p>She reads or She is reading -&gt; Sie liest</p>
+</div>
+</div>
+<div class="section" id="deu-15-2-06-clothing">
+<h2>DEU-15-2-06 Clothing<a class="headerlink" href="#deu-15-2-06-clothing" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="to-have-and-to-hold">
+<h3>To have and to hold!<a class="headerlink" href="#to-have-and-to-hold" title="Permalink to this headline">¶</a></h3>
+<p>Haben</p>
+<ul class="simple">
+<li><p>ich habe</p></li>
+<li><p>du hast</p></li>
+<li><p>er/sie/es hat</p></li>
+<li><p>wir haben</p></li>
+<li><p>ihr habt</p></li>
+<li><p>sie haben</p></li>
+</ul>
+</div>
+<div class="section" id="and-an-umlaut-on-top">
+<h3>And an umlaut on top!<a class="headerlink" href="#and-an-umlaut-on-top" title="Permalink to this headline">¶</a></h3>
+<p>to wear</p>
+<ul class="simple">
+<li><p>ich trage</p></li>
+<li><p>du tra.gst</p></li>
+<li><p>er/sie/es tra.gt</p></li>
+<li><p>wir tragen</p></li>
+<li><p>ihr tragt</p></li>
+<li><p>sie tragen</p></li>
+</ul>
+</div>
+<div class="section" id="just-a-second">
+<h3>Just a second<a class="headerlink" href="#just-a-second" title="Permalink to this headline">¶</a></h3>
+<p>The verb in a phrase keep the second place, element turn around but it stay</p>
+</div>
+</div>
+<div class="section" id="deu-16-2-07-nature-1">
+<h2>DEU-16-2-07 Nature 1<a class="headerlink" href="#deu-16-2-07-nature-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="good-heavens">
+<h3>Good heavens!<a class="headerlink" href="#good-heavens" title="Permalink to this headline">¶</a></h3>
+<p>When you learn a noun, learn the word “the” with it</p>
+</div>
+<div class="section" id="the-letter-e">
+<h3>The letter e<a class="headerlink" href="#the-letter-e" title="Permalink to this headline">¶</a></h3>
+<p>Sound</p>
+</div>
+<div class="section" id="a-window-into-germany">
+<h3>A window into Germany<a class="headerlink" href="#a-window-into-germany" title="Permalink to this headline">¶</a></h3>
+<p>Nothing</p>
+</div>
+<div class="section" id="id2">
+<h3>Phrases<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Die Luft ist sauber: The air is clean</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duolinguo-german-voc.html" class="btn btn-neutral float-right" title="Duolingo - German - Voc" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="duolinguo-chinese-voc.html" class="btn btn-neutral float-left" title="Duolingo - Chinese - Voc" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

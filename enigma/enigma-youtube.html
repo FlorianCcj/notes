@@ -1,0 +1,582 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Enigma &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Table de rappel" href="../fantasy/fantasy-kabbale_angel.html" />
+    <link rel="prev" title="Amazon Software Development Engineer Interview Questions" href="amazon-software_development_engineer_interview.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Enigma</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#enigmes">Enigmes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#olicard-01">Olicard 01</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-01">Olicarton 01</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-02">Olicarton 02</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-03">Olicarton 03</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-04">Olicarton 04</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-05">Olicarton 05</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-06">Olicarton 06</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-07">Olicarton 07</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-08">Olicarton 08</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-09">Olicarton 09</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-10">Olicarton 10</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-11">Olicarton 11</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-12">Olicarton 12</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-13">Olicarton 13</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-14">Olicarton 14</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-15">Olicarton 15</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-16">Olicarton 16</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#solution">Solution</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#olicard-01-solution">Olicard 01 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-01-solution">Olicarton 01 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-02-solution">Olicarton 02 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-03-solution">Olicarton 03 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-04-solution">Olicarton 04 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-05-solution">Olicarton 05 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-06-solution">Olicarton 06 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-07-solution">Olicarton 07 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-08-solution">Olicarton 08 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-09-solution">Olicarton 09 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-10-solution">Olicarton 10 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-11-solution">Olicarton 11 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-12-solution">Olicarton 12 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-13-solution">Olicarton 13 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-14-solution">Olicarton 14 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-15-solution">Olicarton 15 - Solution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#olicarton-16-solution">Olicarton 16 - Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#document-history">Document history</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Enigma</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/enigma/enigma-youtube.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="enigma">
+<h1>Enigma<a class="headerlink" href="#enigma" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="enigmes">
+<h2>Enigmes<a class="headerlink" href="#enigmes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="olicard-01">
+<h3>Olicard 01<a class="headerlink" href="#olicard-01" title="Permalink to this headline">¶</a></h3>
+<p>Einstein arive au purgatoire, devant lui deux portes. Devant ces portes deux anges, portes et anges sont identiques en tous points.</p>
+<p>Malheureusement, parmi ces deux anges il y en a un qui ment tout le temps, et l autre qui dit toujours la verité. Et parmi les deux porte, l une mene en enfer et l autre mene au paradis.</p>
+<p>Einstein a le droit a une seul et unique question pour savoir comment se rendre au paradis</p>
+<p>Quelle question Einstein va t il poser ?</p>
+</div>
+<div class="section" id="olicarton-01">
+<h3>Olicarton 01<a class="headerlink" href="#olicarton-01" title="Permalink to this headline">¶</a></h3>
+<p>Prenez un jeu de 52 cartes. Comment en enlevant seulement 8 cartes vous rendez impossible le fait de faire une suite de 5 cartes à la suite dans tout le jeu ?</p>
+</div>
+<div class="section" id="olicarton-02">
+<h3>Olicarton 02<a class="headerlink" href="#olicarton-02" title="Permalink to this headline">¶</a></h3>
+<p>Qu’est-ce qui commence avec l’enfance, finit avec le père et la mère, mais commence et finit avec l’éternité ?</p>
+</div>
+<div class="section" id="olicarton-03">
+<h3>Olicarton 03<a class="headerlink" href="#olicarton-03" title="Permalink to this headline">¶</a></h3>
+<p>Le premier joueur d’une table de poker dit “J’ai gagné plus de 100€”, le deuxième dit “Non tu as gagné moins j’en suis certain !” et le troisième dit “Ce qui est sûr c’est que tu as gagné au moins 1€”.</p>
+<p>Seulement un des 3 joueurs disent la vérité… Combien d’argent a gagné le premier joueur ?</p>
+</div>
+<div class="section" id="olicarton-04">
+<h3>Olicarton 04<a class="headerlink" href="#olicarton-04" title="Permalink to this headline">¶</a></h3>
+<p>Prenez dix allumettes (ou cure dent) et voici l’énigme : Comment transformer ces dix allumettes en une ?</p>
+</div>
+<div class="section" id="olicarton-05">
+<h3>Olicarton 05<a class="headerlink" href="#olicarton-05" title="Permalink to this headline">¶</a></h3>
+<p>Quand je suis au pluriel toutes mes lettres changent sauf la deuxième… Et encore les puristes ne sont pas d’accord. Dans tout les cas il vaut mieux que je sois deux..</p>
+</div>
+<div class="section" id="olicarton-06">
+<h3>Olicarton 06<a class="headerlink" href="#olicarton-06" title="Permalink to this headline">¶</a></h3>
+<p>Deux commerces sont face à face, une route les sépare. Il vendent exactement les mêmes choses et pourtant ils ne se font aucune concurrence. Cette situation existe vraiment, comment cela est-il possible ?</p>
+</div>
+<div class="section" id="olicarton-07">
+<h3>Olicarton 07<a class="headerlink" href="#olicarton-07" title="Permalink to this headline">¶</a></h3>
+<p>Imaginez une montre, combien de fois les aiguilles d une montre se chevauchent dans une journee (on commence a minuit une) ?</p>
+</div>
+<div class="section" id="olicarton-08">
+<h3>Olicarton 08<a class="headerlink" href="#olicarton-08" title="Permalink to this headline">¶</a></h3>
+<p>Un parieur est sur un marché, il est installé au bord du lac. Il propose un jeu simple : il a un sac avec deux cailloux dedans. Seul l’un des deux a croix rouge dessus. Pour jouer il faut parier 10€ et piocher au hasard le cailloux avec La Croix. Mais c’est un escroc car les deux cailloux sont blancs ! Sans croix ! Comment pouvez-vous joueur et gagner ?</p>
+</div>
+<div class="section" id="olicarton-09">
+<h3>Olicarton 09<a class="headerlink" href="#olicarton-09" title="Permalink to this headline">¶</a></h3>
+<p>Une nouvelle famille va s’installer à coté de chez vous. Vous savez qu’il y a 2 parents, 5 filles et que chacune des filles a un frère. Combien sont-ils ?</p>
+</div>
+<div class="section" id="olicarton-10">
+<h3>Olicarton 10<a class="headerlink" href="#olicarton-10" title="Permalink to this headline">¶</a></h3>
+<p>Pour transmettre son trône un roi dit a ses deux seuls fils : Allez jusqu’à l’auberge, celui dont le cheval arrive en DERNIER aura le trône. A peine eu-t-il finit sa phrase que les princes partent en courant à l’écurie… Pourquoi ?</p>
+</div>
+<div class="section" id="olicarton-11">
+<h3>Olicarton 11<a class="headerlink" href="#olicarton-11" title="Permalink to this headline">¶</a></h3>
+<p>Dans un forêt Américaine qui vient de brûler complètement on retrouve le corps d’un homme, intact, qui porte un masque. Que s’est-il passer ?</p>
+</div>
+<div class="section" id="olicarton-12">
+<h3>Olicarton 12<a class="headerlink" href="#olicarton-12" title="Permalink to this headline">¶</a></h3>
+<p>Quelle phrase se cache ici : CHAISE Q CHAISE</p>
+</div>
+<div class="section" id="olicarton-13">
+<h3>Olicarton 13<a class="headerlink" href="#olicarton-13" title="Permalink to this headline">¶</a></h3>
+<p>Qu’est-ce qui est à vous mais que les gens utilisent beaucoup plus que vous ?</p>
+</div>
+<div class="section" id="olicarton-14">
+<h3>Olicarton 14<a class="headerlink" href="#olicarton-14" title="Permalink to this headline">¶</a></h3>
+<p>Je suis d’eau, je suis d’air, et je suis d’électricité</p>
+<p>Qui suis-je ?</p>
+</div>
+<div class="section" id="olicarton-15">
+<h3>Olicarton 15<a class="headerlink" href="#olicarton-15" title="Permalink to this headline">¶</a></h3>
+<p>Vous êtes sur un pont, son gardien vous dit : “Dites une phrase, si elle est fausse, je vous jette du pont, si elle est vraie, je vous étrangle.”</p>
+<p>Que lui dites-vous pour passer sans risque ?</p>
+</div>
+<div class="section" id="olicarton-16">
+<h3>Olicarton 16<a class="headerlink" href="#olicarton-16" title="Permalink to this headline">¶</a></h3>
+<p>Un aveugle est seul dans le désert. Il a 4 comprimés avec lui : deux rouges et deux verts.</p>
+<p>Son médecin lui a prescrit d’en prendre un rouge et un vert s’il veut vivre, et surtout pas deux de la même couleur.</p>
+<p>Comment peut-il faire ?</p>
+</div>
+</div>
+<div class="section" id="solution">
+<h2>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="olicard-01-solution">
+<h3>Olicard 01 - Solution<a class="headerlink" href="#olicard-01-solution" title="Permalink to this headline">¶</a></h3>
+<p>Si tu etais, l autre ange, quelle porte m indiquerais-tu pour aller au paradis ?</p>
+<p>Quel que soit l ange, il montrera la porte des enfers, il suffira de franchir la porte non indiqué</p>
+</div>
+<div class="section" id="olicarton-01-solution">
+<h3>Olicarton 01 - Solution<a class="headerlink" href="#olicarton-01-solution" title="Permalink to this headline">¶</a></h3>
+<p>Il suffit d’enlever les quatre 5 et les quatre 8. Ensuite les suites de cinq cartes seront impossible.</p>
+</div>
+<div class="section" id="olicarton-02-solution">
+<h3>Olicarton 02 - Solution<a class="headerlink" href="#olicarton-02-solution" title="Permalink to this headline">¶</a></h3>
+<p>La lettre “E”</p>
+</div>
+<div class="section" id="olicarton-03-solution">
+<h3>Olicarton 03 - Solution<a class="headerlink" href="#olicarton-03-solution" title="Permalink to this headline">¶</a></h3>
+<p>Ma préférée ! Il n’a rien gagné du tout. En effet puisque deux personnes mentent il est impossible que deux affirmations soient vraies. Le 1er joueur dit la vérité alors la troisième aussi (ce qui est impossible), c’est donc le deuxième qui dit la vérité (et donc le 3ème ment, il n’y a donc qu’une seule solution : 0€)</p>
+</div>
+<div class="section" id="olicarton-04-solution">
+<h3>Olicarton 04 - Solution<a class="headerlink" href="#olicarton-04-solution" title="Permalink to this headline">¶</a></h3>
+<p>Il suffit d’écrire le mot UNE avec les allumettes.</p>
+</div>
+<div class="section" id="olicarton-05-solution">
+<h3>Olicarton 05 - Solution<a class="headerlink" href="#olicarton-05-solution" title="Permalink to this headline">¶</a></h3>
+<p>L’oeil ! Qui devient des yeux.</p>
+</div>
+<div class="section" id="olicarton-06-solution">
+<h3>Olicarton 06 - Solution<a class="headerlink" href="#olicarton-06-solution" title="Permalink to this headline">¶</a></h3>
+<p>Ce sont des stations services de part et d’autre de l’autoroute.</p>
+</div>
+<div class="section" id="olicarton-07-solution">
+<h3>Olicarton 07 - Solution<a class="headerlink" href="#olicarton-07-solution" title="Permalink to this headline">¶</a></h3>
+<p>22 fois, comme la petite aiguille avance a mesure que l heure progresse, les deux aiguilles ne se chevauche jamais vraiment au meme endroit. Au bout de 24h on perd en quelque sort un tour</p>
+<p>les heures de croisement:
+* 01:05:27
+* 02:10:55
+* 03:16:22
+* 04:21:49
+* 05:27:16
+* 06:32:44
+* 07:28:11
+* 08:43:38
+* 09:49:05
+* 10:54:33
+* 12:00:00
+* faire +12 pour toutes les heures de l apres midi</p>
+</div>
+<div class="section" id="olicarton-08-solution">
+<h3>Olicarton 08 - Solution<a class="headerlink" href="#olicarton-08-solution" title="Permalink to this headline">¶</a></h3>
+<p>Enigme 1 : Pariez l’argent. Plongez votre main dans le sac et prenez un cailloux. Immédiatement et sans le regarder jetez le dans le lac ! Pour voir si c’était le bon demandez au parieur de sortir la deuxième pierre. Si elle n’a pas de croix c’est bien que la votre en avait une… Ou qu’il doit avouer être un escroc !</p>
+</div>
+<div class="section" id="olicarton-09-solution">
+<h3>Olicarton 09 - Solution<a class="headerlink" href="#olicarton-09-solution" title="Permalink to this headline">¶</a></h3>
+<p>8 ! 2 parents, 5 filles, 1 garçon. Car comme chaque fille n’a qu’un seul frère il n’y a qu’un seul garçon.</p>
+</div>
+<div class="section" id="olicarton-10-solution">
+<h3>Olicarton 10 - Solution<a class="headerlink" href="#olicarton-10-solution" title="Permalink to this headline">¶</a></h3>
+<p>Parce que chaque prince va prendre le cheval de l’autre pour y aller !</p>
+</div>
+<div class="section" id="olicarton-11-solution">
+<h3>Olicarton 11 - Solution<a class="headerlink" href="#olicarton-11-solution" title="Permalink to this headline">¶</a></h3>
+<p>L’homme était en train de se baigner quand il fut happé par un Canadair avant d’être malheureusement largué avec l’eau sur la forêt.</p>
+</div>
+<div class="section" id="olicarton-12-solution">
+<h3>Olicarton 12 - Solution<a class="headerlink" href="#olicarton-12-solution" title="Permalink to this headline">¶</a></h3>
+<p>Avoir le cul entre deux chaises !</p>
+</div>
+<div class="section" id="olicarton-13-solution">
+<h3>Olicarton 13 - Solution<a class="headerlink" href="#olicarton-13-solution" title="Permalink to this headline">¶</a></h3>
+<p>Votre prénom !</p>
+</div>
+<div class="section" id="olicarton-14-solution">
+<h3>Olicarton 14 - Solution<a class="headerlink" href="#olicarton-14-solution" title="Permalink to this headline">¶</a></h3>
+<p>Le courant !</p>
+</div>
+<div class="section" id="olicarton-15-solution">
+<h3>Olicarton 15 - Solution<a class="headerlink" href="#olicarton-15-solution" title="Permalink to this headline">¶</a></h3>
+<p>Dites-lui qu’il va vous jeter du pont. Si c’était vrai, il vous étranglerait et donc ne vous jetterait pas du pont. Cette phrase deviendrait donc fausse MAIS si elle était fausse il vous jetterait du pont alors la phrase serait vraie, il devrait donc vous étrangler, ce qui rendrait la phrase fausse, et comme ceci jusqu’à l’infini !</p>
+<p>Le gardien ne pourra rien faire et vous laissera passer.</p>
+</div>
+<div class="section" id="olicarton-16-solution">
+<h3>Olicarton 16 - Solution<a class="headerlink" href="#olicarton-16-solution" title="Permalink to this headline">¶</a></h3>
+<p>Il doit manger la moitié de chaque comprimé !</p>
+<p>#OliCarton</p>
+</div>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.olicarton.com/onze11">https://www.olicarton.com/onze11</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=fl7pDI7-k2E">https://www.youtube.com/watch?v=fl7pDI7-k2E</a></p></li>
+</ul>
+</div>
+<div class="section" id="document-history">
+<h2>Document history<a class="headerlink" href="#document-history" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 10%" />
+<col style="width: 76%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Version</p></th>
+<th class="head"><p>Comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2019.12.23</p></td>
+<td><p>V1.0</p></td>
+<td><p>Just create the page</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../fantasy/fantasy-kabbale_angel.html" class="btn btn-neutral float-right" title="Table de rappel" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="amazon-software_development_engineer_interview.html" class="btn btn-neutral float-left" title="Amazon Software Development Engineer Interview Questions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

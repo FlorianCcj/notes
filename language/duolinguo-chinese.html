@@ -1,0 +1,1822 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Duolingo - Chinese &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Duolingo - Chinese - Voc" href="duolinguo-chinese-voc.html" />
+    <link rel="prev" title="Go game - Tricks" href="../gogame/gogame-youtube.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-for_beginner.html">Git - For beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Duolingo - Chinese</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#part-1">Part 1</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-01-1-01-greeting">CHN-01-1-01 Greeting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-02-1-02-numbers">CHN-02-1-02 Numbers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-03-1-03-name">CHN-03-1-03 Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-04-1-04-greetings-2">CHN-04-1-04 Greetings 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-05-1-05-food-1">CHN-05-1-05 Food 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-06-1-06-occupation">CHN-06-1-06 occupation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-2">Part 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-07-2-01-contact">CHN-07-2-01 Contact</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#de">de</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#phrases">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-08-2-02-nation">CHN-08-2-02 Nation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#na3-guo2-which-country">na3 guo2 which country</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#q-a">Q&amp;A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-09-2-03-greeting-3">CHN-09-2-03 Greeting 3</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#chinese-grammar">Chinese grammar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tone-changes">Tone Changes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Phrases</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#za4i-for-location">za4i for location</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#na3r-to-ask-where">na3r to ask where</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-11-2-05-phrases-1">CHN-11-2-05 Phrases 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-12-2-06-family-1">CHN-12-2-06 Family 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#measure-words">Measure Words</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#me2i-with-yo3u">me2i with yo3u</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#family-members">Family Members</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-13-2-07-phrases-2">CHN-13-2-07 Phrases 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#excuse-me">Excuse me</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#za4i-for-request">za4i for request</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#you-know-me">You know me!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-14-2-08-greeting-4">CHN-14-2-08 Greeting 4</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#zui4-most">zui4, most</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-15-2-09-drink">CHN-15-2-09 Drink</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-16-2-10-location-2">CHN-16-2-10 Location 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-17-2-11-time-1">CHN-17-2-11 Time 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#days-and-months">Days and Months</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#years">Years</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#talking-about-dates">Talking about dates</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#what-day-is-it">What day is it?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Phrases</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-3">Part 3</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-18-3-01-family-2">CHN-18-3-01 Family 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#asking-questions">Asking Questions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lia3ng-vs-e4r">lia3ng (两) vs. e4r (二)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-19-3-02-telephone">CHN-19-3-02 Telephone</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#tone-changes-with-yi1">Tone changes with yi1 (一)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#de-to-describe-actions">de (得) to describe actions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#hello">Hello</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-20-3-03-people-1">CHN-20-3-03 People 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#asking-question">Asking Question</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-21-3-04-time-2">CHN-21-3-04 Time 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#completed-actions-with-le">Completed actions with le (了)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#today-or-tomorrow">Today or tomorrow?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#talking-about-the-future-with-hui4">Talking about the future with hui4 (会)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Measure Words</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-22-3-05-location-3">CHN-22-3-05 Location 3</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#how-do-you-get-to">How do you get to… ?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#where-with-na2li">Where? with na2li (哪里)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#where-is-the-cat">Where is the cat?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#walk-towards-the-left">Walk towards the left</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id16">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-23-3-06-hobbies-1">CHN-23-3-06 Hobbies 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#yes-and-no">Yes and No</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#za4i-for-things-that-are-happening-right-now">za4i (在) for things that are happening right now</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-24-3-07-routine-1">CHN-24-3-07 Routine 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#from-here-to-there">From here to there!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sha4ng-and-xia4">sha4ng (上) and xia4 (下)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id18">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-25-3-08-payment">CHN-25-3-08 Payment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#how-much">How much?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#numbers">Numbers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#too-expensive">Too expensive!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id19">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-26-3-09-entertain">CHN-26-3-09 Entertain</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id20">za4i (在) for location</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-27-3-10-location-4">CHN-27-3-10 Location 4</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#the-dog-is-on-the-table">The dog is on the table!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#have-you-seen-my-phone">Have you seen my phone?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sha4ng-vs-xia4">sha4ng (上) vs xia4 (下)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id22">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-28-3-11-restaurant">CHN-28-3-11 Restaurant</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-bit">A bit!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-many">How many?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-many-of-you">How many of you?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id23">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-29-3-12-market">CHN-29-3-12 Market</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#xie1-for-plural">xie1 (些) for Plural</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id24">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-30-3-13-hobbies-2">CHN-30-3-13 Hobbies 2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#we4ishe2nme-why">we4ishe2nme (为什么, why)?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#yi1nwe4i-because-vs-suo2yi3-so">yi1nwe4i (因为, because) vs. suo2yi3 (所以, so)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id25">Phrases</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-4">Part 4</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-31-4-01-dining-1">CHN-31-4-01 Dining 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#noodles-or-rice">Noodles or rice?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id26">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-32-4-02-health-1">CHN-32-4-02 Health 1</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#grrrrr">Grrrrr…</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#don-t-look">Don’t look!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#every-single-day">Every single day!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#adjective">Adjective + 的</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id27">Phrases</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-33-4-03-transport">CHN-33-4-03 Transport</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-34-4-04-shopping-1">CHN-34-4-04 Shopping 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-35-4-05-language">CHN-35-4-05 Language</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-36-4-06-time-3">CHN-36-4-06 Time 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-37-4-07-dining-2">CHN-37-4-07 Dining 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-38-4-08-existence">CHN-38-4-08 Existence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-39-4-09-sports-1">CHN-39-4-09 Sports 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-40-4-10-invite-1">CHN-40-4-10 Invite 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-41-4-11-health-2">CHN-41-4-11 Health 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-42-4-12-invite-2">CHN-42-4-12 Invite 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-43-4-13-dining-3">CHN-43-4-13 Dining 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-44-4-14-shopping-2">CHN-44-4-14 Shopping 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-45-4-15-body-part">CHN-45-4-15 Body Part</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-5">Part 5</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-46-5-01-travel">CHN-46-5-01 Travel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-47-5-02-weather">CHN-47-5-02 Weather</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-48-5-03-shopping-3">CHN-48-5-03 Shopping 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-49-5-04-people-2">CHN-49-5-04 People 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-50-5-05-celebrate">CHN-50-5-05 Celebrate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-51-5-06-sports-2">CHN-51-5-06 Sports 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-52-5-07-school">CHN-52-5-07 School</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-53-5-08-family-3">CHN-53-5-08 Family 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-54-5-09-gourmet-1">CHN-54-5-09 Gourmet 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-55-5-10-time-4">CHN-55-5-10 Time 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-56-5-11-location-5">CHN-56-5-11 Location 5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-57-5-12-shopping-4">CHN-57-5-12 Shopping 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-58-5-13-routine-2">CHN-58-5-13 Routine 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-59-5-14-food-3">CHN-59-5-14 Food 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-60-5-15-people-3">CHN-60-5-15 People 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-61-5-16-location-6">CHN-61-5-16 Location 6</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-62-5-17-routine-3">CHN-62-5-17 Routine 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-63-5-18-travel-2">CHN-63-5-18 Travel 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-64-5-19-lang-2">CHN-64-5-19 Lang 2</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#part-6">Part 6</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chn-65-6-01-feelings">CHN-65-6-01 Feelings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-66-6-02-school-2">CHN-66-6-02 School 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-67-6-03-future">CHN-67-6-03 Future</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-68-6-04-environ">CHN-68-6-04 Environ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-69-6-05-work">CHN-69-6-05 Work</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-70-6-06-culture">CHN-70-6-06 Culture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-71-6-07-hobbies-3">CHN-71-6-07 Hobbies 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-72-6-08-health-3">CHN-72-6-08 Health 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-73-6-09-travel-3">CHN-73-6-09 Travel 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-74-6-10-lang-3">CHN-74-6-10 Lang 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-75-6-11-house">CHN-75-6-11 House</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-76-6-12-exam">CHN-76-6-12 Exam</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-77-6-13-travel-4">CHN-77-6-13 Travel 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-78-6-14-comm-2">CHN-78-6-14 Comm 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-79-6-15-work-2">CHN-79-6-15 Work 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-80-6-16-festivals">CHN-80-6-16 Festivals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-81-6-17-gourmet-2">CHN-81-6-17 Gourmet 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-82-6-18-net-slang">CHN-82-6-18 Net Slang</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-83-6-19-business-1">CHN-83-6-19 Business 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-84-6-20-business-2">CHN-84-6-20 Business 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-85-6-21-emergency">CHN-85-6-21 Emergency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-86-6-22-work-3">CHN-86-6-22 Work 3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-87-6-23-weather-2">CHN-87-6-23 Weather 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chn-88-6-24-duo">CHN-88-6-24 Duo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Duolingo - Chinese</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/language/duolinguo-chinese.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="duolingo-chinese">
+<h1>Duolingo - Chinese<a class="headerlink" href="#duolingo-chinese" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="part-1">
+<h2>Part 1<a class="headerlink" href="#part-1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-01-1-01-greeting">
+<h3>CHN-01-1-01 Greeting<a class="headerlink" href="#chn-01-1-01-greeting" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-02-1-02-numbers">
+<h3>CHN-02-1-02 Numbers<a class="headerlink" href="#chn-02-1-02-numbers" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-03-1-03-name">
+<h3>CHN-03-1-03 Name<a class="headerlink" href="#chn-03-1-03-name" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>jia4o wo3 Li Hua: call me Li Hua</p></li>
+<li><p>ni3 jia4o she2nme mi2ngzi4?: What’s your name?</p></li>
+<li><p>ni3 jia4o she2nme?: What’s your name?</p></li>
+<li><p>ni3 ne?: and you?</p></li>
+<li><p>ni3 xi4ng she2nme?: What’s your last name?</p></li>
+<li><p>wo3 mi2ngzi4 jia4o Zhang Hua: my name is Zhang Hua</p></li>
+<li><p>wo3 xi4ng Zhang: My last name is Zhang</p></li>
+</ul>
+</div>
+<div class="section" id="chn-04-1-04-greetings-2">
+<h3>CHN-04-1-04 Greetings 2<a class="headerlink" href="#chn-04-1-04-greetings-2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Li3 Hua2 he3n ga1oxi4ng: Li Hua is happy</p></li>
+<li><p>ni3 xi4ng Wang, wo3 ye3 xi4ng Wang: Your last name is Wang, my last name is Wang too</p></li>
+<li><p>ni3 ye3 re4nshi2 Li Hua: You know Li Hua too</p></li>
+<li><p>wo3 he3n ga1oxi4ng re4nshi2 ni3: Nice to meet you</p></li>
+</ul>
+</div>
+<div class="section" id="chn-05-1-05-food-1">
+<h3>CHN-05-1-05 Food 1<a class="headerlink" href="#chn-05-1-05-food-1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>ni3 he1 she2nme?: What do you dring?</p></li>
+</ul>
+</div>
+<div class="section" id="chn-06-1-06-occupation">
+<h3>CHN-06-1-06 occupation<a class="headerlink" href="#chn-06-1-06-occupation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ta1 qu4 ma?: Is she going?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="part-2">
+<h2>Part 2<a class="headerlink" href="#part-2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-07-2-01-contact">
+<h3>CHN-07-2-01 Contact<a class="headerlink" href="#chn-07-2-01-contact" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="de">
+<h4>de<a class="headerlink" href="#de" title="Permalink to this headline">¶</a></h4>
+<p>like in english “‘s”</p>
+</div>
+<div class="section" id="phrases">
+<h4>Phrases<a class="headerlink" href="#phrases" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>dia4nhua4 ha4oma3: phone number</p></li>
+<li><p>ni3 de dia4nhua4 ha4oma3 shi4 duo1sha3o?: what is your phone number?</p></li>
+<li><p>ta1 de la3oshi1 de dia4nhua4: His teacher’s phone</p></li>
+<li><p>wo3 de cha2: My tea</p></li>
+<li><p>yi1she1ng de dia4nhua4 ha4oma3: The doctor’s phone number</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-08-2-02-nation">
+<h3>CHN-08-2-02 Nation<a class="headerlink" href="#chn-08-2-02-nation" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="na3-guo2-which-country">
+<h4>na3 guo2 which country<a class="headerlink" href="#na3-guo2-which-country" title="Permalink to this headline">¶</a></h4>
+<p>ni3 shi2 na3 guo2re2n?: which country are you from?</p>
+</div>
+<div class="section" id="q-a">
+<h4>Q&amp;A<a class="headerlink" href="#q-a" title="Permalink to this headline">¶</a></h4>
+<p>Think about your answer and replace the unknown by she2nme (what), na3 (which) or duo1sha3o (how many)</p>
+</div>
+<div class="section" id="id1">
+<h4>Phrases<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bu4 dui4: incorrect</p></li>
+<li><p>ni3 shi2 zho1ngguo2 re2n ma?: Are you chinese?</p></li>
+<li><p>ni3men do1u shi2 me3iguo2re2n, dui4 ma?: you all are american, right?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-09-2-03-greeting-3">
+<h3>CHN-09-2-03 Greeting 3<a class="headerlink" href="#chn-09-2-03-greeting-3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="chinese-grammar">
+<h4>Chinese grammar<a class="headerlink" href="#chinese-grammar" title="Permalink to this headline">¶</a></h4>
+<p>Whatever the time, the verb stay. It is only the envornment which change</p>
+</div>
+<div class="section" id="tone-changes">
+<h4>Tone Changes<a class="headerlink" href="#tone-changes" title="Permalink to this headline">¶</a></h4>
+<p>When two 3rd tone is followed, the first one become a 2nd tone</p>
+<p>ni3 he3n ga1oxi4ng -&gt; ni2 he3n ga1oxi4ng</p>
+</div>
+<div class="section" id="id2">
+<h4>Phrases<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ni3 ji1ntia1n ze3nmeya4ng: How are you today ?</p></li>
+<li><p>ta1 za3osha4ng bu4 he1 cha2: he does not drink tea in the morning</p></li>
+<li><p>wo3 bu4 ma4ng: i am not busy</p></li>
+<li><p>wo3 ji1ntia1n he3n ha3o: I am good today</p></li>
+<li><p>wo3 za3osha4ng he3n ma2ng: I am busy in the morning</p></li>
+<li><p>za3osha4ng ha3o: Good morning</p></li>
+</ul>
+<p>CHN-10-2-04 Location 1
+=====================*</p>
+</div>
+<div class="section" id="za4i-for-location">
+<h4>za4i for location<a class="headerlink" href="#za4i-for-location" title="Permalink to this headline">¶</a></h4>
+<p>To talk about where someone or something is located use za4i</p>
+<ul class="simple">
+<li><p>Lu2ndu1n bu4 za4i me3iguo2: London isn t in the USA</p></li>
+<li><p>Ta1men za4i xue2xia4o: They are at the school</p></li>
+</ul>
+<p>za4i can also be used after ceraint verbs to tell where the action is taking place</p>
+<ul class="simple">
+<li><p>xue2she1ng zhu4 za4i Jia1na2da4: The student lives in Canada</p></li>
+<li><p>ni3 zhu4 za4i Zhongguo ma?: Do you leave in China?</p></li>
+</ul>
+</div>
+<div class="section" id="na3r-to-ask-where">
+<h4>na3r to ask where<a class="headerlink" href="#na3r-to-ask-where" title="Permalink to this headline">¶</a></h4>
+<p>na3r is used to ask where questions or to ask about places</p>
+<ul class="simple">
+<li><p>ni3 za4i na3r?: Where are you?</p></li>
+<li><p>ta1 de jia1 za4i na3r?: Where is her home?</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h4>Phrases<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>la3oshi1 bu3 za4i jia1: the teacher is not at home</p></li>
+<li><p>la3oshi1 de jia1 za4i xia1ngga3ng: The teacher’s house is in Hong Kong</p></li>
+<li><p>lu2ndu1n za4i yi1ngguo2: London is in the UK</p></li>
+<li><p>ni3men zhu4 za4i zho1ngguo2 na3r?: Where do you leave in China</p></li>
+<li><p>ni3men zhu4 za4i zho1ngguo2 na3r?: Where in China do you live?</p></li>
+<li><p>niu3yue1 za4i me3iguo2: NY is in the US</p></li>
+<li><p>ta1 de jia1 za4i na3r?: Where is your home?</p></li>
+<li><p>ta1 de jia1 za4i xia1nggo3ng na3r?: Where in HongKong is his home?</p></li>
+<li><p>ta1 za4i na3r?: Where is she?</p></li>
+<li><p>ta1men za4i Yi1ngguo2 ma?: Are they in the UK</p></li>
+<li><p>wo3men de jia1 za4i ta2iwa1n: Our home is in Taiwan</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-11-2-05-phrases-1">
+<h3>CHN-11-2-05 Phrases 1<a class="headerlink" href="#chn-11-2-05-phrases-1" title="Permalink to this headline">¶</a></h3>
+<p>Nothing</p>
+<div class="section" id="id4">
+<h4>Phrases<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>dui4bu3qi3! me2igua1nxi4!: Sorry! No worries!</p></li>
+<li><p>me2igua1nxi4: No worries, it s ok, nevermind</p></li>
+<li><p>wo3 he3n ma2ng, dui4bu3qi3: I am busy, sorry!</p></li>
+<li><p>xie4xie ! bu3ke4qi4: Thank you ! You are welcome</p></li>
+<li><p>xie4xie ni3: Thank you</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-12-2-06-family-1">
+<h3>CHN-12-2-06 Family 1<a class="headerlink" href="#chn-12-2-06-family-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="measure-words">
+<h4>Measure Words<a class="headerlink" href="#measure-words" title="Permalink to this headline">¶</a></h4>
+<p>To talk about many thing you need some word, like in one piece of paper, two cups of coffee. The most common is ge4</p>
+<ul class="simple">
+<li><p>sa1n ge4 xue2sheng: three students</p></li>
+<li><p>ta1 yo3u si4 ge4 jie3jie: she has four sisters</p></li>
+</ul>
+<p>We also need a measure word after zhe4 (this), na4 (that), and na3 (which)</p>
+<ul class="simple">
+<li><p>na4 ge4 re2n: that person</p></li>
+<li><p>na3 ge4 la3oshi1: which teacher?</p></li>
+</ul>
+</div>
+<div class="section" id="me2i-with-yo3u">
+<h4>me2i with yo3u<a class="headerlink" href="#me2i-with-yo3u" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ta1 me2iyo3u me4imei: She doesn’t have a younger sister</p></li>
+<li><p>wo3 me2iyo3u ni3 de dia4nhua4 ha4oma3: I don’t have your phone number</p></li>
+</ul>
+</div>
+<div class="section" id="family-members">
+<h4>Family Members<a class="headerlink" href="#family-members" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>jie3jie: older sister</p></li>
+<li><p>ge1ge: older brother</p></li>
+<li><p>me4imei: younger sister</p></li>
+<li><p>di4di: younger brother</p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h4>Phrases<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Wang yi1she1ng yo3u wu3 ge4 me4imei: Doctor Wang has five younger sisters</p></li>
+<li><p>ba4ba a4i ma1ma: Dad loves mom</p></li>
+<li><p>li3 la3oshi1 me2iyo3u di4di: Teacher Li does not have a younger brother</p></li>
+<li><p>ma1ma yo3u sa1n ge4 ge1ge: Mom has three older brothers</p></li>
+<li><p>na4 ge4 re2n shi4 wo3men de yi1she1ng: That person is our doctor</p></li>
+<li><p>na4 ge4 re4n shi2 she2i ?: Who is that person ?</p></li>
+<li><p>na4 ge4 shi2 wo3 de dia4nhua4 ha4oma3: That is my phone number</p></li>
+<li><p>na4 shi2 ta1men de yi1she1ng: That is their doctor</p></li>
+<li><p>na4 shi2 ta1men de yi1she1ng: That is their doctor</p></li>
+<li><p>she2i shi4 ni3 de ba4ba?: Who is your dad?</p></li>
+<li><p>ta1 yo3u jie3jie ma?: Do you have an older sister ?</p></li>
+<li><p>ta1 yo3u si4 ge4 jie3jie: She has four older sisters</p></li>
+<li><p>wo3 a4i wo3 de jia1re2n: I love my family</p></li>
+<li><p>wo3 de ba4ba shi4 yi1she1ng: my father is a doctor</p></li>
+<li><p>wo3 de jia1re2n zhu4 za4i Jia1na2da4 re4n: My family lives in Canada</p></li>
+<li><p>wo3 de jie3jie he3n ma2ng: My sister is busy</p></li>
+<li><p>zhe4 ge4 re4n shi2 she2i ?: Who is this person ?</p></li>
+<li><p>zhe4 ge4 shi4 ni3 de ba4ba ma?: is this person your papa</p></li>
+<li><p>zhe4 shi2 wo3 de ba4ba he2 ma1ma: This is my father and mother</p></li>
+<li><p>zhe4 shi4 she2nme?: What is that?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-13-2-07-phrases-2">
+<h3>CHN-13-2-07 Phrases 2<a class="headerlink" href="#chn-13-2-07-phrases-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="excuse-me">
+<h4>Excuse me<a class="headerlink" href="#excuse-me" title="Permalink to this headline">¶</a></h4>
+<p>To get the attention of a stranger or someone you don t know well, add qi3ngwe4n before the question you want to ask</p>
+<ul class="simple">
+<li><p>qi3ngwe4n, ni3 jia4o she2nme mi2ngzi4?: Excuse me, what is your name?</p></li>
+<li><p>qi3ngwe4n, ni3 shi4 Li3 la3oshi1 ma?: Excuse me, are you teacher Li ?</p></li>
+</ul>
+</div>
+<div class="section" id="za4i-for-request">
+<h4>za4i for request<a class="headerlink" href="#za4i-for-request" title="Permalink to this headline">¶</a></h4>
+<p>If you want to ask someone to do something again, use za4i before the verb! (same za4i as in za4ijia4n)</p>
+<ul class="simple">
+<li><p>qi3ng za4i we4n yi2 ci4: Please ask the question again</p></li>
+<li><p>za4i shuo1 yi2 ci4: Say it again</p></li>
+</ul>
+</div>
+<div class="section" id="you-know-me">
+<h4>You know me!<a class="headerlink" href="#you-know-me" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ta1 re4nshi2 wo3: She knows me</p></li>
+<li><p>wo3 re4nshi2 ta1: I know her</p></li>
+<li><p>ta1men re4nshi2 ta1men: They know them</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4>Phrases<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ni3 shuo1 yi1ngyu3 ma?: Do you speak English?</p></li>
+<li><p>ni3 we4n ta1: you ask him</p></li>
+<li><p>ni3 za4i we4n yi1ci4: Ask it again</p></li>
+<li><p>ni3 zhi1dao4 ma?: Do you know?</p></li>
+<li><p>qi3ng ba1ngzhu4 wo3 de di4di: Please help me younger brother</p></li>
+<li><p>qi3ng ba1ngzhu4 wo3: Please help me</p></li>
+<li><p>qi3ng za4i shuo1 yi1ci4: Please say it one more time</p></li>
+<li><p>qi3ngwe4n, ni3 shi4 li3 la3oshi1 ma?: Excuse me, are you teacher Li?</p></li>
+<li><p>ta1 shuo1 she2nme?: What does he say ?</p></li>
+<li><p>wo3 bu4 zhi1dao4: I don t know</p></li>
+<li><p>wo3men we4n yi1she1ng: We ask the doctor</p></li>
+<li><p>za4i yi1ci4: One more time</p></li>
+<li><p>zhe4 shi4 ni3 de ha4nyu3 la3oshi1 ma? Is this your Chinese teacher?</p></li>
+<li><p>zhe4 shi4 ni3 de ha4nyu3 la3oshi1 ma?: Is this your Chinese teacher?</p></li>
+<li><p>zho1ngguo2 re4n shuo1 ha4nyu3: Chinese people speak Chinese</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-14-2-08-greeting-4">
+<h3>CHN-14-2-08 Greeting 4<a class="headerlink" href="#chn-14-2-08-greeting-4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="zui4-most">
+<h4>zui4, most<a class="headerlink" href="#zui4-most" title="Permalink to this headline">¶</a></h4>
+<p>Use zui4 (most) before an adjective to say that something is the most or the best</p>
+<ul class="simple">
+<li><p>wo3 zui4 ma2ng: I am the busiest</p></li>
+<li><p>wo3 de ba4ba zui4 ga1oxi4ng: My dad is the happiest</p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h4>Phrases<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ba4ba, ma1ma, wa3n a1n: Father, mother, good night !</p></li>
+<li><p>ha3o jiu3 bu4 jia4n! : Long time no see !</p></li>
+<li><p>wo3 bu4 cuo4, ni3 ne?: i am not bad, and you?</p></li>
+<li><p>wo3 de jia1re2n zui4ji4n bu cuo4: My family has been prety good recently</p></li>
+<li><p>wo3 yi1 hui4 er jia4n ta1: I will see him in a bit</p></li>
+<li><p>wo3 zui4ji4n he3n ma2ng: I recently have been busy</p></li>
+<li><p>wo3men zui4ji4n bu4 cuo4: we have not been bad recently</p></li>
+<li><p>yi1 hui4 er jia4n: See you in a bit</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-15-2-09-drink">
+<h3>CHN-15-2-09 Drink<a class="headerlink" href="#chn-15-2-09-drink" title="Permalink to this headline">¶</a></h3>
+<p>Nothing</p>
+<div class="section" id="id8">
+<h4>Phrases<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>??? wo3 ya4o kafe1i, bu4 ya4o niu2na3i: I want coffee, not want milk</p></li>
+<li><p>??? wo3men zaoshang he1 kafe1i: we drink coffee in the morning</p></li>
+<li><p>ta1 bu4 ya4o bi1ng shui3: He doesn t want ice water</p></li>
+<li><p>ta1 ya4o cha2, ye3 ya4o niu2na3i: He wants tea as well as milk</p></li>
+<li><p>ta1men ya4o re4 niu2na3i: they want hot milk</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-16-2-10-location-2">
+<h3>CHN-16-2-10 Location 2<a class="headerlink" href="#chn-16-2-10-location-2" title="Permalink to this headline">¶</a></h3>
+<p>Nothing</p>
+<div class="section" id="id9">
+<h4>Phrases<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bu4, za4i na4r: No,it is there</p></li>
+<li><p>dui4bu3qi3, wo3men me2iyo3u xi3sho3ujia1n: Sorry, we do not have a bathroom</p></li>
+<li><p>fa4ngua3n bu4 za4i na4r: The restaurant is not there</p></li>
+<li><p>ni3 de jie3jie za4i fa4ngua3n: Your older sister is at the restaurant</p></li>
+<li><p>qi3ngwe4n, xi3sho3ujia1n za4i na3r?: Excuse me, where is the bathroom</p></li>
+<li><p>xi3sho3ujia1n za4i zhe4r ma?: Is the bathroom here?</p></li>
+<li><p>yi1yua4n de dia4nhua4 ha4oma3 shi4 duo1sha3o?: What is the hospital phone number?</p></li>
+<li><p>yi1yua4n za4i na3r?: Where is the hospital ?</p></li>
+<li><p>yi1yua4n za4i zhe4r ma ?: Is the hospital here ?</p></li>
+<li><p>zhe4r me2iyo3u xi3sho3ujia1n: There is no bathroom here</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-17-2-11-time-1">
+<h3>CHN-17-2-11 Time 1<a class="headerlink" href="#chn-17-2-11-time-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="days-and-months">
+<h4>Days and Months<a class="headerlink" href="#days-and-months" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>xi1ngqi1yi1: Monday</p></li>
+<li><p>xi1ngqi1ye4r: Tuesday</p></li>
+<li><p>xi1ngqi1sa1n: Wednesday</p></li>
+<li><p>xi1ngqi1si4: Thursday</p></li>
+<li><p>xi1ngqi1wu3: Friday</p></li>
+<li><p>xi1ngqi1liu4: Saturday</p></li>
+<li><p>xi1ngqi1tia1n: Sunday</p></li>
+<li><p>xi1ngqi1ri4: Sunday</p></li>
+<li><p>yi1yue4: January</p></li>
+<li><p>e4ryue4: February</p></li>
+<li><p>sa3nyue4: March</p></li>
+<li><p>shi2’e4ryue4: December</p></li>
+</ul>
+</div>
+<div class="section" id="years">
+<h4>Years<a class="headerlink" href="#years" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>e4r li2ng yi1 ba1 nia2n: 2018 year</p></li>
+<li><p>yi1 jiu4 ba1 yi1 nia2n: 1981 year</p></li>
+</ul>
+</div>
+<div class="section" id="talking-about-dates">
+<h4>Talking about dates<a class="headerlink" href="#talking-about-dates" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>e4r li2ng yi1 yi1 nia2n shi2yue4 sa1nshi2 ha4o: November 30, 2011</p></li>
+<li><p>shi2’e4ryue4 yi1 ha4o, xi1ngqi1yi1: Monday, December 1</p></li>
+</ul>
+</div>
+<div class="section" id="what-day-is-it">
+<h4>What day is it?<a class="headerlink" href="#what-day-is-it" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ji1ntia1n xi1ngqi1 ji3 ?: What day is it today?</p></li>
+<li><p>ji1ntia1n xi1ngqi1liu4: Today is Saturday</p></li>
+<li><p>xia4nza4i ji3 dia3n?: What time is it now?</p></li>
+<li><p>xia4nza4i liu4 dia3n: It is six o’clock now</p></li>
+<li><p>ji1ntia1n ji3 yue4 ji3 hao4?: What date is it today?</p></li>
+<li><p>ji1ntia1n qi1 yue4 wu3 ha4o: Today is July 5th</p></li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h4>Phrases<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ji1ntia1n ji3 yue4 ji3 ha4o?: What date is today?</p></li>
+<li><p>ji1ntia1n xi1ngqi1tia1n: Today is Sunday</p></li>
+<li><p>ji3 yue4 ji3 ha4o ?: What date is it ?</p></li>
+<li><p>mi2ngjia4n shi2ba1 ha4o: Tomorrow is the 18th</p></li>
+<li><p>mi2ngjia4n xi1ngqi1 ji3?: What day is Tomorrow?</p></li>
+<li><p>mi2ngjia4n xi1ngqi1ri4 ma?: Is Sunday Tomorrow?</p></li>
+<li><p>ni3 ji3 dia3n chi fa4n?: What time do you eat ?</p></li>
+<li><p>ni3men mi2ngjia4n za3osha4ng jiu4 dia3n ba4n za4i na3r?: Where will you be tomorrow morning at 9:30?</p></li>
+<li><p>wo3 yi1 dia3n ba4n chi1 fa4n: I eat at 1:30</p></li>
+<li><p>xi1ngqi1tia1n ji3 ha4o?: What day is sunday?</p></li>
+<li><p>xi1ngqi1tia1n wo3 he1 cha2: Sundays I drink tea</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="part-3">
+<h2>Part 3<a class="headerlink" href="#part-3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-18-3-01-family-2">
+<h3>CHN-18-3-01 Family 2<a class="headerlink" href="#chn-18-3-01-family-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="asking-questions">
+<h4>Asking Questions<a class="headerlink" href="#asking-questions" title="Permalink to this headline">¶</a></h4>
+<p>To a yes noquestion you can add ma (吗) at the end of the line</p>
+<p>But you can also double the verb and add bu4 (不) in the middle</p>
+<ul class="simple">
+<li><p>Na4 shi4 bu shi4 ni3 de qi1zi?: Is that your wife?</p></li>
+<li><p>Ta1 ya4o bu ya4o niu2na3i?: Does he want milk?</p></li>
+</ul>
+</div>
+<div class="section" id="lia3ng-vs-e4r">
+<h4>lia3ng (两) vs. e4r (二)<a class="headerlink" href="#lia3ng-vs-e4r" title="Permalink to this headline">¶</a></h4>
+<p>To say two of something, or to say both use lia3ng (两)</p>
+</div>
+<div class="section" id="id11">
+<h4>Phrases<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Ta1 ji3 sui4? (他几岁？): How old is he?</p></li>
+<li><p>Ta1 me2iyo3u ha2izi3 (他没有孩子): He does not have children</p></li>
+<li><p>Ta1men me2iyo3u nu.3e2r: They do not have daughter</p></li>
+<li><p>Ta1men yo3u ji3 ge4 ha2izi3? (他们有几个孩子?): How many children do they have?</p></li>
+<li><p>Wang yi1she1ng ye3 yo3u lia3ng ge4 ha2izi3 (王医生也有两个孩子): Doctor Wang also has two children</p></li>
+<li><p>ta1 chi1 yu4, ye3 chi1 fa4n (它吃鱼，也吃饭): it eats fish and rice</p></li>
+<li><p>ta1 liu4 sui4 (它六岁): It is six years old</p></li>
+<li><p>wo3 de nu.e2r shi2qi1 sui4 (我的女儿十七岁): My daughter is 17 years old</p></li>
+<li><p>wo3men yo3u yi1ge4 nu.3e2r (我们有一个女儿): We have a daughter</p></li>
+<li><p>zhe4 shi4 she2i de ma1o? (这是谁的猫?): Whose cat is it?</p></li>
+<li><p>zhe4 shi4bu4shi4 Wang la3oshi1 de qi1zi? (这是不是王老师的妻子?): Is this Teacher Wang’s wife?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-19-3-02-telephone">
+<h3>CHN-19-3-02 Telephone<a class="headerlink" href="#chn-19-3-02-telephone" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="tone-changes-with-yi1">
+<h4>Tone changes with yi1 (一)<a class="headerlink" href="#tone-changes-with-yi1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Counting: yi1, e4r, sa1n, …</p></li>
+<li><p>Followed by 1st, 2nd, 3rd tone: yi4 dia3r (a little bit)</p></li>
+<li><p>Followed by 4th tone: yi2ci4 (one time)</p></li>
+</ul>
+</div>
+<div class="section" id="de-to-describe-actions">
+<h4>de (得) to describe actions<a class="headerlink" href="#de-to-describe-actions" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Ni3 shuo1 de he3n kua4i (你说得很快): You speak quickly</p></li>
+<li><p>Wo3 chi1 de he3n ma4n (我吃得很慢): I eat slowly</p></li>
+<li><p>Ta1 shuo1 de he3n ha3o (他说得很好): He speaks well</p></li>
+</ul>
+</div>
+<div class="section" id="hello">
+<h4>Hello<a class="headerlink" href="#hello" title="Permalink to this headline">¶</a></h4>
+<p>ni2hoa3 (你好) is use when you speak to a person. on the phone say we2i (喂)</p>
+</div>
+<div class="section" id="id12">
+<h4>Phrases<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>kua4i yi4 dia3r! (慢一点儿!): Faster!</p></li>
+<li><p>ma4n yi4 dia3r! (慢一点儿!): Slow down!</p></li>
+<li><p>ni3 mi2ngba2i ma? (你明白吗?): Do you understand?</p></li>
+<li><p>qi3ng shuo1 ma4n yi4 dia3r (请说慢一点儿): please speak slowly</p></li>
+<li><p>ta1 shuo1 de bu3 kua4i (她说得不快): She does not understand</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-20-3-03-people-1">
+<h3>CHN-20-3-03 People 1<a class="headerlink" href="#chn-20-3-03-people-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="asking-question">
+<h4>Asking Question<a class="headerlink" href="#asking-question" title="Permalink to this headline">¶</a></h4>
+<p>You can ask question with bu4 and the dooble verb shi4 bu shi4</p>
+<p>But you can do it with adjective ha3o bu4 ha3o</p>
+<ul class="simple">
+<li><p>Ni3 ga1oxi4ng bu ga1oxi4ng? (你高兴不高兴?): Are you happy?</p></li>
+<li><p>Ta1 ma2ng bu ma2ng? (他忙不忙？): Is he busy?</p></li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h4>Phrases<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>go3u shi4 wo3men de ha3o pe2ngyo3u (狗是我们的好朋友): Dogs are our good friends</p></li>
+<li><p>ji1ntia1n wo3men fe1icha2ng ga1oxi4ng (今天我们非常高兴): Today we are very happy</p></li>
+<li><p>ni3 de ge1ge he3n a3i (他们的哥哥很矮): Their older sister is short</p></li>
+<li><p>ni3 de ha2izi3 he3n pia4olia4ng (你的孩子很漂亮): Youy child is pretty</p></li>
+<li><p>ta1 de go3u fe1icha2ng ke3a4i (他的狗非常可爱): his dog is very cute</p></li>
+<li><p>ta1 ga1o ma? (他高吗): Is he tall?</p></li>
+<li><p>wo3 de ge1ge de nu.3pe2ngyo3u he3n pia4olia4ng (我的哥哥的女朋友很漂亮): My older brother’s girlfriend is very pretty</p></li>
+<li><p>wo3 de na2npe2ngyo3u a4i ma1o(我的男朋友爱猫): My boyfriend loves cats</p></li>
+<li><p>wo3 de nu.3er fe1icha2ng ke3a4i (我的女儿非常可爱): My daughter is very cute</p></li>
+<li><p>wo3 de pe2ngyo3u pia4olia4ng bu4 pia4olia4ng? (我的朋友漂亮不漂亮): Is my friend pretty?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-21-3-04-time-2">
+<h3>CHN-21-3-04 Time 2<a class="headerlink" href="#chn-21-3-04-time-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="completed-actions-with-le">
+<h4>Completed actions with le (了)<a class="headerlink" href="#completed-actions-with-le" title="Permalink to this headline">¶</a></h4>
+<p>le means something is finished</p>
+<ul class="simple">
+<li><p>wo3 chi1 le (我吃了): I ate</p></li>
+<li><p>ta1 qu4 le (她去了): She went</p></li>
+<li><p>Ta1 he1le ka1fe1i (他喝了咖啡): He drank coffee</p></li>
+<li><p>Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday.</p></li>
+</ul>
+</div>
+<div class="section" id="today-or-tomorrow">
+<h4>Today or tomorrow?<a class="headerlink" href="#today-or-tomorrow" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday.</p></li>
+<li><p>Mi2ngtia1n ta1 hui4 qu4 zho1ngguo2 (明天她会去中国): She will go to China tomorrow</p></li>
+<li><p>Ni3 ji1ntia1n ma2ng ma? (你今天忙吗？): Are you busy today?</p></li>
+</ul>
+</div>
+<div class="section" id="talking-about-the-future-with-hui4">
+<h4>Talking about the future with hui4 (会)<a class="headerlink" href="#talking-about-the-future-with-hui4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>hui4 (会): will</p></li>
+<li><p>bu2hui4 (不会): won t</p></li>
+<li><p>Ta1men xia4 ge4 yue4 hui4 he3n ma2ng (他们下个月会很忙): They will be busy next month.</p></li>
+<li><p>Wo3 mi2ngtia1n bu2 hui4 qu4 yi1yua4n (我明天不会去医院): I won t go to the hospital tomorrow.</p></li>
+<li><p>Ta1 ji1ntia1n wa3nsha4ng hui4 la2i ma? (他今天晚上会来吗？): Will he come tonight?</p></li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h4>Measure Words<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h4>
+<p>You need to use a measure word after 上 (sha4ng, last), 下 (xia4, next) and 每 (me3i, every).</p>
+<ul class="simple">
+<li><p>sha4ng ge xi1ngqi1 (上个星期): last week</p></li>
+<li><p>xia4 ge yue4 (下个月): next month</p></li>
+<li><p>me3i ge re2n (每个人): everyone</p></li>
+</ul>
+<p>Exceptions include tia1n (天, day) and nia2n (年, year), which don t require measure words</p>
+<ul class="simple">
+<li><p>me3itia1n (每天): every day</p></li>
+<li><p>me3inia2n (每年): every year</p></li>
+</ul>
+</div>
+<div class="section" id="id15">
+<h4>Phrases<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ji1n nia2n wo3 re4nshi2 le Wang la3oshi1 (今年我认识了王老师): I met teacher Wang this year</p></li>
+<li><p>ni3 sha4ng ge mo4zho1u zuo4 le she2nme?(你上个周末做了什么？): What did you do last weekend?</p></li>
+<li><p>ni3 xia4 ge xi1ngqi1 tia1n hui4 bu4 hui4 jia4n ni3 de ha2izi3? (你下个星期天会不会见你的孩子？): Will you see your child next sunday?</p></li>
+<li><p>ni3 xia4wu3 za4i na3r? (你下午在哪儿？): Where are you in the afternoon ?</p></li>
+<li><p>ni3men sha4ngwu3 ji3 dia3n he1 cha2 (你们上午几点喝茶？): What time in the morning do you drink tea?</p></li>
+<li><p>sha4ngwu3 ba1 dia3n si4 shi4 wu3 fe1n (上午八点四十五分): 8h45 in the morning</p></li>
+<li><p>ta1 de zha4ngfu1 xia4 ge xi1ngqi1 hui4 za4i niu3yue1 (她的丈夫下个星期会在纽约): Her husband will be in New York next week</p></li>
+<li><p>ta1 sha4ngwu3 za4i yi1yua4n(她上午在医院): She is at the hospital in the morning</p></li>
+<li><p>ta1 za3osha4ng liu4 dia3n shi4 wu3 fe1n he1 ka1fe1i (他早上六点十五分喝咖啡): He drinks coffee at 6h15 in the morning</p></li>
+<li><p>ta1men zho1ngwu3 chi1 fa4n she2nme? (他们中午吃什么？): What do they eat at noon ?</p></li>
+<li><p>wo3 a4i me2i ge mo4zho1u (我爱每个周末): I love every weekend</p></li>
+<li><p>wo3 de ge1ge zhe4 ge mo4zho1u za4i yi1yua4n (我的哥哥这个周末在医院): My older brother will be in the hospital this weekend</p></li>
+<li><p>wo3 me3i ge mo4zho1u jia4n yi1ngyu3 la3oshi1 (我每个周末见英语老师): I see my English teacher every weekend</p></li>
+<li><p>wo3 me3i tia1n do1u he1 ka1fe1i (我每天都喝咖啡): I drink coffee every day</p></li>
+<li><p>wo3men me3i nia2n jia4n Wang la3oshi1 (我们每年见王老师): We see teacher Wang every year</p></li>
+<li><p>wo3men xia4wu3 jia4n la3oshi1 (我们下午见老师): We meet the the teacher this morning</p></li>
+<li><p>wo3men zuo2tia1n wa3nsha4ng zuo4 le she2nme? (我们昨天晚上做了什么？): What did we do last night ?</p></li>
+<li><p>xia4nza4i shi4 wa3nsha4ng shi2 yi1 dia3n li2ng liu4 fe1n(现在是晚上十一点零六分): It is 11h06 in the evening now</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-22-3-05-location-3">
+<h3>CHN-22-3-05 Location 3<a class="headerlink" href="#chn-22-3-05-location-3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="how-do-you-get-to">
+<h4>How do you get to… ?<a class="headerlink" href="#how-do-you-get-to" title="Permalink to this headline">¶</a></h4>
+<p>To ask how to get to a place, add da4o (到, arrive) before a place (for example, 到你的家, da4o ni3 de jia4, to your home) and then ze3nme zo3u (怎么走, how get to).</p>
+<ul class="simple">
+<li><p>Da4o yi1yua4n ze3nme zo3u? (到医院怎么走？): How do you get to the hospital?</p></li>
+<li><p>Da4o ni3 de jia1 ze3nme zo3u? (到你的家怎么走？): How do you get to your home?</p></li>
+</ul>
+</div>
+<div class="section" id="where-with-na2li">
+<h4>Where? with na2li (哪里)<a class="headerlink" href="#where-with-na2li" title="Permalink to this headline">¶</a></h4>
+<p>na2li (哪里) &lt;=&gt; na3r (哪儿)</p>
+<ul class="simple">
+<li><p>Ni3 za4i na2li? (你在哪里？): Where are you?</p></li>
+<li><p>Ta1men liu4yue4 hui4 qu4 na3r? (她们六月会去哪儿？): Where will they go in June?</p></li>
+</ul>
+</div>
+<div class="section" id="where-is-the-cat">
+<h4>Where is the cat?<a class="headerlink" href="#where-is-the-cat" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Ma1o za4i ni3 de qia2nmia4n (猫在你的前面): The cat is in front of you.</p></li>
+<li><p>Ma1o za4i ni3 de ho4umia4n (猫在你的后面): The cat is behind you</p></li>
+<li><p>Ma1o za4i ni3 de pa2ngbia1n (猫在你的旁边): The cat is next to you.</p></li>
+</ul>
+</div>
+<div class="section" id="walk-towards-the-left">
+<h4>Walk towards the left<a class="headerlink" href="#walk-towards-the-left" title="Permalink to this headline">¶</a></h4>
+<p>To say walk toward a certain direction in Chinese, you’ll say wa3ng (往, towards) before the direction and then add zo3u (走, walk).</p>
+<ul class="simple">
+<li><p>Qi3ng wa3ng zuo3bia1n zo3u (请往左边走): Please walk towards the left (side).</p></li>
+<li><p>Qi3ng wa3ng yo4ubia1n zo3u. (请往右边走):  Please walk towards the right (side).</p></li>
+<li><p>Wa3ng qia2nmia4n zo3u (往前面走): Walk towards the front (side).</p></li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h4>Phrases<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>da4o ni3 de xue2xia4o ze3nme zo3u? (到你的学校怎么走?): How do I get to your school?</p></li>
+<li><p>da4o zho1ngguo2 fa4ngua3n ze3nme zo3u? (到中国饭馆怎么走?): How do I get to the chinese restaurant</p></li>
+<li><p>e2rzi3 za4i ba4ba de qia2nmia4n (儿子在爸爸的前面): The son is in front of the father</p></li>
+<li><p>ni3 re4nshi2 da4o yi1yua4n de lu4 ma?(你认识到医院的路吗?): Do you know the way to get to the hospital?</p></li>
+<li><p>ni3 re4nshi2 lu4 ma? (你认识路吗？): Do you know the way?</p></li>
+<li><p>ni3men de xue2xia4o za4i qia2nmia4n (你们的学校在前面): Your school is ahead</p></li>
+<li><p>she2i za4i ni3 de pa2ngbia1n? (谁在你的旁边？): Who is next to you?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-23-3-06-hobbies-1">
+<h3>CHN-23-3-06 Hobbies 1<a class="headerlink" href="#chn-23-3-06-hobbies-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="yes-and-no">
+<h4>Yes and No<a class="headerlink" href="#yes-and-no" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>There is no “yes” of “no”</p></li>
+<li><p>The easiest way is to repeat the verb or adj of the question</p></li>
+<li><p>To say no, add bu4 (不) before the repeated verb or adjective.</p></li>
+<li><p>Ni3 xi3hua1n bu xi3hua1n go3u? (你喜欢不喜欢狗？): Do you like dogs?</p></li>
+<li><p>Xi3hua1n (喜欢): Yes</p></li>
+<li><p>Ta1men ma2ng ma? (她们忙吗？): Are they busy?</p></li>
+<li><p>Ma2ng (忙): Yes</p></li>
+<li><p>Ni3 ya4o bu ya4o ka1fe1i? )你要不要咖啡？): Do you want coffee?</p></li>
+<li><p>Bu2 ya4o (不要): No</p></li>
+<li><p>Ni3 qu4 me3iguo2 ma? (你去美国吗？): Are you going to the US?</p></li>
+<li><p>Bu2 qu4 (不去): No</p></li>
+</ul>
+</div>
+<div class="section" id="za4i-for-things-that-are-happening-right-now">
+<h4>za4i (在) for things that are happening right now<a class="headerlink" href="#za4i-for-things-that-are-happening-right-now" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Add za4i (在) before a verb to show that something is happening right now.</p></li>
+<li><p>Wo3 de pe2ngyo3u za4i ka4nshu1 (我的朋友在看书): My friend is reading a book</p></li>
+<li><p>Ta1 za4i ti1ng yi1nyue4 (她在听音乐): She is listening to music.</p></li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h4>Phrases<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ni zui4 xi3hua1n she2i? (你最喜欢谁？): Who do you like the most?</p></li>
+<li><p>ni3 xi3hua1n ka4n she2nme shu1 (你喜欢看什么书？): What books do you like to read?</p></li>
+<li><p>ni3 xi3hua1n ka4n shu1 ma (你喜欢看书吗？): Do you like reading?</p></li>
+<li><p>ni3 za4i zuo4 she2nme? (你在做什么？): What are you doing?</p></li>
+<li><p>ni3men wa2n bu4 wa2n dia4nna3o yo2uxi4? (你们玩不玩电脑游戏？): Do you play computer games?</p></li>
+<li><p>ta1 bu4 hui4 tia2owu3 (他不会跳舞): He can t dance</p></li>
+<li><p>ta1 zui4 xi3hua1n ti1ng she2nme yi1nyue4? (她最喜欢听什么音乐？): What music does she like listening to the most?</p></li>
+<li><p>ta1men bu4 ka4n ha4nyu3 shu1 (他们不看汉语书): They do not read chinese book</p></li>
+<li><p>ta1men de ge1ge me3i tia1n xia4wu3 ??? dia4nna3o yo2uxi4 (她们的哥哥每天下午玩电脑游戏): Their older brother plays computer games every afternoon</p></li>
+<li><p>wo3 bu4 xi3hua1n ti1ng ta1 de yi1nyue4 (我不喜欢听他的音乐): I don’t like to listen to his music</p></li>
+<li><p>wo3 de ha2izi3 a4i yi1ngyu3 ge1 (我的孩子爱英语歌): my child loves english songs</p></li>
+<li><p>wo3 de nu.3 pe2ngyo3u zui4 pia4olia4ng (我的女朋友最漂亮): My girlfriend is the most beautifull</p></li>
+<li><p>wo3 de pe2ngyo3u do1u xi3hua1n tia2owu3 (我的朋友都喜欢跳舞): All of my friends like dancing</p></li>
+<li><p>wo3 xi3hua1n ti1ng ge1, bu4 hui4 cha4ng ge1 (我喜欢听歌，不会唱歌): I like to listen to songs, I can’t sing</p></li>
+<li><p>zhe4 shi4 she2nme yi1nyue4? (这是什么音乐？): What music is this?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-24-3-07-routine-1">
+<h3>CHN-24-3-07 Routine 1<a class="headerlink" href="#chn-24-3-07-routine-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="from-here-to-there">
+<h4>From here to there!<a class="headerlink" href="#from-here-to-there" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>co2ng (从, from) and da4o (到, to).</p></li>
+<li><p>co2ng Me3iguo2 da4o Zho1ngguo2 (从美国到中国): from the U.S. to China</p></li>
+<li><p>co2ng Wu3yue4 da4o Liu4yue4 (从五月到六月): from May to June</p></li>
+<li><p>co2ng jiu4 dia3n da4o wu2 dia3n (从九点到五点): from 9 o’clock to 5 o’clock</p></li>
+</ul>
+</div>
+<div class="section" id="sha4ng-and-xia4">
+<h4>sha4ng (上) and xia4 (下)<a class="headerlink" href="#sha4ng-and-xia4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>sha4ng (上): last and xia4 (下): next</p></li>
+<li><p>but also</p></li>
+<li><p>sha4ng (上): go to and xia4 (下): get off</p></li>
+<li><p>Wo3men sha4ngwu3 jiu4 dia3n sha4ngba1n (我们上午九点上班): We go to work at 9 in the morning.</p></li>
+<li><p>Ni3 mi2ngtia1n ji3 dia3n xia4ba1n? (你明天几点下班？): What time do you get off work tomorrow?</p></li>
+<li><p>Wo3 de me4imei shi2yi1 dia3n sha4ngxue2 (我的妹妹十一点上学): My younger sister goes to school at 11 o’clock.</p></li>
+</ul>
+</div>
+<div class="section" id="id18">
+<h4>Phrases<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ji1ntia1n wa3nsha4ng wo3 bu4 hui2 jia1 (今天晚上我不回家): I m not going home tonight</p></li>
+<li><p>ni3 me3i tia1n ji3dia3n hui2 jia1? (你每天几点回家？): What time do you go home every day?</p></li>
+<li><p>ta1 co2ng liu4 dia3n ba4n da4o jiu4 dia3n he1 cha2 (她从六点半到九点喝茶): she drinks tea from 6h30 to 9h</p></li>
+<li><p>wo3 de ba4ba liu4 dia3n ba4n qi3chua2ng (我的爸爸六点半起床): My father gets up at 6h30</p></li>
+<li><p>wo3 me2i tia1n do1u co2ng shi4 dia3n da4o liu4 dia3n ba4n shui4jia4o (我每天都从十点到六点睡觉): I sleep from 10 to 6 every day</p></li>
+<li><p>wo3men a4i zuo4 zho1ngguo2 fa4n (我们爱做中国饭): We love cooking chinese food</p></li>
+<li><p>wo3men mi2ng nia2n hui2 lu2ndu1n (我们明年回伦敦): We are going back to London next year</p></li>
+<li><p>wo3men mi2ngtia1n sa1n dia3n fa4ng xue2 (我们明天三点放学): We finish school at 3 tomorrow</p></li>
+<li><p>xia4 ge1 xi1ngqi1 wo3 he2 pe2ngyo3u chi1 wu3fa4n (下个星期我和朋友吃午饭): I am having lunch with friends next week</p></li>
+<li><p>yi1she1ng ji1ntia1n ji3dia3n xia4ba1n? (医生今天几点下班？): What time does the doctor get off work today?</p></li>
+<li><p>yi1she1ng ji3dia3n sha4ngba1n? (医生几点上班？): What time does the doctor go to work?</p></li>
+<li><p>zhe4 ge1 mo4zho1u wo3men za4i jia1 chi1 wa3n fa4n ma? (这个周末我们在家吃晚饭吗？):  Are we having dinner at home this weekend ?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-25-3-08-payment">
+<h3>CHN-25-3-08 Payment<a class="headerlink" href="#chn-25-3-08-payment" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="how-much">
+<h4>How much?<a class="headerlink" href="#how-much" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>duo1sha3o qia2n (多少钱？): how much money?</p></li>
+<li><p>Zhe4ge duo1sha3o qia2n? (这个多少钱？): How much is this?</p></li>
+<li><p>Na4ge dia4nna3o duo1sha3o qia2n? (那个电脑多少钱？): How much is that computer?</p></li>
+</ul>
+</div>
+<div class="section" id="numbers">
+<h4>Numbers<a class="headerlink" href="#numbers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>sa1nba3i yi1shi2wu3 (三百一十五): 315</p></li>
+<li><p>si4ba3i yi1shi2’e4r (四百一十二): 412</p></li>
+<li><p>yi4ba3i li2ng e4r (一百零二): 102</p></li>
+<li><p>jiu4qia1n ba1ba3i li2ng liu4 (九千八百零六): 9 806</p></li>
+<li><p>liu4qia1n li2ng qi1shi2 (六千零七十): 6 070</p></li>
+</ul>
+<p>yi2wa4n (一万): 10 000
+* wu3wa4n sa1nqia1n liu4ba3i si4shi2jiu4 (五万三千六百四十九): 53 649</p>
+</div>
+<div class="section" id="too-expensive">
+<h4>Too expensive!<a class="headerlink" href="#too-expensive" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Ta4i gui4 le! (太贵了！): Too expensive!</p></li>
+<li><p>Ta4i re4 le! (太热了！): Too hot!</p></li>
+<li><p>Ta4i ha3o le! (太好了！): Very good!</p></li>
+<li><p>Ta4i ke3’a4i le! (太可爱了！): So cute!</p></li>
+</ul>
+</div>
+<div class="section" id="id19">
+<h4>Phrases<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bu4 xi2ng (不行): no way</p></li>
+<li><p>dui4bu3qi3, wo3men bu4 sho1u xi4nyo4ng ka3 (对不起,我们不收信用卡。): Sorry, we do not take credit cards</p></li>
+<li><p>na4 ge1 dia4nna3o he3n gui4 (那个电脑很贵。): That computer is expensive</p></li>
+<li><p>na4 ge1 yo2uxi4 he3n gui4 (那个游戏很贵): That game is expensive</p></li>
+<li><p>na4li de cha2 he3n pia2nyi (那里的茶很便宜): The tea is cheap there</p></li>
+<li><p>ni3 ma3i le ji3 ge1 yo2uxi4? (你买了几个游戏？): How many games did you buy?</p></li>
+<li><p>pia2nyi ti1 dia3r, xi2ng bu4 xi2ng? (便宜一点儿，行不行？): Can this be a bit cheaper?</p></li>
+<li><p>qi3ng pia2nyi yi1 dia3r (请便宜一点儿。): Please make it a bit cheaper.</p></li>
+<li><p>sa1n ba3i yi1 shi2 wu3 kua4i (三百一十五块。): 315 yuan</p></li>
+<li><p>she2i yo3u yi1 wa4n kua4i? (谁有一万块？): Who has ten thousand yuan</p></li>
+<li><p>ta1 bu4 ma3i (他不买。): He’s not buying</p></li>
+<li><p>wo3 ma3i Zhe4ge, duo1sha3o qia2n (我买这个，多少钱？): I am buying this, how much money is it?</p></li>
+<li><p>wo3 me2iyo3u qia2n (我没有钱。): I do not have money</p></li>
+<li><p>wo3 yi1go2ng ma3i liu4 ge1 (我一共买六个。): I am buying six altogether</p></li>
+<li><p>wo3 zhi3 hui4 shuo1 yi1ngyu3 (我只会说英语): I only speak English</p></li>
+<li><p>wo3 zhi3 yo3u ba1 ba3i kua4i (我只有八百块。): I only have 800 Yuan</p></li>
+<li><p>wo3men bu4 sho1u xi4nyo4ng ka3, zhi3 xi4nyo4ng ka3 (我们不收信用卡，只收现金。): We don’t take credit cards, we only take cash.</p></li>
+<li><p>yi1go2ng wu3 ba3i kua4i (一共五百块。): Altogeter it’s 500 Yuan</p></li>
+<li><p>zhe4ge duo1sha3o qia2n (这个多少钱？)How much is this ?</p></li>
+<li><p>zhe4ge jiu4 kua4i jiu4 ma3o jiu4 fe1n(这个九块九毛九分。): This is 9.99 Yuan</p></li>
+<li><p>zhe4ge qi1 ba3i sa1n shi2 e2r kua4i wu3 ma3o (这个七百三十二块五毛。): This is 732.50 Yuan</p></li>
+<li><p>zhe4li ta4i re4 le! (这里太热了！): It is too hot here!</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-26-3-09-entertain">
+<h3>CHN-26-3-09 Entertain<a class="headerlink" href="#chn-26-3-09-entertain" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id20">
+<h4>za4i (在) for location<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ta1 za4i jia1 ka4n ba4ozhi3. (她在家看报纸。): She reads the newspaper at home.</p></li>
+<li><p>wo3 za4i xi3sho3ujia1n tia4owu3. (我在洗手间跳舞。): I dance in the bathroom.</p></li>
+<li><p>go3u za4i na4li shui4jia4o. (狗在那里睡觉。): The dog sleeps there.</p></li>
+</ul>
+</div>
+<div class="section" id="id21">
+<h4>Phrases<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>mi2ngtia1n zuo4 sha4ng ni3 xia3ng ga4n she2nme? (明天晚上你想干什么？): What do you want to do tomorrow evening?</p></li>
+<li><p>ni3 de sho3uji1 ha4oma3 shi4 duo1sha3o? (你的手机号码是多少？): What is your cellphone humber?</p></li>
+<li><p>ni3 ka4n le ji1ntia1n de ba4ozhi3 ma? (你看了今天的报纸吗？): Did you read today’s newspaper?</p></li>
+<li><p>ni3 ka4n le xi1nwe2n ma? (你看了新闻吗？): Did you read the newspaper?</p></li>
+<li><p>ni3 xi3hua1n ka4n dia4nshi4 ma? (你喜欢看电视吗？): Do you like watching television?</p></li>
+<li><p>ni3 xi3hua1n na3 ge na2n mingxi1ng? (你喜欢哪个男明星？): Which male celebrity do you like?</p></li>
+<li><p>ni3 xi3hua1n sha4ngwa3ng zuo4 she2nme? (你喜欢上网做什么？): What do you like to do online ?</p></li>
+<li><p>ni3 xia3ng yo3u dia4nyi3ng ma?(你想看电影吗？): Do you want to watch a movie?</p></li>
+<li><p>ni3men xi3hua1n ka4n she2nme dia4nshi4 mu4jie2 (你们喜欢看什么电视节目): What TV shows do you like watching?</p></li>
+<li><p>ta1 me3itia1n ka4n (他每天看体育新闻。): He reads the sports news every day.</p></li>
+<li><p>ta1 za4i zho1ngguo2 shi4 yi1 ge mingxi1ng (她在中国是一个明星。): she is a celebrity in China</p></li>
+<li><p>ta1men xia3ng mi2ngtia1n ka4n dia4nyi3ng (他们想明天看电影。): They want to watch a movie tomorrow</p></li>
+<li><p>wo3 xia3ng sha4ngwa3ng ti1ng yi1nyue4 (我想上网听音乐。): I want to go online and listen to music</p></li>
+<li><p>wo3 xia3ng yo4ng sho3uji1 wa2n yo2uxi4 (我想用手机玩游戏。): I want to use my phone to play games</p></li>
+<li><p>wo3 yo4ng dia4nna3o ka4n xi1nwe2n (我用电脑看新闻。): I read the news on my computer.</p></li>
+<li><p>wo3men mo4zho1u hui4 ka4n ha2nguo2 dia4nyi3ng (我们周末会看韩国电影。): We will watch Korean movie on the weekend</p></li>
+<li><p>wo3men yo4ng sho3uji1 ka4n xi1nwe2n (我们用手机看新闻。): We use cell phones to read the news</p></li>
+<li><p>zhe4ge mo4zho1u wo3men hui4 ga4n she2nme? (这个周末我们会干什么？): What are we going to do this weekend?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-27-3-10-location-4">
+<h3>CHN-27-3-10 Location 4<a class="headerlink" href="#chn-27-3-10-location-4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="the-dog-is-on-the-table">
+<h4>The dog is on the table!<a class="headerlink" href="#the-dog-is-on-the-table" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>go3u (狗, dog) + za4i (在, be located) + zhuo1zi (桌子, table) + sha4ng (上, on)</p></li>
+<li><p>sha4ng (上): on</p></li>
+<li><p>xia4 (下): under</p></li>
+<li><p>li3 (里): inside</p></li>
+<li><p>wa4i (外): outside</p></li>
+</ul>
+</div>
+<div class="section" id="have-you-seen-my-phone">
+<h4>Have you seen my phone?<a class="headerlink" href="#have-you-seen-my-phone" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ni3 ka4njia4n (你看见) + the thing or person you’re looking for + le ma (了吗)？</p></li>
+<li><p>Ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?</p></li>
+<li><p>Ni3 ka4njia4n ta1 de ha2izi le ma? (你看见他的孩子了吗？): Have you seen his kid?</p></li>
+</ul>
+</div>
+<div class="section" id="sha4ng-vs-xia4">
+<h4>sha4ng (上) vs xia4 (下)<a class="headerlink" href="#sha4ng-vs-xia4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>sha4ng ge zho1umo4 (上个周末): last weekend</p></li>
+<li><p>sha4ngxue2 (上学): go to school</p></li>
+<li><p>za4i zhuo1zi sha4ng (在桌子上): on the table</p></li>
+<li><p>xia4 ge4 yue4 (下个月): next month</p></li>
+<li><p>xia4ba1n (下班): get off work</p></li>
+<li><p>za4i yi3zi xia4 (在椅子下): under the chair</p></li>
+</ul>
+</div>
+<div class="section" id="id22">
+<h4>Phrases<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bi1ngxia1ng li3 yo3u she2nme? (冰箱里有什么？): What s in the refrigerator?</p></li>
+<li><p>dia4nna3o za4i zhuo1zi sha4ng (电脑在桌子上): The computer is on the table</p></li>
+<li><p>ga1o za4i yi3zi xia4 (狗在椅子下): The dog is under the chair</p></li>
+<li><p>ka1fe1i za4i zhuo1zi sha4ng (咖啡在桌子上): The coffee is on the table</p></li>
+<li><p>ma1o za4i yi3zi sha4ng (猫在椅子上): The cat is on the chair</p></li>
+<li><p>ni3 de sho3uji1 za4i zhuo1zi sha4ng (你的手机在桌子上。): Your phone is on the table</p></li>
+<li><p>ni3 ka4njia4n wo3 de sho3uji1 le ma? (你看见我的手机了吗？): Have you seen my cell phone?</p></li>
+<li><p>ni3 shei??? she2i? (你找谁？): Who are you looking for?</p></li>
+<li><p>ni3 za4i shei??? she2nme? (你在找什么?): What are you looking for?</p></li>
+<li><p>niu2na3i za4i bi1ngxia1ng li3 ma?(牛奶在冰箱里吗？): Is the milk in the fridge?</p></li>
+<li><p>she2i za4i fa2ngjia1n wa2i? (谁在房间外？): Who’s outside the room?</p></li>
+<li><p>shui3 za4i bi1ngxia1ng sha4ng (水在冰箱上): The water is on the fridge</p></li>
+<li><p>ta1men do1u za4i fa2ngjia1n  (他们都在房间里睡觉): They are all sleeping in the room</p></li>
+<li><p>ta1men za4i xue2xia4o wa2i (他们在学校外): They are outside the school</p></li>
+<li><p>wo3 de jia1 li3 me2iyo3u xi3sho3ujia1n (我的家里没有洗手间): There is no bathroom in my house</p></li>
+<li><p>wo3 za4i fa2ngjia1n wa2i (我在房间外): I m outside the room</p></li>
+<li><p>wo3 za4i shei??? wo3 de sho3uji1 (我在找我的手机): I am looking for my phone</p></li>
+<li><p>zhe4 shi4 she2i de fa2ngjia1n? (这是谁的房间？): Whose room is this?</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-28-3-11-restaurant">
+<h3>CHN-28-3-11 Restaurant<a class="headerlink" href="#chn-28-3-11-restaurant" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="a-bit">
+<h4>A bit!<a class="headerlink" href="#a-bit" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Qi3ng de3ng yi2xia4. (请等一下。): Please wait a moment. (literally) Please wait a bit.</p></li>
+<li><p>Qi3ng ka4n yi2xia4. (请看一下。): Please take a look. (literally) Please look a bit.</p></li>
+</ul>
+</div>
+<div class="section" id="how-many">
+<h4>How many?<a class="headerlink" href="#how-many" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?</p></li>
+<li><p>Ta1men yo3u ji3 ge ha2izi? (他们有几个孩子？): How many children do they have?</p></li>
+</ul>
+</div>
+<div class="section" id="how-many-of-you">
+<h4>How many of you?<a class="headerlink" href="#how-many-of-you" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?</p></li>
+<li><p>Lia3ng we4i. (两位。): Two.</p></li>
+</ul>
+</div>
+<div class="section" id="id23">
+<h4>Phrases<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>dui4bu3qi3, wo3men me2iyo3u yi1ngwe2n ca4ida1n (对不起，我们没有英文菜单): Sorry, we do not have english menus</p></li>
+<li><p>fa4ngua3n de dia4nhua4 ha4oma3 shi4 duo1sha3o? wo3 ya4o di4ngwe4i. (饭馆的电话号码是多少？我要订位。): what is the restaurant’s phone number? I want to book a table.</p></li>
+<li><p>fu2wu4yua2n, ma3ida1n (服务员，买单！): Waiterm the check</p></li>
+<li><p>fu2wu4yua2n, wo3men ya4o dia3nca4i. (服务员，我们要点菜。): Waiterm we want to order</p></li>
+<li><p>li3 la3oshi1 shuo1 “qi3ng ji4n!” (老师说“请进！”): The teache says “please come in”</p></li>
+<li><p>lia3ng we4i (两位): Two people</p></li>
+<li><p>qi3ng de3ng yi2xia4 (请等一下):  Please wait for a moment</p></li>
+<li><p>qi3ng ji4n! (请进！): Please come in!</p></li>
+<li><p>qi3ng ka4n yi2ci4 ca4ida1n (请看一下菜单): Please take a look at the menu</p></li>
+<li><p>qi3ng ka4n yi2xia4 (请看一下): Please take a look</p></li>
+<li><p>qi3ng za4i zhe4li de3ng (请在这里等): Please wait here</p></li>
+<li><p>qi3ng zuo4 (请坐！): Please sit</p></li>
+<li><p>qi3ngwe4n, ji3 we4i? (请问，几位？): Excuse me, how many of you?</p></li>
+<li><p>ta1men xi3hua1n bu2 xi3hua1n wa2n yo2uxi4? (他们喜欢不喜欢玩游戏？): Do they enjoy playing games?</p></li>
+<li><p>wo3 bu2 xia3ng ji4n (我不想进): I do not want to enter</p></li>
+<li><p>wo3 de ma1ma di4ngwe4i le. (我的妈妈订位了。): My mom made a reservation</p></li>
+<li><p>wo3 xia3ng dia3nca4i (我想点菜): I would like to order</p></li>
+<li><p>wo3men ya4o ma3ida1n (我们要买单): We want to get the check</p></li>
+<li><p>wo3men yi1go2ng shi2 we4i (我们一共十位): We are ten altogether</p></li>
+<li><p>zhe4 ci4 wo3 ma3ida1n. (这次我买单。): I get the check this time.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-29-3-12-market">
+<h3>CHN-29-3-12 Market<a class="headerlink" href="#chn-29-3-12-market" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="xie1-for-plural">
+<h4>xie1 (些) for Plural<a class="headerlink" href="#xie1-for-plural" title="Permalink to this headline">¶</a></h4>
+<p>When you need to specify that you talk about multiple thing.</p>
+<ul class="simple">
+<li><p>Xi1gua1 duo1sha3o qia2n? (西瓜多少钱？): How much is watermelon?</p></li>
+<li><p>Zhe4xie1 xi1gua1 duo1sha3o qia2n? (这些西瓜多少钱？): How much are these watermelons?</p></li>
+</ul>
+<ul class="simple">
+<li><p>Wo3 xia3ng ma3i yi4xie1 pi2ngguo3. (我想买一些苹果。): I want to buy some apples.</p></li>
+<li><p>Na4xie1 ji1da4n bu4 ha3o. (那些鸡蛋不好。): Those eggs are not good.</p></li>
+</ul>
+</div>
+<div class="section" id="id24">
+<h4>Phrases<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ha2izi3 bu2 xi3hua1n chi1 shu1ca4i. (孩子不喜欢吃蔬菜。): Children do not like to eat vegetables.</p></li>
+<li><p>mi2ngtia1n za3ofa4n wo3men hui4 chi1 shui3guo3 he1 mia4nba1o. (明天早饭我们会吃水果和面包。):  We will eat fruit and bread for breakfast tomorrow.</p></li>
+<li><p>na4ge ba4o shi4 ni3 de? (哪个包是你的？): Which bag is yours?</p></li>
+<li><p>ni3 xi3hua1n she2nme shu1ca4i? (你喜欢什么蔬菜？): What vegetables do you like?</p></li>
+<li><p>ni3 xia3ng ma3i she2nme do1ngxi1? (你想买什么东西？): What do you want to buy ?</p></li>
+<li><p>qi3ng ba1ng dia3n kafe1i. (请帮我点咖啡。): Please help me order a coffee</p></li>
+<li><p>qi3ng ba1ng wo3 ma3i yi1 da4i ta2ng (请帮我买一袋糖。): Please help me buy a bag of sugar.</p></li>
+<li><p>qi3ng ba1ng wo3 ma3i yi4xie1 do1ngxi1. (请帮我买一些东西。): Please help me buy some things.</p></li>
+<li><p>qi3ng ge3i wo3 ge1 xi1gua1. (请给我五个西瓜。): Please give me five watermelons.</p></li>
+<li><p>qi3ngwe4n, cha1oshi4 za4i na2li? (请问，超市在哪里？): Excuse me, where is the supermarket?</p></li>
+<li><p>qi3ngwe4n, zhe4xie1 yi1go2ng duo1sha3o qia2n? (请问,这些一共多少钱？): Excuse me, how much are these altogether?</p></li>
+<li><p>ta1 bu2 ge3i wo3 qia2n. (他不给我钱。): He does not give me money.</p></li>
+<li><p>ta1men za4i cha1oshi4 ma3i mi3 ma? (他们在超市买米吗？): Do they buy rice at the supermarket?</p></li>
+<li><p>wo3 de jia1re2n he3n xi3hua1n chi1 shui3guo3. (我的家人很喜欢吃水果。): My family really likes to eat fruit.</p></li>
+<li><p>wo3 de ma1ma xia3ng ma3i yi4xie1 do1ngxi1. (我的妈妈想买一些东西。): My mother would like to buy a few things.</p></li>
+<li><p>wo3 he3n ma2ng, qi3ng ba1ng wo3. (我很忙，请帮我。): I am busy, please help me.</p></li>
+<li><p>wo3 xia3ng ma3i shu1ca4i he2 shui3guo3. (我想买蔬菜和水果。): I want to buy vegetables and fruits</p></li>
+<li><p>wo3 xia3ng ma3i yi1 ba4o mi3 (我想买一包米。): I want to buy a bag of rice.</p></li>
+<li><p>wo3 xia3ng za4i cha1oshi4 ma3i shui3guo3. (我想在超市买水果。): I would like to buy fruit at the supermarket.</p></li>
+<li><p>wo3men xia3ng ma3i do1ngxi1. (我们想买东西。): we want to go shopping.</p></li>
+<li><p>wo3men ya4o ma3i yi4xie1 ji1da4n. (我们要买一些鸡蛋。): we want to buy some eggs.</p></li>
+<li><p>yi1 tia1n yi1 ge1 pi2ngguo3, yi1she1ng bu she2i wo3. (一天一个苹果，医生不找我。): An apple a day keeps the doctor away.</p></li>
+<li><p>zhe4ge shi4 mi3 ma? (这个是米吗？): Is this rice?</p></li>
+<li><p>zhe4xie1 shui3guo3 bu ta4i xi1nxia1n. (这些水果不太新鲜。): These fruits aren t very fresh</p></li>
+<li><p>zhe4xie1 yu4 fe1icha2ng gui4. (这些鱼非常贵。): These fish are very expensive.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-30-3-13-hobbies-2">
+<h3>CHN-30-3-13 Hobbies 2<a class="headerlink" href="#chn-30-3-13-hobbies-2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="we4ishe2nme-why">
+<h4>we4ishe2nme (为什么, why)?<a class="headerlink" href="#we4ishe2nme-why" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>We4ishe2nme ni3 xia3ng qu4 Xi1ba1nya2? (为什么你想去西班牙？): Why do you want to go to Spain?</p></li>
+<li><p>Ni3 we4ishe2nme xue2xi2 Zho1ngwe2n? (你为什么学习中文？): Why are you learning Chinese?</p></li>
+</ul>
+</div>
+<div class="section" id="yi1nwe4i-because-vs-suo2yi3-so">
+<h4>yi1nwe4i (因为, because) vs. suo2yi3 (所以, so)<a class="headerlink" href="#yi1nwe4i-because-vs-suo2yi3-so" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="informal-settings">
+<h5>Informal Settings<a class="headerlink" href="#informal-settings" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Yi1nwe4i zhe4ge ta4i gui4, wo3 bu2 ma3i. (因为这个太贵，我不买。): Because this is too expensive, I won’t buy it.</p></li>
+<li><p>Wo3 ya4o qu4 Zho1ngguo2, suo2yi3 wo3 xue2xi2 Zho1ngwe2n. (我要去中国，所以我学习中文。) : I want to go to China, so I’m learning Chinese.</p></li>
+</ul>
+</div>
+<div class="section" id="formal-settings">
+<h5>Formal Settings<a class="headerlink" href="#formal-settings" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>Yi1nwe4i zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (因为这个太贵，所以我不买。): Because this is too expensive, (so) I won’t buy it.</p></li>
+<li><p>Yi1nwe4i wo3 ya4o qu4 Zho1ngguo2, suo2yi3 wo3 xue2xi2 Zho1ngwe2n. (因为我要去中国，所以我学习中文。): (Because) I want to go to to China, so I’m learning Chinese.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id25">
+<h4>Phrases<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>mi2ng nia2n sa1n yue4 wo3men hui4 qu4 yi4ndu4 lu.3yo2u (明年三月我们会去印度旅游。): We will travel to India in March of next year.</p></li>
+<li><p>ni3 hui4 shuo1 Zho1ngwe2n ma? (你会说中文吗？):Can you speak chinese?</p></li>
+<li><p>ta1 de a4iha4o shi4 ti1ng yi1nyue4 (他的爱好是听音乐。): His hobby is listening to music.</p></li>
+<li><p>ta1 ji1ntia1n bu2 ma2ng, ta1 he3n qi1ngso1ng (他今天不忙，他很轻松。): He is not busy today, he is relaxed.</p></li>
+<li><p>ta1 shuo1 de he3n kua4i, suo2yi3 wo3 bu2 mi2ngba2i. (他说得很快，所以我不明白。): He speaks very fast so i do not understand.</p></li>
+<li><p>ta1 xia3ng zhu4 za4i xi1ba1nya2, yi1nwe4i ta1 de nu.3pe2ngyo3u shi4 xi1ba1nya2 re2n (他想住在西班牙，因为他的女朋友是西班牙人。): He wants to live in spain because his girlfriend is spanish</p></li>
+<li><p>ta1men xi3hua1n yo4ng zha4oxia4ngji1 pa1izha4o (他们喜欢用照相机拍照。): They enjoy using a camera to take pictures.</p></li>
+<li><p>we4ishe2nme ta1 bu2 ga1oxi4ng? (为什么他不高兴？): why is he not happy?</p></li>
+<li><p>wo3 ma3i le yi1ge4 xi1n sho3uji1. (我买了一个新手机。): I bought a new phone.</p></li>
+<li><p>wo3 ta4i ma2ng le, wo3 zhi3 xia3ng qi1ngso1ng yi2xia4. (我太忙了，我只想轻松一下。): I am too busy, I just want to relax a bit.</p></li>
+<li><p>wo3 xia3ng qu4 xi1ba1nya2 lu.3yo2u (我想去西班牙旅游。): I want to travel to Spain.</p></li>
+<li><p>wo3 xia3ng qu4 zho1ngguo2. (我想去中国。): I want to go to China</p></li>
+<li><p>wo3 xue2xi2 zho1ngwe2n yi1nwe4i wo ya4o qu4 zho1ngguo2 (我学习中文因为我要去中国): I am learning Chinese because I need to go to China.</p></li>
+<li><p>wo3 yo4ng dia4nna3o xue2xi2 Zho1ngwe2n (我用电脑学习中文。): I learn Chinese using a computer.</p></li>
+<li><p>yi1nwe4i wo3 xi3hua1n re4nshi2 xi1n pe2ngyo3u, suo2yi3 wo3 xia3ng lu.3yo2u (因为我喜欢认识新朋友，所以我想旅游。): I  want to go traveling because I like making new friends.</p></li>
+<li><p>zhe4ge ta4i gui4, suo2yi3 wo3 bu2 ma3i. (这个太贵，所以我不买。): This is too expensive so i m not buying it</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="part-4">
+<h2>Part 4<a class="headerlink" href="#part-4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-31-4-01-dining-1">
+<h3>CHN-31-4-01 Dining 1<a class="headerlink" href="#chn-31-4-01-dining-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="noodles-or-rice">
+<h4>Noodles or rice?<a class="headerlink" href="#noodles-or-rice" title="Permalink to this headline">¶</a></h4>
+<p>háishì (还是): or</p>
+<p>When you ask with <cite>or</cite> no need <cite>ma</cite></p>
+<ul class="simple">
+<li><p>Nǐ yào miàntiáo háishì mǐfàn? (你要面条还是米饭？): Would you like noodles or rice?</p></li>
+<li><p>Tā xiǎng chī yángròu háishì niúròu? (她想吃羊肉还是牛肉？): Does she want to eat lamb or beef?</p></li>
+</ul>
+</div>
+<div class="section" id="id26">
+<h4>Phrases<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>ge3i wo3 wu3 ge mi???fa4n (给我五个米饭。): Give me five servings of rice.</p></li>
+<li><p>ji1ntia1n wa3nsha4ng wo3men hui2 chi1 ??? zai??? ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight</p></li>
+<li><p>ji1ntia1n wa3nsha4ng wo3men hui4 chi1 ???be3n ca4i ma? (今天晚上我们会吃日本菜吗？): Will we eat Japanese food tonight ?</p></li>
+<li><p>ni3 chi1 zhu1ròu ha2ishi4 ???ròu? (你吃猪肉还是鸡肉？): Do you eat pork or chicken?</p></li>
+<li><p>ni3 xi3hua1n chi1 ha2nguo2 ca4iha2i shi2 ???be3n ca4i? (你喜欢吃韩国菜还是日本菜？): Do you like to eat Korean food or Japanese food?</p></li>
+<li><p>ni3 xi3hua1n chi1 she2nme ro4u? (你最喜欢吃什么肉？): What kind of meat do you like to eat the most?</p></li>
+<li><p>ni3 xia3ng qu4 xi1ba1nya2 lu.3yo2u háishì ???be3n lu.3yo2u? (你想去西班牙旅游还是日本旅游？): Would you like to travel to Spain or Japan ?</p></li>
+<li><p>ni3 ya4o he1 ka1fe1i ha2i he1 cha2? (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?</p></li>
+<li><p>ni3 ya4o he1 ka1fe1i ha2ishi4 he1 cha2 (你要喝咖啡还是喝茶？): Do you want to drink coffee or tea?</p></li>
+<li><p>ni3men xia3ng chi1 zho1ngguo2 ca4iha2i shi4 yi1ngguo2 ca4i ? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?</p></li>
+<li><p>ni3men xia3ng chi1 zho1ngguo2 zai??? ha2ishi4 yi1ngguo2 zai??? (你们想吃中国菜还是英国菜？): Would you like to eat Chinese food or British food?</p></li>
+<li><p>ni3men yo3u she2nme yi3nlia4o? (你们有什么饮料？): what drinks do you have?</p></li>
+<li><p>wa3nsha4ng ni3 xia3ng chi1 sha4ngha3i ca4iha2i shi4 be3iji1ng ca4i? (晚上你想吃上海菜还是北京菜？): Would you like to eat food from Shanghai or Beijing in the evening?</p></li>
+<li><p>wo3 he3n xi3hua1n chi1 sha4ngha3i ca4i. (我很喜欢吃上海菜。): I really like to eat Shanghai cuisine.</p></li>
+<li><p>wo3 hui2 qu4 sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend.</p></li>
+<li><p>wo3 hui4 qu4 Sha4ngha3i jia4n yi1ge4 pe2ngyo3u (我会去上海见一个朋友。): I will go to Shanghai to see a friend</p></li>
+<li><p>wo3 xi3hua1n chi1 ???ròu mia4n??? (我喜欢吃鸡肉面条。): I like to eat chicken noodles</p></li>
+<li><p>zhe4ge fa4ngua3n de ???ròu bu2 ha3o (这个饭馆的鸡肉不好。): This restaurant s chicken is not good</p></li>
+<li><p>zuo2tia1n wa3nfa4n wo3 he1 pe2ngyo3u chi1 le yángròu (昨天晚饭我和朋友吃了羊肉。): My friend and I ate lamb for dinner yesterday.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-32-4-02-health-1">
+<h3>CHN-32-4-02 Health 1<a class="headerlink" href="#chn-32-4-02-health-1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="grrrrr">
+<h4>Grrrrr…<a class="headerlink" href="#grrrrr" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>yo3udia3r (有点儿): a little too much (to complain politely)</p></li>
+</ul>
+<p>yo3udia3r (有点儿) + adj</p>
+<ul class="simple">
+<li><p>Wǒmen dōu juédé yóudiǎr lèi (我们都觉得有点儿累。): We all feel a bit tired.</p></li>
+<li><p>Wǒ jīntiān yóudiǎr máng (我今天有点儿忙。): I am a bit busy today.</p></li>
+<li><p>Nà ge yóudiǎr guì. (那个有点儿贵。): That is a bit expensive.</p></li>
+</ul>
+</div>
+<div class="section" id="don-t-look">
+<h4>Don’t look!<a class="headerlink" href="#don-t-look" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bú yào (不要): do not want something but can be use for imperative</p></li>
+<li><p>Búyào kàn! (不要看！): Don’t look!</p></li>
+<li><p>Búyào shuìjiào! (不要睡觉！): Don’t sleep!</p></li>
+</ul>
+</div>
+<div class="section" id="every-single-day">
+<h4>Every single day!<a class="headerlink" href="#every-single-day" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>měi ge rén (每个人): every person</p></li>
+<li><p>měitiān (每天): every day</p></li>
+<li><p>Měi ge rén dōu zài shuìjiào. (每个人都在睡觉。): Every single person is sleeping.</p></li>
+<li><p>Wǒ měitiān dōu duànliàn. (我每天都锻炼。): I work out every single day.</p></li>
+</ul>
+</div>
+<div class="section" id="adjective">
+<h4>Adjective + 的<a class="headerlink" href="#adjective" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>nu.3er he3n ga1o (女人很高): The woman is tall</p></li>
+<li><p>ga1o de nu.3er (高的女人): tall woman</p></li>
+<li><p>Zhèxiē dōngxi hěn jiànkāng. (这些东西很健康。): These things are healthy.</p></li>
+<li><p>Wǒ xiǎng chī jiànkāng de dōngxi. (我想吃健康的东西。): I want to eat healthy things.</p></li>
+</ul>
+</div>
+<div class="section" id="id27">
+<h4>Phrases<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>bu2 ya4o chi1 bu2 (不要吃不健康的东西。): Don t eat unhealthy food</p></li>
+<li><p>bu2 ya4o shui4jia4o! (不要睡觉！): don t sleep</p></li>
+<li><p>dia4nyi3ng ji3dia3n ka1ishi3? (电影几点开始？): What time does the movie start?</p></li>
+<li><p>na3 ge la3oshi1 bu2. (那个老师不胖。): That teacher is not fat.</p></li>
+<li><p>ni3 de go1ngzuo4 ta4i ma2ng le, ya4o zhu4yi4 she1nti3 jia4nka1ng. (你的工作太忙了，要注意身体健康。): You are too busy at work, you need to pay attention to your health.</p></li>
+<li><p>ni3 jue2de ze3nmeya4ng? (你觉得怎么样？): How do you feel?</p></li>
+<li><p>ni3 yo3u dia3r ga1o. (你有点儿高。): You are a bit tall</p></li>
+<li><p>qi3ng zhu4yi4 jia4nka1ng! (请注意健康！): Please pay attention to your health!</p></li>
+<li><p>she2nme shu1ca4i zui4 jia4nka1ng (什么蔬菜最健康？): What vegetables is the healthiest ?</p></li>
+<li><p>ta1 me2i ge1 xi1ngqi1ri4 do1u qu4 dua4nlia4n. (他每个星期日都去锻炼。): He goes work out every Sunday.</p></li>
+<li><p>ta1men ta4i le4i le. (他们太累了。): They are too tired.</p></li>
+<li><p>we4ishe2nme ni3 jue2de ni3 he3n pa4ng? (为什么你觉得你很胖？): Why do you think that you are fat?</p></li>
+<li><p>wo3 de she1n (我的身体不错。): My health  is pretty good</p></li>
+<li><p>wo3 hui2 zhu4yi4 she1nti3 (我会注意身体。): I ll pay attention to my health</p></li>
+<li><p>wo3 ji1ntia1n bu2 xia3ng go1ngzuo4. (我今天不想工作。): I don t want to work today.</p></li>
+<li><p>wo3men de ma1o he3n pa4ng. (我们的猫很胖。): Our cat is fat.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="chn-33-4-03-transport">
+<h3>CHN-33-4-03 Transport<a class="headerlink" href="#chn-33-4-03-transport" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-34-4-04-shopping-1">
+<h3>CHN-34-4-04 Shopping 1<a class="headerlink" href="#chn-34-4-04-shopping-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-35-4-05-language">
+<h3>CHN-35-4-05 Language<a class="headerlink" href="#chn-35-4-05-language" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-36-4-06-time-3">
+<h3>CHN-36-4-06 Time 3<a class="headerlink" href="#chn-36-4-06-time-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-37-4-07-dining-2">
+<h3>CHN-37-4-07 Dining 2<a class="headerlink" href="#chn-37-4-07-dining-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-38-4-08-existence">
+<h3>CHN-38-4-08 Existence<a class="headerlink" href="#chn-38-4-08-existence" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-39-4-09-sports-1">
+<h3>CHN-39-4-09 Sports 1<a class="headerlink" href="#chn-39-4-09-sports-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-40-4-10-invite-1">
+<h3>CHN-40-4-10 Invite 1<a class="headerlink" href="#chn-40-4-10-invite-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-41-4-11-health-2">
+<h3>CHN-41-4-11 Health 2<a class="headerlink" href="#chn-41-4-11-health-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-42-4-12-invite-2">
+<h3>CHN-42-4-12 Invite 2<a class="headerlink" href="#chn-42-4-12-invite-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-43-4-13-dining-3">
+<h3>CHN-43-4-13 Dining 3<a class="headerlink" href="#chn-43-4-13-dining-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-44-4-14-shopping-2">
+<h3>CHN-44-4-14 Shopping 2<a class="headerlink" href="#chn-44-4-14-shopping-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-45-4-15-body-part">
+<h3>CHN-45-4-15 Body Part<a class="headerlink" href="#chn-45-4-15-body-part" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-5">
+<h2>Part 5<a class="headerlink" href="#part-5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-46-5-01-travel">
+<h3>CHN-46-5-01 Travel<a class="headerlink" href="#chn-46-5-01-travel" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-47-5-02-weather">
+<h3>CHN-47-5-02 Weather<a class="headerlink" href="#chn-47-5-02-weather" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-48-5-03-shopping-3">
+<h3>CHN-48-5-03 Shopping 3<a class="headerlink" href="#chn-48-5-03-shopping-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-49-5-04-people-2">
+<h3>CHN-49-5-04 People 2<a class="headerlink" href="#chn-49-5-04-people-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-50-5-05-celebrate">
+<h3>CHN-50-5-05 Celebrate<a class="headerlink" href="#chn-50-5-05-celebrate" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-51-5-06-sports-2">
+<h3>CHN-51-5-06 Sports 2<a class="headerlink" href="#chn-51-5-06-sports-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-52-5-07-school">
+<h3>CHN-52-5-07 School<a class="headerlink" href="#chn-52-5-07-school" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-53-5-08-family-3">
+<h3>CHN-53-5-08 Family 3<a class="headerlink" href="#chn-53-5-08-family-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-54-5-09-gourmet-1">
+<h3>CHN-54-5-09 Gourmet 1<a class="headerlink" href="#chn-54-5-09-gourmet-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-55-5-10-time-4">
+<h3>CHN-55-5-10 Time 4<a class="headerlink" href="#chn-55-5-10-time-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-56-5-11-location-5">
+<h3>CHN-56-5-11 Location 5<a class="headerlink" href="#chn-56-5-11-location-5" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-57-5-12-shopping-4">
+<h3>CHN-57-5-12 Shopping 4<a class="headerlink" href="#chn-57-5-12-shopping-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-58-5-13-routine-2">
+<h3>CHN-58-5-13 Routine 2<a class="headerlink" href="#chn-58-5-13-routine-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-59-5-14-food-3">
+<h3>CHN-59-5-14 Food 3<a class="headerlink" href="#chn-59-5-14-food-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-60-5-15-people-3">
+<h3>CHN-60-5-15 People 3<a class="headerlink" href="#chn-60-5-15-people-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-61-5-16-location-6">
+<h3>CHN-61-5-16 Location 6<a class="headerlink" href="#chn-61-5-16-location-6" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-62-5-17-routine-3">
+<h3>CHN-62-5-17 Routine 3<a class="headerlink" href="#chn-62-5-17-routine-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-63-5-18-travel-2">
+<h3>CHN-63-5-18 Travel 2<a class="headerlink" href="#chn-63-5-18-travel-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-64-5-19-lang-2">
+<h3>CHN-64-5-19 Lang 2<a class="headerlink" href="#chn-64-5-19-lang-2" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="part-6">
+<h2>Part 6<a class="headerlink" href="#part-6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="chn-65-6-01-feelings">
+<h3>CHN-65-6-01 Feelings<a class="headerlink" href="#chn-65-6-01-feelings" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-66-6-02-school-2">
+<h3>CHN-66-6-02 School 2<a class="headerlink" href="#chn-66-6-02-school-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-67-6-03-future">
+<h3>CHN-67-6-03 Future<a class="headerlink" href="#chn-67-6-03-future" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-68-6-04-environ">
+<h3>CHN-68-6-04 Environ<a class="headerlink" href="#chn-68-6-04-environ" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-69-6-05-work">
+<h3>CHN-69-6-05 Work<a class="headerlink" href="#chn-69-6-05-work" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-70-6-06-culture">
+<h3>CHN-70-6-06 Culture<a class="headerlink" href="#chn-70-6-06-culture" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-71-6-07-hobbies-3">
+<h3>CHN-71-6-07 Hobbies 3<a class="headerlink" href="#chn-71-6-07-hobbies-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-72-6-08-health-3">
+<h3>CHN-72-6-08 Health 3<a class="headerlink" href="#chn-72-6-08-health-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-73-6-09-travel-3">
+<h3>CHN-73-6-09 Travel 3<a class="headerlink" href="#chn-73-6-09-travel-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-74-6-10-lang-3">
+<h3>CHN-74-6-10 Lang 3<a class="headerlink" href="#chn-74-6-10-lang-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-75-6-11-house">
+<h3>CHN-75-6-11 House<a class="headerlink" href="#chn-75-6-11-house" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-76-6-12-exam">
+<h3>CHN-76-6-12 Exam<a class="headerlink" href="#chn-76-6-12-exam" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-77-6-13-travel-4">
+<h3>CHN-77-6-13 Travel 4<a class="headerlink" href="#chn-77-6-13-travel-4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-78-6-14-comm-2">
+<h3>CHN-78-6-14 Comm 2<a class="headerlink" href="#chn-78-6-14-comm-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-79-6-15-work-2">
+<h3>CHN-79-6-15 Work 2<a class="headerlink" href="#chn-79-6-15-work-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-80-6-16-festivals">
+<h3>CHN-80-6-16 Festivals<a class="headerlink" href="#chn-80-6-16-festivals" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-81-6-17-gourmet-2">
+<h3>CHN-81-6-17 Gourmet 2<a class="headerlink" href="#chn-81-6-17-gourmet-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-82-6-18-net-slang">
+<h3>CHN-82-6-18 Net Slang<a class="headerlink" href="#chn-82-6-18-net-slang" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-83-6-19-business-1">
+<h3>CHN-83-6-19 Business 1<a class="headerlink" href="#chn-83-6-19-business-1" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-84-6-20-business-2">
+<h3>CHN-84-6-20 Business 2<a class="headerlink" href="#chn-84-6-20-business-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-85-6-21-emergency">
+<h3>CHN-85-6-21 Emergency<a class="headerlink" href="#chn-85-6-21-emergency" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-86-6-22-work-3">
+<h3>CHN-86-6-22 Work 3<a class="headerlink" href="#chn-86-6-22-work-3" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-87-6-23-weather-2">
+<h3>CHN-87-6-23 Weather 2<a class="headerlink" href="#chn-87-6-23-weather-2" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="chn-88-6-24-duo">
+<h3>CHN-88-6-24 Duo<a class="headerlink" href="#chn-88-6-24-duo" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duolinguo-chinese-voc.html" class="btn btn-neutral float-right" title="Duolingo - Chinese - Voc" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../gogame/gogame-youtube.html" class="btn btn-neutral float-left" title="Go game - Tricks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

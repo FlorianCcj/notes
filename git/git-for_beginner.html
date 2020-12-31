@@ -1,0 +1,730 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Git - For beginner &mdash; my_knowledge 0.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Git - Hook" href="git-hook.html" />
+    <link rel="prev" title="Git - Crash Course" href="git-crash-course.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> my_knowledge
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../todo/todo-000_wip.html">Todos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-if.html">Ansible - if</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ansible/ansible-molecule.html">Ansible - Molecule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-mysql-tricks.html">DB - MySQL - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-cypher.html">Db - Neo4j - Cypher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-neo4j-from_sql_to_neo4j.html">Db - Neo4j - From SQL to NEO4J</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../db/db-postgres-user_permissions.html">Db - Postgres - User Permissions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node.html">Discord - Bot - NodeJS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discord/discord-bot-node-example.html">Discord - Bot - NodeJS - First Example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git-config.html">Git - gitconfig</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git-crash-course.html">Git - Crash Course</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Git - For beginner</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#presentation">Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#utilisation-basique">Utilisation basique</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tldr">TLDR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pour-un-nouveau-projet">Pour un nouveau projet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rapatrier-le-depot-sur-votre-ordinateur">Rapatrier le depot sur votre ordinateur</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#premiere-edition">Premiere edition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#debut-des-branches">Debut des branches</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#un-petit-deuxieme-pas">Un petit deuxieme pas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">TLDR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bien-nommer-un-commit">Bien nommer un commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#la-staging-area">La staging area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#j-ai-des-lignes-en-trop">J ai des lignes en trop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#recuperation-de-modification">Recuperation de modification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#j-ai-fait-des-modifications-mais-je-n-ai-pas-encore-commit-mais-je-dois-recuperer-les-mises-a-jour-de-master">J ai fait des modifications mais je n ai pas encore commit … mais je dois recuperer les mises a jour de master</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#utilisation-avancee">Utilisation avancee</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">TLDR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#j-ai-oublier-une-portion-de-code-dans-mon-commit-comment-je-fais">J ai oublier une portion de code dans mon commit comment je fais</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bon-rearangeons-nos-commit">Bon rearangeons nos commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#verifiez-avant-de-pull">Verifiez avant de pull</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#des-supers-fichiers">Des supers fichiers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gitconfig">.gitconfig</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gitignore">.gitignore</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gitkeep">.gitkeep</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#qui-qu-a-fait-quoi">Qui qu a fait quoi?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#qu-est-ce-qui-c-est-passe">Qu est ce qui c est passe?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#que-et-quand-verifier">Que et Quand verifier</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#aller-plus-loin">Aller plus loin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="git-hook.html">Git - Hook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git-submodule.html">Git - Multi Repo management (submodule and fork)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git-trics.html">Git - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/aws-foundations_technical.html">AWS - Foundations Technical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/cloud_native-security_101.html">Cloud Native - Security 101</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-network.html">Docker - Network</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/docker-tricks.html">Docker - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-deploy-troubleshooting.html">K8S - Deploy - Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-getting_started.html">k8s - Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-no_yaml.html">Yaml is optional</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-observability.html">K8S - Observability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/k8s-security.html">K8S - Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-ansible.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-aws.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-consul.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_compose.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-docker_swarm.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-haproxy.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jenkins.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-jmeter.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-k8s.html">xavki-k8s</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-lxc_lxd.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-mesh.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-netcat.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-terraform.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../k8s/xavki-vagrant.html">Document history</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/default_bin.html">Linux - Default bin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-check_port.html">linux - check port</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-debug.html">Linux - debug</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-history.html">Linux - History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-triks.html">Linux - Triks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-tmux.html">Linux - Tmux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux/linux-vi.html">Linux - Vim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-grafana.html">Sup - Grafana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-monitoring_with_prometheus.html">Sup - Monitoring with Prometheus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-promql.html">Sup - promql</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sup/sup-thanos.html">Sup - Thanos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-admin.html">Vault - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-install.html">Vault - Install</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../vault/vault-user.html">Vault - User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-async_await.html">Angular - async await</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-environment.html">Angular - Environment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngclass_and_ngstyle.html">Angular - Ngclass and Ngstyle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-ngrx-pokedex.html">Angular - NgrxPokedex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-pwa.html">Angular - PWA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/angular-tricks.html">Angular - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-console_log.html">JS - console.log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-cypress.html">JS - Cypress</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-import.html">JS - Import</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-method-need-to-know.html">JS - Method you need to know</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-redux.html">JS - Redux Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-trick.html">JS - Trick</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-webpack_from_zero_to_hero.html">JS - Webpack from Zero to Hero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/js-what_s_new_in_es.html">JS - What s new in ES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/rxjs-tricks.html">RxJs - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../js/vue-router_middleware.html">Vue - Router Middleware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-venv.html">Python - Venv</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../python/python-good_practices.html">Python - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/php-best-practices.html">PHP - best-practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-begining.html">Symfony - First Step</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../php/symfony-test.html">Symfony - test</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/ccj_init_project.html">Sphinx - My personnal custo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sphinx/travis.html">Sphinx - Travis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-css_breakpoint.html">UiUx - CSS breakpoint</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-design-tricks.html">UiUx - uiux design tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-less.html">UiUx - LESS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uiux/uiux-skills.html">UIUX - Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conferences/2018-php_tour-montpelier.html">2018 - php tour - montpelier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../draw/draw-apprendre-a-dessiner.html">Apprendre a dessiner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/amazon-software_development_engineer_interview.html">Amazon Software Development Engineer Interview Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enigma/enigma-youtube.html">Enigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fantasy/fantasy-kabbale_angel.html">Table de rappel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-reading.html">Gogame - Reading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher.html">Gogame - Teacher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-ish.html">Gogame - Teacher - ISH</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-teacher-mdz.html">Gogame - Teacher - MDZ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-variante.html">Gogame - Variantes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gogame/gogame-youtube.html">Go game - Tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese.html">Duolingo - Chinese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-chinese-voc.html">Duolingo - Chinese - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german.html">Duolingo - German</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-german-voc.html">Duolingo - German - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian.html">Duolingo - Italian</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-italian-voc.html">Duolingo - Italian - Voc</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolingo-japanese-voc.html">Duolingo - Japanese</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../language/duolinguo-letter.html">Duolinguo - letter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic/magic-youtube.html">Magic - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../math/math-exercise_code.html">Math - Exercise Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-votre_temps_est_infini.html">Fabien Olicard - Votre temps est infini</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/fabien_olicard-youtube.html">Fabien Olicard - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/influence_hypnotique-youtube.html">Influence Hypnotique - Youtube</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mentalism/mentalism-other.html">Mentalism - Other</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-architecture.html">Methodology - architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-code-beginner.html">Methodology - Code - Beginner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-CQRS_event_sourcing_and_DDD.html">Methodology - Event Sourcing and Domain Driven Design (DDD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-fail_over.html">Methodology - Comment etre sur de rater ton projet informatique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-good_practices.html">Methodology - Code - Good Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-make_a_readme.html">Methodology - What to write in a README</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-parcours_colaborateur.html">Methodology - Parcours colaborateur</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../methodology/methodology-suck_in_programming.html">Methodology - Suck in programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/job-the_good_question.html">Job - The Good Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-libre_et_riche.html">Money - Libre et riche</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-lucbrialy.html">Money - Luc Brialy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-pierre_olivier.html">Money - Pierre Olivier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-cafe_de_la_bourse.html">Money - Cafe de la Bourse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-central_chart-formation_complete_trading.html">Money - Central Chart - formation complete trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-new_begin_2021.html">Money - New Begin 2021</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-thiami_kabbay-trading_art.html">Money - Thiami Kabbay - Trading art</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../money/money-trading.html">Money - Trading</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../music/music-beatbox.html">Music - Beatbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reading/disk_world.html">Reading - Disk World</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-eggs.html">Recipe - Eggs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-pasta.html">Recipe - Pasta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-full_meal.html">Recipe - Full Meal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recipe/recipe-vegetables.html">Recipe - Vegetables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote/quote-main.html">Quote</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../60_days_plan.html">Go - 60 days plan</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">my_knowledge</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Git - For beginner</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/git/git-for_beginner.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="git-for-beginner">
+<h1>Git - For beginner<a class="headerlink" href="#git-for-beginner" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="presentation">
+<h2>Presentation<a class="headerlink" href="#presentation" title="Permalink to this headline">¶</a></h2>
+<p>Ceci n’a pas vocation a etre un tuto, mais a donner les grandes lignes. Cette partie etant celle que je maitrise un peu plus et etant transverse aux differentes technos cette partie va etre un peu plus longue.</p>
+<p>Git va gerer votre code grace aux modifications, il ne va pas enregistrer votre code, uniquement les modifications effectuees au projet.</p>
+<p><strong>Cette gestion des modifications facilite la gestion des versions, le retour aux versions precedentes ainsi que la revue de code.</strong></p>
+<p>Git va gerer votre code en 5 zones:</p>
+<ol class="arabic simple" start="0">
+<li><p>stash: une zone de sauvegarde temporaire que nous approfondirons un peu plus tard</p></li>
+<li><p>workspace: la ou est indexe toutes vos modifications</p></li>
+<li><p>staging: la ou va etre indexe les modifications pretes a etre sauvegardees</p></li>
+<li><p>local repository: la ou est sauvegarde toutes les modifications</p></li>
+<li><p>upstream repository: generalement un server distant dans lequel on envoie toutes les modifications pour les sauvegarder, les publier quand on travaille a plusieurs, …</p></li>
+</ol>
+<p>Chaque modification est stockee et referencee par un SHA-1 (ex: 5aaec3b2a305cc47af10e1fd35dfb9bc569cdc1c)</p>
+<p>Les references peuvent etre appelees sous plusieurs formes:</p>
+<ul class="simple">
+<li><p>&lt;nom de branche&gt; : alias pour le commit le plus récent de la branche</p></li>
+<li><p>&lt;tag&gt; : alias de branche, jamais déplacé</p></li>
+<li><p>&lt;SHA-1&gt; : si non ambigu, le début du code suffit</p></li>
+<li><p>&lt;nom&gt;^ :  père du commit</p></li>
+<li><p>&lt;nom&gt;^n : nème parent (si parents multiples)</p></li>
+<li><p>&lt;nom&gt;~ : ancètre du dernier commit</p></li>
+<li><p>&lt;nom&gt;~n : nème ancêtre (HEAD~2=HEAD^^)</p></li>
+</ul>
+</div>
+<div class="section" id="utilisation-basique">
+<h2>Utilisation basique<a class="headerlink" href="#utilisation-basique" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tldr">
+<h3>TLDR<a class="headerlink" href="#tldr" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">&lt;l</span> <span class="pre">url</span> <span class="pre">que</span> <span class="pre">vous</span> <span class="pre">aurez</span> <span class="pre">sur</span> <span class="pre">la</span> <span class="pre">page</span> <span class="pre">du</span> <span class="pre">projet&gt;</span></code>: rapatrie le repository distant en local</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;le</span> <span class="pre">nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code>: cette commande passera le fichier du workspace vers le staging</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;&lt;un</span> <span class="pre">message</span> <span class="pre">traduisant</span> <span class="pre">les</span> <span class="pre">modifications</span> <span class="pre">misesdans</span> <span class="pre">le</span> <span class="pre">staging&gt;&quot;</span></code>: fait passer le staging en local repository</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code>: permet de passer de local a distant</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code>: rapatrie les modifications du server au local</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>: permet de voir les differentes area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code>: affichera les differences au sein du fichier</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">&lt;source</span> <span class="pre">branch&gt;</span> <span class="pre">&lt;target</span> <span class="pre">branch&gt;</span></code>: permet de comprendre la difference entre les deux branches</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">&lt;branch</span> <span class="pre">name&gt;</span></code>: place l environnement de travail sur la branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">&lt;ref&gt;</span></code>: accede a n importe quel reference</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-</span></code>: revient a la reference precedente</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">&lt;branch</span> <span class="pre">de</span> <span class="pre">integre</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">branch</span> <span class="pre">courante&gt;</span></code>: pour ajouter les modifications de la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code> dans la branch <code class="code docutils literal notranslate"><span class="pre">master</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">--ff</span> <span class="pre">&lt;branch</span> <span class="pre">de</span> <span class="pre">integre</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">branch</span> <span class="pre">courante&gt;</span></code>: fera comme precedemment mais ne creara pas de commit de merge</p></li>
+</ul>
+</div>
+<div class="section" id="pour-un-nouveau-projet">
+<h3>Pour un nouveau projet<a class="headerlink" href="#pour-un-nouveau-projet" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Creer un compte sur un serveur.</p></li>
+<li><p>creer un repository (ou depot en francais)</p></li>
+</ul>
+</div>
+<div class="section" id="rapatrier-le-depot-sur-votre-ordinateur">
+<h3>Rapatrier le depot sur votre ordinateur<a class="headerlink" href="#rapatrier-le-depot-sur-votre-ordinateur" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">&lt;l</span> <span class="pre">url</span> <span class="pre">que</span> <span class="pre">vous</span> <span class="pre">aurez</span> <span class="pre">sur</span> <span class="pre">la</span> <span class="pre">page</span> <span class="pre">du</span> <span class="pre">projet&gt;</span></code>: rapatrie le repository distant en local</p></li>
+<li><p>creer un nouveau fichier par exemple <code class="code docutils literal notranslate"><span class="pre">README.md</span></code></p></li>
+<li><p>ce fichier sera dans le workspace</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;le</span> <span class="pre">nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code> ici <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">README.md</span></code>: cette commande passera le fichier du workspace vers le staging et dira a git de suivre les modifications du fichier</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;&lt;un</span> <span class="pre">message</span> <span class="pre">traduisant</span> <span class="pre">les</span> <span class="pre">modifications</span> <span class="pre">misesdans</span> <span class="pre">le</span> <span class="pre">staging&gt;&quot;</span></code> par exemple <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;begin</span> <span class="pre">documentation&quot;</span></code>: fait passer le staging en local repository</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code>: permet de passer de local a distant</p></li>
+</ul>
+</div>
+<div class="section" id="premiere-edition">
+<h3>Premiere edition<a class="headerlink" href="#premiere-edition" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>editer votre fichier</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>: permet de voir les differentes area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code>: affichera les differentes modifications au sein des fichiers</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;le</span> <span class="pre">nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;&lt;un</span> <span class="pre">message</span> <span class="pre">traduisant</span> <span class="pre">les</span> <span class="pre">modifications</span> <span class="pre">misesdans</span> <span class="pre">le</span> <span class="pre">staging&gt;&quot;</span></code> par exemple <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;begin</span> <span class="pre">documentation&quot;</span></code>: fait passer le staging en local repository</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code>: permet de passer de local a distant (le push n est pas necessaire a chaque commit, vous pouvez le faire toutes les heures, demi journee, jour (maximum))</p></li>
+</ul>
+</div>
+<div class="section" id="debut-des-branches">
+<h3>Debut des branches<a class="headerlink" href="#debut-des-branches" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Les branches reviennent un peu a faire copier coller du dossier puis de modifier le projet, mais tout en gardant un lien avec le dossier d origin</p></li>
+<li><p>vous avez deja rencontrer une branche dans le paragraphe precedent <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code>, <code class="code docutils literal notranslate"><span class="pre">master</span></code> est le nom de la branche</p></li>
+<li><p>pour travailler il est recommande de ne jamais modifier directement sur la branche <code class="code docutils literal notranslate"><span class="pre">master</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">branch</span> <span class="pre">ma-premiere-feature</span></code>: va creer la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">ma-premiere-feature</span></code>: place l environnement de travail sur la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code></p></li>
+<li><p>les deux precedentes commandes peuvent etre resume par <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">ma-premiere-feature</span></code></p></li>
+<li><p>tous les commit que vous ferez a partir de ce moment seront reference comme faisant partie de la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">master</span></code>: replace l environnement de travail sur la branch <code class="code docutils literal notranslate"><span class="pre">master</span></code></p>
+<ul>
+<li><p>il faut savoir que <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span></code> permet d acceder a n importe quel reference: un tag, une branch, un commit, …</p></li>
+<li><p>de plus vous pouvez facilement revenir sur la reference precedente avec <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-</span></code></p></li>
+</ul>
+</li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code> si <code class="code docutils literal notranslate"><span class="pre">master</span></code> a ete modifier sur le depot distant cela permet de rapatrier les modifications sur votre branch <code class="code docutils literal notranslate"><span class="pre">master</span></code> local</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">&lt;source</span> <span class="pre">branch&gt;</span> <span class="pre">&lt;target</span> <span class="pre">branch&gt;</span></code>: permet de comprendre la difference entre les deux branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">ma-premiere-feature</span> <span class="pre">master</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">ma-premiere-feature</span></code>: pour ajouter les modifications de la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code> dans la branch <code class="code docutils literal notranslate"><span class="pre">master</span></code></p></li>
+<li><p>ou <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge</span> <span class="pre">--ff</span> <span class="pre">&lt;branch</span> <span class="pre">de</span> <span class="pre">integre</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">branch</span> <span class="pre">courante&gt;</span></code>: fera comme precedemment mais ne creara pas de commit de merge</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code>: permet d envoyer les modifications de la branch sur le depot distant</p></li>
+<li><p>l’idée sera a l avenir de dire a l un de vos collegue “j ai travailler sur la branch <code class="code docutils literal notranslate"><span class="pre">ma-premiere-feature</span></code> peux tu la recuperer la verifier et si tout te conviens alors on integrera les modifications dans <code class="code docutils literal notranslate"><span class="pre">master</span></code>”</p></li>
+<li><p>aujourd hui vous travaillez seul ? faites la meme chose “je verifie que j ai bien code, que je n ai pas laisse de commentaires inutiles, etc”</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="un-petit-deuxieme-pas">
+<h2>Un petit deuxieme pas<a class="headerlink" href="#un-petit-deuxieme-pas" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>TLDR<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>proposition de nommage de commit <code class="code docutils literal notranslate"><span class="pre">&lt;type&gt;(&lt;scope&gt;):</span> <span class="pre">&lt;subject&gt;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code>: a proscrire</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">-p</span></code>: recommander, permet de commit portion par portion</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--staged</span></code>: affiche le diff dans la <code class="code docutils literal notranslate"><span class="pre">staging</span> <span class="pre">area</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--color-words</span></code>: retire tout les espaces de l affichage et affiche le differenciel mot par mot</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--color-words=.</span></code>: utilise les regex, du coup affiche le differenciel charactere par charactere</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">&lt;nom</span> <span class="pre">de</span> <span class="pre">branch&gt;</span></code>: recupere les commit de retard par rapport a la branch d ou est issue votre branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code>: sauvegarde temporairement</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">list</span></code>: affichera les differents stash sauvegardees</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">stash&#64;{0}</span></code>: affichera les modifications enregistrees dans le stash</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">drop</span> <span class="pre">stash&#64;{0}</span></code>: supprimera le dernier stash</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">pop</span></code>: supprimera le <code class="code docutils literal notranslate"><span class="pre">stash&#64;{0}</span></code> et re-appliquera les modifications enregistrees</p></li>
+</ul>
+</div>
+<div class="section" id="bien-nommer-un-commit">
+<h3>Bien nommer un commit<a class="headerlink" href="#bien-nommer-un-commit" title="Permalink to this headline">¶</a></h3>
+<p>Tout d abord il faut bien conciderer que chaque commit doit sauvegarder un seul sujet, il ne faut pas avoir un commit <code class="code docutils literal notranslate"><span class="pre">creation</span> <span class="pre">des</span> <span class="pre">todos,</span> <span class="pre">management</span> <span class="pre">des</span> <span class="pre">listes,</span> <span class="pre">gestions</span> <span class="pre">des</span> <span class="pre">utilisateurs</span></code>. Ce commit devrait etre separer en au moins 3 commit.</p>
+<p>Pour un bon nommage de commit je recommande <a class="reference external" href="https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit">la convention que google a mis en place pour angular</a></p>
+<p>Pour resumer:
+* <code class="code docutils literal notranslate"><span class="pre">&lt;type&gt;(&lt;scope&gt;):</span> <span class="pre">&lt;subject&gt;</span></code>
+* type: la grande thematique du commit: <code class="code docutils literal notranslate"><span class="pre">build</span></code>, <code class="code docutils literal notranslate"><span class="pre">ci</span></code>, <code class="code docutils literal notranslate"><span class="pre">docs</span></code>, <code class="code docutils literal notranslate"><span class="pre">feat</span></code>, <code class="code docutils literal notranslate"><span class="pre">fix</span></code>, <code class="code docutils literal notranslate"><span class="pre">perf</span></code>, <code class="code docutils literal notranslate"><span class="pre">refactor</span></code>, <code class="code docutils literal notranslate"><span class="pre">style</span></code>, <code class="code docutils literal notranslate"><span class="pre">test</span></code> (non exclusif mais je pense que cela couvre une bonne majorite tout de meme)
+* scope: plus metier, dans l exemple precedent cela peut etre <code class="code docutils literal notranslate"><span class="pre">todo</span></code>, <code class="code docutils literal notranslate"><span class="pre">list</span></code>, <code class="code docutils literal notranslate"><span class="pre">user</span></code>
+* subject: la description precise de ce qui a ete modifie (generalement ne cite pas le nom des fichiers editees)</p>
+<p>Meme si ceci n est qu une proposition habituez-vous a bien separer vos commit et a bien les nommer.</p>
+</div>
+<div class="section" id="la-staging-area">
+<h3>La staging area<a class="headerlink" href="#la-staging-area" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>tres bien on doit separer les commit et bien les nommer mais <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier</span></code> ne le permet pas si j’ai plusieurs fonctionnalites dans le meme fichier.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code>: permet effectivement d ajouter tout un fichier, vous pouvez egalement ajouter une liste de fichier voir un dossier, tant qu il concerne bien une seule et meme fonctionnalitee</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code>: celui la est vu et revu dans de nombreux tutos, je vous recommande de ne l utiliser qu avec d immense precaution … voir pas du tout</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">-p</span></code>: mon chouchou, permet d ajouter portion de code par portion de code, git vous demandera de choisir</p>
+<ul>
+<li><p><code class="code docutils literal notranslate"><span class="pre">y</span></code>: stage this hunk</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">n</span></code>: do not stage this hunk</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">q</span></code>: quit; do not stage this hunk nor any of the remaining ones</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">a</span></code>: stage this hunk and all later hunks in the file</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">d</span></code>: do not stage this hunk nor any of the later hunks in the file</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">/</span></code>: search for a hunk matching the given regex</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">s</span></code>: split the current hunk into smaller hunks</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">e</span></code>: manually edit the current hunk</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">?</span></code>: print help</p></li>
+<li><p>les 4 options que j utilise principalement sont <code class="code docutils literal notranslate"><span class="pre">y</span></code>, <code class="code docutils literal notranslate"><span class="pre">n</span></code>, <code class="code docutils literal notranslate"><span class="pre">s</span></code> et <code class="code docutils literal notranslate"><span class="pre">e</span></code></p></li>
+</ul>
+</li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">-u</span></code>: ajoute les modifications des fichiers DEJA SUIVIS, les fichiers qui ne l etaient pas encore ne seront pas prit en compte</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-a</span> <span class="pre">-m</span> <span class="pre">&quot;mon</span> <span class="pre">super</span> <span class="pre">message&quot;</span></code> revient a faire une <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">-u</span></code> puis un <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;mon</span> <span class="pre">super</span> <span class="pre">message&quot;</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="j-ai-des-lignes-en-trop">
+<h3>J ai des lignes en trop<a class="headerlink" href="#j-ai-des-lignes-en-trop" title="Permalink to this headline">¶</a></h3>
+<p>Parfois le <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code> affiche des lignes ajoutees et supprimees … mais c est quoi ? ce sont des ajouts et des retraits d espaces ou de tabulations ca peut etre ennuyeux. Voici quelques commandes supplementaires</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--staged</span></code>: affiche le diff dans la <code class="code docutils literal notranslate"><span class="pre">staging</span> <span class="pre">area</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--color-words</span></code>: retire tout les espaces de l affichage et affiche le diffrenciel mot par mot</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--color-words=.</span></code>: utilise les regex, du coup affiche le differenciel charactere par charactere</p></li>
+</ul>
+</div>
+<div class="section" id="recuperation-de-modification">
+<h3>Recuperation de modification<a class="headerlink" href="#recuperation-de-modification" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>c est bien beau tout ca mais moi je travaillais sur la branch <code class="code docutils literal notranslate"><span class="pre">ma-deuxieme-feature</span></code> comment je recupere tes modifications que tu as merge dans master, je fais un <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">merge</span></code> ?</p></li>
+<li><p>du tout, cela va creer un commit de merge qui n a rien a faire la</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">master</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code> pour rapatrier l ensemble des modifications</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">ma-deuxieme-feature</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">master</span></code>: va permettre de recuperer sur votre branch l ensemble de commit qui aura ete envoye sur master (ou le nom de votre branch source si ce n est pas master)</p></li>
+<li><p>vous aurez desormais une branch a jour en local</p></li>
+<li><p>Attention au prochain <code class="code docutils literal notranslate"><span class="pre">push</span></code> que vous allez faire, il sera necessaire de le forcer avec un <code class="code docutils literal notranslate"><span class="pre">-f</span></code> car vous aller devoir ecraser l’historique de cette branche</p></li>
+</ul>
+</div>
+<div class="section" id="j-ai-fait-des-modifications-mais-je-n-ai-pas-encore-commit-mais-je-dois-recuperer-les-mises-a-jour-de-master">
+<h3>J ai fait des modifications mais je n ai pas encore commit … mais je dois recuperer les mises a jour de master<a class="headerlink" href="#j-ai-fait-des-modifications-mais-je-n-ai-pas-encore-commit-mais-je-dois-recuperer-les-mises-a-jour-de-master" title="Permalink to this headline">¶</a></h3>
+<p>Le <code class="code docutils literal notranslate"><span class="pre">stash</span></code> est fait pour vous, ca revient un peu a un <code class="code docutils literal notranslate"><span class="pre">commit</span></code> temporaire</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>: faite ca avant et apre le <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code> ce sera plus parlant</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code>: va creer un commit temporaire de reference <code class="code docutils literal notranslate"><span class="pre">stash&#64;{0}</span></code> et va retirer les modifications effectuees dans les fichiers suivi dans la working area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">list</span></code>: affichera les differents stash sauvegardees</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">stash&#64;{0}</span></code>: affichera les modifications enregistrees dans le stash</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">drop</span> <span class="pre">stash&#64;{0}</span></code>: supprimera le stash et decalera tout, l ancien <code class="code docutils literal notranslate"><span class="pre">stash&#64;{1}</span></code> deviendra le <code class="code docutils literal notranslate"><span class="pre">stash&#64;{0}</span></code> etc</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">pop</span></code>: supprimera le <code class="code docutils literal notranslate"><span class="pre">stash&#64;{0}</span></code> et re-appliquera les modifications enregistrees</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="utilisation-avancee">
+<h2>Utilisation avancee<a class="headerlink" href="#utilisation-avancee" title="Permalink to this headline">¶</a></h2>
+<p>Les points touchy et les points moins urgents a voir.</p>
+<div class="section" id="id2">
+<h3>TLDR<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">--amend</span></code>: va prendre ce que vous avez mit dans la staging area pour l ajouter dans le precedent commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">staging</span> <span class="pre">area&gt;</span></code>: permet de passer un fichier de la staging area vers la working area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD</span></code>: va effectuer la command precedente pour l ensemble de la staging area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD^</span></code>: va supprimer le dernier commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD^^</span></code>: va supprimer les 2 derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD~25</span></code>: va supprimer les 25 derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span> <span class="pre">&lt;branch</span> <span class="pre">source&gt;</span></code> ou <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span> <span class="pre">HEAD~10</span></code>: permet de re-aranger les commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">&lt;ref</span> <span class="pre">de</span> <span class="pre">commit&gt;</span></code> pour voir les commits</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">fetch</span></code> rapatrie les modifications sans ecraser votre branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">blame</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code> permet d afficher le nom du dernier modificateur des differentes lignes du fichiers</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span></code>: affichera les differents derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">-1</span></code>: affichera uniquement LE dernier commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">--oneline</span></code>: affichera les commit mais en simplifier</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">--graph</span> <span class="pre">--oneline</span> <span class="pre">--decorate</span></code>: avec plusieur branch cela permet d avoir une visualisation d ensemble</p></li>
+</ul>
+</div>
+<div class="section" id="j-ai-oublier-une-portion-de-code-dans-mon-commit-comment-je-fais">
+<h3>J ai oublier une portion de code dans mon commit comment je fais<a class="headerlink" href="#j-ai-oublier-une-portion-de-code-dans-mon-commit-comment-je-fais" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>le moyen hardcore mais tout est a refaire</p>
+<ul>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code>: va sauvegarder les modifications qui n ont rien a voir avec le commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD^</span></code>: va supprimer le commit et vous re-affichera les modifications dans la working area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;vos</span> <span class="pre">fichiers</span> <span class="pre">de-commiter&gt;</span></code>: les remettra dans la staging area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span> <span class="pre">pop</span></code>: re-affichera les midufications stash</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;ce</span> <span class="pre">que</span> <span class="pre">vous</span> <span class="pre">aviez</span> <span class="pre">oublie&gt;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&lt;votre</span> <span class="pre">message&gt;</span></code></p></li>
+</ul>
+</li>
+<li><p>le moyen soft</p>
+<ul>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;vos</span> <span class="pre">fichiers</span> <span class="pre">oublies&gt;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">--amend</span></code>: va prendre ce que vous avez mit dans la staging area pour l ajouter dans le precedent commit</p></li>
+</ul>
+</li>
+<li><p>je profite de ce paragraph pour presenter <code class="code docutils literal notranslate"><span class="pre">reset</span></code></p>
+<ul>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">staging</span> <span class="pre">area&gt;</span></code>: permet de passer un fichier de la staging area vers la working area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD</span></code>: va effectuer la command precedente pour l ensemble de la staging area</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">--hard</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">staging</span> <span class="pre">area&gt;</span></code>: <strong>supprime la modification du fichier present dans la staging area</strong></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">working</span> <span class="pre">area&gt;</span></code>: <strong>supprime la modification du fichier present dans la working area</strong></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD^</span></code>: va supprimer le dernier commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD^^</span></code>: va supprimer les 2 derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD~25</span></code>: va supprimer les 25 derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">--mixed</span></code>: comportement par default, revient a faire <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">--soft</span></code>: supprimera les modifications ciblées (commit) et les mettra dans la staging zone</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">--hard</span></code>: supprimera definitement les modifications ciblées.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="bon-rearangeons-nos-commit">
+<h3>Bon rearangeons nos commit<a class="headerlink" href="#bon-rearangeons-nos-commit" title="Permalink to this headline">¶</a></h3>
+<p>Plusieurs problemes se posent avec ce qu on a vu</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;list</span> <span class="pre">todo&quot;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;fix</span> <span class="pre">list&quot;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;fix</span> <span class="pre">list&quot;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;fix</span> <span class="pre">list&quot;</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&quot;fix</span> <span class="pre">list&quot;</span></code></p></li>
+<li><p>15 commit sur le sujet des list</p></li>
+<li><p>les commits de fix qui n en finissent plus</p></li>
+<li><p>ramener sur la branch <code class="code docutils literal notranslate"><span class="pre">master</span></code> ca donnerait 50% de commit de fix 49% de commit de merge … pas tres lisible</p></li>
+<li><p>une solution serait a <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">reset</span> <span class="pre">HEAD~&lt;le</span> <span class="pre">nombre</span> <span class="pre">de</span> <span class="pre">commit</span> <span class="pre">fait</span> <span class="pre">dans</span> <span class="pre">la</span> <span class="pre">branche&gt;</span></code> ?</p></li>
+<li><p>c est moche mais oui ca marcherait, il ne restera plus qu a tout recommit sujet par sujet</p></li>
+<li><p>Arrivé du <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span></code></p></li>
+<li><p>Mais qu est ce qu il raconte … <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span></code> ca permet juste de ratraper le retard de la branch source ?</p></li>
+<li><p>je vous presente <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span> <span class="pre">&lt;branch</span> <span class="pre">source&gt;</span></code> ou <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span> <span class="pre">HEAD~10</span></code></p></li>
+<li><p>cette commande vous affichera l ensemble des commit de votre branch et vous permettra de les reorganiser, les editer, les renommers etc</p></li>
+<li><p>generalement vous aurez les explications de chaque command dans le texte qui s affichera. Lisez bien l integralite.</p></li>
+<li><p>c est tout ce que tu as a dire ? utilisez <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span></code> ? c est pas terrible</p></li>
+<li><p>quatre choses</p>
+<ul>
+<li><p>d abord si vous ne connaissez pas les commandes vous ne pourez pas les utilisez, il fallait bien au moins vous l introduire</p></li>
+<li><p>apres un <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span></code> tout l historique est boulverse, il faudra un <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">-f</span></code> pour l imposer au server</p></li>
+<li><p>attention si vous reorganiser les commit alors que vous avez modifier deux fois la meme portion de code <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span></code> va vous demandez beaucoup de modification de commit, ne prenez pas peur, lisez ce que git vous dit et corrigez tranquillement vos fichiers</p></li>
+<li><p>utilisez <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">&lt;ref</span> <span class="pre">de</span> <span class="pre">commit&gt;</span></code> pour voir les commits, meme si vous les avez bien nommees, revoir ce que vous avez fait dedans permettra de vous rassurer</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="verifiez-avant-de-pull">
+<h3>Verifiez avant de pull<a class="headerlink" href="#verifiez-avant-de-pull" title="Permalink to this headline">¶</a></h3>
+<p>Le <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">pull</span></code> va rapatrier les modifications du serveur distant et ecraser votre branch local. En realite on peut rapatrier les references sans ecraser la notre.</p>
+<p>par exemple sur votre branch <code class="code docutils literal notranslate"><span class="pre">master</span></code>,</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">master</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">#git</span> <span class="pre">pull</span></code> ecraserait votre branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">fetch</span></code> rapatrie les modifications sans ecraser votre branch</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">master</span> <span class="pre">origin/master</span></code>: vous pourrez alors demander a git la difference entre le distant et le local</p></li>
+</ul>
+</div>
+<div class="section" id="des-supers-fichiers">
+<h3>Des supers fichiers<a class="headerlink" href="#des-supers-fichiers" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="gitconfig">
+<h4>.gitconfig<a class="headerlink" href="#gitconfig" title="Permalink to this headline">¶</a></h4>
+<p>c est dans ce fichier que vous trouverez vos configurations, vos alias, vos parametres d authentifications (sous linux generalement il est dans l home de l utilisateur <code class="code docutils literal notranslate"><span class="pre">~/.gitconfig</span></code>)</p>
+</div>
+<div class="section" id="gitignore">
+<h4>.gitignore<a class="headerlink" href="#gitignore" title="Permalink to this headline">¶</a></h4>
+<p>Quand vous builder, quand vous rapatriez des library externe, ou autre, vous creer des fichiers qui n ont rien a faire dans git.</p>
+<p>Grace a ce fichier <code class="code docutils literal notranslate"><span class="pre">.gitignore</span></code> vous pourrez les lister pour bien preciser a git de ne jamais les prendre en compte.</p>
+</div>
+<div class="section" id="gitkeep">
+<h4>.gitkeep<a class="headerlink" href="#gitkeep" title="Permalink to this headline">¶</a></h4>
+<p>Dans certaine situation nos scripts ont besoin d un dossier pour stocker des fichiers generes ou des fichiers uploades, malheureusement git ne prend pas en compte les dossiers vides.</p>
+<p>On creer donc un fichier vide dans ces dossiers a concerver pour faire comprendre aussi bien a git qu au autre contributeur de ne pas supprimer ce dossier. Par convention on appelle ces fichiers <code class="code docutils literal notranslate"><span class="pre">.gitkeep</span></code></p>
+</div>
+</div>
+<div class="section" id="qui-qu-a-fait-quoi">
+<h3>Qui qu a fait quoi?<a class="headerlink" href="#qui-qu-a-fait-quoi" title="Permalink to this headline">¶</a></h3>
+<p>Quand vous travaillez seul ce n est pas tres important. Mais quand vous travaillez a plusieurs, parfois vous ne comprenez pas certain code … bon outre le fait que si ce code est trop complique il faudrait peut etre le refactorer, pour le comprendre il suffit de demander a son autheur de l expliquer.</p>
+<p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">blame</span> <span class="pre">&lt;nom</span> <span class="pre">du</span> <span class="pre">fichier&gt;</span></code> permet d afficher le nom du dernier modificateur des differentes lignes du fichiers</p>
+</div>
+<div class="section" id="qu-est-ce-qui-c-est-passe">
+<h3>Qu est ce qui c est passe?<a class="headerlink" href="#qu-est-ce-qui-c-est-passe" title="Permalink to this headline">¶</a></h3>
+<p>Pour ceux qui ont regarder des tutos, vous l aurez vite vu, moi je l aborde que maintenant.</p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span></code>: affichera les differents derniers commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">-1</span></code>: affichera uniquement LE dernier commit</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">--oneline</span></code>: affichera les commit mais en simplifier</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span> <span class="pre">--graph</span> <span class="pre">--oneline</span> <span class="pre">--decorate</span></code>: avec plusieur branch cela permet d avoir une visualisation d ensemble</p></li>
+</ul>
+</div>
+<div class="section" id="que-et-quand-verifier">
+<h3>Que et Quand verifier<a class="headerlink" href="#que-et-quand-verifier" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Avant de commit toujours verifier ce que vous allez commit avec <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">--staged</span></code></p></li>
+<li><p>avant de recuperer un <code class="code docutils literal notranslate"><span class="pre">stash</span></code>, toujours verifier le continue avec <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">stash&#64;{0}</span></code></p></li>
+<li><p>avant de merge toujours verifier que l on a bien recuperer la branch source, sur la branch en cours de developpement faire <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">&lt;branch</span> <span class="pre">source&gt;</span></code></p></li>
+<li><p>avant de merge, toujours verifier le diff entre les deux branch <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span> <span class="pre">&lt;branch</span> <span class="pre">source&gt;</span> <span class="pre">&lt;branch</span> <span class="pre">target&gt;</span></code></p></li>
+<li><p>en cours de <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span> <span class="pre">-i</span></code>, toujours verifier les commit que l on va manipuler avec <code class="code docutils literal notranslate"><span class="pre">git</span> <span class="pre">show</span> <span class="pre">&lt;numero</span> <span class="pre">du</span> <span class="pre">commit&gt;</span></code></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="aller-plus-loin">
+<h2>Aller plus loin<a class="headerlink" href="#aller-plus-loin" title="Permalink to this headline">¶</a></h2>
+<p>Regarder</p>
+<ul class="simple">
+<li><p>git cherry-pick</p></li>
+<li><p>git flow</p></li>
+<li><p>git hook</p></li>
+<li><p>git submodule</p></li>
+<li><p>la specification semver</p></li>
+</ul>
+</div>
+<div class="section" id="sources">
+<h2>Sources<a class="headerlink" href="#sources" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/">https://pawelgrzybek.com/git-tip-staging-hunk-of-code-via-command-line/</a></p></li>
+<li><p><a class="reference external" href="https://dev.to/milu_franz/git-explained-an-in-depth-comparison-18mk">https://dev.to/milu_franz/git-explained-an-in-depth-comparison-18mk</a></p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="git-hook.html" class="btn btn-neutral float-right" title="Git - Hook" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="git-crash-course.html" class="btn btn-neutral float-left" title="Git - Crash Course" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2019, ccj
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
