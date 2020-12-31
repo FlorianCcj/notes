@@ -244,6 +244,11 @@ https://fio.readthedocs.io/en/latest/fio_doc.html
 * https://www.bing.com/videos/search?q=prometheus+operator+service+monitor&&view=detail&mid=F1E66C7A634304DF364BF1E66C7A634304DF364B&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dprometheus%2Boperator%2Bservice%2Bmonitor%26qpvt%3Dprometheus%2Boperator%2Bservice%2Bmonitor%26FORM%3DVDRE
 * https://kubernetes.io/fr/docs/reference/kubectl/cheatsheet/
 
+Good to know
+************
+
+* https://caylent.com/50-useful-kubernetes-tools-for-2020-part-2
+
 Document history
 ****************
 

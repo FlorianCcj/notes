@@ -9,7 +9,6 @@ L5A 39e90 (2-5) (plateau) (60-90 min)
 L ilie interdit 27e (2-4) (coop) (30-60 min)
 Loup garou pour une nuit  15e (10) () (20-30 min)
 Dixit 30e (3-6) () (30 min)
-Hanabi + 3 extension 24e90 (2-5) (coop) (30 min)
 
 tatamokatsu jeu cool 2-5 joueur voyage
 oriflamme (ambiance bluff, got)
@@ -54,5 +53,16 @@ top ten
 push (stop ou encore)
 tea for two (deck building funky)
 La mascarade des frères Grimm (trouve l identite en fonction des action, gros jeu)
+Dilemme Express (persuade le conducteur qui va ecraser)
+deadlines (chrono ++)
+
+
+insider
+love letter
+50 missions
+master word
+similo !!!!!
+super cats !!!!
+
 
 

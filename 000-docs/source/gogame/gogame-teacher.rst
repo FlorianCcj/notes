@@ -11,6 +11,18 @@ Gogame - Teacher
 * http://kaminoitte.fr/
 * https://tsumegodojo.wordpress.com/
 *  https://www.nordicgodojo.eu/  (Dacat on kgs)
+* https://www.jeudego.org/_php/_mori/mori.php
+* https://aligre.jeudego.org/ressources/les-liens-utiles/
+* https://grenoble.jeudego.org/ressources/liens/
+* http://tactigo.free.fr/j/index.php?option=com_content&view=article&id=42&Itemid=88
+
+* https://artdugo.fr/a-propos/
+* https://www.gokgs.com/archives.jsp
+* https://www.gokgs.com/help/protocol.html
+
+* https://www.101weiqi.com
+* tsumegohero
+* https://www.goratings.org/en/
 
 30 day challenge
 *****************

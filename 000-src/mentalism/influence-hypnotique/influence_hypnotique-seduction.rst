@@ -450,17 +450,90 @@ Chapitre 3 - Séduction Physique (SEXE)
 Cadre N°4 - Prendre du plaisir sexuel
 =====================================
 
-17
+* cadre 1: etre le prix
+* cadre 2: faire vivre une aventure emotionnelle
+* cadre 3: gagner sa confiance
+* cadre 4: prendre du plaisir sexuel
+
+creer une tension sexuel <=> prendredu plaisir sexuel
+                          <=> ande annonce d un film chaud
+
+* Action 1: souffler le chaud et le froid (ou renversement psychologique)
+
+  * le push pull: rejeter emotionnellement une femme, l eloigner de toi puis la ramener
+
+* Action 2: creer un alter ego sexuel
+* action 3: kino escalation
+* action 4: s isoler du monde exterieur
+* action 5: faire fuir la peur
 
 Le renversement psychologique - Souffler le chaud et le froid
 =============================================================
 
-16
+effet cliffhanger: jouer sur le suspence, le non dit
+
+* Routine 1: Je sais des choses sur toi
+
+  * ex1
+    * oh dit donc, j ai appris un truc sur toi
+    * quoi ? comment ca ? qu est ce que tu sais ?
+    * oh attend. c est hyper personnel
+    * mais dis moi
+    * Non, tu n es pas prete
+
+  * ex2
+    * j ai une intuition par rapport a toi, plus je te regarde, plus je t ecoute parler, plus j ai une impression et la j ai eu un flash de toi. Sexuellement je suis sur que tu peux etre douce, comme tu peux etre sauvage. Mais bon ... peut etre que je me trompe... peut etre que tu n es pas si folle que ca
+
+* Routine 2: Il faut que je te dise un truc
+
+  * Il faut que je te dise un truc mais je pense que tu n es pas prete. Ah c est dommage... parce que j aime bien l idee
+
+* Routine 3: Bon... ca ne va pas etre possible
+
+  * Bon ca ne va pas etre possible
+  * Quoi comment ca
+  * Entre toi et moi, je sens qu il y a un double malefique
+  * haha qu est ce que tu racontes
+  * bah le probleme c est que je sais que tu as un cote ange et un cote demon... et le probleme c est que j ai envie de parler a ton cote demon
 
 L'alter ego sexuel
 ==================
 
-15
+L alter ego est un bon pretexte pour sexualiser la conversation:
+
+* identifier la rait de caractere principal: intentionne, autoritaire, joyeuse, timide, genereuse, ...
+
+* Etape 1: creer du visage social
+
+  * "Tu sais ca se sent ... tu es une fille plutot joyeuse ... j aime bien ca ... tu as tout le temps le sourire. Tu as vraiment une bonne energie ... franchement j adore ca"
+  * Description le ressenti de sa personnalite
+  * le ou les traits de caractere qui la decrive le mieux
+
+* Etape 2: introduction a la segregation (separer unelement s un tout)
+
+  * entre elle et toi >> elle et les autres
+  * toi tu t interesses a son fond pas a ses formes
+  * "mais tu vois on a pas mal discute et dis moi si je me trompe mais j ai l impression qu on a vraiment eu des sujets de discutions qui vont en profondeur. J ai ressenti une connexion avec toi j ai vraiment envie de te faire confiance et c est rare. J ai l impression que c est different."
+  * Yes Set powa
+
+* Etape 3: Creation de l alter ego
+
+  * opposer son visage social a un nouveau visage
+  * "Comme je te disais, j ai envie de te faire confiance et j ai vraiment l impression que j ai face a moi une femme qui a une part d elle dissimuleem tu sais ... je sens que ton cote joyeux cache aussi un cote completement fou, et j aime ca"
+  * terme a utiliser pour le second visage: fou, excentrique, sensuelle, amoureuse, sensible, obeissante, desobeissante, fougueuse, bouillonante, dechainee, infernale
+  * autoritaire => elle a surement un cote obeissant, sensuelle ou excentrique
+  * timide => elle a surement un alter ego desobeissant, fougueux ou sensuel
+  * si elle demande pourquoi, se refugier deriere l intuition et l ignorance de certain aspect de sa propre personnalite
+
+* Etape 4: Discussion entre alter ego
+
+  * on cherche a discuter avec l alter ego
+  * mais c est top, j aime bien cette partie cache de ta personnalite. Tu sais moi je fais le con, mais j ai une part de sensibilite. J ai envie de te faire confiance et partager ca avec toi. Mais toi est ce que tu es prete a me montrer qui tu es au fond de toi ?
+
+Exercice
+--------
+
+* avoir une Discussion "profonde" avec un ami ou une rencontre
 
 Kino Escalation (Partie 2)
 ==========================

@@ -41,6 +41,23 @@ rouge   28-29
 rouge   29-30
 total         140 + 4
 
+jaune - mec qui invoque 2 ombre
+jaune - arcaniste snapback
+jaune - druide
+jaune - double epee invocateur de squelette
+jaune - loup garou
+jaune - cercueil
+jaune - servante noir mitrailleuse
+jaune - bastonneur
+jaune - bombardier
+violet - roi noir
+violet - assassin screed
+violet - chevalier servant
+violet - danceuse a la lanterne
+violet - assassin vert
+violet - bombardier rouge
+violet - cavalier
+
 Elevation
 =========
 
@@ -337,6 +354,43 @@ Stuff
           * 9 pendentif de l oracle
     *
   * Vert niveau 5 (rouge)
+  * Vert total
+    * 1 botte de peregrin
+    * 1 encensoir de sanctuaire
+    * 1 ensensoir de sanctuaire
+    * 1 fendoir cruel
+    * 1 joyaux d agilite
+    * 1 lame d ombre
+    * 1 masque d effroi
+    * 1 pendentif de l oracle
+    * 1 sceau d apprenti
+    * 2 appel furieux
+    * 2 botte de cavalerie
+    * 2 ceinture d officier
+    * 2 encensoir du temple
+    * 2 masque de confesseur
+    * 2 oeil d agilite
+    * 2 regicide
+    * 3 arc foudroyant
+    * 3 botte de marcheur
+    * 3 chevaliere de saintete
+    * 3 couronne d immortel
+    * 3 encensoir de cathedrale
+    * 3 incarnation de grace
+    * 3 lame sublime
+    * 3 noyau d agilite
+    * 3 voile de silence
+    * 4 cognee de l eternel
+    * 4 ensensoir de basilique
+    * 4 marcheur de l aube
+    * 4 perce nuage
+    * 4 voile feutre
+    * x bouclier de noiracier
+    * x ecu allonge
+    * x plastron de l eclaireur
+    * x sceau de marchelianthe
+    * x serment du crepuscule
+    * x tenue de la garde
 * Violet
   * Violet niveau 1 (vert)
     * botte de peregrin
@@ -536,18 +590,18 @@ Ville
   * gain+ 240
   * jaune
     * disponibility
-      * blanc: 0/8
-      * orange: 1+3/8
-      * vert: 1/9
-      * noir: 2/8
+      * blanc: 2/8
+      * orange: 0/8
+      * vert: 3/9
+      * noir: 1/8
 * Gear 6
   * gain 240
   * gain+ 288
   * rouge
     * disponibility
       * blanc: 6/6
-      * orange: 0/6
-      * vert: 1/5
+      * orange: 1/6
+      * vert: 0/6
       * noir: 0/5
 * Gear 7
   * gain 280
@@ -573,7 +627,18 @@ Gain/lvl
 23-10 violet 08h = 296
 23-10 violet 24h = 890
 
+boss de Guilde
+===============
 
+saurus (serpent vert) + lame
+warec (tabasseur jaune) + oeil de dura
+rosaline (servante blanche) + lame
+lorsan (druide vert) + conviction ou tank
+jumeau + appel
+belina pretresse + oeil
+
+1 ere ligne pretresse, saurus
+2e ligne servant, jumeau, druide
 
 Compo
 =====
@@ -859,4 +924,59 @@ bariere
 * lvl 15: 009 ac - 156 ac (4h10)
 * lvl 20: 042 ae - 000 zz (6h40)
 * lvl 25: 065 ah - 000 zz (0h00)
+
+continent
+=========
+
+niveau 76/180
+
+1. cote au tresor
+2. Ruisseau de la ruee vers l or
+3. royaume perdu
+4. sentier oublie
+5. riviere dechainee
+6. dernier point de controle
+7. montagne de glace 91-105
+8. sommet de la victoire 106-120
+9. glacier eternel 121-135
+10. toundra inexploree 136-150
+11. prairie des pommiers 151-165
+12. canyon mystique 166-180
+
+recherche
+=========
+
+10 + 1 + 2 + 3 + 5 + 7 + 10 + 10 + 10 + 10 = 68
+20 + 2 + 4 + 6 + 10 + 14 + 20 + 20 + 20 + 20 = 136
+
+vert = (8 * 5 + 6) * 68           = 46 * 68 = 3168 - 0531 = 2597
+bleu =                              24 * 68 = 1632 - 0510 = 1122
+rouge =                             18 * 68 = 1224 - 0469 = 0735
+rose =                              15 * 68 = 1020 - 0372 = 0648
+violet = 6 * 6 * 68               = 36 * 68 = 2448 - 0348 = 2100
+turquoise = (6 + 5 + 6 * 4) * 68  = 35 * 68 = 2380 - 0188 = 2192
+
+vert      = 10 * 10 + 2 * 136                                 = -->372<-- = 2 * (68 - 10) + 2 * 68 = ->242<-
+bleu      = (2 * 10) + (68 - 10)                              = -->78<-- = 4 * (68 - 10) = ->232<-
+rouge     = 12 * 10 + (68 - 11) + (68 - 11) + (68 - 13)       = -->289<--
+rose                                                          = -->10<-- = 3 * (68 - 10) = 174
+violet    = (6 * (68 - 10)) + (12 * 10 + 7) + (6 * 68)        = 348 + 127 +360 + 48
+turquoise = 3 * (68 - 10)                                     = -->174<-- = (3 * 10 + 68) + (4 * 6 * 10) + 3 * (68 - 10) = ->414<-
+
+10x * 1h * 11 (.5%)
+20x * 4h * 15 (1%)
+10k (1%)
+100x * 5m * 25 (1%) = 25 * 2000 = 50 000
+25k (1.5%)
+1000x * 5m * 5 (3%)
+
+suivi
+=====
+
+002.14 an (continent vert)
+105.00 ak (continent bleu)
+005.44 aj (continent rouge)
+021.80 ad (continent rose)
+19 mine continent
+42 medailles
 

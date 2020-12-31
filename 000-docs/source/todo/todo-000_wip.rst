@@ -42,7 +42,6 @@ Folder in sulfur
   * action
   * succes social
 
-* Ludochrono - Dig Your Way Out
 * dessin
 
   * module 1 3/06
@@ -212,6 +211,7 @@ Doc to read/to write
         * monday.com
     
 * tmp:
+    * Implementing Domain-Driven Design by vaughn vernon
     * avocat fiscaliste ou expert comptable
     * sentry
     * https://www.youtube.com/watch?v=sFk8kPNJ0XE
@@ -226,7 +226,8 @@ Doc to read/to write
     * https://medium.com/better-programming/how-to-learn-any-new-programming-language-quickly-94996895669b
     * https://medium.com/swlh/automating-front-end-development-a97f98c15af6
     * https://dev.to/duomly/the-best-practices-of-coding-in-python-and-what-to-avoid-3c65?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
-    * https://dev.to/digitalocean/understanding-this-bind-call-and-apply-in-javascript-dla?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
+    * https://dev.to/digit
+    alocean/understanding-this-bind-call-and-apply-in-javascript-dla?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
     * https://dev.to/bnevilleoneill/5-things-you-can-do-with-css-instead-of-javascript-975?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
     * https://medium.com/swlh/optimize-the-hell-out-of-your-javascript-programs-with-memoization-eadf7ca22caf
     * https://medium.com/free-code-camp/how-to-use-the-javascript-console-going-beyond-console-log-5128af9d573b
