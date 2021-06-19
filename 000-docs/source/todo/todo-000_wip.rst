@@ -17,21 +17,24 @@ Folder in sulfur
 
 * clean up room
 * jdr boost
-* sup
-
-  * prom 114/394
-  * SRE 0/550
-  * Devops with kube 0/344
-
-* sf challenge
 * money 
+
     * art 4/409
     * for dummy 0/406
+    * centralchart
+
 * boulot
 
   * well architect
 
 * go
+
+  * server
+  * se faire un theme
+    * https://www.youtube.com/watch?v=3QABaBZTjPo
+    * https://www.youtube.com/watch?v=0v_MYyXz3uc
+    * https://www.youtube.com/watch?v=ow4Ni_dxGF0
+
 * mentalism
 
   * cold reading
@@ -49,6 +52,10 @@ Folder in sulfur
   * module 3 0/04
   * module 4 0/10
   * module 5 0/01
+
+* projet team boarding
+* google algo
+* google entrepreunariat
 
 Daily
 *****
@@ -77,11 +84,11 @@ Daily
 Big project
 ***********
 
-* mentalist
-* challenge
+* mentalist (estime de soi)
+* go game (chuban, yose)
 * draw
-* go game
 * money
+* tgo team boarding
 
 * music
 * fast reading
@@ -209,7 +216,10 @@ Doc to read/to write
     * dart + fluter to replace reactnative
     * inspiration project
         * monday.com
-    
+
+* reading
+    - "Comment se faire des amis et influencer les autres" de Dale Carnegie
+    - "Ne couper jamais la poire en deux" de Chris Voss et Tahl Raz
 * tmp:
     * Implementing Domain-Driven Design by vaughn vernon
     * avocat fiscaliste ou expert comptable

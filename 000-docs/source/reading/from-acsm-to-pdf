@@ -1,0 +1,27 @@
+Reading - From ASCM to ... reading
+###################################
+
+adobe digital edition
+**********************
+
+* ouvrir avec adobe digital edition
+
+  * possible d ouvrir sans compte
+
+* cela va ouvrir le livre
+* Fichier -> infos sur l element -> recuperer le chemin
+
+Calibre
+*******
+
+* Ouvrir Calibre
+* Ajoute un livre -> selectionner le livre
+* Clic droit -> enregistrer sous
+* Convertir en pdf
+
+
+avoir apprenticealf s drm removal plugin
+
+calibre -> preference -> plugin
+ajouter une extension par fichier
+le pluggin dedrm

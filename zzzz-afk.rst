@@ -4,6 +4,171 @@ Games
 Afk arena
 *********
 
+3v3
+====
+
+Test 1
+------
+
+* one
+
+  * roulote
+  * archer vert
+  * bombardier rouge
+  * aspiro
+  * papillon
+
+* two
+
+  * pendragon
+  * bouclier
+  * bombardier noir
+  * archer blanc
+  * servante energie
+
+* trois
+
+  * serpent
+  * phoenix
+  * daemon
+  * cimetierre
+  * ainz
+
+Test 2
+------
+
+* ou
+
+  * jumeau
+  * papillon
+  * bombardier rouge
+  * aspiro
+  * archer vert
+
+* ou
+
+  * pretresse
+  * bouclier
+  * servante
+  * roulotte
+  * cimetierre
+
+* ou
+
+  * chevalier noir
+  * roi noir
+  * chevre verte
+  * serpent
+  * pretresse noir
+
+Test 3
+------
+
+roulotte
+archer vert
+bombardier rouge
+aspiro 
+papillon
+
+pandragon
+cornu
+ainz
+assassin
+daemon
+
+boubou
+phoenix
+archer blanc
+servante
+bombardier noir
+
+Test 4
+------
+
+penddragon
+cornu
+ainz
+assassin
+roulotte
+
+archer vert
+pillon
+bombardier rouge
+aspiro
+bombardier noir ou jumeau
+
+boubou
+phoenix
+archer blanc
+servante ou bombardier noir
+daemon
+
+Test 4
+------
+
+pretresse
+boubou
+servante
+roulotte
+cercueil
+
+pillon
+jumeau
+bombardier rouge
+aspiro
+archer vert
+
+cornu
+qween
+ainz
+toto
+double lame
+
+Test 5
+-------
+
+pillon archer bomber noir serpent aspi
+pandragon - cornu - ainz - assa - queen
+boubou roulote tripode servante cercueil
+
+Test 6
+------
+
+archer - aigle - bomber rouge - aspiro - tourbilloneur
+roi noir - phoenix - daemon - roulotte - crochet
+dada - pendragon - servante - archer - cercueil
+
+5v5
+====
+
+Test 1
+------
+
+pendragon - cornu - ainz - harpon - assassin
+archer vert - pillom - bomb rouge - aspiro - tank ombre
+scaphandre - double epee noir - bomb noir - daemon - oden
+boubou - roulotte - cercueil - servant - archer blanc
+tourbi - phhoenix - saute partout - fleur - jumeau
+
+Test 2
+------
+
+cornu - pendragon - ainz - totem - robin
+jumeau - pillon - bonbar rouge - archer vert - aspiro
+roulotte - boubou - servante - tripode - cercueil
+double epee - roi - daemon - bombar noir - nuage
+tourbilol - doople - saute partout - joker - phoenix
+
+Test 1
+------
+
+pendragon - cornu - ainz - roulotte - assassin
+archer vert - pillom - bomb rouge - aspiro - tourbi au sol
+scaphandre - double epee noir - roulette - harpon - daemon
+dada - boubou - bobard noir - archer blanc - servant
+tourbi - phhoenix - tank ombre - fleur - jumeau
+
+
 coup speciaux
 ==============
 
@@ -72,10 +237,10 @@ v+    -> r+ === 10v+
 j/j+  -> r+ === 8v+
 r     -> r+ === 4v+
 
-Porteur de lumiere  1v+ + 1j+ + 0r = 10 + 08 + 00 = 18-1
-Barbare             2v+ + 2j+ + 0r = 20 + 16 + 00 = 36-0
-Enfant de la foret  3v+ + 3j+ + 1r = 30 + 24 + 04 = 58-0
-Mort Vivant         3v+ + 2j+ + 0r = 30 + 16 + 00 = 46-1
+Porteur de lumiere  4v+ + 2j+ + 0r = 40 + 16 + 00 = 56-20 = 36
+Barbare             3v+ + 1j+ + 0r = 30 + 08 + 00 = 38-10 = 28
+Enfant de la foret  3v+ + 1j+ + 0r = 30 + 08 + 00 = 36-12 = 24
+Mort Vivant         5v+ + 2j+ + 0r = 50 + 16 + 00 = 66-11 = 55
 
 Main
 
@@ -627,6 +792,38 @@ Gain/lvl
 23-10 violet 08h = 296
 23-10 violet 24h = 890
 
+Bijoux a up
+===============
+
+fawkes
+assasin ezio
+roi noir
+safiya
+
+roi singe wu kong
+ombre noir
+skriath
+kaz
+gwyneth
+thane
+cecilia
+
+seirus
+satrana
+queen
+estrilla
+bomb vert
+antandra
+isabella
+warek
+
+therapiego
+tealco
+arnaud
+patewing
+beerach
+gabriel levy
+
 boss de Guilde
 ===============
 
@@ -910,11 +1107,21 @@ normal
 idle mine
 *********
 
-bleu - triangle - jaun - multi - diform
+artefact
+========
 
-
-
-depart - bleu - rouge  - aube       - crepu
+0.3 4/15 ticket super (750 => (15-4)*750 = 11\*750 = 8250 => 0.3/8250 = 0.00 004)
+0.6 39/100 roue (75 => (100-31)\*75 = 69\*75 = 5175 => 0.6/5175 = 0.00 01)
+ou 0.6 39/100 roue (150 => (100-31)\*150 = 69\*150 = 10350 => 0.6/10350 = 0.00 005)
+0.8 71/250 booster (150 => (250-59)\*150 = 191\*150 = 28500 => 0.8/28500 = 0.00 003)
+1.0 4/15 4h 20x
+1.2 4/50 ticket super (750 => (50-4)\*750 = 46\*750 = 34500 => 1.2/34500 = 0.00 003)
+1.0 2/25 5m 100x (2000 => (25-2)\*2000 = 23\*2000 = 46000 => 1.0/46000 = 0,00 002)
+1.0 39/250 roue (75 => (250-31)\*75 = 219\*75 = 16425 => 1.0/16425 = 0,00 006)
+ou 1.0 39/250 roue (150 => (250-31)\*150 = 219\*150 = 32850 => 1.0/32850 = 0,00 003)
+1.0 20e
+1.5 25k => 1.5/25k = 0.00 01
+3.0 1/5 5m 1000x
 
 bariere
 =======
@@ -979,4 +1186,3 @@ suivi
 021.80 ad (continent rose)
 19 mine continent
 42 medailles
-

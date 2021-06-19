@@ -20,7 +20,7 @@ On joue normalement, mais a chaque fois qu on joue une pierre on retire celle qu
 Deglingo
 ********
 
-par Ronin
+par R0n1n
 
 A la maniere de l Unicolor. Sauf que les deux premieres pierres sont noires, puis les deux suivantes blanches et ainsi de suite.
 
@@ -61,6 +61,119 @@ Une partie est généralement jouée sur 9×9.
 * https://play.google.com/store/apps/details?id=de.roland_illig.android.phantomgo
 * https://go.kahv.io/ (prevu)
 
+Hunger go
+*********
+
+Duree: Grosso modo 2h
+
+2 équipes de 10 joueurs max plus un coatch vont s'affronter !
+
+Un ordre de passage est pré-établi, chacun joue un nombre de coup déterminé.
+
+Pendant qu une personne passe, il n a pas le droit de discuter avec les autres.
+
+A cote de ca, le coatch discute de futures plans avec les autres joueurs.
+
+penser a dire au coatch de destresser les joueurs
+
+Annonce d ouverture
+===================
+
+Salut tout le monde l'hunger go est en approche, nous avons besoin de 10 a 20 joueurs pour participer a l affrontement du 21 mai 2021 a 20h.
+
+Qu est ce que l "hunger go" ?
+
+* Une arene de 12 a 22 personnes vont lutter pour leur survie
+* 2 equipes de 10 joueurs max plus un coatch vont s'affronter !
+* Un ordre de passage est pré-établi, chacun joue un nombre de coup déterminé.
+* Pendant qu une personne passe, il n a pas le droit de discuter avec les autres.
+* A cote de ca, le coatch discute de futures plans avec les autres membres de l equipe.
+
+Vous voulez participer ? envoyez moi un mp, et puisse le sort vous etre favorable.
+
+Orga
+====
+
+Sur Kgs
+1 demo, cree par l organisateur, celui ci donnera la main aux joueurs
+2 clone, un par coatch
+
+Sur discord, trois salons, un par equipe, un de lancement qui restera ouvert
+Les salons d equipe, seul les equipes ont le droit d acces
+Lorsqu un joueur passe, il se rend sourd et muet
+
+En debut de jeu les coachs ont 10 min pour determiner l ordre de passage des joueus et le transferer a l orga
+
+Sur la demo orga, quand l orga ecrit STOP les joueurs jouent encore un coup chacun, puis l orga passe aux joueurs suivant.
+eviter de jouer un coup en plus de 30 sec
+
+3 jokers par equipe, pour les utiliser, dire JOKER dans le chan kgs (les coatchs sont libres de proposer qui et comment les utiliser).
+Attention le joker profite au deux equipes.
+lors de l utilisation du joker les joueurs en train de jouer on droit d interagir avec leur equipe pendant 2 min
+
+Merci au spectateur de ne pas ecrire dans les demos
+
+La partie cache de l iceberg
+============================
+
+- en avance
+  - trouver deux coatch
+  - lancer le recrutement au moins 2 semaines en avance
+  - faire un rappel a 1 semaine, 3 jours et le jour J
+  - s arranger pour avoir les trois vocaux en avance, les verifier avec les 2 coatchs
+  - se faire des notes de ce qu il faut presenter lors du lancement
+  - verifier que les coatch savent bien utiliser les demos
+  - verifier que les joueurs savent bien rejoindre les demos/ont le bon materiel
+- jour J
+  - rassembler tout les participants dans un salon, + spectateur ?
+  - l orga creer la demo de jeu
+  - demander aux coatchs de creer les clones
+  - preciser de bien lire le chan de communication (que se soit sur kgs ou discord), pour que les messages de l orga soient bien lu
+  - laisser 10 min au coach pour 
+    - preciser les regles a leur equipe
+    - definir une strategie de jeu, et une strategie d utilisation des jokers
+    - definir l ordre de passage de joueur (coatch inclus ou non)
+  - une fois les 2 ordres de passage defini, donner la main au deux premiers joueurs et c est partie
+  - recommendation:
+    - avoir sur un blocnote les listes de passage, avec la couleur de chaque joueur
+    - la liste doit etre faites des psuedo kgs pour n avoir qu a copier coller
+    - avoir les messages sur un bloc note pour n avoir qu a les copier coller ("STOP 2 minutes de pose", "Dernier coup", "joueur suivant s il vous plait", ...)
+    - avoir une marque pour savoir quel joueur est en train de passer
+    - avoir une marque pour savoir qui est le premier joueur a avoir jouer pendant ce tour
+  - a l orga de juger le nombre de coup jouer par les deux joueurs
+    - pas trop pour que si un joueur faible tombe sur un joueur fort il ne soit pas trop longtemps en difficulte
+    - pas trop peu pour eviter que les joueurs ne face que reciter ce que le coach a montre
+    - a titre indicatif au hunger go du 2021.05.22 le nombre de coup cumule des deux joueurs tournaient entre 10 et 20 coups
+    - parfoit un nombre impair de coup de maniere a ce que le premier coup soit parfois pour noir, parfois pour blanc lors du changement de jouer
+  - quand deux joueurs sont en train de jouer, les prevenirs quand 30 sec sont passe
+  - prevenir quand c est le ou les deux derniers coups a jouer
+  - quand on demande au joueur de s areter
+    - reprendre la main de maniere a ce que les joueurs ne jouent pas des coups en plus
+    - lancer le chrono pour ne pas depasser le temps decider pour le passage entre deux joueurs
+    - preparer le fait de donner la main au joueur suivant
+    - preparer les messages pour demander aux joueurs suivants de se mute
+  - 10 sec avant la fin du chrono de passage, envoyer le message pour demander aux joueurs suivants de se mute, de cacher la demo des coachs et de passer sur la demo de l orga
+  - quand les 2 joueurs sont mutes, leur donner la main pour qu il puisse jouer
+
+a titre indicatif, hunger go du 2021.05.21 300 coups 2h30 de jeu
+
+JO
+***
+
+Theme
+* tsumego
+* yose
+* fuseki
+* chuban
+
+Quiz
+* qui est le 5e honinbo
+* quel est l ouverture prefere de gu li
+* qu est ce qu un honinbo honoraire
+
+Vitesse
+* aller le plus loin possible en reposant
+
 La strasbourgeoise
 *******************
 
@@ -72,7 +185,7 @@ https://strasbourg.jeudego.org/regle_strasbourgeoise.htm
 Le go du demineur
 *****************
 
-par Ronin
+par R0n1n
 
 Deux joueurs et un mineur.
 
@@ -122,6 +235,19 @@ Play in this kind of goban
 
 .. image:: assets/Roundgo.jpg
 
+Tactigo
+=======
+
+Le Tactigo est une variante du Go, dont le but pour blanc est d'avoir un seul groupe vivant, et pour noir de l'en empêcher. Pour l'aider, noir dispose de nombreuses pierres d'avance sur le goban (traditionnellement 17, placées comme sur le modèle 1.)
+Le komi est ajusté de telle sorte que Blanc gagne s'il fait un groupe vivant.
+
+Pour jouer, il suffit de charger le SGF du modèle de votre choix ci-dessous , de le télécharger dans la salle SITS de KGS (dans la fenêtre principale de KGS, Fichier>Télécharger un fichier SGF en...>Stones in the Shell)
+Ensuite, quand votre adversaire est entré dans la démo, allez dans Outils>Sélectionner les joueurs (en haut à gauche) et d'entrer les pseudos des joueurs.
+
+Tactigo : Variante de la règle du Gâteau (miam)
+Vous pouvez varier les pierres noires placées au départ en suivant cette règle:
+choisissez le modèle 3, 4 ou 5 (en fonction de la taille souhaitée.) Ensuite, le premier joueur pose un nombre de pierres noires de son choix. Quand il a fini, le deuxième joueur décide s'il souhaite jouer Noir ou Blanc.
+
 Torigo
 ******
 
@@ -139,6 +265,97 @@ Unicolor
 
 Chacun des partenaires a un bol de pierres blanches. Chaque pierre jouer nous appartient. Il est donc necessaire de retenir les coups jouer.
 
+CgobanH
+*******
+
+tellecharger cgobanh: http://beijinggoclub.com/cgoban-h.jar
+version hack de cgoban, attention il est interdit de se faire attraper sinon c est le ban
+
+Puis pour passer en blindgo ecrire BLINDGO dans le chan de la game
+Pour reverse VISIBLE
+Pour passer en unicolor ONECOLOR
+Pour reverse MULTICOLOR
+
+Challenge
+*********
+
+Fuseki
+======
+
+Random opening challenge #Ryan Li
+
+Fuseki - Tenuki
+===============
+
+Jouer tenuki (presque) tous les premiers vingt coups.
+
+Guess the move
+==============
+
+Find the best move ( a nous de mettre dans une situations et aux participants de repondre)
+
+Joseki - Favorite
+=================
+
+chacun choisit son joseki prefere
+le but étant de le jouer le plus possible sur les 2 ou 3 prochaines semaines
+le but étant de collecter, à chaque partie, une variante ou variation différente ( tu sens venir le kata?)
+
+Joseki - learning
+=================
+
+Apprendre et jouer un joseki par jour.
+
+New style
+=========
+
+Être simple et solide. Ou l'inverse, être créatif et agressif.
+
+No continue
+===========
+
+ne jamais jouer 2 pierres concecutives sur la meme ligne (avant le 200ieme coup, ou le yose)
+
+Peep game
+=========
+
+ne jamais connecter un peep
+
+Review - balance
+================
+
+dans le sens des auto review
+soit dans ses propres parties soit dans des parties vu/revue/de pro
+a chaque fois qu un groupe est perdue faire le bilan de ce que l autre gagne et comment il peut l exploiter
+
+Review - Sum up
+===============
+
+dans le sens des auto review
+soit dans ses propres parties soit dans des parties vu/revue/de pro
+au 100e, 150e, 200e coup faire le bilan des erreurs (les designer par un triangle) et le bilan des points
+
+Timer
+=====
+
+Jouer tout les 45 sec en main time et dans les 5 dernieres secondes en temps byo :heart:
+
+Tsumego
+=======
+
+* faire un des "gros" set d exo (celui de gunth, celui de vidada, un cho chikkun, ....)
+* Series de 20 tsumegos le plus rapidement possible
+* Series de 20 tsumegos en 5m
+
+Variante
+========
+
+* faire une unicolor/blind par semaine
+* Simultane de 3 parties
+* 100 parties dans le mois
+* Faire 10 pair rengo dans le mois avec le même ou pas partenaire
+* 5 parties à handicap dans le mois
+
 Source
 ******
 
@@ -147,3 +364,7 @@ Source
 * https://leweyg.github.io/FreedGames/FreedGo/ 
 * http://www.lewcid.com/lg/lc/freedgo.html
 * https://go.kahv.io/#
+* a indexer: https://en.wikipedia.org/wiki/Go_variants#Multi-player_Go
+* https://go.kahv.io/
+* https://github.com/JaniM/variant-go-server
+* ghost: http://pegase.hd.free.fr:62819/

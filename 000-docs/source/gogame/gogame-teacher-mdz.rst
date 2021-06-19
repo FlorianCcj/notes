@@ -605,6 +605,136 @@ Game 4
 
 perdre c est progresser
 
+Cours sauvage: blitz
+********************
+
+Ne pas jouer des formes originales
+Pour les tsumegos ne faire que des tsumegos en 3 4 5, et 6,7,8 connu
+bien gerer ses periodes, ne perdre une periode que si c est son choix
+
+2021.03.03 - Le recommencement
+******************************
+
+Cours 1
+
+Premier et deuxieme cours
+Mdz special
+
+* Attention au keima, se souvenir que c est coupable, penser au tobi si on craint la coupe
+* Regarder quand on peut transformer une forme en pate, ca permet d avoir beaucoup de pierre investi pour ... peu de point
+* Penser a un bon coup pour blanc est un bon coup pour noir
+* Dans une forme de la fleur on evite de foncer dedans. Si tout le monde dechire tout le monde generalement c est mauvais pour celui qui etait installe en premier
+* avoir un plan de jeu, et s y conformer, si on change de plan on risque d avoir investi beaucoup pour ... rien.
+* tenuki un tsuke se fait mais uniquement quand il y a un truc urgent ou rien ne marche
+* apres un tsuke d une pierre sur une autre d abord penser au hane, si ca te plait pas penser au nobi, si ca plait toujours pas penser au tenuki
+* W Boshi - B Keima
+* Penser au point vital du kosumi
+
+* Shibori: sacrifice efficace
+
+* Conclusion du cours: "ca depend"
+
+2021.03.08
+**********
+
+Cours 2
+
+Penser au tsuke, renforcer l autre peut apporter pas mal
+Quand on fait tenuki, ne pas revenir apres, on a pretendu qu il y avait plus gros donc reste dans cette idee
+
+Bilan: tu as gagne la guerre mais pas la bataille
+
+2021.03.17 etes vous meilleur que le meilleur du monde
+*******************************************************
+
+Cours 3
+
+* Quand l autre prend le point vital du une gueule du tigre, derendre faire la guele du tigre dans l autre sens
+* Ne pas trop avoir peur des moyo
+* Deux tobi face a face, le premier a jouer est content
+* avoir le reflexe du tewari
+* Double pince basse, kosumi haut ou bas
+* on peut proteger une coupe avec un nobi
+* quand tu as deux groupes faibles, en abandonner un pour avoir des coups gratuits n est pas inconcevables
+* rester connecte
+* pour attaquer, approcher sans toucher
+* attaquer du cote du groupe le plus faible
+* Devoir: lire First Kyu A Novel by Sung-Hwa Hong
+
+2021.03.24 On gere notre temps
+******************************
+
+Cours 4
+
+* La menace de la coupe clignote pas mal
+* si un joueur ne vie pas localement c est toujours bon pour l autre
+* attention au ancien joseki ils ne le sont plus vraiment
+* Quand on essait d attaquer, si on se fait pincer et qu on sort, c est cool si ca met automagiquement la pression sur des pierres
+* Attention au hatekomi quand on fait un kosumi
+
+* guzumi: un bon angle vide
+* hatekomi: pousser dans un kosumi
+
+* bilan de la seance: faite des angles vides !
+* devoir: sur go4go prendre une partie et compter combien de point il y a en fin de partie (conciderer un komi de 6.5 points)
+
+2021.03.31 guess the move
+*************************
+
+Cours 5
+
+les 2 pinces actuelles pince a 2 basse
+pince a 4 hautes
+on prend toujours le ko, au moins une fois
+quand on fait une menace de ko, il faut l appliquer
+
+2021.04.06 
+*************************
+
+Cours 6
+
+Quand on est stresse on commence a relire toute nos coupes
+Quand on joue regarder si les points vitaux sont en danger
+Si on rencontre un ancien fuseki avec 3 alignees, si il y a des hoshi, sansan, si il y a des komoku, tsuke
+Si on ne voit pas le benefice d une attaque, reflechissez a ne pas le faire
+
+2021.04.14 - Les simu
+*********************
+
+Cours 7
+
+2021.04.28
+*********************
+
+Cours 8
+
+Quand un tsumego ou une situation est pas clair, areter d y penser, et laisser murir
+sagari : descente
+
+2021.05.05
+**********
+
+Cours 9
+
+Pour gagner un combat si tu peux faire tout les sente avant, c est agreable
+voir la coupe lors du joseki de la last game
+voir le loosing move de l avant derniere game
+
+quand on joue un peu lent, qu il permette de faire un cuop agressif apres
+quand vous avez un groupe qui coupe deux groupe faible, sorter le, garder les deux groupes couper
+
+2021.06.02
+**********
+
+Cours 10
+
+Nico: faire masse 13x13
+gruts: une cure de blitz 10sec/coup 3 periodes ou 10min asolue
+Gaaruto: tournoi, game sous fox
+
+Un ko laisse l autre lanser le ko
+Jouer simple
+
 
 .. ========================================================
 

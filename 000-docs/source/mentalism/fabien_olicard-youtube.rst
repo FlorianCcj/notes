@@ -112,6 +112,8 @@ Comment s entrainer a detecter le mensonge
 Cul de chouette
 ***************
 
+:source: https://www.youtube.com/watch?v=A0qEn5BD0Q8
+
 3 des 6 faces, 2 de meme couleur (la chouette) et 1 different (le cul de la chouette)
 
 minimum 2 joueurs
@@ -214,14 +216,14 @@ Neant
 
 ni chouette, ni cul de chouette, ni suite, ni velutte, ni ...
 
-gain: grelotine (si n en a pas encore)
+gain: grelottine (si n en a pas encore)
 
-Grelotine
+grelottine
 =========
 
-Crier grelotine, si en meme temps c est celui qui a le moins de point qui lance le defi
+Crier grelottine, si en meme temps c est celui qui a le moins de point qui lance le defi
 
-challenge: defi quelqu un qui a deja une grelotine de faire une combinaison (choisi par celui qui defi), mise max 30% de celui qui a le moins de point
+challenge: defi quelqu un qui a deja une grelottine de faire une combinaison (choisi par celui qui defi), mise max 30% de celui qui a le moins de point
 
 le defie:
 * win: gagne les point de la combinaisonm et vole les points que le defieur avait mis en jeu
@@ -233,6 +235,183 @@ Bevue
 challenge rate, des sortie de tapis, ...
 
 gain: -5
+
+Redaction complete
+==================
+
+:source: https://www.youtube.com/watch?v=M3vXEmxf1vs
+
+Le cul de chouette se joue avec 3 des de 6 faces
+Le premier a 343 obtient la victoire.
+Chaque joueur joue a son tour.
+
+Un des trois des est `le cul de chouette`m idealement il est un peu plus transparant que les autres.
+Les deux autres, representent `la chouette`.
+
+Le cul arrivant deriere la chouette, le cul de chouette est donc lance apres la chouette (on peut faire preuve de subtilite mais l idee est la).
+
+Lorsque l on lance les des ils forment une combinaison.
+
+il y a 6 combinaisons possibles et 4 concepts a connaitre
+
+Les combinaisons sont:
+
+* la chouette
+* le cul de chouette
+* la velutte
+* la chouette velutte
+* la suite
+* le neant
+
+Les concepts sont:
+
+* la bevue
+* la grelottine
+* le sirotage
+* le civet
+
+Combinaison 1, La chouette
+--------------------------
+
+Si deux des presentent la meme valeur, il s agit d une chouette.
+
+Une chouette rapporte le carre de la valeur qui s est revelee en double
+
+Ex: si deux des affichent un trois, le joueur gagne 3*3 = 9 points
+
+Combinaison 2, le cul de chouette
+---------------------------------
+
+Si les trois des presentent la meme valeur, il s agit d un cul de chouette.
+
+Un cul de chouette rapporte 40 point plus 10 fois la valeur revelee
+
+Ex: si les trois des revelent un 6, le joueur gagne 40 + 10*6 = 100 points
+
+Combinaison 3, la velutte
+-------------------------
+
+Si la somme de deux des est egale au troisieme de, il s agit d une velute.
+
+Ex: un de revele un 2, un de revele un 3 et un de revele un 5. 2 + 3 = 5, il s agit d une velute
+
+Une velutte rapporte le double du carre de la valeur la plus haute
+
+Ex: dans l exemple precedent 2 * (5*5) = 50 points
+
+Combinaison 4, la chouette velutte
+----------------------------------
+
+Et la des petits malins vont dire ... oui mais si la valeur de deux des sont identiques et que leur somme est egale au troisieme ? Il s agit d une chouette velutte. (ex: deux des affichent 3 et le troisieme un 6)
+
+Si une chouette velutte apparait les joueurs doivent frapper avec le plat de la main sur les genoux et s ecrier "PAS MOU LE CAILLOUX"
+
+Le premier a l avoir fait gagne les points de la velutte.
+En cas d egalite ceux qui ont fait egalite perdent les points qu ils auraient du gagner grace a la velutte
+
+Combinaison 5, la suite
+-----------------------
+
+Si les trois des forment une suite, il s agit d une suite.
+
+Si une suite apparait, les joueurs doivent frapper du poing sur la table et s ecrier "grelotte ca picote"
+
+Le dernier a le faire perd 10 point.
+
+Combinaison 6, le neant
+-----------------------
+
+Si aucune autre combinaison n apparait il s agit d un neant.
+
+Si un neant apparait le joueur gagne une grelottine. On ne peut posseder qu une unique grelottine.
+
+Concept 1, la bevue
+-------------------
+
+Lors du lancer de de, si un de en percute un autre, si un de tombe, enfin si il se passe quelque chose d anormal, il s agit d une bevue.
+
+Si quelqu un fait une bevue il perd 5 points
+
+Concept 2, la grelottine
+------------------------
+
+Si vous possedez une grelottine vous pouvez defier quelqu un qui en possede une.
+
+Pour le defier vous devez crier "grelottine !".
+
+En cas d egalite c est celui qui a le moins de point qui a l initiative
+
+Le defieur defie le defie de realiser une combinaison pour un certain nombre de point.
+
+Si le defie reussi, le defieur perd les points mis en jeu et le defie les gagne (et vice et versa si il echoue)
+
+Le nombre de point mis en jeu ne doit pas depasser 30% des points de celui qui en a le moins.
+
+A la fin du defie, le defieur et le defie perdent leurs grelottines
+
+Le defie gagne les points de la combinaison obtenue quoi qu il arrive
+
+Concept 3, le sirotage
+----------------------
+
+Si on obtient une chouette. On peut tenter de siroter.
+Le sirotage conciste en relancer le des qui n a pas la meme valeur que les autres pour tenter de faire un cul de chouette.
+
+Avant de lancer, les autres joueurs peuvent miser sur la valeur que le siroteur va obtenir. Mais pour miser ils doivent l annoncer a la maniere du cul de chouette. Chacun mise a son tour
+
+* pour miser sur le 1 ils doivent dire 'je dis Linotte'
+* pour miser sur le 2 ils doivent dire 'je dis Alouette'
+* pour miser sur le 3 ils doivent dire 'je dis Fauvette'
+* pour miser sur le 4 ils doivent dire 'je dis Mouette'
+* pour miser sur le 5 ils doivent dire 'je dis Bergeronette'
+* pour miser sur le 6 ils doivent dire 'je dis Chouette'
+
+Si ils ont annoncer la bonne valeur, ils gagnent 25 points.
+
+Si le siroteur reussi il gagne les points du cul de chouette.
+Si il echoue il perd les points qu aurait du lui raporter la chouette et obtient un civet.
+
+Concept 4, le civet
+-------------------
+
+Lorsque l on utilise un civet cela remplace son tour.
+
+On se challenge soit meme de faire une combinaison pour un certain nombre de point (maximum 102).
+
+Pour un cul de chouette on doit preciser avec ou sans sirotage bien entendu
+
+Si l on reussi on obtient les points, si on echoue on a juste perdu son civet.
+
+Quelque soit la combinaison obtenu on en obtient les points.
+
+Detail
+------
+
+On peut jouer en equipe ou ... bah on se debrouille, si vous avez compris ca vous etes capable de vous debrouiller.
+
+Comme certaines regles ne sont pas precisees voila ma maniere de jouer:
+
+* Quand on fait une combinaison celui qui a fait la combinaison doit anoncer la combinaison obtenue, les points obtenus, et son total de point. A chaque echec, c est une bevue
+* Lors d un civet ou d une grelotine, les suites et les chouettes veluttes sont a jouer.
+
+Resume
+------
+
+- Trois des (D1, D2, D3)
+- lancer d abord les 2 des, puis le 3e
+- le premier a 343 points gagne
+
+* la chouette (D1 = D2 != D3): D1*D1 points
+* le cul de chouette (D1 = D2 = D3): 40+10*D1 points
+* la velutte (D1 + D2 = D3): 2*D3*D3 points
+* la chouette velutte (D1 = D2, D1 + D2 = D3): defi "pas mou le cailloux" + genoux => point d une velute
+* la suite: defi "grelotte ca picote" + poing => dernier -10 points
+* le neant: grelotine
+
+* la bevue: -5 points
+* la grelottine: defie une combinaison perdant perd les points, gagnants gagne les points, celui qui defie gagne les points de la combinaison
+* le sirotage: si perd, perd les points de la chouette (1 Linotte, 2 Alouette, 3 Fauvette, 4 Mouette, 5 Bergeronette, 6 Chouette)
+* le civet: challenge combinaison, si gagne, gagne le pari et la combinaison, sinon perd juste le civet
 
 Effet Dorian Grey
 *****************

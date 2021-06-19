@@ -121,6 +121,7 @@
     methodology/methodology-parcours_colaborateur.rst
     methodology/methodology-suck_in_programming.rst
     money/job-the_good_question.rst
+    money/money-le_quadrant_du_cashflow.rst
     money/money-libre_et_riche.rst
     money/money-lucbrialy.rst
     money/money-pierre_olivier.rst

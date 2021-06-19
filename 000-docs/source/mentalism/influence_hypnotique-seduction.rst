@@ -538,27 +538,38 @@ Exercice
 Kino Escalation (Partie 2)
 ==========================
 
-14
+* La kino escalation jusqu au touche physique peut prendre 10min comme 4h
+* Si le toucher se passe bien, vois jusqu ou elle est reticente
+* ou sont ses limite, sans qu elle ressente de gene, sinon c est mort
+* Lier les mots au geste, plus vous vous rapprochez d elle (la connaisser) plus vous vous rapprocher d elle physiquement
+* "Je sais qui vous etes mademoiselle, et entre nous il se passe quelque chose d intense"
+* faites en sorte que cette phrase soit vrai
 
 Stratégie de ségrégation - Isolation Psychologique et Physique
 ==============================================================
 
-13
+* Le patern de la bulle: suggerer une bulle confortable dans laquelle vous vous trouver elle et toi
+* Le bute de la segresgation est l isolation sentimentale de la femme
+* Routine 1: Prise de conscience de l experience partagee
 
-Stratégie de ségrégation (audio)
-================================
+  * rappeler ce qu il s est passe, et faire comprendre que si elle rate cette ocasion, elle n en aura pas d autre
 
-12
+* Routine 2: Secret partages
+
+  * partager une experience passe, pour mettre en valeur un trait de charactere qui lui sera benefique
+
+* Routine 3: Aversion a la perte
 
 Les résistances de dernières minutes
 ====================================
 
-11
+Il faut etre capable de repondre a ses interogations ou a ses peurs
 
-Rendez-vous au mois d'Octobre (audio)
-=====================================
+eviter ces erreurs
 
-10
+* la valeur social
+* le sexuel: est ce que tu es a l aise avec le sex
+* tu n as pas prit le lead
 
 BONUS
 *****

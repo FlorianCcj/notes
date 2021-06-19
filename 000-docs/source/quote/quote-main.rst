@@ -14,6 +14,28 @@ Community
     2) J'essaie de la reposer quelque fois pour voir si j'ai bien retenue (et je retiens assez rapidement quand je la repose juste après)
     3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
 
+Manga
+=====
+
+Ep 554
+
+Luffy: Un heros ? pas question
+Jimbey: Pourquoi ca ?
+Luffy: Parce que nous sommes des pirates. J adore les heros mais je ne veux pas ... en devenir un !
+Jimbey: Hum ...
+Luffy: Serieusement, est ce que tu sais vraiment ce que c est un heros ?
+Jimbey: Hein ?
+Luffy: Ecoute, prenons la viande comme exemple. Les pirates en mangent quand ils font la fete. Alors que les heros se contentent uniquement d en distribuer au gens. Et moi je veux manger de la viande !
+Jimbey:  Dans ce cas, je te laisserais manger autant de viande que tu le voudras, tu as ma parole
+Luffy: Entendu
+
+Ep 569
+
+Shiraoshi: Pourquoi vous avez quittez la place comme ca ? On aurait dit que vous essayez de vous enfuir
+Zoro: Ca va pas la tete. On a du combattre dans une veritable arene devant tout le monde. Si on etait rester les habitants de l ile nous auraient traite comme des heros. Rien que d y penser j en ai froid dans le dos.
+Shiraoshi: Mais alors ca ne vous interesse donc pas du tout de devenir des heros
+Zoro: Ecoute etre un heros ca signifie d abord que tu es dans l obligation de partager ton verre avec d autre personne. Moi mon verre je le garde pour moi.
+
 Mentalism
 =========
 
@@ -26,6 +48,8 @@ Mentalism
 :Antoine de Saint-Exupery: "pour ce qui est de l'avenir il ne s'agit pas de le prévoir mais de le rendre possible"
 
 :Elon Musk: "si l on ne trouve pas la reponse c est que la question est mal formulé"
+
+:Nelson Mandela: "Je ne perds jamais. Soit je gagne, soit j'apprends."
 
 Other
 =====
@@ -75,6 +99,8 @@ si ça freeze, tu crises
 Si ça pète, rachète
 et si ça continu, tu l'as dans le c**
 
+David Laroche: Ne pas y croire vous garanti d echouer, y croire ne vous garanti pas d y arriver
+
 Scientist
 =========
 
@@ -96,6 +122,11 @@ Tee-shirt
 
 Film
 ====
+
+Asterix et Obelix Mission Cleopatre
+-----------------------------------
+
+Vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd'hui avec vous, je dirais que c'est d'abord des rencontres. Des gens qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l'interlocuteur en face je dirais, le miroir qui vous aide à avancer. Alors ça n'est pas mon cas, comme je disais là, puisque moi au contraire, j'ai pu : et je dis merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu'amour ! Et finalement, quand beaucoup de gens aujourd'hui me disent « Mais comment fais-tu pour avoir cette humanité ? », et bien je leur réponds très simplement, je leur dis que c'est ce goût de l'amour ce goût donc qui m'a poussé aujourd'hui à entreprendre une construction mécanique, mais demain qui sait ? Peut-être simplement à me mettre au service de la communauté, à faire le don, le don de soi..
 
 Le jour de la marmotte
 ----------------------

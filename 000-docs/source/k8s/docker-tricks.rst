@@ -25,3 +25,6 @@ LABEL "org.opencontainers.image.title"="Discord - Bot - Igo - dictionary"
 LABEL "org.opencontainers.image.description"="igo_dictionnary is the first discord bot related with the anciant strategical chinese game popularized by japan : the so called game of go. Its main aim is to help beginners in their go journey by clarifying the fearsome go jargon. Through elegant and efficient commands, the user is able to acces to a large number of go related thermes with flawless definitions and explicit illustrations alongside. In this manner, concepts such as 'ishi no shita' or 'sabaki' will have no secrets for the neophyte. Ultimately our igo_dictionnary bot will act like a giant online vivid and interactiv encyclopedia, providing the go discord community a top-notch educational tool."
 
 docker build --build-arg creation_date=$(date --iso-8601=ns) --build-arg image_revision=$(git log -n1 --format=format:"%h")
+
+@Todo
+http://carnetdudev.net/2019/07/14/mettre-en-place-un-environnement-de-developpement-docker-pour-symfony-4/

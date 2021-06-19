@@ -1,6 +1,8 @@
 K8S - Security
 ##############
 
+ctf: https://www.youtube.com/watch?v=phKBYX6Pd_A
+
 K8s Security anatomy
 ********************
 

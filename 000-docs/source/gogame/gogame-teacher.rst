@@ -10,7 +10,7 @@ Gogame - Teacher
 * https://eyd.yunguseng.com/lectures.html
 * http://kaminoitte.fr/
 * https://tsumegodojo.wordpress.com/
-*  https://www.nordicgodojo.eu/  (Dacat on kgs)
+* https://www.nordicgodojo.eu/  (Dacat on kgs)
 * https://www.jeudego.org/_php/_mori/mori.php
 * https://aligre.jeudego.org/ressources/les-liens-utiles/
 * https://grenoble.jeudego.org/ressources/liens/
@@ -20,9 +20,44 @@ Gogame - Teacher
 * https://www.gokgs.com/archives.jsp
 * https://www.gokgs.com/help/protocol.html
 
+* http://thegotime.fr/sgf-to-kifu-converter/
+
 * https://www.101weiqi.com
 * tsumegohero
 * https://www.goratings.org/en/
+* super base qui recherche dans le partie pro: http://ps.waltheri.net/811104/
+* livre de cho et plus: https://tsumego.tasuki.org/
+* https://gobooks.com/books-by-series.html
+* editeur: https://gadgeto.lovetux.net/editeurSGF.htm
+* IA: https://zbaduk.com/tools
+* test motenton: http://tactigo.free.fr/j/index.php?option=com_content&view=article&id=42&Itemid=88
+* egf data: https://europeangodatabase.eu/EGD/Find_Player.php
+* news: https://m.cyberoro.com/
+
+ogs
+https://ogs.readme.io/
+https://ogs.readme.io/docs/real-time-api
+https://forums.online-go.com/t/does-ogs-has-a-public-api-where-can-i-find-the-documentation/6123
+https://forums.online-go.com/t/ogs-api-notes/17136
+
+info
+* bot pour lier les differents server (Judas#8450): https://gitlab.com/jules.trehorel/fulgurogo-server/-/tree/master/src/main/java/com/fulgurogo
+* bot de pari (contact Arttaaz#1337): https://github.com/Arttaaz/FulguroBot
+* bot osr (contact climu): https://github.com/climu/OSR-discord-bot
+* https://openstudyroom.org/blog/osr-bot-discord-now-official/?fbclid=IwAR0ILXHCJJW19bTynHuwsJee2reJvt1W4pCDqWg7FYgPO-2nTQdF8q0J8II
+* https://github.com/tenukiUser/BGS
+
+FFG
+* https://ffg.jeudego.org/echelle/echtxt/echelle.txt
+* https://ffg.jeudego.org/echelle/echtxt/ech_ffg_V3.txt
+* https://ffg.jeudego.org/echelle/echtxt/ech_ffg.txt
+* https://www.europeangodatabase.eu/EGD/Find_Player.php
+* https://ffg.jeudego.org/echelle/echelle_algo.php
+* https://ffg.jeudego.org/informations/officiel/tournoi.php#deciderTournoi
+* https://ffg.jeudego.org/informations/competitions/agrement.php#Paragraphe2
+
+Outil
+https://awwapp.com/
 
 30 day challenge
 *****************
@@ -136,6 +171,9 @@ zororo 26/05/2020 j'avais fait 17 jours la premiere fois mais là avec bad je se
 zororo 26/05/2020 si tu trébuche , tel atlas notre monde s'éffondre :p on compte sur toi :muscle:
 Grablor/Alex 27/05/2020 Bad mon héro
 zororo 27/05/2020 Bad le gars sûr
+
+Pour set
+********
 
 Pokemon
 *******

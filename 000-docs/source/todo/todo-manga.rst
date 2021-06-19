@@ -121,6 +121,73 @@ one piece
 =========
 
 dwl: 1 -> 945 (10.06.2019)
+
+episode 34 37 38 (arlong park)
+episode 49 (achat du kitetsu)
+episode 52 (luffy execute)
+episode 66 (luffy contre zo)
+episode 127 (tachigui capture pas luffy)
+episode 128 (luffy se reveille)
+episode 146-147 (arive a jaya)
+episode 151 (luffy vs belami)
+episode 182 (luffy ne sent pas l elecctricite)
+episode 195 (la chute de l ile celeste)
+episode 197 (sanji a la cuisine)
+episode 260 (zoro style)
+episode XXX (revelation sur le pere et le grand pere de luffy)
+episode 319 (sanji et le sel)
+episode 320 (prix)
+episode 342 (600M vs zombie)
+episode 373 (chapeau de paille vs oz)
+episode 377 (kuma)
+episode 400 (le one piece et le secret du D)
+episode 506->512 (l equipage s informe)
+episode 513->516 (l equipage commence l entrainement)
+episode 400 (luffy vs nounours)
+episode 553 (sorti du requin)
+episode 553 (os 50k pirates)
+episode 570 (jimbey prend conscience de qui est luffy)
+episode 586 ou 585 (le froid c est dur)
+episode 594 (la super alliance et le meilleur equipage)
+episode 745 (l armada du chapeau de paille)
+episode 767 (maitre raiso est bien ici)
+episode 834 (jimbei contre big mom)
+
+
+episode 320 (prix)
+* luffy 300M
+* zorro 120M
+* chopper 50
+* nami 16M
+* sanji 77M
+* Franky 44M
+* Nico 80M
+episode 548 (prix)
+* luffy 400M
+episode 746 (prix)
+episode 878 (prix)
+* sanji vinsmoke 330M
+episode 879 (prix)
+* luffy 1b500
+
+* 12 sabres de premiere ordre
+
+  * 1er kitetsu: ensorcelle
+  * sabre noir yoru: sabre d oeil de faucon
+
+* 21 grandes lames
+
+  * wado ichimongi (lame de zoro prise a Kuna)
+  * 2e kitetsu: ensorcelle
+  * shousui (lame du samourail sur sriller bark)
+
+* 50 sabres de qualite superieur
+* vrac
+
+  * 3e kitetsu: la lame maudite a logtown
+  * yubashiri: sabre cadeau du vendeur de logtown (mort dans les 310)
+  * meito shirauo: arme de amande charlotte
+  * meito = celebre sabre, excellent sabre
           
 one punch man
 =============
@@ -150,6 +217,8 @@ Tales of Demons and Gods
 ========================
 
 Reincarnation, homme vs bete
+
+* chap 299 -> 300.5: les branches celeste
 
 * dwl 1 - 200
 * good order: 1 -> 34

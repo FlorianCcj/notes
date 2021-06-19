@@ -47,6 +47,8 @@ kick someone
 
 * :code:`pkill -o -u <username> sshd`
 * :code:`skill -u <username>`: kill session
+* :code:`killall -u <username>`
+* :code:`pkill -u <username> && pkill -9 -u <username>`: ok pour centos8
 
 Network
 *******
@@ -85,3 +87,5 @@ Sources
 *******
 
 * https://www.a2hosting.com/kb/developer-corner/linux/setting-the-default-text-editor-in-linux
+
+dmefg: savoir quel process a ete kill

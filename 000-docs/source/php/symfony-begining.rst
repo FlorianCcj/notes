@@ -8,8 +8,11 @@ init
 * install composer (+ :code:`composer -V`)
 * install phpcs
 * :code:`composer create-project symfony/skeleton demo`
+* :code:`php bin/console about`
 * :code:`composer require symfony/orm-pack`
+* :code:`composer require annotations`
 * :code:`composer require --dev symfony/maker-bundle`
+* :code:`composer require logger`
 * add in composer
 
 ..code-block:: json
@@ -20,7 +23,7 @@ init
         "server": [
             "php -S localhost:8000 -t public"
         ],
-        "lint" : [
+        "lint": [
             "phpcs --standard=PSR1,PSR2 src"
         ]
     },
@@ -187,6 +190,8 @@ Firt try
         return $json;
     }
 
+* a noter: https://nouvelle-techno.fr/actualites/live-coding-creer-une-api-avec-symfony-4
+
 Fix it
 ======
 
@@ -334,6 +339,7 @@ debug
 * list entity: :code:`bin/console doctrine:mapping:info`
 * list bundle: :code:`bin/console config:dump-reference`
 * list service: :code:`bin/console debug:autowiring`
+* list param: :code:`php bin/console debug:container --parameters`
 
 request
 *******

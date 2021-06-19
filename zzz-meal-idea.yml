@@ -5,6 +5,8 @@ plat:
       - name: blini
         types: [ entree, plat, dessert ]
     C:
+      - name: chausson porc boursin
+        types: [ plat ]
       - name: crepe
         types: [ plat, dessert ]
       - name: croque-monsieur
@@ -21,11 +23,15 @@ plat:
     J:
     K:
     L:
+      - name: lasagne
+        types: [ plat ]
   M-R:
     M:
     N:
     O:
     P:
+      - name: paillason
+        types: [ plat ]
       - name: poivron-chorizo
         types: [ plat ]
       - name: poulet a la creme
@@ -49,7 +55,7 @@ plat:
     V:
     W:
     X:
-      - xaxiu:
+      - name: xaxiu
         types: [ plat ]
   Y-Z:
     Y:
@@ -84,7 +90,6 @@ by_week:
   2020-18:
     * riz curry: https://www.youtube.com/watch?v=T-pDHNWCTIg
     * gateau yaourt: https://www.elle.fr/Elle-a-Table/Recettes-de-cuisine/Gateau-au-yaourt-1845246
-    * boeuf stroganoff: https://www.cuisineculinaire.com/nouilles-au-boeuf-sauce-stroganoff-recette-facile/
 
     https://www.cuisine-etudiant.fr/recette/2962-risotto-aux-lardons-et-champignons
     https://www.750g.com/pates-carbonara-r200273.htm
@@ -107,7 +112,6 @@ by_week:
     quenelle gratine
     Lasagne
     onigiri
-    chausson porc boursin
 
     totest-todo-Risotto aux lardons et champignons
     totest-todo-Porc saute aux nouilles chinoises

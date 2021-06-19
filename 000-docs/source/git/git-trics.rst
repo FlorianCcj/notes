@@ -52,3 +52,6 @@ git remote
 
 git remote -v: print remote origin
 git remote prune origin: remoev useless branch
+
+@Todo
+To read: https://www.hostinger.fr/tutoriels/commandes-git
