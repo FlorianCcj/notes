@@ -1,6 +1,6 @@
 ---
 php:
-  main_package: 'php7.2'
+  main_package: 'php8.0'
   sub_packages:
     - fpm
     - mysql

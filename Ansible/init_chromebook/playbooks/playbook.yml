@@ -3,8 +3,8 @@
   vars_files:
     - vars/playbook.yml
     - vars/template.yml
-  roles:
-    - geerlingguy.docker
+  #roles:
+  #  - geerlingguy.docker
   tasks:
     - import_tasks: tasks/apt_update.yml
     - import_tasks: tasks/vital_packages.yml
@@ -21,7 +21,7 @@
     - import_tasks: tasks/install_composer.yml
     - import_tasks: tasks/install_npm.yml
     - import_tasks: tasks/install_vscode.yml
-    - import_tasks: tasks/install_atom.yml
+    #- import_tasks: tasks/install_atom.yml
     - name: Include discord vars
       include_vars: vars/vars-install_discord.yml
     - import_tasks: tasks/install_discord.yml

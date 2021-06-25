@@ -1,8 +1,4 @@
 ---
-- name: add git apt-key
-  apt_repository:
-    repo: ppa:nginx/stable
-    update_cache: yes
 - name: install git
   apt:
     name: git
