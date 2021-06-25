@@ -11,6 +11,7 @@ vital_packages:
   - vlc
   - vim
   - exfat-utils
+  - unzip
 system_packages:
   - tree
   - multitail

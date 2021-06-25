@@ -1,7 +1,8 @@
 ---
-- block:
+- become: yes
+  block:
   - name: Install vital packages
-    apt:
+    package:
       name: "{{ vital_packages }}"
   - name: Vital packages have been installed
     debug:

@@ -1,15 +1,19 @@
 ---
 - name: install npm
-  apt:
+  become: yes
+  package:
     name: "npm"
 - name: install n
+  become: yes
   npm:
     name: n
     global: yes
 - name: install node
+  become: yes
   command: >
     n stable
 - name: install node plugins
+  become: yes
   npm:
     name: "{{ item }}"
     global: yes

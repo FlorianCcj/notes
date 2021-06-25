@@ -1,18 +1,21 @@
 ---
 #   ${package} ${package}-fpm ${package}-mysql ${package}-curl ${package}-xml ${package}-mbstring ${package}-zip
 - name: add php apt-key
+  become: yes
   apt_repository:
     repo: ppa:ondrej/php
     update_cache: yes
 - name: install php main package
-  apt:
+  become: yes
+  package:
     name: "{{ php.main_package }}"
 - name: package concatenation
   shell: "echo {{ php.main_package + '-' + item }}"
   with_items: "{{ php.sub_packages }}"
   register: tmp_packages
 - name: install php sub packages
-  apt:
+  become: yes
+  package:
     name: "{{ item.stdout }}"
   with_items: "{{ tmp_packages.results }}"
 # deprecated

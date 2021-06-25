@@ -1,5 +1,10 @@
 ansible-playbook -i hosts.ini playbooks/playbook.yml
 
+
+sudo apt install python python3-pip
+pip install ansible
+export PATH=$PATH:/home/${USER}/.local/bin
+
 need 
 <user> ALL=(ALL:ALL) NOPASSWD: ALL
 ------------------------------

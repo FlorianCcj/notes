@@ -1,7 +1,8 @@
 ---
-- block:
+- become: true
+  block:
   - name: Install system packages
-    apt:
+    package:
       name: "{{ system_packages }}"
   - name: system packages have been installed
     debug:

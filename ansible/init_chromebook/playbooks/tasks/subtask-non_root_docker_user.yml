@@ -1,0 +1,12 @@
+---
+- name: Add user to the docker group
+  user:
+    name: "{{ user }}"
+    groups: docker
+    append: yes
+  become: yes
+- name: "???"
+  become: yes
+  shell: "sudo usermod -aG docker {{ user }}"
+- debug:
+    msg: "you need to logout login after this"

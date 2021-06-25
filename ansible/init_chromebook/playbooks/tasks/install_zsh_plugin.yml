@@ -10,7 +10,7 @@
     state: latest
 
 - name: install oh-my-zsh
-  become: false
+  become: yes
   shell: sh -c "$(curl -fsSL {{ config.oh_my_zsh_url | default('https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh') }})"
   ignore_errors: True
 
