@@ -298,14 +298,16 @@ https://www.youtube.com/watch?v=jFeusw71HtA
 2021.05.23
 **********
 
-Cours 1/8 a payer
+Cours 1/8
+to sum up
 
 Mode sabaki: trouver la mega sequence, et voir ce qu il manque comme pierre pour la faire marcher
 
 2021.05.30
 **********
 
-Cours 2/8 a payer
+cours 2
+to sum up
 
 Les kosumi et les double kosumi ont des points vitaux, profitez en
 penser au double keima
@@ -314,7 +316,8 @@ penser au double keima
 2021.06.06
 **********
 
-Cours 3/8 a payer
+cours 3
+to sum up
 
 Si les pierres tu peux pas jouer avec, si peux pas les sauver tu peux les sacrifier
 Attention sacrifier, pas donner
@@ -327,10 +330,26 @@ Jouer propre:
 2021.06.15
 **********
 
-Cours 4/8 a payer
+cours 4
+to sum up
 
 coup a l epaule penser a la pince
 
+2021.06.28
+**********
+
+cours 5
+to sum up
+
+le bourin quand ca marche pas, reflechir au dernier coup de la sequence
+
+preparer les combat, preparer le zone, l avantage numerique
+
+2021.07.07
+**********
+
+* si le resultat de base te convient pas, pose des questions
+* penser global, ne pas penser que local
 
 Sum up
 ******
@@ -364,3 +383,10 @@ Sum up
 * Prendre le premier les gros objectis
 * attaquer que quand on est en superiorite numerique
 * les premieres idees a avoir: sortir, separer, attaquer
+
+Versement:
+2021.03.22
+2021.04.16
+2021.06.28
+
+20 bd souchet noisy le grand
