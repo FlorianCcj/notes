@@ -44,6 +44,7 @@ Folder in sulfur
   * domin
   * action
   * succes social
+  * atomic habit (un rien peut tout changer) from James Clear
 
 * dessin
 
@@ -85,10 +86,12 @@ Big project
 ***********
 
 * mentalist (estime de soi)
-* go game (chuban, yose)
 * draw
 * money
 * tgo team boarding
+* WP
+* claude go script
+* aspire 101Weiqi
 
 * music
 * fast reading

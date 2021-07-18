@@ -249,10 +249,183 @@ Barbare             1v+ + 1j+ + 0r = 10 + 08 + 00 = 18
 Enfant de la foret  1v+ + 3j+ + 1r = 10 + 24 + 04 = 38
 Mort Vivant         1v+ + 0j+ + 0r = 10 + 00 + 00 = 10
 
-heros:   40 000
-guilde:  20 000
-laby:   200 000
-coli:    66 666
+taverne: tout les blanc, jaune, vert, noir
+epreuve: comme taverne
+voyante: tous
+
+* lumiere
+  * athalia (saute partout)
+    * lvl: j+
+    * buy: store (2)
+  * jumeau
+    * lvl: 0e
+  * orthos (bastoneur)
+    * lvl: j
+    * buy: store (2)
+  * talene
+    * lvl: 2e
+  * wu kong
+    * lvl: r
+    * buy: store (1)
+  * flora
+    * lvl: j+
+    * buy: store (2)
+  * zaphrael (pretre de lumiere)
+    * lvl: v
+  * alna (tank)
+    * lvl: v+
+  * morael (pretresse noir)
+    * lvl: v
+* ombre
+  * ezizh (tank)
+    * lvl: v+
+    * buy: store (2)
+  * mehira (seductrice)
+    * lvl: v+
+  * zolrah (time)
+    * lvl: v+
+    * buy: store (2)
+  * khazard (glace)
+    * lvl: v+
+  * mezoth (gobeur)
+    * lvl: v+
+  * lucretia (escrimeuse)
+    * lvl: v+
+  * mortas (vampire)
+    * lvl: v+
+  * leofric (vampire humain)
+    * lvl: 0
+* blanc
+  * belinda
+    * lvl: 4e
+    * buy: store (2), mysti
+  * rayne
+    * lvl: 0e
+    * buy: store (1), mysti
+  * fawkes
+    * lvl: 3e
+    * buy: store (2), mysti
+  * thaine
+    * lvl: 1e
+    * buy: mysti
+  * hendrik (double boubou)
+    * lvl: j+ (+2)
+  * gwyneth (archer)
+    * lvl: 1e
+    * buy: store (2), mysti
+  * cecilia
+    * lvl: 0e
+    * buy: mysti
+  * rigby
+    * lvl: jaune+ (+1)
+    * buy: mysti
+  * oscar
+    * lvl: jaune+ (+1)
+    * buy: mysti
+  * eluard (pretre)
+    * lvl: v
+    * buy: mysti
+  * peggy (gamine)
+    * lvl: jaune+
+    * buy: mysti
+  * walker (chasseur)
+    * lvl: jaune
+    * buy: mysti
+* jaune
+  * khasos
+    * lvl: j+ (+3)
+    * buy: store (1)
+  * vurk
+    * lvl: j+ (+2)
+  * numasu (totem)
+    * lvl: j
+    * buy: store (2)
+  * skreg (tank)
+    * lvl: 3e
+    * buy: store (1)
+  * warek
+    * lvl: 1e
+    * buy: store (2)
+  * antandra
+    * lvl: 3e
+    * buy: store (2)
+  * safiya (bomb)
+    * lvl: 1e
+  * satrana (bastoneur)
+    * lvl: 1e
+  * tidus (tourbi)
+    * lvl: 3e
+  * drez (ossatueur)
+    * lvl: j+
+  * skriath (sable mouvant)
+    * lvl: 2e
+  * anoki (full tank)
+    * lvl: j+
+    * buy: store (2)
+  * kren (bombeux)
+    * lvl: 0
+  * thali (mink)
+    * lvl: 0
+* vert
+  * kaz (assassin)
+    * lvl: 2e
+  * lyca (dryade)
+    * lvl: 2e
+  * ulmus (arbre)
+    * lvl: j+ (+1)
+    * buy: store (2)
+  * gorvo (saute partout)
+    * lvl: j+
+  * sayrus
+    * lvl: 2e
+    * buy: store (1)
+  * solise
+    * lvl: v+ (+1)
+  * pippa (cureil)
+    * lvl j+ (+1)
+  * respen (gosse)
+    * lvl: j
+  * raku (raton laveur)
+    * lvl: j+
+* noir
+  * grezhul (double dard)
+    * lvl: 4e
+    * buy: store (2)
+  * isabella
+    * lvl: 3e
+    * buy: store (2)
+  * nara (harpon)
+    * lvl: 0e
+    * buy: store (2)
+  * derael (bombeuh)
+    * lvl: 3e
+  * kelthur (l ombre reste)
+    * lvl: j+ (+2)
+  * silas (piqure)
+    * lvl: j+ (+2)
+  * oden
+    * lvl: j+ +(+3)
+  * izold (gaz)
+    * lvl: j+ (+3)
+  * torne (skelet)
+    * lvl: j+
+  * theowyn (possesseur)
+    * lvl: 1e
+  * desira (banshi)
+    * lvl: j+
+    * buy: mysti
+
+order for furniture
+- alna
+- assassin (done)
+- portail
+- cornu (done)
+- lucretia
+- arthur (done)
+- grezhul (done)
+- orthos
+- nakoruru (done)
+- ezizh
 
 Expedition abyssal
 ==================
@@ -795,7 +968,6 @@ Gain/lvl
 Bijoux a up
 ===============
 
-fawkes
 assasin ezio
 roi noir
 safiya
@@ -817,14 +989,23 @@ antandra
 isabella
 warek
 
-therapiego
-tealco
-arnaud
-patewing
-beerach
-gabriel levy
+violet:
 
-boss de Guilde
+00 + 01 + 02 + 03 + 04 + 05 + 06 + 07 + 08 + 09 + 10
+10 + -- + -- + -- + -- + -- + -- + -- + -- + -- + --
+
+or
+11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20
+10 + 10 + 15 + 15 + 20 + 25 + 25 + 30 + 40 + 50 = 240
+
+rouge
+21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30
+10 + 20 + 20 + 20 + 30 + 30 + 40 + 40 + 40 + 50 = 300
+
+31 + 32 + 33 + 34 + 35 + 36 + 37 + 28 + 29 + 40
+-- + -- + -- + -- + -- + 80 + -- + -- + -- + --
+
+Boss de Guilde
 ===============
 
 saurus (serpent vert) + lame
@@ -1086,6 +1267,67 @@ Boutique
   * vert - serpent 2 (observatoire)
   * vert - sleep staff 3 (legende, observatoire)
 
+Trial of god
+============
+
+Track of the Sand – Trials of God (Life’s Limit)
+lisa saurus jumeau rowan eiziz
+
+The Hazy Timberland – Trials of God (Pauldron of Burning Fury)
+saurus rowan totem talene jumeaix bombeux noir, bombeux rouge
+
+The Depths of Time II – Trials of God (Verdant Longbow)
+talene saurus tasi rowan jumeau
+
+The Frozen Hinterland – Trials of God (Seraphic Tide)
+saurus daemon tasi rowan jumeau
+
+Frozen Ground – Trials of God (Warder of the Arcane)
+saurus daemon tasi rowan jumeau
+
+The Forest’s Edge – Trials of God (Carnage)
+daemon saurus jumeau rowan tasi
+
+Frosted Expanse – Trials of God (Waistband of Resilience)
+eiron saurus jumeau rowan tasi
+
+Fallen Souls – Trials of God (Shroud of Verdure)
+estrilla saurus archer blanc toto jumeau rowan eiziz
+
+The Howling Wastes – Trials of God (Tidebearer)
+rowan saurus tasi eironn jumeau
+
+Highburn Stronghold Guide – Trials of God (Windbinder)
+lucius rosaline tasi rowan belinda
+
+Fields of Stones Guide – Trials of God (Chaos Bringer)
+tasi saurus lyca rowan jumeau cureuil
+
+The Depths of Time Guide (Trials of God)
+saurus rowan tasi archer blanc jumeau
+
+----
+
+archer blanc +20 leg no cert
+belinda +20 t2 cert
+bombeux noir +28 t2 cert
+bombeux rouge t2 +23 no cert
+cureuil leg +0 no cert
+daemon t0 +20 no cert
+eironn t3 +30
+eiziz t2 +0 no cert
+estrilla leg +10 no cert
+jumeau t2 +20 cert
+lucius t3 +22
+lyca t2 +20 cert
+rosaline t2 +30 cert
+rowan t3 +30
+saurus t2 +30 cert
+talene t3 +27
+tasi t2 +20 cert
+totem t0 +2 no cert
+
+
 archero
 ********
 
@@ -1150,6 +1392,7 @@ niveau 76/180
 11. prairie des pommiers 151-165
 12. canyon mystique 166-180
 
+
 recherche
 =========
 
@@ -1176,6 +1419,58 @@ turquoise = 3 * (68 - 10)                                     = -->174<-- = (3 *
 100x * 5m * 25 (1%) = 25 * 2000 = 50 000
 25k (1.5%)
 1000x * 5m * 5 (3%)
+
+5*58 = 290
+
+* vert
+  * b0 = 370 = 00 + 20 + 00 + 30 + 30 + 00 + 58 + 58 + 58 + 58 + 58 + 00
+  * b1 = 266 = 30 + 30 + 30 + 30 + 30 + 116
+  * b2 = 290 = 58 + 58 + 58 + 58 + 58 + 00
+  * b3 = 290 = 58 + 58 + 58 + 58 + 58 + 00
+  * b4 = 408 = 68 + 68 + 68 + 68 + 68 + 68
+  * b5 = 290 = 58 + 58 + 58 + 58 + 58 + 00
+  * b6 = 290 = 58 + 58 + 58 + 58 + 58 + 00
+  * b* = 2204
+* bleu
+  * b1 = 183 = 00 + 58 + 20 + 00 + 00 + 00 + 00 + 58 + 47 + 00 + 00 
+  * b2 = 232 = 58 + 58 + 58 + 58
+  * b3 = 348 = 00 + 58 + 58 + 58 + 58 + 58 + 00 + 58
+  * b* = 763
+* rouge
+  * b1 = 226 = 55 + 57 + 00 + 57 + 57 + 00
+  * b2 = 173 = 57 + 57 + 57 + 00 + 00 + 00
+  * b3 = 057 = 00 + 00 + 57 + 00 + 00 + 00
+  * b* = 444
+* rose
+  * b1 = 216 = 58 + 42 + 00 + 58 + 00 + 58
+  * b2 = 116 = 58 + 58 + 00 + 00
+  * b3 = 080 = 00 + 00 + 40 + 00 + 40 + 00
+  * b* = 412
+* violet
+  * b0 = 348 = 58 + 58 + 58 + 58 + 58 + 58
+  * b1 = 408 = 68 + 68 + 68 + 68 + 68 + 68
+  * b2 = 408 = 68 + 68 + 68 + 68 + 68 + 68
+  * b3 = 348 = 58 + 58 + 58 + 58 + 58 + 68
+  * b4 = 408 = 68 + 68 + 68 + 68 + 68 + 68
+  * b5 = 000 = 00 + 00 + 00 + 00 + 00 + 00
+  * b* = 2620
+* turquoise
+  * b0 = 20 = 00 + 00 + 20 + 00 + 00 + 00
+  * b00 = 272 = 00 + 68 + 68 + 68 + 68
+  * b1 = 272 = 68 + 68 + 68 + 68
+  * b2 = 272 = 68 + 68 + 68 + 68
+  * b3 = 272 = 68 + 68 + 68 + 68
+  * b4 = 272 = 68 + 68 + 68 + 68
+  * b5 = 272 = 68 + 68 + 68 + 68
+  * b6 = 272 = 68 + 68 + 68 + 68
+  * b* = 1924
+
+cout
+01 + 02 + 03 + 04 + 05 + 06 + 07 + 08 + 09 + 10
+10 + 01 + 02 + 03 + 05 + 07 + 10 + 10 + 10 + 10 = 68
+
+01 + 02 + 03 + 04 + 05 + 06 + 07 + 08 + 09 + 10
+20 + 02 + 04 + 06 + 10 + 14 + 20 + 20 + 20 + 20 = 136
 
 suivi
 =====
