@@ -172,8 +172,10 @@ episode 879 (prix)
 
 * 12 sabres de premiere ordre
 
-  * 1er kitetsu: ensorcelle
-  * sabre noir yoru: sabre d oeil de faucon
+  * shodai kitetsu: ensorcelle
+  * sabre noir kokuto yoru: sabre d oeil de faucon
+  * ace seijo oasa mono: arme de gol d roger
+  * murakugukiri : arme de barbe blanche
 
 * 21 grandes lames
 
@@ -198,8 +200,10 @@ reset
 Shikkaku Mon No Saikyou Kenja
 =============================
 
-shokugeki no souma
+shokugeki no soma
 ==================
+
+Tachiyomi: japscan
 
 * dwl: 1 -> 315 (10.06.2019)
 
@@ -212,6 +216,11 @@ Solo leveling
 =============
 
 * https://www.lelscan-vf.com/manga/solo-leveling/85/31
+
+Sword dance leveling
+=====================
+
+Tachiyomi: mangaowl
 
 Tales of Demons and Gods
 ========================
@@ -286,7 +295,56 @@ vf
 * https://www.scan-vf.co
 * https://www.scan-fr.io/
 * http://www.scan-op.com/
-          
+
+Tachiyomi
+=========
+
+* japanread
+  * i m the great immortal
+  * sexercise
+  * a pervert s daily life
+* japscan
+  * duolo dalu
+  * duolo dalu 4
+  * release that witch
+  * shokugeki no soma
+* jpmangas
+  * a returner s magic should be special
+  * darwin s game
+  * forced to become the villainous son in law
+  * Hazure Waku no Joutai Ijou Skill de Saikyou ni Natta Ore ga Subete wo juurin suru made
+  * In another world I m called the black healer
+* Koo manga
+  * Kenja no mago
+* Lelscan
+  * I m the great immortal
+  * One piece
+  * The gamer
+  * The legendary moonlight sculptor
+* lirescan
+  * Fairy tail 100 Year quest
+* Manga mutiny
+  * Soul land II
+* Manga hub
+  * soul land
+  * soul land III
+  * soul land IV
+  * sword dance online
+* Op-Vf
+  * Hunter age
+* ReadMangaFox
+  * Maken no daydreamer
+* Scan FR
+  * Hero ca fait longtemps que j ai arrete
+  * My wife is a demon queen
+* Scan manga
+  * Moshi fanren
+  * The legendary moonlight sculptor
+* scantrad union
+  * The tutorial is too hard
+  * touch on
+  * maken no daydreamer
+  * hiraheishi wa kako o yumemiru
 Document history
 ================
 
