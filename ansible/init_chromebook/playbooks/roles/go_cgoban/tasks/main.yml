@@ -1,0 +1,20 @@
+---
+- name: install jre
+  become: yes
+  package:
+    name: openjdk-11-jre
+    state: present
+- name: "create soft dir: {{ go_cgoban_path_to_install }}"
+  file:
+    path: "{{ go_cgoban_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: get cgoban
+  get_url:
+    url: "{{ go_cgoban_download_url }}"
+    dest: "{{ go_cgoban_path_to_install }}/cgoban.jnlp"
+- name: "add alias in {{ go_cgoban_file_for_alias }}"
+  ansible.builtin.lineinfile:
+    path: "{{ go_cgoban_file_for_alias }}"
+    line: "alias cgoban='java -jar {{ go_cgoban_path_to_install }}/cgoban.jnlp'"

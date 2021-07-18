@@ -1,0 +1,10 @@
+---
+kdenlive_dir_to_create:
+  - "~/software"
+  - "~/software/bin"
+kdenlive_path_to_install: "~/software/bin"
+kdenlive_file_to_path: "~/.zshrc"
+
+kdenlive_short_version: "21.04"
+kdenlive_long_version: "{{ kdenlive_short_version }}.2"
+kdenlive_download_url: "https://download.kde.org/stable/kdenlive/{{ kdenlive_short_version }}/linux/kdenlive-{{ kdenlive_long_version }}-x86_64.appimage"

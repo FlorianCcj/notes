@@ -1,0 +1,12 @@
+---
+php_main_package: 'php8.0'
+php_sub_packages:
+  - fpm
+  - mysql
+  - curl
+  - xml
+  - mbstring
+  - zip
+
+php_composer_path: /usr/local/bin/composer
+php_composer_keep_updated: yes

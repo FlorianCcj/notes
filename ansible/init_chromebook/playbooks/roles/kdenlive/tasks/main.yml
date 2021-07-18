@@ -1,0 +1,18 @@
+---
+# https://download.kde.org/stable/kdenlive/21.04/linux/kdenlive-21.04.2-x86_64.appimage
+- name: "create soft dir: {{ kdenlive_path_to_install }}"
+  file:
+    path: "{{ item }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+  loop: "{{ kdenlive_dir_to_create }}"
+- name: get kdenlive
+  get_url:
+    url: "{{ kdenlive_download_url }}"
+    dest: "{{ kdenlive_path_to_install }}/kdenlive"
+    mode: "+x"
+- name: "edit path to get bin {{ kdenlive_file_to_path }}"
+  ansible.builtin.lineinfile:
+    path: "{{ kdenlive_file_to_path }}"
+    line: "export PATH=$PATH:{{ kdenlive_path_to_install }}"

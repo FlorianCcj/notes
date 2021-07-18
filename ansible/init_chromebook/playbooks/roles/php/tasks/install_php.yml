@@ -8,17 +8,13 @@
 - name: install php main package
   become: yes
   package:
-    name: "{{ php.main_package }}"
+    name: "{{ php_main_package }}"
 - name: package concatenation
-  shell: "echo {{ php.main_package + '-' + item }}"
-  with_items: "{{ php.sub_packages }}"
+  shell: "echo {{ php_main_package + '-' + item }}"
+  with_items: "{{ php_sub_packages }}"
   register: tmp_packages
 - name: install php sub packages
   become: yes
   package:
     name: "{{ item.stdout }}"
   with_items: "{{ tmp_packages.results }}"
-# deprecated
-#  apt:
-#    name: "{{ php.main_package + '-' + item }}"
-#  with_items: "{{ php.sub_packages }}"

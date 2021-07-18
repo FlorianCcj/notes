@@ -1,0 +1,5 @@
+---
+tmux_plugins:
+  - {name: tmux-resurrect, version: master}
+  - {name: tmux-continuum, version: master}
+tmux_plugins_dir: "~/.tmux-plugins"

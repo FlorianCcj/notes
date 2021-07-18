@@ -1,0 +1,26 @@
+---
+- name: "install tmux"
+  package:
+    name:
+      - tmux
+    state: present
+  become: yes
+- name: "create plugin dir: {{ tmux_plugins_dir }}"
+  file:
+    path: "{{ tmux_plugins_dir }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: "create .tmux.conf"
+  template:
+    src: ".tmux.conf.j2"
+    dest: "~/.tmux.conf"
+    mode: 0644
+- name: Git clone plugin
+  ansible.builtin.git:
+    repo: 'https://github.com/tmux-plugins/{{ item.name }}.git'
+    dest: "{{ tmux_plugins_dir }}/{{ item.name }}"
+    version: master
+  loop: "{{ tmux_plugins }}"
+- name: source tmux conf
+  command: tmux source-file ~/.tmux.conf

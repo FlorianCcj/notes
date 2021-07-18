@@ -1,0 +1,6 @@
+---
+python_specific_version: python3.9
+python_additional_packages:
+  - ansible
+  - pipenv
+  - katrain

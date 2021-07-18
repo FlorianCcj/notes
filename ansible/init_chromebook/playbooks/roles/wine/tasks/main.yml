@@ -1,0 +1,10 @@
+---
+- become: yes
+  block:
+  - name: apt update
+    become: true
+    apt:
+      update_cache: yes
+  - name: install wine
+    package:
+      name: wine64

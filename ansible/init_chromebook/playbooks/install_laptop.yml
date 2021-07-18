@@ -1,0 +1,70 @@
+- name: init chromebook
+  hosts: all
+  vars:
+    non_root_docker_users: []
+  vars_files:
+    - vars/playbook.yml
+    - vars/template.yml
+#  roles:
+#    - geerlingguy.docker
+  tasks:
+    - import_tasks: tasks/apt_update.yml
+      tags: "update"
+    - import_tasks: tasks/vital_packages.yml
+      tags: "package"
+    - import_tasks: tasks/system_packages.yml
+      tags: "package"
+    - import_tasks: tasks/install_zsh_plugin.yml
+      tags: "zsh"
+    #- import_tasks: tasks/banner.yml
+    - import_role:
+        name: "python"
+      tags: "python"
+    - import_role:
+        name: "git"
+      tags: "git"
+      # need git
+    - import_role:
+        name: "tmux"
+      tags: "tmux"
+    - import_role:
+        name: "php"
+      tags: "php"
+    - import_role:
+        name: "npm"
+      tags: "npm"
+    - import_tasks: tasks/install_vscode.yml
+      tags: "vscode"
+    #- import_tasks: tasks/install_atom.yml
+#    # wtf payment required
+#    #- import_tasks: tasks/install_slack.yml
+#    #  tags: "slack"
+    - import_role:
+        name: "discord"
+      tags: "discord"
+    - import_role:
+        name: "docker"
+      tags: "docker"
+    - import_role:
+        name: "go_cgoban"
+      tags: "go_cgoban"
+    - import_role:
+        name: "obs"
+      tags: "obs"
+    - import_role:
+        name: "kdenlive"
+      tags: "kdenlive"
+    - import_role:
+        name: "wine"
+      tags: "wine"
+      # need to be after wine
+    - import_role:
+        name: "go_fox"
+      tags: "go_fox"
+      # need to be after wine
+    - import_role:
+        name: "go_drago"
+      tags: "go_drago"
+    - import_role:
+        name: "gnome"
+      tags: "gnome"

@@ -1,0 +1,11 @@
+---
+- name: "install docker dependancies"
+  become: yes
+  package:
+    state: "absent"
+    name:
+      - "docker"
+      - "docker-engine"
+      - "docker.io"
+      - "containerd"
+      - "runc"

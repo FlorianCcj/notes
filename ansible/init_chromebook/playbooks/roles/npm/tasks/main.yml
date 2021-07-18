@@ -17,7 +17,4 @@
   npm:
     name: "{{ item }}"
     global: yes
-  with_items:
-    - yarn
-    - "@angular/cli"
-
+  loop: "{{ npm_additional_packages }}"

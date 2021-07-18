@@ -1,11 +1,11 @@
 ---
 - name: install git
-  apt:
+  package:
     name: git
 - name: make gitconfig
   template:
     src: templates/.gitconfig.j2
-    dest: "/home/{{config.user}}/.gitconfig"
-    owner: "{{config.user}}"
-    group: "{{config.user}}"
+    dest: "/home/{{ git_user }}/.gitconfig"
+    owner: "{{ git_user }}"
+    group: "{{ git_user }}"
     mode: 0644

@@ -1,0 +1,3 @@
+---
+- import_tasks: install_php.yml
+- import_tasks: install_composer.yml

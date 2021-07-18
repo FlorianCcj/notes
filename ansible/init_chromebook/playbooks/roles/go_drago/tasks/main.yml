@@ -1,0 +1,16 @@
+---
+- name: "create soft dir: {{ go_drago_path_to_install }}"
+  file:
+    path: "{{ go_drago_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: get drago
+  ansible.builtin.unarchive:
+    src: "{{ go_drago_dwl_url }}"
+    dest: "{{ go_drago_path_to_install }}"
+    remote_src: yes
+- name: "add alias in {{ go_drago_file_for_alias }}"
+  ansible.builtin.lineinfile:
+    path: "{{ go_drago_file_for_alias }}"
+    line: "alias drago='wine {{ go_drago_path_to_install }}/Drago.exe'"

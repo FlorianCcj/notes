@@ -1,0 +1,5 @@
+gnome_clock_active_seconds: yes
+gnome_extra_packages:
+  - gnome-control-center # for gnome settings
+  #- gnome-tweaks #didn t work :'(
+  #- gnome-tweak-tool

@@ -5,7 +5,7 @@
   when: php_executable is not defined
 
 - name: Check if Composer is installed.
-  stat: "path={{ composer_path }}"
+  stat: "path={{ php_composer_path }}"
   register: composer_bin
 
 - name: Get Composer installer signature.
@@ -32,15 +32,13 @@
 - name: Move Composer into globally-accessible location.
   become: yes
   command: >
-    mv /tmp/composer.phar {{ composer_path }}
-    creates={{ composer_path }}
+    mv /tmp/composer.phar {{ php_composer_path }}
+    creates={{ php_composer_path }}
   when: not composer_bin.stat.exists
 
 - name: Update Composer to latest version (if configured).
   command: >
-    {{ php_executable }} {{ composer_path }} self-update
+    {{ php_executable }} {{ php_composer_path }} self-update
   register: composer_update
   changed_when: "'Updating to version' in composer_update.stdout"
-  when: composer_keep_updated
-
-
+  when: php_composer_keep_updated

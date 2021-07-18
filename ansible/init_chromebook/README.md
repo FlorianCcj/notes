@@ -1,9 +1,13 @@
-ansible-playbook -i hosts.ini playbooks/playbook.yml
 
 
 sudo apt install python python3-pip
 pip install ansible
 export PATH=$PATH:/home/${USER}/.local/bin
+
+ansible-playbook -i hosts.ini playbooks/playbook.yml
+
+for dual screen 'launch' nvidia-detector
+then install nvdia-driver-<number>
 
 need 
 <user> ALL=(ALL:ALL) NOPASSWD: ALL
@@ -15,20 +19,9 @@ et dans /etc/sudoers.d/ verifier qu il y a `includedir /etc/sudoers.d`
 
 install https://github.com/bmwant/podmena
 
-ansible-galaxy install -r requirements.yml
+sudo apt-get install ubuntu-restricted-extras
 
- OK - install-basics.sh - 1 - base
- OK - install-basics.sh - 2 - omz
- OK - install-basics.sh - 3 - z.sh
- OK - install-basics.sh - 4 - git
- OK - install-basics.sh - 5 - gitconfig
- OK - install php
-NOK - install composer
-NOK - install npm
-NOK - install python
-NOK - install discord
-NOK - install atom
-NOK - install vscode
+permet de recuperer quelque codec video
 
 
 ```

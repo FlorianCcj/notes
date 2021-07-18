@@ -4,14 +4,16 @@ config:
 #  z_dot_sh_url: defined if you want to change path
 #  oh_my_zsh_url: defined if you want to change path
 vital_packages:
-  - terminator
-  - zsh
-  - git
-  - firefox
-  - vlc
-  - vim
   - exfat-utils
+  - firefox
+  - gimp
+  - git
+  - terminator
+  - tmux
   - unzip
+  - vim
+  - vlc
+  - zsh
 system_packages:
   - tree
   - multitail

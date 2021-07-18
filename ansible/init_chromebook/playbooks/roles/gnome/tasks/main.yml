@@ -1,0 +1,15 @@
+---
+- name: "install gnome extra packages"
+  package: "{{ gnome_extra_packages }}"
+- name: "active seconds in clock"
+  #when: gnome_clock_active_seconds
+  command: >
+    gsettings set org.gnome.desktop.interface clock-show-seconds true
+- name: "active week in calendar"
+  when: gnome_clock_active_seconds
+  command: >
+    gsettings set org.gnome.desktop.calendar show-weekdate true
+- name: "enable screensaver"
+  command: >
+    gnome-screensaver-command -a
+ 
