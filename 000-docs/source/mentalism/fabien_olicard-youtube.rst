@@ -418,6 +418,48 @@ Effet Dorian Grey
 
 Vous avez le visage de votre prenom
 
+Fake News
+*********
+
+https://www.youtube.com/watch?v=gBRAYG3aDrU
+
+Vous n etes pas fache avec les math
+===================================
+
+
+* Demander un nombre a deux chiffres au spectateur
+* l ecrire, puis le reecrire a cote
+* demander un autre nombre a deux chiffres
+* l ecrire sous le premier
+* ecrire sous le deuxieme le complement a 99
+* pour faire la multiplication et additionner les deux resultats
+  * ecrire le premier nombre moins 1
+  * puis ecrire a la suite son complement a 99
+
+`27*12 + 27*87 = (27-1)*100 + (99-(27-1)) = 2673`
+
+From Harry Loraine
+
+Idees recues
+============
+
+* Le prenom de Cesar etait Jules
+  * C est faux
+  * Jules est le nom de son clan
+  * Cesar est le nom de la branche du clan
+  * Son prenom etait cayus
+* L arc en ciel a 7 couleur
+  * VIBUJOR: moyen memotecnique
+  * Newton etait supersticieux il s est dit que 7 etait un nombre magique il fallait en ajouter une, il a cree l indigo
+* l homme descend du singe
+  * il y a les primates humains et les primates non humain, on descend des primates mais il y a un chainon manquant entre les primates et les humains
+* Les roux sont en train de disparaitre de la population
+  * faux
+* Toucher les crapeau donne des boutons
+  * faux
+* Le cerveau est completement former a la naissance
+  * faux
+
 Faut-il dire oui ou non ? 
 *************************
 
@@ -504,6 +546,17 @@ Demo
 * 8
 * tu as choisi le 8, je vais juste retourner le carton, et tu vas compter 1, 2, 3, 4, 5, 6, 7, 8.
 * tu vois ce symbole la, il est unique, et ce petit carton que je n ai pas toucher depuis le debut, qui n a pas bouger, a un symbole lui aussi, tout particulier, c est exactement le meme
+
+MG7 Le cerveau cache des supers pouvoirs ou comment savoir quel jour est une date
+*********************************************************************************
+
+* d abord choisir une annee, exemple 2021
+* ensuite retenir le chiffre de chaque premier lundi de chaque moi 411 537 526 416 (les trois premiers chiffres sont pour janvier, fevrier, mars, ...)
+* Pour l annee suivant, il suffit de faire -1
+* Exemple sur le 12 decembre
+  * le 6 decembre est un lundi
+  * donc le 13 egalement (trouver le lundi le plus proche)
+  * donc le 12 est un dimanche
 
 Explication
 ===========
