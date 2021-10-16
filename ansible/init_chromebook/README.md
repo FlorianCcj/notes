@@ -4,10 +4,13 @@ sudo apt install python python3-pip
 pip install ansible
 export PATH=$PATH:/home/${USER}/.local/bin
 
-ansible-playbook -i hosts.ini playbooks/playbook.yml
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml
 
 for dual screen 'launch' nvidia-detector
 then install nvdia-driver-<number>
+
+Problem with python apt ?
+sudo ln -s /usr/lib/python3/dist-packages/apt_inst.cpython-38-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/apt_inst.cpython-39-x86_64-linux-gnu.so
 
 need 
 <user> ALL=(ALL:ALL) NOPASSWD: ALL

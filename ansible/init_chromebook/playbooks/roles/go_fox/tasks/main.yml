@@ -1,5 +1,6 @@
 ---
 - name: "create soft dir: {{ go_fox_path_to_install }}"
+  become: yes
   file:
     path: "{{ go_fox_path_to_install }}"
     state: directory
@@ -9,7 +10,9 @@
   get_url:
     url: "{{ go_fox_download_url }}"
     dest: "{{ go_fox_path_to_install }}/fox_installer.exe"
-- name: "add alias in {{ go_fox_file_for_alias }}"
-  ansible.builtin.lineinfile:
-    path: "{{ go_fox_file_for_alias }}"
-    line: "alias fox='wine {{ go_fox_path_to_install }}/fox_installer.exe'"
+- name: "add fox alias"
+  import_role:
+    name: "env_alias"
+  vars:
+    env_vars_list:
+      - "alias fox='wine {{ go_fox_path_to_install }}/fox_installer.exe'"

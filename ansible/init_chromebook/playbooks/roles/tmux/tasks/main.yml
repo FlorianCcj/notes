@@ -22,5 +22,6 @@
     dest: "{{ tmux_plugins_dir }}/{{ item.name }}"
     version: master
   loop: "{{ tmux_plugins }}"
+  ignore_errors: yes
 - name: source tmux conf
   command: tmux source-file ~/.tmux.conf

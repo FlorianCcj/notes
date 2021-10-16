@@ -33,6 +33,9 @@
     - import_role:
         name: "npm"
       tags: "npm"
+    - import_role:
+        name: "flutter"
+      tags: "flutter"
     - import_tasks: tasks/install_vscode.yml
       tags: "vscode"
     #- import_tasks: tasks/install_atom.yml
@@ -48,6 +51,12 @@
     - import_role:
         name: "go_cgoban"
       tags: "go_cgoban"
+    - import_role:
+        name: "go_igs"
+      tags: "go_igs"
+    - import_role:
+        name: "blender"
+      tags: "blender"
     - import_role:
         name: "obs"
       tags: "obs"
@@ -68,3 +77,6 @@
     - import_role:
         name: "gnome"
       tags: "gnome"
+    - import_role:
+        name: "android_sdk"
+      tags: "android_sdk"

@@ -1,0 +1,25 @@
+---
+- name: "create soft dir: {{ android_sdk_path_to_install }}"
+  ansible.builtin.file:
+    path: "{{ android_sdk_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: "get android cli"
+  ansible.builtin.unarchive:
+    src: "{{ android_sdk_cli_dwl_url }}"
+    dest: "{{ android_sdk_path_to_install }}"
+    remote_src: yes
+  notify:
+    - command to launch
+- name: let s try
+  command: | 
+      {{ android_sdk_sdkmanager_path }} \
+        --sdk_root={{ android_sdk_path_to_install }} \
+        'build-tools;28.0.3' \
+        'emulator' \
+        'platform-tools' \
+        'platforms;android-28' \
+        'tools'
+  notify:
+    - command to launch

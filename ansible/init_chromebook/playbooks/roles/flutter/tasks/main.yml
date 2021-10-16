@@ -1,0 +1,19 @@
+---
+- name: "create soft dir: {{ flutter_install_path }}"
+  become: yes
+  file:
+    path: "{{ flutter_install_path }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: "get flutter"
+  ansible.builtin.git:
+    repo: "{{ flutter_git_repo_url }}"
+    dest: "{{ flutter_install_path }}/flutter"
+    version: "{{ flutter_version | default('main') }}"
+- name: "add flutter to path"
+  import_role:
+    name: "env_vars"
+  vars:
+    env_vars_list:
+      - "export PATH=$PATH:{{ flutter_install_path }}/flutter/bin"

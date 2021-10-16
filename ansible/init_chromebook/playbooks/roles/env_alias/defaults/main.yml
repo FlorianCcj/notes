@@ -1,0 +1,4 @@
+---
+env_alias_file: "~/.alias"
+env_alias_list: []
+env_alias_terminal_rc_file: "~/.zshrc"

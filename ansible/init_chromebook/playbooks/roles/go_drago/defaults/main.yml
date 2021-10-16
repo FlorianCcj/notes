@@ -2,5 +2,4 @@
 go_drago_version: 430
 
 go_drago_dwl_url: https://www.godrago.net/install/PortableDrago0{{ go_drago_version }}.zip
-go_drago_file_for_alias: "~/.zshrc"
-go_drago_path_to_install: "~/software"
+go_drago_file_for_alias: "~/.alias"

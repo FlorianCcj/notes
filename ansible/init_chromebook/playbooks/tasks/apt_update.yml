@@ -1,5 +1,5 @@
 ---
-- name: apt update
-  become: true
+- name: "apt update"
+  become: yes
   apt:
     update_cache: yes

@@ -1,0 +1,4 @@
+---
+go_igs_bin: 'GoPanda2.AppImage'
+go_igs_download_url: 'https://pandanet-igs.com/gopanda2/download/{{ go_igs_bin }}'
+go_igs_path_to_install: "~/software/bin"

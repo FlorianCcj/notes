@@ -1,0 +1,8 @@
+---
+#android_sdk_cli_dwl_url: "https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
+android_sdk_cli_dwl_url: "https://dl.google.com/android/repository/commandlinetools-linux-6200805_latest.zip"
+
+android_sdk_path_to_install: "~/software/android-sdk"
+
+#android_sdk_sdkmanager_path: "{{ android_sdk_path_to_install }}/cmdline-tools/bin/sdkmanager"
+android_sdk_sdkmanager_path: "{{ android_sdk_path_to_install }}/tools/bin/sdkmanager"

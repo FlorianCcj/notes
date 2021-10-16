@@ -1,10 +1,12 @@
 ---
 - name: install zsh
+  become: yes
   apt:
     name: zsh
     state: latest
 
 - name: install zsh
+  become: yes
   apt:
     name: curl
     state: latest
