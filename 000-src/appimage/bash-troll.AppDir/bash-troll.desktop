@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=bash-troll
+Exec=troll
+Icon=troll.ico
+Type=Application
+Categories=Utility
