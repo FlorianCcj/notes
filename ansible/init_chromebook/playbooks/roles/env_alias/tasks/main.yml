@@ -1,7 +1,7 @@
 ---
 - name: "ensure '{{ env_alias_file }}' exist"
   copy:
-    content: ""
+    content: "#"
     dest: '{{ env_alias_file }}'
     force: no
     mode: 0755

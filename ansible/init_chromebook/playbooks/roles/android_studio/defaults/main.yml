@@ -1,0 +1,15 @@
+---
+android_sdk_cli_dwl_url: "https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
+android_studio_dwl_url: "https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2020.3.1.25/android-studio-2020.3.1.25-linux.tar.gz"
+
+android_studio_path_to_install: "~/software"
+
+
+android_sdk_sdkmanager_relative_path: "./cmdline-tools/bin/sdkmanager"
+
+android_sdk_tools_to_install:
+  - 'build-tools;28.0.3'
+  - 'emulator'
+  - 'platform-tools'
+  - 'platforms;android-28'
+  - 'tools'

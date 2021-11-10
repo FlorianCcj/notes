@@ -1,0 +1,10 @@
+---
+- name: "generate script to install"
+  template:
+    src: "tmp/android_sdk_install.sh.j2"
+    dest: "/tmp/android_sdk_install.sh"
+    mode: "+x"
+  listen: command to launch
+- debug:
+      msg: "launch /tmp/android_sdk_install.sh"
+  listen: command to launch

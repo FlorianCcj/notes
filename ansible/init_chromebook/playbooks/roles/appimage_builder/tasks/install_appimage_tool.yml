@@ -1,0 +1,12 @@
+---
+- name: "get appimagetool"
+  ansible.builtin.get_url:
+    url: "{{ appimage_builder_appimage_tool_download_url }}"
+    dest: "{{ appimage_builder_path_to_install }}"
+    mode: u+x
+- name: "add appimagetool alias"
+  import_role:
+    name: "env_alias"
+  vars:
+    env_alias_list:
+      - "alias {{ appimage_builder_alias }}='{{ appimage_builder_path_to_install }}/appimagetool-x86_64.AppImage'"

@@ -19,3 +19,8 @@
   vars:
     env_vars_list:
       - "export PATH=$PATH:{{ kdenlive_path_to_install }}"
+- name: "standard conf"
+  debug:
+    msg: >
+      SDK Folder: /home/florianccj/Android/Sdk
+      JDK Location: /home/florianccj/software/android-studio/jre

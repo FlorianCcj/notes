@@ -15,5 +15,5 @@
   import_role:
     name: "env_alias"
   vars:
-    env_vars_list:
+    env_alias_list:
       - "alias drago='wine {{ go_drago_path_to_install }}/Drago.exe'"

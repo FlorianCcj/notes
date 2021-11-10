@@ -1,0 +1,4 @@
+---
+- name: "Install appimage-builder"
+  pip:
+    name: "appimage-builder"

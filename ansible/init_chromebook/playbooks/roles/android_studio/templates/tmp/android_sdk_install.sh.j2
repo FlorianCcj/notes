@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd {{ android_sdk_path_to_install }}
+{{ android_sdk_sdkmanager_relative_path }} \
+  --sdk_root=$(pwd) \
+{% for i_tools in android_sdk_tools_to_install %}
+  '{{ i_tools }}'{{ " \" if not loop.last else "" }}
+{% endfor %}
+cd -
