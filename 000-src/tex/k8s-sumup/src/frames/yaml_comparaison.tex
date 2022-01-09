@@ -1,0 +1,102 @@
+\subsubsection{Yaml comparaison}
+\begin{frame}[fragile]{Yaml comparaison}
+
+\begin{small}
+\begin{columns}
+  \begin{column}{0.20\linewidth}
+    \textbf{toto.po.yaml}
+    \begin{lstlisting}
+
+
+
+
+
+
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: toto
+  name: toto
+spec:
+  containers:
+  - image: nginx
+    name: toto
+    \end{lstlisting}
+  \end{column}
+  \begin{column}{0.27\linewidth}
+    \textbf{toto.rs.yaml}
+    \begin{lstlisting}
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  labels:
+    app: toto
+  name: toto
+spec:
+  selector:
+    matchLabels:
+      app: toto
+  template:
+    metadata:
+      labels:
+        app: toto
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+  replicas: 1
+  \end{lstlisting}
+  \end{column}
+  \begin{column}{0.26\linewidth}
+    \textbf{toto.ds.yaml}
+    \begin{lstlisting}
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  labels:
+    k8s-app: ingress
+  name: kube-proxy
+spec:
+  selector:
+    matchLabels:
+      k8s-app: ingress
+  template:
+    metadata:
+      labels:
+        k8s-app: ingress
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+    \end{lstlisting}
+  \end{column}
+  \begin{column}{0.27\linewidth}
+    \textbf{toto.deploy.yaml}
+    \begin{lstlisting}
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        app: toto
+      name: toto
+    spec:
+      selector:
+        matchLabels:
+          app: toto
+      template:
+        metadata:
+          labels:
+            app: toto
+        spec:
+          containers:
+          - image: nginx
+            name: nginx
+      replicas: 1
+    \end{lstlisting}
+  \end{column}
+\end{columns}
+\end{small}
+\end{frame}

@@ -1,0 +1,23 @@
+\subsubsection{Command and args}
+\begin{frame}[fragile]{Command and args}
+  \begin{itemize}
+    \item \texttt{command} in yaml file will surcharge \texttt{entrypoint} in dockerfile
+    \item \texttt{args} in yaml file will surcharge \texttt{command} in dockerfile
+  \end{itemize}
+  \begin{lstlisting}
+    apiVersion: v1
+    kind: Pod
+    metadata:
+      labels:
+        run: toto
+      name: toto
+    spec:
+      containers:
+      - image: ubuntu
+        name: toto
+        command:
+        - sleep
+        args:
+        - "1200"
+\end{lstlisting}
+\end{frame}

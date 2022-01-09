@@ -1,0 +1,23 @@
+\subsubsection{Pods command}
+\begin{frame}{Pods command}
+\begin{itemize}
+  \item \textbf{(po) minimal}: \texttt{k run <pod\_name> --image=<image\_name>}
+  \item \textbf{(po) example}: \texttt{k run toto-frontend --image=nginx -l "app=toto,tier=frontend" --dry-run=client -o yaml}
+  \item \textbf{(po) connection}: \texttt{k exec -it <pod\_name> -- <command>}
+  \item \textbf{(po) interaction}: \texttt{k [get|describe|edit|delete] [pods|po] <pods\_name>}
+  \begin{itemize}
+    \item in \texttt{get} command ready: container in pod ready/container total in pod
+  \end{itemize}
+  \item \textbf{(po) edition} can only edit 4 field (if edit anything else: delete/recreate)
+  \begin{itemize}
+    \item spec.containers[*].image
+    \item spec.initContainers[*].image
+    \item spec.activeDeadlineSeconds
+    \item spec.tolerations
+  \end{itemize}
+  \item \textbf{(po) get yaml} \texttt{k get pods <pods\_name> -o yaml > <pods\_name>.po.yaml}
+  \item \textbf{(po) create from yaml} \texttt{k apply -f <pods\_name>.po.yaml}
+  \item \textbf{(po) delete from yaml} \texttt{k delete -f <pods\_name>.po.yaml}
+\end{itemize}
+
+\end{frame}

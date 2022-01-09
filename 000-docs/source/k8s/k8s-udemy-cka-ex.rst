@@ -178,7 +178,6 @@ Security
   * create netpol ingress
   * create netpol egress
 
-
 Storage
 *******
 

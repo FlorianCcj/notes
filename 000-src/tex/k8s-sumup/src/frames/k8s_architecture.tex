@@ -1,0 +1,32 @@
+\subsubsection{k8s architecture}
+\begin{frame}{k8s architecture}
+\begin{columns}
+\begin{column}{0.2\textwidth}
+\end{column}
+\begin{column}{0.8\textwidth}
+  \begin{itemize}
+  \item \textbf{Master} Control plane (+ ETCD)
+    \begin{itemize}
+    \item[kube-apiserver]: Auth and etcd's communication (static)
+    \item[kube-controller-manager]: Keep the system in desired state (static)
+    \item[kube-scheduler]: Deals pods on nodes (static)
+    \item[kubelet]: Manage controller order (package)
+    \item[kube-proxy]: Manage services (daemonset)
+    \end{itemize}
+  \item \textbf{Worker} Workload
+    \begin{itemize}
+    \item[kubelet]: Manage controller order (package)
+    \item[kube-proxy]: Manage services (daemonset)
+    \end{itemize}
+  \item \textbf{(ETCD)} (static)
+  \end{itemize}
+  \begin{itemize}
+    \item Static pod:
+    \begin{itemize}
+      \item Deployed on node file system \texttt{/etc/kubernets/manifest}
+      \item can be reconized by \texttt{<pod\_name>-<node\_name>}
+    \end{itemize}
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}

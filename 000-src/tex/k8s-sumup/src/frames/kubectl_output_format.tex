@@ -1,0 +1,18 @@
+\subsubsection{Kubectl output format}
+\begin{frame}{Kubectl output format}
+  \begin{itemize}
+    \item \texttt{k get <resource>}: list the resource
+    \item \texttt{k get <resource> <specific resource>}: retourn only the specific resource targeted
+    \item \texttt{k get <resource> -o wide}: generally give more detail
+    \item \texttt{k get <resource> -o json}: return data in json format
+    \item \texttt{k get po nginx -o yaml}: return data in yaml format
+    \item \texttt{k get <resource> --show-labels}: show labels in the list
+  \end{itemize}
+  Good but not detailed here
+  \begin{itemize}
+    \item \texttt{k get <resource> -o jsonpath='{.items[*].metadata.name}'}
+    \item \texttt{k get no -o jsonpath='{.items[?(@.metadata.name == "node01")].status.nodeInfo.osImage}'}
+    \item \texttt{k get no -o custom-columns='NAME:.metadata.name, OS:.status.nodeInfo.osImage'}: print column of your choice
+    \item \texttt{k get po -l "tier=front,app=ldap"}: filter by label
+  \end{itemize}
+\end{frame}

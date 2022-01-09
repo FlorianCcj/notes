@@ -1,0 +1,20 @@
+\subsubsection{Replicasets and Deployments}
+\begin{frame}{Replicasets and Deployments}
+
+  \begin{itemize}
+    \item \textbf{(rs) interaction}: \texttt{k [get|describe|edit|delete] [replicasets|rs] <rs\_name>}
+    \item \textbf{(ds) interaction}: \texttt{k [get|describe|edit|delete] [daemonsets|ds] <ds\_name>}
+    \item \textbf{(deploy) minimal}: \texttt{k create deploy <deploy\_name> --image=<image\_name>}
+    \item \textbf{(deploy) interaction}: \texttt{k [get|describe|edit|delete] [deployments|deploy] <deploy\_name>}
+    \item \textbf{(rs|deploy) scaling}: \texttt{k scale [rs|deploy] <rs|deploy\_name> --replicas=<number>}
+    \item free edition for rs and deploy
+    \begin{itemize}
+      \item after rs edition need to delete pod to create new version
+      \item deploy have update policy
+    \end{itemize}
+    \item replicasets: be sure to have the good number of a pod
+    \item daemonsets: be sure to have the pod on all node
+    \item deployment: be sure to have the pod as defined
+  \end{itemize}
+  
+\end{frame}

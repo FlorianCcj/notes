@@ -1,0 +1,82 @@
+\subsubsection{Storage architecture}
+\begin{frame}[fragile]{Storage architecture}
+  \begin{itemize}
+    \item \texttt{volumeMount} connect a pod to a \texttt{volume}
+    \item \texttt{volume} is linked to a \texttt{Persistent Volume Claim} (not only)
+    \item \texttt{PVC} claim the reservation of a \texttt{Persistent Volume}
+    \item \texttt{PVC} constraint are
+    \begin{itemize}
+      \item sufficient Capacity
+      \item Access Modes
+      \item Volumes Modes
+      \item (Storage Class)
+      \item (Selector)
+    \end{itemize}
+    \item \texttt{PV} give a place to store
+    \item \texttt{Storage Class} generate dynamically \texttt{Persistent Volume}
+  \end{itemize}
+\end{frame}
+
+\subsubsection{Storage implementation}
+\begin{frame}[fragile]{Storage implementation}
+\begin{small}
+\begin{columns}
+  \begin{column}{0.33\linewidth}
+    \begin{lstlisting}
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: toto
+  name: toto
+spec:
+  containers:
+  - image: ubuntu
+    name: toto
+    volumeMounts: # <----
+    - mountPath: /opt
+      name: data-volume
+  volumes: # <----
+  - name: data-volume
+    persistentVolumeClaim: # <----
+      claimName: myclaim
+    \end{lstlisting}
+  \end{column}
+
+  \begin{column}{0.33\linewidth}
+    \begin{lstlisting}
+apiVersion: v1
+kind: PersistentVolumeClaim # <----
+metadata:
+  name: myclaim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Mi
+    \end{lstlisting}
+  \end{column}
+
+  \begin{column}{0.33\linewidth}
+    \begin{lstlisting}
+apiVersion: v1
+kind: PersistentVolume # <----
+metadata:
+  name: pv-vol1
+spec:
+  # ReadOnlyMany, ReadWriteOnce, ReadWriteMany
+  accessModes:
+    - ReadWriteMany
+  capacity:
+    storage: 12Gi
+  # or replace with storage provider
+  hostPath:
+    path: /tmp/data
+  # Retain or Recycle or Delete
+  persistentVolumeReclaimPolicy: Retain
+      \end{lstlisting}
+  \end{column}
+\end{columns}
+\end{small}
+\end{frame}

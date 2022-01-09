@@ -1,0 +1,114 @@
+\documentclass[8pt]{beamer}
+
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{listings}
+
+%\begin{tcolorbox}
+%Contenu de la boite.
+%\end{tcolorbox}
+%\begin{tcolorbox}[title=Titre de la boite]
+%Contenu de la boite.
+%\end{tcolorbox}
+
+%\begin{tcolorbox}[
+%rightrule=3mm,
+%colback=red!5!white,
+%colframe=red!75!black,
+%arc=0mm,
+%aftertitle={\hfill\colorbox{blue!50!black}{approved}},
+%title={\bfseries Titre de la boite}
+%]
+%This is a \textbf{tcolorbox}.
+%\end{tcolorbox}
+
+\input{src/functions/beamer-toc_frame_number.tex}
+%\input{src/functions/beamer-footer-page_on_total_page.tex}
+\input{src/functions/beamer-header-page_on_total_page.tex}
+
+
+
+%\usetheme{Copenhagen}
+\usetheme{Antibes}
+
+\AtBeginSubsection[]
+{
+\begin{frame}<beamer>{Table of Contents}
+  %\begin{tiny}
+  \tableofcontents[
+    currentsubsection,
+    subsubsectionstyle={show/show/shaded/shaded}
+  ]
+  %\end{tiny}
+\end{frame}
+}
+
+% https://www.overleaf.com/learn/latex/Code_listing
+\lstdefinestyle{mycodestyle}{
+%  backgroundcolor=\color{backcolour},
+%  commentstyle=\color{codegreen},
+%  keywordstyle=\color{magenta},
+%  numberstyle=\tiny\color{codegray},
+%  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=true,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=false;
+  numbers=left,
+  numbersep=0pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2
+}
+\lstset{style=mycodestyle}
+
+\title{K8S - sum-up}
+\subtitle{Beamer's powa}
+\author{Florian}
+\institute{Tourism's institute of nowhere}
+\date{\today}
+
+\makeatother
+\begin{document}
+
+\begin{frame}
+\titlepage{}
+\end{frame}
+
+\begin{frame}<beamer>{Table of Contents}
+  \tableofcontents[]
+\end{frame}
+
+\section{Core concept}
+
+\input{src/frames/k8s_architecture.tex}
+\input{src/frames/deployment_workflow.tex}
+
+\section{Pods and co}
+\subsection{How to deploy}
+
+\input{src/frames/pods.tex}
+\input{src/frames/rs_deploy.tex}
+\input{src/frames/yaml_comparaison.tex}
+\input{src/frames/multicontainer.tex}
+\input{src/frames/expose_cluster_internal.tex}
+
+\subsection{How to list}
+
+\input{src/frames/kubectl_version_trick.tex}
+\input{src/frames/kubectl_output_format.tex}
+
+\subsection{Command and args}
+
+\input{src/frames/command_and_args.tex}
+
+\subsection{Storage}
+
+\input{src/frames/pv_and_pvc.tex}
+
+\input{src/frames/todo.tex}
+
+\end{document}

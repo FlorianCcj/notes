@@ -1,0 +1,11 @@
+\subsubsection{Kubectl proxy and port forward}
+\begin{frame}[fragile]{Kubectl proxy and port forward}
+  \begin{itemize}
+  \item If you try to access apiserver, you need authent
+  \item \texttt{kubectl proxy}: permit to acces apiserver and expose in on localhost:8001
+  \item \texttt{curl http://localhost:8001/api/v1/namespaces/default/services/nginx/proxy/}
+  \item unless exposition you cannot access pod from outside the cluster
+  \item \texttt{kubectl port-forward service/nginx 28080:80}
+  \item can be use pod, deploy, svc
+  \end{itemize}
+\end{frame}

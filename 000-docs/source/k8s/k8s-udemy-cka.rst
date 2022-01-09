@@ -306,6 +306,7 @@ You should need an loadbalancer to target any of your noad ...
 On aws and gcp they make a auto config loadbalancer which you can configure with a loadbalancer service
 
 Imperative vs declarative
+=========================
 
 * Declarative
   * :code:`kubectl run --image=nginx nginx`
@@ -1336,6 +1337,7 @@ API Group
 
 * :code:`curl https://kube-master:6443/version`
 * :code:`curl https://kube-master:6443/api/v1/pods`
+* APIGroup
 * groups:
   * :code:`/metrics`
   * :code:`/healthz`
@@ -1343,21 +1345,24 @@ API Group
   * :code:`/api`: core group
     * :code:`curl https://kube-master:6443/api/v1/{namespaces, pods, rc, events, endpoints, nodes, bindings, PV, PVC, configmaps, secrets, services}`
   * :code:`/apis`: named group
-    * :code:`/apps/v1`
-      * :code:`/deployments`
-      * :code:`/replicasets`
-      * :code:`/statefullsets`
-    * :code:`/extensions`
-    * :code:`/networking.k8s.io/v1`
+    * :code:`/apis/apps/v1`
+      * :code:`/apis/apps/v1/deployments`
+      * :code:`/apis/apps/v1/replicasets`
+      * :code:`/apis/apps/v1/statefullsets`
+    * :code:`/apis/extensions`
+    * :code:`/apis/networking.k8s.io/v1`
       * :code:`networkpolicies`
-    * :code:`/storage.k8s.io`
-    * :code:`/authentication.k8s.io`
-    * :code:`/certicates.k8s.io/v1`
+    * :code:`/apis/storage.k8s.io`
+    * :code:`/apis/authentication.k8s.io`
+    * :code:`/apis/certicates.k8s.io/v1`
       * :code:`certficatesigningrequests`
   * :code:`/logs`
 * on named group: API Groups + (version +) Resources + Verbs
 * Verbs: list, get, create, delete, update, watch
 * :code:`kubectl proxy`: make a proxy on your computer to curl the apiserver
+* :code:`curl http://localhost:6443 -k`
+* :code:`curl http://localhost:6443/apis -k`
+* :code:`kubectl proxy`: permit to access api without authent
 
 Authorization
 =============
@@ -2228,7 +2233,6 @@ jsonpath
   * :code:`$[0:8:2]`: 1st to 8th element with a step of 2
   * :code:`$[-1:0]` or :code:`$[-1:]`: last element
   * :code:`$[-3:]`: last element 3 element
-
 
 Mock Exam
 *********

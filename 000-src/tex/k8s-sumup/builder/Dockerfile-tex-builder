@@ -1,0 +1,36 @@
+FROM ubuntu:bionic
+
+RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
+    && echo "Etc/UTC" > /etc/timezone \
+    && apt-get update
+    # && apt-get update \
+    # && apt-get upgrade -y
+
+# fiche de perso
+RUN apt-get install \
+   texlive-latex-base \
+   texlive-latex-extra \
+   texlive-fonts-recommended \
+   lacheck chktex xzdec \
+   texlive-fonts-extra \
+   -y \
+   && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir workdir
+
+WORKDIR workdir
+
+COPY . .
+
+RUN rm -rf build; mkdir build
+# no scan
+RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build ./src/k8s-sumup.tex
+RUN cp ./build/k8s-sumup.toc .
+RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build ./src/k8s-sumup.tex
+RUN lacheck ./src/k8s-sumup.tex
+#RUN chktex ./src/k8s-sumup.tex
+
+#RUN find -name "*.tex" -exec pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build '{}' \;
+#RUN find -name "*.tex" -exec lacheck '{}' \;
+#RUN find -name "*.tex" -exec chktex '{}' \;
+#RUN find -name "*.tex" -exec echo "'{}'" \;
