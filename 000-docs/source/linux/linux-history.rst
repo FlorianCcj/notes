@@ -4,7 +4,7 @@ Linux - History
 bash
 ****
 
-add in .bashrc :code:`HISTTIMEFORMAT="%Y-%m-%dT%T%z"`
+add in .bashrc :code:`HISTTIMEFORMAT="%Y-%m-%dT%T%z "`
 
 no need export
 
