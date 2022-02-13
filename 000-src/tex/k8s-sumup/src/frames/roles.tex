@@ -1,0 +1,14 @@
+
+\subsubsection{User and certificats}
+\begin{frame}[fragile]{User}
+  \begin{itemize}
+    \item \texttt{k create [serviceaccount|sa] <sa\_name>}: create service account
+    \item \texttt{k create sa toto}: create service account
+    \item \texttt{kubectl create role <role_name> --verb=<verb_list> --resource=<resources>}: create role
+    \item \texttt{kubectl create role toto --verb=get,list,watch --resource=rs,deploy}: create role
+    \item \texttt{k create rolebinding admin --clusterrole=admin --user=user1 --user=user2 --group=group1 --serviceaccount=toto}: create role
+    \item \texttt{}
+  \end{itemize}
+  \begin{lstlisting}
+  \end{lstlisting}
+\end{frame}

@@ -1,0 +1,14 @@
+---
+- name: "Deploy python exo files"
+  template:
+    src: my_math_exercises.py.j2
+    dest: "{{ math_exo_script_path }}/my_math_exercises.py"
+    mode: '+rx'
+  become: yes
+- name: "add math_exo alias"
+  import_role:
+    name: "env_alias"
+  vars:
+    env_alias_list:
+      - "alias math_exo='python {{ math_exo_script_path }}/my_math_exercises.py'"
+      - "math_exo"

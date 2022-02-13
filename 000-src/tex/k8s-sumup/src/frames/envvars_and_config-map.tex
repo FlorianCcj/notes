@@ -1,0 +1,53 @@
+
+\subsubsection{Envvars and Configmap}
+\begin{frame}[fragile]{Envvars and Configmap}
+  \begin{itemize}
+    \item \texttt{k create [configmap|cm] app-config --from-literal="APP\_CONFIG=blue" --from-literal="APP\_MODE=prod"}
+    \item \texttt{kubectl create configmap app-config --from-file=app\_config.properties}
+  \end{itemize}
+  \begin{lstlisting}
+    apiVersion: v1
+    kind: ConfigMap
+    metadata:
+      name: app-config
+    data:
+      APP_COLOR: blue
+      APP_MODE: prod
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Configmap in pod}
+  \begin{lstlisting}
+    [...]
+    kind: Pod
+    spec:
+      containers:
+      - image: ubuntu
+        name: toto
+        # envvars
+        env:
+        - name: my_super_var
+          value: 42
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        # V1
+        - name: APP_COLOR
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: APP_COLOR
+        # V2
+        envFrom:
+        - configMapRef:
+            name: app-config
+        # V3
+        volumeMounts:
+        # ...
+      volumes:
+      - name: app-config-volume
+        configMap:
+          name: app-config
+  \end{lstlisting}
+\end{frame}

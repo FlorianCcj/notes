@@ -1,0 +1,33 @@
+---
+- name: "install anki dependencies"
+  package:
+    name: '{{ anki_dependencies }}'
+    state: present
+  become: yes
+
+- name: "create soft dir: {{ anki_path_to_install }}"
+  become: yes
+  file:
+    path: "{{ anki_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: "get anki"
+  ansible.builtin.unarchive:
+    src: "{{ anki_package_url }}"
+    dest: "{{ anki_path_to_install }}"
+    remote_src: yes
+  become: yes
+- name: "launch anki install"
+  ansible.builtin.command: "./install.sh"
+  # installer need root write to create ‘/usr/local/share/anki’ dir
+  become: yes
+  args:
+    chdir: "{{ anki_path_to_install }}/anki-{{ anki_version }}-linux/"
+
+#- name: "add blender path"
+#  import_role:
+#    name: "env_vars"
+#  vars:
+#    env_vars_list:
+#      - "export PATH=$PATH:{{ blender_path_to_install }}/blender-{{ blender_version }}"

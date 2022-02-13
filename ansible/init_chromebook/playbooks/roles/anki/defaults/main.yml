@@ -1,0 +1,6 @@
+---
+anki_version: "2.1.49"
+anki_package_url: "https://github.com/ankitects/anki/releases/download/{{ anki_version }}/anki-{{ anki_version }}-linux.tar.bz2"
+anki_dependencies:
+  - "libxcb-xinerama0"
+anki_path_to_install: "/opt"

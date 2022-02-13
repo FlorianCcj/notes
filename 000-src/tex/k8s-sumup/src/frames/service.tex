@@ -1,0 +1,15 @@
+
+\subsubsection{Service}
+\begin{frame}[fragile]{Service}
+  \begin{itemize}
+    \item
+    \item \texttt{k expose [po|rs|sts|deploy] <resource\_name> --port=<pod\_number>}: minimal
+    \item \texttt{k expose deploy poulet --port=80 --target-port=80 --type=ClusterIP --name=tchoutchou}
+  \end{itemize}
+  \begin{itemize}
+    \item Service Type: ClusterIP (Default), NodePort, LoadBalancer (on cluster provider)
+    \item Port's option: port (service's port), target-port (pod's port), nodeport (port on the node, on all node)
+  \end{itemize}
+  \begin{lstlisting}
+  \end{lstlisting}
+\end{frame}
