@@ -1,0 +1,10 @@
+\subsubsection{I need an instance}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item \texttt{docker run --rm --stop-timeout 3600 sonarqube}: just to launch
+    \item \texttt{docker run --rm -p 9000:9000 --stop-timeout 3600 sonarqube}: to see something on \texttt{http://localhost:9000}
+    \item \texttt{docker run --rm -p 9000:9000 --stop-timeout 3600 -v \$(pwd)/data:/opt/sonarqube/data sonarqube}: to save data
+    \item \texttt{docker run --rm -p 80:9000 -v /opt/sonar/data:/opt/sonarqube/data -v /opt/sonar/logs:/opt/sonarqube/logs -v /opt/sonar/extensions:/opt/sonarqube/extensions sonarqube}: to save evrithing
+    \item More info on \texttt{https://hub.docker.com/\_/sonarqube}
+  \end{itemize}
+\end{frame}

@@ -1,0 +1,162 @@
+\documentclass[8pt]{beamer}
+
+\usepackage{import}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage{tabularx}
+
+%\begin{tcolorbox}
+%Contenu de la boite.
+%\end{tcolorbox}
+%\begin{tcolorbox}[title=Titre de la boite]
+%Contenu de la boite.
+%\end{tcolorbox}
+
+%\begin{tcolorbox}[
+%rightrule=3mm,
+%colback=red!5!white,
+%colframe=red!75!black,
+%arc=0mm,
+%aftertitle={\hfill\colorbox{blue!50!black}{approved}},
+%title={\bfseries Titre de la boite}
+%]
+%This is a \textbf{tcolorbox}.
+%\end{tcolorbox}
+
+\input{src/functions/beamer-toc_frame_number.tex}
+%\input{src/functions/beamer-footer-page_on_total_page.tex}
+\input{src/functions/beamer-header-page_on_total_page.tex}
+
+
+
+%\usetheme{Copenhagen}
+\usetheme{Antibes}
+
+% All and surlign currensubsection
+%\AtBeginSubsection[]
+%{
+%\begin{frame}<beamer>{Table of Contents}
+%  \tableofcontents[
+%    currentsubsection,
+%    subsubsectionstyle={show/show/shaded/shaded}
+%  ]
+%\end{frame}
+%}
+
+% Current section and surlign current subsection
+\AtBeginSubsection[]
+{
+\begin{frame}<beamer>{Table of Contents}
+  % depth
+  \setcounter{tocdepth}{3}
+  \tableofcontents[
+    sections=\insertsectionnumber,
+    currentsubsection,
+    subsubsectionstyle={show/show/shaded/shaded}
+  ]
+\end{frame}
+}
+
+% https://www.overleaf.com/learn/latex/Code_listing
+\lstdefinestyle{mycodestyle}{
+%  backgroundcolor=\color{backcolour},
+%  commentstyle=\color{codegreen},
+%  keywordstyle=\color{magenta},
+%  numberstyle=\tiny\color{codegray},
+%  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=true,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=false;
+  numbers=left,
+  numbersep=0pt,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2
+}
+\lstset{style=mycodestyle}
+
+\title{Error 418, Protocole HTCPCP, I'm a teapot}
+\subtitle{Beamer's powa}
+\author{Florian}
+\institute{Tourism's institute of nowhere}
+\date{\today}
+
+\makeatother
+\begin{document}
+
+\begin{frame}
+\titlepage{}
+\end{frame}
+
+\begin{frame}<beamer>{Table of Contents}
+  % Tableofcontent with only section and subsection
+  \setcounter{tocdepth}{2}
+  \tableofcontents[]
+\end{frame}
+
+\section{k8s, Core concept}
+
+\input{src/frames-k8s/k8s_architecture.tex}
+\input{src/frames-k8s/deployment_workflow.tex}
+
+\section{k8s, Pods and co}
+\subsection{k8s, How to deploy}
+
+\input{src/frames-k8s/pods.tex}
+\input{src/frames-k8s/rs_deploy.tex}
+\input{src/frames-k8s/yaml_comparaison.tex}
+\input{src/frames-k8s/multicontainer.tex}
+\input{src/frames-k8s/expose_cluster_internal.tex}
+
+\subsection{k8s, How to list}
+
+\input{src/frames-k8s/kubectl_version_trick.tex}
+\input{src/frames-k8s/kubectl_output_format.tex}
+
+\subsection{k8s, Command and args}
+
+\input{src/frames-k8s/command_and_args.tex}
+
+\subsection{k8s, Storage}
+
+\input{src/frames-k8s/pv_and_pvc.tex}
+
+\subsection{k8s, Envvars, config map and secret}
+
+\input{src/frames-k8s/envvars_and_config-map.tex}
+\input{src/frames-k8s/secret.tex}
+
+\subsection{k8s, Pod accessibility}
+
+\input{src/frames-k8s/service.tex}
+\input{src/frames-k8s/ingress.tex}
+
+\section{k8s, Not Concerning Pod}
+\subsection{k8s, Authorization}
+
+\input{src/frames-k8s/user_and_certificat.tex}
+\input{src/frames-k8s/roles.tex}
+
+% Todo
+\subsection{k8s, Network Policies}
+
+\input{src/frames-k8s/todo.tex}
+
+\section{Sonarcube}
+
+\subsection{sonar, theorie}
+
+\input{src/frames-sonar/what_s_hiding_behind_code_quality.tex}
+\input{src/frames-sonar/what_s_about_sonar.tex}
+
+\subsection{sonar, usage}
+
+\input{src/frames-sonar/i_need_an_instance.tex}
+\input{src/frames-sonar/how_do_dev_use_it.tex}
+\input{src/frames-sonar/how_do_admin_use_it.tex}
+
+\end{document}

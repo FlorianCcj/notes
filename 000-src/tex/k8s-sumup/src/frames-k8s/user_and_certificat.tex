@@ -36,11 +36,17 @@
 
 \begin{frame}[fragile]{CSR}
   \begin{itemize}
-    \item \texttt{openssl genrsa -out jane.key 2048}
-    \item \texttt{openssl req -new -key -subj '/CN=jane' -out jane.csr}: Certificate Signing
+    \item \texttt{openssl genrsa -out jane.key 2048}: generate user private key
+    \item \texttt{openssl req -new -key -subj '/CN=jane' -out jane.csr}: Generate Certificate Signing Request
+    \item \texttt{k apply -f jane.csr.yml}: after create kube csr
+    \item \texttt{k get csr}
+    \item \texttt{k certificate deny jane}
+    \item \texttt{k certificate approve jane}
+    \item then bind a role to the user
   \end{itemize}
   \begin{lstlisting}
   ---
+  # jane.csr.yml
   apiVersion: certificates.k8s.io/v1
   kind: CertificateSigningRequest
   metadata:

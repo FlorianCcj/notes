@@ -1,0 +1,23 @@
+\subsubsection{How an admin use it}
+\begin{frame}[fragile]{\subsubsecname}
+  Sonar server management
+  \begin{itemize}
+    \item Project: manual or from repository
+    \item Issues: Detected Problem's Dashboard
+    \item Rules: What will be check during scaner (organised by repository)
+    \item Quality Profile: Group a list of rules and affect a severity (Info, Minor, Major, Critical, Blocker) on each
+    \begin{itemize}
+      \item \texttt{Bulk Change} button permit to activate all filtered rules in a profile
+    \end{itemize}
+    \item Quality Gates: Criteria which defined if the project is clean enougth or not, default
+    \begin{itemize}
+      \item Coverage is less than 80%
+      \item Duplicated Lines is greater than 3%
+      \item Maintainability Rating is worse than A
+      \item Reliability Rating is worse than A
+      \item Security Hotspots Reviewed is less than 100%
+      \item Security Rating is worse than A
+      \item Non comprehensive
+    \end{itemize}
+  \end{itemize}
+\end{frame}

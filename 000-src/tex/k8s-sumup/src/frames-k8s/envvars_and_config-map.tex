@@ -1,11 +1,12 @@
 
 \subsubsection{Envvars and Configmap}
-\begin{frame}[fragile]{Envvars and Configmap}
+\begin{frame}[fragile]{\subsubsecname}
   \begin{itemize}
     \item \texttt{k create [configmap|cm] app-config --from-literal="APP\_CONFIG=blue" --from-literal="APP\_MODE=prod"}
     \item \texttt{kubectl create configmap app-config --from-file=app\_config.properties}
   \end{itemize}
   \begin{lstlisting}
+    ---
     apiVersion: v1
     kind: ConfigMap
     metadata:

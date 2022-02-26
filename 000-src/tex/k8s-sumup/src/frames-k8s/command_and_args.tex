@@ -1,10 +1,11 @@
 \subsubsection{Command and args}
-\begin{frame}[fragile]{Command and args}
+\begin{frame}[fragile]{\subsubsecname}
   \begin{itemize}
     \item \texttt{command} in yaml file will surcharge \texttt{entrypoint} in dockerfile
     \item \texttt{args} in yaml file will surcharge \texttt{command} in dockerfile
   \end{itemize}
   \begin{lstlisting}
+    ---
     apiVersion: v1
     kind: Pod
     metadata:

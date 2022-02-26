@@ -1,5 +1,5 @@
 \subsubsection{Storage architecture}
-\begin{frame}[fragile]{Storage architecture}
+\begin{frame}[fragile]{\subsubsecname}
   \begin{itemize}
     \item \texttt{volumeMount} connect a pod to a \texttt{volume}
     \item \texttt{volume} is linked to a \texttt{Persistent Volume Claim} (not only)
@@ -23,6 +23,7 @@
 \begin{columns}
   \begin{column}{0.33\linewidth}
     \begin{lstlisting}
+---
 apiVersion: v1
 kind: Pod
 metadata:
@@ -45,6 +46,7 @@ spec:
 
   \begin{column}{0.33\linewidth}
     \begin{lstlisting}
+---
 apiVersion: v1
 kind: PersistentVolumeClaim # <----
 metadata:
@@ -60,6 +62,7 @@ spec:
 
   \begin{column}{0.33\linewidth}
     \begin{lstlisting}
+---
 apiVersion: v1
 kind: PersistentVolume # <----
 metadata:
