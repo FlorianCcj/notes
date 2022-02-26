@@ -20,6 +20,9 @@
     - import_role:
         name: "gnome"
       tags: "gnome"
+    - import_role:
+        name: "math_exo"
+      tags: "math_exo"
 
 - name: Installation dev roles
   hosts: all
@@ -49,12 +52,16 @@
       tags: "vscode"
     #- import_tasks: tasks/install_atom.yml
 #    # wtf payment required
+# TODO: install docker compose
     - import_role:
         name: "docker"
       tags: "docker"
     - import_role:
         name: "android_studio"
       tags: "android_studio"
+    - import_role:
+        name: "anki"
+      tags: "anki"
 
 - name: Installation communication roles
   hosts: all
