@@ -2,9 +2,13 @@
 \begin{frame}[fragile]{\subsubsecname}
   Sonar server management
   \begin{itemize}
-    \item Project: manual or from repository
+    \item Project: manual or from repository, a lot of config as:
+    \begin{itemize}
+      \item short term branch: only scan new modification
+      \item long term branch: scan full repository
+    \end{itemize}
     \item Issues: Detected Problem's Dashboard
-    \item Rules: What will be check during scaner (organised by repository)
+    \item Rules: What will be check during scanner (organised by repository)
     \item Quality Profile: Group a list of rules and affect a severity (Info, Minor, Major, Critical, Blocker) on each
     \begin{itemize}
       \item \texttt{Bulk Change} button permit to activate all filtered rules in a profile
