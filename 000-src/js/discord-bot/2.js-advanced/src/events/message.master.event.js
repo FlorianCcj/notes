@@ -144,7 +144,7 @@ module.exports = async (client, msg) => {
   const channel_to_post = msg.client.channels.cache.find(c => c.name === channel_to_post_name);
   const is_master = msg.member.roles.cache.has(master_group_id);
 
-  // @Todo  help
+  // TODO  help
 
   // init bot
   if (msg.content.startsWith(`${init_phrase} 1`)) {
@@ -219,7 +219,7 @@ module.exports = async (client, msg) => {
       return;
     }
     challenger = msg.mentions.users.first().username;
-    
+  
     // edit challenger message
     do_we_continue = await remove_challenger(
       channel_to_post,
@@ -262,7 +262,7 @@ module.exports = async (client, msg) => {
       .then(history_msg => {
         old_master = find_last_master(history_msg.content);
       });
-    
+  
     // edit challenger message
     do_we_continue = await remove_challenger(
       channel_to_post,
@@ -289,5 +289,5 @@ module.exports = async (client, msg) => {
     ;
   }
 
-  // @Todo high score during
+  // TODO high score during
 };

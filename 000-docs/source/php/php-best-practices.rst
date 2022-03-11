@@ -58,12 +58,12 @@ Typage
     function isValueInDoble($values)
     {
         // look for 2 value which are the same in a table
-        
+      
         // whatever values type, always return table
         return [
             'pairs_found' => $pairsFound,
             'values_pairs_found' => $valuesPairsFound
-        ]; 
+        ];
     }
 
 .. code-block:: PHP
@@ -123,7 +123,7 @@ Other
 
 .. code-block:: php
 
-    // don t 
+    // don t
     // function input($name, $type = 'text', $value = '', $placeholder = '', $id = '', $required = false)
 
     // do

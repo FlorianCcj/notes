@@ -3,5 +3,5 @@
     :caption: Table of Contents
     :numbered:
     :glob:
-    
-    pages/*.0*   
+  
+    pages/*.0* 

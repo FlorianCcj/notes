@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) =>  {      
+app.get('/', (req, res) =>  {    
    console.log('console: I just received a GET request on port 3000!');
    res.send('res: Hello World!');
 });

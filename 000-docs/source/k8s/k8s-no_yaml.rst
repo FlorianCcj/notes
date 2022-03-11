@@ -21,13 +21,13 @@ ed in YAML to improve collaboration between dev and ops roles.
 rce of truth for your platform
 * Tilt: the need for fast feedback loops as devs are writting new code, or debuggin
 g eisting code
-* Admission controller: reduces the number of fields devs have to remember to fill 
+* Admission controller: reduces the number of fields devs have to remember to fill
 in on their YAML files
 * helm: providing a menu of options for devs to choose from, per org. Basic lifecyc
 le
-* ksonnet: how to manage multi-cluster, multi-env, multiplicatively complex config 
+* ksonnet: how to manage multi-cluster, multi-env, multiplicatively complex config
 scenarios. Keep your configs DRY
-* Kustomize: how to manage YAML complexity while still remaining Declarative. Keep 
+* Kustomize: how to manage YAML complexity while still remaining Declarative. Keep
 your configs DRY
 
 Sumary:

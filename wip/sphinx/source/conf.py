@@ -50,7 +50,7 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/theming.html?highlight=sidebar
 # value: alabaster, classic, basic, sphinxdoc, scrolls, agogo, nature, pyramid, haiku
 #   traditional, epub, bizstyle
-# pas mal: classic, 
+# pas mal: classic,
 html_theme = 'classic'
 html_theme_options = {
 }

@@ -18,7 +18,7 @@ jobs:
     - stage: deploy
       name: Deploy to GitHub Pages
       if: (branch = master) # only deploy if merging on master
-      script: 
+      script:
         - make html
         - touch build/html/.nojekyll
       deploy:

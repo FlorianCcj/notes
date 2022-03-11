@@ -21,7 +21,7 @@ la curiosite, l apprentissage
   • **Curiosite** : Tu es ouvert à l’experience, decouvrir de nouvelles idees.
   • **Soif d'apprendre** : Tu veux apprendre de nouvelles competences et concepts.
   • **Courage** : Tu es capable de t’armer de force pour atteindre un objectif.
-  • **Bravoure** : Tu ne recules pas devant la menace. 
+  • **Bravoure** : Tu ne recules pas devant la menace.
   • **Persistance** : Tu termines toujours ce que tu as commence.
   • **Integrite** : Tu te presentes avec authenticite et tu dis la verite.
   • **Vitalite** : Tu vis la vie comme une aventure, à 200%, avec une haute energie.
@@ -33,10 +33,10 @@ la curiosite, l apprentissage
   • **Citoyennete** : Tu travailles bien en tant que membre d’un groupe et tu es fidèle à celui-ci.
   • **Equite** : Tu traites toutes les personnes de la même manière et tu ne laisses pas tes sentiments biaiser ton jugement.
   • **Leadership** : Tu encourages le groupe et tu sais l’organiser pour aller dans une direction precise.
-  • **Temperance** : Tu sais contrôler les excès (les tiens et ceux d’autrui). 
+  • **Temperance** : Tu sais contrôler les excès (les tiens et ceux d’autrui).
   • **Pardon et misericorde** : Tu pardonnes facilement et tu acceptes les lacunes des autres
   • **Humilite et modestie** : Tu laisses tes realisations parler d’elles-mêmes.
-  • **Prudence** : Tu fais attention à tes choix, tu prends le temps de reflechir. 
+  • **Prudence** : Tu fais attention à tes choix, tu prends le temps de reflechir.
   • **Transcendance** : Tu apprecies la beaute de ce qui ne se voit pas (emotions, connexions...)
   • **Gratitude** : Tu es reconnaissant des bonnes choses, tu exprimes cette reconnaissance.
   • **Espoir et optimisme** : Tu attends le meilleur du futur et tu y travailles pour, avec positivisme

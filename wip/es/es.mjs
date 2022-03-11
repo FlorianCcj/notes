@@ -1,4 +1,4 @@
-import { data, data2 } from './data'; 
+import { data, data2 } from './data';
 import { Animal, Cat } from './animal.class'
 
 // https://www.youtube.com/watch?v=nZ1DMMsyVyI
@@ -40,7 +40,7 @@ function introduce({ name, age }) {
 function myFunc(...args) {
   console.log(args[0] + args[1]);
 }
-  
+
 myFunc(1, 2, 3, 4);
 
 // ----- Closure -----
@@ -49,7 +49,7 @@ function apiConnect(apiKey) {
     function get(route) {
       return fetch(`${route}?key=${apiKey}`);
     }
-  
+
     function post(route, params) {
       return fetch(route, {
         method: 'POST',
@@ -59,12 +59,12 @@ function apiConnect(apiKey) {
           }
         })
     }
-  
+
     return { get, post }
   }
-  
+
   const api = apiConnect('my-secret-key');
-  
+
   // No need to include the apiKey anymore
   api.get('http://www.example.com/get-endpoint');
   api.post('http://www.example.com/post-endpoint', { name: 'Joe' });
@@ -84,9 +84,9 @@ function apiConnect(apiKey) {
     yield 'How are you?';
     yield 'Bye';
   }
-  
+
   const greet = greeter();
-  
+
   console.log(greet.next().value);
   // 'Hi'
   console.log(greet.next().value);
@@ -101,9 +101,9 @@ function apiConnect(apiKey) {
     while (true)
       yield i++;
   }
-  
+
   const ids = idCreator();
-  
+
   console.log(ids.next().value);
   // 0
   console.log(ids.next().value);
@@ -117,11 +117,11 @@ function apiConnect(apiKey) {
   const greeter = new Promise((res, rej) => {
     setTimeout(() => res('Hello world!'), 2000);
   })
-  
+
   async function myFunc() {
     const greeting = await greeter;
     console.log(greeting);
   }
-  
+
   myFunc();
   // 'Hello world!'

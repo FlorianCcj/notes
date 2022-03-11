@@ -4,7 +4,7 @@ Symfony - test
 Chapitre 01 - Intro et config
 *****************************
 
-3 types: 
+3 types:
 * unitaire: alone in the dark
 * integration: a class in her context
 * fonctionnel (ou End to End): like a user

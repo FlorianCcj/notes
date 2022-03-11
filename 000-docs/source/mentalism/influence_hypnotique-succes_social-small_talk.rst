@@ -119,9 +119,9 @@ Fake it until you do it, tu es desormais mr mme talk
 
 Tranmet tes emotions, de maniere le plus authentique possible
 
-Le fantome et la flamme: 
+Le fantome et la flamme:
 
-* le fantome est intouchable, impalpable, rien ne l atteint, il se deplace lentement et de maniere nonchalente, 
+* le fantome est intouchable, impalpable, rien ne l atteint, il se deplace lentement et de maniere nonchalente,
 * la flamme brille et fait briller, elle est atirante et chaleureuse
 * Soit un fantome quand une chose negative arive, une flame quand c est quelque chose de positif
 
@@ -148,7 +148,7 @@ Les 3 piliers du sujet de conversation parfait
 
 * Famille
 
-  * est ce que tu es proche d eux, 
+  * est ce que tu es proche d eux,
   * comment etait ton enfance
   * quels souvenir t ont marques
 
@@ -267,7 +267,7 @@ Si tu as peur de regarder dans les yeux ou que tu n arives pas a soutenir le reg
 * regarde l arete du nez ou juste entre les 2 yeux
 * regarde un oeil puis l autre
 * regarde le avec des pensees positives (je pense que c est une personne honete, gentil, travailleuse)
-* Regarder toutes les nuances de la pupille de l autre 
+* Regarder toutes les nuances de la pupille de l autre
 
 Le regard dans un groupe
 ========================

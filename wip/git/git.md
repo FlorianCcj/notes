@@ -30,5 +30,5 @@
 ## resources
  * http://wesbos.com/git-hot-tips/
 
-## a todo
+## a TODO
  * https://help.github.com/articles/changing-a-remote-s-url/

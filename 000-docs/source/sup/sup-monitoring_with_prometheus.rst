@@ -10,7 +10,7 @@ Monitoring Why
 * Building dashboards
 * Conducting ad hoc retrospective analysis (i.e., debugging)
 
-USE Method 
+USE Method
 **********
 
 * Utilization, Saturation and Errors
@@ -46,7 +46,7 @@ Prometheus
 * example :code:`total_website_visits{site="MegaApp", location="NJ", instance="webserver",job="web"}`
 * retention: default 15 days, if you need more, add it in a third-party platform
 * recomend to add on an SSD platform
-* HA: 
+* HA:
   * prometheus: for an HA platform, all prometheus will scrap all data
   * alertmanager: will do the same ... so double alert ... will see later
 * https://github.com/danguita/prometheus-monitoring-stack

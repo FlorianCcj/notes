@@ -32,7 +32,7 @@ Recap Core Concepts
   * run a pod with label
   * expose one pod
   * create deploy
-  * create and expose a pod with one command` 
+  * create and expose a pod with one command`
 
 Configuration
 *************

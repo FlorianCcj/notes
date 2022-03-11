@@ -27,7 +27,7 @@
   become: false
   get_url:
     url: "{{ config.z_dot_sh_url | default('https://raw.githubusercontent.com/rupa/z/master/z.sh') }}"
-    dest: ~/   
+    dest: ~/ 
 
 - name: check z.sh in ~/.bashrc
   become: false
@@ -42,4 +42,4 @@
     path: ~/.zshrc
     line: 'source ~/z.sh'
     state: present
-  
+

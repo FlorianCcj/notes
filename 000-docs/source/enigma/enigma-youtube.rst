@@ -101,7 +101,7 @@ Que lui dites-vous pour passer sans risque ?
 Olicarton 16
 ============
 
-Un aveugle est seul dans le désert. Il a 4 comprimés avec lui : deux rouges et deux verts. 
+Un aveugle est seul dans le désert. Il a 4 comprimés avec lui : deux rouges et deux verts.
 
 Son médecin lui a prescrit d'en prendre un rouge et un vert s’il veut vivre, et surtout pas deux de la même couleur.
 

@@ -22,7 +22,7 @@ ABCDE:
       Spaghetti 350g
     steps:
       author: Twisted
-      1. Melanger la mozza, le cheddar, le parmesan et la farine de mais 
+      1. Melanger la mozza, le cheddar, le parmesan et la farine de mais
       2. Faire cuir le bacon a la poile
       3. Ajouter une noix de beurre le Jalapenos et le garlic
       4. Bien melanger
@@ -61,7 +61,7 @@ ABCDE:
       Pour un petit plaisir: Ajoutez un peu de parmesan en poudre.
       Bon appétit
   totest-todo-spag alla carbonara:
-    source: Vrais spaghettis alla carbonara 
+    source: Vrais spaghettis alla carbonara
   totest-todo-Tagliatelles à la carbonara :
     source: https://www.cuisine-etudiant.fr/recette/110-tagliatelles-a-la-carbonara
 FGHIJ:
@@ -81,7 +81,7 @@ FGHIJ:
       Sel, poivre
     steps:
       Préparez vos spaghetti en respectant les consignes du paquet; les spaghettis doivent être cuits.
-      Préchauffez une poêle moyenne à revêtement anti-adhésif. 
+      Préchauffez une poêle moyenne à revêtement anti-adhésif.
       Battez les oeufs, incorporez-y le fromage râpé et les pâtes puis salez et poivrez selon vos goûts.
       Versez la préparation dans la poêle et laissez cuire sur la première face pendant 10 minutes.
       Lorsque la galette est presque cuite et le dessous doré, retournez-la comme une crêpe et faites dorer l'autre face.
@@ -118,7 +118,7 @@ FGHIJ:
     source: https://www.cuisine-etudiant.fr/recette/5632-gratin-de-pates-au-chorizo-et-jambon
 KLMNO:
   totest-mac_n_cheese-boxed_4_cheese:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -130,9 +130,9 @@ KLMNO:
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
   totest-mac_n_cheese-butter_chicken:
-    source: 
+    source:
     realisation:
       préparation : ? min
       cuisson : ? min
@@ -160,7 +160,7 @@ KLMNO:
       8. cook it, add the chicken and the pasta
       9. add cheese and bake eat 180C or 350F 15min
   totest-mac_n_cheese-green:
-    source: 
+    source:
     realisation:
       préparation : ? min
       cuisson : ? min
@@ -268,12 +268,12 @@ PQRST:
       quantite: pour 4 personnes
       Sel, poivre
     steps:
-      author: 
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      author:
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
   totest-todo-Tagliatelles de courgettes au saumon:
     source: https://www.cuisine-etudiant.fr/recette/3048-tagliatelles-de-courgettes-au-saumon-trop-facile
   profil:
-    source: 
+    source:
     realisation:
       préparation : ? min
       cuisson : ? min

@@ -21,13 +21,13 @@ k8s - Udemy - (CKA) Certified Kubernetes Administrator with Practice Tests
   git clone https://github.com/ahmetb/kubectx ${PATH_TO_INSTALL}/.kubectx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubectx /usr/local/bin/kctx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubens /usr/local/bin/kns;
-  
+
   mkdir -p ${PATH_TO_INSTALL}
   wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases -o ${PATH_TO_INSTALL}/.kubectl_aliases
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source ${PATH_TO_INSTALL}/.kubectl_aliases" >> ${alias_file}
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source <(cat ${PATH_TO_INSTALL}/.kubectl_aliases | sed -r 's/(kubectl.*) --watch/watch \1/g')" >> ${alias_file}
   echo "function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }" >> ${alias_file}
-  
+
   echo ". ${alias_file}" >> ~/.zshrc
   . ~/.zshrc
 
@@ -77,7 +77,7 @@ Etcd
   * etcdctl mkdir
   * etcdctl set
 * command v3
-  * etcdctl snapshot save 
+  * etcdctl snapshot save
   * etcdctl endpoint health
   * etcdctl get
   * etcdctl put
@@ -292,7 +292,7 @@ Cluster ip
     ports:
       - targetPort: 80
         port: 80
-    
+  
     selector:
       # my pod labels
       app: myapp
@@ -783,7 +783,7 @@ Env vars
 
 .. code-block:: yaml
   :name: env vars load form a file
-  
+
   # give all a configmap as envvars
   apiVersion: v1
   kind: Pod
@@ -801,7 +801,7 @@ Env vars
 
 .. code-block:: yaml
   :name: pod-definition.yaml
-  
+
   # push a config map as a volume (as for conf file)
   apiVersion: v1
   kind: Pod
@@ -857,7 +857,7 @@ Secrets
 
 .. code-block:: yaml
   :name: get all value off secret as env vars
-  
+
   # give all a secret as envvars
   apiVersion: v1
   kind: Pod
@@ -875,7 +875,7 @@ Secrets
 
 .. code-block:: yaml
   :name: add secret as volume
-  
+
   ---
   # add secret as volume
   # each secret will create a file
@@ -981,7 +981,7 @@ Cluster Upgrade Process
 * the recommendation is to update one minor by one
   * you shouldn t update from 1.10 to 1.13
   * you should update from 1.10 to 1.11 then from 1.11 to 1.12 and from 1.12 to 1.13
-* begin by your master node then your worker nodes 
+* begin by your master node then your worker nodes
 * to upgrade node one by one or all together or add new node, remove one old, add a 2nd, remove a 2nd etc
 
 Upgrade with kubeadm
@@ -1232,10 +1232,10 @@ TLS in k8S/cert creation
   runtimeRequestTimeout: "15m"
   tlsCertFile: "/var/lib/kubelet/kubelet-node01.crt"
   tlsPrivateKeyFile: "/var/lib/kubelet/kubelet-node01.key"
-  
+
 View Certificate Detail
 =======================
-  
+
 * :code:`cat /etc/systemd/system/kube-apiserver.service`
 * :code:`cat /etc/kubernetes/manifests/kube-apiserver.yaml`
 * :code:`openssl x509 -in /etc/kubernetes/pki/apiserver.crt`

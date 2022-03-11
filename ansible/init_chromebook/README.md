@@ -12,7 +12,7 @@ then install nvdia-driver-<number>
 Problem with python apt ?
 sudo ln -s /usr/lib/python3/dist-packages/apt_inst.cpython-38-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/apt_inst.cpython-39-x86_64-linux-gnu.so
 
-need 
+need
 <user> ALL=(ALL:ALL) NOPASSWD: ALL
 ------------------------------
 echo -e "<user>\tALL=ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/

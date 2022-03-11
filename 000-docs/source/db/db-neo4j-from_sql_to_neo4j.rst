@@ -21,8 +21,8 @@ Export data
     COPY (SELECT * FROM categories) TO '/tmp/categories.csv' WITH CSV header;
 
     COPY (SELECT * FROM orders
-        LEFT OUTER JOIN order_details 
-        ON order_details.OrderID = orders.OrderID) 
+        LEFT OUTER JOIN order_details
+        ON order_details.OrderID = orders.OrderID)
         TO '/tmp/orders.csv' WITH CSV header
     ;
 

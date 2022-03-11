@@ -58,7 +58,7 @@ Combien coute votre temps
 * (5>1): apprehencier quant a vos choix, necessite une analyse de depence de temps pour retrouver l important
 * (5<1): vous savez ce qui est important mais attention a ne pas viser la lune
 * (5>2): apprenez a deleguer
-* (5<2): pas besoin 
+* (5<2): pas besoin
 * (5>3): coherent avec des ambitions
 * (5<3): peut etre revoir votre ambition, la coherence avec votre satisfaction
 
@@ -74,7 +74,7 @@ De la meme maniere Fabien se demande si c est rentable, la charge temporelle et 
 La matrice d Einsenhower
 ========================
 
-4 cases, urgent/non urgent, important/non important 
+4 cases, urgent/non urgent, important/non important
 
 Le tableau factuelle
 ====================

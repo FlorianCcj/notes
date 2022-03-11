@@ -35,7 +35,7 @@ Boiled eggs
   * 2 min: verry runny
   * 5 min: to dip bread on it
   * 7 min: for salad or sauce
-  * 10 min: totally set 
+  * 10 min: totally set
 
 Scrambled eggs
 ==============

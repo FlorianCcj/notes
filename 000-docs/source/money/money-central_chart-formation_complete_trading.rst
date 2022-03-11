@@ -53,7 +53,7 @@ Money - Central Chart - formation complete trading
     * limiter le risque pris par les traders sur le marche (oblige les stop loss)
 
         * stop loss garanti (en temps normal c est juste un ordre de vente)
-            
+          
             * extra spread
 
         * stop loss obligatoire
@@ -182,7 +182,7 @@ cfd a risque limite pour:
   * l ordre qui est declenche au niveau du seuil est un ordre limit
   * fixer une borne seuil et une limite
 
-1.9. Comment faire de la vente à découvert? 
+1.9. Comment faire de la vente à découvert?
 --------------------------------------------
 
 VAD: vente a decouvert
@@ -222,7 +222,7 @@ throwback/pullback: verification d une figure
 figure de retournement
 """"""""""""""""""""""
 
-* L ete ou etei (epaule tete epaule (inverse)): 
+* L ete ou etei (epaule tete epaule (inverse)):
     * une petite bosse, une grosse bosse, une petite bosse, un throwback, puis redessent
     * lors d un ete remontant le prix remontera au minimum de la difference entre le seuil de la tete et la resistance des epaules
 * le biseau ascendant ou descendant
@@ -282,7 +282,7 @@ si le cours sort de la bande puis la reintegre alors c est un signal
 
 le rsi donnera une indication si on est en zone de sur achat ou de survente
 
-2.7. D'un graphique vierge à une analyse technique 
+2.7. D'un graphique vierge à une analyse technique
 ---------------------------------------------------
 
 3. Money management
@@ -353,7 +353,7 @@ sur la periode que vous souhaitez, le plus fiable est sur l integralite de vos t
 
 un bon trader est > 2
 
-3.6. Les règles de gestion du risque 
+3.6. Les règles de gestion du risque
 -------------------------------------
 
 1. Ne pas perdre d argent, faire du + c est cool mais si vous faites du - vous perdez votre outils de travail
@@ -381,7 +381,7 @@ Si petit capitale: petite timeframe
 ------------------------------------------------------
 
 Methode de swing trading
-Prise de position a chaque cassure de sommet 
+Prise de position a chaque cassure de sommet
 avec stop loss au niveau du precedent
 
 bonne perf dans unmarche en tendance
@@ -418,7 +418,7 @@ Ne depend pas de la tedance
 4.8. Les etapes d'un trade
 --------------------------
 
-4.9. Trader les crypto monnaies 
+4.9. Trader les crypto monnaies
 --------------------------------
 
 5. Méthode du "Trading à sens unique"
@@ -433,7 +433,7 @@ Ne depend pas de la tedance
 5.3. Trading à sens unique - La tendance
 ----------------------------------------
 
-5.4. Trading à sens unique - Les signaux 
+5.4. Trading à sens unique - Les signaux
 -----------------------------------------
 
 6. Psychologie dans le trading
@@ -499,7 +499,7 @@ chercher a retrouver sa routnie
 7.4. Quels sont les avantages du stop garanti?
 ----------------------------------------------
 
-7.5. Les critères à prendre en compte pour choisir son courtier 
+7.5. Les critères à prendre en compte pour choisir son courtier
 ----------------------------------------------------------------
 
 8. Devenez un trader performant
@@ -544,7 +544,7 @@ chercher a retrouver sa routnie
 8.13. N'ayez aucune certitude
 -----------------------------
 
-8.14. Acceptez d'avoir tord 
+8.14. Acceptez d'avoir tord
 ----------------------------
 
 9. BONUS: Fonctionnement des cryptomonnaies
@@ -562,7 +562,7 @@ chercher a retrouver sa routnie
 9.4. Introduction aux plateformes de crypto-monnaies
 ----------------------------------------------------
 
-9.5. Sécurisez vos accès plateforme 
+9.5. Sécurisez vos accès plateforme
 ------------------------------------
 
 10. BONUS: Trading sur les cryptomonnaies
@@ -580,5 +580,5 @@ chercher a retrouver sa routnie
 10.4. Quelles crypto-monnaies acheter?
 --------------------------------------
 
-10.5. Les airdrops de crypto-monnaies 
+10.5. Les airdrops de crypto-monnaies
 --------------------------------------

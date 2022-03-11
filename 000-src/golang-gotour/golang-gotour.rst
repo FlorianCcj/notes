@@ -14,7 +14,7 @@ Config
     go env -w GOPATH=$HOME/go
     go env GOPATH
 
-* :code:`godoc -http=:6060`: permit to acces to golang doc on localhost:6060 
+* :code:`godoc -http=:6060`: permit to acces to golang doc on localhost:6060
 * `<https://golang.org/pkg/>`_ : package for golang
 
 .. code-block:: golang
@@ -198,7 +198,7 @@ Flow control statements: for, if, else, switch and defer
 
 .. code-block:: golang
 
-    // Les arguments de l'appel différé sont évalués immédiatement, mais l'appel de fonction n'est pas exécuté jusqu'à ce que la fonction environnante retourne. 
+    // Les arguments de l'appel différé sont évalués immédiatement, mais l'appel de fonction n'est pas exécuté jusqu'à ce que la fonction environnante retourne.
     defer fmt.Println("world")
 	fmt.Println("hello")
 
@@ -325,7 +325,7 @@ Slice
 Null
 ----
 
-.. code-block:: golang 
+.. code-block:: golang
 
 	var z []int
 	fmt.Println(z, len(z), cap(z))

@@ -15,7 +15,7 @@ Plannifiez votre annee
 
 Pour savoir ce qui est important pour soit eplorer les 8 domaine de vie:
 1. couple
-2. finance 
+2. finance
 3. carierre, vocation
 4. esprit, competence
 5. sante, beaute, la vitalité

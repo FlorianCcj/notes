@@ -4,6 +4,25 @@ Methodology - Agilite
 Scrum
 *****
 
+Retrospective
+=============
+
+:source: https://www.youtube.com/watch?v=kwWqiASt3_E
+
+* outil: https://www.neatro.io/
+* Il faut qu'elle soit fun, mais surtout qu elle soit utile
+* Travaillez sur ce qui c est mal passer ET amplifier ce qui c est bien passé
+* essayer de finir en avance: pour rattraper la retro si elle est raté
+* finir avec une cible
+  * "je pense que nous allons reussir a mettre en place ces actions"/"Etes vous confiant dans la realisation de ces actions"
+  * "Je pense qu'elles vont significativement ameliorer la situation"/En supposant que ces actions aient été mises en place avec succes, pensez vous qu'elles impacteront significativement la situation
+  * avec pour cible
+    * au centre: sans aucun doute
+    * mid: oui je pense
+    * bord exterieur: j'en doute
+    * exterieur: c est mort
+  * et cela permet de reflechir a ce qu on pourrait mettre en place pour ameliorer la confiance
+
 Scrum master
 ============
 
@@ -35,9 +54,6 @@ Le SM:
 * "les acahts: ureaucratie ou startup"
 * "les roadmaps: avec ou sans dates", "les roadmaps: fonctionnalites ou resultats"
 * "les problemes: coupables ou solution", "focus probleme ou process"
-
-
-
 
 SM - Comment réussir à transmettre des pratiques - "Tout s'effondre en mon absence !" - Scrum Life 65
 SM - Développeur Informatique à Scrum Master : BONNE IDÉE 💡 ou ERREUR 👾 ?
@@ -73,27 +89,6 @@ http://www.liberatingstructures.com
 Bien maitriser le temps
 Bien gerer l espace
 Toujours poser la bonne question
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ??? - "C'est hors de notre contrôle !" - Scrum Life 15
 ??? - "Un interne est plus impliqué qu'un presta" ??? - Scrum Life 62
@@ -284,3 +279,57 @@ TT - Animer Une Réunion - Et les réunions à distance ? - Scrum Life Tuto 2
 TT - Être agile avec des équipes distribuées, offshore ou en télétravail - Scrum Life 69
 TT - Télétravail : 🙇🏻‍♂️🙇🏻‍♀️ le management pour combattre le sentiment de solitude
 TT - TÉLÉTRAVAIL : MOVING MOTIVATORS pendant le CONFINEMENT, à DISTANCE
+
+Scrum Life - Formation Gratuite
+*******************************
+
+Beginning
+=========
+
+Format and tools
+----------------
+
+Discover or explain agility
+===========================
+
+Scrum on 8 min
+--------------
+
+What for project management on agility or scrum method
+------------------------------------------------------
+
+Deliver a working product each sprint
+-------------------------------------
+
+Continuous flux working instead of sprint: Kanban
+-------------------------------------------------
+
+Scrum or Kanban
+---------------
+
+Challenge: deal this formation
+------------------------------
+
+Download models and tools
+=========================
+
+Focus evaluation
+----------------
+
+Workshop: are you active or passive
+-----------------------------------
+
+Product Owner: 3W3 Product Discovery Framework matrice
+------------------------------------------------------
+
+Product goal & product roadmap
+------------------------------
+
+Checklist: sprint goal
+----------------------
+
+checklist: sprint planning
+--------------------------
+
+Checklist: Sprint review
+------------------------

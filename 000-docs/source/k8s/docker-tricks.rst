@@ -26,5 +26,5 @@ LABEL "org.opencontainers.image.description"="igo_dictionnary is the first disco
 
 docker build --build-arg creation_date=$(date --iso-8601=ns) --build-arg image_revision=$(git log -n1 --format=format:"%h")
 
-@Todo
+TODO
 http://carnetdudev.net/2019/07/14/mettre-en-place-un-environnement-de-developpement-docker-pour-symfony-4/

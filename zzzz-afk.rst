@@ -4,11 +4,29 @@ Games
 Afk arena
 *********
 
+Arene
+=====
+
+saurus - eiron - ferael - lyca - tali
+thoran - wukong - grezul - shemira - ferael
+cornu - arthur - rosa - rowan - ainz
+
+Campagne
+========
+
+cool team
+----------
+
+noir: grezhul, thoran, ferael, sillas, daemon
+verte: saurus, eiron, talis, lyca, nemora
+arcane:
+  - prince, cornu, assassin, nakoruru, ainz
+
 3v3
-====
+----
 
 Test 1
-------
+"""""""
 
 * one
 
@@ -35,7 +53,7 @@ Test 1
   * ainz
 
 Test 2
-------
+""""""
 
 * ou
 
@@ -62,12 +80,12 @@ Test 2
   * pretresse noir
 
 Test 3
-------
+"""""""
 
 roulotte
 archer vert
 bombardier rouge
-aspiro 
+aspiro
 papillon
 
 pandragon
@@ -83,7 +101,7 @@ servante
 bombardier noir
 
 Test 4
-------
+"""""""
 
 penddragon
 cornu
@@ -104,7 +122,7 @@ servante ou bombardier noir
 daemon
 
 Test 4
-------
+""""""
 
 pretresse
 boubou
@@ -125,24 +143,35 @@ toto
 double lame
 
 Test 5
--------
+""""""
 
 pillon archer bomber noir serpent aspi
 pandragon - cornu - ainz - assa - queen
 boubou roulote tripode servante cercueil
 
 Test 6
-------
+""""""
 
 archer - aigle - bomber rouge - aspiro - tourbilloneur
 roi noir - phoenix - daemon - roulotte - crochet
 dada - pendragon - servante - archer - cercueil
 
-5v5
-====
+4v4
+-----
 
 Test 1
+"""""""
+
+tasi - eiron - safiya - rowan - lyca
+saurus - thoran - ferael - flora - sucube
+lucius - arthur - talene - gwyneth - rosaline
+brutus - athalia - ainz - jumeaux - wukong
+
+5v5
 ------
+
+Test 1
+"""""""""
 
 pendragon - cornu - ainz - harpon - assassin
 archer vert - pillom - bomb rouge - aspiro - tank ombre
@@ -151,7 +180,7 @@ boubou - roulotte - cercueil - servant - archer blanc
 tourbi - phhoenix - saute partout - fleur - jumeau
 
 Test 2
-------
+"""""""
 
 cornu - pendragon - ainz - totem - robin
 jumeau - pillon - bonbar rouge - archer vert - aspiro
@@ -160,7 +189,7 @@ double epee - roi - daemon - bombar noir - nuage
 tourbilol - doople - saute partout - joker - phoenix
 
 Test 1
-------
+""""""""
 
 pendragon - cornu - ainz - roulotte - assassin
 archer vert - pillom - bomb rouge - aspiro - tourbi au sol
@@ -169,7 +198,7 @@ dada - boubou - bobard noir - archer blanc - servant
 tourbi - phhoenix - tank ombre - fleur - jumeau
 
 
-coup speciaux
+coup speciaux S.I.
 ==============
 
 violet  00-01 20
@@ -181,7 +210,7 @@ violet  05-06 20
 violet  06-07 20
 violet  07-08 25
 violet  08-09 30
-violet  09-10 50 
+violet  09-10 50
 total         210
 or      10-11 10
 or      11-12 10
@@ -191,7 +220,7 @@ or      14-15 20
 or      15-16 25
 or      16-17 25
 or      17-18 30
-or      18-19 40 
+or      18-19 40
 or      19-20 50
 total         240
 rouge   20-21 10
@@ -233,25 +262,45 @@ j+  = j + v+  => y = 0
 r   = j+ + y  => y = 1j+ = 1j + 1v+ = 4v+
 r+  = r + y   => y = j+ = 4v+
 
+equivalence
+j+ => 4v+
+
+cout
 v+    -> r+ === 10v+
 j/j+  -> r+ === 8v+
 r     -> r+ === 4v+
 
-Porteur de lumiere  4v+ + 2j+ + 0r = 40 + 16 + 00 = 56-20 = 36
-Barbare             3v+ + 1j+ + 0r = 30 + 08 + 00 = 38-10 = 28
-Enfant de la foret  3v+ + 1j+ + 0r = 30 + 08 + 00 = 36-12 = 24
-Mort Vivant         5v+ + 2j+ + 0r = 50 + 16 + 00 = 66-11 = 55
+Porteur de lumiere  1v+ + 1j+ + 1r = 10 + 08 + 04 = 22-02 = 20
+Barbare             0v+ + 6j+ + 0r = 00 + 48 + 00 = 48-19 = 29
+Enfant de la foret  1v+ + 1j+ + 1r = 10 + 08 + 04 = 22-03 = 19
+Mort Vivant         0v+ + 4j+ + 0r = 00 + 32 + 00 = 32-08 = 24
 
-Main
+nombre de carte pure
+v+ => 2v
+j => 2 * v+ = 4v
+j+ => j + v+ = 6v
+r => j+ = 6v ou 8v
+r+ => r = 6v ou 10v
+0e => r + 2 * v+ = 10v ou 14v
+1e => 0e + v+ = 12v ou 16v
+2e => 1e + v+ = 14v ou 18v
+3e => 2e + v+ = 16v ou 20v
+4e => 3e + v+ = 18v ou 22v
+5e => 4e + v+ = 20v ou 24v
 
-Porteur de lumiere  1v+ + 0j+ + 0r = 10 + 00 + 04 = 10
-Barbare             1v+ + 1j+ + 0r = 10 + 08 + 00 = 18
-Enfant de la foret  1v+ + 3j+ + 1r = 10 + 24 + 04 = 38
-Mort Vivant         1v+ + 0j+ + 0r = 10 + 00 + 00 = 10
+j+2 => 0e
+j+3 => 1e
+j+4 => 2e
+j+5 => 3e
+j+6 => 4e
+j+7 => 5e
 
-taverne: tout les blanc, jaune, vert, noir
+taverne:
+  - tout les blanc, jaune, vert, noir
+  - 4,61% => 1/20 => 1/2 tirage de 10 => on peut en avoir 5 => 5 * 2 * 3000 = 30 000 ou 45 000 (pour avoir les 5)
 epreuve: comme taverne
 voyante: tous
+  - 2% => 1/50 => 1/5 tirage de 10 => 5 * 5000 = 25 000 (pour en avoir 1)
 
 * lumiere
   * athalia (saute partout)
@@ -265,10 +314,10 @@ voyante: tous
   * talene
     * lvl: 2e
   * wu kong
-    * lvl: r
-    * buy: store (1)
+    * lvl: 1e
+    * buy: store (1) -1
   * flora
-    * lvl: j+
+    * lvl: r
     * buy: store (2)
   * zaphrael (pretre de lumiere)
     * lvl: v
@@ -278,10 +327,10 @@ voyante: tous
     * lvl: v
 * ombre
   * ezizh (tank)
-    * lvl: v+
+    * lvl: j+
     * buy: store (2)
   * mehira (seductrice)
-    * lvl: v+
+    * lvl: j
   * zolrah (time)
     * lvl: v+
     * buy: store (2)
@@ -290,132 +339,155 @@ voyante: tous
   * mezoth (gobeur)
     * lvl: v+
   * lucretia (escrimeuse)
-    * lvl: v+
+    * lvl: r
   * mortas (vampire)
     * lvl: v+
   * leofric (vampire humain)
     * lvl: 0
 * blanc
+  * 2021.07.24: 13 - 3
   * belinda
-    * lvl: 4e
+    * lvl: 5e
     * buy: store (2), mysti
   * rayne
-    * lvl: 0e
-    * buy: store (1), mysti
+    * lvl: 4e
+    * buy: store (1) -2, mysti
   * fawkes
-    * lvl: 3e
+    * lvl: 4e (no-5)
     * buy: store (2), mysti
   * thaine
-    * lvl: 1e
+    * lvl: 2e (no-5)
     * buy: mysti
   * hendrik (double boubou)
-    * lvl: j+ (+2)
+    * lvl: j+ (+3) (no-5)
   * gwyneth (archer)
-    * lvl: 1e
+    * lvl: 1e (no-5)
     * buy: store (2), mysti
   * cecilia
-    * lvl: 0e
+    * lvl: 2e (no-5)
     * buy: mysti
   * rigby
-    * lvl: jaune+ (+1)
+    * lvl: 2e (no-5)
     * buy: mysti
   * oscar
-    * lvl: jaune+ (+1)
+    * lvl: 1e (no-5)
     * buy: mysti
   * eluard (pretre)
-    * lvl: v
+    * lvl: 1e (no-5)
     * buy: mysti
   * peggy (gamine)
-    * lvl: jaune+
+    * lvl: 1e
     * buy: mysti
   * walker (chasseur)
-    * lvl: jaune
+    * lvl: 0e (no-e)
     * buy: mysti
+  * morrow (the dark crow)
+    * lvl: v (no-e)
+    * buy: ???
+  * scarlet (gamine magiciene)
+    * lvl: j+ (no-e)
+    * buy: ???
 * jaune
+  * 2021.07.24: 16 - 3
   * khasos
-    * lvl: j+ (+3)
-    * buy: store (1)
+    * lvl: 3e
+    * buy: store (1) -3
   * vurk
-    * lvl: j+ (+2)
+    * lvl: j+ (+5) (no-5)
   * numasu (totem)
-    * lvl: j
+    * lvl: j+ (+4) (no-5)
     * buy: store (2)
   * skreg (tank)
-    * lvl: 3e
-    * buy: store (1)
-  * warek
-    * lvl: 1e
+    * lvl: 5e
+  * warek (bastoneur)
+    * lvl: 2e (no-5)
     * buy: store (2)
-  * antandra
-    * lvl: 3e
+  * antandra (femme sauvage)
+    * lvl: 4e (no-5)
     * buy: store (2)
-  * safiya (bomb)
-    * lvl: 1e
-  * satrana (bastoneur)
-    * lvl: 1e
+  * safiya (centau bomb)
+    * lvl: 1e (no-5)
+  * satrana (bastoneur intel)
+    * lvl: 1e (no-5)
   * tidus (tourbi)
-    * lvl: 3e
+    * lvl: 3e (no-5)
   * drez (ossatueur)
-    * lvl: j+
+    * lvl: 3e (no-5)
   * skriath (sable mouvant)
-    * lvl: 2e
+    * lvl: 3e (no-5)
   * anoki (full tank)
-    * lvl: j+
+    * lvl: j+ (+4) (no-5)
     * buy: store (2)
   * kren (bombeux)
-    * lvl: 0
+    * lvl: j+ (+4) (no-5)
   * thali (mink)
-    * lvl: 0
+    * lvl: j+ (+3) (no-5)
+  * granit
+    * lvl: j (no-e)
+  * thesku (the serpent charme)
+    * lvl: 0 (no-e)
 * vert
+  * 2021.07.24: 13 - 4
   * kaz (assassin)
-    * lvl: 2e
+    * lvl: 3e (no-5)
   * lyca (dryade)
-    * lvl: 2e
+    * lvl: 3e (no-5)
   * ulmus (arbre)
-    * lvl: j+ (+1)
+    * lvl: j+ (+2) (no-e)
     * buy: store (2)
   * gorvo (saute partout)
-    * lvl: j+
-  * sayrus
-    * lvl: 2e
-    * buy: store (1)
+    * lvl: r+ (no-e)
+  * seirus (ras de mare)
+    * lvl: 5e
   * solise
-    * lvl: v+ (+1)
+    * lvl: r+ (+3) (no-5)
   * pippa (cureil)
-    * lvl j+ (+1)
+    * lvl: 1e (no-5)
   * respen (gosse)
-    * lvl: j
+    * lvl: 0e (no-e)
   * raku (raton laveur)
-    * lvl: j+
+    * lvl: j+ (+1) (no-e)
+  * Mishka (the wild child)
+    * lvl: 1e (no-5)
+  * Astar (luciole)
+    * lvl: v+ (no-e)
 * noir
+  * 2021.07.24: 12 - 1
   * grezhul (double dard)
-    * lvl: 4e
+    * lvl: 5e
     * buy: store (2)
   * isabella
-    * lvl: 3e
+    * lvl: 5e
     * buy: store (2)
   * nara (harpon)
-    * lvl: 0e
+    * lvl: 3e (no-5)
     * buy: store (2)
   * derael (bombeuh)
-    * lvl: 3e
+    * lvl: 4e (no-5)
   * kelthur (l ombre reste)
-    * lvl: j+ (+2)
+    * lvl: j+ (+3) (no-5)
   * silas (piqure)
-    * lvl: j+ (+2)
+    * lvl: 4e (no-5)
   * oden
-    * lvl: j+ +(+3)
+    * lvl: 2e (no-5)
   * izold (gaz)
-    * lvl: j+ (+3)
+    * lvl: 5e
   * torne (skelet)
-    * lvl: j+
+    * lvl: j+ (+3) (no-5)
   * theowyn (possesseur)
-    * lvl: 1e
+    * lvl: 2e (no-5)
   * desira (banshi)
-    * lvl: j+
-    * buy: mysti
+    * lvl: 2e (no-5)
+  * Treznor (cavalier)
+    * lvl: 0 (no-e)
+  * Hodgkin (The reviled captain)
+    * lvl: v+ (no-e)
+  * Treznor (cavalier)
+    * lvl: 0 (no-e)
+  * Fane (Pecheur maudit)
+    * lvl: 0 (no-e)
 
-order for furniture
+order for furniture (meubles, auberge)
 - alna
 - assassin (done)
 - portail
@@ -965,45 +1037,113 @@ Gain/lvl
 23-10 violet 08h = 296
 23-10 violet 24h = 890
 
-Bijoux a up
-===============
+Bijoux a up coup speciaux S.I.
+============
 
-assasin ezio
-roi noir
-safiya
+x: ended
+s: still 30+
+-: not lvl enougth
++: to up
 
-roi singe wu kong
-ombre noir
-skriath
-kaz
-gwyneth
-thane
-cecilia
-
-seirus
-satrana
-queen
-estrilla
-bomb vert
-antandra
-isabella
-warek
+x (4c) rowan (+campagne) 30
+x (4c) saurus (+campagne) 30
+s (o-l) lucretia 30
+x (a) ainz (+campagne) 30
+x (4c) eironn (+campagne) 30
+x (4c) ferael (+campagne) 30
+- (o-l) alna 30
+- (o-l) zolrath 30
++ (a) albedo 30
+x (4c) daimon 30
+x (4c) shemira 20
+x (o-l) talene (+campagne) 30
+- (a) merlin 30
+- (4c) izold 30
+- (4c) silas 30
+- (o-l) mehira (+campagne) 30
++ (a) arthur (+campagne) 20
++ (4c) thoran (+campagne) 30
+- (4c) raku 30
+- (o-l) khazard 30
++ (a) ezio 20
++ (4c) grezhul 20
++ (4c) belinda
+- (o-l) orthos 30
++ (a) joker 20
++ (4c) safiya (+campagne) 20
++ (4c) gwyneth (+campagne) 30
+- (o-l) morael 30
++ (a) prince 20
+x (4c) lucius (+campagne) 30
+x (4c) rosaline (+campagne) 20
+- (o-l) zaphrael 30
++ (a) nakoruru 20
++ (4c) tasi (+campagne) 20
++ (4c) tidus 20
+- (o-l) mezoth
++ (a) ukyo 20
+- (4c) kren 30
++ (4c) lyca (+campagne) 20
+- (o-l) leofric
++ (a) queen 20
+- (4c) desira 30
+- (4c) oden 30
+- (o-l) titus 20
++ (4c) skriath 30
++ (4c) brutus (+campagne) 20
+- (o-l) ezizh 30
++ (4c) antandra 20
++ (4c) nara 30
+- (o-l) athalia (+campagne) 30
++ (4c) isabella 20
+- (4c) thali 20
++ (o-l) jumeau (+campagne) 20
+- (4c) respen 20
++ (4c) skreg 30
+- (o-l) mortas
+- (4c) vurk 20
++ (4c) satrana 30
++ (o-l) wu kong (+campagne) 20
++ (4c) fawkes
+- (4c) drez 20
++ (o-l) flora (+campagne) 20
+- (4c) eluard 30
+- (4c) solise
+- (4c) numisu 20
++ (4c) warek 10
++ (4c) estrilda
++ (4c) nemora 20
++ (4c) theowyn 30
++ (4c) thane
+- (4c) kelthur 20
+- (4c) peggy 30
++ (4c) cecilia 20
+- (4c) hendrik 10
++ (4c) kaz 20
+- (4c) khasos
 
 violet:
 
 00 + 01 + 02 + 03 + 04 + 05 + 06 + 07 + 08 + 09 + 10
-10 + -- + -- + -- + -- + -- + -- + -- + -- + -- + --
+10 + -- + -- + -- + -- + -- + -- + -- + -- + -- + -- = 200 ?
+
+au 2021.12.03 30 violet a up => 6000
 
 or
 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20
 10 + 10 + 15 + 15 + 20 + 25 + 25 + 30 + 40 + 50 = 240
 
+au 2021.07.24 18 or a up => 4400
+au 2021.12.03 50 or a up => 12 000
+
 rouge
 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30
 10 + 20 + 20 + 20 + 30 + 30 + 40 + 40 + 40 + 50 = 300
 
+au 2021.12.15 71 or a up => 21 300
+
 31 + 32 + 33 + 34 + 35 + 36 + 37 + 28 + 29 + 40
--- + -- + -- + -- + -- + 80 + -- + -- + -- + --
+50 + -- + -- + -- + -- + 80 + -- + -- + -- + --
 
 Boss de Guilde
 ===============
@@ -1017,6 +1157,15 @@ belina pretresse + oeil
 
 1 ere ligne pretresse, saurus
 2e ligne servant, jumeau, druide
+
+1er boss
+23m, belinda, rosaline, vampire, juleau, saurus
+20 coffre, estrilla, belinda, jumeau, rosaline, tank rouge invocateur
+31m, belinda, saurus, jumeau, rosaline, druide vert
+
+2e boss
+17m saurus, belinda, jumeau, cecilia, rosaline
+20m saurus, rosaline, rayne, vampire, jumeau
 
 Compo
 =====
@@ -1267,6 +1416,168 @@ Boutique
   * vert - serpent 2 (observatoire)
   * vert - sleep staff 3 (legende, observatoire)
 
+Meuble
+======
+
+u: need up to eleve
+w: wait meuble
+s: seuil, optimised
+9: f9
+f: full
+
+1 vert
+2 noir
+3 blanc
+4 jaune
+5 arcane
+6 lumiere
+
+9 - 4c -  Daimon 30, F9
+w - ol -  Lucretia 30, F9 gravure
+9 - ar -  Ainz 30 F9
+9 - 4c -  Shemira 20, F3
+9 - ol -  Thalene 30, F9
+9 - ar -  Merlin 30 F9
+9 - 4c -  Grezhul 20, F9
+u - ol -  Alna 30, F9
+s - ar -  Prince 20 F3
+9 - 4c -  Rowan F9
+u - ol -  Wukong 20, f3
+s - ar -  Arhtru 20 F3
+9 - 4c -  Lucius F9
+9 - ol -  Jumeau 20, F9
+s - ar -  Albedo 30, F3
+9 - 4c -  Eiron 30, F9
+u - ol -  Eziz 30, F9
+9 - ar -  Ezio 20 F9
+9 - 4c -  Saurus F9
+u - ol -  Atalia 30, F9
+s - ar -  Joker 20, F3
+s - 4c -  Rosaline 20, F3
+u - ol -  Flora 20, f9
+s - ar -  Queen 20, F3
+9 - 4c -  Ferael 30, F9
+u - ol -  Mehira 30, F3
+s - ar -  Nakoruru 20 F3
+s - 4c -  Tasi 20, F3
+u - ol -  Zolrath 30, F9
+u - ar -  Ukyo 20, F9
+9 - 4c -  Lyca F9
+u - ol -  Zaphrael 30, F9
+w - 4c -  Izold 30, F3
+u - ol -  Morael 30, F9
+w - 4c -  Thoran 30, F9
+u - ol -  Morthas elite
+w - 4c -  Silas 30, F9
+u - ol -  khazard 30 F0
+w - 4c -  Gwineth 30, F9
+u - ol -  Orthos 30, F9
+s - 4c -  Brutus 20, F3
+9 - 4c -  Antandra 20, F9
+w - 4c -  Oden 30, F9
+9 - 4c -  Nemora 20, F9 (must of the game)
+u - 4c -  Raku 30, F9
+9 - 4c -  Isabella 20, F9
+w - 4c -  Estrilla F9
+w - 4c -  Skriath 30, F9
+s - 4c -  Safiya 20, F3
+w - 4c -  Skrek 30, F9
+w - 4c -  Tidus 20, F3
+u - 4c -  Nemisu 20, F3
+u - 4c -  Desira 30, F9
+w - 4c -  Rayne 20, + F9
+9 - 4c -  Cecilia 20 F3
+u - 4c -  Kren 30, F9, T3, gravure
+u - 4c -  Drez 20, F3
+s - 4c -  Varek, 10, F0
+u - 4c -  Kelthur 20, F9
+w - 4c -  Theowyn 30, F9
+u - 4c -  Hendrik 10, F3
+u - 4c -  Vurk 20, F3
+w - 4c -  Kaz 20 F3
+
+u - 4c -  Anoki 10, F0
+u - 4c -  Baden 20, F3
+u - 4c -  Eluard 30, F9
+u - 4c -  Gorvo 10, F9, gravure
+u - 4c -  Hodkyn 20, F3
+u - 4c -  Lorsan 20, F3
+u - 4c -  Lyca 20, F9
+u - 4c -  Morrow 20, F9 (surtout pas 30)
+u - 4c -  Nara 30, F9
+u - 4c -  Peggy 30, F3
+u - 4c -  Pippa 20, F9
+u - 4c -  Respen 20, F9
+u - 4c -  Rigby 30, F3
+u - 4c -  Satrana 30, F9
+
+Stuff
+=====
+
+UP
+---
+
+T3 - t2 good color - t2 with color
+x: finish
+-: need t2 or good color
+w: wait upgrade
+u: wait t3
+
+400 x (i)rowan (+guilde)
+400 x (i)ainz
+040 u (f)titus
+400 x (i)albedo
+300 - (f)arthur (+campagne)
+400 x (f)lucius
+400 x (a)eironn
+400 x (i)tasi (+campagne)
+030 - (i)merlin
+400 x (a)lyca (+campagne)
+022 w (a)ezio
+030 u (f)daimon
+040 u (i)shemira
+040 x (i)rosaline (+campagne, +guilde)
+040 u (i)belinda (+campagne, +guilde)
+040 x (a)ferael (+campagne)
+400 x (a)talene
+030 u (f)brutus (+campagne)
+310 x (f)saurus (+campagne, +guilde)
+040 u (f)thoran (+campagne)
+030 u (a)joker
+030 u- (f)grezhul
+040 u (i)safiya (+campagne)
+020 w- (a)prince
+030 - (a)fawkes
+030 wu (f)gwyneth (+campagne)
+000 w- (a)antandra
+040 u (i)nemora
+030 wu (i)silas
+020 w- (f)nara
+031 w- (i)skiath
+010 - (i)isabella
+031 - (i)oden
+040 u (f)wu kong (+campagne)
+010 - (f)estrilla (+guilde)
+000 - (f)izold
+012 - (i)numisu
+030 - (a)tidus
+400 x (i)jumeau (+campagne, +guilde)
+000 - (i)solise
+001 - (?)baden
+020 w- (?)satrana
+020 w- (a)nakoruru
+001 - (f)queen
+020 w- (f)seirus
+040 w (a)athalia (+campagne)
+040 w (a)lucretia
+000 - (f)hendrik
+020 - (f)skreg
+010 w- (i)desira
+- (?)flora (+campagne)
+- (?)mehira (+campagne)
+- (?)anoki (+guilde)
+- (?)cecilia (+guilde)
+
 Trial of god
 ============
 
@@ -1374,8 +1685,65 @@ bariere
 * lvl 20: 042 ae - 000 zz (6h40)
 * lvl 25: 065 ah - 000 zz (0h00)
 
+boost
+=====
+
+1000 *  5m * 0001
+0500 *  5m * 0002
+0200 *  5m * 0001
+
+0100 *  1h * 0012
+0100 *  5m * 0002
+0050 *  1h * 0008
+0050 *  5m * 0102
+
+0020 *  4h * 0006
+0020 *  1h * 0027
+0020 *  5m * 0124
+0020 * 10m * 0206
+
+0010 * 12h * 0010
+0010 *  4h * 0011
+0010 *  1h * 0100
+0010 * 10m * 0069
+0010 *  5m * 0730
+
+0005 *  1h * 0108
+0005 *  5m * 0098
+
+0004 *  7j * 0015
+
+0010 * 12h * 0020
+0010 *  8h * 0030
+0010 *  4h * 0128
+0010 *  1h * 1248
+0010 *  5m * 0011
+
+ 1d * 005
+12h * 002
+ 8h * 020
+ 4h * 024 -> 22
+ 2h * 035 -> 31
+ 1h * 228 -> 220
+30m * 403 -> -> 351
+
 continent
 =========
+
+* lvl 135
+  * timer
+    * lvl05: 04h08
+    * lvl10: 05h43
+    * lvl15: 09h32
+    * lvl20: 15h48
+    * lvl25: XXhXX
+* lvl 142
+  * timer
+    * lvl05: 04h15
+    * lvl10: 05h51
+    * lvl15: 09h45
+    * lvl20: 16h10
+    * lvl25: 23h25
 
 niveau 76/180
 
@@ -1392,6 +1760,15 @@ niveau 76/180
 11. prairie des pommiers 151-165
 12. canyon mystique 166-180
 
+event
+=====
+
+lvl5: 21 M
+lvl10: 42 T
+lvl15: 1 ac
+lvl20: 65 ae
+lvl25: 21 ah
+lvl30: 81 aj
 
 recherche
 =========
@@ -1432,7 +1809,7 @@ turquoise = 3 * (68 - 10)                                     = -->174<-- = (3 *
   * b6 = 290 = 58 + 58 + 58 + 58 + 58 + 00
   * b* = 2204
 * bleu
-  * b1 = 183 = 00 + 58 + 20 + 00 + 00 + 00 + 00 + 58 + 47 + 00 + 00 
+  * b1 = 183 = 00 + 58 + 20 + 00 + 00 + 00 + 00 + 58 + 47 + 00 + 00
   * b2 = 232 = 58 + 58 + 58 + 58
   * b3 = 348 = 00 + 58 + 58 + 58 + 58 + 58 + 00 + 58
   * b* = 763

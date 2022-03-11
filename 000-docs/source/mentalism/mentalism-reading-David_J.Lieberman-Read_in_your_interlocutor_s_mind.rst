@@ -1,8 +1,8 @@
 Mentalism - David J.Lieberman - Read in your interlocutor s mind
 ################################################################
 
-Partie 1 les 7 questions determinantes
-**************************************
+Partie 1, les 7 questions determinantes
+***************************************
 
 Chapitre 1 est ce que votre interlocuteyr vous cache smthg
 ==========================================================
@@ -34,7 +34,7 @@ Si elle ni le lien entre les deux seems inoncent
 Anoncer une menace ou prometer une recompense
 
 6e technique demander conseil a votre suspect
-Un coupables fera tout pour paraitre inoncent, si il a des techniques alambique il cache qqc 
+Un coupables fera tout pour paraitre inoncent, si il a des techniques alambique il cache qqc
 
 Chapitre 2 est ce que votre interlocuteur aime ou deprecie ce que vous proposé
 ==============================================================================
@@ -56,7 +56,7 @@ Technique 3 attention au vocabularies
 Si Euphemisms attention
 
 Technique 4 utiliser des marqueurs positif
-Après une proposition, mettre en exergue  un aspect positif et un aspect negatif, si l autre reb9ndi sur le positif, il y a des chances que ça l interesse 
+Après une proposition, mettre en exergue  un aspect positif et un aspect negatif, si l autre reb9ndi sur le positif, il y a des chances que ça l interesse
 
 Chapitre 3, votre interlocuteur a t il vraiment confiance en lui, ou est-ce uniquement une impression
 =====================================================================================================

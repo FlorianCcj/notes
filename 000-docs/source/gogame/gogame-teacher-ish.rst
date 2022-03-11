@@ -11,11 +11,11 @@ Undone
 Fri 03 February 21:00 Review of the last lecture's real game examples / Useful pattern vol.3 (attach from the side)
 Fri 24 February 21:00 Review of the last lecture's real game examples / Counter pincer
 
-* Local Technique 
+* Local Technique
 
   * 7th Lecture Bamboo attack, Indirect defence
   * 6th Lecture 'Peep' and 'Break through'
-  * Fri 27 January 21:00 Reviews of last Lecture's real game examples / Clamp, Dog's face, Rush invasion lecture 
+  * Fri 27 January 21:00 Reviews of last Lecture's real game examples / Clamp, Dog's face, Rush invasion lecture
 
 Coaching
 ********

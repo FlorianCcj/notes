@@ -142,7 +142,7 @@ Oh my !
 * il mio/mia
 * il tio/tua
 * il suo/sua
-* il nostro/nostra 
+* il nostro/nostra
 * il vostro/vostra
 * il loro/loro
 

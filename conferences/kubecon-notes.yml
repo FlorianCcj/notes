@@ -75,7 +75,7 @@ tuesday:
     lets practive: https://ibm.biz/kubecon-secure-deployment
       lancement de minicube
         ```
-        
+      
           ```
   Intro: Kubernetes Architecture SIG
     14h50 -> 15h25
@@ -131,13 +131,13 @@ MErcredi
         declare all step
       declarative:
         declare state you want, and fuck off
-      
+    
 
   14h50
     B1 Container Forensics: What to Do When Your Cluster is a Cluster
       cryptocurrency mining on docker hum images
       connaitre les logs a recupérer et repérer les inconnu
-      
+    
       infra logs
       k8s logs
       node system log xhen user play on it
@@ -153,7 +153,7 @@ MErcredi
 
       alert - isolate - pause - restartt - kill
 
-      to see: 
+      to see:
         - GRR
         - sysdig inspect & capture
         - kubectl cordon
@@ -175,7 +175,7 @@ Jeudi
     - Keynote: From COBOL to Kubernetes: A 250 Year Old Bank's Cloud-Native Journey
   - 09:51
     - Keynote: Metrics, Logs & Traces; What Does the Future Hold for Observability?
-      to see: 
+      to see:
         - sipkin + ES
         - open telemetry
         - grafana loki

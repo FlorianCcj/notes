@@ -8,7 +8,7 @@ Move the `docker-compose.yml` and the folder named `phpdocker` containing nginx 
 Ensure the webserver config on `docker\nginx.conf` is correct for your project. For instance, for Symfony4 it should look for the `public/index.php`, instead of the `web/app.php` from Symfony2 and Symfony3
 
 Note: you may place the files elsewhere in your project. Make sure you modify the locations for the php-fpm dockerfile, the php.ini overrides and nginx config on `docker-compose.yml` if you do so.
- 
+
 # How to run
 
 Dependencies:

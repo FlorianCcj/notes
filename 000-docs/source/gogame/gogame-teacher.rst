@@ -82,7 +82,7 @@ https://awwapp.com/
   - Seki !
   - La FFG plus rapide que la lumière
   - Rendez-vous tous, ou ce sera les tsumegos
-  - San-san, oui, les tsumegos ! 
+  - San-san, oui, les tsumegos !
 * Day12: Bienvenue dans ce monde foufou ce monde foufou ce mon merveilleux, celui des tsumegos
 * Day13: |
   Allons au insea,

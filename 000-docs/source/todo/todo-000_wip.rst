@@ -17,7 +17,7 @@ Folder in sulfur
 
 * clean up room
 * jdr boost
-* money 
+* money
 
     * art 4/409
     * for dummy 0/406
@@ -29,7 +29,12 @@ Folder in sulfur
 
 * go
 
-  * server
+  * egj
+  * yiyun
+  * tesuji for attacking
+  * 501 Opening Problems by Richard Bozulich
+  * mastering attack and defense moyo
+  * mastering sabaki
   * se faire un theme
     * https://www.youtube.com/watch?v=3QABaBZTjPo
     * https://www.youtube.com/watch?v=0v_MYyXz3uc
@@ -45,6 +50,7 @@ Folder in sulfur
   * action
   * succes social
   * atomic habit (un rien peut tout changer) from James Clear
+  * https://negociation-globale.com/elearning-negociation/
 
 * dessin
 
@@ -54,9 +60,15 @@ Folder in sulfur
   * module 4 0/10
   * module 5 0/01
 
+* blender
+
 * projet team boarding
+* WP
+* claude go script
+* aspire 101Weiqi
 * google algo
 * google entrepreunariat
+* Le mentalisme, le go, les mangas, le dev/la techno, les jds/jdr, l'investissement
 
 Daily
 *****
@@ -89,9 +101,6 @@ Big project
 * draw
 * money
 * tgo team boarding
-* WP
-* claude go script
-* aspire 101Weiqi
 
 * music
 * fast reading
@@ -211,7 +220,7 @@ Doc to read/to write
     * terraform
     * https://freecoursesite.us/category/all-tutorials/hacking-tutorials/
     * https://blog.ropnop.com/docker-for-pentesters
-    * elk 
+    * elk
     * https://security.googleblog.com/2019/11/opentitan-open-sourcing-transparent.html
     * https://www.youtube.com/watch?v=Gw8mcFkBKe8
     * Weave wksctl
@@ -283,7 +292,7 @@ Doc to read/to write
     * https://www.dictionnaire-academie.fr/
     * https://caniuse.com/
     * https://bitoduc.fr/
-    * https://github.com/msd0pe-1/cve-maker 
+    * https://github.com/msd0pe-1/cve-maker
     * contrat: https://www.youtube.com/watch?v=60HN3BHeNtc
     * decrypt disney: https://www.youtube.com/watch?v=2jo5u0TBpJM
     * bon cours go: https://www.youtube.com/watch?v=M-u7svEYvSI

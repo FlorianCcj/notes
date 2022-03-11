@@ -1,4 +1,4 @@
-Vault - User 
+Vault - User
 ############
 
 Login

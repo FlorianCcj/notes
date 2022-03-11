@@ -4,7 +4,7 @@
 
 sudo apt-egt install -y ansible
 
-creer un fichier 
+creer un fichier
 
 ```yaml
 # ./inventory
@@ -216,9 +216,9 @@ setting: command-line option
 inventory       : -i
 remote-user     : -u
 become          : -b, --become
-become_method   : --become-method 
+become_method   : --become-method
 become_user     : --become-user
-become_ask_pass : -K, --ask-become-pass 
+become_ask_pass : -K, --ask-become-pass
 
 ### dynamic inventory
 
@@ -257,7 +257,7 @@ https://materials.example.com/dynamic/inventoryw.py
 ---
 - name: Install and start Apache HTTP
   hosts: web
-  
+
   tasks:
     - name: http package is present
       yum:
@@ -299,7 +299,7 @@ STAY IDEMPOTENT !!!
 - name: Idempotent approach with copy module
   copy:
     dest: /etc/resolv.conf
-    content: "nameserver 192.0.2.1\n"       
+    content: "nameserver 192.0.2.1\n"     
 ```
 
 good practice
@@ -561,7 +561,7 @@ package: screen
                     - "{{ firewall_pkg }}"
                     - "{{python_pkg }}"
                 state: latest
-        - name: The {{ firewall_service }} service is started and enabled 
+        - name: The {{ firewall_service }} service is started and enabled
             service:
                 name: "{{ firewall_service }}"
                 enabled: true
@@ -605,7 +605,7 @@ package: screen
     tasks:
         - name: Prints various Ansible facts
             debug:
-                msg: > 
+                msg: >
                     The default IPv4 address of {{ ansible_fqdn }}
                     is {{ ansible_default_ipv4.address }}
         - name: this play gathers no facts
@@ -613,7 +613,7 @@ package: screen
                 msg: coucou
 ```
 
-you can create custom facts 
+you can create custom facts
 
 ```yaml
 # /etc/ansible/facts.d/custom.fact
@@ -678,7 +678,7 @@ packages:
         - name: Debugs the variables imported
             debug:
                 msg: >
-                    "{{package['web_package']}} and {{package.db_package}} 
+                    "{{package['web_package']}} and {{package.db_package}}
                     have been imported"
 ```
 
@@ -700,7 +700,7 @@ paths:
     tasks:
         - name: Imports the variable file
             include_vars: paths.yml
-        
+      
         - name: Create the remote directory
             file:
                 path: "{{ paths.fileserver }}"
@@ -709,7 +709,7 @@ paths:
             register: result
 
         - name: debug the result
-            debug: 
+            debug:
                 var: result
 ```
 
@@ -721,7 +721,7 @@ paths:
     tasks:
         - name: Imports the variable file
             include_vars: paths.yml
-        
+      
         - name: Create the remote directory
             file:
                 path: "{{ paths.dbpah }}"
@@ -730,7 +730,7 @@ paths:
             register: result
 
         - name: debug the result
-            debug: 
+            debug:
                 var: result
 ```
 
@@ -797,7 +797,7 @@ firewall_pkg: firewalld
     tasks:
         - name: Include the variables from the YAML file
             include_vars: vars/varibales.yml
-        
+      
         - name: Include the environment file and set the variable
             include: task/environment.yml
             vars:
@@ -921,7 +921,7 @@ web_root: /var/www/html
                 immediate: true
                 permanent: true
         - name: Create index.html
-            copy: 
+            copy:
                 content: "{{ ansible_fqdn }}({{ ansible_default_ipv4.address }}) has been customized by Ansible \n"
                 dest: "{{ web_root }}/index.html"
 
@@ -947,7 +947,7 @@ web_root: /var/www/html
             immediate: true
             permanent: true
     - name: Create index.html
-        copy: 
+        copy:
             content: "{{ ansible_fqdn }}({{ ansible_default_ipv4.address }}) has been customized by Ansible \n"
             dest: "{{ web_root }}/index.html"
 ```
@@ -1014,7 +1014,7 @@ other loop:
 ```yml
 ---
 - host: all
-    vars: 
+    vars:
         run_my_task: true
     tasks:
         - name: httpd package is installed
@@ -1026,7 +1026,7 @@ other loop:
 ```yml
 ---
 - host: all
-    vars: 
+    vars:
         service: httpd
     tasks:
         - name: "{{ service }} package is installed"
@@ -1065,7 +1065,7 @@ Conditionals:
     tasks:
         - name: Postfix server
             command: /usr/bin/systemctl is-active postfix ; postfix is running or not ?
-            ignore_errors: yes 
+            ignore_errors: yes
             register: result
         - name: Restart apache HTTPD if Postfix running
             service:
@@ -1472,7 +1472,7 @@ You can ask {{ system_owner }} for access.
 
 ## 07 Implementing Roles 225-265
 
-### structure 
+### structure
 
 * defaults: main.yml contains default value of role s variable, can be overwritten
 * files: static file

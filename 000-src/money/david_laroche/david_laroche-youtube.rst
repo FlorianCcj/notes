@@ -63,7 +63,7 @@ un peu aussi une cause, pour les autres on peut soulever des montagnes
 Anxieux face à L’AVENIR ? Regarde absolument cette vidéo !
 **********************************************************
 
-C est l histoire d un paysan francais qui s occupe de ses terres. On est a une epoque ou l agriculteur n a pas les machines d aujourd hui. Il utilise des chevaux, pour s occuper et labourer ses terres. 
+C est l histoire d un paysan francais qui s occupe de ses terres. On est a une epoque ou l agriculteur n a pas les machines d aujourd hui. Il utilise des chevaux, pour s occuper et labourer ses terres.
 
 Il a un cheval, qu il adore vraiment, il est puissant ils ont une relation particuliere et en plus il lui permet de labourer les champs comme il veut et nourrir pleinement sa famille. Tout le monde lui dis autour de lui, ses amis, son entourage, son village, quand il passe et voit son cheval ils lui disent: "Mais en fait tu as tellement de la chance, pour toi c est plus facile". Lui a chaque fois leur repond "Chance ou pas chance je ne sais pas"
 
@@ -97,7 +97,7 @@ Video temporaire - 6 obsessions contre intuitive de Jeff Bezoss, Elon Musk, Warr
     * ingredient: humilite d apprendre et ambition d exceller, investir sur soi et formation continue, etre vigilent a qui je cotoie
     * "si vous commencer a penser que vous etes doue pour quelque chose, c est souvent le jour ou vous arretez d etre le meilleur, et vous ouvrer la porte de deriere pour que quelqu un vienne vous depasser c est pourquoi nous visons toujours plus haut nous ne nous sentons jamais comme si nous avions fini" Drew Houston
     * ils faut vous entourez de 3 types de personne
-        * des gens qui t inspirent 
+        * des gens qui t inspirent
         * des gens qui ont la meme envie que toi
         * des gens a qui partager qui ont la meme envie que toi
 4. maitriser leur esprit
@@ -130,7 +130,7 @@ obsession: identifier les facteurs qui font qu on realise ses reves
 8 causes d echecs:
 1. La peur du regard des autres ou de l echec: axe de la qulite ou de la quantite
 2. Motivation instable ou irreguliere
-3. etre hante par un evenement du passe (n empeche pas de reussir mais ralenti le fait d etre heureux), 
+3. etre hante par un evenement du passe (n empeche pas de reussir mais ralenti le fait d etre heureux),
 4. aborder le probleme de la meme maniere
 5. l impuissance apprise
 6. je n arrive pas a oser faire cee qui est importqnt
@@ -144,9 +144,9 @@ reframing:
             * de mon energie
             * de maniere de perception et de penser
             * d aborder mon probleme
-        * changer de point de vue, 
-        * regarder la scene sous l axe de quelqu un d autre, 
-        * puis du coatch, 
+        * changer de point de vue,
+        * regarder la scene sous l axe de quelqu un d autre,
+        * puis du coatch,
         * puis du temps (dans 15 ans si on te demande comment tu as autant d energie)
         * tout evenemnt dans ta vie  peut devenir un tramplin
     * strategie2: reframing de coryance
@@ -184,13 +184,13 @@ Le locus interne: tu ne depends que de toi, si tu ne fais pas d effort tu n as p
 
 les 3 parametres
 * avoir une strategie, prendre du recul
-    * reactif: 
+    * reactif:
         * sensation d etre perdu,
         * de ne pas avoir de plan,
         * d etre en retard, deborde,
         * tu fais comme tout le monde
-    * stratege: 
-        * possede un plan d action pour atteindre l objectif, 
+    * stratege:
+        * possede un plan d action pour atteindre l objectif,
         * creatif, innovantm novateur, paradoxal
         * mobilise moins d efforts pour ??? resultats
 * Performer

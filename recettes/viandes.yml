@@ -1,4 +1,4 @@
-ABCDE: 
+ABCDE:
   totest-todo-boulettes marocaines:
     source: https://www.cuisine-etudiant.fr/recette/3691-boulettes-marocaines
   totest-todo-Boulettes de porc sauce aigre douce:
@@ -49,7 +49,7 @@ PQRST: ~
   totest-Papillote de poulet:
     source: https://www.marmiton.org/recettes/recette_papillote-de-poulet_29004.aspx
     realisation:
-        temps: 
+        temps:
           preparation: 15 min
           cuisson: 40 min
         difficulte: 1-Tres facile
@@ -95,16 +95,16 @@ PQRST: ~
       author: ~
       Faire sauter le poulet dans un tout petit peu de matière grasse (verser un filet d'huile dans la poêle et l'essuyer avec une feuille d'essuie tout par exemple).
       Eplucher l'ail, les oignons et les échalotes et tout émincer en petits dés.
-      Quand le poulet est doré, l'enlever de la poêle et remplacer par l'ail, les oignons et les échalotes. 
+      Quand le poulet est doré, l'enlever de la poêle et remplacer par l'ail, les oignons et les échalotes.
       Faire sauter.
       Remettre le poulet, arroser de sauce soja et laisser dorer encore.
       Ajouter le miel, bien mélanger, couper le feu et couvrir au moins 10 mn.
-      Réchauffer si besoin au moment de servir. 
+      Réchauffer si besoin au moment de servir.
   totest-todo-Poulet caramélisé au sésame & légumes sauce soja:
     source: https://www.cuisine-etudiant.fr/recette/3223-poulet-caramelise-au-sesame-legumes-sauce-soja
   totest-Le poulet à la coriandre:
     source: http://madame.lefigaro.fr/recettes/le-poulet-a-la-coriandre-280310-7003
-    realisation: 
+    realisation:
       préparation : 15 min
       cuisson : 1 h 15 min
       Difficulté : Facile
@@ -124,16 +124,16 @@ PQRST: ~
       Poivre
     steps:
       Preparation du poulet:
-        Faire chauffer une cocotte avec 1 cuillerée à soupe d’huile de tournesol. 
+        Faire chauffer une cocotte avec 1 cuillerée à soupe d’huile de tournesol.
         Y faire dorer le poulet coupé en morceaux sur toutes les faces avec le bouillon
         cube.
       Assaisonnement du poulet:
-        Ajouter le citron coupé en morceaux, l‘échalote et la botte de coriandre hachés. 
-        Saler, poivrer et ajouter 1 pincée de quatre-épices. 
-        Verser le cognac et faire flamber. 
+        Ajouter le citron coupé en morceaux, l‘échalote et la botte de coriandre hachés.
+        Saler, poivrer et ajouter 1 pincée de quatre-épices.
+        Verser le cognac et faire flamber.
         Ajouter le vin blanc, puis laisser mijoter une heure à couvert.
       Finitions et dressage:
-        Lier la sauce avec la crème fraîche. 
+        Lier la sauce avec la crème fraîche.
         Servir accompagné d’un riz basmati.
   totest-todo-Poulet à la crème et aux champignons :
     source: https://www.cuisine-etudiant.fr/recette/5241-poulet-a-la-creme-et-aux-champignons
@@ -155,23 +155,23 @@ PQRST: ~
       Du sel et du poivre
     steps:
       Preparation du poulet
-        Allumer le four à 150 °C (th. 5). 
-        Verser le lait de coco dans un saladier, 
-        ajouter le nectar d’abricot, la soupe à l’oignon, poivrer et bien mélanger. 
-        Couper les blancs en lamelles de 3 cm d’épaisseur, 
+        Allumer le four à 150 °C (th. 5).
+        Verser le lait de coco dans un saladier,
+        ajouter le nectar d’abricot, la soupe à l’oignon, poivrer et bien mélanger.
+        Couper les blancs en lamelles de 3 cm d’épaisseur,
         les mettre dans le saladier et les tourner dans le mélange.
-        Poser les morceaux de poulet à plat dans un plat à four, 
-        les napper de la marinade restante, 
-        glisser au four et laisser cuire 15 minutes. 
-        Retourner les morceaux de poulet, 
+        Poser les morceaux de poulet à plat dans un plat à four,
+        les napper de la marinade restante,
+        glisser au four et laisser cuire 15 minutes.
+        Retourner les morceaux de poulet,
         remettre au four et laisser cuire encore 10 minutes.
       Finitions
-        Retirer le plat du four, poivrer légèrement. 
+        Retirer le plat du four, poivrer légèrement.
         Servir avec le riz blanc agrémenté de copeaux de noix de coco
   totest-Poulet Castro:
     source:
     realisation:
-      temps: 
+      temps:
         preparation: 15 min
         cuisson: 20 min
       difficulte: 1-Tres facile
@@ -223,19 +223,19 @@ PQRST: ~
       2 cuillerées à soupe de sauce soja (Kikkoman)
       Sel, poivre
     steps:
-      1. Rincer les courgettes et les râper sur une râpe à gros trous. 
-      2. Nettoyer les pousses d’épinard et les émincer. 
-      3. Peler et émincer finement l’ail et le gingembre. 
-      4. Couper les blancs de poulet en lamelles. 
-      5. Faire chauffer l’huile dans une sauteuse, 
-      6. ajouter les bâtonnets d’ail et de gingembre, 
-      les faire cuire 1 minute, 
-      7. ajouter les lamelles de poulet, tourner, 
-      faire cuire 5 minutes en tournant souvent, 
-      8. verser la sauce soja, tourner, 
-      laisser cuire encore 2 minutes, 
-      9. ajouter les courgettes râpées, tourner 1 minute, 
-      10. ajouter alors les épinards ciselés, 
+      1. Rincer les courgettes et les râper sur une râpe à gros trous.
+      2. Nettoyer les pousses d’épinard et les émincer.
+      3. Peler et émincer finement l’ail et le gingembre.
+      4. Couper les blancs de poulet en lamelles.
+      5. Faire chauffer l’huile dans une sauteuse,
+      6. ajouter les bâtonnets d’ail et de gingembre,
+      les faire cuire 1 minute,
+      7. ajouter les lamelles de poulet, tourner,
+      faire cuire 5 minutes en tournant souvent,
+      8. verser la sauce soja, tourner,
+      laisser cuire encore 2 minutes,
+      9. ajouter les courgettes râpées, tourner 1 minute,
+      10. ajouter alors les épinards ciselés,
       11. retirer aussitôt du feu, mélanger, poivrer et servir
   totest-todo-Poulet au chorizo:
     source: https://www.cuisine-etudiant.fr/recette/2701-poulet-au-chorizo
@@ -254,7 +254,7 @@ PQRST: ~
   totest-Porc au caramel:
     source: https://www.cuisine-etudiant.fr/recette/180-porc-au-caramel
     source: http://madame.lefigaro.fr/recettes/le-poulet-a-la-coriandre-280310-7003
-    realisation: 
+    realisation:
       préparation : 19 min
       cuisson : 0 min
       Difficulté : Facile
@@ -274,10 +274,10 @@ PQRST: ~
       Emincer l'oignon , le faire suer dans un peu de beurre.
       Saler, poivrer. Réserver.
       Couper les tranches de rôti en lamelles ( aux ciseaux c'est rapide !)
-      Faire rissoler les lamelles de porc avec l'oignon . 
-      Un fois que c'est un peu coloré , ajouter le sucre. 
-      Remuer et laisser environ 2 minutes , feu un peu moins fort, pour que ça caramélise un peu . 
-      Ajouter le jus de citron , la sauce soja , l'eau . 
+      Faire rissoler les lamelles de porc avec l'oignon .
+      Un fois que c'est un peu coloré , ajouter le sucre.
+      Remuer et laisser environ 2 minutes , feu un peu moins fort, pour que ça caramélise un peu .
+      Ajouter le jus de citron , la sauce soja , l'eau .
       Laisser mijoter 5-10 minutes.
       Accompagner avec du riz.
   totest-todo-porc laque:
@@ -291,7 +291,7 @@ todo:
   https://www.cuisine-etudiant.fr/recette/1944-emince-de-veau-aux-champignons
   https://www.marmiton.org/recettes/recherche.aspx?aqt=roti-de-veau-orloff-au-four
   profil:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -303,7 +303,7 @@ todo:
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
 
 
 

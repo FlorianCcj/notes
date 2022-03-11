@@ -111,7 +111,7 @@ Base of life
 * si on connect tout nos groupes on a beaucoup moins de problemes
 * si l autre a des problemes, ne le laissez pas se connecter, qu il continue a avoir des problemes
 * pour chasser, chasser a partir de votre groupe faible
-* Ne pas chasser ses propres groupes 
+* Ne pas chasser ses propres groupes
 
   * Quand on attaque un groupe adverse, attention a la direction que ça va prendre, ne pas aider l'autre a attaquer un de nos groupes faible du cote vers lequel on pousse
   * En cas de  risque, on part de notre groupe faible et idéalement on en profite pour le stabiliser
@@ -427,7 +427,7 @@ Le bilan de chacun
 Nicolas
 """""""
 
-Points a travailler: 
+Points a travailler:
 
 * Experience 8 (manque de partie compta, a enjeux)
   * pas de mystere ... il faut en faire, tournoi, compta et en faire
@@ -584,7 +584,7 @@ Game 1
 * n attaquer pas juste pour attaquer sans savoir ce qu on y gagne
 * si vous ne voyez pas de benefice d attaque, jouer ailleur
 
-technique hamashi: 
+technique hamashi:
 * laisser un groupe faible pour qu il vous attaque et qu il perde du temps a vous tuer
 
 Game 2
@@ -688,7 +688,7 @@ pince a 4 hautes
 on prend toujours le ko, au moins une fois
 quand on fait une menace de ko, il faut l appliquer
 
-2021.04.06 
+2021.04.06
 *************************
 
 Cours 6

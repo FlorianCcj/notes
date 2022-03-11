@@ -28,7 +28,7 @@ Money - Central Chart - formation complete trading
 1.8. Les différents types d'ordres de bourse
 --------------------------------------------
 
-1.9. Comment faire de la vente à découvert? 
+1.9. Comment faire de la vente à découvert?
 --------------------------------------------
 
 2. A la découverte de l'analyse technique
@@ -52,7 +52,7 @@ Money - Central Chart - formation complete trading
 2.6. Comment identifier les creux et sommets?
 ---------------------------------------------
 
-2.7. D'un graphique vierge à une analyse technique 
+2.7. D'un graphique vierge à une analyse technique
 ---------------------------------------------------
 
 3. Money management
@@ -73,7 +73,7 @@ Money - Central Chart - formation complete trading
 3.5. Le profit factor pour mesurer la qualité de votre trading
 --------------------------------------------------------------
 
-3.6. Les règles de gestion du risque 
+3.6. Les règles de gestion du risque
 -------------------------------------
 
 4. Définir sa stratégie de trading
@@ -103,7 +103,7 @@ Money - Central Chart - formation complete trading
 4.8. Les etapes d'un trade
 --------------------------
 
-4.9. Trader les crypto monnaies 
+4.9. Trader les crypto monnaies
 --------------------------------
 
 5. Méthode du "Trading à sens unique"
@@ -118,7 +118,7 @@ Money - Central Chart - formation complete trading
 5.3. Trading à sens unique - La tendance
 ----------------------------------------
 
-5.4. Trading à sens unique - Les signaux 
+5.4. Trading à sens unique - Les signaux
 -----------------------------------------
 
 6. Psychologie dans le trading
@@ -190,11 +190,11 @@ Pour découvrir plus en détail les frais de transactions des courtiers partenai
 
 Si vous souhaitez profiter des stops garantis dans votre trading, je vous invite à découvrir l'offre de courtage de ProRealTime : Trading sur CFD avec ProRealTime et IG (https://trading.prorealtime.com/fr/partner_redirect.phtml?pr_page=brokerage_main_ig&from=centralcharts_PRTtrading)
 
-7.5. Les critères à prendre en compte pour choisir son courtier 
+7.5. Les critères à prendre en compte pour choisir son courtier
 ----------------------------------------------------------------
 
 Vous êtes arrivé à la fin de votre formation! Prenez une minute pour donner votre avis et le partager avec les autres membres de la communauté en cliquant sur Suivant (en haut de la page).
-Vous pouvez également m'envoyer une remarque en privé via ma page profil Bruno Dupray sur CentralCharts ou par email sur bruno.dupray@centralcharts.com. 
+Vous pouvez également m'envoyer une remarque en privé via ma page profil Bruno Dupray sur CentralCharts ou par email sur bruno.dupray@centralcharts.com.
 
 8. Devenez un trader performant
 ===============================
@@ -238,7 +238,7 @@ Vous pouvez également m'envoyer une remarque en privé via ma page profil Bruno
 8.13. N'ayez aucune certitude
 -----------------------------
 
-8.14. Acceptez d'avoir tord 
+8.14. Acceptez d'avoir tord
 ----------------------------
 
 Vous êtes arrivé à la fin de votre formation bourse et trading!
@@ -295,7 +295,7 @@ Sites consultés durant cette vidéo :
 - Site du courtier CFD IG markets : https://www.ig.com
 - Plateforme d'achat de crypto-monnaies Bitstamp : https://www.bitstamp.net
 - Plateforme d'échange de crypto-monnaies Switcheo : https://switcheo.exchange
-- 
+-
 9.4. Introduction aux plateformes de crypto-monnaies
 ----------------------------------------------------
 
@@ -308,7 +308,7 @@ Sites consultés durant cette vidéo :
 
 * Attention : CoinMarketCap est bien LE site de référence sur lequel on peut trouver la plateforme offrant la meilleure liquidité d'un altcoin, et donc la plateforme sur laquelle le "spread" sera le plus serré (en théorie). En revanche, il faut savoir que certaines plateformes d'échange de crypto-monnaies utilisent des robots qui s'achètent et se re-vendent en permanence des crypto-monnaies. L'objectif de ces robots est simplement de créer une "fausse" liquidité de la crypto-monnaie... Faire croire aux crypto-traders que c'est sur leur plateforme que la crypto-monnaie concernée est la plus échangée, liquide... (en vue d'attirer de nouveaux crypto-traders à venir ouvrir un compte sur leur plateforme et à venir y échanger leurs crypto-monnaies). Regardez donc bien le spread proposé sur chaque plateforme, la taille des positions, et les transactions passées; Une "fausse "liquidité se remarque vite... Mais si vous avez un doute concernant une plateforme d'échange de crypto-monnaie, n'hésitez pas à me poser la question en commentaire.
 
-9.5. Sécurisez vos accès plateforme 
+9.5. Sécurisez vos accès plateforme
 ------------------------------------
 
 10. BONUS: Trading sur les cryptomonnaies
@@ -347,7 +347,7 @@ Sites consultés durant cette vidéo :
 - CoinMarketCap
 - Site officiel de la crypto-monnaie Elastos : https://www.elastos.org	
 
-10.5. Les airdrops de crypto-monnaies 
+10.5. Les airdrops de crypto-monnaies
 --------------------------------------
 
 Fiche éducative indiquée au début de la vidéo : AirDrop de crypto-monnaies : comment en profiter? (https://www.centralcharts.com/fr/forums/232-crypto-monnaies/2820-airdrop-de-crypto-monnaies-comment-en-profiter)

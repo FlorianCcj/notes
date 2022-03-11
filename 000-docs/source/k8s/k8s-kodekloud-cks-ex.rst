@@ -21,13 +21,13 @@ k8s - kodekloud - (CKS) Certified Kubernetes Security Specialist
   git clone https://github.com/ahmetb/kubectx ${PATH_TO_INSTALL}/.kubectx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubectx /usr/local/bin/kctx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubens /usr/local/bin/kns;
-  
+
   mkdir -p ${PATH_TO_INSTALL}
   wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases -o ${PATH_TO_INSTALL}/.kubectl_aliases
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source ${PATH_TO_INSTALL}/.kubectl_aliases" >> ${alias_file}
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source <(cat ${PATH_TO_INSTALL}/.kubectl_aliases | sed -r 's/(kubectl.*) --watch/watch \1/g')" >> ${alias_file}
   echo "function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }" >> ${alias_file}
-  
+
   echo ". ${alias_file}" >> ~/.zshrc
   . ~/.zshrc
 

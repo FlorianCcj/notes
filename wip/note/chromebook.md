@@ -12,10 +12,10 @@ umask 007
 /usr/sbin/mysqld &
 ```
 
-# todo
+# TODO
  * https://gist.github.com/khilnani/33800c637f898c1781a7
 
- 
+
 ## Passer en mode dev
 
 * esc + refresh + power

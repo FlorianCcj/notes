@@ -39,7 +39,7 @@ Sumary
     * Networking
     * Databases
     * Security
-    * Management 
+    * Management
 
 * Section 2: Customer Questions and the Well-Architected Framework
 
@@ -53,7 +53,7 @@ Sumary
     * Security
     * Reliability
     * Performance Efficiency
-    * Cost Optimization 
+    * Cost Optimization
 
 * Section 3: Solution Architecture Design
 
@@ -95,7 +95,7 @@ Sumary
     * Cost Optimization Pillar
     * Security Pillar
     * Operational Excellence Pillar
-    * Proposed case study solution 
+    * Proposed case study solution
 
 * Section 4: Exploring Solution Patterns and Architectures
 
@@ -105,7 +105,7 @@ Sumary
     * Modified Hybrid Architecture
     * Container Microservices Architecture
     * Serverless Microservices Architecture
-    * Modern Big Data Architecture 
+    * Modern Big Data Architecture
 
 * Section 5: Wrap Up
 
@@ -117,7 +117,7 @@ Sumary
   * Module 15: Next Steps
 
     * Resources
-    * Additional training 
+    * Additional training
 
 Let's work
 **********
@@ -214,7 +214,7 @@ FAQ
 * How do i mesure and compare workload perf in the cloud to on premise
   * metrics ?
   * definir des objectifs d acceptation
-* does it cost more or less in AWS compare to on-premise 
+* does it cost more or less in AWS compare to on-premise
   * ca depend
   * on part d ou
   * total cost of ownership

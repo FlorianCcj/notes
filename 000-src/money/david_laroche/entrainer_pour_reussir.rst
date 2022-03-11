@@ -72,7 +72,7 @@ JOUR 3: Les 10 Piliers qui vont transformer votre vie
 #. La maitrise des liens de causalité
 #. La confiance en soi
   #. Courage
-  #. Estime de soi 
+  #. Estime de soi
   #. Amour de soi
   #. La reference interne
 #. Le sens de votre vie
@@ -86,37 +86,37 @@ Programme de formation
 
 2 video de 30 min a 1h par semaine
 + 4 minutes de 3-4 minutes toutes les semaines
-+ dimanche coatching individuel numerique 
++ dimanche coatching individuel numerique
 
 week01: clarifier ce que l on veut
 week02: motivation sur la dureee
 week03: plan d action
-week04: 
+week04:
 
-week05: 
-week06: 
+week05:
+week06:
 week07: reprogrammer a croire en son subconscient (remove schema limitant)
 week08: creer des resultats dans le bien etre
 
 week09: Confiance en soi
 week10: creer un entourage
-week11: 
-week12: 
+week11:
+week12:
 
 week13: Declencher un changement, Leadership
-week14: 
-week15: 
-week16: 
+week14:
+week15:
+week16:
 
 week17: Communication, reseau
 week18: prise de decision
-week19: 
+week19:
 week20: efficace et productif
 
 week21: booster sa carriere
-week22: 
-week23: 
-week24: 
+week22:
+week23:
+week24:
 
 
 

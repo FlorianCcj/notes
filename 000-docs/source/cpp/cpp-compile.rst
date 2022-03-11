@@ -101,7 +101,7 @@ Sortir les includes
 .. code-block:: cpp
     :name: includes/My_class.cpp
 
-    #include "My_class.h" 
+    #include "My_class.h"
     #include <iostream>
 
     using namespace std;

@@ -46,21 +46,21 @@ Vue - Router Middleware
         routes: [
 
             {
-                path: '/', 
+                path: '/',
                 component: Root
 
             },
             {
 
-                path: '/page1', 
-                component: Page1, 
+                path: '/page1',
+                component: Page1,
                 beforeEnter: guardIsAnAdult
 
             },
             {
 
-                path: '/page2', 
-                component: Page2, 
+                path: '/page2',
+                component: Page2,
                 beforeEnter: VueRouterMultiguard([guardIsAnAdult, guardIsFromSpain])
 
             },

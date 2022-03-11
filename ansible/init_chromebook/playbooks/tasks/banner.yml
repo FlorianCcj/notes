@@ -4,13 +4,13 @@
     src: templates/motd.banner.j2
     dest: /etc/motd.banner
 - name: "say to ssh where to find banner"
-  lineinfile: 
-    dest: "/etc/ssh/ssh_config" 
-    state: "present" 
-    line: "Banner /etc/motd.banner" 
+  lineinfile:
+    dest: "/etc/ssh/ssh_config"
+    state: "present"
+    line: "Banner /etc/motd.banner"
 - name: "remove Banner none"
-  lineinfile: 
-    dest: "/etc/ssh/ssh_config" 
+  lineinfile:
+    dest: "/etc/ssh/ssh_config"
     state: "absent"
     line: "Banner none"
 - name: "restart sshd"

@@ -111,7 +111,7 @@ sitael:
   opposite: vassago
 elemiah:
   number: 04
-  color: Indigo, Or 
+  color: Indigo, Or
   cristal: Citrine
   date: du 05 avril au 10 avril
   etoile: Difda
@@ -133,7 +133,7 @@ mahasiah:
   opposite: marbas
 lelahel:
   number: 06
-  color: Rouge, Bleu 
+  color: Rouge, Bleu
   cristal: Aventurine Verte
   grade: seraphins
   superieur: metatron
@@ -142,7 +142,7 @@ lelahel:
   opposite: valefor
 achaiah:
   number: 07
-  color: Blanc, Violet 
+  color: Blanc, Violet
   cristal: Tourmaline Verte
   date: du 15 avril au 20 avril
   etoile: Wasat
@@ -153,7 +153,7 @@ achaiah:
   opposite: aamon
 cahetel:
   number: 08
-  color: Orange, Jaune 
+  color: Orange, Jaune
   cristal: Pierre du Soleil
   date: du 20 avril au 30 avril
   etoile: Oculus
@@ -164,7 +164,7 @@ cahetel:
   opposite: barbatos
 haziel:
   number: 09
-  color: Turquoise, Jaune 
+  color: Turquoise, Jaune
   cristal: Topaze
   date: du 01 mai au 05 mai
   etoile: Ras Alhage
@@ -197,7 +197,7 @@ lauvuel:
   opposite: cusion
 hahaiah:
   number: 12
-  color: Violet, Rouge 
+  color: Violet, Rouge
   cristal: Calcite orange
   date: du 16 mai au 21 mai
   etoile: Dirah
@@ -208,7 +208,7 @@ hahaiah:
   opposite: sitri
 iezalel:
   number: 13
-  color: Rouge, Orange 
+  color: Rouge, Orange
   cristal: Chrysoprase
   date: du 21 mai au 26 mai
   etoile: Han
@@ -219,7 +219,7 @@ iezalel:
   opposite: beleth
 mebahel:
   number: 14
-  color: Violet, Jaune 
+  color: Violet, Jaune
   cristal: Lapis lazuli
   date: du 27 mai au 31 mai
   etoile: Zosma
@@ -263,7 +263,7 @@ lauviah:
   opposite: Botis
 caliel:
   number: 18
-  color: Jaune pale, Vert pale 
+  color: Jaune pale, Vert pale
   cristal: Amazonite
   date: du 16 juin au 21 juin
   etoile: Alphard
@@ -274,7 +274,7 @@ caliel:
   opposite: Bathin
 leuviah:
   number: 19
-  color: Vert pale, Indigo 
+  color: Vert pale, Indigo
   cristal: Moldavite
   date: du 22 juin au 27 juin
   etoile: Triangle beta
@@ -318,7 +318,7 @@ ieiaiel:
   opposite: ipos
 melahel:
   number: 23
-  color: Jaune, Vert 
+  color: Jaune, Vert
   cristal: Calcedoine
   date: du 13 juillet au 18 juillet
   etoile: Sirius
@@ -329,7 +329,7 @@ melahel:
   opposite: aim
 hahiuiah:
   number: 24
-  color: Indigo, Jaune 
+  color: Indigo, Jaune
   cristal: Fluorine bleue
   date: du 18 juillet au 23 juillet
   etoile: Propus
@@ -351,7 +351,7 @@ nith-haiah:
   opposite: Glasya
 haaiah:
   number: 26
-  color: Bleu, Pourpre 
+  color: Bleu, Pourpre
   cristal: Magnetite
   date: du 28 juillet au 02 août
   etoile: Les Hyades
@@ -373,7 +373,7 @@ yerathel:
   opposite: Ronove
 seheiah:
   number: 28
-  color: Rouge, Pourpre 
+  color: Rouge, Pourpre
   cristal: Jaspe rouge
   date: du 08 août au 13 août
   etoile: Castor
@@ -571,7 +571,7 @@ sealiah:
   opposite: Vine
 ariel:
   number: 46
-  color: Rouge, Vert 
+  color: Rouge, Vert
   cristal: Zoïzite
   date: du 08 novembre au 12 novembre
   etoile: Kaus Australi
@@ -582,7 +582,7 @@ ariel:
   opposite: Bifrons
 asaliah:
   number: 47
-  color: Vert, Or 
+  color: Vert, Or
   cristal: Ambre
   date: du 13 novembre au 17 novembre
   etoile: Al Jabbah
@@ -835,7 +835,7 @@ rochel:
   opposite: Decarabia
 jabamiah:
   number: 70
-  color: Bleu, Vert 
+  color: Bleu, Vert
   cristal: Larimar
   date: du 06 mars au 11 mars
   etoile: Fomalhaut

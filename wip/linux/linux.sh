@@ -40,14 +40,14 @@ echo $env
 while true; do date; sleep 5 ; done
 
 reinstall packet precedement delete
-awk '$3 =="remove" {print $1,$2,$4}' /var/log/dpkg.log | tee list 
+awk '$3 =="remove" {print $1,$2,$4}' /var/log/dpkg.log | tee list
 sudo apt-get --simulate install $(awk '{print $3}' list mod)
 
 # Reseau
 
-scp /home/user/data/file user@192.168.2.2:/tmp : deposer en scp quelque chose 
+scp /home/user/data/file user@192.168.2.2:/tmp : deposer en scp quelque chose
   -r
-  -p 8080 : changement de port 
+  -p 8080 : changement de port
 
 ss -lmtp | grep 22 : qui ecoute le port 22
 
@@ -79,4 +79,4 @@ w : qui est connecté
 
 mysqldump -u $db_user -p$db_pwd $db_name > file.sql
 mysql -u $db_user -p$db_pwd $db_name < file.sql
-  -h : permet d ajouterun remote host si c est pas en local 
+  -h : permet d ajouterun remote host si c est pas en local

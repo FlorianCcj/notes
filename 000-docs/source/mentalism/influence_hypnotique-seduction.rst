@@ -101,7 +101,7 @@ Cadre N°2 - L'aventurier émotionnel
 
 Il endossait un costume en fonction des besoins de la femme en face de lui
 
-1. Lire le manuel des failles 
+1. Lire le manuel des failles
 2. L effet RPG
 
   * lire le ebook de la bulle secrete
@@ -147,7 +147,7 @@ Le push pull ou le chaud froid
 
 1. le reflexe de pavlov: recompense (ton attention) si agit bien, sinon neg (remarque ou moquerie) "la tu m as perdu", "t es un vrai moulin a parole toi"
 2. silence radio
-3. la jalousie: eviter le trop de compliment, faire du silence radio et discuter avec une autre femme 
+3. la jalousie: eviter le trop de compliment, faire du silence radio et discuter avec une autre femme
 
 Chapitre 2 - Séduction Affective (RAPPORT)
 ******************************************
@@ -225,7 +225,7 @@ Generer des sentiments opposes lors d un story telling au sein d une meme conver
 Exercice
 ---------
 
-* Penser a trois souvenir negatif, 
+* Penser a trois souvenir negatif,
 
   * un banal, pas grave mais avec une conotation un peu negative
   * un souvenir negatif
@@ -323,7 +323,7 @@ Etape 2: definir les personnages de son enfance
 
 Etape 3: definir les paysage de son enfance
 
-* Tu as vecu ou 
+* Tu as vecu ou
 * tu as garder quels sonvenir de cet endroits
 
 Etape 4: definir son portrait

@@ -89,7 +89,7 @@ css:
     Putting_It_All_Together:
       desc: Throwing all of the above ingredients into one spicy hotpot.
       content: >
-        ```        
+        ```      
         body {
             font-family: arial, helvetica, sans-serif;
             font-size: 14px;
@@ -213,7 +213,7 @@ css:
       body {
         background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
       }
-      background-color, background-image, background-repeat (repeat, repeat-x, repeat-y, no-repeat), background-position 
+      background-color, background-image, background-repeat (repeat, repeat-x, repeat-y, no-repeat), background-position
     Specificity: How a browser will deal with conflicting CSS rules.
       more specific = prioritary
       p { color: red; }
@@ -279,9 +279,9 @@ css:
               border-bottom-right-radius: 50px;
       }
     Shadows: Adding “pop” to boxes and text.
-      
+    
       /** box shadow **/
-      
+    
       box-shadow: 5px 5px 3px 1px #999
       // horizontal offset
       // vertical offset
@@ -292,7 +292,7 @@ css:
       /** inner shadow **/
 
       box-shadow: inset 0 0 7px 5px #ddd;
-    
+  
       /** text shadow **/
 
       text-shadow: -2px 2px 2px #999;
@@ -310,7 +310,7 @@ css:
       }
       /** Hue, saturation, and lightness **/
       #smut { color: hsl(36, 100%, 50%) }
-      /** HSLa **/ 
+      /** HSLa **/
       #rabbit { background: hsla(0, 75%, 75%, 0.5) }
 
     At-Rules: Importing style sheets, styles for different media types, specifying the character set of a stylesheet and embedded fonts.
@@ -343,7 +343,7 @@ css:
       [attribute^=something] will match a the value of an attribute that begins with something.
       [attribute$=something] will match a the value of an attribute that ends with something.
       [attribute*=something] will match a the value of an attribute that contains something, be it in the beginning, middle, or end.
-        
+      
 
     CSS Transitions: Creating smooth animations.
     Backgrounds: Multiples, Size, and Origin

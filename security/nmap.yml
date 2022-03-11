@@ -1,15 +1,15 @@
 Scan Your Network for Vulnerabilities With Nmap:
   source: https://dev.to/kathyra_/scan-networks-for-vulnerabilities-with-nmap-2pc?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
   install: sudo apt-get install nmap
-  nmap -sS yahoo.com: 
+  nmap -sS yahoo.com:
     desc: >
       Scanning for Ports With Nmap
-       sneaky scan 
-      a SYN scan, not too noisy, 
+       sneaky scan
+      a SYN scan, not too noisy,
   nmap -sS -O yahoo.com:
     desc: operating system detection, look for OS specific vuln
   nmap -sS -O -sV yahoo.com:
-    desc:  version detection, service, port 
+    desc:  version detection, service, port
   nmap -sS -sV -v -p 22 yahoo.com:
     desc: focus port
   nmap -sS -sV -O -v --top-ports 1000 yahoo.com:

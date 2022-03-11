@@ -1,6 +1,6 @@
 /**
  * exmple tirer de la doc officiel
- * 
+ *
  * install: npm i -S express
  */
 
@@ -20,7 +20,7 @@ eg2_static_file = () => {
     app.use(express.static(__dirname + 'public'));
     app.use(express.static(__dirname + 'files'));
     // pour mettre un prefix au chemin d acces
-    app.use('/static', express.static(__dirname + 'public')); 
+    app.use('/static', express.static(__dirname + 'public'));
 };
 
 eg3_routage = () => {
@@ -72,20 +72,20 @@ eg5_middleware = () => {
         req.requestTime = Date.now();
         next();
     };
-      
+    
     app.use(requestTime);
     app.use(function (req, res, next) {
         console.log('Time:', Date.now());
         next();
     });
 
-    // launch only for the path 
+    // launch only for the path
     app.use('/user/:id', function (req, res, next) {
         console.log('Request Type:', req.method);
         next();
     });
-      
-      
+    
+    
     app.get('/', function (req, res) {
         res.send('Hello World!' + ' ' + req.requestTime);
     });
@@ -99,7 +99,7 @@ eg6_middleware_with_router = () => {
         console.log('Time:', Date.now());
         next();
       });
-      
+    
     // a middleware sub-stack shows request info for any type of HTTP request to the /user/:id path
     router.use('/user/:id', function(req, res, next) {
     console.log('Request URL:', req.originalUrl);
@@ -108,7 +108,7 @@ eg6_middleware_with_router = () => {
     console.log('Request Type:', req.method);
     next();
     });
-    
+  
     // a middleware sub-stack that handles GET requests to the /user/:id path
     router.get('/user/:id', function (req, res, next) {
     // if the user ID is 0, skip to the next router
@@ -119,13 +119,13 @@ eg6_middleware_with_router = () => {
     // render a regular page
     res.render('regular');
     });
-    
+  
     // handler for the /user/:id path, which renders a special page
     router.get('/user/:id', function (req, res, next) {
     console.log(req.params.id);
     res.render('special');
     });
-    
+  
     // mount the router on the app
     app.use('/', router);
 };
@@ -135,7 +135,7 @@ eg7_middleware_error = () => {
 app.use(function(err, req, res, next) {
     console.error(err.stack);
         res.status(500).send('Something broke!');
-    });  
+    });
 };
 
 exemple_sumary = (sumary_number) => {

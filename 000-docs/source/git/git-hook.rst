@@ -103,12 +103,12 @@ Pre-commit example
 
 .. literalinclude:: ./codes/pre-commit1
 
-Todo
+TODO
 ****
 
 .. warning::
-    Todo
-    
+    TODO
+  
     * to_read:
         - https://pre-commit.com/
         - https://githooks.com/

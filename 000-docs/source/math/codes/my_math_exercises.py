@@ -16,7 +16,7 @@ def test_help(str_to_test):
 def multiplication_test(lim_inf, lim_sup, help_function):
     num_1 = random.randint(lim_inf, lim_sup)
     num_2 = random.randint(lim_inf, lim_sup)
-        
+      
     answer_false = True
     local_quit = False
 
@@ -33,7 +33,7 @@ def multiplication_test(lim_inf, lim_sup, help_function):
             help_function()
 
 
-def ten_to_hundred_multiplication(): 
+def ten_to_hundred_multiplication():
     print("%s" % ('## ten to hundred multiplication'))
     multiplication_test(10, 100, ten_to_one_hundred_help)
 
@@ -69,18 +69,18 @@ def ten_to_twenty_squarre():
 
 
 def squarre_root(lim_inf, lim_sup, help_function):
-    
+  
     number = random.randint(lim_inf, lim_sup)
-    
+  
     answer_false = True
     local_quit = False
 
     while answer_false and not local_quit:
         user_answer = input("%d^(1/2): " % (number*number))
-    
+  
         local_quit = test_quit(user_answer)
         local_help = test_help(user_answer)
-    
+  
         if not local_help and not local_quit:
             try:
                 answer_false = int(user_answer) != number
@@ -140,7 +140,7 @@ def five_six_number_squarre_root_after_40000_help():
     print('Y = X*X')
     print("X = 100*Cx + 10*Dx + Ux, with Cx, Dx, Ux < 10")
     print("Ux: compare Uy with squarre of 1 to 9, you have one or two result to Ux")
-    print("Cx: get the squarre immediatly inferior to Cy you will have Cx")
+    print("Cx: get the squarre immediatly inferior to Dky you will have Cx")
     print("T1 = DKy - Cx*Cx")
     print("Cy = 10*Dcy + Ucy with Dcy < 10, Ucy < 10")
     print("Dd = 10*T1 + Dcy")

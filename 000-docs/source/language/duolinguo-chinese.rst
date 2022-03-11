@@ -383,7 +383,7 @@ To a yes noquestion you can add ma (吗) at the end of the line
 But you can also double the verb and add bu4 (不) in the middle
 
 * Na4 shi4 bu shi4 ni3 de qi1zi?: Is that your wife?
-* Ta1 ya4o bu ya4o niu2na3i?: Does he want milk? 
+* Ta1 ya4o bu ya4o niu2na3i?: Does he want milk?
 
 lia3ng (两) vs. e4r (二)
 ------------------------
@@ -474,7 +474,7 @@ le means something is finished
 * wo3 chi1 le (我吃了): I ate
 * ta1 qu4 le (她去了): She went
 * Ta1 he1le ka1fe1i (他喝了咖啡): He drank coffee
-* Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday. 
+* Wo3 zuo2tia1n jia4nle wo3 de yi1she1ng (我昨天见了我的医生): I saw my doctor yesterday.
 
 Today or tomorrow?
 ------------------
@@ -488,8 +488,8 @@ Talking about the future with hui4 (会)
 
 * hui4 (会): will
 * bu2hui4 (不会): won t
-* Ta1men xia4 ge4 yue4 hui4 he3n ma2ng (他们下个月会很忙): They will be busy next month. 
-* Wo3 mi2ngtia1n bu2 hui4 qu4 yi1yua4n (我明天不会去医院): I won t go to the hospital tomorrow. 
+* Ta1men xia4 ge4 yue4 hui4 he3n ma2ng (他们下个月会很忙): They will be busy next month.
+* Wo3 mi2ngtia1n bu2 hui4 qu4 yi1yua4n (我明天不会去医院): I won t go to the hospital tomorrow.
 * Ta1 ji1ntia1n wa3nsha4ng hui4 la2i ma? (他今天晚上会来吗？): Will he come tonight?
 
 Measure Words
@@ -597,7 +597,7 @@ Yes and No
 za4i (在) for things that are happening right now
 -------------------------------------------------
 
-* Add za4i (在) before a verb to show that something is happening right now. 
+* Add za4i (在) before a verb to show that something is happening right now.
 
 * Wo3 de pe2ngyo3u za4i ka4nshu1 (我的朋友在看书): My friend is reading a book
 * Ta1 za4i ti1ng yi1nyue4 (她在听音乐): She is listening to music.
@@ -723,7 +723,7 @@ za4i (在) for location
 
 * ta1 za4i jia1 ka4n ba4ozhi3. (她在家看报纸。): She reads the newspaper at home.
 * wo3 za4i xi3sho3ujia1n tia4owu3. (我在洗手间跳舞。): I dance in the bathroom.
-* go3u za4i na4li shui4jia4o. (狗在那里睡觉。): The dog sleeps there. 
+* go3u za4i na4li shui4jia4o. (狗在那里睡觉。): The dog sleeps there.
 
 Phrases
 -------
@@ -994,9 +994,9 @@ yo3udia3r (有点儿) + adj
 
 * Wǒmen dōu juédé yóudiǎr lèi (我们都觉得有点儿累。): We all feel a bit tired.
 * Wǒ jīntiān yóudiǎr máng (我今天有点儿忙。): I am a bit busy today.
-* Nà ge yóudiǎr guì. (那个有点儿贵。): That is a bit expensive. 
+* Nà ge yóudiǎr guì. (那个有点儿贵。): That is a bit expensive.
 
-Don't look! 
+Don't look!
 -----------
 
 * bú yào (不要): do not want something but can be use for imperative
@@ -1009,8 +1009,8 @@ Every single day!
 
 * měi ge rén (每个人): every person
 * měitiān (每天): every day
-* Měi ge rén dōu zài shuìjiào. (每个人都在睡觉。): Every single person is sleeping. 
-* Wǒ měitiān dōu duànliàn. (我每天都锻炼。): I work out every single day. 
+* Měi ge rén dōu zài shuìjiào. (每个人都在睡觉。): Every single person is sleeping.
+* Wǒ měitiān dōu duànliàn. (我每天都锻炼。): I work out every single day.
 
 Adjective + 的
 --------------
@@ -1018,7 +1018,7 @@ Adjective + 的
 * nu.3er he3n ga1o (女人很高): The woman is tall
 * ga1o de nu.3er (高的女人): tall woman
 
-* Zhèxiē dōngxi hěn jiànkāng. (这些东西很健康。): These things are healthy. 
+* Zhèxiē dōngxi hěn jiànkāng. (这些东西很健康。): These things are healthy.
 * Wǒ xiǎng chī jiànkāng de dōngxi. (我想吃健康的东西。): I want to eat healthy things.
 
 Phrases

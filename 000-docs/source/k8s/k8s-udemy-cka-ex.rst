@@ -242,7 +242,7 @@ Mock exam
 * Mock 3
   * Create SA and give him right to list pv
   * Use a specific SA in a pod
-  * List Node s InternalIP, format it 
+  * List Node s InternalIP, format it
   * Create multicontainer pod with env vars
   * Create pod run as specific user
   * Create a netpol ingress
@@ -250,3 +250,13 @@ Mock exam
   * Run a pod with specific image and label in a specific ns
   * Fix a kubeconfig
   * Fix depoy scalling
+
+
+
+scheduler
+--port=10282
+--secure-port=0
+--scheduler-name=toto
+--leader-election=false
+
+ETCDCTL_API=3 etcdctl --data-dir <data-dir-location> snapshot restore snapshotdb

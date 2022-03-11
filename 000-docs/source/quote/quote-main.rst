@@ -43,7 +43,7 @@ Mentalism
 
 :Phillipe Peytroux: Ayez peur de la mort, et Dieu existera, n'ayez craintes, et c'est vous qui existerez.
 
-:Philippe Peytroux: "Si tu veux trouver un prince, tu es censé embrassé un crapaud, pas baiser tout l'étang" 
+:Philippe Peytroux: "Si tu veux trouver un prince, tu es censé embrassé un crapaud, pas baiser tout l'étang"
 
 :Antoine de Saint-Exupery: "pour ce qui est de l'avenir il ne s'agit pas de le prévoir mais de le rendre possible"
 
@@ -80,7 +80,7 @@ Other
 
 :???: il ne savait pas que c'etait impossible alors ils l ont fait
 
-:???: il vaut mieux être approximativement juste que précisément faux 
+:???: il vaut mieux être approximativement juste que précisément faux
 
 :Goethe: Traitez les gens comme s ils etaient ce qu ils pourraient etre et vous les aiderez a devenir ce qu ils sont capables d etre
 

@@ -4,11 +4,11 @@ Todo - Web - Symfony
 Folder in sulfur
 ================
 
-* symfony: 
+* symfony:
 
   * https://symfonycasts.com/tracks/symfony
   * https://university.sensiolabs.com/me
-  
+
 * https://github.com/phpstan/phpstan (checkstyle/error ?)
 
 Document history

@@ -1,5 +1,5 @@
 
-# Use one of the standard Node images from Docker Hub 
+# Use one of the standard Node images from Docker Hub
 FROM node:8
 
 # The Dockerfile's author
@@ -17,7 +17,7 @@ WORKDIR /usr/src/app
 # RUN npm install
 # COPY . .
 
-# Our Nginx container will forward HTTP traffic to containers of 
+# Our Nginx container will forward HTTP traffic to containers of
 # this image via port 3000. For this, 3000 needs to be 'open'.
 EXPOSE 3000
 

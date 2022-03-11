@@ -7,14 +7,14 @@
     }
 
     func main() {
-        
+      
         goku := Saiyan{
             Name: "Goku",
             Power: 9000,
         }
 
         println(goku.Name)
-        
+      
         geta := Saiyan{Name: "Geta"}
         geta.Power = 8500
 
@@ -23,7 +23,7 @@
         Super(gohan)
 
         println(gohan.Power)
-        
+      
         SuperFake(gohan)
 
         println(gohan.Power)

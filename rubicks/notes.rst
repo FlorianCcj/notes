@@ -2,7 +2,7 @@
 Rubicks
 *******
 
-source: Tuto de Victor Colin 
+source: Tuto de Victor Colin
 
 * Debutant
     * Tutoriel - Résoudre le rubik's cube (solution complète pour débutants)
@@ -74,7 +74,7 @@ source: Tuto de Victor Colin
 		- coin a droite arete en face avec la couleur de face du coin etant la meme que celle du dessus de l'arete RUR'
 		- coin de face arete a gauche (Z') L'U'L
 		
-	La face vers le haut 
+	La face vers le haut
 		- l'arete 2e a l'envers RU'R' U L'UL
 		- l'arete 2e bien placé 3* sexy move : (RUR'U')3
 		
@@ -91,7 +91,7 @@ source: Tuto de Victor Colin
 		- 3e non adjacente couleur différente: cas de base ou bloque le coin et unquart de tourcar de tour
 		
 		- 3e adjacente droite couleur identique : cas de base
-		- 3e adjacente  droite couleur différente: lock coin arete 2 mouv 
+		- 3e adjacente  droite couleur différente: lock coin arete 2 mouv
 		
 		- 3e adjacente face couleur identique : lock arete U
 		- 3e adjacente face couleur différente: lock coin et move a gauche

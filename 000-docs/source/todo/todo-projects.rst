@@ -87,7 +87,7 @@ stuff-optimisation
     * stat > < =
     * qualité
     * classe pouvant la tenir
-    
+  
 * choix des priorités:
 
   * formulaire de priorisation de stat
@@ -127,12 +127,12 @@ revision program
 
   * permettre d afficher la liste des questions
   * permettre de filtrer les questions pour cibler celle qui nous interesse:
-  
+
     * mot inclut dans le titre
     * mot inclus dans le corps
     * question mono/multiple
     * theme
-    
+  
   * faire des stats
   * permettre exclure des questions les prochaines fois
   * permetttre de remettre les questions exclu
@@ -156,7 +156,7 @@ revision program
   * hide our todo & show a list of shared
   * avoir un suivi du deroulement de la tache (workflow, ou %)
 
-          
+        
 Document history
 ================
 

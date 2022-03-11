@@ -1,4 +1,4 @@
-# Sphinx 
+# Sphinx
 
 ## Install
 
@@ -72,7 +72,7 @@ in `source/contents.rst`:
         :maxdepth: 3
         :caption: Contents:
         :numbered:
-        
+      
         index.rst
         fichier.rst
 

@@ -60,7 +60,7 @@ Where is the code
   * DTO only get string, number
   * the same way for the output boundary, execute do not take entity, but already serialized entity
   * execute argument are DTO, next class (can be output boundary)
-  * output boundary have a ::code:`present` function which take :code:`response` argument and send it 
+  * output boundary have a ::code:`present` function which take :code:`response` argument and send it
   * a use case file
 
     * use case interface
@@ -73,7 +73,7 @@ Where is the code
   :name: use case example
 
   public function execute(LoginRequest $request, LoginOutput $output) {
-  
+
     $response = new LoginResponse();
     $user = $this->userRepository->getByEmail($request->email);
 

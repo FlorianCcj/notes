@@ -20,20 +20,20 @@ version: 1
 ##
 ## To have any of these parameters automatically configured when you bootstrap an Artifactory instance using this file,
 ## simply uncomment the relevant sections below, and where required, provide values.
- 
+
 ##################################################################################
 # General Configurations #
 ##################################################################################
 GeneralConfiguration:
 ## License key to import in onboarding
     licenseKey : "Enter your license key"
- 
+
 ## Setup the Artifactory base URL
 ## For more information about the Artifactory base URL, please refer to
 ## https://www.jfrog.com/confluence/display/RTF/Configuring+Artifactory#ConfiguringArtifactory-GeneralSettings
 ## Uncomment the line below to set the Artifactory base URL
 #   baseUrl : "https://mycomp.arti.co"
- 
+
 ## Configure proxies for artifactory
 ## For more information on configuring a proxy in Artifactory, please refer to
 ## https://www.jfrog.com/confluence/display/RTF/Managing+Proxies

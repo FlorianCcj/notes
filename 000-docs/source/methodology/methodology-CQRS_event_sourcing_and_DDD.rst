@@ -73,7 +73,7 @@ Agregate root
       * permit to replace when you want
       * constructor -> manage colaborator
       * listento -> which class will activate the handle
-      * handle -> manage business, and return only the id, you need 
+      * handle -> manage business, and return only the id, you need
   * query: read
 
 Use it

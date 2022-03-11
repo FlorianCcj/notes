@@ -25,12 +25,12 @@ describe('Suite of unit tests', function () {
   //
   //afterEach(function () {
   afterEach((done) => {
-    // Cleanup 
+    // Cleanup
     if (socket && socket.connected) {
       // console.log('cleanup disconnecting...');
       socket.disconnect();
     } else {
-      // There will not be a connection unless you have done() in beforeEach, socket.on('connect'...) 
+      // There will not be a connection unless you have done() in beforeEach, socket.on('connect'...)
       // console.log('no connection to break...');
     }
     done();

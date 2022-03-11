@@ -17,10 +17,10 @@ Youtube - devenez riche
 
 :source: https://www.youtube.com/watch?v=6qNXTGcdH68
 
-* mon opinion compte: 
-    * plusieur sondage/jour, 
-    * paiement instantané, 
-    * entre 5 et 15 min, 
+* mon opinion compte:
+    * plusieur sondage/jour,
+    * paiement instantané,
+    * entre 5 et 15 min,
     * concours trimestriel a 2ke
     * seuil de paiement a 2,5e paypall ou cheque
     * (entre 0,25 et 1epar sondage)
@@ -29,7 +29,7 @@ Youtube - devenez riche
     * paiement variee
     * seuil 5e
     * entre 0,02 et 0,10 par click et 0,1 et 0,4 pour une inscription
-* clictune: 
+* clictune:
     * gain par clic sur des liens (possible de le mettre sur son site)
     * 2,5 euros /1000 clicks
     * seuil 5e paypall
@@ -46,11 +46,11 @@ Youtube - devenez riche
     * cheque
 * gaddin
     *  sondage, site partenaire
-    * entre 0,01 et 0,03 par mail et 0,1 et 0,3 inscription 
+    * entre 0,01 et 0,03 par mail et 0,1 et 0,3 inscription
     * tirage au sort entre 5 et 30e
     * seuil 30e
     * cheque paypall etc
-* looneo 
+* looneo
     * meme que moolineo
     * moins d offre mais mieux payer
 * awbarre

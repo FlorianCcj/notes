@@ -1,7 +1,7 @@
 const example = new Set([
-    1, 2, 3, 
     1, 2, 3,
-    true, true, 
+    1, 2, 3,
+    true, true,
     false, false,
     [], []
 ]);

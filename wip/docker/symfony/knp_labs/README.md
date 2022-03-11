@@ -20,7 +20,7 @@ fastcgi_pass php:9000;
 
 docker-compose build
 docker-compose up -d
- docker-compose stop  
+ docker-compose stop
 docker-compose exec php composer install
 docker-compose exec php bin/console doctrine:schema:create
 docker-compose exec php bin/console doctrine:fixtures:load

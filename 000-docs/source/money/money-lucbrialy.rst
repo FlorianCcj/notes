@@ -36,9 +36,9 @@ vous investissez chaque mois 15% de vos revenus dès vos 25 ans (ou beaucoup plu
 
 Les 5 grands obstacles
 1. Les gens dépensent trop.
-2. Comprendre la bourse, et comment elle fonctionne est essentiel si vous ne voulez pas perdre d’argent en investissant. Par exemple en laissant vos avoirs sur un livret d'épargne, ce qui est la meilleure façon d’être sûr de perdre de l’argent chaque année, puisque le taux d’intérêt ne couvre même pas l’inflation. 
+2. Comprendre la bourse, et comment elle fonctionne est essentiel si vous ne voulez pas perdre d’argent en investissant. Par exemple en laissant vos avoirs sur un livret d'épargne, ce qui est la meilleure façon d’être sûr de perdre de l’argent chaque année, puisque le taux d’intérêt ne couvre même pas l’inflation.
 3. Il faut non seulement comprendre la bourse, mais aussi connaitre son historique.
 4. Vaincre son plus grand ennemi - ce visage dans votre miroir- est une tâche herculéenne. Connaissez-vous vous même et essayer de prevoir les risques sur des decennies
 5. Comme investisseur vous devez apprendre à reconnaître les monstres qui peuplent le monde de la finance. Cela peut etre un ami, un conseiller financier etc.
 
-@Todo
+TODO

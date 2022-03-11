@@ -5,8 +5,8 @@ Alten
 =====
 
 * Contact:
-    * name: 
-    * phone: 
+    * name:
+    * phone:
     * mail:
     * linkedin
 
@@ -15,9 +15,9 @@ Aubay
 
 * Contact:
     * name: Lucie BOURSIER
-    * phone: 
+    * phone:
     * mail:
-    * linkedin 
+    * linkedin
 * what for:
     following:
         - main house: 1/3 month + pontual phone call
@@ -106,7 +106,7 @@ Meritis
 * Contact:
     * name: Sandy JULE
     * linkedin: y
-    * name: 
+    * name:
     * phone: 07.64.14.76.13
 * What For:
     following:

@@ -14,7 +14,7 @@ Toujours doubler le temps, temps de pratique = 2 fois temps de la theorie
 Exercice:
 
 * Dessiner une piece, ce que vous voulez, 30 min/jour
-* Quand vous observer quelque chose essayer de voir un cube autour, puis la forme geometrique la plus proche
+* Quand vous observer quelque chose essayer de voir un cube autour, puis la forme geometrique la plus proche et le point de fuite
 * Observer les ombres, la lumiere
 
 Module 1
@@ -35,6 +35,14 @@ s'entrainer a faire des traits droits
 * a partir de l epaule
 
 Faire plusieurs mouvements fantomes avant de tirer le trait. Des qu on pense avoir le bon mouvement, on le realise
+
+point d ancrage de l observateur: la ou se trouve l observateur sur le sol therorique
+
+plan de l image: plan de vision de l observateur, parallele a observateur, il suit le cone de vision
+ligne du sol: aide a la mesure
+le niveau de l oeil: hauteur de l oeil
+ligne de vision: centre du cone de vision
+ligne d horizon: ligne a 22km qui delimite ce qu on ne voit pas, elle est au niveau de l oeil
 
 Module 2
 ========

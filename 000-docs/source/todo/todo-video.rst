@@ -23,12 +23,12 @@ Folder in sulfur
 
 Site for anime:
 ===============
- 
+
 * https://www.ianimes.co
 * https://gum-gum-streaming.com
 * https://gum-gum-stream.eu
 * https://www.vostfree.com
-          
+        
 Document history
 ================
 

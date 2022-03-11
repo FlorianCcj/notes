@@ -31,9 +31,9 @@ Variante a 5 ou pierre papier ciseaux lezard spock
 
   * spock
 
-    * symboliser par la main a plat avec 
-    
-      * le pouce separer de l index, 
+    * symboliser par la main a plat avec
+  
+      * le pouce separer de l index,
       * l index et le majeur colles
       * le majeur et la annulaire separer
       * l annulaire et l auriculaire colle
@@ -44,7 +44,7 @@ Variante a 5 ou pierre papier ciseaux lezard spock
   * le lezard
 
     * symbolise par
-    
+  
       * le pouce qui represente la machoire inferieur
       * les qutres doigts qui representent la machoire superieur
 
@@ -148,7 +148,7 @@ challenge:
 - frapper sur leurs genoux simultanement
 - dire "pas mou le cailloux"
 
-gain: 
+gain:
 
 - 1er a le faire: gagne la velute
 - egalite: ceux a egalite perdent des points equivalent a la velute
@@ -165,7 +165,7 @@ Suite
 
 la valeur des 3 des se suivent
 
-challenge: 
+challenge:
 
 - frapper du poing sur la table
 - crier "grelotte ca picote"
@@ -181,7 +181,7 @@ launch once again the dice which is bad
 
 fail:
 
-- win a civet 
+- win a civet
 - lost points that you could win with the initial chouette
 
 Chalenge for other player:
@@ -460,7 +460,7 @@ Idees recues
 * Le cerveau est completement former a la naissance
   * faux
 
-Faut-il dire oui ou non ? 
+Faut-il dire oui ou non ?
 *************************
 
 La memoire inconsciente ne peut retenir de negation.
@@ -480,7 +480,7 @@ Je forme JOYCA au Mentalisme à la RedBox (+4 tours de mentalisme pour trouver u
 * le nose knows: quand la personne tend les mains devant lui, la axe du nez pointe tres legerement vers la main qui a la piece
 * le decalage des mains: dans la majorite des cas, on a tendance a vouloir cacher la main qui a la piece, du coup la dites main est legerement en retrait par rapport a l autre
 
-@TODO note the 2nd video
+TODO note the 2nd video
 
 Je vous debloque une competence dans le cerveau!
 ************************************************
@@ -595,7 +595,7 @@ Petit test de biais cognitif
 
 1. ce sont mes soeurs
 2. Non ... il est mort
-3. L everest, il existait deja 
+3. L everest, il existait deja
 4. Aucun des deux ils se croisent ils sont au meme endroit
 5. Il ment
 

@@ -32,13 +32,13 @@ FGHIJ: ~
       125 g de gruyère râpé
     steps:
       Preparation
-        Préchauffez le four à 210°C (th. 7). 
-        Beurrez un moule à gratin. 
-        Epluchez puis coupez les pommes de terre et les oignons en lamelles. 
-        Disposez dans le moule une couche de pommes de terre, une d'oignons 
-        et une de lardons. 
-        Ajoutez la crème fraîche et assaisonnez. 
-        Rajoutez une dernière couche de pommes de terre et parsemez de gruyère. 
+        Préchauffez le four à 210°C (th. 7).
+        Beurrez un moule à gratin.
+        Epluchez puis coupez les pommes de terre et les oignons en lamelles.
+        Disposez dans le moule une couche de pommes de terre, une d'oignons
+        et une de lardons.
+        Ajoutez la crème fraîche et assaisonnez.
+        Rajoutez une dernière couche de pommes de terre et parsemez de gruyère.
         Ajoutez le lait.
       Cuisson
         Enfournez pendant 30 à 45 minutes.
@@ -95,28 +95,28 @@ PQRST: ~
       sel
       poivre du moulin
     steps:
-      Découpage: 
-        peler les pommes de terre, 
-        les râper et les égoutter dans une passoire sans les laver. 
-        Couper le comté et le jambon en dés de 5 mm environ. 
+      Découpage:
+        peler les pommes de terre,
+        les râper et les égoutter dans une passoire sans les laver.
+        Couper le comté et le jambon en dés de 5 mm environ.
         Retirer les racines des germes de soja et les couper en deux.
-      La cuisson: 
-        dans un saladier, mélanger pommes de terre, jambon, comté, germes et sauce soja. 
-        Poivrer et mélanger encore. 
-        Faire chauffer 1/2 cuillerée à soupe d’huile d’olive 
-        dans deux poêles antiadhésives de 12 cm de diamètre de préférence. 
-        Mettre dans chacune le quart du mélange et, 
-        à l’aide d’une spatule, aplanir régulièrement toute la surface et presser légèrement. 
-        Faire cuire à feu doux 6 à 8 minutes, 
-        puis retourner les galettes 
-        et les faire cuire à nouveau 6 à 8 minutes de façon 
-        que les pommes Darphin aient une belle coloration des deux côtés. 
+      La cuisson:
+        dans un saladier, mélanger pommes de terre, jambon, comté, germes et sauce soja.
+        Poivrer et mélanger encore.
+        Faire chauffer 1/2 cuillerée à soupe d’huile d’olive
+        dans deux poêles antiadhésives de 12 cm de diamètre de préférence.
+        Mettre dans chacune le quart du mélange et,
+        à l’aide d’une spatule, aplanir régulièrement toute la surface et presser légèrement.
+        Faire cuire à feu doux 6 à 8 minutes,
+        puis retourner les galettes
+        et les faire cuire à nouveau 6 à 8 minutes de façon
+        que les pommes Darphin aient une belle coloration des deux côtés.
         Les égoutter sur du papier absorbant et faire cuire les deux autres de la même manière.
-      Les oeufs : 
-        les casser dans quatre ramequins. 
-        Dans une grande poêle antiadhésive légèrement huilée, 
-        faire glisser les œufs, 
-        laisser cuire 3 ou 4 minutes à feu doux et saler légèrement le blanc, 
+      Les oeufs :
+        les casser dans quatre ramequins.
+        Dans une grande poêle antiadhésive légèrement huilée,
+        faire glisser les œufs,
+        laisser cuire 3 ou 4 minutes à feu doux et saler légèrement le blanc,
         qui doit être cuit mais pas le jaune.
   totest-todo-Pommes de terre au chorizo et à l'emmental:
     source: https://www.cuisine-etudiant.fr/recette/4888-pommes-de-terre-au-chorizo-et-a-l-emmental
@@ -159,7 +159,7 @@ PQRST: ~
   totest-todo-truffade:
     source: https://www.cuisine-etudiant.fr/recette/5697-truffade-specialite-montagnarde
   profil:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -171,5 +171,5 @@ PQRST: ~
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
 

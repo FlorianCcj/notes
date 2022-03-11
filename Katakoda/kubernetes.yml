@@ -8,7 +8,7 @@
   content: >
     kubectl get nodes
     kubectl run http --image=katacoda/docker-http-server:latest --replicas=1
-    kubectl get deployments 
+    kubectl get deployments
     kubectl describe deployment http
     kubectl expose deployment http --external-ip="172.17.0.56" --port=8000 --target-port=80
     curl http://172.17.0.56:8000
@@ -20,11 +20,11 @@
     # -------------------
     # pause container
     # -------------------
-    # Running the above command you'll notice the ports are exposed on the Pod, 
-    # not the http container itself. 
-    # The Pause container is responsible for defining the network for the Pod. 
-    # Other containers in the pod share the same network namespace. 
-    # This improves network performance and allow multiple containers to communicate 
+    # Running the above command you'll notice the ports are exposed on the Pod,
+    # not the http container itself.
+    # The Pause container is responsible for defining the network for the Pod.
+    # Other containers in the pod share the same network namespace.
+    # This improves network performance and allow multiple containers to communicate
     # over the same network interface..
 
     kubectl scale --replicas=3 deployment http
@@ -100,7 +100,7 @@
     kubectl get pods
     kubectl create -f frontend-service.yaml
     kubectl get services
-    kubectl describe service frontend | grep NodePort 
+    kubectl describe service frontend | grep NodePort
 06. Networking Introduction:
   difficulty: Intermediate
   theme:
@@ -126,9 +126,9 @@
     echo CLUSTER_IP=$CLUSTER_IP
     curl $CLUSTER_IP:8080
     # add nodeport
-    kubectl apply -f nodeport.yaml 
+    kubectl apply -f nodeport.yaml
     kubectl get svc
-    kubectl describe svc/webapp1-nodeport-svc 
+    kubectl describe svc/webapp1-nodeport-svc
     curl 172.17.0.34:30080
     # Eternal IP
     sed -i 's/HOSTIP/172.17.0.34/g' externalip.yaml
@@ -145,7 +145,7 @@
     kubectl create -f ingress.yaml
     kubectl get deployment -n nginx-ingress
     kubectl create -f ingress-rules.yaml
-    kubectl get ing 
+    kubectl get ing
 08. Helm Package Manager:
   difficulty: Intermediate
   theme: >
@@ -167,10 +167,10 @@
     # EXPOSE 8080
     # ENTRYPOINT ["python"]
     # CMD ["app.py"]
-    docker build -t hello-webapp:v1 . 
+    docker build -t hello-webapp:v1 .
     docker run -d -p 80:8080 hello-webapp:v1
     curl host01
-    # in deployment 1 container to run 2 the runtime config 
+    # in deployment 1 container to run 2 the runtime config
 10. Deploy Docker Compose Files with Kompose:
   difficulty: Intermediate
   theme: >

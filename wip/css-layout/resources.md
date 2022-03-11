@@ -37,11 +37,11 @@ write in 2009
 9. Use the Right Doctype
     general: <!DOCTYPE html>
     learn more: https://alistapart.com/article/doctype
-10.  Use Shorthand  
+10.  Use Shorthand
     #crayon {
         margin: 8px 7px 0px 5px; // top, right, bottom, and left values, respectively.
     }
-    instead of 
+    instead of
     #crayon {
         margin-left:    5px;
         margin-right:   7px;
@@ -66,7 +66,7 @@ write in 2009
 25. Don't Underestimate the List
 26. Avoid Extra Selectors
     .someclass li {...}
-    instead of 
+    instead of
     body #container .someclass ul li {....}
 27. Add Margins and Padding to All
     begin with * {margin:0;padding:0;}

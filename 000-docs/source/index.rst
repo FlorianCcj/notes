@@ -20,7 +20,7 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-.. warning:: Todo
+.. warning:: TODO
 
     * ansible
     * css

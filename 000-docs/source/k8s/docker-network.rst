@@ -5,12 +5,12 @@ Different network
 *****************
 
 * Bridge networks
-  * enable containers running on the same host to communicate with each other, 
-  * local IP, not accessible from outside 
+  * enable containers running on the same host to communicate with each other,
+  * local IP, not accessible from outside
   * new instance of Docker comes with a default bridge network,
-  * all newly started containers automatically connect to it. 
+  * all newly started containers automatically connect to it.
   * Out-of-the-box defaults will require fine-tuning in production. For example, custom bridges enable features that aren’t automatic in default mode, including DNS resolution; the ability to add and remove containers from a custom bridge while they’re running; and the ability to share environment variables between containers.
-* Overlay networks 
+* Overlay networks
   * for containers running on different hosts (like in a Docker swarm)
   * containers across hosts can automatically find each other and communicate by tunneling network subnets
 * host network

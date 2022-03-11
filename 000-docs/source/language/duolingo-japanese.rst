@@ -16,7 +16,7 @@ Hiragana is the most basic Japanese syllabary. It's like an alphabet that uses s
 
 Katakana is the syllabary used to write foreign words and some noises. Although it's different from hiragana, it represents the exact same syllables.
 
-Kanji are Chinese characters used in the Japanese language 
+Kanji are Chinese characters used in the Japanese language
 
 Hiragana pronunciation
 ----------------------

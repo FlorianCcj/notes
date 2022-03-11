@@ -12,7 +12,7 @@ Realisation
 * Author: Le Riz Jaune
 * Préparation : 0 min
 * Cuisson : 0 min
-* Difficulté : 
+* Difficulté :
 * Prix: 0/personne
 * Tags: [Plat]
 
@@ -133,7 +133,7 @@ Realisation
 * Author: Le Riz Jaune
 * Préparation : 0 min
 * Cuisson : 0 min
-* Difficulté : 
+* Difficulté :
 * Prix: 0/personne
 * Tags: [Plat]
 

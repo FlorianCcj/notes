@@ -12,7 +12,7 @@ Context
 parler avec attention
 a chaque fin de sprint on est fier et confiant de mettre notre production dans les mains du client
 agilite: amelioration continue, boucle de feedback
-release: quelles nouvelles fontionnalites il y a 
+release: quelles nouvelles fontionnalites il y a
 
 rapport chaos:
 - 49% des fonctionnalites ne sont pas utilises
@@ -27,7 +27,7 @@ extrem Programming
 
 faire du scrum from the book, puis une fois a l aise, adapter, pas avant
 scrum adapte au VOCA (Volatil, Incertain, C A)
-Scrum vient de la melee de rugby 
+Scrum vient de la melee de rugby
 
 une equipe autonome: toutes les competences necessaires a l autonomie de l equipe
 8 a + ou - 2, plutot - que +

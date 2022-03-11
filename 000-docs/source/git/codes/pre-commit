@@ -4,7 +4,7 @@
 # install:
 ### configure git to follow core hookpath
 ## git config --global core.hooksPath '~/.gitconfig/hooks'
-## 
+##
 ### make needed files
 ## mkdir ~/.gitconfig/hooks
 ## vi ~/.gitconfig/hooks/pre-commit
@@ -28,4 +28,3 @@ then
 else
   exit 0
 fi
- 

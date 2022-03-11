@@ -61,13 +61,13 @@ func main() {
 		}
 	}
 
-	/* 
+	/*
 	 * fmt.Println("Scores8")
 	 * names := []string{"leto", "jessica", "paul"}
 	 * checks := make([]bool, 10)
 	 * var names []string
 	 * scores8 := make([]bool,0, 10)
-	 * 
+	 *
 	 * 1. when you already know values
 	 * 2. to write data in a specific index
 	 * 3. to use wit append, unknown number of element

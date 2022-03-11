@@ -42,7 +42,7 @@ class AbstractModel {
     return await getObjectFromFile(this.file).then((res) => {
       if (doItExist(res, id)) {
         return res.find(data => data.id === id);
-      } 
+      }
       return {status: 404};
     });
   }

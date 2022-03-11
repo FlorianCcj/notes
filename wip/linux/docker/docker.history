@@ -9,14 +9,14 @@ docker.history
  8407  docker ps -a
  8408  docker images
  8414  docker info
- 8415  docker pull docker.intrasec.fr/apache/apache2 
+ 8415  docker pull docker.intrasec.fr/apache/apache2
  8416  docker images
  8417  docker images -a
  8424  docker run -it docker.intrasec.fr/apache/apache2:latest /bin/bash
  8426  docker run -it --name apache docker.intrasec.fr/apache/apache2:latest /bin/bash
  8427  docker rm apache
- 8428  docker run -d --name -p 1234:80 apache docker.intrasec.fr/apache/apache2:latest 
- 8429  docker run -d --name apache -p 1234:80 docker.intrasec.fr/apache/apache2:latest 
+ 8428  docker run -d --name -p 1234:80 apache docker.intrasec.fr/apache/apache2:latest
+ 8429  docker run -d --name apache -p 1234:80 docker.intrasec.fr/apache/apache2:latest
  8432  docker stop apache
 10028  sudo docker -D info
 10029  docker pull debian:internal

@@ -41,14 +41,14 @@ find
 
 .. code-block:: js
 
-    const people = [ 
+    const people = [
     { name: 'test1', id: 1 , email: 'test1@test.com'},
     { name: 'test2', id: 2 , email: 'test2@test.com' },
     { name: 'test3', id: 3 , email: 'test3@test.com'},
     { name: 'test4', id: 4 , email: 'test3@test.com'}
     ];
 
-    const person2 = people.find( person => person.id === 2 ); 
+    const person2 = people.find( person => person.id === 2 );
     console.log(person2); // { name: "test2", id: 2, email: "test2@test.com"}
 
 findIndex()
@@ -66,20 +66,20 @@ filter()
 .. code-block:: js
 
     const numbers = [1, 2, 3, 4, 10];
-    const evenNumbers = numbers.filter( x => x % 2 === 0 ); 
+    const evenNumbers = numbers.filter( x => x % 2 === 0 );
     console.log(evenNumbers); // returns [2, 4, 10]
 
 .. code-block:: javascript
 
-    const items = [ 
+    const items = [
         { name: 'item1', id: 1 , price: 200 },
         { name: 'test2', id: 2 , price: 300 },
         { name: 'test3', id: 3 , price: 400 },
         { name: 'test4', id: 4 , price: 500 }
 
     ];
-    const filteredItems = items.filter( item => item.price > 300 ); 
-    console.log(filteredItems); 
+    const filteredItems = items.filter( item => item.price > 300 );
+    console.log(filteredItems);
 
     /* Output
 
@@ -129,7 +129,7 @@ Length: Caching the array.length in the Loop
         console.log(array[i]);
     }
 
-    // nor 
+    // nor
     var length = array.length;
     for(var i = 0; i < length; i++) {
         console.log(array[i]);
@@ -165,7 +165,7 @@ NodeList: Converting NodeList to Arrays
 
     var elements = document.querySelectorAll("p"); // NodeList
     var arrayElements = [].slice.call(elements); // Now the NodeList is an array
-    
+  
     // This is another way of converting NodeList to Array
     var arrayElements = Array.from(elements);
 
@@ -221,7 +221,7 @@ Filtering Array
     function isOdd(n) {
         return n %2;
     }
-    var numbers = [1,2,3,4,5];var odd = [];for(let i=0, total = numbers.length; i< total ; i= i +1) {   
+    var numbers = [1,2,3,4,5];var odd = [];for(let i=0, total = numbers.length; i< total ; i= i +1) { 
         let number = numbers[i];
         if( isOdd(number) ) {
             odd.push(number);
@@ -271,7 +271,7 @@ Checking if an Array Contains a Value
     for(let i=0, totalNames = names.length; i< totalNames ; i= i +1) {
         if(names[i] === "rahul") {
             console.log("%c found rahul", "color:red");
-            return; 
+            return;
         }
     }
 
@@ -280,7 +280,7 @@ Checking if an Array Contains a Value
     var names = ["ram", "raj", "rahul"];
     let isRahulPresent = names.some(name => name==="rahul");
     if(isRahulPresent) {
-        console.log("%c found rahul", "color:red"); 
+        console.log("%c found rahul", "color:red");
     }
 
 To Check Whether Every Element in an Array Meets a Condition
@@ -319,15 +319,15 @@ Spread operator
 .. code-block:: js
 
     const cars = ['BMW', 'Toyota', 'Tesla', 'Audi'];
-    let newCarsArray = [...cars]; 
-    console.log(newCarsArray); 
+    let newCarsArray = [...cars];
+    console.log(newCarsArray);
 
     // ['BMW', 'Toyota', 'Tesla', 'Audi']
 
-    const array1 = [1,2,3]; 
+    const array1 = [1,2,3];
     const array2 = [4,5];
     const array3 = [...arr1,...arr2];
-    console.log(array3); 
+    console.log(array3);
     // [ 1, 2, 3, 4, 5 ]
 
 Truncating Array
@@ -432,9 +432,9 @@ Creating and copying objects
 
 .. code-block:: js
 
-    let source = 
+    let source =
 
-    { 
+    {
         a: 1,
         b: {
 

@@ -33,66 +33,9 @@ sauter sans corde
 
 40s
 
-Planche 
+Planche
 
 46s
-
-Series by Antonin
-*****************
-
-* 1er circuit
-
-  * repeat: 3
-  * Kettlebell swing
-
-    * def: poids avec poignee, on la balance a a l horizontal
-    * repeat: 20
-
-  * Step up
-
-    * on met un pied sur la caisse
-    * repeat: 10 par pied
-
-  * Squat box avec ballon
-
-* 2ieme circuit
-
-  * Jumping Jack
-
-    * repeat: 20
-
-  * Burpees
-
-    * repeat: 10
-
-  * Hollow
-
-    * repeat: 20 sec 3 fois
-
-* 3ieme circuit
-
-  * Pompes
-
-    * repeat: 10
-
-  * Biceps à la barre
-
-    * repeat: 20
-
-  * Dips sur la caisse 
-
-* 4ieme circuit :
-
-  * Planche 
-  * Sit up
-
-    * abdos, jeter les bras devant soit pour s assoir
-
-* Twist
-
-  * assis par terre, les jambe tendu
-  * on pose le poids a droite et a gauche
-  * repeat: 10 chaque cote
 
 Avoir son grand eccard
 **********************
@@ -100,7 +43,7 @@ Avoir son grand eccard
 :source: https://www.youtube.com/watch?v=ylhUHD6vmAU
 
 0. Echauffement: soit apres seance de sport, soit une minute de course sur place
-1. La piramide: 
+1. La piramide:
   * jambe parallele, largeur de hanche
   * avancer la jambe a travailler
   * coller son ventre sur sa jambe
@@ -113,7 +56,7 @@ Avoir son grand eccard
   * laisser agir le poids
   * pour les confirmes
 
-    * poser la jambe ariere 
+    * poser la jambe ariere
     * pousser le poids sur la jambe avant
 
 3. ???
@@ -198,3 +141,99 @@ Des Abdos sans crunch ni gym
   * mains sur la chaise
   * les fesses en dehors
   * on monte et on dessend les fesses
+
+Home exercise
+*************
+
+https://www.youtube.com/watch?v=OD8wo1vmePc
+
+Evil Russian Push-up
+********************
+
+https://youtu.be/FMlBUcujpw0
+
+Week 1
+
+Day 1: 100% test, then 30%/60min
+Day 2: 50%/60min
+Day 3: 60%/45min
+Day 4: 25%/60min
+Day 5: 45%/30min
+Day 6: 40%/60min
+Day 7: 20%/90min
+
+Week 2
+
+Day 1: 100% test, then 35%/45min
+Day 2: 55%/20min
+Day 3: 30%/15min
+Day 4: 65%/60min
+Day 5: 35%/45min
+Day 6: 45%/60min
+Day 7: 25%/120min
+
+Series by Antonin
+*****************
+
+* 1er circuit
+
+  * repeat: 3
+  * Kettlebell swing
+
+    * def: poids avec poignee, on la balance a a l horizontal
+    * repeat: 20
+
+  * Step up
+
+    * on met un pied sur la caisse
+    * repeat: 10 par pied
+
+  * Squat box avec ballon
+
+* 2ieme circuit
+
+  * Jumping Jack
+
+    * repeat: 20
+
+  * Burpees
+
+    * repeat: 10
+
+  * Hollow
+
+    * repeat: 20 sec 3 fois
+
+* 3ieme circuit
+
+  * Pompes
+
+    * repeat: 10
+
+  * Biceps à la barre
+
+    * repeat: 20
+
+  * Dips sur la caisse
+
+* 4ieme circuit :
+
+  * Planche
+  * Sit up
+
+    * abdos, jeter les bras devant soit pour s assoir
+
+* Twist
+
+  * assis par terre, les jambe tendu
+  * on pose le poids a droite et a gauche
+  * repeat: 10 chaque cote
+
+
+  x'vgzrg uzxrov ! mlm!
+  t
+  m
+  l
+  j
+  d
+  sn

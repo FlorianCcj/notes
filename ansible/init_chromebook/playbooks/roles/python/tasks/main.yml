@@ -24,7 +24,7 @@
   apt:
     force: yes
     only_upgrade: no
-    name: 
+    name:
       - "python3-apt"
       - "python3-pil"
     state: present

@@ -48,7 +48,7 @@ on trop verbeux donc filtrons
 * :code:`strace -e "read,open" <prog> 2>&1 | cut ...`: strace output to stderr
 * :code:`strace -o strace.out`: dump to file for latter analysis
 
-Exemple d utilisation: 
+Exemple d utilisation:
 * ou va chercher php pour les valeurs de conf (:code:`strace -e "open" php -i > /dev/null`)
 * why my homepage is so slow:
 

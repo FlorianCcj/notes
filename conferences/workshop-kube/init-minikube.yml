@@ -35,7 +35,7 @@ init: >
             $(lsb_release -cs) \
             stable" &&
           apt-get update &&
-          mv /etc/docker/daemon.json /etc/docker/daemon-old.json && 
+          mv /etc/docker/daemon.json /etc/docker/daemon-old.json &&
           mv daemon.json /etc/docker/daemon.json &&
           apt-get install -y docker-ce docker-ce-cli containerd.io &&
           echo "Docker Upgrade Complete" &&
@@ -44,7 +44,7 @@ init: >
           mv /lib/systemd/system/docker-new.service /lib/systemd/system/docker.service &&
           cat /etc/docker/daemon.json | jq '.["insecure-registries"] += ["127.0.0.1/8"]' > /etc/docker/
           daemon-new.json &&
-          mv /etc/docker/dameon-json.json && 
+          mv /etc/docker/dameon-json.json &&
           systemctl daemon-reload &&
           systemctl restart docker &&
           echo "Docker Restarted" &&
@@ -57,4 +57,3 @@ init: >
           until kubectl get pod 2>/dev/null ; do echo -n . ; sleep 1 ; done ; echo &&
           echo "Ready to go!"
     ```
-  

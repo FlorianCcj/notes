@@ -56,7 +56,7 @@ Le go-fantôme est une variante du go se jouant à deux, et un arbitre.
 
 Les joueurs jouent dos à dos, chacun sur son goban, sans voir les coups de l’adversaire. L’arbitre est chargé de noter la partie sur un troisième goban, d’annoncer les « coups impossibles » (à cause de la présence d’une pierre adverse, de la règle du suicide, d’un ko…) ainsi que les atari et les prises de pierre.
 
-Une partie est généralement jouée sur 9×9. 
+Une partie est généralement jouée sur 9×9.
 
 * https://play.google.com/store/apps/details?id=de.roland_illig.android.phantomgo
 * https://go.kahv.io/ (prevu)
@@ -129,7 +129,7 @@ La partie cache de l iceberg
   - l orga creer la demo de jeu
   - demander aux coatchs de creer les clones
   - preciser de bien lire le chan de communication (que se soit sur kgs ou discord), pour que les messages de l orga soient bien lu
-  - laisser 10 min au coach pour 
+  - laisser 10 min au coach pour
     - preciser les regles a leur equipe
     - definir une strategie de jeu, et une strategie d utilisation des jokers
     - definir l ordre de passage de joueur (coatch inclus ou non)
@@ -361,7 +361,7 @@ Source
 
 * http://go.quebecjeux.org/dimanche-22-dec-on-revisite-le-go-au-senthe-pour-noel/
 * http://www.youdzone.com/go.html
-* https://leweyg.github.io/FreedGames/FreedGo/ 
+* https://leweyg.github.io/FreedGames/FreedGo/
 * http://www.lewcid.com/lg/lc/freedgo.html
 * https://go.kahv.io/#
 * a indexer: https://en.wikipedia.org/wiki/Go_variants#Multi-player_Go

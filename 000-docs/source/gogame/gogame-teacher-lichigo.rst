@@ -75,20 +75,16 @@ muli (kr): overplay
 2021.03.11
 **********
 
-Cours 1
+Cours 1 (1)
 
-a payer
-
-Dictionnaire de Tesuji de Kensaku Seyoshi et Wu Qingyuan 
+Dictionnaire de Tesuji de Kensaku Seyoshi et Wu Qingyuan
 Il faut compter quand on a le sente
 Faire la part entre la meilleure sequence et un peu moins ET les sente
 
 2021.03.16
 **********
 
-Cours 2
-
-a payer
+Cours 2 (2)
 
 tu sais pas ou jouer ? faire un bilan, et imaginer 3 coups
 
@@ -107,7 +103,7 @@ attention au gote
 2021.03.20
 **********
 
-Cours 3
+Cours 3 (3)
 
 payer 85e pour 8 cours
 
@@ -124,7 +120,7 @@ si blanc ne peux pas se co en 1 seul coup, c est qu il est pas forcement bien
 2021.03.22
 ***********
 
-Cours 4
+Cours 4 (4)
 
 Exo
 Le boshi 5e ligne a besoin de support car sinon c est tres simple de reduire
@@ -136,7 +132,7 @@ Les coups de doubles vie sont >>>>
 2021.03.28
 **********
 
-Cours 5
+Cours 5 (5)
 
 Quand tu as de l influence en face de quelque chose c est toujours plus simple
 Tant qu il est separe tu encaisses
@@ -155,12 +151,14 @@ En debut de partie, il vaut toujours mieux enfermer le groupe que le chasser
 2021.03.30
 **********
 
-Cours 6
+Cours 6 (6)
 
-ce que tu peux faire en 2 coup, Essait de le faire en 1 coup 
+ce que tu peux faire en 2 coup, Essait de le faire en 1 coup
 
 2021.04.06
 **********
+
+Cours 7 (7)
 
 Avant les moyo penser aux vrais coups forcants
 Laisser ca pour plus tard parfois c est bien
@@ -181,6 +179,8 @@ on peut laisser connecter. si on prend de l avance, a eviter quand on est en ret
 2021.04.11
 **********
 
+Cours 8 (8)
+
 Le premier qui joue devant ou qui tape sur la tete, souvent c est une bonne chose
 Quand tu joue un coup gote, faut voir ce que ca t amene
 quand tu te fait attaquer
@@ -199,7 +199,7 @@ ne te fait pas trop separer
 2021.04.13
 **********
 
-Cours 1/8
+Cours 1/8 (9)
 
 Quand tu as de l avance ou un bon territoire il faut reequilibrer la partie
 Penser a la coupe, pas forcement que au pipe
@@ -216,12 +216,12 @@ Reading
 2021.04.20
 **********
 
-Cours 2/8
+Cours 2/8 (10)
 
 2021.04.27
 **********
 
-Cours 3/8
+Cours 3/8 (11)
 
 Pour savoir si c est une bonne forme, si tu decomposes la forme, ca reste des bonnes formes
 quand il y a des coupes, toujours regarder les libertes de tout les groupes
@@ -230,7 +230,7 @@ En debut de partie, enferme >>> chasser un groupe
 2021.05.03
 **********
 
-Cours 4/8
+Cours 4/8 (12)
 
 attaquer c est prendre du profils, sauf si t es vraiment en retard et la t es violent ou tu tues
 si tu vois une sequence, reflechi a la fin de la sequence et se demander qu est ce qui pourrait etre mieux
@@ -246,7 +246,7 @@ Reading
 2021.05.08
 **********
 
-Cours 5/8
+Cours 5/8 (13)
 
 Une pierre de 6e qui attaque une pierre de 4e c est rarement bon
 Plus besoin de jouer les meilleurs coups, il faut trouver les objectifs
@@ -259,7 +259,7 @@ sortir, separer, attaquer
 2021.05.13
 **********
 
-Cours 6/8
+Cours 6/8 (14)
 
 a sum up
 
@@ -273,7 +273,7 @@ le crosse cut apres  permet souvent de surconcentrer et engrenger du cache
 2021.05.13
 **********
 
-Cours 7/8
+Cours 7/8 (15)
 
 a sum up
 
@@ -287,7 +287,7 @@ Si tu as trop de coupe, et que blanc essai d entre reflechir au jump 3e ligne
 2021.05.19
 **********
 
-Cours 8/8
+Cours 8/8 (16)
 
 a sum up
 
@@ -298,7 +298,7 @@ https://www.youtube.com/watch?v=jFeusw71HtA
 2021.05.23
 **********
 
-Cours 1/8
+Cours 1/8 (17)
 to sum up
 
 Mode sabaki: trouver la mega sequence, et voir ce qu il manque comme pierre pour la faire marcher
@@ -306,7 +306,7 @@ Mode sabaki: trouver la mega sequence, et voir ce qu il manque comme pierre pour
 2021.05.30
 **********
 
-cours 2
+cours 2 (18)
 to sum up
 
 Les kosumi et les double kosumi ont des points vitaux, profitez en
@@ -316,7 +316,7 @@ penser au double keima
 2021.06.06
 **********
 
-cours 3
+cours 3 (19)
 to sum up
 
 Si les pierres tu peux pas jouer avec, si peux pas les sauver tu peux les sacrifier
@@ -330,7 +330,7 @@ Jouer propre:
 2021.06.15
 **********
 
-cours 4
+cours 4 (20)
 to sum up
 
 coup a l epaule penser a la pince
@@ -338,7 +338,7 @@ coup a l epaule penser a la pince
 2021.06.28
 **********
 
-cours 5
+cours 5 (21)
 to sum up
 
 le bourin quand ca marche pas, reflechir au dernier coup de la sequence
@@ -348,8 +348,121 @@ preparer les combat, preparer le zone, l avantage numerique
 2021.07.07
 **********
 
+cours 6 (22)
+to sum up
+
 * si le resultat de base te convient pas, pose des questions
 * penser global, ne pas penser que local
+
+2021.07.21
+**********
+
+cours 7 (23)
+to sum up
+
+* Dai: le yose c est l art du detail
+* Si tu te restreins alors qu au final y a pas de ko tu t es restreint pour rien
+
+2021.08.02 (inari)
+******************
+
+* continuer de compter
+* si en avance ne pas chercher a tuer, ARETER de prendre des risques
+* jouer leger
+* se demander si un atari est dangeureux ... si non, jouer leger et rapide autre part
+
+2021.08.04
+**********
+
+cours 8 (24)
+to sum up
+
+* Dans les tsumego, penser a derfomer, ou prendre les points vitaux des formes
+* faire une journee yose/semaine
+
+2021.08.11
+**********
+
+cours 1 (25)
+to sum up
+
+* un groupe faible c est des "points negatifs"
+* lors de choix de joseki il faut se demande, qu est ce que je veux faire, qu est ce que je veux l empecher de faire
+
+2021.08.25
+**********
+
+cours 2 (26)
+to sum up
+
+* Si tu vois pas la menace, c est qu il n y en a pas
+
+
+2021.09.23
+**********
+
+cours 4 (28)
+to sum up
+
+* penser au f**king kosumi au lieu de keima
+
+2021.10.06
+**********
+
+cours 5 (29)
+to sum up
+
+* contre sente meme au fuseki peut donner l'avantage
+* imaginer les 3 strats de dai
+
+2021.10.17
+**********
+
+cours 6 (30)
+to sum up
+
+* attention au reduction/ecrasement, eviter de perdre toutes ses libertés
+* penser coup double
+* en debut de game, penser a garder le sente
+* penser a l'Efficacite des pierres
+
+2021.11.03
+**********
+
+cours 7 (31)
+to sum up
+
+* si tu entoures l'autre, tu as tout les yose
+
+2021.11.17
+**********
+
+cours 8 (32)
+to sum up
+
+* heundeulgi (vague, bousculer)(흔들기): jouer chiant jusqu au bout, embeter quelqu un pour lui faire perdre sa concentration
+* attention au sente et au futur yose
+* penser a la prevension
+
+2021.11.20
+**********
+
+Surprise commentary
+to sum up
+
+* quand on compte on compte comme si on laissait tout a l adversaire
+*
+
+2021.11.24
+**********
+
+cours 1 (33)
+to sum up
+
+* verifier qu on a les ressources pour chasser, si ca apporte rien, ne pas chasser
+* en debut de game enfermer est plus important que de tuer
+* dans les sequence, chercher a faire le plus de point
+* eviter de jouer des coups que l on ne peut pas utiliser
 
 Sum up
 ******
@@ -374,7 +487,7 @@ Sum up
 * Tant qu il est separe tu encaisses
 * quand tu es en retard il vaut mieux mettre la pression de l exterieur et en mode tres violent jouer direct a l interieur
 * En debut de partie, il vaut toujours mieux enfermer le groupe que le chasser
-* ce que tu peux faire en 2 coup, Essait de le faire en 1 coup 
+* ce que tu peux faire en 2 coup, Essait de le faire en 1 coup
 * vant d attaquer un moyo s assurer qu il ne puisse pas profiter de nos faiblesses pour se renforcer
 * si tu vois une sequence, reflechi a la fin de la sequence et se demander qu est ce qui pourrait etre mieux
 * aproche s un mur, avec extension 3 espaces
@@ -388,5 +501,35 @@ Versement:
 2021.03.22
 2021.04.16
 2021.06.28
+2021.08.23
 
 20 bd souchet noisy le grand
+39 rue du Dr sureau
+fredorosny@hotmail.fr
+ᘡᘏᗢ
+
+
+
+AJR TVXWF
+Bad GKBL
+Beerach NPZEB
+Cassis KQET
+Cordon TEES
+Corentin QNQD
+Graby DDBW
+Guigui PNLM
+Hosaro LECF
+Jama RWXL
+Lancelot HVGP
+MicTroyes GNNG
+Prisme CYLQN
+ryoka RHSEG
+Tcha MMKN
+Vakars EZMG
+Vidada BNHH
+Zo BGHU
+
+miracle97 (1)
+Indiana13 (7)
+ykpcx (23)
+sniperkill (29)

@@ -20,7 +20,7 @@ Exemple 1
       }, 2000);
     });
   }
-  
+
   getValueWithPromise() {
     this.resolveAfter2Seconds(20).then(value => {
       console.log(`promise result: ${value}`);

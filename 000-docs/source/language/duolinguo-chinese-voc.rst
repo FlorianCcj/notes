@@ -746,7 +746,7 @@ CHN-31-4-01 Dining 1
 * mi??? (米): (like in mi???fa4n(米饭): rice)
 * ròu (肉): meat (like in yángròu (羊肉): lamb)
 * yi3n (饮): drink (like in yi3nlia4o (饮料): a drink)
-* yáng (羊): sheep (like in yángròu (羊肉): lamb) 
+* yáng (羊): sheep (like in yángròu (羊肉): lamb)
 * zhu1 (猪): ???
 
 Voc

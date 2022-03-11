@@ -12,7 +12,7 @@ zsh
 ***
 
 .. code-block:: bash
-    
+  
     #!/bin/zsh
     \history -i
     # or

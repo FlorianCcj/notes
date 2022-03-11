@@ -22,7 +22,7 @@ services:
         volumes:
             - ./symfony:/var/www/symfony:cached
             - ./logs/symfony:/var/www/symfony/var/log:cached
-        depends_on: 
+        depends_on:
             - db
         networks:
             - db
@@ -32,7 +32,7 @@ services:
         build: ./nginx
         ports:
             - "80:80"
-        depends_on: 
+        depends_on:
             - php
         networks:
             - php

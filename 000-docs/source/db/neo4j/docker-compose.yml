@@ -14,12 +14,12 @@ services:
     environment:
       NEO4J_AUTH: "neo4j/test"
 volumes:
-  neo4j_data: 
+  neo4j_data:
     driver: local
-  neo4j_log: 
+  neo4j_log:
     driver: local
-  neo4j_import: 
+  neo4j_import:
     driver: local
-  neo4j_plugins: 
+  neo4j_plugins:
     driver: local
 

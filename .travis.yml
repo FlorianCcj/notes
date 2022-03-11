@@ -19,7 +19,7 @@ jobs:
   include:
     #- stage: build and test
     #  name: Build
-    #  script: 
+    #  script:
     #    - sphinx-build -nWT -b dummy source _build/html
     #  skip-cleanup: true
     #- script: vale source # run vale
@@ -27,7 +27,7 @@ jobs:
     - stage: deploy
       name: Deploy to GitHub Pages
       if: (branch = master) # only deploy if merging on master
-      script: 
+      script:
         - make html
         - touch build/html/.nojekyll
       deploy:

@@ -65,7 +65,7 @@ En fait ca va permetre **plusieurs** choses
   * pour debug: si un jour vous avez un probleme vous pouvez mettre a disposition facilement le code et une partie de son contexte juste en renvoyant sur votre depot
 
 * eviter la perte de donnee: il est bien plus dur de detruire un serveur qui ne nous appartient pas que faire tomber une tasse de cafe sur son ordinateur
-* parcourir facillement l historique: annuler une modification, la re-appliquer, 
+* parcourir facillement l historique: annuler une modification, la re-appliquer,
 * reduire les erreurs au coeur de notre logiciel: le systeme de git permet de creer des branches en parallele au coeur de notre logiciel, on peut bien evidement les appliquer, mais git permet d afficher facilement les modifications entre votre travail principale et celui fait en parallele pour savoir si vous avez generé des erreurs
 
 `Ce que j ai appris sur git <https://florianccj.github.io/notes/git/git-for_beginner.html>`_
@@ -123,7 +123,7 @@ De meme je vais copier coller au cas ou ca disparaise:
 Tests
 *****
 
-Parfois des library existent pour faciliter la mise en place des tests (phpunit, jest, ctest, etc). Il est important de mettre en place ces test. 
+Parfois des library existent pour faciliter la mise en place des tests (phpunit, jest, ctest, etc). Il est important de mettre en place ces test.
 
 Un test permet de s’assurer du fonctionnement correct de tout ou partie d’une application ou programme. Il permet de verifier qu une fonction ou qu une classe a le comportement conforme.
 

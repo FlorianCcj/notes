@@ -21,7 +21,7 @@ sum_up:
           - vega +6
           - wraxius +8
           - yip +6
-  
+
   arc:
     max: 9
     craft:
@@ -44,7 +44,7 @@ sum_up:
         value: 1
         for:
           - gan +2
-  
+
   armure:
     max: 10
     cost: 3750
@@ -85,12 +85,12 @@ sum_up:
           - elena +3
   robe:
     max: 1
-    craft: 
+    craft:
       mage: 0
       necro: 0
       sage: 0
 
-  
+
   babiole:
     max: 25
     cost: 4000
@@ -118,7 +118,7 @@ sum_up:
           - wraxius +8
           - yip*2 +6 +6
 
-unit: 
+unit:
   A-F:
     Avalon:
       type: general
@@ -156,7 +156,7 @@ unit:
         armure: 6
         babiole1: 10
         babiole2: 10
-    Cleo: 
+    Cleo:
       type: mage
       stuff:
         baton: 14
@@ -285,7 +285,7 @@ unit:
         armure: 6
         babiole1: 11
         babiole2: 11
-    Tiadrin: 
+    Tiadrin:
       type: paladin
       stuff:
         arme: 15

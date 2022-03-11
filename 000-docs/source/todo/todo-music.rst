@@ -60,7 +60,7 @@ sensuel
     * Sunmi - lalalay
     * Twice - fancy
     * Twice - heart shaker
-    * Clean Bandit - Symphony (feat. Zara Larsson) 
+    * Clean Bandit - Symphony (feat. Zara Larsson)
     * Clean Bandit - Rockabye
     * Momoland - i m so hot
     * Itzy - icy
@@ -70,7 +70,7 @@ sensuel
     * High hopes . Panic at the disco!
     * Juice Lizzo
     * Whatever makes you happy . Empire
-    * Instruction . Demi Lovato 
+    * Instruction . Demi Lovato
 
 Document history
 ================

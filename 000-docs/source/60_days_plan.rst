@@ -131,7 +131,7 @@ Plan
 * Tsumego: make 50 tsumego
 * Leasson: Read and understand
 * Game:
-    
+
     * Slow: 30min + 3x30s
     * Fast: 30s/stone
 

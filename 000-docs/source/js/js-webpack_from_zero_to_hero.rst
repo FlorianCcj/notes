@@ -46,7 +46,7 @@ init
     :caption: src/index.js
     :name: src/index.js
 
-    // src/index.js 
+    // src/index.js
     import { hello } from "./hello";
     hello("OLX Dev!");
 
@@ -285,7 +285,7 @@ Production Styles
         test: /\.scss$/,
         use: [
             argv.mode === "production" ? MiniCssExtractPlugin.loader : "style-loader",
-            { loader: "css-loader", options: { sourceMap: true }}, 
+            { loader: "css-loader", options: { sourceMap: true }},
             { loader: "sass-loader", options: { sourceMap: true }}
         ]
     }

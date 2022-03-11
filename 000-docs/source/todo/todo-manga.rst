@@ -76,7 +76,7 @@ Invok in an other world by a godess but E rank so kick
 Hikaru no go
 ============
 
-hunterXhunter 
+hunterXhunter
 =============
 
 - https://www.scan-vf.co/hunter-x-hunter (188-390)
@@ -190,7 +190,7 @@ episode 879 (prix)
   * yubashiri: sabre cadeau du vendeur de logtown (mort dans les 310)
   * meito shirauo: arme de amande charlotte
   * meito = celebre sabre, excellent sabre
-          
+        
 one punch man
 =============
 

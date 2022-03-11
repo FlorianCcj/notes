@@ -207,7 +207,7 @@ Youtube - Comment avoir des dividendes
 
 * Ouvre un compte chez un broqueur
 
-    * un pea: 
+    * un pea:
 
         * local, voir eventuellement les pays limitrofe
         * apres 5 ans 17,2 d imposition
@@ -233,7 +233,7 @@ Youtube - Comment avoir des dividendes
 * deux dates importantes
 
     * la date su detachement du dividende: annonce de combien va nous etre verse
-    * la date du versement du dividende: le versement 
+    * la date du versement du dividende: le versement
 
 Youtube - Comment devenir plus heureux
 **************************************
@@ -256,7 +256,7 @@ Visualize to realise something, visualize to go to see a beautifull, visualize b
 
 3 steps
 
-* visualize enviroment, where are you ? 
+* visualize enviroment, where are you ?
 * visualize the event, what s hapenned ? what so you feel ?
 * visualize people, with who ?
 
@@ -267,7 +267,7 @@ Youtube - Comment parler en public
 
 :source: https://www.youtube.com/watch?v=ER2_df_U3ms
 
-1. Prepare your speach, 
+1. Prepare your speach,
     * not to have all your plan, but preparing permit to know the message you want to communicate and it permit to have less stress
     * communicate with other, try to explain to someone (one who don t know the subjet and one who know), if you are clear enougth it will interest him and he will ask detail
 2. be transparent
@@ -281,7 +281,7 @@ Youtube - Comment utiliser la loi d'attraction
 
 :source: https://www.youtube.com/watch?v=6UEFCAXHDgU
 
-Ecole de pensée qui va demander de formuler, visualiser et affirmer votre reve. 
+Ecole de pensée qui va demander de formuler, visualiser et affirmer votre reve.
 Jusqu'a ce que grace a cette valoririsation et a l'impact sur vos decision, ca arrive
 N.B. a 99% vous etes responsable de ce qu il vous arrive, prenez en conscience et influer dessus
 * prenez 5 min pour vous dire "qu est ce que je souhaiterez avoir", preciser vos reves

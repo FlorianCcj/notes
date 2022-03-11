@@ -6,11 +6,11 @@ Coockies - Recette des coockies de Cyril Lignac
 
 :source: https://www.youtube.com/watch?v=Xc0-e1q0pDA
 
--175 g de beurre pommade 
--120 g de sucre semoule 
+-175 g de beurre pommade
+-120 g de sucre semoule
 -120 g de cassonade
 -1 oeuf
--6 g de levure chimique 
+-6 g de levure chimique
 -300 g de farine (type 55)
 -19O g de pépites de chocolat au lait
 -190 g de pépites de chocolat noir

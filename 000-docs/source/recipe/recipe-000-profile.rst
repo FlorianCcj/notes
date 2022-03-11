@@ -25,4 +25,4 @@ Ingredient
 Steps
 =====
 
-1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.

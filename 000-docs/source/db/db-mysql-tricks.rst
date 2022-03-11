@@ -14,7 +14,7 @@ mysql --host=localhost --user=myname --password=password mydb
 
 in the box
 CREATE USER 'non-root'@'localhost' IDENTIFIED BY '123';: create a new user
-  
+
 FLUSH PRIVILEGES; : prend en compte les changement
 GRANT [permission type] ON [database name].[table name] TO ‘non-root’@'localhost’; : changement des privilege
 

@@ -23,13 +23,13 @@ DEVOPS15 to have 15% discount
   git clone https://github.com/ahmetb/kubectx ${PATH_TO_INSTALL}/.kubectx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubectx /usr/local/bin/kctx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubens /usr/local/bin/kns;
-  
+
   mkdir -p ${PATH_TO_INSTALL}
   wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases -o ${PATH_TO_INSTALL}/.kubectl_aliases
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source ${PATH_TO_INSTALL}/.kubectl_aliases" >> ${alias_file}
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source <(cat ${PATH_TO_INSTALL}/.kubectl_aliases | sed -r 's/(kubectl.*) --watch/watch \1/g')" >> ${alias_file}
   echo "function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }" >> ${alias_file}
-  
+
   echo ". ${alias_file}" >> ~/.zshrc
   . ~/.zshrc
 
@@ -479,7 +479,7 @@ Node selector and node affinity
             # Permit to say or
             - Large
             - Bigger
-          # Permit to say and 
+          # Permit to say and
           - key: size
             operator: NotIn # Permit to say not
             value:
@@ -1078,7 +1078,7 @@ Storage in Statefull sets
         resources:
           requests:
             storage: 500Mi
-      
+    
 
 Update for 2021.09 Changes
 **************************
@@ -1353,7 +1353,7 @@ Validating and Mutating Admission Controllers
   kind: ValidatingWebhookConfiguration
   metadata:
     name: "pod-policy.example.com"
-  webhooks: 
+  webhooks:
     name: "pod-policy.example.com"
     clientConfig:
       url: "https://external-server.example.com"
@@ -1389,7 +1389,7 @@ Labs - Validating and Mutating Admission Controllers
 API Versions
 ============
 
-* API Deprecation Policy Rule #4a: Other than the most recent API version in each track, older API version must be supported after their announcement deprecation for a duration of no less than 
+* API Deprecation Policy Rule #4a: Other than the most recent API version in each track, older API version must be supported after their announcement deprecation for a duration of no less than
   * GA: 12 month or 3 releases (whichever is longer)
   * Beta: 9 month or 3 releases (whichever is longer)
   * Alpha: 0 releases

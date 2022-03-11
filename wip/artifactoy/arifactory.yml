@@ -30,7 +30,7 @@
       - by repo name: type name
       - by package type: pkg:<package type>
       - by repo type: repo:<local|cache|remote|virtual>
-    - list browing: 
+    - list browing:
       desc: print tree of as if looking of repository in web browser
       access_url: http://host:port/artifactory/list/repo-path
   - viewing packages:
@@ -43,7 +43,7 @@
   - using webdav: to-do
   - searching in arti: to-do
   - deploy artifact:
-    ihm: 
+    ihm:
       - deploy: to deploy an artifact
       - import (admin): to deploy a whole repositories
     - virtual repo: need default deployment repo, permit to use docker push, npm publish, ...
@@ -77,7 +77,7 @@
         - Basic authentication using your username and API Key.
         - Using a dedicated header (X-JFrog-Art-Api) with your API Key.
         - Using an access token instead of a password for basic authentication.
-        - Using an access token as a bearer token in an authorization header (Authorization: Bearer) with your access token. 
+        - Using an access token as a bearer token in an authorization header (Authorization: Bearer) with your access token.
       - example:
         curl -u myUser:myP455w0rd! -X PUT "http://localhost:8081/artifactory/my-repository/my/new/artifact/directory/file.txt" -T Desktop/myNewFile.txt
         jfrog rt u file.txt my-repository/my/new/artifact/directory/ --user=myUser --password=myP455w0rd!
@@ -95,19 +95,19 @@
         - metadata in database, bin in FS (default, and recommand)
         - metadata and bin in database (binary as BLOBs)
       - arti rename file with SHA1 checksum then associate checksum with metadata in DB
-    - MySQL: todo
-    - Oracle: to-do
-    - Microsoft SQL Server: to-do
-    - PostgreSQL: todo
-    - MariaDB: todo
+    - MySQL: TODO
+    - Oracle: TODO
+    - Microsoft SQL Server: TODO
+    - PostgreSQL: TODO
+    - MariaDB: TODO
   - Configuring the Filestore:
     a lot of config example: https://www.jfrog.com/confluence/display/RTF/Configuring+the+Filestore
   - Configuring Repositories:
     - note:
       local repository: http://<host>:<port>/artifactory/<local-repository-name>/<artifact-path>
-    - Virtual Repositories: 
+    - Virtual Repositories:
       -always use: with that even if you change name, add a repo remove a repo, user never has problem
-  - Configuring Security: 
+  - Configuring Security:
     - Managing Security with Active Directory:
       Admin -> Security -> LDAP -> New: >
         Enable: check
@@ -130,36 +130,36 @@
           Filter: (objectClass=group)
           Search Base: ou=frogs
           Sub-tree search: check
-    - Access Tokens: todo
+    - Access Tokens: TODO
   - Configuring a Reverse Proxy:
-    - Configuring Apache: todo
-    - Configuring NGINX : todo
-  - Mail Server Configuration: todo
+    - Configuring Apache: TODO
+    - Configuring NGINX : TODO
+  - Mail Server Configuration: TODO
   - IPv6 Support: to-do
-  - Configuration Files: todo
-  - YAML Configuration File: todo
-  - Exposing Maven Indexes: todo
-  - Clustering Artifactory: todo
+  - Configuration Files: TODO
+  - YAML Configuration File: TODO
+  - Exposing Maven Indexes: TODO
+  - Clustering Artifactory: TODO
 - System Monitoring and Maintenance:
-  - System Information: todo
-  - Monitoring Storage: todo
+  - System Information: TODO
+  - Monitoring Storage: TODO
   - Artifactory Log Files:
-    - Access Log: todo
-    - Audit Trail Log: todo
-  - Artifactory JMX MBeans: todo
-  - Regular Maintenance Operations: todo
-  - Managing Backups: todo
-  - Importing and Exporting: todo
-  - Managing Disk Space Usage: todo
-  - Getting Support: todo
+    - Access Log: TODO
+    - Audit Trail Log: TODO
+  - Artifactory JMX MBeans: TODO
+  - Regular Maintenance Operations: TODO
+  - Managing Backups: TODO
+  - Importing and Exporting: TODO
+  - Managing Disk Space Usage: TODO
+  - Getting Support: TODO
 - Artifactory High Availability:
   - HA Installation and Setup: to-do
   - Managing the HA Cluster: to-do
   - Migrating Data from NFS: to-do
   - Troubleshooting HA: to-do
-- Xray Integration: todo
+- Xray Integration: TODO
 - Bintray Integration:
-  - Bintray info panel: todo
+  - Bintray info panel: TODO
   - Distribution Repository: todo
   - Deploying Snapshots to oss.jfrog.org: todo
 - Log Analytics: todo
@@ -168,7 +168,7 @@
     - GPG Signing: todo
     - LDAP Groups: todo
     - Repository Layouts: todo
-    - Repository Replication: 
+    - Repository Replication:
       - push:
         enable: check
         url: http://myartifactory.org/artifactory/libs-snapshot-local
@@ -240,4 +240,4 @@
 - Fixed Security Vulnerabilities: to-do
 - End of Life: to-do
 - Release Notes: to-do
-- Pivotal Cloud Foundry JFrog Artifactory Tile Release Notes: to-do 
+- Pivotal Cloud Foundry JFrog Artifactory Tile Release Notes: to-do

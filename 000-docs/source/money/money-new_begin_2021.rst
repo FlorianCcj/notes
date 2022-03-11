@@ -171,7 +171,7 @@ fiscalite
 
 200k, 250 par mois
 
-si on achete en cash -> revenu foncier -> 
+si on achete en cash -> revenu foncier ->
 a credit -> deduction des interet d emprunts
 
 endettement a 100k

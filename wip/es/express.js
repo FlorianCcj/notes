@@ -6,7 +6,7 @@
 
 /** Install
  * -----------------
- * 
+ *
  * npm init
  * npm i -S express
 
@@ -47,7 +47,7 @@ eg2_query_parameter = () => {
 
 eg3_post_query = () => {
     // for Content-Type: application/json
-    // if header = 
+    // if header =
     app.use(express.json());
 
     // for Content-Type: application/x-www-form-urlencoded
@@ -160,7 +160,7 @@ eg10_middleware = () => {
 
 eg11_static_file = () => {
     app.get('/', (req, res) => res.download('./yarn.lock'));
-    app.get('/', (req, res) => res.download('./yarn.lock', './dat_spam.txt'));    
+    app.get('/', (req, res) => res.download('./yarn.lock', './dat_spam.txt'));  
     app.listen(3000, () => console.log('Server ready'));
 };
 
@@ -248,7 +248,7 @@ eg16_file_upload = () => {
 };
 eg17_https = () => {
     /**
-     * with openssl generate certs 
+     * with openssl generate certs
      * `openssl req -nodes -new -x509 -keyout server.key -out server.cert`
      * Just remember to set this to localhost
      */
@@ -274,20 +274,20 @@ eg18_let_s_encrypt = () => {
      * sudo apt-get update
      * sudo apt-get install certbot
      * ```
-     * 
+     *
      * generate cert
      * certbot certonly --manual
-     * 
+     *
      * active renewal
      * 0 */12 * * * root /usr/local/bin/certbot renew >/dev/null 2>&1
      */
 
     app.use(express.static(__dirname + '/static', { dotfiles: 'allow' } ))
-    
+  
     const fs = require('fs')
     const https = require('https')
     const app = express()
-    
+  
     app.get('/', (req, res) => {
         res.send('Hello HTTPS!')
     });

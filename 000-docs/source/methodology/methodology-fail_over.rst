@@ -8,13 +8,13 @@ J'ai vu enormement de projets informatiques prendre feu et sombrer dans le chaos
 Un scope schizophrene
 *********************
 
-Au debut d'un projet informatique, tu as une reflexion. Toi et tes collegues vous avez pris des gros cafes et vous etes alles dans une salle pour faire des dessins et mettre tout ca sur papier. Bon et bien il faut que cette reflexion, ca soit bien de la merde. C'est super important, car c'est la base. 
+Au debut d'un projet informatique, tu as une reflexion. Toi et tes collegues vous avez pris des gros cafes et vous etes alles dans une salle pour faire des dessins et mettre tout ca sur papier. Bon et bien il faut que cette reflexion, ca soit bien de la merde. C'est super important, car c'est la base.
 **Pour etre sur que ton projet informatique echoue, il faut que ton scope de depart soit flou et incomplet.**
 Sors de cette reunion avec un post-it a la con et jette-le a la gueule du premier developpeur qui passe en hurlant que c'est pour demain. C'est de loin le meilleur depart. La deja, t'es bien. T'as pas commence t'es deja en train de boxer ton projet dans les côtes. Mais ca suffit pas.
 
 Ton scope et les features doivent bouger en permanence. ca va etre facile a faire si les bases de ton projet ne sont pas claires. Et la, il n'y a pas de regle. Lâche-toi ! Change tout. Ajoute des features, change-les au dernier moment, reviens en arriere et contredis-toi dans la meme phrase.
 **Pour etre sur que ton projet informatique echoue, il faut que ton scope evolue un maximum.**
-Il faut que le scope soit completement schizophrene du debut a la fin. Gros apero avant de toucher au cahier des charges, open-bar, danse du ventre, fait une chenille avec la direction : c'est important que tes changements ne fassent aucun sens. 
+Il faut que le scope soit completement schizophrene du debut a la fin. Gros apero avant de toucher au cahier des charges, open-bar, danse du ventre, fait une chenille avec la direction : c'est important que tes changements ne fassent aucun sens.
 Je reinsiste sur le fait que les fondations de tout le projet doivent etre bancales. Tu t'assures un resultat bien pourri juste avec cette methode. ca permettra egalement de maintenir un stress maximum tout au long du projet.
 
 L'angoisse comme moteur
@@ -43,14 +43,14 @@ Il y a bien longtemps dans une galaxie lointaine, tres lointaine, j'ai bosse sur
 
 Une semaine plus tard, pas de reponse. Moi pendant ce temps-la j'avais regle mon probleme de mon côte. C'etait en effet bien moi qui faisais de la merde. Classique.
 
-Mais ce que je savais pas c'est que j'avais declenche une guerre entre trois equipes differentes. Le comportement de mon service ressemblait a du deja-vu. 
+Mais ce que je savais pas c'est que j'avais declenche une guerre entre trois equipes differentes. Le comportement de mon service ressemblait a du deja-vu.
 **Elles ont commence a toutes se pointer du doigt par mail.**
 Les mecs sont alles jusqu'a faire un ticket a Amazon directement ! Amazon, ils ont du etre morts de rire en voyant arriver le ticket. Une semaine de travail perdu. Aucune avancee et une mauvaise ambiance. Et cette situation a ete possible car tout le monde travaillait de son côte.
 
 Travailler en silo
 ******************
 
-C'est super frequent dans les grosses boites. Y'a plein d'equipes qui s'occupent de plein de choses un peu partout. Toi, tu fais partie de l'une de ces equipes. C'est super important que tu refuses tout partage de travail et toute communication sur ce que tu fais. 
+C'est super frequent dans les grosses boites. Y'a plein d'equipes qui s'occupent de plein de choses un peu partout. Toi, tu fais partie de l'une de ces equipes. C'est super important que tu refuses tout partage de travail et toute communication sur ce que tu fais.
 **Pour etre sur que ton projet informatique echoue, il faut que tout le monde travaille dans son coin.**
 Le mieux c'est quand tout le monde travaille un peu sur la meme chose sans le savoir. C'est sublime quand on s'en rend compte des mois plus tard. On s'en rend compte des mois plus tard parce qu'on ne communique pas.
 
@@ -64,7 +64,7 @@ Il faut faire croire jusqu'au bout que tout va bien meme quand ca sent le brule 
 Aucun process, aucune norme
 ***************************
 
-Les process de travail, les methodologies et les bonnes pratiques tout ca c'est caca. C'est pour les faibles qui ne savent pas travailler en autonomie. 
+Les process de travail, les methodologies et les bonnes pratiques tout ca c'est caca. C'est pour les faibles qui ne savent pas travailler en autonomie.
 **Pour etre sur que ton projet informatique echoue, il ne faut appliquer aucun process et aucune norme.**
 Oublie. Le probleme c'est que ca permet a tout le monde de travailler de la meme facon. ca fait gagner du temps et tu injectes forcement de la stabilite dans ton projet. C'est pas bon ca ! egalement, force tous tes developpeurs a ne surtout pas documenter ce qu'ils font. Chaque bout de code doit rester un mystere pour ceux qui passeront dessus apres. Et cette absence de process doit se ressentir egalement dans la facon de communiquer.
 
@@ -81,7 +81,7 @@ Il faut bien prendre des gens qui s'entendent pas ensemble ou avec l'entreprise 
 **Un seul mauvais recrutement peut mettre en peril tout ton projet.**
 C'est beaucoup plus efficace que tu le penses. Insiste aupres de ton recruteur pour qu'il t'envoie des gens toxiques, ca va vraiment jouer dans la suite du projet.
 
-Une fois que tu fais bosser des gens qui se detestent ensemble, tu n'as plus qu'a les exploiter un maximum. 
+Une fois que tu fais bosser des gens qui se detestent ensemble, tu n'as plus qu'a les exploiter un maximum.
 **Pour etre sur que ton projet informatique echoue, il faut que tu meprises tout le monde.**
 Y'a deux trois techniques pour etre efficace la-dedans.
 
@@ -91,8 +91,8 @@ Un petit "tu prends ton aprem?" quand quelqu'un part a 17 h c'est exactement ca 
 **Toi, ca te coute rien de le dire, mais pour la personne qui recoit la remarque c'est incroyablement desagreable.**
 Tu peux aussi demander a un junior de faire un taf de senior en le payant comme une merde. Bref, meprise frequemment un peu tout le monde et les gens vont peter des plombs.
 
-Le Graal pour ton projet c'est quelqu'un qui fait un burnout. ca n'a pas de prix. Si en plus c'est un mec qui s'est rendu indispensable JACKPOT ! 
-**Tu auras plein de gens indispensables car tu n'as aucune norme et aucune documentation.** 
+Le Graal pour ton projet c'est quelqu'un qui fait un burnout. ca n'a pas de prix. Si en plus c'est un mec qui s'est rendu indispensable JACKPOT !
+**Tu auras plein de gens indispensables car tu n'as aucune norme et aucune documentation.**
 Ton projet finira alors sa course en enfer pendant que cette personne part avec un savoir critique pour le terminer.
 
 epilogue

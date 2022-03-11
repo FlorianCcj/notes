@@ -7,7 +7,7 @@ Guide de demarage
 Etape 1 - Creez votre alter ego
 ===============================
 
-La meilleur version de vous, lui choisir 
+La meilleur version de vous, lui choisir
 * un nom
 * un slogan: une phrase, une citation ou une devise personnelle qui vous inspire !
 * une description: votre reve, vos inspiration, pourquoi vous vous challenger
@@ -47,7 +47,7 @@ Creez une liste de vos reves, de vos delires de vos esperences, de changement DU
 
 questions qui peuvent aider:
 
-* Quelles personnes inspirantes avez-vous toujours voulu rencontrer ? 
+* Quelles personnes inspirantes avez-vous toujours voulu rencontrer ?
 * S’il ne vous restait qu’un mois à vivre, qu’aimeriez-vous faire ?
 * Quels lieux rêvez-vous de visiter dans le monde ?
 * Quels nouveaux aliments aimeriez-vous goûter ?

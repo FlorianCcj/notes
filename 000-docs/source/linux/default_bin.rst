@@ -1,7 +1,7 @@
 Linux - Default bin
 ###################
 
-Two way to change bin called 
+Two way to change bin called
 
 Alias
 *****

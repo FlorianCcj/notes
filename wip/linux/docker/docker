@@ -64,7 +64,7 @@ ou en une commande docker build -t NEWTAG DOCKERFILEDIR
 
 # bien faire attention pour les commentaires le # doit etre le premier caractere de la ligne sinon mal interpreté
 
-FROM IMAGE[:TAG] 
+FROM IMAGE[:TAG]
 # si pas de tag alors latest
 
 MAINTAINER Autherauther's detail>

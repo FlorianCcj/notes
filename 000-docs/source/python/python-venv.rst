@@ -44,7 +44,7 @@ pipenv --rm
 add script
 
 .. code-block:: ini
-    
+  
     [scripts]
     serve = "python manage.py runserver"
 

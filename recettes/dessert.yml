@@ -7,17 +7,17 @@ FGHIJ: ~
 KLMNO:
   totest-todo-Mug Cake Nutella au micro ondes:
     source: https://www.cuisine-etudiant.fr/recette/3707-mug-cake-nutella-au-micro-ondes
-  totest-todo-Muffins poire - chocolat: 
+  totest-todo-Muffins poire - chocolat:
     source: https://www.cuisine-etudiant.fr/recette/2729-muffins-poire-chocolat
   totest-todo-nutella:
     source: https://www.cuisine-etudiant.fr/recette/5760-nutella-fait-maison-pour-la-chandeleur
 PQRST:
   totest-todo-Roses des sables simplissime:
-    source: https://www.cuisine-etudiant.fr/recette/5613-roses-des-sables-simplissime 
+    source: https://www.cuisine-etudiant.fr/recette/5613-roses-des-sables-simplissime
   totest-todo-Tarte aux noix de pécan fait maison:
     source: https://www.cuisine-etudiant.fr/recette/5843-tarte-aux-noix-de-pecan-fait-maison
   profil:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -29,7 +29,7 @@ PQRST:
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
 
 
 

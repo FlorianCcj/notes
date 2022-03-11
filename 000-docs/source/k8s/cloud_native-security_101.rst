@@ -6,7 +6,7 @@ Cloud Native - Security 101
 Lifecycle
 *********
 
-Build: Develop, build and package 
+Build: Develop, build and package
     => Find and manage vuln and risk thru the dev pipeline
 
 Ship: Code flows only one way, continuously

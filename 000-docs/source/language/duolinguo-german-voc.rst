@@ -133,7 +133,7 @@ DEU-12-2-04 Question 1
 * kalt: cold
 * sauber: clean
 * suss: sweet
-* warm: 
+* warm:
 
 DEU-14-2-05 Present 1
 *********************

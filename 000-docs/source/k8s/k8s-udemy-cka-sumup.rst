@@ -148,7 +148,7 @@ k8s - Udemy - CKA - sum up
 
 .. code-block:: yaml
   :name: env vars load from a file
-  
+
   # give all a configmap as envvars
   apiVersion: v1
   kind: Pod
@@ -171,7 +171,7 @@ k8s - Udemy - CKA - sum up
 
 .. code-block:: yaml
   :name: volume from cm
-  
+
   # push a config map as a volume (as for conf file)
   apiVersion: v1
   kind: Pod
@@ -291,7 +291,7 @@ k8s - Udemy - CKA - sum up
   * :code:`curl https://kube-master:6443/api/v1/{namespaces, pods, rc, events, endpoints, nodes, bindings, PV, PVC, configmaps, secrets, services}`
   * :code:`kubectl proxy`: make a proxy on your computer to curl the apiserver
 
-@TODO RBAC command
+TODO RBAC command
 
 * :code:`serviceAccountName: dashboard-sa`: precise pod s service account (in spec)
 * :code:`automountServiceAccountToken: false`: do not mount serviceaccount in pod
@@ -314,7 +314,7 @@ k8s - Udemy - CKA - sum up
       capabilities:
         add: ["MAC_ADMIN"]
 
-@TODO netpol
+TODO netpol
 
 * Volume
 
@@ -382,7 +382,7 @@ k8s - Udemy - CKA - sum up
   metadata.name: google-storage
   provisioner: kubernetes.io/gce-pd
   volumeBindingMode: WaitForFirstConsumer # not mandatory
-    
+  
 .. code-block:: yaml
   :name: pvc with StorageClass
 
@@ -398,4 +398,4 @@ k8s - Udemy - CKA - sum up
       requests:
         storage: 500Mi
 
-@TODO Networking
+TODO Networking

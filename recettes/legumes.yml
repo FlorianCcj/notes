@@ -48,7 +48,7 @@ PQRST:
   totest-todo-Tomates courgettes oeufs rapide:
     source: https://www.cuisine-etudiant.fr/recette/5176-tomates-courgettes-oeufs-rapide
   profil:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -60,6 +60,6 @@ PQRST:
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
 
-    
+  

@@ -104,7 +104,7 @@ Quels placements financiers pour investir en Bourse ?
 =====================================================
 
 * Les OPCVM (Placement Collectif en Valeurs Mobilieres): Ces enveloppes, constituées d’un grand nombre de titres et qui peuvent d’ailleurs regrouper plusieurs classes d’actifs (actions mais aussi obligations par exemple) permettent de facilement diversifier ses avoirs. En outre, un gérant s’occupe de la sélection des titres et de la gestion du portefeuille. Il vous facture en contrepartie des frais de gestion.
-* ETF:  fonds indiciels ou trackers, qui répliquent la performance d’un indice ou bien un indice sectoriel ou encore un indice géographique 
+* ETF:  fonds indiciels ou trackers, qui répliquent la performance d’un indice ou bien un indice sectoriel ou encore un indice géographique
 * marchés financiers avec produits dérivés: facilite le trading court terme.  Ils peuvent aussi constituer des outils de couverture de portefeuille.
 * actions en direct: investissement moyen long terme
 
@@ -187,7 +187,7 @@ L analyses graphique
   * tete epaule: sommet ou creux d une courbe
   * double top: deux pique indiquand une forte tendance haussiere
 * moyenne mobile: grosso modo une moyenne local
-* MACD: 
+* MACD:
 
 L analyse technique
 ===================

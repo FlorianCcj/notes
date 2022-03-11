@@ -140,7 +140,7 @@ Une tortue si elle choisit vos tradings elle a une chance sur deux d avoir raiso
 
 Pour faire mieux, il vous faut de l esprit critique, mais il vous faut quelque chose a critiquer
 
-d ou 
+d ou
 
 * L’analyse fondamentale: analyse du contexte de tout ce qui concerne l actif ( bilans d’entreprises, situation economique )
 * L’analyse technique: l analyse des graphiques boursiers. Regarder le passé pour essayer de predir l avenir
@@ -186,5 +186,5 @@ La psychologie des marchés
 Une technique de scalpin
 ************************
 
-@todo
+TODO
 https://www.youtube.com/watch?v=fGYXpVoG198

@@ -27,7 +27,7 @@ Comment trouver un bon locataire
     * avis d imposition -> impots.gouv.fr
     * bulletin de salaire -> appel a l employer
     * meme chose pour les garants
-  
+
   * selection, appel candidat, explication
   * contrat de bail a parafer par la personne et les garants
   * les garants ecrivent une lettre attestant qu ils sont garants

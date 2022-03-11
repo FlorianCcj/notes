@@ -24,7 +24,7 @@ Creer une image puissante de soi meme
 
 Qui tu veux etre, qu est ce que tu veux vehiculer
 
-Attention de ne pas se referer entierement au passer, regarde des exemples, des gens charismatique, 
+Attention de ne pas se referer entierement au passer, regarde des exemples, des gens charismatique,
 se fier a des resultats et se demander quels chemins prendre pour atteindre ce resultat
 
 Pour cela, visualise la scene, imagine la
@@ -50,7 +50,7 @@ Les 3 comportements charismatique
 
 Etat naturel positif, pas stresser, vive l instant present
 
-* La presence: dans l instant present, conscient de ce qui se passe, 
+* La presence: dans l instant present, conscient de ce qui se passe,
     exo: regarder un point et prendre conscience de ce au il y a en haut sans bouger les yeux
         puis en bah, puis sur les cote, puis de tout les cotes, permet de se concentrer sur ce qui est autour de toi
 * La puissance: pas peur de s imposer, prend de la place dans son environnement
@@ -69,7 +69,7 @@ On se fiche de l image que l on projette. On se fiche d etre superieur ou inferi
 Le but c est plus la presence, qu est ce aue les gens vont recentir en òa presence, qu est ce que je vais leur faire ressentir en etant present
 Quand tu vas quelque part, concentre toi sur ta presence,qu est ce aue tu apportes a une personne
 
-L identite c est une connerie, seul la presence compte, 
+L identite c est une connerie, seul la presence compte,
 Voit chez l autre que ce qu il y a de positif, arete de juger
 deriere une emotion negative il y a une intension positive
 
@@ -110,7 +110,7 @@ Comment faire une bonne premiere impression
         * ecoute la musicalite de votre interlocuteur (qu est ce aue sa voix sous communique)
         * calle toi a son rythme, son debit, son vocabulaire
         * apporte ensuite ta musicalite
-        
+      
 
 
 Chapitre 2 - Obtenir une voix hypnotique
@@ -144,10 +144,10 @@ Echauffement et respiration
 
 * echauffement la tete (20 chaque) : rond de tete, droite gauche
 * echauffement des epaules (20 chaque) : rond de bras, rond d epaule
-* echauffement de la bouche: 
+* echauffement de la bouche:
     * mache une pomme imaginaire de maniere exagere en y prenant du plaisir
-* echauffement des levres : 
-    * bouche fermer faire brrrrrrrr pour faire vibrer les levres, 
+* echauffement des levres :
+    * bouche fermer faire brrrrrrrr pour faire vibrer les levres,
     * prononcer Q.I.Q.A plusieur fois
     * mettre son doigt sous son nez et faire huuuuuuuum, le but est que ton doigt tremble grace a la puissance de l air qui sort de ton nez
 * la respiration (5 min: inspirer la le nez lentement, et expirer par la bouche de maniere a ce que vous respiriez par le ventre, une personne stressé respirera au niveau du coeur/plexus
@@ -209,7 +209,7 @@ Le langage non verbal faible
 
 es-tu dominant ou domine:
 
-* le dominant prend le plus d espace possible, 
+* le dominant prend le plus d espace possible,
     * de grand geste
     * se met face a une personne
     * etc
@@ -280,7 +280,7 @@ Les sujets de conversation
 
 acronyme FORD
 
-* Famille: 
+* Famille:
     * friend, children, brother and sister and himself, where do they live, what do they do, it s quite easy to speak about it
     * when you are interesed in someone generally the person is inereted in you
 * Occupation: les hobbies, what do you like to do, you can troll a bit, compare with you where do they practice, who teach them, where do this hobbies come from
@@ -364,7 +364,7 @@ Tu peux donc capter l attention des gens en ne devoilant pas l integralite des i
 
 * apres le boulot faut que je te dise quelque chose d hyper important
 * au fait t es au courant de la derniere nouvelle
-* 
+*
 
 29 La congruence.mp4
 ====================

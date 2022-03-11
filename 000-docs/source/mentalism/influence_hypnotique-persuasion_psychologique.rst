@@ -54,7 +54,7 @@ Montrer de l emphatie, de la reciprocite, de miroring
 
 faire appel au emotion <=> capter l attention
 
-ca peut etre 
+ca peut etre
 par le benefice obtenu (ca va etre top, drole)
 par la curiosite, (c est passionant)
 par la facilite, (c est hyper facile)
@@ -216,7 +216,7 @@ Les metaphores pour chaque domaine de persuasion
 * Logos: ordonnee, ranger, classifier => forme geometrique
 * Pathos: les choses naturel, les choses atrayantes de la vie
 
-Visualise l objectif puis fie toi a tes sens, 
+Visualise l objectif puis fie toi a tes sens,
 
 * que vois tu qu entends tu, qu imagines tu, que ressens tu
 * grandeur, largeur, hauteur, largeur, vitesse profondeur

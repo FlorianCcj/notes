@@ -88,7 +88,7 @@ to store a result
     @bg-light: boolean(luma(@bg) > 50%);
 
     div {
-        background: @bg; 
+        background: @bg;
         color: if(@bg-light, black, white);
     }
 

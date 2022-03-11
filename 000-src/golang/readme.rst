@@ -12,7 +12,7 @@ go build -o /bin/hello
 
 go run src/hello.go
 
-godoc -http=:6060 # permit to acces to golang doc on localhost:6060 
+godoc -http=:6060 # permit to acces to golang doc on localhost:6060
 
 workspace:
     * bin
@@ -44,7 +44,7 @@ int, string, bool, []byte, etc.
 
 .. code-block:: go
 
-    var power int 
+    var power int
 	power = 9000
 	fmt.Printf("It'sover %d \n",power)
 
@@ -92,14 +92,14 @@ To Edit an instance of struct you need to use pointer
     }
 
     func main() {
-        
+      
         goku := Saiyan{
             Name: "Goku",
             Power: 9000,
         }
 
         println(goku.Name)
-        
+      
         geta := Saiyan{Name: "Geta"}
         geta.Power = 8500
 
@@ -108,7 +108,7 @@ To Edit an instance of struct you need to use pointer
         Super(gohan)
 
         println(gohan.Power)
-        
+      
         SuperFake(gohan)
 
         println(gohan.Power)

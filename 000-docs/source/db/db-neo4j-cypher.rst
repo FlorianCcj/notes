@@ -30,39 +30,39 @@ create a node
     CREATE (ma:User:Heros:Necro {name: "Bad"})
     RETURN me
 
-* :code:`(me)` parenthesis say that :code:`me` is a node. :code:`me` is also a temporary name 
+* :code:`(me)` parenthesis say that :code:`me` is a node. :code:`me` is also a temporary name
 * :User add a node s label
-* {name: "medru"} properties that you want 
+* {name: "medru"} properties that you want
 * RETURN permit to print object in ihm
 
 .. code-block:: Cypher
 
     // will merge with the node type Person name Emil
     MERGE (te: Persone {name: "Emil", birth: "1998.02.25"})
-    MERGE (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"}) 
-    ON CREATE SET Jadeja.isCreated = "true" 
-    ON MATCH SET Jadeja.isFound = "true" 
-    RETURN Jadeja 
+    MERGE (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"})
+    ON CREATE SET Jadeja.isCreated = "true"
+    ON MATCH SET Jadeja.isFound = "true"
+    RETURN Jadeja
 
 .. code-block:: cypher
 
-    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"}) 
+    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"})
     SET Dhawan.highestscore = 187, YOB = 2012
     RETURN Dhawan
 
-    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"}) 
+    MATCH (Dhawan:player{name: "shikar Dhawan", YOB: 1985, POB: "Delhi"})
     SET Dhawan: gamer
     RETURN Dhawan
 
-    MATCH (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"}) 
-    SET Jadeja.POB = NULL 
-    RETURN Jadeja 
+    MATCH (Jadeja:player {name: "Ravindra Jadeja", YOB: 1988, POB: "NavagamGhed"})
+    SET Jadeja.POB = NULL
+    RETURN Jadeja
 
 .. code-block:: cypher
 
     MATCH (n) DETACH DELETE n
 
-    MATCH (Ishant:player {name: "Ishant Sharma", YOB: 1988, POB: "Delhi"}) 
+    MATCH (Ishant:player {name: "Ishant Sharma", YOB: 1988, POB: "Delhi"})
     DETACH DELETE Ishant
 
 read node
@@ -81,18 +81,18 @@ add relation
     // Add company
     MATCH (me:User {name:"medru"})
     CREATE (me)-[w:WORKS_AT]->(st:Company {name: "Steloria"})
-    CREATE (node1)-[label:Rel_Type {key1:value1, key2:value2, . . . n}]-> (node2) 
+    CREATE (node1)-[label:Rel_Type {key1:value1, key2:value2, . . . n}]-> (node2)
     RETURN me, w, st
 
     // multi directionnal
 
     //Create many users
     MATCH (st:Company {name:"Steloria"})
-    CREATE 
-        (n:User {name:"Nymeria"})-[:WORKS_AT]->(st), 
-        (p:User {name:"Patrick"})-[:WORKS_AT]->(g:Company {name:"Google"}), 
-        (j:User {name:"Josiane"}), 
-        (f:User {name:"Francis"}), 
+    CREATE
+        (n:User {name:"Nymeria"})-[:WORKS_AT]->(st),
+        (p:User {name:"Patrick"})-[:WORKS_AT]->(g:Company {name:"Google"}),
+        (j:User {name:"Josiane"}),
+        (f:User {name:"Francis"}),
         (c:User {name:"Caroline"})
         //Create friend relation
     MATCH (medru:User {name:"medru"}), (nymeria:User {name: "Nymeria"})
@@ -107,11 +107,11 @@ pratice a bit
     // recherche touchy
 
     // Create many relations
-    MATCH (j:User {name: "Josiane"}), (m:User {name: "medru"}), (n:User {name: "Nymeria"}), 
+    MATCH (j:User {name: "Josiane"}), (m:User {name: "medru"}), (n:User {name: "Nymeria"}),
         (p:User {name: "Patrick"}), (c:User {name: "Caroline"}), (f:User {name: "Francis"})
-    CREATE 
-        (n)-[:FRIEND_WITH]->(f), 
-        (m)-[:FRIEND_WITH]->(j), 
+    CREATE
+        (n)-[:FRIEND_WITH]->(f),
+        (m)-[:FRIEND_WITH]->(j),
         (m)-[:FRIEND_WITH]->(c), (c)-[:FRIEND_WITH]->(p)
 
     //Who works at google ?
@@ -123,7 +123,7 @@ other
 =====
 
 .. code-block:: cypher
-    
+
     CALL db.schema()
 
 .. code-block:: cypher

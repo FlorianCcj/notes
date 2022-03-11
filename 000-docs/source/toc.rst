@@ -1,6 +1,6 @@
 .. toctree::
     :caption: Table of Contents
-    
+
     todo/todo-000_wip.rst
 
     ansible/ansible-if.rst

@@ -10,7 +10,7 @@ Tristesse
 Collere
 Degout
 
-Peur 
+Peur
 Surprise
 
 Mepris

@@ -60,9 +60,9 @@ API
 * .. code-block:: console
 
     # to write
-    curl --header "X-Vault-Token: d9c2f2e5-6b8a-4021-476c-ebd3f166d668" 
-        --request POST 
-        --data '{ "value": "d9c2f2e5-6b8a-4021-476c-ebd3f166d668" }' 
+    curl --header "X-Vault-Token: d9c2f2e5-6b8a-4021-476c-ebd3f166d668"
+        --request POST
+        --data '{ "value": "d9c2f2e5-6b8a-4021-476c-ebd3f166d668" }'
         http://127.0.0.1:8200/v1/cubbyhole/token
 
 * .. code-block:: console

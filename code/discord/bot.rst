@@ -10,8 +10,8 @@ https://discordpy.readthedocs.io/en/latest/
 bot-token: NjA1MDAzMTI4NTU5MTA4MTA3.XT2Wrg.FgqrrTmAV7fc0uUVAlVmRtL40-U
 app-clientid: 605003128559108107
 
-6.  Invitez le bot sur votre serveur à l’aide de l’URL suivante 
-    (Remplacez votre_client_id avec le Client ID de votre bot) 
+6.  Invitez le bot sur votre serveur à l’aide de l’URL suivante
+    (Remplacez votre_client_id avec le Client ID de votre bot)
     (Vous devez avoir les droits sur le serveur sur lequel vous voulez deployez votre bot)
 
 https://discordapp.com/oauth2/authorize?client_id=votre_client_id&scope=bot&permissions=0
@@ -24,7 +24,7 @@ view: il apparatra alors  hors ligne dans le serveur
     * tar xzvf Python-3.6.4.tgz
     * cd Python-3.6.4/
     * ./configure # verifie les dependances
-    * sudo make # commencer la compil 
+    * sudo make # commencer la compil
     * sudo make install # install
 8. Faire le bot
     1. sudo python3 -m pip install -U discord.py[voice]

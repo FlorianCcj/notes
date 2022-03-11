@@ -35,7 +35,7 @@ it's always an harmony between a container and item in it
   grid-gap: 20px;
   grid-template-columns: 200px 400px; /* 1-2) 2 columns are explicite defined so row are implicited created */
   grid-template-rows: 200px 400px; /* 2) 2 columns and 2 rows are explicite defined  */
-  
+
   /* with 6 items it will create 2 implicited rows */
   grid-auto-rows: 100px; /* implicited rows will have 100px, in firefox still not able to managed multiple definition in implicite rows*/
 }
@@ -89,7 +89,7 @@ it's always an harmony between a container and item in it
 .item9 {width: 500px;} /*size all column to 500px*/
 .item9 {grid-column: span 2;} /*item9 will take 2 column, if to long it go to next lign and let dead space*/
 .item9 {grid-column: span 10;} /*if too long for container, implicit column*/
-.item9 {grid-row: span 2;} 
+.item9 {grid-row: span 2;}
 ```
 
 ### 10. [Placing Grid Items](https://jsfiddle.net/hs5xhvpp/)
@@ -131,7 +131,7 @@ work only with auto-fill and auto-fit (remplace mediqueries)
 }
 ```
 
-### 14. Grid Template Areas: 
+### 14. Grid Template Areas:
     - [Area Line Names](https://jsfiddle.net/tkyxomht/)
     - [Areas](https://jsfiddle.net/p0sn7L7v/)
 ```
@@ -142,7 +142,7 @@ work only with auto-fill and auto-fit (remplace mediqueries)
   grid-template-columns: 1fr 500px 1fr;
   grid-template-rows: 150px 150px 100px;
 
-  grid-template-areas: /*permit to name area, "." permit to let a blank*/ 
+  grid-template-areas: /*permit to name area, "." permit to let a blank*/
     "sidebar-1 content sidebar-2";
     "sidebar-1 content sidebar-2";
     "footer footer footer"
@@ -161,7 +161,7 @@ work only with auto-fill and auto-fit (remplace mediqueries)
       "content content content";
       "sidebar-1 sidebar-1 sidebar-2";
       "footer footer footer"
-    ;  
+    ;
   }
 }
 ```
@@ -201,7 +201,7 @@ other exemple
 }
 
 .item3 {
-  /* grid-column: 2; *//*1 before naming*/ 
+  /* grid-column: 2; *//*1 before naming*/
   /* grid-row: 1 / span 10; *//*1 before naming*/
   grid-column: content-start;
   grid-row: content-top / content-bottom;
@@ -232,7 +232,7 @@ other exemple
 
 ### 17. [CSS Grid Alignment + Centering](https://jsfiddle.net/eyL9a2gv/)
 six methods to do it:
- * `justify-items` `align-items`: in the item 
+ * `justify-items` `align-items`: in the item
  * `justify-content` `align-content`: in the container, value: start, end, center, space-around, space-between
  * `justify-self` `align-self`: the container him self
 
@@ -291,7 +291,7 @@ six methods to do it:
 }
 ```
 
-### 21. Flexbox vs CSS Grid: 
+### 21. Flexbox vs CSS Grid:
     - [Axis Flipping](https://jsfiddle.net/pt8hym9s/)
     - [Controls on Right](https://jsfiddle.net/4o7gavuj/)
     - [Flex on Item](https://jsfiddle.net/1u264ftd/)

@@ -21,13 +21,13 @@ k8s - kodekloud - (CKS) Certified Kubernetes Security Specialist
   git clone https://github.com/ahmetb/kubectx ${PATH_TO_INSTALL}/.kubectx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubectx /usr/local/bin/kctx;
   ln -s ${PATH_TO_INSTALL}/.kubectx/kubens /usr/local/bin/kns;
-  
+
   mkdir -p ${PATH_TO_INSTALL}
   wget https://raw.githubusercontent.com/ahmetb/kubectl-alias/master/.kubectl_aliases -o ${PATH_TO_INSTALL}/.kubectl_aliases
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source ${PATH_TO_INSTALL}/.kubectl_aliases" >> ${alias_file}
   #echo "[ -f ${PATH_TO_INSTALL}/.kubectl_aliases ] && source <(cat ${PATH_TO_INSTALL}/.kubectl_aliases | sed -r 's/(kubectl.*) --watch/watch \1/g')" >> ${alias_file}
   echo "function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }" >> ${alias_file}
-  
+
   echo ". ${alias_file}" >> ~/.zshrc
   . ~/.zshrc
 
@@ -477,7 +477,7 @@ Kubernetes Dashboard (06:13)
 * https://redlock.io/blog/cryptojacking-tesla
 * https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/
 * https://github.com/kubernetes/dashboard
-* https://www.youtube.com/watch?v=od8TnIvuADg 
+* https://www.youtube.com/watch?v=od8TnIvuADg
 * https://blog.heptio.com/on-securing-the-kubernetes-dashboard-16b09b1b7aca
 * https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
 
@@ -535,7 +535,7 @@ Network Policy (07:51)
 * ingress netpol controll input trafic
 * egress netpol controll output trafic
 * default: all allow
-* when you activate a netpol on a pod it switch to all deny 
+* when you activate a netpol on a pod it switch to all deny
 * support on
   * kube-router
   * calico
@@ -660,7 +660,7 @@ Ingress (22:34)
 
 * :code:`kubectl create ingress <ingress-name> --rule="host/path=service:port"`
 * :code:`kubectl create ingress ingress-test --rule="wear.my-online-store.com/wear*=wear-service:80"`
-* https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-ingress-em- 
+* https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-ingress-em-
 * https://kubernetes.io/docs/concepts/services-networking/ingress
 * https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
 

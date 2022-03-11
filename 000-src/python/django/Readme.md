@@ -1,7 +1,7 @@
 Install
 *******
 
-pip install pipenv 
+pip install pipenv
 pipenv install
 pipenv install django>=2.2
 pipenv shell
@@ -22,7 +22,7 @@ First view
 
     # polls/views.py
     from django.http import HttpResponse
-    
+  
     def index(request):
         return HttpResponse("Hello, world. You're at the polls index.")
 

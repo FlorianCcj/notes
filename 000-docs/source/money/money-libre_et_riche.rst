@@ -6,9 +6,9 @@ Money - Libre et riche
 
 :source: https://www.youtube.com/watch?v=xromeTD4Vb0
 
-* Le paradigme des crabes: 
+* Le paradigme des crabes:
 
-  * au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces. 
+  * au cours des siecles pour le proteger des coups de bec des oiseaux, la carapace du crabe c est applati et etiré l empechant ainsi d ettendre completement ses pattes. Elles s articules uniquement vers la droite ou vers la gauche, tout comme ses pinces.
   * Le crabe a une carapace tres dur afin de le proteger des predateurs, mais malgré cette robustesse il a la faiblesse et la particularité de se comporter comme certaine personne peu scrupuleuse. C est d ailleurs de la d ou vient l expression du panier de crabe. Celle ci nee au milieu du XXe siecle, empreinte l image du panier de pecheur a l interieur duquel les crabes se marchent dessus, s entasse, et les pinces menacantes, grouillent dans toutes les directions, ils cherchent a s entre devorer.
   * en fait, chaque fois qu un crabe essait de sortir, un autre le saisi et le retient avec sa pince pour le tirer vers le bas. Par reflexe, ce meme crabe, qui se retrouve au fond, va a son tour retenir celui du dessus pour qu il reste en bas avec lui l empechant de sortir et ainsi de suite avec tout les autres crabes.
   * Resultat de l operation aucun ne reussira a sortir et tous mourront
@@ -34,9 +34,9 @@ Les 6 niveaux de l investiseur
 
 :source: https://www.youtube.com/watch?v=f1CNl6Uk7aI
 
-1. Niveau debiteur, endete : 
+1. Niveau debiteur, endete :
 
-  * note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne 
+  * note: "on ne vie qu une fois", toujours des escuses pour les mauvaises decisions, sentiment de reussite sociale, illusion de vie confortable, pas de compta, ni d epargne
   * argent: pas d epargne, dette, passid qui perdent de la valeur + frais genere
   * think: reussicite sociale, illusion de vie confortable
   * time: posseder qqc => plaisir
@@ -85,7 +85,7 @@ Les 5 Niveaux de la Liberté Financière
 
 :source: https://www.youtube.com/watch?v=oNJdTlt35Og
 
-@Todo
+TODO
 
 Les 4 quadrants de la liberte financiere
 ****************************************
@@ -277,9 +277,9 @@ Comment se Faire des Amis et Influencer les Autres
 
 influencer
 
-* 
-  * eviter les critiques qui provoquent de la rancune, 
-  * corige toi toi meme avant de critiquer 
+*
+  * eviter les critiques qui provoquent de la rancune,
+  * corige toi toi meme avant de critiquer
   * essai plutot de la comprendre
 * on ne transforme pas les autres en blessant leur amour propre
   * quand ils font quelque chose de bien complimentent les
@@ -321,7 +321,7 @@ Le Triangle de la Richesse: Stratégie en 3 étapes
 
 :source: https://www.youtube.com/watch?v=3_yco6UFT1M
 
-* competence personnelles hauts revenu: 
+* competence personnelles hauts revenu:
   * competences acquises permettant de genererun flux d argent regulier
   * vendre ses service, comme coifeur, coach sportif, etc
 * business evolutif
@@ -400,12 +400,12 @@ Richesse dans le temps
   * frait mesuelle = depense alimentaire -> depense de loisir en passant par les frais de vie, et les passif generant des frais
   * exemple:
 
-    * une personne semble riche, 
-      * ses depenses monte a 10k euros, 
+    * une personne semble riche,
+      * ses depenses monte a 10k euros,
       * son compte + epargne et rent mensuel monte a 120k
       * (120/10)/12 = 1 => il survivra 1 an sans bosser
-    * une personne semble modeste, 
-      * ses depenses monte a 900 euros, 
+    * une personne semble modeste,
+      * ses depenses monte a 900 euros,
       * son compte + epargne et rent mensuel monte a 54k
       * (54/10,9)/12 = 5 => il survivra 5 an sans bosser
 
@@ -469,7 +469,7 @@ Millionaire avec 5e par jour
   * epargne: 5e par jour
 
   * investissement:
-    * investire sur l S&P500, 
+    * investire sur l S&P500,
     * calculé la rentabilité geometrique (et non arythmetique)
     * acheté un fond particulier: ETF
 

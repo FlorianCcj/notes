@@ -12,4 +12,3 @@
 - name: "enable screensaver"
   command: >
     gnome-screensaver-command -a
- 

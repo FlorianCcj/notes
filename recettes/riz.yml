@@ -92,9 +92,9 @@ PQRST: ~
     source: https://www.cuisine-etudiant.fr/recette/4318-risotto-simple-aux-champignons
   Riz aux lardons, chèvre frais et courgette:
     source: https://www.cuisine-etudiant.fr/recette/3810-riz-aux-lardons-chevre-frais-et-courgette
-    realisation: 
+    realisation:
       préparation : 30 min
-      cuisson : 
+      cuisson :
       difficulté : Facile
       prix: 4,4/personne
       types: [Plat]
@@ -142,21 +142,21 @@ PQRST: ~
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
-      2. Couper les blancs en deux dans l’épaisseur et les mettre dans cette marinade. 
-      3. Couper les poivrons en quatre et éliminer les graines. 
-      4. Détailler l’aubergine en tranches de 2 cm. 
-      5. Huiler ces légumes, les poser sur une grille de barbecue 
-      et les faire cuire de chaque côté. 
-      6. Glisser les blancs de poulet sur des brochettes 
-      et les faire griller 2 minutes de chaque côté. 
-      7. Peler et émincer les oignons. 
-      8. Verser 1 cuillerée à soupe d’huile dans un plat 
-      (pouvant cuire sur un barbecue), faire chauffer, 
-      ajouter les oignons et faire cuire 5 minutes. 
-      9. Ajouter les tranches de chorizo, laisser cuire 1 minute et les retirer du plat. 
-      10. Verser le riz, mélanger, ajouter le bouillon, le safran, 
-      couvrir et laisser cuire 20 minutes. 
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
+      2. Couper les blancs en deux dans l’épaisseur et les mettre dans cette marinade.
+      3. Couper les poivrons en quatre et éliminer les graines.
+      4. Détailler l’aubergine en tranches de 2 cm.
+      5. Huiler ces légumes, les poser sur une grille de barbecue
+      et les faire cuire de chaque côté.
+      6. Glisser les blancs de poulet sur des brochettes
+      et les faire griller 2 minutes de chaque côté.
+      7. Peler et émincer les oignons.
+      8. Verser 1 cuillerée à soupe d’huile dans un plat
+      (pouvant cuire sur un barbecue), faire chauffer,
+      ajouter les oignons et faire cuire 5 minutes.
+      9. Ajouter les tranches de chorizo, laisser cuire 1 minute et les retirer du plat.
+      10. Verser le riz, mélanger, ajouter le bouillon, le safran,
+      couvrir et laisser cuire 20 minutes.
       11. Verser les légumes, le chorizo, le poulet, et laisser cuire 5 minutes.
   Riz, poulet, chapignons et oignons au miel :
     source: https://www.cuisine-etudiant.fr/recette/297-riz-poulet-chapignons-et-oignons-au-miel
@@ -174,7 +174,7 @@ PQRST: ~
         2-3 cuillères à café de miel
         1 ou 2 oignons
         Crème fraîche
-        Sel-Poivre 
+        Sel-Poivre
     steps:
       author: La recette de Christophe Delcourt
       Recette découverte par hasard avec les ingrédients que j'avais sous la main, et ben, ça passe bien!
@@ -203,18 +203,18 @@ PQRST: ~
       1 sachet de knackis
       Sel, poivre
     steps:
-      Piquer le sachet d’emballage des knackis de quelques coups de fourchette, 
-      le mettre dans le micro-ondes et faire cuire 1 minute, sélecteur « maximum ». 
+      Piquer le sachet d’emballage des knackis de quelques coups de fourchette,
+      le mettre dans le micro-ondes et faire cuire 1 minute, sélecteur « maximum ».
       Retirer les knackis de l’emballage et les couper en tranches de 1/2 cm.
-      Mettre le riz dans une cocotte allant au micro-ondes, 
-      ajouter la sauce tomate, 
-      l’huile, saler et poivrer, puis mélanger, 
-      couvrir d’un film alimentaire et laisser cuire 3 minutes, sélecteur « maximum ». 
-      Ajouter le jambon coupé en lanières de 1/2 cm et les tranches de knacki. 
-      Remettre le plat au micro-ondes et faire cuire 2 minutes position « gril ». 
+      Mettre le riz dans une cocotte allant au micro-ondes,
+      ajouter la sauce tomate,
+      l’huile, saler et poivrer, puis mélanger,
+      couvrir d’un film alimentaire et laisser cuire 3 minutes, sélecteur « maximum ».
+      Ajouter le jambon coupé en lanières de 1/2 cm et les tranches de knacki.
+      Remettre le plat au micro-ondes et faire cuire 2 minutes position « gril ».
       Servir chaud.
   profil:
-    source: 
+    source:
     realisation:
       préparation : 15 min
       cuisson : 30 min
@@ -226,5 +226,5 @@ PQRST: ~
       Sel, poivre
     steps:
       author: La recette de Christophe Delcourt
-      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette. 
-    
+      1. Mélanger le jus du citron à 1 cuillerée à soupe d’huile et le piment d’Espelette.
+  

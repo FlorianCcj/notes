@@ -239,7 +239,7 @@ def square(a):
 
 ``
 .. currentmodule:: sample
-.. autofunction:: square    
+.. autofunction:: square  
 ``
 
 ******

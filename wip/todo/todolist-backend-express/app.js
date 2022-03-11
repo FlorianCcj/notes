@@ -3,7 +3,7 @@ import { Database } from './models/database';
 const express = require('express');
 const cors = require('cors');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose'); 
+var mongoose = require('mongoose');
 
 const db = new Database("172.17.0.2", 'todos');
 

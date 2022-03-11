@@ -41,9 +41,9 @@ setting: command-line option
 inventory       : -i
 remote-user     : -u
 become          : -b, --become
-become_method   : --become-method 
+become_method   : --become-method
 become_user     : --become-user
-become_ask_pass : -K, --ask-become-pass 
+become_ask_pass : -K, --ask-become-pass
 
 ## Inventory
 
@@ -97,7 +97,7 @@ ansible_port: 5986
                 dest: /var/www/html/index.html
         - name: Prints various Ansible facts
             debug:
-                msg: > 
+                msg: >
                     The default IPv4 address of {{ ansible_fqdn }}
                     is {{ ansible_default_ipv4.address }}
         - name: create the remote dir
@@ -185,7 +185,7 @@ packages:
         - name: Debugs the variables imported
             debug:
                 msg: >
-                    "{{packages['web_package']}} and {{package.db_package}} 
+                    "{{packages['web_package']}} and {{package.db_package}}
                     have been imported"
 ```
 
@@ -244,7 +244,7 @@ other loop:
 ```yml
 ---
 - host: all
-    vars: 
+    vars:
         service: httpd
     tasks:
         - name: "{{ service }} package is installed"
@@ -328,7 +328,7 @@ specail tags:
 * all (default)
 
 ### block
- 
+
 rescue and always are optionnal
 
 ```yml
@@ -464,5 +464,5 @@ l1473
 - name: Idempotent approach with copy module
   copy:
     dest: /etc/resolv.conf
-    content: "nameserver 192.0.2.1\n"       
+    content: "nameserver 192.0.2.1\n"     
 ```

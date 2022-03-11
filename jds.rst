@@ -55,7 +55,9 @@ tea for two (deck building funky)
 La mascarade des frères Grimm (trouve l identite en fonction des action, gros jeu)
 Dilemme Express (persuade le conducteur qui va ecraser)
 deadlines (chrono ++)
-
+khora (mega intuitif)
+k3
+welcome to the moon (1-6) court ou long, histoire, petit plateau
 
 insider
 love letter
@@ -64,5 +66,5 @@ master word
 similo !!!!!
 super cats !!!!
 
-
+CULINARIO MORTALE (dora des ecles)
 

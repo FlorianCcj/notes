@@ -1,5 +1,5 @@
 - fiches:
-  - 
+  -
     title: bash-how to replace a str in an str
     tags:
       - bash
@@ -12,7 +12,7 @@
       just remove: echo ${stringZ/abc}
       remove all: echo ${stringZ//abc}
       slash replacement: $(site//\//_)
-  - 
+  -
     title: bash-for
     tags:
       - bash
@@ -26,7 +26,7 @@
       for site in ${sites[*]}; do
         ...
       done
-  - 
+  -
     title: bash-how to concat array
     tags:
       - bash
@@ -42,7 +42,7 @@
         $(echo ${old_hosts[*]})
         $(echo ${server[*]})
       )
-  - 
+  -
     title: bash-how to count lign
     tags:
       - bash
@@ -50,7 +50,7 @@
       - size
     content: >
       wc -l $1
-  - 
+  -
     title: vscode-how to autoindent
     tags:
       - vscode
@@ -66,7 +66,7 @@
       - unix
     content: >
       unetbootin
-  - 
+  -
     title: gitlab runner addon
     tag:
       - gitlab
@@ -125,7 +125,7 @@
     source: https://raymii.org/s/tutorials/Ansible_-_Only_if_a_file_exists_or_does_not_exist.html
     content: >
       - name: check if rules file exists
-        stat: 
+        stat:
           path: /etc/shorewall/rules
         register: shorewall_rules
       - name: example
@@ -183,7 +183,7 @@
       # make md5sum on all file
       find -type f -exec md5sum "{}" + >> test.chk
       # check md5
-      md5sum -c test.chk 
+      md5sum -c test.chk
 
       # add week number in calendar ubuntu 18.04
       gsettings set org.gnome.desktop.calendar show-weekdate true
@@ -200,7 +200,7 @@
       windows 10
       RMB begininf menu -> Windows PowerShell (admin)
       wmic path softwareLicensingService get OA3xOriginalProductKey
-  - 
+  -
     title: docker-compose multiple instance
     tag:
       - multi instance
@@ -235,12 +235,12 @@
     content:
       service docker stop
       mkdir /dockerData
-      
+
       vi /etc/default/docker.io
         DOCKER_OPTS="-g /dockerData"
-      
+
       service docker start
-  - 
+  -
     title: How to stop/kill a query in postgresql
     source: https://stackoverflow.com/questions/35319597/how-to-stop-kill-a-query-in-postgresql
     tag:
@@ -248,13 +248,13 @@
       - infinite request
       - kill request
     content: >
-      What I did is first check what are the running processes by 
+      What I did is first check what are the running processes by
       SELECT * FROM pg_stat_activity WHERE state = 'active';
       Find the process you want to kill, then type:
       SELECT pg_cancel_backend(<pid of the process>)
       If the process cannot be killed, try:
       SELECT pg_terminate_backend(<pid of the process>)
-  - 
+  -
     title: ansible loop on block of task
     tag:
       - ansible
@@ -351,7 +351,7 @@
       source venv/bin/activate
       pip install requests
       deactivate
-  - 
+  -
     title: pypi requirement
     source: https://docs.python-guide.org/dev/virtualenvs/
     tag:
@@ -360,7 +360,7 @@
     content: >
       pip freeze > requirements.txt
       pip install -r requirements.txt
-  - 
+  -
     title: python notebook
     tags:
       - pip
@@ -369,7 +369,7 @@
     content: >
       pip install jupyter
       jupyter notebook
-  - 
+  -
     title: raise error in python
     tags:
       - python
@@ -394,7 +394,7 @@
 
       git config --global core.hooksPath /path/to/my/centralized/hooks
       echo "Running pre-commit hook" > /path/to/my/centralized/hooks/pre-commit
-  - 
+  -
     title: git filemode
     tag:
       - git
@@ -405,7 +405,7 @@
       git config --global core.fileMode false
   -
     title: docker-bench-security for user
-    source: 
+    source:
       - https://github.com/docker/docker-bench-security
     tags:
       - docker
@@ -436,7 +436,7 @@
           docker/docker-bench-security \
           -e ${aborted_check} \
           -t <my docker>
-  - 
+  -
     title: bash loop
     source:
       - https://www.cyberciti.biz/faq/bash-for-loop/
@@ -459,7 +459,7 @@
 
       echo "Bash version ${BASH_VERSION}..."
       for i in {0..10..2}
-        do 
+        do
           echo "Welcome $i times"
       done
 
@@ -498,7 +498,7 @@
       - security
     content: >
       docker run --memory="1000M" --cpus="1"
-  - 
+  -
     title: lvm
     source: lm210
     tags:
@@ -518,17 +518,17 @@
         - adress on 64 bits
         - max 128 particion/disk
       UEFI: Unified Extensible Firmware Interface
-      peripherique physique (PP): 
+      peripherique physique (PP):
         - where you put data. bloc peripheric like disk partition, full disk, RAID matrice, SAN disk
         - need to be init as LVM physical volume to use it with LVM
       physical volume (PV): permit to init PP. LVM segment it in litle fragment
       Physical Etent (PE): litle fragment with which LMV manage PV
       Volum Group (VG): one or many PV, but one PV can only be on one VG
-      Logical Volume (LV): 
+      Logical Volume (LV):
         - create from free space in VG
         - deal stockage to services, application and OS
         - they are Logical Etents (LE) which map et PE
-        - smallest stockage unit of PV      
+        - smallest stockage unit of PV
       Prepare LV:
         - prepare PP (generaly hard drive)
         - convert it in PV to LVM
@@ -638,34 +638,34 @@
           to clear cache remove file and generate it again, before each test
         test:
           - data:
-            - 
+            -
               number: 100
               size: 10
-            - 
+            -
               number: 1000
               size: 10
-            - 
+            -
               number: 5000
               size: 10
-            - 
+            -
               number: 10000
               size: 10
-            - 
+            -
               number: 5000
               size: 10
-            - 
+            -
               number: 10000
               size: 10
-            - 
+            -
               number: 100
               size: 100
-            - 
+            -
               number: 1000
               size: 100
-            - 
+            -
               number: 5000
               size: 100
-            - 
+            -
               number: 10000
               size: 100
           - title: take all dir
@@ -745,7 +745,7 @@
       require("@babel/register")({
           presets: ["@babel/preset-env"]
       });
-        
+
         // Import the rest of our application.
       module.exports = require('./your-file.js');
 
@@ -778,7 +778,7 @@
       ```
       ```
       // index.js
-      import {getFileContent} from "./file_manager";      
+      import {getFileContent} from "./file_manager";
       const Simu = require('./simu');
       const test = new Simu();
       ```

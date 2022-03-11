@@ -74,11 +74,11 @@ p70 1h53
 * base solide avant d investissement speculatif
 
 * Definission de richesse
-  
+
   * Buckminster Fuller "La richesse est la capacite d une personne a survivre pendant de nombreuse journees dans l avenir... ou bien si je cessais de travailler aujourd hui, combien de temps pourrais je survivre ?"
   * ou la comparaison entre les revenus des actifs face aux depences
 
-* La difference entre chaque classe 
+* La difference entre chaque classe
 
   * Les riches achete des actif
   * Le pauvre n a que des depences
@@ -137,7 +137,7 @@ Notes
 p110 3h27
 
 * ce qu apporte une entreprise
-  * Les avantages fiscaux: on fait tout passer en note de frait et les impots descendent 
+  * Les avantages fiscaux: on fait tout passer en note de frait et les impots descendent
   * Une protection contre les actions financieres
 
 Questions additionnelles
@@ -182,7 +182,7 @@ questions additionnelles
 
 1. Donner un exemple personnel ou tirer de la vie de quelqu un d autre ou le manque de confiance en soit a ete un obstacle a l exploitassion d une bonne occasion
 2. Certaines personnes ont beaucoup d argent, mais ne parvinnent pas a payer leur facture, pourquoi ?
-3. Maintenant que vous avez developper votre intelligence financiere, en quoi pourriez vous dire qu elle vous aide a mieux reperer les bonnes affaires ? 
+3. Maintenant que vous avez developper votre intelligence financiere, en quoi pourriez vous dire qu elle vous aide a mieux reperer les bonnes affaires ?
 4. Actuellement comment plantez vous des graines dans votre colonne de l actif ? Si vous ne le faites pasm que pourriez vous faire pour vous y mettre ?
 5. Robert parle de deux type d investisseurs ceux qui achetent un placement fin pret et ceux qui creer des investissements, a quel type appartenez vous ? est ce que ca vous plait ?
 6. Quel role la peur de l echec a t il jouer dans votre vie et comment cette peur vous a empechez de tirer partie de bonne occasion ? Que pouvez vous faire pour la surmonter ?

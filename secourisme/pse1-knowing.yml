@@ -1,7 +1,7 @@
 -
   question: Qu est ce qu un P.A.P.S. ?
-  answer: > 
-    Point d alerte et de premier secours, 
+  answer: >
+    Point d alerte et de premier secours,
     generalement compose d un secouriste et d un equipier secouriste
 -
   question: Comment gerer un degagement d urgence sur le sol ?
@@ -115,4 +115,4 @@
       - dos
       - bassin
       - membres superieurs et inferieurs
-       
+     

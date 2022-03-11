@@ -66,8 +66,8 @@ dans le tsconfig.json
 * CoreModule. In this module, the reducers and effects are initialized using the StoreModule andEffectsModule modules.
 
 install material:
-npm install @angular/material 
-npm install @angular/flex-layout 
+npm install @angular/material
+npm install @angular/flex-layout
 npm install @angular/cdk
 
 NgRX is composed of the following concepts:

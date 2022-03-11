@@ -26,7 +26,7 @@ Add vault to path
 Plugin
 ======
 
-plugin are located here: 
+plugin are located here:
 vault/builtin/credential/approle/cmd/approle
 
 Some other command
@@ -47,7 +47,7 @@ Client Conf
 * save_your_token: export VAULT_DEV_ROOT_TOKEN_ID="s.lAGjfIHZvoMqWWoy6chM1pjw"
 
 .. warning::
-    the ligne to export VAULT_TOKEN 
+    the ligne to export VAULT_TOKEN
 
 .. warning::
     Never print secret in your server history

@@ -92,7 +92,7 @@ Network policies
 ================
 
 
-@Todo
+TODO
 https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/
 https://kubernetes.io/docs/concepts/services-networking/network-policies/
 
@@ -103,9 +103,9 @@ no negation, purely additional
 scope:
 * namespace, node, control plane
 target:
-* user, 
-* group of user, 
-* "extra", 
+* user,
+* group of user,
+* "extra",
 * is the request is for API ressource
 * the request path
 
@@ -174,7 +174,7 @@ object:
 
     This clusterRoleBinding allows anyone in the manager group to read secrets in any namespace
 
-@Todo
+TODO
 =====
 
 * https://kubernetes.io/docs/reference/access-authn-authz/authorization/
