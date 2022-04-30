@@ -25,10 +25,11 @@ COPY . .
 RUN rm -rf build; mkdir build
 # no scan
 ARG FILE=htcpcp-sumup
+# first build to generate toc
 RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build ./src/${FILE}.tex
 RUN cp ./build/${FILE}.toc .
 RUN pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build ./src/${FILE}.tex
-RUN lacheck ./src/${FILE}.tex
+#RUN lacheck ./src/${FILE}.tex
 #RUN chktex ./src/k8s-sumup.tex
 
 #RUN find -name "*.tex" -exec pdflatex -synctex=1 -interaction=nonstopmode -output-directory=build '{}' \;

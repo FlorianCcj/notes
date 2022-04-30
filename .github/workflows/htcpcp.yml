@@ -1,0 +1,32 @@
+name: htcpcp pdf builder
+
+on:
+  push:
+    branches:
+      - 'master'
+    tags:
+      - 'v1.*'
+    paths:
+      - 'k8s-sumup'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          working_directory: 000-src/tex/k8s-sumup/
+          root_file: src/htcpcp-sumup.tex
+#      - uses: actions/upload-artifact@v2
+#        with:
+#          name: PDF
+#          path: main.pdf
+#   publish:
+#    needs: [build]
+#    runs-on: ubuntu-latest
+#    environment: production
+#    steps:
+#      - name: publish
+#        echo 'publishing'
