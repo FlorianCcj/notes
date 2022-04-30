@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'master'
+      - 'features/github-action'
     tags:
       - 'v1.*'
     paths:
