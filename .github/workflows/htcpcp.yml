@@ -20,10 +20,10 @@ jobs:
         with:
           working_directory: 000-src/tex/k8s-sumup/
           root_file: src/htcpcp-sumup.tex
-#      - uses: actions/upload-artifact@v2
-#        with:
-#          name: PDF
-#          path: main.pdf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: main.pdf
 #   publish:
 #    needs: [build]
 #    runs-on: ubuntu-latest
