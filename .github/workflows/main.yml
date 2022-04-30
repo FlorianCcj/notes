@@ -27,26 +27,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Set up Git repository
         uses: actions/checkout@v3
+      - name: Compile LaTeX document to generate toc
+        uses: xu-cheng/latex-action@v2
+        with:
+          working_directory: 000-src/tex/k8s-sumup/
+          root_file: src/htcpcp-sumup.tex
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           working_directory: 000-src/tex/k8s-sumup/
           root_file: src/htcpcp-sumup.tex
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line ls
-        run: ls 000-src/tex/k8s-sumup/
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line tree
-        run: tree 000-src/tex/k8s-sumup/
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line tree
-        run: apt install tree
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      - uses: actions/upload-artifact@v2
+        with:
+          name: htcpcp-sumup.pdf
+          path: htcpcp-sumup.pdf
