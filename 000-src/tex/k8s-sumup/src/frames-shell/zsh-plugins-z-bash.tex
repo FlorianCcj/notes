@@ -1,0 +1,25 @@
+\subsubsection{Zsh - Plugins - Z bash}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item https://github.com/rupa/z
+    \item For bash or zsh
+    \item Stat on browse directory (rank/date)
+    \item cd to most pertinent
+    \item Command
+    \begin{itemize}
+      \item z part\_of\_the\_name
+      \item z -e part\_of\_the\_name: echo the best match
+      \item z -l part\_of\_the\_name: list all match by frequency
+      \item z foo bar: cd to most frecent dir matching foo, then bar
+    \end{itemize}
+    \item Options
+    \begin{itemize}
+      \item Set \$\_Z\_CMD to change the command name (default z).
+      \item Set \$\_Z\_DATA to change the datafile (default \$HOME/.z).
+      \item Set \$\_Z\_MAX\_SCORE  lower  to  age  entries  out faster (default 9000).
+      \item Set \$\_Z\_NO\_RESOLVE\_SYMLINKS to prevent symlink resolution.
+      \item Set \$\_Z\_NO\_PROMPT\_COMMAND to handle PROMPT\_COMMAND/precmd yourself.
+      \item Set \$\_Z\_EXCLUDE\_DIRS to an array of directory trees to exclude.
+    \end{itemize}
+  \end{itemize}
+\end{frame}

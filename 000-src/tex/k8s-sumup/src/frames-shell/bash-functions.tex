@@ -1,0 +1,22 @@
+\subsubsection{Bash - Functions}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{lstlisting}
+# function is not mandatory
+function myfunc() {
+  echo "hello $1"
+}
+if myfunc; then
+  echo "success"
+else
+  # to raise errors
+  echo "failure"
+fi
+  \end{lstlisting}
+  \begin{itemize}
+    \item \$\# Number of arguments
+    \item \$\* All positional arguments (as a single word)
+    \item \$\@ All positional arguments (as separate strings)
+    \item \$1 First argument
+    \item \$\_ Last argument of the previous command
+  \end{itemize}
+\end{frame}

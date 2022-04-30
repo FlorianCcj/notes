@@ -1,0 +1,21 @@
+\subsubsection{Bash - Options}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item Options
+    \begin{itemize}
+      \item set -o noclobber \# Avoid overlay files ($echo 'hi' > foo$)
+      \item set -o errexit \# Used to exit upon error, avoiding cascading errors
+      \item set -o pipefail \# Unveils hidden failures
+      \item set -o nounset \# Exposes unset variables
+    \end{itemize}
+    \item Glob options
+    \begin{itemize}
+      \item shopt
+      \item shopt -s nullglob \# Non-matching globs are removed  ('*.foo' $=>$ '')
+      \item shopt -s failglob \# Non-matching globs throw errors
+      \item shopt -s nocaseglob \# Case insensitive globs
+      \item shopt -s dotglob \# Wildcards match dotfiles ($'{}*.sh' => '.foo.sh'$)
+      \item shopt -s globstar \# Allow ** for recursive matches ($'lib/**/*.rb' => 'lib/a/b/c.rb'$)
+    \end{itemize}
+  \end{itemize}
+\end{frame}

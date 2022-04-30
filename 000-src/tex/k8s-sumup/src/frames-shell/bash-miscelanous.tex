@@ -1,0 +1,20 @@
+\subsubsection{Bash - Miscelanous}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item Comment
+    \begin{itemize}
+      \item \texttt{\# Single line comment}
+      \item \texttt{' You can make this comment on multiline '}
+    \end{itemize}
+    \item \$\{\#FOO\} $=>$ Length of FOO
+    \item Default values
+    \begin{itemize}
+      \item \$\{FOO:-val\} \$FOO, or val if unset (or null)
+      \item \$\{FOO:=val\} Set \$FOO to val if unset (or null)
+      \item \$\{FOO:+val\} val if \$FOO is set (and not null)
+      \item \$\{FOO:?message\} Show error message and exit if \$FOO is unset (or null)
+      \item Omitting the \texttt{:} removes the (non)nullity checks
+    \end{itemize}
+    \item source: https://devhints.io/bash
+  \end{itemize}
+\end{frame}

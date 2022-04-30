@@ -1,0 +1,52 @@
+\subsubsection{Bash - Substitution}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item \texttt{Basics}
+    \begin{itemize}
+      \item name='John'
+      \item echo \$\{name\}
+      \item echo \$\{name/J/j\} $=>$ `john' (substitution)
+      \item echo \$\{name:0:2\} $=>$ `Jo' (slicing)
+      \item echo \$\{name:0:length\} $=>$ `Jo' (slicing with length=2)
+      \item echo \$\{name::2\} $=>$ `Jo' (slicing)
+      \item echo \$\{name::-1\} $=>$ `Joh' (slicing)
+      \item echo \$\{name:(-1)\} $=>$ `n' (slicing from right)
+      \item echo \$\{name:(-2):1\} $=>$ `h' (slicing from right)
+      \item echo \$\{food:-Cake\} $=>$ \$food or `Cake'
+    \end{itemize}
+    \item \texttt{File path}
+    \begin{itemize}
+      \item STR=`/path/to/foo.cpp'
+      \item echo \$\{STR\%.cpp\} $=>$ /path/to/foo
+      \item echo \$\{STR\%.cpp\}.o $=>$ /path/to/foo.o
+      \item echo \$\{STR\%/*\} $=>$ /path/to
+      \item echo \$\{STR\#\#*.\} $=>$ cpp (extension)
+      \item echo \$\{STR\#\#*/\} $=>$ foo.cpp (basepath)
+      \item echo \$\{STR\#*/\} $=>$ path/to/foo.cpp
+      \item echo \$\{STR/foo/bar\} $=>$ /path/to/bar.cpp
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item \texttt{Substitution}
+    \begin{itemize}
+      \item \$\{FOO\%suffix\} 	Remove suffix
+      \item \$\{FOO\#prefix\} 	Remove prefix
+      \item \$\{FOO\%\%suffix\} 	Remove long suffix
+      \item \$\{FOO\#\#prefix\} 	Remove long prefix
+      \item \$\{FOO/from/to\} 	Replace first match
+      \item \$\{FOO//from/to\} 	Replace all
+      \item \$\{FOO/\%from/to\} 	Replace suffix
+      \item \$\{FOO/\#from/to\} 	Replace prefix
+    \end{itemize}
+    \item \texttt{Manipulation}
+    \begin{itemize}
+      \item echo \$\{STR,\} $=>$ lowercase 1st letter
+      \item echo \$\{STR,,\} $=>$ all lowercase
+      \item echo \$\{STR\textasciicircum{}\} $=>$ uppercase 1st letter
+      \item echo \$\{STR\textasciicircum{}\textasciicircum{}\} $=>$ all uppercase
+    \end{itemize}
+  \end{itemize}
+\end{frame}

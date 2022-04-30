@@ -1,0 +1,7 @@
+local_resource(
+  "htcpcp: build",
+  cmd="bash ./builder/build.sh",
+  auto_init=False,
+  trigger_mode=TRIGGER_MODE_AUTO,
+  deps=['./src']
+)

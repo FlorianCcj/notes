@@ -1,0 +1,17 @@
+\subsubsection{Zsh - Options}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+    \item $setops/nosetops$ active or unactive an option
+    \item $NO\_BEEP$: set, that annoying beep goes away,
+    \item $NO\_LIST\_BEEP$:, beeping is only turned off for ambiguous completions,
+    \item $AUTO\_CD$: You can change directory without $cd$
+    \item $CD\_ABLE\_VARS$: If you $cd foo$ and there is no directory $foo$, zsh will try to $cd  \$foo$
+    \item $CORRECT, CORRECT\_ALL$: zsh will check if you miss spells your command
+    \item Examples:
+    \begin{itemize}
+    \item setopt glob bareglobqual nullglob rcexpandparam extendedglob unset
+    \item unsetopt markdirs globsubst shwordsplit shglob ksharrays cshnullglob
+    \item unsetopt allexport aliases errexit octalzeroes
+    \end{itemize}
+  \end{itemize}
+\end{frame}

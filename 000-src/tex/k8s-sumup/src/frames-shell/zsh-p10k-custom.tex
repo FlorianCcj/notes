@@ -1,0 +1,22 @@
+\subsubsection{Zsh - Plugins - p10k}
+\begin{frame}[fragile]{\subsubsecname}
+  \begin{itemize}
+  \item to make your custom segment you need to begin your function by $prompt$
+  \item it is recommend to begin by $my\_$ to avoid future conflict
+  \begin{lstlisting}
+function prompt_my_cpu_temp() {
+  integer cpu_temp="$(</sys/class/thermal/thermal_zone0/temp) / 1000"
+  if (( cpu_temp >= 80 )); then
+    p10k segment -s HOT -f red -t "${cpu_temp}"
+  elif (( cpu_temp >= 60 )); then
+    p10k segment -s WARN -f yellow -t "${cpu_temp}"
+  fi
+}
+  \end{lstlisting}
+  \item then add $my\_cpu\_temp$ to
+  \begin{itemize}
+    \item $POWERLEVEL9K\_RIGHT\_PROMPT\_ELEMENTS$
+    \item or $POWERLEVEL9K\_LEFT\_PROMPT\_ELEMENTS$
+  \end{itemize}
+\end{itemize}
+\end{frame}
