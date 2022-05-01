@@ -141,7 +141,7 @@ L'aventurier émotionnel - Obtenir une haute valeur sociale
 
 Interet a prouver a la femme que l on a des ressources, pas necessairement de l argent mais des ressources en general
 
-Fitness: la quapacite d etre apte a remplir un role ou une tache particuliere
+Fitness: la capacite d etre apte a remplir un role ou une tache particuliere
 
 Le push pull ou le chaud froid
 
@@ -199,7 +199,6 @@ Le but est de recuperer les 4 petales et pas le 5e
   * discuter avec les emotions positive, l inosence et le reve
   * "tu me rappele une connaissance que j avais au cp, d ailleur tu etais comment quand tu etait petite"
 
-
 * Petale 3: Futuriser
 
   * si tu devais voir un tableau avec tout ce que tu desires, il ressemblerait a quoi ? un enorme taleau avec tout ce que tu voudrais, et toi en son centre, quels seraient ses couleurs, ses aspects, son humeur, etc
@@ -207,7 +206,6 @@ Le but est de recuperer les 4 petales et pas le 5e
 * Petale 4: Associer a soi
 * Petale 5: Dissocier de soi
 * Resultat: si 4 petales Gain de la confiance de la femme
-
 
 Le fractionnement
 =================
