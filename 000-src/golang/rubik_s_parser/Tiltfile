@@ -1,0 +1,26 @@
+# -*- mode: Python -*-
+
+Rubik_s_Parser_Prefix="Rubik_s_Parser"
+
+rubik_s_parser_run_commmand="go run cmd/rubik_s_parser/main.go"
+rubik_s_parser_lint_commmand="golangci-lint run ./..."
+
+rubik_s_parser_go_source=[]
+#rubik_s_parser_go_source+=['./cmd/rubik_s_parser',]
+rubik_s_parser_go_source+=['./cmd/rubik_s_parser/main.go',]
+
+# -------------------------------------------------
+# Ressource Rubik_s_Parser
+# -------------------------------------------------
+
+local_resource(
+  name=Rubik_s_Parser_Prefix + ':Run',
+  cmd=rubik_s_parser_run_commmand,
+  deps=rubik_s_parser_go_source
+)
+
+local_resource(
+  name=Rubik_s_Parser_Prefix + ':Lint',
+  cmd=rubik_s_parser_lint_commmand,
+  deps=rubik_s_parser_go_source
+)
