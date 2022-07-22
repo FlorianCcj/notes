@@ -1,0 +1,8 @@
+---
+golang_cleanup:
+  - /usr/local/go
+golang_version: go1.18.4.linux-amd64
+golang_tar_url: "https://go.dev/dl/{{ golang_version }}.tar.gz"
+golang_path_to_install: /usr/local/go
+
+golang_golangci_lint_url: https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh

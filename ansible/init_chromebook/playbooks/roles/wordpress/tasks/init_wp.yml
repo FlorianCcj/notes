@@ -1,0 +1,6 @@
+---
+- name: "Initialize admin configuration"
+  uri:
+    url: "{{ wordpress_acces_url }}/wp-admin/install.php?step=2"
+    method: POST
+    body: "weblog_title={{ wordpress_config_site_title }}&user_name={{ wordpress_config_admin_username }}&admin_password={{ wordpress_config_admin_password }}&admin_password2={{ wordpress_config_admin_password }}&admin_email={{ wordpress_config_admin_mail | regex_replace('@', '%40') }}&blog_public=0&Submit=Install+WordPress&language={{ wordpress_config_language }}"

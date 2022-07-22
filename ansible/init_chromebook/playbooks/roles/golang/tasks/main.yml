@@ -1,0 +1,4 @@
+---
+- import_tasks: install_go.yml
+
+- import_tasks: install_lint.yml

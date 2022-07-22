@@ -1,0 +1,6 @@
+
+#Tiltfile_to_load="Tiltfile.wp"
+Tiltfile_to_load="Tiltfile.install_pc"
+
+if os.path.exists(Tiltfile_to_load):
+  load_dynamic(Tiltfile_to_load)

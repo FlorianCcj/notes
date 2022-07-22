@@ -1,13 +1,22 @@
+---
 - name: Installation initial task
   hosts: all
   vars:
     non_root_docker_users: []
+    current_user: "florianccj"
   vars_files:
     - vars/playbook.yml
     - vars/template.yml
 #  roles:
 #    - geerlingguy.docker
   tasks:
+    - name: "create directory in opt fur user"
+      ansible.builtin.file:
+        path: "/opt/florianccj"
+        state: directory
+        mode: "0755"
+        owner: "{{ current_user }}"
+        group: "{{ current_user }}"
     - import_tasks: tasks/apt_update.yml
       tags: "update"
     - import_tasks: tasks/vital_packages.yml
@@ -46,6 +55,9 @@
         name: "flutter"
       tags: "flutter"
     - import_role:
+        name: "golang"
+      tags: "golang"
+    - import_role:
         name: "appimage_builder"
       tags: "appimage_builder"
     - import_tasks: tasks/install_vscode.yml
@@ -57,11 +69,17 @@
         name: "docker"
       tags: "docker"
     - import_role:
+        name: "kubectl"
+      tags: "kubectl"
+    - import_role:
         name: "android_studio"
       tags: "android_studio"
     - import_role:
         name: "anki"
       tags: "anki"
+    - import_role:
+        name: "tilt"
+      tags: "tilt"
 
 - name: Installation communication roles
   hosts: all

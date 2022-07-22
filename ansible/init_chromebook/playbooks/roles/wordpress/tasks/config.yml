@@ -1,0 +1,29 @@
+---
+- name: "Create wordpress directory if not exist"
+  ansible.builtin.file:
+    path: "{{ wordpress_config_dir}}"
+    state: directory
+    owner: "{{ wordpress_system_user }}"
+    group: "{{ wordpress_system_group }}"
+
+- name: "Create volume directory"
+  ansible.builtin.file:
+    path: "{{ item }}"
+    state: directory
+  loop:
+    - "{{ wordpress_docker_data_volume_path }}"
+    - "{{ wordpress_docker_db_volume_path }}"
+
+- name: "Deploy docker-compose wp env file: {{ wordpress_docker_compose_dir_path }}/wordpress.env"
+  template:
+    src: "opt/user/WP/wordpress.env.j2"
+    dest: "{{ wordpress_docker_compose_dir_path }}/wordpress.env"
+    mode: 0644
+  notify: "restart wordpress docker-compose"
+
+- name: "Deploy docker-compose db env file: {{ wordpress_docker_compose_file_path }}/db.env"
+  template:
+    src: "opt/user/WP/db.env.j2"
+    dest: "{{ wordpress_docker_compose_dir_path }}/db.env"
+    mode: 0644
+  notify: "restart wordpress docker-compose"

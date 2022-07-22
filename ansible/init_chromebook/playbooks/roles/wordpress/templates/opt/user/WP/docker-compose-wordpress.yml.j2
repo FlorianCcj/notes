@@ -1,0 +1,38 @@
+---
+{{ ansible_managed | comment }}
+
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: {{ wordpress_docker_image }}
+    restart: always
+    ports:
+      - {{ wordpress_docker_port_exposition }}:80
+    env_file:
+    - wordpress.env
+    volumes:
+      - wordpress:/var/www/html
+
+  db:
+    image: {{ wordpress_docker_db_image }}
+    restart: always
+    env_file:
+    - db.env
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  wordpress:
+    driver: local
+    driver_opts:
+      type: none
+      o: 'bind'
+      device: '{{ wordpress_docker_data_volume_path }}'
+  db:
+    driver: local
+    driver_opts:
+      type: none
+      o: 'bind'
+      device: '{{ wordpress_docker_db_volume_path }}'

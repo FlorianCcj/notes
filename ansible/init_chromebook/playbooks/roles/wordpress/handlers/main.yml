@@ -1,0 +1,3 @@
+---
+- name: "restart wordpress docker-compose"
+  include_tasks: "restart_docker_compose.yml"

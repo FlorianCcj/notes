@@ -1,0 +1,18 @@
+---
+- name: Install wordpress
+  hosts: all
+  tasks:
+    - import_role:
+        name: "wordpress"
+      tags: "wordpress.install"
+
+- name: Uninstall wordpress
+  hosts: all
+  vars:
+    wordpress_uninstall: "default is install"
+  tasks:
+    - import_role:
+        name: "wordpress"
+        tasks_from: "uninstall"
+      tags: "wordpress.uninstall"
+      when: wordpress_uninstall == 'just_uninstall_that'

@@ -1,0 +1,5 @@
+---
+- name: "Install docker-compose python package"
+  pip:
+    name: docker-compose
+    executable: "{{ wordpress_pip }}"

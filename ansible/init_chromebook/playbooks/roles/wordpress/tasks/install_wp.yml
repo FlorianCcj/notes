@@ -1,0 +1,23 @@
+---
+- name: "Deploy docker-compose file: {{ wordpress_docker_compose_file_path }}"
+  template:
+    src: "opt/user/WP/docker-compose-wordpress.yml.j2"
+    dest: "{{ wordpress_docker_compose_file_path }}"
+    mode: 0644
+  notify: "restart wordpress docker-compose"
+
+- name: "Launch service: {{ wordpress_docker_compose_file_path }}"
+  community.docker.docker_compose:
+    project_src: "{{ wordpress_docker_compose_dir_path }}"
+    files:
+    - "{{ wordpress_docker_compose_file_name }}"
+    state: present
+
+- name: "Wait_for docker-compose up"
+  uri:
+    url: "{{ wordpress_acces_url }}/wp-admin/install.php?step=2"
+  register: _test_result_curl_main_page
+  until: _test_result_curl_main_page.status == 200
+  retries: 60
+  delay: 1
+  changed_when: false

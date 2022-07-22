@@ -1,0 +1,35 @@
+---
+- name: "Check if docker-compose file exist"
+  stat:
+    path: "{{ wordpress_docker_compose_file_path }}"
+  register: _test_docker_compose_changed
+  tags:
+    - wordpress.uninstall_service
+
+- debug:
+    var: _test_docker_compose_changed
+
+- name: "Remove service"
+  docker_compose:
+    project_src: "{{ wordpress_docker_compose_dir_path }}"
+    files:
+    - "{{ wordpress_docker_compose_file_name }}"
+    remove_volumes: "{{ wordpress_docker_uninstall_remove_volumes }}"
+    state: absent
+  when: _test_docker_compose_changed.stat.exists
+  tags:
+    - wordpress.uninstall_service
+
+- name: "Remove installed data"
+  file:
+    path: "{{ item }}"
+    state: absent
+  loop:
+    - "{{ wordpress_docker_compose_file_path }}"
+    - "{{ wordpress_docker_data_volume_path }}"
+    - "{{ wordpress_docker_db_volume_path }}"
+    - "{{ wordpress_docker_compose_dir_path }}"
+    - "{{ wordpress_config_dir }}"
+  become: yes
+  tags:
+    - wordpress.remove

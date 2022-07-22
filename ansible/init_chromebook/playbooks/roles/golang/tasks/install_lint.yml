@@ -1,0 +1,26 @@
+---
+- name: "create directory to install golang lint"
+  become: yes
+  file:
+    path: "{{ golang_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+
+- name: "get golangci lint installer: {{ golang_path_to_install }}/golangci-lint-install.sh"
+  become: yes
+  get_url:
+    url: "{{ golang_golangci_lint_url }}"
+    dest: "{{ golang_path_to_install }}/golangci-lint-install.sh"
+    mode: +x
+
+- name: "install golangci lint"
+  ansible.builtin.shell: "{{ golang_path_to_install }}/golangci-lint-install.sh -b {{ golang_path_to_install }}/go/bin"
+  become: yes
+
+- name: "Add go to path"
+  import_role:
+    name: "env_vars"
+  vars:
+    env_vars_list:
+      - "export PATH=$PATH:{{ golang_path_to_install }}/go/bin"

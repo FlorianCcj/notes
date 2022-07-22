@@ -1,0 +1,23 @@
+---
+- name: "create directory to install golang"
+  become: yes
+  file:
+    path: "{{ golang_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+
+- name: "install go from url tar"
+  ansible.builtin.unarchive:
+    src: "{{ golang_tar_url }}"
+    dest: "{{ golang_path_to_install }}"
+    remote_src: yes
+  become: yes
+
+- name: "Add go to path"
+  import_role:
+    name: "env_vars"
+  vars:
+    env_vars_list:
+      - "export PATH=$PATH:{{ golang_path_to_install }}/go/bin"
+      - "export GOPATH=$HOME/go"

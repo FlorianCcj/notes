@@ -1,0 +1,31 @@
+---
+# System
+wordpress_config_dir: "/opt/florianccj/WP"
+wordpress_docker_compose_dir_path: "{{ wordpress_config_dir }}"
+wordpress_docker_compose_file_name: "docker-compose-wordpress.yml"
+wordpress_docker_compose_file_path: "{{ wordpress_docker_compose_dir_path }}/{{ wordpress_docker_compose_file_name }}"
+wordpress_docker_data_volume_path: "{{ wordpress_config_dir }}/wp-data"
+wordpress_docker_db_image: "mysql:5.7"
+wordpress_docker_db_volume_path: "{{ wordpress_config_dir }}/db-data"
+#wordpress_docker_image: "wordpress:5.9"
+wordpress_docker_image: "wordpress:6.0.0-php8.1-fpm"
+wordpress_docker_port_exposition: 8080
+wordpress_docker_uninstall_remove_volumes: yes
+wordpress_pip: "pip3"
+wordpress_system_group: "{{ wordpress_system_user }}"
+wordpress_system_user: "florianccj"
+
+# Conf Db
+wordpress_db_host: db
+wordpress_db_name: exampledb
+wordpress_db_password: examplepass
+wordpress_db_random_root_password: "true"
+wordpress_db_user: exampleuser
+
+# Conf wordpress
+wordpress_acces_url: "http://localhost:{{ wordpress_docker_port_exposition }}"
+wordpress_config_admin_mail: "site@mail.com"
+wordpress_config_admin_password: "site_p4ssw0r_d"
+wordpress_config_admin_username: "site_username"
+wordpress_config_language: "en_US"
+wordpress_config_site_title: "site_title"

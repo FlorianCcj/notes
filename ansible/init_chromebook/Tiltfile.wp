@@ -1,0 +1,80 @@
+# -*- mode: Python -*-
+
+print('Hello,')
+print('This Tiltfile permit to manipulate wordpress installation')
+
+# -----------
+# Get config
+# -----------
+
+# to pass list of argument
+#config.define_string_list("pwd_path", args=True)
+config.define_string("pwd_path")
+# get values
+cfg = config.parse()
+
+if cfg == {}:
+  print("No config file, or empty found")
+
+# ---------------------------
+# Generation ansible command
+# ---------------------------
+
+Tilt_ansible_playbook_cmd = "ansible-playbook "
+Tilt_ansible_playbook_cmd += "-i hosts.ini "
+Tilt_ansible_playbook =  "playbooks/install_wordpress.yml "
+
+# To remove ansible will need root right
+# you can init need variable in a yaml file
+# Exemple
+# # my_pwd.yml
+# ansible_ssh_user: <my super user>
+# ansible_ssh_pass: <my super pwd>
+# ansible_become_pass: <my super pwd>
+if 'pwd_path' in cfg:
+  Tilt_ansible_playbook_cmd+="-e '@" + cfg['pwd_path'] + "' "
+
+# -----------------------
+# Installation resources
+# -----------------------
+
+# Tilt resource to install wordpress
+local_resource(
+  name="wordpress:deploy_service",
+  cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook,
+  auto_init=False,
+  trigger_mode=TRIGGER_MODE_AUTO,
+  #trigger_mode=TRIGGER_MODE_MANUAL,
+  deps=[
+    "playbooks/install_wordpress.yml",
+    "playbooks/roles/wordpress",
+  ],
+)
+
+# --------------------
+# Uninstall resources
+# --------------------
+
+# Tilt resource to uninstall wordpress
+local_resource(
+  name="wordpress:remove_total",
+  cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + "-t wordpress.uninstall -e wordpress_uninstall='just_uninstall_that'",
+  auto_init=False,
+  trigger_mode=TRIGGER_MODE_MANUAL,
+  deps=[
+    "playbooks/install_wordpress.yml",
+    "playbooks/roles/wordpress",
+  ],
+)
+
+# Tilt resource to uninstall wordpress
+local_resource(
+  name="wordpress:remove_service",
+  cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + "-t wordpress.uninstall -e wordpress_uninstall='just_uninstall_that' --skip-tags 'wordpress.remove'",
+  auto_init=False,
+  trigger_mode=TRIGGER_MODE_MANUAL,
+  deps=[
+    "playbooks/install_wordpress.yml",
+    "playbooks/roles/wordpress",
+  ],
+)

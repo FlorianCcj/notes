@@ -6,3 +6,15 @@
       - docker-ce
       - docker-ce-cli
       - containerd.io
+
+- name: "create soft dir: {{ docker_compose_path_to_install }}"
+  file:
+    path: "{{ docker_compose_path_to_install }}"
+    state: directory
+    mode: '0755'
+    recurse: yes
+- name: get docker-compose
+  get_url:
+    url: "{{ docker_compose_download_url }}"
+    dest: "{{ docker_compose_path_to_install }}/docker-compose"
+    mode: +x

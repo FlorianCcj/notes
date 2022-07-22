@@ -12,12 +12,14 @@
     state: directory
     mode: '0755'
     recurse: yes
+
 - name: "get anki"
   ansible.builtin.unarchive:
     src: "{{ anki_package_url }}"
     dest: "{{ anki_path_to_install }}"
     remote_src: yes
   become: yes
+
 - name: "launch anki install"
   ansible.builtin.command: "./install.sh"
   # installer need root write to create ‘/usr/local/share/anki’ dir

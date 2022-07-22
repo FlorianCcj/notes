@@ -1,31 +1,18 @@
 ---
-#- name: "create soft dir: {{ android_sdk_path_to_install }}"
-#  ansible.builtin.file:
-#    path: "{{ android_sdk_path_to_install }}"
-#    state: directory
-#    mode: '0755'
-#    recurse: yes
-#- name: "get android cli"
-#  ansible.builtin.unarchive:
-#    src: "{{ android_sdk_cli_dwl_url }}"
-#    dest: "{{ android_sdk_path_to_install }}"
-#    remote_src: yes
-#  notify:
-#    - command to launch
-#
-
 - name: "create soft dir: {{ android_studio_path_to_install }}"
   become: yes
   ansible.builtin.file:
     path: "{{ android_studio_path_to_install }}"
     state: directory
-    mode: '0755'
+    mode: "0755"
     recurse: yes
+
 - name: "get android studio"
   ansible.builtin.unarchive:
     src: "{{ android_studio_dwl_url }}"
     dest: "{{ android_studio_path_to_install }}"
     remote_src: yes
+
 - name: "add android studio alias"
   import_role:
     name: "env_vars"
@@ -34,6 +21,7 @@
       - "export ANDROID_SDK_ROOT='~/Android/Sdk/'"
   tags:
     - android_studio.env
+
 - name: "add android studio alias"
   import_role:
     name: "env_alias"

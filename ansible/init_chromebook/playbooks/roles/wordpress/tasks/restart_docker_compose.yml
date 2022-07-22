@@ -1,0 +1,13 @@
+---
+- name: "stop docker-compose"
+  community.docker.docker_compose:
+    project_src: "{{ wordpress_docker_compose_dir_path }}"
+    files:
+    - "{{ wordpress_docker_compose_file_name }}"
+    state: absent
+- name: "start docker-compose"
+  community.docker.docker_compose:
+    project_src: "{{ wordpress_docker_compose_dir_path }}"
+    files:
+    - "{{ wordpress_docker_compose_file_name }}"
+    state: present
