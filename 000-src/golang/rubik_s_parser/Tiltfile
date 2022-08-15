@@ -2,12 +2,14 @@
 
 Rubik_s_Parser_Prefix="Rubik_s_Parser"
 
-rubik_s_parser_run_commmand="go run cmd/rubik_s_parser/main.go"
-rubik_s_parser_lint_commmand="golangci-lint run ./..."
+rubik_s_parser_preset_commmand  = "GOPATH='" + os.path. abspath(".") + "';"
+rubik_s_parser_run_commmand     = rubik_s_parser_preset_commmand + "go run main.go"
+rubik_s_parser_install_commmand = rubik_s_parser_preset_commmand + "go install main.go"
+rubik_s_parser_lint_commmand    = "golangci-lint run ./..."
 
-rubik_s_parser_go_source=[]
-#rubik_s_parser_go_source+=['./cmd/rubik_s_parser',]
-rubik_s_parser_go_source+=['./cmd/rubik_s_parser/main.go',]
+rubik_s_parser_go_source = []
+#rubik_s_parser_go_source += ['./cmd/rubik_s_parser',]
+rubik_s_parser_go_source += ['./cmd/rubik_s_parser/main.go',]
 
 # -------------------------------------------------
 # Ressource Rubik_s_Parser
@@ -16,11 +18,20 @@ rubik_s_parser_go_source+=['./cmd/rubik_s_parser/main.go',]
 local_resource(
   name=Rubik_s_Parser_Prefix + ':Run',
   cmd=rubik_s_parser_run_commmand,
-  deps=rubik_s_parser_go_source
+  deps=rubik_s_parser_go_source,
+  labels=['build_and_run'],
+)
+
+local_resource(
+  name=Rubik_s_Parser_Prefix + ':Install',
+  cmd=rubik_s_parser_install_commmand,
+  deps=rubik_s_parser_go_source,
+  labels=['build_and_run'],
 )
 
 local_resource(
   name=Rubik_s_Parser_Prefix + ':Lint',
   cmd=rubik_s_parser_lint_commmand,
-  deps=rubik_s_parser_go_source
+  deps=rubik_s_parser_go_source,
+  labels=['QA'],
 )

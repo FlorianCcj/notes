@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+type sample struct {
+    name string
+}
+
+func main() {
+    var aaa int = 8
+    var ccc, bbb int = 10, 11
+
+    var (
+        ddd int
+        eee int    = 8
+        fff string = "a"
+    )
+
+    var z = sample{name: "test"}
+    p := sample{name: "test"} 
+
+    fmt.Println(aaa)
+}

@@ -1,0 +1,51 @@
+A > 2x2 + B --- H + ABA(B) + 2x1 out --- H + AA’ out --- B + 2x1 out + AA’ in
+E > NoB noH no block
+F > 3x1 + No 2x1 --- B + AB(AB)
+GaGc > H + 2x1 out + ABA(B’) --- H + ABA(B) + A’B’ --- B + 2x in (RGGOBR) --- B + AB(A) + AXA’
+GbGd > H + ABA(XBA) --- H + AB out --- B + 2x1 out + AB in --- B + 2x1 in (BGG ORB)
+H > 2H + E opposite
+J > 3x1 + 2x1 --- B + 2*2x1
+N > No B + 2*2x1
+R > H + 2x1 in + Corner and Edge ≠ color --- H + ABA(AB) --- B + AB(A) + AA’ in --- B + 2x1 out + AB(A) + no AA’
+T > H + 2x1 in + Corner and Edge same color --- B + 2x1 out + 4 color + no AA’
+U > H + 3x1 --- 2H + 1 edge adj + 1 edge opp --- 2H + 2 edge adj + 1 same color than H
+V > 2x2 + No B --- No H no B + 2x1 out --- No B + AB(AB)
+Y > 2*2x1 out --- No B no H + 2x1 in + same color around 2x1 --- No B No H + ABX(YAB)
+Z > 2H + Edge same color than H --- 2H + Edge not opposite color
+
+2x2 + B > A
+H + ABA(B) + 2x1 out > A
+H + AA’ out > A
+B + 2x1 out + AA’ in > A
+NoB noH no block > E
+3x1 + No 2x1 > F
+B + AB(AB) > F
+H + 2x1 out + ABA(B’) > GaGc
+H + ABA(B) + A’B’ > GaGc
+B + 2x in (RGGOBR) > GaGc
+B + AB(A) + AXA’ > GaGc
+H + ABA(XBA) > GbGd
+H + AB out > GbGd
+B + 2x1 out + AB in > GbGd
+B + 2x1 in (BGG ORB) > GbGd
+2H + E opposite > H
+3x1 + 2x1 > J
+B + 2*2x1 > J
+No B + 2*2x1 > N
+H + 2x1 in + Corner and Edge ≠ color > R
+H + ABA(AB) > R
+B + AB(A) + AA’ in > R
+B + 2x1 out + AB(A) + no AA’ > R
+H + 2x1 in + Corner and Edge same color > T
+B + 2x1 out + 4 color + no AA’ > T
+H + 3x1 > U
+2H + 1 edge adj + 1 edge opp > U
+2H + 2 edge adj + 1 same color than H > U
+2x2 + No B > V
+No H no B + 2x1 out > V
+No B + AB(AB) > V
+2*2x1 out > Y
+No B no H + 2x1 in + same color around 2x1 > Y
+No B No H + ABX(YAB) > Y
+2H + Edge same color than H > Z
+2H + Edge not opposite color > Z

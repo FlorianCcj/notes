@@ -1,0 +1,19 @@
+COLL T - One side right-new>l'U'LU R U'L'U
+COLL T - One side right-old>l'U'LU l F'L'F
+COLL T - One side left-new>rUR'U' L 'URU' x'
+COLL T - One side left-old>rUR'U' r'FRF'
+COLL T - same front and back>RU2R'U'RU' R2U2RUR'UR
+COLL T - oposite front same back>F RUR'U' RU'R' U'RUR' F'
+COLL T - same front oposite back>RU'R'U2 L RU'R' UL
+COLL T - same front oposite back (from back)>R'URU2 L' R'UR U'L
+COLL T - two side (from back)>R'UR2Dr'U2rD'R2U'R
+COLL H - two side>RU2R'U' RUR'U' RU'R
+COLL H - same front back>F(RUR'U')3F'
+COLL H - same front>U' RUR' URU L' UR'U' L
+COLL H - same right>U F RU'R'U RU2 R'U' RUR'U' F'
+COLL set L - up opposite fUL and FuR diff>rURU' L'UR'U'
+COLL set L - up opposite fUL and FuR same>U' l'U'L'URU'LU
+COLL set L - up same FuL and FUr not oposite>RU2R D R'U2R D' R2
+COLL set L - up same FuL and FUr oposite>U' R'U2R' D' RU2R' D R2
+COLL set L - up adj FuL and fUR same>RU2R'U' (RUR'U')2 RU'R'
+COLL set L - up adj FuL and fUR oposite>R'U'RU R'F' RUR'U' R'F R2

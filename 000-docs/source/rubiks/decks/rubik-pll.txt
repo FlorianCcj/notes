@@ -1,0 +1,29 @@
+Aa>(x') R'DR' U2 RD'R' U2R2 (13 htm) (x'=R)
+Ab>(x') LD'L U2 L'DL U2L2 (13 htm) (x'=R)
+E>(x') RU'R' D RUR' D' RUR' D RU'R' D' (17 htm) (x'=R)
+H>M2UM2 U2 M2UM2 (12 htm)
+Ua>(L'U'LU)(RUR'U')(U'L'UL)(URU'R') (16 htm)
+Ua sm>SM(LU)' SM SM(UL)' SM(UR) (16 htm)
+Ua(short)>M2U'M'U2MU'M2 (10 htm)
+Ub(short)>M2UM'U2MUM2 (10 htm)
+Ub>(RUR'U')(L'U'LU)(URU'R')(U'L'UL) (16 htm)
+Ub sm>SM SM(LU)' SM(UR) SM(UL)' (16 htm)
+Z>(M2U)2 M' U2M2U2 M' (14 htm)
+F>(R'URU') R2 (F'U'FU) (RFR'F') R2U' (17 htm)
+F sm>SM(R'U) R2 SM(FU)' SM(RF) R2U' (17 htm)
+Ga>Nop
+Gb>Nop
+Gc>Nop
+Gd>Nop
+Ja>L'U2LUL'U2 RU'LUR' (13 htm)
+Jb>RU2R'U'RU2 L'UR'U'L (13 htm
+Na>(r' D r U2)5
+Nb>(lD'l'U2)5
+Ra>Todo
+Rb>Todo
+T>RUR'U' R'F R2 U'R'U' RUR'F' (15 htm)
+T sm>SM R'F R2 U'R'U' RUR'F (15 htm)
+V>Todo
+Y>(RUR'U') (R'FRF') (RUR'U') R'F R2 (U'R'UR) UR'F' (23 htm)
+Y sm>SM SM(R'F) SM R'F R2 SM(UR)' UR'F' (23 htm)
+Y(short)>(R'U'R) U'LR U2 (R'U'R) U2 L'UR2UR (19 htm)

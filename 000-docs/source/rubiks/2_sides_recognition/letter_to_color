@@ -1,0 +1,23 @@
+letter to color
+
+if a = g
+b = r
+c = b
+d = o
+
+if a = r
+b = b
+c = o
+d = g
+
+if a = b
+b = o
+c = g
+d = r
+
+if a = o
+b = g
+c = r
+d = b
+
+https://www.youtube.com/watch?v=hDmWOsOU_Ko

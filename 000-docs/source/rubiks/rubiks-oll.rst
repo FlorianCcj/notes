@@ -126,6 +126,68 @@ sexy miss move, double sexy move, sexy reverse up
 U2 FR'F'r URU'r' (8 HTM)
 ---
 
+(cross) OLL27 - S - Sune
+(cross) OLL26 - S- - AntiSune
+(cross) OLL21 - H - cross
+(cross) OLL22 - Pi - T shirt
+(cross) OLL23 - U - Superman
+(cross) OLL24 - T - Chameleon
+(cross) OLL25 - L - Spaceship
+(point) OLL01 - Blank>RU2R' (R'FRF') U2 (R'FRF')
+(point) OLL02 - Zambboni
+(point) OLL03 - Antimouse
+(point) OLL04 - Mouse
+(point) OLL17 - Slash
+(point) OLL18 - Crown
+(point) OLL19 - Bunny
+(P) OLL31 - Couch
+(P) OLL32 - AntiCouch
+(P) OLL43 - Anti P(b)>f' (L'U'LU)  f
+(P) OLL43 - Anti P(p)>F' (U'L'UL)  F
+(P) OLL44 - P(d)>f (RUR'U') f'
+(P) OLL44 - P(p)>F (URU'R') F'
+(W) OLL36 - Wario>RUR'U RU'R'U' R'FRF'
+(W) OLL38 - Mario>L'U'LU' L'ULU LF'L'F
+(L) OLL48 - Breakneck>F (RUR'U')2 F'
+(L) OLL47 - Anti Breakneck>F (L'U'LU)2 F'
+(L) OLL53 - Frying pan
+(L) OLL54 - Anti Frying pan
+(L) OLL49 - Right back squeezy
+(L) OLL50 - Right front squeezy
+(C) OLL34 - City
+(C) OLL46 - seein headlight
+(T) OLL33 - Key>(RUR'U') (R'FRF')
+(T) OLL45 - T(right)>F (RUR'U') F'
+(T) OLL45 - T(left)>f (URU'R') f'
+(I) OLL55 - Highway
+(I) OLL56 - Deadman
+(I) OLL51 - Ant
+(I) OLL52 - Rice coocker
+(square) OLL05
+(square) OLL06
+(big lighting) OLL39
+(big lighting) OLL40
+(small lighting) OLL07
+(small lighting) OLL08
+(small lighting) OLL11
+(small lighting) OLL12
+(fish) OLL09
+(fish) OLL10
+(sun) OLL35 - Fish salad
+(sun) OLL37 - Mounted fich>(FR'F'R) (URU'R')
+(knight) OLL13
+(knight) OLL14
+(knight) OLL15
+(knight) OLL16
+(awkward) OLL29
+(awkward) OLL30
+(awkward) OLL41
+(awkward) OLL42
+(corner) OLL28 - Fish>rUR'U' M URU'R'
+(corner) OLL57 - H - Brick>RUR'U' M URU'r
+(corner) OLL20
+
+
 cross 7/7
 no edge 0/7 14
 P: 0/4 18
@@ -133,13 +195,16 @@ W: 0/2 20
 L: 0/6 26
 C: 0/2 28
 T: 0/2 30
-l: 0/4 34
+I: 0/4 34
 squarre: 0/2 36
 big lighting: 0/2 38
 small lighting: 0/4 42
-fish: 0/4 46
+fish: 0/2 44
+fish: 0/2 46
 knight: 0/4 50
 awkward (smal lighting and sun): 0/4
 all corner oriented: 0/3
 
 7/57 !!!
+
+
