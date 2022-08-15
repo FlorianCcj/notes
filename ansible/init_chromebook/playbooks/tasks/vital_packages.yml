@@ -4,6 +4,8 @@
   - name: Install vital packages
     package:
       name: "{{ vital_packages }}"
+      state: present
+
   - name: Vital packages have been installed
     debug:
       var: vital_packages
@@ -12,6 +14,7 @@
       debug:
         msg: "[error][vital packages task] variable invalid"
   when: vital_packages is defined
+
 - name: vital_packages is not defined
   debug:
     msg: "[error][vital packages task] variable is not defined"

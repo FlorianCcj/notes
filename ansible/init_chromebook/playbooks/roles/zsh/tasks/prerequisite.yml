@@ -1,0 +1,6 @@
+---
+- name: install zsh
+  become: yes
+  apt:
+    name: curl
+    state: latest

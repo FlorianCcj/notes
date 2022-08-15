@@ -1,26 +1,24 @@
 ---
 # https://download.kde.org/stable/kdenlive/21.04/linux/kdenlive-21.04.2-x86_64.appimage
-- name: "create soft dir: {{ kdenlive_path_to_install }}"
-  become: yes
-  file:
-    path: "{{ item }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
-  loop: "{{ kdenlive_dir_to_create }}"
-- name: get kdenlive
-  get_url:
-    url: "{{ kdenlive_download_url }}"
-    dest: "{{ kdenlive_path_to_install }}/kdenlive"
-    mode: "+x"
-- name: "add kdenlive path"
-  import_role:
-    name: "env_vars"
-  vars:
-    env_vars_list:
-      - "export PATH=$PATH:{{ kdenlive_path_to_install }}"
-- name: "standard conf"
-  debug:
-    msg: >
-      SDK Folder: /home/florianccj/Android/Sdk
-      JDK Location: /home/florianccj/software/android-studio/jre
+- when: kdenlive_install | bool
+  block:
+  - name: "create soft dir: {{ kdenlive_path_to_install }}"
+    become: yes
+    file:
+      path: "{{ kdenlive_dir_to_create }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: get kdenlive
+    get_url:
+      url: "{{ kdenlive_download_url }}"
+      dest: "{{ kdenlive_path_to_install }}/kdenlive"
+      mode: "+x"
+
+  - name: "add kdenlive path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ kdenlive_path_to_install }}"

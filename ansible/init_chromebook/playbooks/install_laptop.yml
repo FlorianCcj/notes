@@ -3,32 +3,36 @@
   hosts: all
   vars:
     non_root_docker_users: []
-    current_user: "florianccj"
-  vars_files:
-    - vars/playbook.yml
-    - vars/template.yml
 #  roles:
 #    - geerlingguy.docker
   tasks:
-    - name: "create directory in opt fur user"
+    - name: "create directory in opt for user"
       ansible.builtin.file:
-        path: "/opt/florianccj"
+        path: "/opt/{{ dev_user }}"
         state: directory
         mode: "0755"
-        owner: "{{ current_user }}"
-        group: "{{ current_user }}"
+        owner: "{{ dev_user }}"
+        group: "{{ dev_user }}"
+      become: yes
+
     - import_tasks: tasks/apt_update.yml
       tags: "update"
+
     - import_tasks: tasks/vital_packages.yml
       tags: "package"
+
     - import_tasks: tasks/system_packages.yml
       tags: "package"
-    - import_tasks: tasks/install_zsh_plugin.yml
+
+    - import_role:
+        name: "zsh"
       tags: "zsh"
     #- import_tasks: tasks/banner.yml
+
     - import_role:
         name: "gnome"
       tags: "gnome"
+
     - import_role:
         name: "math_exo"
       tags: "math_exo"
@@ -39,47 +43,61 @@
     - import_role:
         name: "python"
       tags: "python"
+
     - import_role:
         name: "git"
       tags: "git"
+
     - import_role:
         name: "tmux"
       tags: "tmux"
+
     - import_role:
         name: "php"
       tags: "php"
+
     - import_role:
         name: "npm"
       tags: "npm"
+
     - import_role:
         name: "flutter"
       tags: "flutter"
+
     - import_role:
         name: "golang"
       tags: "golang"
+
     - import_role:
         name: "appimage_builder"
       tags: "appimage_builder"
+
     - import_tasks: tasks/install_vscode.yml
       tags: "vscode"
     #- import_tasks: tasks/install_atom.yml
 #    # wtf payment required
 # TODO: install docker compose
+
     - import_role:
         name: "docker"
       tags: "docker"
+
     - import_role:
         name: "kubectl"
       tags: "kubectl"
+
     - import_role:
         name: "android_studio"
       tags: "android_studio"
+
     - import_role:
         name: "anki"
       tags: "anki"
+
     - import_role:
         name: "tilt"
       tags: "tilt"
+
     - import_role:
         name: "rdme_statefull"
       tags: "rdme_statefull"
@@ -92,32 +110,39 @@
     - import_role:
         name: "discord"
       tags: "discord"
+
     - import_role:
         name: "blender"
       tags: "blender"
+
     - import_role:
         name: "obs"
       tags: "obs"
+
     - import_role:
         name: "kdenlive"
       tags: "kdenlive"
 
-- name: Installation go roles
+- name: Installation gogame roles
   hosts: all
   tasks:
     - import_role:
         name: "wine"
       tags: "wine"
+
     - import_role:
         name: "go_cgoban"
       tags: "go_cgoban"
+
     - import_role:
         name: "go_igs"
       tags: "go_igs"
+
       # need to be after wine
     - import_role:
         name: "go_fox"
       tags: "go_fox"
+
       # need to be after wine
     - import_role:
         name: "go_drago"

@@ -14,7 +14,6 @@ vital_packages:
   - unzip
   - vim
   - vlc
-  - zsh
 system_packages:
   - tree
   - multitail

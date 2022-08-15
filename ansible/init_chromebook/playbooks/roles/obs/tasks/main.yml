@@ -1,23 +1,26 @@
 ---
-- name: install prerequisite
-  become: yes
-  package:
-    name:
-      - ffmpeg
-      - v4l2loopback-dkms
-    state: present
-- name: add php apt-key
-  become: yes
-  apt_repository:
-    repo: ppa:obsproject/obs-studio
-    update_cache: yes
-- name: apt update
-  become: true
-  apt:
-    update_cache: yes
-- name: install obs
-  become: yes
-  package:
-    name:
-      - obs-studio
-    state: present
+- when: obs_install | bool
+  block:
+  - name: install prerequisite
+    become: yes
+    package:
+      name: "{{ obs_prerequisite }}"
+      state: present
+
+  - name: add obs apt-key
+    become: yes
+    apt_repository:
+      repo: ppa:obsproject/obs-studio
+      update_cache: yes
+
+  - name: apt update
+    become: true
+    apt:
+      update_cache: yes
+
+  - name: install obs
+    become: yes
+    package:
+      name:
+        - obs-studio
+      state: present

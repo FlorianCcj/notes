@@ -1,0 +1,24 @@
+---
+- when: zsh_z_sh_install | bool
+  block:
+  - name: get z.sh
+    become: false
+    get_url:
+      url: "{{ zsh_z_dot_sh_url }}"
+      dest: ~/
+
+  - name: check z.sh in ~/.bashrc
+    become: false
+    lineinfile:
+      path: ~/.bashrc
+      line: 'source ~/z.sh'
+      state: present
+      create: yes
+
+  - name: check z.sh in ~/.zshrc
+    become: false
+    lineinfile:
+      path: ~/.zshrc
+      line: 'source ~/z.sh'
+      state: present
+      create: yes

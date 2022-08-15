@@ -1,4 +1,6 @@
 ---
 - import_tasks: install_go.yml
+  when: golang_install | bool
 
 - import_tasks: install_lint.yml
+  when: golang_lint_install | bool

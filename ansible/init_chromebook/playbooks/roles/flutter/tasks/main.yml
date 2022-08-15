@@ -1,31 +1,33 @@
 ---
-- name: "Create soft dir: {{ flutter_install_path }}"
-  become: yes
-  file:
-    path: "{{ flutter_install_path }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
+- when: flutter_install
+  block:
+  - name: "Create soft dir: {{ flutter_install_path }}"
+    become: yes
+    file:
+      path: "{{ flutter_install_path }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
 
-- name: "Get flutter"
-  ansible.builtin.git:
-    repo: "{{ flutter_git_repo_url }}"
-    dest: "{{ flutter_install_path }}/flutter"
-    version: "{{ flutter_version | default('main') }}"
+  - name: "Get flutter"
+    ansible.builtin.git:
+      repo: "{{ flutter_git_repo_url }}"
+      dest: "{{ flutter_install_path }}/flutter"
+      version: "{{ flutter_version | default('main') }}"
 
-- name: "Get dependancies"
-  package:
-    name: "{{ flutter_package_dependencies }}"
-    state: present
-  become: yes
+  - name: "Get dependancies"
+    package:
+      name: "{{ flutter_package_dependencies }}"
+      state: present
+    become: yes
 
-- name: "Add flutter to path"
-  import_role:
-    name: "env_vars"
-  vars:
-    env_vars_list:
-      - "export PATH=$PATH:{{ flutter_install_path }}/flutter/bin"
+  - name: "Add flutter to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ flutter_install_path }}/flutter/bin"
 
-- name: "Post"
-  debug:
-    msg: "launch 'flutter doctor' to check installation"
+  - name: "Post"
+    debug:
+      msg: "launch 'flutter doctor' to check installation"

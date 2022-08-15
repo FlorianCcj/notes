@@ -1,0 +1,5 @@
+---
+obs_install: no
+obs_prerequisite:
+  - ffmpeg
+  - v4l2loopback-dkms

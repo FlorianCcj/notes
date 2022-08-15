@@ -1,3 +1,4 @@
 ---
 go_cgoban_download_url: "http://files.gokgs.com/javaBin/cgoban.jar"
+go_cgoban_install: no
 go_cgoban_path_to_install: "~/software"

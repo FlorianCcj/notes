@@ -1,0 +1,10 @@
+---
+git_projects:
+  - path: "/home/{{ dev_user }}/data/git_github/kubernetes"
+    url: "https://github.com/kubernetes/kubernetes.git"
+  - path: "/home/{{ dev_user }}/data/git_github/conventional-commit"
+    url: "https://github.com/FlorianCcj/conventional-commit.git"
+  - path: "/home/{{ dev_user }}/data/git_github/cube-bot"
+    url: "https://github.com/Nogesma/cube-bot.git"
+#  - path: "/home/{{ dev_user }}/data/git_github/pinacolada"
+#    url: "https://github.com/FlorianCcj/pinacolada.git"

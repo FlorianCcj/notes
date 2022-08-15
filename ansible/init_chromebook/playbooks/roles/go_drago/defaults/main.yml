@@ -1,5 +1,5 @@
 ---
-go_drago_version: 430
-
 go_drago_dwl_url: https://www.godrago.net/install/PortableDrago0{{ go_drago_version }}.zip
 go_drago_file_for_alias: "~/.alias"
+go_drago_install: no
+go_drago_version: 430

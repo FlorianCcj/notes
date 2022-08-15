@@ -9,16 +9,38 @@
       - "gnupg"
       - "lsb-release"
 
+- name: check gpg key presence
+  ansible.builtin.file:
+    path: /usr/share/keyrings/docker-archive-keyring.gpg
+    state: touch
+    mode: '0755'
+  check_mode: yes
+  become: yes
+  register: _test_gpg_key
+
 - name: "install docker gpg key"
+  when: _test_gpg_key.changed
   become: yes
   shell: >
     curl -fsSL {{ docker_gpg_url }}/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-- name:
+
+- name: check docker source presence
+  ansible.builtin.file:
+    path: /etc/apt/sources.list.d/docker.list
+    state: touch
+    mode: '0755'
+  check_mode: yes
+  become: yes
+  register: _test_docker_list
+
+- name: add docker repo to source list
+  when: _test_docker_list.changed
   become: yes
   shell: >
     echo \
       "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] {{ docker_gpg_url }} \
       $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+
 - name: apt update
   become: true
   apt:

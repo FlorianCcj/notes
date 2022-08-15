@@ -1,20 +1,25 @@
 ---
-- name: install npm
-  become: yes
-  package:
-    name: "npm"
-- name: install n
-  become: yes
-  npm:
-    name: n
-    global: yes
-- name: install node
-  become: yes
-  command: >
-    n stable
-- name: install node plugins
-  become: yes
-  npm:
-    name: "{{ item }}"
-    global: yes
-  loop: "{{ npm_additional_packages }}"
+- when: npm_install | bool
+  block:
+  - name: install npm
+    become: yes
+    package:
+      name: "npm"
+
+  - name: install n
+    become: yes
+    npm:
+      name: n
+      global: yes
+
+  - name: install node
+    become: yes
+    command: >
+      n stable
+
+  - name: install node plugins
+    become: yes
+    npm:
+      name: "{{ item }}"
+      global: yes
+    loop: "{{ npm_additional_packages }}"

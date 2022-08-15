@@ -4,7 +4,8 @@
 echo 'hey guy you succeed using rdme'
 ```
 
-```
+```sh
+# prerequisite
 sudo apt-get install -y git python3 python3-pip
 python -m pip install ansible
 mkdir data
@@ -14,13 +15,13 @@ export PATH=$PATH:/home/${USER}/.local/bin
 ```
 
 ```sh
-sudo apt install python python3-pip
-pip install ansible
-export PATH=$PATH:/home/${USER}/.local/bin
+# deploy all
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -K
 ```
 
 ```sh
-ansible-playbook -i hosts.ini playbooks/install_laptop.yml -k
+# deploy asus_x515
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -K
 ```
 
 for dual screen 'launch' nvidia-detector

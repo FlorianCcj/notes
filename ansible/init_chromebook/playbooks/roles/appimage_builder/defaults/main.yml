@@ -1,4 +1,5 @@
 ---
-appimage_builder_appimage_tool_download_url: "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"
-appimage_builder_alias: "appimagetool"
-appimage_builder_path_to_install: "~/software"
+appimage_builder_alias: appimagetool
+appimage_builder_appimage_tool_download_url: https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+appimage_builder_install: no
+appimage_builder_path_to_install: ~/software

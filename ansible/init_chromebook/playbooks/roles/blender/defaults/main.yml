@@ -1,6 +1,7 @@
 ---
+blender_install: no
+blender_package_url: "https://ftp.nluug.nl/pub/graphics/blender/release/Blender{{ blender_short_version }}/blender-{{ blender_version }}.tar.xz"
+blender_path_to_bin: "~/software/bin"
+blender_path_to_install: "~/software"
 blender_short_version: "2.93"
 blender_version: "{{ blender_short_version }}.5-linux-x64"
-blender_package_url: "https://ftp.nluug.nl/pub/graphics/blender/release/Blender{{ blender_short_version }}/blender-{{ blender_version }}.tar.xz"
-blender_path_to_install: "~/software"
-blender_path_to_bin: "~/software/bin"

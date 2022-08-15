@@ -1,11 +1,13 @@
 ---
-- name: install git
-  package:
-    name: git
-- name: make gitconfig
-  template:
-    src: templates/.gitconfig.j2
-    dest: "/home/{{ git_user }}/.gitconfig"
-    owner: "{{ git_user }}"
-    group: "{{ git_user }}"
-    mode: 0644
+- when: git_install | bool
+  block:
+  - name: install git
+    package:
+      name: git
+
+  - import_tasks: config.yml
+
+  - include_tasks: get_project.yml
+    loop: "{{ git_projects }}"
+    loop_control:
+      loop_var: _i_project

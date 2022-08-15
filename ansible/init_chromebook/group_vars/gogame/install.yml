@@ -1,0 +1,5 @@
+---
+wine_install: yes
+go_cgoban_install: yes
+go_fox_install: yes
+go_drago_install: yes

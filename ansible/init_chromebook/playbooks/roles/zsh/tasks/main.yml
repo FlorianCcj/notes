@@ -1,0 +1,22 @@
+---
+- when: zsh_install | bool
+  block:
+  - import_tasks: prerequisite.yml
+
+  - name: install zsh
+    become: yes
+    apt:
+      name: zsh
+      state: latest
+
+  - name: check zsh in ~/.bashrc
+    become: false
+    lineinfile:
+      path: ~/.bashrc
+      line: 'zsh'
+      state: present
+      create: yes
+
+  - import_tasks: install_oh_my_zsh.yml
+  - import_tasks: config_zsh.yml
+  - import_tasks: install_z_sh.yml

@@ -1,3 +1,5 @@
 ---
 - import_tasks: install_php.yml
+  when: php_install | bool
 - import_tasks: install_composer.yml
+  when: php_composer_install | bool

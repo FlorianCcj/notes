@@ -1,22 +1,24 @@
 ---
-- name: "create soft dir: {{ rdme_statefull_path_to_install }}"
-  file:
-    path: "{{ rdme_statefull_path_to_install }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
+- when: rdme_statefull_install | bool
+  block:
+  - name: "create soft dir: {{ rdme_statefull_path_to_install }}"
+    file:
+      path: "{{ rdme_statefull_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
 
-- name: get rdme_statefull
-  ansible.builtin.unarchive:
-    src: "{{ rdme_statefull_download_url }}"
-    dest: "{{ rdme_statefull_path_to_install }}"
-    remote_src: yes
-    extra_opts:
-      - rdme
+  - name: get rdme_statefull
+    ansible.builtin.unarchive:
+      src: "{{ rdme_statefull_download_url }}"
+      dest: "{{ rdme_statefull_path_to_install }}"
+      remote_src: yes
+      extra_opts:
+        - rdme
 
-- name: "Add {{ rdme_statefull_path_to_install }} to path"
-  import_role:
-    name: "env_vars"
-  vars:
-    env_vars_list:
-      - "export PATH=$PATH:{{ rdme_statefull_path_to_install }}"
+  - name: "Add {{ rdme_statefull_path_to_install }} to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ rdme_statefull_path_to_install }}"

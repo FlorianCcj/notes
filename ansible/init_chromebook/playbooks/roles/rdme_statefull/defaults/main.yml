@@ -1,3 +1,4 @@
 ---
 rdme_statefull_download_url: https://download.stateful.com/rdme/0.1.7/rdme_linux_x86_64.tar.gz
+rdme_statefull_install: no
 rdme_statefull_path_to_install: ~/software/bin

@@ -1,6 +1,13 @@
 ---
 # source: https://github.com/gantsign/ansible-role-atom
 # https://github.com/gantsign/ansible-role-visual-studio-code-extensions
+#
+# Extension
+# Markdown lint
+# Todo tree
+#
+# TODO: auto install extension https://www.alphr.com/vs-code-how-to-install-extensions/
+#
 - name: install vscode key (apt)
   become: yes
   apt_key:

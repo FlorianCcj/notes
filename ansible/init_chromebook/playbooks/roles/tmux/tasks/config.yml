@@ -1,0 +1,27 @@
+---
+- name: "create soft dir: {{ tmux_config_dir }}"
+  become: yes
+  file:
+    path: "{{ tmux_config_dir }}"
+    state: directory
+    owner: "{{ tmux_user }}"
+    group: "{{ tmux_user }}"
+    mode: '0755'
+    recurse: yes
+
+- name: make tmux config
+  template:
+    src: .tmux.conf.j2
+    dest: "{{ tmux_config_dir }}/.tmux.conf"
+    owner: "{{ tmux_user }}"
+    group: "{{ tmux_user }}"
+    mode: 0644
+
+- name: Create a tmux config symbolic link
+  when: tmux_config_link is defined
+  ansible.builtin.file:
+    src: "{{ tmux_config_dir }}/.tmux.conf"
+    dest: "{{ tmux_config_link }}"
+    owner: "{{ tmux_user }}"
+    group: "{{ tmux_user }}"
+    state: link

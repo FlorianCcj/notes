@@ -1,0 +1,22 @@
+---
+- name: Check dir exist
+  stat:
+    path: "{{ _i_project.path }}"
+  register: _test_dir_stats
+
+- when: not _test_dir_stats.stat.exists
+  block:
+  - name: "create dir {{ _i_project.path }}"
+    ansible.builtin.file:
+      path: "{{ _i_project.path }}"
+      state: directory
+      mode: "0755"
+      owner: "{{ git_user }}"
+      group: "{{ git_user }}"
+      recurse: yes
+    become: yes
+
+  - name: "clone project: {{ _i_project.url }}"
+    ansible.builtin.git:
+      repo: "{{ _i_project.url }}"
+      dest: "{{ _i_project.path }}"

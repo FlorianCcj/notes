@@ -2,4 +2,8 @@
 tmux_plugins:
   - {name: tmux-resurrect, version: master}
   - {name: tmux-continuum, version: master}
+tmux_config_dir: /opt/workspace/tmux
+tmux_config_link: "/home/{{ tmux_user }}/.tmux.conf"
+tmux_install: no
 tmux_plugins_dir: "~/.tmux-plugins"
+tmux_user: ""

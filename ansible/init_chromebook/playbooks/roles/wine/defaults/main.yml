@@ -1,2 +1,3 @@
 ---
+wine_install: no
 wine_repo: deb https://dl.winehq.org/wine-builds/ubuntu/ focal main

@@ -1,19 +1,23 @@
 ---
-- name: "create soft dir: {{ go_drago_path_to_install }}"
-  become: yes
-  file:
-    path: "{{ go_drago_path_to_install }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
-- name: get drago
-  ansible.builtin.unarchive:
-    src: "{{ go_drago_dwl_url }}"
-    dest: "{{ go_drago_path_to_install }}"
-    remote_src: yes
-- name: "add drago alias"
-  import_role:
-    name: "env_alias"
-  vars:
-    env_alias_list:
-      - "alias drago='wine {{ go_drago_path_to_install }}/Drago.exe'"
+- when: go_drago_install | bool
+  block:
+  - name: "create soft dir: {{ go_drago_path_to_install }}"
+    become: yes
+    file:
+      path: "{{ go_drago_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: get drago
+    ansible.builtin.unarchive:
+      src: "{{ go_drago_dwl_url }}"
+      dest: "{{ go_drago_path_to_install }}"
+      remote_src: yes
+
+  - name: "add drago alias"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - "alias drago='wine {{ go_drago_path_to_install }}/Drago.exe'"

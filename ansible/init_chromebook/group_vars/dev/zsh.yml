@@ -1,0 +1,3 @@
+---
+zsh_user: "{{ dev_user }}"
+zsh_omz_install_dir: /opt/workspace/shell

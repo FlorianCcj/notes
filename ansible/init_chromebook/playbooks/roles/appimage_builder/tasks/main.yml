@@ -1,11 +1,13 @@
 ---
-- name: "create soft dir: {{ appimage_builder_path_to_install }}"
-  become: yes
-  file:
-    path: "{{ appimage_builder_path_to_install }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
+- when: appimage_builder_install | bool
+  block:
+  - name: "create soft dir: {{ appimage_builder_path_to_install }}"
+    become: yes
+    file:
+      path: "{{ appimage_builder_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
 
-- import_tasks: install_appimage_tool.yml
-- import_tasks: install_appimage_builder.yml
+  - import_tasks: install_appimage_tool.yml
+  - import_tasks: install_appimage_builder.yml

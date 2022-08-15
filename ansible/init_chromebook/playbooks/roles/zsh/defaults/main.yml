@@ -1,0 +1,15 @@
+---
+zsh_config_dir: /opt/workspace/shell/zsh
+zsh_config_link: "/home/{{ zsh_user }}/.zsh"
+zsh_install: no
+zsh_omz_url: https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+zsh_omz_install_dir: "/home/{{ zsh_user }}"
+zsh_omz_install: no
+zsh_theme: robbyrussell
+zsh_user: ""
+zsh_z_dot_sh_url: https://raw.githubusercontent.com/rupa/z/master/z.sh
+zsh_z_sh_install: no
+
+zsh_plugins:
+  - git
+  - docker-compose

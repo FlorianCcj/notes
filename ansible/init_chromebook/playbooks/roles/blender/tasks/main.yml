@@ -1,26 +1,31 @@
 ---
-- name: "create soft dir: {{ blender_path_to_install }}"
-  become: yes
-  file:
-    path: "{{ blender_path_to_install }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
-- name: "create soft dir: {{ blender_path_to_bin }}"
-  become: yes
-  file:
-    path: "{{ blender_path_to_bin }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
-- name: "get blender"
-  ansible.builtin.unarchive:
-    src: "{{ blender_package_url }}"
-    dest: "{{ blender_path_to_install }}"
-    remote_src: yes
-- name: "add blender path"
-  import_role:
-    name: "env_vars"
-  vars:
-    env_vars_list:
-      - "export PATH=$PATH:{{ blender_path_to_install }}/blender-{{ blender_version }}"
+- when: blender_install | bool
+  block:
+  - name: "create soft dir: {{ blender_path_to_install }}"
+    become: yes
+    file:
+      path: "{{ blender_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: "create soft dir: {{ blender_path_to_bin }}"
+    become: yes
+    file:
+      path: "{{ blender_path_to_bin }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: "get blender"
+    ansible.builtin.unarchive:
+      src: "{{ blender_package_url }}"
+      dest: "{{ blender_path_to_install }}"
+      remote_src: yes
+
+  - name: "add blender path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ blender_path_to_install }}/blender-{{ blender_version }}"

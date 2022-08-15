@@ -1,0 +1,23 @@
+---
+- when: zsh_omz_install | bool
+  block:
+  - name: install oh-my-zsh
+    become: yes
+    shell:
+      cmd: sh -c "$(curl -fsSL {{ zsh_omz_url }})"
+    ignore_errors: True
+
+  - name: copy directory to target dest
+    copy:
+      src: /root/.oh-my-zsh
+      dest: "{{ zsh_omz_install_dir }}"
+      remote_src: yes
+      owner: "{{ zsh_user }}"
+      group: "{{ zsh_user }}"
+    become: yes
+
+  - name: Create a oh my zsh symbolic link
+    ansible.builtin.file:
+      src: "{{ zsh_omz_install_dir }}/.oh-my-zsh"
+      dest: "/home/{{ zsh_user }}/.oh-my-zsh"
+      state: link

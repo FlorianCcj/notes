@@ -1,0 +1,25 @@
+---
+- name: "create soft dir: {{ git_gitconfig_dir }}"
+  become: yes
+  file:
+    path: "{{ git_gitconfig_dir }}"
+    state: directory
+    owner: "{{ git_user }}"
+    group: "{{ git_user }}"
+    mode: '0755'
+    recurse: yes
+
+- name: make gitconfig
+  template:
+    src: templates/.gitconfig.j2
+    dest: "{{ git_gitconfig_dir }}/.gitconfig"
+    owner: "{{ git_user }}"
+    group: "{{ git_user }}"
+    mode: 0644
+
+- name: Create a git config symbolic link
+  when: git_gitconfig_link is defined
+  ansible.builtin.file:
+    src: "{{ git_gitconfig_dir }}/.gitconfig"
+    dest: "{{ git_gitconfig_link }}"
+    state: link

@@ -1,0 +1,3 @@
+---
+git_gitconfig_user: "{{ dev_user }}"
+git_gitconfig_user_mail: florianccj@gmail.com

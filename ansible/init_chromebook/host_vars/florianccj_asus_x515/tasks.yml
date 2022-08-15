@@ -1,0 +1,11 @@
+---
+vital_packages:
+  - firefox
+  - gimp
+  - git
+  - libreoffice
+  - terminator
+  - tmux
+  - unzip
+  - vim
+  - vlc

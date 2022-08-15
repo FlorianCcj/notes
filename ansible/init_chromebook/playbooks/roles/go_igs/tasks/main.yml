@@ -1,21 +1,26 @@
 ---
-- name: "create soft dir: {{ go_igs_path_to_install }}"
-  file:
-    path: "{{ go_igs_path_to_install }}"
-    state: directory
-    mode: '0755'
-    recurse: yes
-- name: get igs
-  get_url:
-    url: "{{ go_igs_download_url }}"
-    dest: "{{ go_igs_path_to_install }}/{{ go_igs_bin }}"
-- name: "Make igs bin executable"
-  ansible.builtin.file:
-    path: "{{ go_igs_path_to_install }}/{{ go_igs_bin }}"
-    mode: "+x"
-- name: "add fox alias"
-  import_role:
-    name: "env_alias"
-  vars:
-    env_alias_list:
-      - "alias igs='{{ go_igs_bin }}'"
+- when: go_igs_install | bool
+  block:
+  - name: "create soft dir: {{ go_igs_path_to_install }}"
+    file:
+      path: "{{ go_igs_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: get igs
+    get_url:
+      url: "{{ go_igs_download_url }}"
+      dest: "{{ go_igs_path_to_install }}/{{ go_igs_bin }}"
+
+  - name: "Make igs bin executable"
+    ansible.builtin.file:
+      path: "{{ go_igs_path_to_install }}/{{ go_igs_bin }}"
+      mode: "+x"
+
+  - name: "add fox alias"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - "alias igs='{{ go_igs_bin }}'"

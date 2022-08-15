@@ -1,1 +1,7 @@
+---
+git_gitconfig_dir: /opt/workspace/git
+git_gitconfig_link: "/home/{{ git_user }}/.gitconfig"
+git_install: yes
 git_user: ""
+git_gitconfig_user_mail: ""
+git_gitconfig_user: "{{ git_user }}"

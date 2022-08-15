@@ -10,3 +10,6 @@ php_sub_packages:
 
 php_composer_path: /usr/local/bin/composer
 php_composer_keep_updated: yes
+
+php_install: no
+php_composer_install: no

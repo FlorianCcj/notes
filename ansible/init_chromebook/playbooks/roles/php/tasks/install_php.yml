@@ -5,14 +5,17 @@
   apt_repository:
     repo: ppa:ondrej/php
     update_cache: yes
+
 - name: install php main package
   become: yes
   package:
     name: "{{ php_main_package }}"
+
 - name: package concatenation
   shell: "echo {{ php_main_package + '-' + item }}"
   with_items: "{{ php_sub_packages }}"
   register: tmp_packages
+
 - name: install php sub packages
   become: yes
   package:

@@ -5,6 +5,7 @@
     dest: '{{ env_vars_file }}'
     force: no
     mode: 0755
+
 - name: "add alias in {{ env_vars_file }}"
   ansible.builtin.lineinfile:
     path: "{{ env_vars_file }}"
@@ -12,6 +13,7 @@
   loop: "{{ env_vars_list }}"
   loop_control:
     loop_var: i_env_vars_list
+
 - name: "check alias file is in terminal rc"
   ansible.builtin.lineinfile:
     path: "{{ env_vars_terminal_rc_file }}"

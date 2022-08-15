@@ -2,3 +2,4 @@
 npm_additional_packages:
   - "@angular/cli"
   - "nativescript"
+npm_install: no
