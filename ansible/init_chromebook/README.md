@@ -1,16 +1,36 @@
+# My Playbook
 
+```sh
+echo 'hey guy you succeed using rdme'
+```
 
+```
+sudo apt-get install -y git python3 python3-pip
+python -m pip install ansible
+mkdir data
+cd data
+git clone https://github.com/FlorianCcj/notes.git
+export PATH=$PATH:/home/${USER}/.local/bin
+```
+
+```sh
 sudo apt install python python3-pip
 pip install ansible
 export PATH=$PATH:/home/${USER}/.local/bin
+```
 
-ansible-playbook -i hosts.ini playbooks/install_laptop.yml
+```sh
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -k
+```
 
 for dual screen 'launch' nvidia-detector
 then install nvdia-driver-<number>
 
 Problem with python apt ?
+
+```sh
 sudo ln -s /usr/lib/python3/dist-packages/apt_inst.cpython-38-x86_64-linux-gnu.so /usr/lib/python3/dist-packages/apt_inst.cpython-39-x86_64-linux-gnu.so
+```
 
 need
 <user> ALL=(ALL:ALL) NOPASSWD: ALL

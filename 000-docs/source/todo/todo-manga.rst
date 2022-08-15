@@ -345,6 +345,14 @@ Tachiyomi
   * touch on
   * maken no daydreamer
   * hiraheishi wa kako o yumemiru
+
+The Hidden Dungeon Only I Can Enter
+  - https://toutvostfr.com/episode/the-hidden-dungeon-only-i-can-enter-vf-episode-3/?server=opencdn
+
+The World’s Finest Assassin Gets Reincarnated in Another World
+That Time I Got Reincarnated as a Slime S2
+Mahoutsukai Reimeiki S1
+
 Document history
 ================
 

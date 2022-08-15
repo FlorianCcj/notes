@@ -62,6 +62,16 @@ find recent file
 * :code:`find . -mmin -60`
 * :code:`find . -ctime 1`
 
+history
+*******
+
+* use :code:`!!` to launch last command
+* use :code:`!<command number>` to launch a specific command
+* add in .bashrc :code:`HISTTIMEFORMAT="%Y-%m-%dT%T%z "`: add date on history
+* :code:`HISTCONTROL=ignoreboth`: do not add duplicate lines or lines beginning whith a space
+* :code:`history 4`: the 4 last command
+* use ctrl + r to find a command
+
 kick someone
 ************
 
@@ -117,3 +127,4 @@ Sources
 * https://www.a2hosting.com/kb/developer-corner/linux/setting-the-default-text-editor-in-linux
 
 dmefg: savoir quel process a ete kill
+dmesg

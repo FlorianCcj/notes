@@ -18,6 +18,19 @@ Apprendre rapidement
             * QQOQCP (qui, quoi, ou, quand, pourquoi, comment)
 2. se rapeller: se reposer les questions selon la courbe d oublie
 
+Comment avoir de la chance
+**************************
+
+:source: https://www.youtube.com/watch?v=oPjaBDwYEyI
+
+Les chanceux vivent chaque situation inhabituel comme une opportunité a saisir
+Premiere etape: accepter l imprevu et s y ouvrir
+2e etape resilience et reactivité: en cas de probleme, faire preuve d'autoderision et prendre du recule
+
+Prenez votre agenda et entouré au hasard 52 dates
+* Des que vous atteignez une des dates, vous vous engagez a tout accepter comme si s'agissait d une opportunité
+* Si lors d une de ses journees il vous arive quelque chose de plutot malchanceux, lachez completement prise et faite preuve d'autoderision
+
 La methode Eisenhower
 *********************
 

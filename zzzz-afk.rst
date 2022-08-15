@@ -270,10 +270,10 @@ v+    -> r+ === 10v+
 j/j+  -> r+ === 8v+
 r     -> r+ === 4v+
 
-Porteur de lumiere  1v+ + 1j+ + 1r = 10 + 08 + 04 = 22-02 = 20
-Barbare             0v+ + 6j+ + 0r = 00 + 48 + 00 = 48-19 = 29
-Enfant de la foret  1v+ + 1j+ + 1r = 10 + 08 + 04 = 22-03 = 19
-Mort Vivant         0v+ + 4j+ + 0r = 00 + 32 + 00 = 32-08 = 24
+Porteur de lumiere  1v+ + 0j+ + 0r = 10 + 00 + 00 = 10-10 = 00
+Barbare             1v+ + 3j+ + 0r = 10 + 24 + 00 = 34-07 = 29
+Enfant de la foret  0v+ + 0j+ + 1r = 00 + 00 + 04 = 04-03 = 01
+Mort Vivant         0v+ + 0j+ + 1r = 00 + 00 + 04 = 04-02 = 02
 
 nombre de carte pure
 v+ => 2v
@@ -350,8 +350,7 @@ voyante: tous
     * lvl: 5e
     * buy: store (2), mysti
   * rayne
-    * lvl: 4e
-    * buy: store (1) -2, mysti
+    * lvl: 5e
   * fawkes
     * lvl: 4e (no-5)
     * buy: store (2), mysti
@@ -379,19 +378,19 @@ voyante: tous
     * lvl: 1e
     * buy: mysti
   * walker (chasseur)
-    * lvl: 0e (no-e)
+    * lvl: 1e
     * buy: mysti
   * morrow (the dark crow)
     * lvl: v (no-e)
     * buy: ???
   * scarlet (gamine magiciene)
-    * lvl: j+ (no-e)
+    * lvl: 1e
     * buy: ???
 * jaune
   * 2021.07.24: 16 - 3
   * khasos
     * lvl: 3e
-    * buy: store (1) -3
+    * buy: store (1) -2
   * vurk
     * lvl: j+ (+5) (no-5)
   * numasu (totem)
@@ -426,6 +425,8 @@ voyante: tous
     * lvl: j (no-e)
   * thesku (the serpent charme)
     * lvl: 0 (no-e)
+  * alaro (lesard)
+    * lvl: 0 (no-e)
 * vert
   * 2021.07.24: 13 - 4
   * kaz (assassin)
@@ -444,9 +445,9 @@ voyante: tous
   * pippa (cureil)
     * lvl: 1e (no-5)
   * respen (gosse)
-    * lvl: 0e (no-e)
+    * lvl: 1e
   * raku (raton laveur)
-    * lvl: j+ (+1) (no-e)
+    * lvl: 1e
   * Mishka (the wild child)
     * lvl: 1e (no-5)
   * Astar (luciole)
@@ -478,8 +479,6 @@ voyante: tous
     * lvl: 2e (no-5)
   * desira (banshi)
     * lvl: 2e (no-5)
-  * Treznor (cavalier)
-    * lvl: 0 (no-e)
   * Hodgkin (The reviled captain)
     * lvl: v+ (no-e)
   * Treznor (cavalier)
@@ -1424,6 +1423,7 @@ w: wait meuble
 s: seuil, optimised
 9: f9
 f: full
+c: current
 
 1 vert
 2 noir
@@ -1432,69 +1432,69 @@ f: full
 5 arcane
 6 lumiere
 
-9 - 4c -  Daimon 30, F9
-w - ol -  Lucretia 30, F9 gravure
-9 - ar -  Ainz 30 F9
-9 - 4c -  Shemira 20, F3
-9 - ol -  Thalene 30, F9
-9 - ar -  Merlin 30 F9
-9 - 4c -  Grezhul 20, F9
-u - ol -  Alna 30, F9
-s - ar -  Prince 20 F3
-9 - 4c -  Rowan F9
-u - ol -  Wukong 20, f3
-s - ar -  Arhtru 20 F3
-9 - 4c -  Lucius F9
-9 - ol -  Jumeau 20, F9
-s - ar -  Albedo 30, F3
-9 - 4c -  Eiron 30, F9
-u - ol -  Eziz 30, F9
-9 - ar -  Ezio 20 F9
-9 - 4c -  Saurus F9
-u - ol -  Atalia 30, F9
-s - ar -  Joker 20, F3
-s - 4c -  Rosaline 20, F3
-u - ol -  Flora 20, f9
-s - ar -  Queen 20, F3
-9 - 4c -  Ferael 30, F9
-u - ol -  Mehira 30, F3
-s - ar -  Nakoruru 20 F3
-s - 4c -  Tasi 20, F3
-u - ol -  Zolrath 30, F9
-u - ar -  Ukyo 20, F9
-9 - 4c -  Lyca F9
-u - ol -  Zaphrael 30, F9
-w - 4c -  Izold 30, F3
-u - ol -  Morael 30, F9
-w - 4c -  Thoran 30, F9
-u - ol -  Morthas elite
-w - 4c -  Silas 30, F9
-u - ol -  khazard 30 F0
-w - 4c -  Gwineth 30, F9
-u - ol -  Orthos 30, F9
-s - 4c -  Brutus 20, F3
-9 - 4c -  Antandra 20, F9
-w - 4c -  Oden 30, F9
-9 - 4c -  Nemora 20, F9 (must of the game)
-u - 4c -  Raku 30, F9
-9 - 4c -  Isabella 20, F9
-w - 4c -  Estrilla F9
-w - 4c -  Skriath 30, F9
-s - 4c -  Safiya 20, F3
-w - 4c -  Skrek 30, F9
-w - 4c -  Tidus 20, F3
-u - 4c -  Nemisu 20, F3
-u - 4c -  Desira 30, F9
-w - 4c -  Rayne 20, + F9
-9 - 4c -  Cecilia 20 F3
-u - 4c -  Kren 30, F9, T3, gravure
-u - 4c -  Drez 20, F3
-s - 4c -  Varek, 10, F0
-u - 4c -  Kelthur 20, F9
-w - 4c -  Theowyn 30, F9
-u - 4c -  Hendrik 10, F3
-u - 4c -  Vurk 20, F3
-w - 4c -  Kaz 20 F3
+x9 - 4c -  Daimon 30, F9
+x9 - ol -  Lucretia 30, F9 gravure
+x9 - ar -  Ainz 30 F9
+x9 - 4c -  Shemira 20, F3
+x9 - ol -  Thalene 30, F9
+x9 - ar -  Merlin 30 F9
+x9 - 4c -  Grezhul 20, F9
+ u - ol -  Alna 30, F9
+/s - ar -  Prince 20 F3
+x9 - 4c -  Rowan F9
+x9 - ol -  Wukong 20, f3
+/s - ar -  Arhtur 20 F3
+x9 - 4c -  Lucius F9
+x9 - ol -  Jumeau 20, F9
+/s - ar -  Albedo 30, F3
+x9 - 4c -  Eiron 30, F9
+ u - ol -  Eziz 30, F9
+x9 - ar -  Ezio 20 F9
+x9 - 4c -  Saurus F9
+ u - ol -  Atalia 30, F9
+/s - ar -  Joker 20, F3
+/s - 4c -  Rosaline 20, F3
+ u - ol -  Flora 20, f9
+/s - ar -  Queen 20, F3
+x9 - 4c -  Ferael 30, F9
+ u - ol -  Mehira 30, F3
+/s - ar -  Nakoruru 20 F3
+/s - 4c -  Tasi 20, F3
+ u - ol -  Zolrath 30, F9
+ u - ar -  Ukyo 20, F9
+x9 - 4c -  Lyca F9
+ u - ol -  Zaphrael 30, F9
+cw - 4c -  Izold 30, F3
+ u - ol -  Morael 30, F9
+cw - 4c -  Thoran 30, F9
+ u - ol -  Morthas elite
+cw - 4c -  Silas 30, F9
+ u - ol -  khazard 30 F0
+cw - 4c -  Gwineth 30, F9
+ u - ol -  Orthos 30, F9
+/s - 4c -  Brutus 20, F3
+x9 - 4c -  Antandra 20, F9
+cw - 4c -  Oden 30, F9
+x9 - 4c -  Nemora 20, F9 (must of the game)
+ u - 4c -  Raku 30, F9
+x9 - 4c -  Isabella 20, F9
+cw - 4c -  Estrilla F9
+cw - 4c -  Skriath 30, F9
+/s - 4c -  Safiya 20, F3
+cw - 4c -  Skrek 30, F9
+cw - 4c -  Tidus 20, F3
+ u - 4c -  Nemisu 20, F3
+ u - 4c -  Desira 30, F9
+cw - 4c -  Rayne 20, + F9
+x9 - 4c -  Cecilia 20 F3
+ u - 4c -  Kren 30, F9, T3, gravure
+ u - 4c -  Drez 20, F3
+/s - 4c -  Varek, 10, F0
+ u - 4c -  Kelthur 20, F9
+ w - 4c -  Theowyn 30, F9
+ u - 4c -  Hendrik 10, F3
+ u - 4c -  Vurk 20, F3
+ w - 4c -  Kaz 20 F3
 
 u - 4c -  Anoki 10, F0
 u - 4c -  Baden 20, F3

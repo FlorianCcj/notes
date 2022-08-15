@@ -80,6 +80,9 @@
     - import_role:
         name: "tilt"
       tags: "tilt"
+    - import_role:
+        name: "rdme_statefull"
+      tags: "rdme_statefull"
 
 - name: Installation communication roles
   hosts: all

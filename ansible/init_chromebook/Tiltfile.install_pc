@@ -43,8 +43,8 @@ local_resource(
   name="PC:deploy flutter",
   cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + '-t flutter',
   auto_init=False,
-  trigger_mode=TRIGGER_MODE_AUTO,
-  #trigger_mode=TRIGGER_MODE_MANUAL,
+  #trigger_mode=TRIGGER_MODE_AUTO,
+  trigger_mode=TRIGGER_MODE_MANUAL,
   deps=[
     "playbooks/roles/flutter",
   ],
@@ -55,10 +55,22 @@ local_resource(
   name="PC:deploy golang",
   cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + '-t golang',
   auto_init=False,
+  #trigger_mode=TRIGGER_MODE_AUTO,
+  trigger_mode=TRIGGER_MODE_MANUAL,
+  deps=[
+    "playbooks/roles/golang",
+  ],
+)
+
+# Tilt resource to install rdme
+local_resource(
+  name="PC:deploy rdme_statefull",
+  cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + '-t rdme_statefull',
+  auto_init=False,
   trigger_mode=TRIGGER_MODE_AUTO,
   #trigger_mode=TRIGGER_MODE_MANUAL,
   deps=[
-    "playbooks/roles/golang",
+    "playbooks/roles/rdme_statefull",
   ],
 )
 
@@ -68,7 +80,7 @@ local_resource(
   cmd=Tilt_ansible_playbook_cmd + Tilt_ansible_playbook + '-t wine',
   auto_init=False,
   #trigger_mode=TRIGGER_MODE_AUTO,
-  #trigger_mode=TRIGGER_MODE_MANUAL,
+  trigger_mode=TRIGGER_MODE_MANUAL,
   deps=[
     "playbooks/roles/wine",
   ],
