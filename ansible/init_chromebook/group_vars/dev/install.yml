@@ -1,11 +1,12 @@
 ---
 dev_user: florianccj
 
-rdme_statefull_install: yes
-tilt_install: yes
 git_install: yes
 math_exo_install: yes
 npm_install: yes
+rdme_statefull_install: yes
+slack_install: yes
+tilt_install: yes
 tmux_install: yes
 zsh_install: yes
 zsh_omz_install: yes

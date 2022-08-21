@@ -1,3 +1,4 @@
+# -*- mode: Python -*-
 
 #Tiltfile_to_load="Tiltfile.wp"
 Tiltfile_to_load="Tiltfile.install_pc"

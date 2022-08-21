@@ -1,0 +1,5 @@
+---
+- name: Install slack package from deb url
+  ansible.builtin.apt:
+    deb: "{{ slack_deb_url }}"
+  become: yes

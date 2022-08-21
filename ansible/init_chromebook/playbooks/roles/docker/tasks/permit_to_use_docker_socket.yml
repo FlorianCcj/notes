@@ -5,7 +5,8 @@
     name: docker
     state: present
   become: yes
+
 - include: subtask-non_root_docker_user.yml
-  with_items: "{{ non_root_docker_users }}"
+  with_items: "{{ docker_non_root_users }}"
   loop_control:
-    loop_var: user
+    loop_var: _i_user

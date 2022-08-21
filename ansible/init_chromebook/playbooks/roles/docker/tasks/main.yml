@@ -1,4 +1,8 @@
 ---
 - import_tasks: remove_old.yml
+
 - import_tasks: config.yml
+
 - import_tasks: install.yml
+
+- import_tasks: permit_to_use_docker_socket.yml

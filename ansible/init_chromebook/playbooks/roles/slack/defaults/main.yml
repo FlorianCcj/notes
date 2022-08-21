@@ -1,0 +1,4 @@
+---
+slack_url: "{{ slack_deb_url }}"
+slack_deb_url: https://downloads.slack-edge.com/releases/linux/4.27.156/prod/x64/slack-desktop-4.27.156-amd64.deb
+slack_install: no

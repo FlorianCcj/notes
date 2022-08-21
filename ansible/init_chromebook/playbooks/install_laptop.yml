@@ -1,8 +1,17 @@
 ---
+- name: Add groups for dynamic hosts
+  hosts: all
+  tasks:
+    - when: inventory_hostname in groups['dynamic_inventory']
+      ansible.builtin.add_host:
+        group: "{{ hosts_organisation_groups[inventory_hostname] + hosts_language_groups[inventory_hostname] + hosts_software_groups[inventory_hostname]}}"
+        hostname: "{{ inventory_hostname }}"
+      delegate_to: localhost
+    - debug:
+        var: groups
+
 - name: Installation initial task
   hosts: all
-  vars:
-    non_root_docker_users: []
 #  roles:
 #    - geerlingguy.docker
   tasks:
@@ -110,6 +119,10 @@
     - import_role:
         name: "discord"
       tags: "discord"
+
+    - import_role:
+        name: "slack"
+      tags: "slack"
 
     - import_role:
         name: "blender"
