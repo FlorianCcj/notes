@@ -53,6 +53,36 @@ Mentalism
 
 :Nelson Mandela: "Je ne perds jamais. Soit je gagne, soit j'apprends."
 
+Arsene Lupin
+
+"C est bien ici la prison de la santé ?"
+"oui"
+"Je desirerais regagner ma cellule, la voiture m'a laissé en route, je ne voudrais pas abusé"
+"Dis donc l'homme passe ton chemin et plus vite que ca"
+"pardon, c est que mon chemin passe par cette porte, et si vous empecher Arsene Lupin de regagner la franchir cela pourrait vous couter gros mon ami"
+"Arsene Lupin qu'est ce que vous me chanter la"
+"Je regrette de na pas avoir ma carte"
+[Le directeur arive]
+"Allons M. le directeur ne jouer pas au plus fin avec moi. Comment ? on a la precaution de me ramener seul dans la voiture voiture, on me prepare un bon petit encombrement, et on s'immagine que je vais prendre mes jambes a mon cou pour rejoindre mes amis ? et bien; et les 20 agents de la sureté qui nous escortait a pied, en fiacre et en byciclette, non ce qu'il m'aurait arangé, je n'en serais pas sorti vivant. dites donc M. le directeur, c est peut etre la dessus que l'on comptait. Je vous en prie M. le directeur que l'on ne s'occupe pas de moi, le jour ou je voudrais m'en echapper je n'aurais besoin de personne"
+
+Prison de la santé, Paris
+
+M. Le baron,
+
+Il y a dans la gallerie qui reuni vos 2 salons, Un tableau de philippe de champene d'excellente facture qui me plait infiniment. Vos Rubens sont aussi de mon gout, ainsi que votre plus petit Vateau.
+
+Dans ls salon de droite droite je note la credence Louis XIII les tapisserie de Beauvais le gueridon en pierre signé Jacob et le bahut, renaissance
+
+Dans celui de gauche toutes la vitrine des bijoux et des mignatures. Pour cette fois je me contenterais de ces objets qui seront, je crois d un ecoulement facile.
+
+Je vous prie donc de les faire emballer convenablement et de les expedier a mon nom, port payé, en gare des batignolles avant 8 jours, faute de quoi je ferais proceder moi meme a leur demenagement dans la nuit du mercredi 27 au jeudi 28 septembre, et comme de juste je ne me contenterais pas des objets sus indiques
+
+Veuiller excuser le petit derangement que je vous cause et accepter l'expression de mes sentiments de respectueuses conciderations
+
+Arsene Lupin
+
+P.S.: Surtout ne pas m'envoyer le plus grand des Vateau, quoi que vous l'ayez payer 30 000 a lhotel des vente ce ne st qu une copie, l'original ayant ete bruler sous le directoire par Baras, un soir d orgie. Consulter les memoires inedites de Gara. Je ne tiens pas non plus a la Chatelaine Louis XV dont l'authenticité me semble douteuse
+
 Other
 =====
 
