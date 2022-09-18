@@ -1858,3 +1858,6 @@ suivi
 021.80 ad (continent rose)
 19 mine continent
 42 medailles
+
+https://cdkey.lilith.com/afk-global
+35700215
