@@ -1,0 +1,4 @@
+---
+terraform_dwl_url: https://releases.hashicorp.com/terraform/1.2.8/terraform_1.2.8_linux_amd64.zip
+terraform_install: no
+terraform_path_to_install: ~/software/bin

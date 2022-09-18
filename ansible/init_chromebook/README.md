@@ -10,7 +10,7 @@ echo 'hey guy you succeed using rdme'
 
 ### Prerequisite
 
-```sh
+```sh {name=prerequisite}
 # prerequisite
 sudo apt-get install -y git python3 python3-pip
 python -m pip install ansible
@@ -22,15 +22,13 @@ export PATH=$PATH:/home/${USER}/.local/bin
 
 ### Deploy
 
-```sh
-# deploy all
+```sh {name=deploy_all}
 ansible-playbook -i hosts.ini playbooks/install_laptop.yml -K
 ```
 
 ### Deploy to one machine
 
-```sh
-# deploy asus_x515
+```sh {name=deploy_x515}
 ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -K
 ```
 
@@ -42,6 +40,7 @@ ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x5
 - Firefx account
 - firefox gmail
 - firefox 1Password
+- firefox download helper client app: https://www.downloadhelper.net/install-coapp?browser=firefox
 - Slack saloon
   - prologism
   - befree

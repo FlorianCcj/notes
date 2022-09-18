@@ -1,0 +1,4 @@
+---
+openvpn_install: no
+openvpn_dependencies:
+  - openvpn

@@ -27,7 +27,7 @@
     # installer need root write to create ‘/usr/local/share/anki’ dir
     become: yes
     args:
-      chdir: "{{ anki_path_to_install }}/anki-{{ anki_version }}-linux/"
+      chdir: "{{ anki_path_to_install }}/anki-{{ anki_version }}-linux-qt6/"
 
 #- name: "add blender path"
 #  import_role:

@@ -1,0 +1,26 @@
+---
+- name: "create soft dir: {{ vscode_config_dir }}"
+  become: yes
+  file:
+    path: "{{ vscode_config_dir }}"
+    state: directory
+    owner: "{{ vscode_user }}"
+    group: "{{ vscode_user }}"
+    mode: '0755'
+    recurse: yes
+
+- name: make gitconfig
+  template:
+    src: home/user/.config/Code/User/settings.json.j2
+    dest: "{{ vscode_config_dir }}/setting.json"
+    owner: "{{ vscode_user }}"
+    group: "{{ vscode_user }}"
+    mode: 0644
+
+- name: Create a vscode config symbolic link
+  when: vscode_config_link is defined
+  ansible.builtin.file:
+    src: "{{ vscode_config_dir }}/setting.json"
+    dest: "{{ vscode_config_link }}"
+    state: link
+    force: yes

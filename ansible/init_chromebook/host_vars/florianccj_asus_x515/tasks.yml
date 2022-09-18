@@ -1,5 +1,6 @@
 ---
 vital_packages:
+  - chromium-browser
   - firefox
   - gimp
   - git
