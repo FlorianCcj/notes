@@ -1,0 +1,11 @@
+# -*- mode: Python -*-
+
+Exo1_Quiz_Game_dir='src/Exo01-Quiz_Game'
+Exo1_Quiz_Game_cmd='go run main.go'
+
+local_resource(
+  name='Exo1-Quiz_Game',
+  cmd=Exo1_Quiz_Game_cmd,
+  deps=['src/Exo01-Quiz_Game'],
+  dir=Exo1_Quiz_Game_dir
+)
