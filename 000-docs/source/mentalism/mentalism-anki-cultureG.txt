@@ -1,0 +1,25 @@
+[Animal] Combien d etage entrainent quel blessure a un chat ? % jusqu a 2 etages, indemne, 5-7 blessures severes, au delà, syndrome du chat parachute % Nature Aniaml Cat %
+[Animal] D ou vient le nom de chauve souris ? % A l antiquité et encore au moyen age on pensait que c etait un hybride entre des chouettes des souris, par une mauvaise traduction cavasorix > calvasorix % Nature Aniaml Chave-Souris %
+[Animal] How cats do to go back to their feet ? % il fait le dos rond et utilise sa tete et sa queue pour se retourner, ses mustaches lui servent a s orienter dans l espace pour savoir quel orientation donner a son corps % Nature Aniaml Cat %
+[Animal] Pourquoi les chiens ont peur de l'orage? % d'abord parce qu'ils ont des sens beaucoup plus developper, donc ressente la depression et entendent l'orage arrivé de loin mais aussi parce que l electricité se stock dans leur poil, donc chataigne, donc souvenir, peur % Nature Aniaml Chien %
+[Animal] Qu est ce que les syndrome du chat parachute? % au delà de 7 etages un chat atteint sa vitesse maximal, il a donc la presence d esprit d etirer au maximum ses pattes, ne plus chercher a retomber dessus et grace a l etirement et la prise au vent il a plus de chance de survie % Nature Aniaml Cat %
+[Animal] Quel est la hauteur minimum pour qu un chat retombe sur ses pattes ? % 1m50 % Nature Aniaml Cat %
+[Animal] Quelle est la famille des cahuves souris ? quels sont les origines de son nom ? % Chiroptere, chyro, main, ptere l'aile % Nature Aniaml Chave-Souris %
+[History] Combien de rouleau avait la bibliotheque d Alexandrie a ses heures les plus glorieuses ? % environ 700 miles % History Antiquite Alexandrie %
+[History] Donner une des hypotheses de sa destruction ? % Incendie Par Jules Cesar en 48 avant jc % History Antiquite Alexandrie  Jules_Cesar%
+[History] Pourquoi la bibliotheque d Alexandrie est-elle si celebre ? % car elle faisait parti du centre culturel qui accueillait penseur les plus prestigieux de cette ere, elle était la plus grande et était un actif centre de traduction (dont la traduction de la Septante, traduction de la Bible hebraique en grec longtemps utilise par l eglise catholique) % History Antiquite Alexandrie %
+[History] quand a été construite la bibliotheque d Alexandrie ? % en 288 av jc % History Antiquite Alexandrie %
+[History] Sous quel regne la bibliotheque d Alexandrie a t elle été construite ? % Sous ptolemee II % History Antiquite Alexandrie %
+[Innovation] Before comming in europe where tomatoes come from? % Perou % Food Pizza Tomato %
+[Innovation] D ou et de quand vient la margarita? % De la reine marguerite pour qui on a cree cette pizza en juin 1889 au couleur de l italie (bazilic, mozarela, tomate) % Food Pizza Tomato %
+[Innovation] Pourquoi initiallement la tomate etait concidere comme non commestible? % Car elle est de la famille de la Belladone, lie a la sorcelerie et la magie noire % Food Pizza Tomato %
+[Innovation] Quand a été invente la video surveillance, les interphones et videophones ? % Le brevet a été depose en 1966 et il fallu attendre 1969 avant d être accorde % History Inovation %
+[Innovation] Quel etait le premier nom que l on a donne a la tomate, quel est sa traduction italienne? % Pomme d'or, pomodoro % Food Pizza Tomato %
+[Innovation] Qui a invente la video surveillance ? quel était son metier ? Sa nationnalite ? % Marie Van Brittan Brown, infirmiere americaine % History Inovation %
+[Innovation] What does pizza means (originaly)? % Galette de pain % Food Pizza Tomato %
+[Innovation] Where and when does the pizza have been invented? % Naples XVI siecle % Food Pizza Tomato %
+[TV] What should the simpson color be in theory? % hot color, red or green % TV Simpson Entertainement %
+[TV] When the simpson have been created ? % 1989 % TV Simpson Entertainement %
+[TV] Why the simpson are yellow? % because of money, green is not a primary color so it need to pay yellow and blue % TV Simpson Entertainement %
+Pourquoi la reine est plus forte que le roi au echecs ? % de base en Inde au XVIe siecle c etait le Sultant et le Vizir (une seul case et en diagonal), en arrivant en Europe au XIe siecle, c est devenu le Roi et la Reine, en arrivant en Espagne la reine Isabelle de Castille (la Catholique) le voie d un tres mauvais oeil et force la Reine d'avoir plus de pouvoir % Echec %
+Pourquoi les soldats du feu s'appelent les sapeurs pompier ? % terme officiel depuis 1811 par Napoleon 1er, sapeur, comme saper le moral, rabaisser le moral, il sapait les fondations des maisons autour de l incendit, ils les detruisaient pour eviter la propagation du feu, 1611 invension de la pompe a bras, les moines qui pompaient ont été appelé pompier % Pompier Metier %
