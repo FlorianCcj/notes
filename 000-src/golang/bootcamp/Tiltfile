@@ -1,0 +1,40 @@
+# -*- mode: Python -*-
+
+Exo58_1_dynamic_table_dir='58.1-dynamic_table'
+Exo58_1_dynamic_table_cmd='go run main.go'
+
+local_resource(
+  name='Exo58_1_dynamic_table_dir-no_arg',
+  cmd=Exo58_1_dynamic_table_cmd,
+  deps=[
+    Exo58_1_dynamic_table_dir
+  ],
+  dir=Exo58_1_dynamic_table_dir
+)
+
+local_resource(
+  name='Exo58_1_dynamic_table_dir-1',
+  cmd=Exo58_1_dynamic_table_cmd + " 1",
+  deps=[
+    Exo58_1_dynamic_table_dir
+  ],
+  dir=Exo58_1_dynamic_table_dir
+)
+
+local_resource(
+  name='Exo58_1_dynamic_table_dir-2',
+  cmd=Exo58_1_dynamic_table_cmd + " 2",
+  deps=[
+    Exo58_1_dynamic_table_dir
+  ],
+  dir=Exo58_1_dynamic_table_dir
+)
+
+local_resource(
+  name='Exo58_1_dynamic_table_dir-3',
+  cmd=Exo58_1_dynamic_table_cmd + " 3",
+  deps=[
+    Exo58_1_dynamic_table_dir
+  ],
+  dir=Exo58_1_dynamic_table_dir
+)

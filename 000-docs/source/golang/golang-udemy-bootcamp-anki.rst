@@ -36,3 +36,7 @@ how can you make a for loop in go? % for i:= 1; i <= 1000; i++ {}
 how can you make an infinite for loop in go? % for {}
 how can you go out of an infinite for loop in go? % with the key work break
 how can you iterate getting index and value? % for i, v:= range os.Args {}
+how can you generate a random number? % ran.Seed(time.Now().UnixNano())
+how to change a string (with spapce) to list of string split by space? % words := string.Fields("lazy cat jumps again and again and again")
+What are the composite type in golang? % Array, Slice, String, Maps, Struct
+What are the possibility to print an array variable? % fmt.Println("books: ", books), fmt.Printf("books: %q", books), fmt.Printf("books: %#v", books)
