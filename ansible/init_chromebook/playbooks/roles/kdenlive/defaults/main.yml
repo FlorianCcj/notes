@@ -1,6 +1,8 @@
 ---
 kdenlive_dir_to_create:
   - "~/software/bin"
+kdenlive_deps:
+  - libfuse2 # need for appimage
 
 kdenlive_download_url: "https://download.kde.org/stable/kdenlive/{{ kdenlive_short_version }}/linux/kdenlive-{{ kdenlive_long_version }}-x86_64.appimage"
 kdenlive_install: no

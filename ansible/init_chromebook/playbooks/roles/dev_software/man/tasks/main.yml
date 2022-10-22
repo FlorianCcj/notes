@@ -1,0 +1,8 @@
+---
+- when: man_config_install | bool
+  ansible.builtin.blockinfile:
+    path: ~/.alias
+    block: "{{ man_color_script }}"
+    marker_begin: "# BEGIN ANSIBLE MANAGED BLOCK (BY MAN ROLE)"
+    marker_end: "# END ANSIBLE MANAGED BLOCK (BY MAN ROLE)"
+    create: yes

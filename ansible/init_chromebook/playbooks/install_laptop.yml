@@ -52,6 +52,10 @@
   hosts: all
   tasks:
     - import_role:
+        name: "dev_software/man"
+      tags: "man_config"
+
+    - import_role:
         name: "dev_software/python"
       tags: "python"
 
@@ -90,8 +94,8 @@
           name: "dev_software/vscode"
       tags: "vscode"
     #- import_tasks: tasks/install_atom.yml
-#    # wtf payment required
-# TODO: install docker compose
+    #    # wtf payment required
+    # TODO: install docker compose
 
     - import_role:
         name: "dev_software/docker"

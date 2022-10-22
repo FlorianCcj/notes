@@ -11,8 +11,8 @@
 
 - name: make zsh config
   template:
-    src: .zsh.j2
-    dest: "{{ zsh_config_dir }}/.zsh"
+    src: .zshrc.j2
+    dest: "{{ zsh_config_dir }}/.zshrc"
     owner: "{{ zsh_user }}"
     group: "{{ zsh_user }}"
     mode: 0644
@@ -20,6 +20,6 @@
 - name: Create a zsh config symbolic link
   when: zsh_config_link is defined
   ansible.builtin.file:
-    src: "{{ zsh_config_dir }}/.zsh"
+    src: "{{ zsh_config_dir }}/.zshrc"
     dest: "{{ zsh_config_link }}"
     state: link

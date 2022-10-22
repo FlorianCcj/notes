@@ -2,6 +2,7 @@
 dev_user: florianccj
 
 git_install: yes
+man_config_install: yes
 math_exo_install: yes
 npm_install: yes
 rdme_statefull_install: yes

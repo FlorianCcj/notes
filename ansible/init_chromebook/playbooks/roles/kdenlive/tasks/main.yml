@@ -2,6 +2,12 @@
 # https://download.kde.org/stable/kdenlive/21.04/linux/kdenlive-21.04.2-x86_64.appimage
 - when: kdenlive_install | bool
   block:
+  - name: install  kdenlive deps
+    package:
+      name: "{{ kdenlive_deps }}"
+      state: present
+    become: yes
+
   - name: "create soft dir: {{ kdenlive_path_to_install }}"
     become: yes
     file:
