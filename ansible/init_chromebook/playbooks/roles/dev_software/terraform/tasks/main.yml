@@ -1,0 +1,29 @@
+---
+- when: terraform_install | bool
+  block:
+  - name: "create soft dir: {{ terraform_path_to_install }}"
+    file:
+      path: "{{ terraform_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: get terraform
+    ansible.builtin.unarchive:
+      src: "{{ terraform_dwl_url }}"
+      dest: "{{ terraform_path_to_install }}"
+      remote_src: yes
+
+  - name: "Add {{ terraform_path_to_install }} to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ terraform_path_to_install }}"
+
+  - name: "add terraform auto complete in alias"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - terraform -install-autocomplete

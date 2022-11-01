@@ -1415,6 +1415,11 @@ Boutique
   * vert - serpent 2 (observatoire)
   * vert - sleep staff 3 (legende, observatoire)
 
+Engraving
+==========
+
+https://preview.redd.it/3029kta53pg81.png?width=5416&format=png&auto=webp&s=d061135657f1207fae0ab452b6b8fc613bc205b8
+
 Meuble
 ======
 
@@ -1858,3 +1863,12 @@ suivi
 021.80 ad (continent rose)
 19 mine continent
 42 medailles
+
+https://cdkey.lilith.com/afk-global
+35700215
+
+2022.10.01 pepmjfpuhs
+
+test
+sorciere serpent balayeuse jumeau pistol
+tripode servante vampire jumeau serpent

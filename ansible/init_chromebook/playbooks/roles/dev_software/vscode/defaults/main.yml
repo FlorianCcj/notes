@@ -1,0 +1,21 @@
+---
+vscode_default_config: |
+  {
+      "workbench.colorTheme": "Default Dark+",
+      "[markdown]": {
+          "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+      },
+      "editor.trimAutoWhitespace": true,
+      "files.trimTrailingWhitespace": true,
+      "editor.tabSize": 2,
+      "go.lintOnSave": "package",
+      "go.vetOnSave": "package",
+      "go.vetFlags": [
+        "-all",
+        "-shadow",
+      ]
+  }
+
+vscode_config_dir: /opt/workspace/vscode
+vscode_config_link: "/home/{{ vscode_user }}/.config/Code/User/settings.json"
+vscode_user:

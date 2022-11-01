@@ -1,0 +1,9 @@
+---
+- when: openvpn_install | bool
+  block:
+  - name: install openvpn needed package
+    package:
+      name: "{{ openvpn_dependencies }}"
+      state: present
+    become: yes
+  

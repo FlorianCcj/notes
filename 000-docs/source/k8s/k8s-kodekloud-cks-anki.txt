@@ -1,0 +1,291 @@
+CKS-What are the 4C of Cloud Native security % Cloud, Cluster, Container, Code
+CKS-What includes Cloud in 4C of Cloud Native security % Datacenter, Network, servers
+CKS-What includes Cluster in 4C of Cloud Native security % Authentication, authorization, Admission, Network Policy
+CKS-What includes Container in 4C of Cloud Native security % Restrict Images, Supply Chain, Sandboxing, Privileged
+CKS-What includes Code in 4C of Cloud Native security % Best practices (TLS, vault, password, secret, ...)
+CKS-Describe an easy way to attack an application % Find the IP adress (host, ping, ...), scan open port, test docker action (docker -H <domain name> ps, docker -H www.vote.com version, docker -H www.vote.com run --priviledge -it ubuntu bash)
+CKS-On k8s how to know which port is use for which application on a specific node % iptables -L -t nat | grep kubernetes-dashboard
+CKS-APIGroup-How to acces to k8s version with curl % curl https://kube-master:6443/version
+CKS-APIGroup-How to acces to list of pods of the default namespace with curl % curl https://kube-master:6443/api/v1/pods
+CKS-APIGroup-Give some exemples of root api % /metrics, /healthz, /version, /api, /apis, /logs
+CKS-APIGroup-What is the /api api is for % The core functionnality
+CKS-APIGroup-Give some example of API of the core group % /api/v1/{namespace,pods,rc,events,endpoints,nodes,bindings,PV,PVC,configmaps,secrets,services}
+CKS-APIGroup-How is organized named group API ? % /apis/{API Groups}/{Resources}
+CKS-APIGroup-Give some api groups of apis of named group % /apis/{apps,extensions,networking.k8s.io,storage.k8s.io,authentication.k8s.io,certificates.k8s.io}
+CKS-APIGroup-Give some resources of apis of the named group /apps % /apis/apps/v1/{deployments,replicasets,statefulsets}
+CKS-APIGroup-Give some resources of apis of the named group /networking.k8s.io % /apis/networking.k8s.io/v1/{networkpolicies}
+CKS-APIGroup-Give some resources of apis of the named group /certificates.k8s.io % /apis/certificates.k8s.io/v1/{certificatesigningrequest}
+CKS-APIGroup-What Verbs can you use on each resource % list,get,create,delete,update,watch
+CKS-APIGroup-Which request can you do to know the root api % curl http://localhost:6443 -k 
+CKS-APIGroup-Which request can you do to know the name api % curl http://localhost:6443/apis -k 
+CKS-auth-how to get apiserver on localhost (with correct kubeconfig) % kubectl proxy
+CKS-auth-how to access apiserver without authent on each requests % kubectl proxy (with correct kubeconfig)
+CKS-auth-What are the different k8s users % Cluster admin, developers, application end users, Bots
+CKS-auth-How k8s manage users % K8S does not manage users, it can manage thanks to a third part mechanism as ldap or certificate, but it can manage bot authent thanks to service account
+CKS-auth-What are k8s authent mechanism % Static password file, static token file, certificate, third part identity service
+CKS-auth-What is the structure of the static token file % token, username, uid, (usergroup | optional)
+CKS-auth-How do you indicate user and password on curl command? % curl -v -k https://master-node-ip:6443/api/v1/pods -u "user1:password123"
+CKS-auth-How do you indicate token on curl command? % curl -v -k https://master-node-ip:6443/api/v1/pods --header "Authorization: Bearer KpjCVbI7rCFAHYPkBzRb7gu1cUc4B"
+CKS-auth-What is the difference between authentication and authorization % authentication is who you are, authorization is what are you allowed to do
+CKS-auth-What are k8s authorization methods % Node, ABAC (Atribute Base Authorization Control), RBAC (Role Base Authorization Control), Webhook
+CKS-auth-What are k8s authorization mode % Node, ABAC (Atribute Base Authorization Control), RBAC (Role Base Authorization Control), Webhook, AlwaysAllow, AlwaysDeny
+CKS-auth-How k8s authorization mode are configured? % In kube-apiserver command with the --authorization-mode option, you can add multiple mode --authorization-mode="Node,RBAC,Webhook"
+CKS-CIS-What is security Benchmark? % A check of security best practice
+CKS-CIS-What does CIS means % Center for Internet Security
+CKS-CIS-What tools can check CIS rules on an OS % CIS-CAT Lite (generate an html)
+CKS-CIS-Which tool can make CIS Benchmark on K8S % Kube Bench from Aqua Security
+CKS-CIS-Which way can we use kube-bench % Docker container, Pod, bin
+CKS-What are the K8S security primitive? % Hosts access, apiserver authentification and authorization and network policies
+CKS-sa-cmd-How to generate a service account % kubectl create serviceaccount {serviceaccount name}
+CKS-sa-cmd-How to know the service account token name % kubectl describe serviceaccount {serviceaccount name}
+CKS-sa-cmd-How to read the service account token % kubectl describe secret {serviceaccount token name}
+CKS-sa-How to automatically authenticate the kubernetes dashboard % Mount the service account secret as a volume in the pod
+CKS-sa-What is the relation between service account and namesapace creation % a service account default is automatically create
+CKS-sa-What is the relation between service account and pod creation % the default service account of the namespace is automatically mount into each pod
+CKS-sa-Where the token of the service account is mount by default? % /var/run/secrets/kubernetes.io/serviceaccount
+CKS-sa-How to customize the service account of a pod % spec.serviceAccountName: {serviceaccount name}
+CKS-sa-How can you say to not mount default serviceaccount in a pod % spec.automountServiceAccountToken: false
+CKS-TLS-What is certificate for? % Guaranty trust between two parties during a transaction
+CKS-TLS-How to generate private key and public lock? % ssh-keygen
+CKS-TLS-How to indicate to a server that a user can connect with his key? % add the user public lock in ~/.ssh/authorized_keys
+CKS-TLS-cmd-How to connect to a server thanks to own private key % ssh -i {private key path} {username}@{server}
+CKS-TLS-cmd-How to generate a private key with openssl % openssl genrsa -out {private key path} {encryption level (recommend 2048)}
+CKS-TLS-cmd-How to generate a public lock with openssl from a private key % openssl rsa -in {private key path} -pubout
+CKS-TLS-cmd-How can we attest that the certificate is trustable % generally the issuer is important, it is the entity which attest the certificate is ok
+CKS-TLS-cmd-How to generate Certificate Signing Request % openssl req -new -key {private key path} -out {csr path} -subj {subject | e.g. /C=US/ST=CA/O=MyOrg, Inc./CN=my-bank.com}
+CKS-TLS-There are service which manage certificate what are the name % Public Key Infrastructure (PKI)
+CKS-TLS-Which main element of k8s need server certificate? % apiserver, etcd, kubelet
+CKS-TLS-Which main element of k8s need client certificate? % users, kube-scheduler, kube-controller-manager, kube-proxy, apiserver (for etcd and kubelet), kubelet
+CKS-TLS-Which main element of k8s acceed to etcd? % only apiserver
+CKS-TLS-cmd-How to generate a CA private key with openssl % openssl genrsa -out {path to ca.key} {encryption level (recommend 2048)}
+CKS-TLS-cmd-How to generate a CSR for CA with openssl % openssl req -new -key {path to ca.key} -subj "/CN=KUBERNETES-CA" -out {path to ca.csr}
+CKS-TLS-cmd-How to sign certificate from CA with openssl % openssl x509 -req -in {path to ca.csr} -signkey {path to ca.key} -out {path to ca.crt}
+CKS-TLS-cmd-How to generate csr for a user % <div style="text-align: left;">openssl genrsa -out fanny.key 2048 <br/> openssl req -new -key fanny.key -subj "/CN=kube-fanny" -out fanny.csr</div>
+CKS-TLS-How to indicate group in CSR? % openssl req -new -key fanny.key -subj "/CN=kube-fanny/O=system:masters" -out fanny.csr
+CKS-TLS-Which group are mandatory for all main k8s process client certificat? % not a group but a prefix system: <br/>openssl req -new -key kube-apiserver.key -subj "/CN=system:kube-apiserver" -out kube-apiserver.csr
+CKS-TLS-A prefix is mandatory in some component certificate, which, where and why % system: in main k8s process client certificate, to indicate that there are part of the system
+CKS-TLS-How do you indicate cert on curl command? % curl https://kube-api-server:6443/api/v1/pods --key admin.key --cert admin.crt --cacert ca.crt
+CKS-TLS-Pods have multiple dns entry, you need to add them in the certificate, which one are them % e.g. for kube-apiserver: kubernetes, kubernetes.default, kubernetes.default.svc, kubernetes.default.svc.cluster.local, 10.96.0.1, 172.17.0.87
+CKS-TLS-To generate a CSR with altname you need a conf file, how does it look like %  <div style="text-align: left;">[req]<br/>req_extension = v3_req<br/>distinguished_name = req_distinguished_name<br/>[ v3_req ]<br/>basicConstraints = CA:FALSE<br/>keyUsage = nonRepudiation,<br/>subjectAltName = @alt_names<br/>[alt_names]<br/>DNS.1 = kubernetes<br/>DNS.2 = kubernetes.default<br/>DNS.3 = kubernetes.default.svc<br/>DNS.4 = kubernetes.default.svc.cluster.local<br/>IP.1 = 10.96.0.1<br/>IP.2 = 172.17.0.87</div>
+CKS-TLS-cmd-To generate a CSR with altname you need a conf file, how do you add it in generation command % openssl req -new -key apiserver.key -subj "/CN=kube-apiserver" -out apiserver.csr --config openssl.conf
+CKS-TLS-cmd-To generate a certificate with altname you need a conf file, how do you add it in signing command % openssl x509 -req -in apiserver.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out apiserver.crt -extensions v3_req -extfile openssl.conf -days 1000
+CKS-TLS-What element will be important in kubelet server certificate will have? % CN={The name of the node}
+CKS-TLS-What element will be important in kubelet client certificate will have? % CN=system:node:{The name of the node} and group SYSTEM:NODES
+CKS-TLS-Where to find kube-apiserver certificate on the Hard Way % cat /etc/systemd/system/kube-apiserver.service (3 etcd client, 2 kubelet client, 1 client, 2 tls))
+CKS-TLS-Where to find kube-apiserver certificate on the kubeadm Way % cat /etc/kubernetes/manifests/kube-apiserver.yaml (search 8 ca, cert and key file (3 etcd client, 2 kubelet client, 1 client, 2 tls))
+CKS-TLS-cmd-How to read a certificate? % openssl x509 -in /etc/kubernetes/pki/apiserver.crt -text -noout
+CKS-TLS-What look like a CSR manifest % <div style="text-align: left;">apiVersion: certificates.k8s.io/v1beta1<br/>kind: CertificateSigningRequest<br/>metadata:<br/>  name: jane<br/>spec:<br/>  groups:<br/>  - system: authenticated<br/>  usage:<br/>  - digital signature<br/>  - key encipherment<br/>  - server auth<br/>  request: <jane.csr | base64 in oneline></div>
+CKS-TLS-cmd-If you have to manage CSR what are commands % kubectl certificate approve/deny jane, kubectl get csr
+CKS-TLS-Which element validate CSR % 2 controllers csr-approving controller and csr-signing controller
+CKS-TLS-Where in main k8s element can we specified validating CA? % In kube-controller-manager parameters --cluster-signing-key-file and --cluster-signing-cert-file
+CKS-TLS-cmd-If you son't want to use kubeconfig how can you do? % you can add parametter to kubectl command: --server kube-apiserviver:6443 --client-key admin.key --client-certificate admin.crt --certicate-authority ca.crt
+CKS-kubectl-Where is the kubeconfig default file? % $HOME/.kube/config
+CKS-kubectl-What compose a kubeconfig file? % Clusters, Users and Context, contexts are combinaison of user and cluster
+CKS-kubectl-cmd-How to print config with kubectl? % kubectl config view
+CKS-kubectl-cmd-How to change context with kubectl? % kubectl config use-context {context name}
+CKS-kubectl-In kubectl, we can use path or data, which key do you use for file path? % clusters[].cluster.certificate-authority, users[].user.{client-certificate,client-key}
+CKS-kubectl-In kubectl, we can use path or data, which key do you use for data? % clusters[].cluster.certificate-authority-data, users[].user.{client-certificate-data,client-key-data}
+CKS-kubectl-You have kubectl config with file path you want to put it in the kubeconfig in data mode, what do you have to do? % Get the base64 file and paste it in one line
+CKS-role-cmd-How to create a role yaml file? % kubectl create role {role name} --verb={verb list separate with comma} --resource={resource list separate with comma} --dry-run=client -o yaml
+CKS-role-cmd-How to bind a role to a user (yaml file)? % kubectl create rolebinding {rolebinding name} --clusterrole=NAME|--role=NAME --user=username|--group=NAME|--serviceaccount=namespace:serviceAccountName --dry-run=client -o yaml
+CKS-role-How can you limit a role binding to a namespace? % metadata.namespace: {namespace name}
+CKS-role-How to list roles? % kubectl get roles
+CKS-role-How to get role detail? % kubectl describe role {role name}
+CKS-role-How to get rolebinding detail? % kubectl describe rolebinding {rolebinding name}
+CKS-auth-How to check if you are allowed to create deployment? % kubectl auth can-i create deployements
+CKS-auth-How to check if you are allowed to delete pods? % kubectl auth can-i delete pods
+CKS-auth-How to check if a specific user, laura, are allowed to create secret? % kubectl auth can-i create secret --as laura
+CKS-resource-cmd-How to list all namespaced resource? % kubectl api-resources --namespaced=true
+CKS-resource-give some namespaced resource? % pods, rs, jobs, deploy, svc, secrets, roles, reolbindings, configmaps, pvc
+CKS-resource-give some cluster resource? % nodes, PV, clusterroles, clusterrolebindings, CSR, ns
+CKS-clusterrole-What happened if you give the right to create deployment by a clusterrole? % The right is accross namespace
+CKS-clusterrole-cmd-How to create a cluster role yaml file? % kubectl create clusterrole {cluster role name} --verb={verb list separate with comma} --resource={resource list separate with comma} --dry-run=client -o yaml
+CKS-clusterrole-cmd-How to bind a cluster role to a user (yaml file)? % kubectl create clusterrolebinding {clusterrolebinding name} --clusterrole=NAME --user=username|--group=NAME|--serviceaccount=namespace:serviceAccountName --dry-run=client -o yaml
+CKS-clusterrole-How can you limit clusterrole to an unique namespace? % use a rolebinding instead a clusterrolebindings (not sure)
+CKS-kubelet-What are Kubelet roles? % Register Node, Create PODs, Monitor Node & PODs
+CKS-kubelet-How to install Kubelet? % Kubeadm does not install Kubelet, you need to download the binary or add the repo to install it
+CKS-kubelet-Where do you find kubelet config? % In the service, give by options, or when you look at the service, look at the --config option it give a KubeletConfiguration file.<br/>You can find it too, with ps aux | grep kubelet
+CKS-config-Who have the priority between command flag and config file ? % Command flag
+CKS-kubelet-What are default kubelet port and what are there role? % 10250, Serves API that allows full access<br/>10255, Serves API that allow unauthenticated read-only access
+CKS-kubelet-How to exploit (e.g. list pods of the node) those port? % curl -sK https://worker01:10250/pods <br/> curl -sK https://worker01:10250/logs/syslog
+CKS-apiserver-How to get swagger of server by curl? % kubectl proxy then curl http://localhost:8001/openapi/v2 | python -m json.tool
+CKS-apiserver-How to get swagger of server by kubectl? % kubectl get --raw /openapi/v2
+CKS-apiserver-How to format swagger? % curl http://localhost:8001/openapi/v2 | python -m json.tool
+CKS-apiserver-How to visualize swagger? % curl http://localhost:8001/openapi/v2 > swagger.json then docker run --rm -p 80:8080 -e SWAGGER_JSON=/swagger.json -v $(pwd)/swagger.json:/swagger.json swaggerapi/swagger-ui
+CKS-kubelet-How to remove anonymous request to kubelet? % Add flag --anonymous-auth=false flag or `authentication.anonymous.enabled: false` option in the KubeletConfiguration
+CKS-kubelet-Which authentication mode exist to kubelet? % Certificate (x509) or API Bearer Tokens
+CKS-kubelet-How do you activate certificate authentication to kubelet? % with --client-ca-file=/path/to/ca.crt flag of `authentication.x509.clientCAFile: /path/to/ca.crt` config in KubeletConfiguration 
+CKS-kubelet-What is the default authorization mode for kubelet? % AlwaysAllow, you can see in --authorization-mode flag or authorization.mode option in KubeletConfiguration
+CKS-kubelet-What is the recommend authorization mode for kubelet, why and how to configure it? % Webhook, add --authorization-mode=Webhook flag or `authorization.mode: Webhook` to KubeletConfiguration. With this option Kubelet will ask to apiserver authorization
+CKS-kubelet-How to disable kubelet read only port? % With --read-only-port=0 flag or readOnlyPort: 0 option in KubeletConfiguration
+CKS-How can you access to apiserver locally and without authentication? % kubectl proxy
+CKS-proxy-cmd-After a kubectl proxy you can access to your application, which url permit it? % curl http://localhost:8001/api/v1/namespaces/default/services/nginx/proxy/
+CKS-proxy-How to access to a service in local? % kubectl port-forward service/nginx 28080:80
+CKS-upgrade-How to check if downloaded binaries are safe? % check the sha512sum, you can find it on the binaries website
+CKS-upgrade-What is the more important element/the reference in versionning in k8s? % kube-apiserver
+CKS-upgrade-Which element can have which difference between the reference and them? % kube-controller-manager and kube scheduler X,X-1 kubelet and kube-proxy X,X-2, kubectl x+1,x-1
+CKS-upgrade-How many version are supported in k8s? % 3 major
+CKS-upgrade-cmd-Which command will be use to upgrade cluster with kubeadm? % kubeadm upgrade plan<br/>kubectl drain controlplane<br/>{package manager} install -y kubelet=1.12.0-00 kubeadm=1.12.0-00<br/>kubeadm upgrade apply v1.12.0<br/>kubeadm upgrade node config --kubelet-version v1.12.0<br/>systemctl restart kubelet<br/>kubectl uncordon controlplan<br/>kubectl get nodes
+CKS-upgrade-How to work kubeadm cluster upgrade? % You can find a scenario in katakoda
+CKS-netpol-what is an ingress trafic? % All incomming trafic
+CKS-netpol-what is an egress trafic? % All outgoing trafic
+CKS-netpol-what happened when you apply a Network Policy to a pod? % All other traffic than those specified in the netpol will be forbidden
+CKS-netpol-If you only want to allow incomming traffic from api-pod on port 3306 what the netpol will look like? %  <div style="text-align: left;"><br/>apiVersion: networking.k8s.io<br/>kind: NetworkPolicy<br/>metadata:<br/>  name: db-policy<br/>spec:<br/>  podSelector:<br/>    matchLabels:<br/>      role: db<br/>  policyTypes:<br/>  - Ingress<br/>  ingress:<br/>  - from:<br/>    - podSelector:<br/>        matchLabels:<br/>          name: api-pod<br/>    ports:<br/>    - protocol: TCP<br/>      port: 3306</div>
+CKS-netpol-If you only want to allow incomming traffic from api-pod of prod namespace on port 3306 what the netpol will look like? % <div style="text-align: left;"><br/>apiVersion: networking.k8s.io<br/>kind: NetworkPolicy<br/>metadata:<br/>  name: db-policy<br/>spec:<br/>  podSelector:<br/>    matchLabels:<br/>      role: db<br/>  policyTypes:<br/>  - Ingress<br/>  ingress:<br/>  - from:<br/>    - podSelector:<br/>        matchLabels:<br/>          name: api-pod<br/>      namespaceSelector:<br/>        matchLabels:<br/>          name: prod<br/>    ports:<br/>    - protocol: TCP<br/>      port: 3306</div>
+CKS-netpol-If you only want to allow incomming traffic from pods of prod namespace on port 3306 what the spec.ingress will look like? % - namespaceSelector.matchLabels.name: prod
+CKS-netpol-If you only want to allow incomming traffic from 1.2.3.4 server on port 3306 what the spec.ingress will look like? % - ipBlock.cidr: 1.2.3.4/32
+CKS-netpol-If want to only permit outcome trafic to 1.2.3.4 server on port 80 what the egress look like? % <div style="text-align: left;"><br/>- to:<br/>  - ipBlock:<br/>      cidr: 1.2.3.4<br/>  ports:<br/>  - protocol: TCP<br/>    port: 80</div>
+CKS-docker-How can you manually launch docker to debug? % systemctl stop docker then dockerd --debug
+CKS-Docker-by default what are the encrypted/un-encrypted port of docker? % 2375 Un-ecrypted 2376 Encrypted
+CKS-Docker-Where is the default config file of docker? % /etc/docker/daemon.json
+CKS-Docker-How to activate tls on docker? % by flags: --host=tcp://1.2.3.4:2376 --tls=true --tlscert=/var/docker/server.pem --tlskey=/var/docker/serverkey.pem or in conf {"debug":true,"hosts":["tcp://1.2.3.4:2376"], "tls": true,"tlscert":"/var/docker/server.pem","tlskey":"/var/docker/serverkey.pem"} 
+CKS-Docker-What happened if I specified an option by flag AND in the configuration? % docker will return an error
+CKS-Docker-What are the risks of bad docker security? % Container/Volume deletion, Run its own container, gain root access, target other systems in the network and network itself
+CKS-Docker-How to point to an host to list container? % export TLS=true export DOCKER_HOST="tcp://192.168.1.10:2376" docker ps
+CKS-Docker-How to check client certificate? % {"tlsverify":true,"tlscacert":"/var/docker/caserver.pem"}
+CKS-Docker-What are the two ways to give certificate to docker to access an host? % in cli with --tlscert= --tlskey= and --tlscacert= flags or adding the 3 files in ~/.docker
+CKS-SysHard-What are the Least Privilege Principle? % Limit Access to node,RBAC Access,Remove Obsolete Packages & Service,Restrict Network Access,Restrict Obsolete Kernel Modules,Identify and fix Open Port
+CKS-SysHard-Which file are important to manage user access? % /etc/password, /etc/shadow, /etc/group
+CKS-SysHard-cmd-How can you block user connection? % usermod -s /bin/nologin michael
+CKS-SysHard-cmd-How can you remove a user? % userdel bob
+CKS-SysHard-How can you remove a user from a group? % deluser michael admin
+CKS-SysHard-cmd-How can you know who is currently connect on a system? % with the command who
+CKS-SysHard-cmd-How can you get a user info (group, uid, gid)? % with the command id
+CKS-SysHard-cmd-How can you list last connection on a system? % with the command last
+CKS-ssh-How to connect to a node with ssh? % ssh {hostname or IP Address}
+CKS-ssh-How to connect to a node with ssh with a specific user? % ssh {user}@{hostname or IP Address} or ssh -l {user} {hostname or IP Address}
+CKS-ssh-How to generate private and public key? % ssh-keygen -t rsa
+CKS-ssh-where are store your public and private key generate by ssh-keygen? % ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa
+CKS-ssh-How to copy your public key to a server? % ssh-copy-id {user}@{hostname or IP Address}
+CKS-ssh-Where are stored public key which will be check? % ~/.ssh/authorized_keys
+CKS-ssh-Where the ssh config is stored? % /etc/ssh/sshd_config
+CKS-ssh-What are the two basic recommended config to add in the config? % PermitRootLogin no and PasswordAuthentification no
+CKS-escalation-Where to find the policies about sudo command? % /etc/sudoers
+CKS-escalation-cmd-How to know which sudo rights you have? % look the /etc/sudoers file or launch command sudo -l
+CKS-SystemService-What is the process until service launch? % Bios post > Boot loader (GRUB2) > Kernel init > init process (systemd)
+CKS-SystemService-cmd-How to know where to find service launcher file? % systemctl status {service name} > loaded
+CKS-SystemService-cmd-How to find which package install the file? % rpm -qf {file path}
+CKS-SystemService-cmd-What to do if you have a unwanted service in your server? % find them with systemctl list-units --type service, then systemctl stop {service name}, then systemctl disable {service name}, finally uninstall it
+CKS-Kernel-cmd-which command permit to add or remove kernel module? % modprob
+CKS-Kernel-cmd-Which command permit to list kernel module? % lsmod
+CKS-Kernel-!which file list blacklist kernel module? % /etc/modprobe.d/blacklist.conf
+CKS-Kernel-After adding a kernel module in blacklist file what to you have to do? % do not forget to reboot
+CKS-Port-cmd-How can you check if a port is open and in use? % netstat -an | grep -w LISTEN
+CKS-Port-cmd-How to check which system service use which port? % cat /etc/services
+CKS-Port-What is the default listening port of the kube-apiserver and what is it use for? % 6443 for all request
+CKS-Port-What is the default listening port of the etcd and what is it use for? % 2379-2380 for kube-apiserver and etcd
+CKS-Port-What is the default listening port of the kubelet api and what is it use for? % 10250 for self and control plane
+CKS-Port-What is the default listening port of the kube-scheduler and what is it use for? % 10251 for self
+CKS-Port-What is the default listening port of the kube-controller-manager and what is it use for? % 10252 for self
+CKS-Port-What is the default listening port of the nodeport service? % 30 000-32 767
+CKS-Port-Where to find in documentation default port? % https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#check-required-ports
+CKS-network-What is the difference between 127.0.0.1 and 0.0.0.0? % 27.0. 0.1 is the loopback address (also known as localhost). 0.0. 0.0 is a non-routable meta-address used to designate an invalid, unknown, or non-applicable target (a 'no particular address' place holder)
+CKS-UFW-What UFW stands for? % Uncomplicated Firewall
+CKS-UFW-cmd-how to list which port are use for listening? % netstat -an | grep -w LISTEN
+CKS-UFW-cmd-How to know if the firewall is active? % ufw status
+CKS-UFW-cmd-How to allow all outgoing connection with ufw? % ufw default allow outgoing
+CKS-UFW-cmd-How to deny all incoming connection with ufw? % ufw default deny incoming
+CKS-UFW-cmd-How to allow ssh connection from 1.2.3.4 ip adress with ufw? % ufw allow from 1.2.3.4 to any port 22 proto tcp
+CKS-UFW-cmd-How to allow ssh connection from 1.5.3.4/23 ip range with ufw? % ufw allow from 1.5.3.4/23 to any port 22 proto tcp
+CKS-UFW-cmd-How to deny all access to 8080 port with ufw? % ufw deny 8080
+CKS-UFW-cmd-How to enable firewall with ufw? % ufw enable
+CKS-UFW-How to delete a rule? % ufw delete {cmd to create the rule} or ufw delete {rule number}, you can get rule number with ufw status numbered
+CKS-SysCalls-What is syscall? % Call which permit to comunicate between user space and kernel
+CKS-SysCalls-cmd-What binary permit to know which syscalls is used during a command? % strace, e.g. strace touch /tmp/error.log 
+CKS-SysCalls-cmd-How can you count how many syscall have been done during a command? % strace -c, e.g. strace -c touch /tmp/error.log 
+CKS-SysCalls-cmd-How to know which syscall do a process already running? % pidof {process name} strace -c {pid}
+CKS-SysCalls-cmd-Aquasec have made a binarie to survey siscall, which one is it ? % Aquasec/Tracee 
+CKS-Tracee-cmd-How can you follow container syscall with tracee? % use the option container=new
+CKS-Tracee-cmd-How can you follow process syscall with tracee? % use the option pid=new
+CKS-Seccomp-What does seccomp stands for? % Secure Computing
+CKS-Seccomp-When does seccomp have been introduce? % in 2005 with kernel 2.6.12
+CKS-Seccomp-cmd-How to know if seccomp is supported in your system? % grep -i seccomp /boot/config-$(uname -r) | grep CONFIG_SECCOMP
+CKS-Seccomp-cmd-How can you see seccomp status for a process? % ps -ef to find the pid, grep Seccomp /proc/{pid}/status
+CKS-Seccomp-What are different mode of seccomp showing in proc status? % 0 for disable, 1 for strict mode, all is disabled but read, write, exit and cigarette on Syscalls, 2 for filtered mode
+CKS-Seccomp-cmd-Which option permit to choose a seccomp profile with docker? % --security-opt seccomp=/root/custom.json
+CKS-Seccomp-cmd-Which option permit to ignore seccomp profile with docker? % --security-opt seccomp=unconfiner
+CKS-Seccomp-What does a blacklist seccomp profile look like? % {"defaultAction": "SCMP_ACT_ALLOW","architectures": ["SCMP_ARCH_X86_64","SCMP_ARCH_X86","SCMP_ARCH_X32"],"syscalls": [{"names": ["<syscalls-1>","<syscalls-2>","<syscalls-3>"],"action": "SCMP_ACT_ERRNO"}]}
+CKS-Seccomp-What does a whitelist seccomp profile look like? % {"defaultAction": "SCMP_ACT_ERRNO","architectures": ["SCMP_ARCH_X86_64","SCMP_ARCH_X86","SCMP_ARCH_X32"],"syscalls": [{"names": ["<syscalls-1>","<syscalls-2>","<syscalls-3>"],"action": "SCMP_ACT_ALLOW"}]}
+CKS-Seccomp-Where to find default docker seccomp? % https://github.com/moby/moby/blob/master/profiles/seccomp/default.json
+CKS-Seccomp-manifest-How to not permit to a pod to do escalation? % spec.containers[].securityContext.allowPrivilegeEscalation: false
+CKS-Seccomp-manifest-How to use runtime default seccomp policy? % spec.securityContext.seccompProfile.type: RuntimeDefault
+CKS-Seccomp-manifest-How to unactive seccomp policy? % spec.securityContext.seccompProfile.type: Unconfined
+CKS-Seccomp-manifest-How to use a local seccomp policy? % spec.securityContext.seccompProfile.type: Localhost and spec.securityContext.seccompProfile.localhostProfile: {path to the json seccomp profile file}
+CKS-Seccomp-What is the default path to seccomp profile file when a pod ask it? % /ar/lib/kubelet/seccomp
+CKS-Seccomp-How can you log syscalls call? % create a profile to audit {"defaultAction": "SCMP_ACT_LOG"}, use it, then you can read log in /var/log/syslog
+CKS-Seccomp-cmd-When you log syscall, you obtain a number, how to know what syscall is it? % grep -w {syscall number} /sur/include/asm/unistd_64.h
+CKS-AppArmor-cmd-How to check if AppArmor is installed? % systemctl status apparmor
+CKS-AppArmor-cmd-How to know if AppArmor is loaded? % cat /sys/module/apparmor/parameters/enabled
+CKS-AppArmor-cmd-How to list apparmor profile available? % cat /sys/kernel/security/apparmor/profiles
+CKS-AppArmor-cmd-How to know if apparmor module is loaded? % aa-status
+CKS-AppArmor-What are apparmor mode? % enforce: apply profiles, complain: allowed but logs as event, unconfined: free
+CKS-AppArmor-cmd-How to list apparmor default profile? % ls /etc/apparmor.d
+CKS-AppArmor-cmd-How to load an apparmor module? % apparmor_parser -q /etc/apparmor.d/usr.sbin.nginx
+CKS-AppArmor-cmd-How to generate an apparmor profile for a script? % with the package apparmor-utils, aa-genprof {script path}, S for scan event, S to save, F to finish 
+CKS-AppArmor-cmd-How to validate an apparmor profile? % apparmor_parser /etc/apparmor.d/{script path}
+CKS-AppArmor-cmd-How to deactivate an apparmor profile? % apparmor_parser -R /etc/apparmor.d/root.add_data.sh then ln -s /etc/apparmor.d/root.add_data.sh /etc/apparmor.d/disable/
+CKS-AppArmor-manifest-How to add an apparmor policy to a k8s pod? % add metadata.annotations."container.apparmor.security.beta.kubernetes.io/<container_name>": localhost/<profile-name>
+CKS-AppArmor-On which version of k8s AppArmor is available? % k8s version > 1.4
+CKS-Capbilities-What are Capabilities in linux? % Before kernel 2.2 there were only priviledge and unprivilige user, after that, linux split all right of privilege user as capabilities
+CKS-AppArmor-Where to find linux capabilities list? % https://man7.org/linux/man-pages/man7/capabilities.7.html
+CKS-AppArmor-cmd-How to list capabilities used for a command (e.g. for /bin/ping)? % getcap /usr/bin/ping
+CKS-AppArmor-cmd-How to list capabilities used for a running process? % getcap {pid}
+CKS-AppArmor-manifest-How to add capabilities to a k8s pod? % add spec.containers[]securityContext.capabilities.add: []
+CKS-AppArmor-manifest-How to remove capabilities to a k8s pod? % add spec.containers[]securityContext.capabilities.drop: []
+CKS-securityContext-manifest-What to add to pod defition to define user? % spec.(containers[])securityContext.runAsUser: 1000
+CKS-AdmissionController-What is the k8s authorization process? % Authntication, authorization, Admission controllers
+CKS-AdmissionController-What could do an Admission Controller, give some example % Only permit images from certain registry, do not permit runAs root (or 0) user, AlwaysPullImage, DefaultStorageClass, EventRateLimit, NamespaceExists, NamespaceAutoProvision, ...
+CKS-AdmissionController-cmd-How to choose which AdmissionController to activate? % use --enable-admission-plugins flags ti kube-apiserver
+CKS-AdmissionController-cmd-How to see default Admission Controller? % kube-apiserver -h | grep enable-admission-plugins
+CKS-AdmissionController-cmd-How can you disable Admission Controller? % Add --deiable-admission-plugins flag
+CKS-AdmissionController-There is 2 main type of AdmissionController, which one? % Validation AdmissionController and Mutating AdmissionController
+CKS-PSP-cmd-How to activate psp? % as flag in kube-apiserver --enable-admission-plugins
+CKS-OPA-What OPA stand for? % Open Policy Agent
+CKS-OPA-What OPA is used for? % Centralize policy (Admission controller, ingress, service mesh, ...)
+CKS-OPA-How to add a policy in OPA with curl? % curl -C PUT --data-binary @{path to rego file} http://{OPA-server}:8181/v1/policies/example1
+CKS-OPA-Where to find more information about OPA? % https://www.youtube.com/watch?v=R6tUNpRpdnY https://www.youtube.com/watch?v=4mBJSIhs2xQ
+CKS-OPA-How to use OPA as entry in k8S? % use MutatingAdmission or ValidatingAdmission 
+CKS-secret-cmd-How to create a secret with DB_Host: mysql and DB_User: root with a command? % kubectl create secret generic my_secret --from-literal=DB_Host=mysql --from-literal=DB_User=root
+CKS-secret-cmd-I already have a file secret.properties with DB_Host: mysql, DB_User: root and DB_pwd: passwrd one on each line, how to create a secret from this file? % kubectl create secret generic my_secret --from-filename=secret.properties
+CKS-secret-cmd-How to list secret? % kubectl get secretes
+CKS-secret-cmd-How to get secret value? % kubectl get secret {secret name} -o yaml
+CKS-secret-cmd-Secret value have to be encrypted in the manifest, how to encrypted them? % echo "the secret" | base64
+CKS-secret-cmd-The value that you read in the secret is encrypted, how to decode it? % echo "the value in the secret" | base64 --decode
+CKS-secret-manifest-How can you load secret as env var in a pod? % add spec.containers[]envFrom[]secretRef.name: {secret name}
+CKS-sandbox-What program can be use for Sandboxing container? % gVisor, kata container, ...
+CKS-sandbox-How do Katacontainer work to isolate a container? % It will generate a virtual machine to put the container in
+CKS-sandbox-What's happened behind docker cli? % docker cli call a rest api,<br/> this API will interact with the docker daemon to know if the image exist<br/> If the image is on in the system, it will download from the registry<br/> Then the docker daemon will call containerd which manage containers<br/> To generate the container containerd will call containerd-shim which responsability is to interact with runC which run container
+CKS-sandbox-Between Docker, Katacontainer and gvisor, which one use which runtime? % Docker runC, Katacontainer kata-runtime, Gvisor Runsc
+CKS-sandbox-cmd-How can you change the runtime you wish with docker cli? % docker run --runtime {kata,runsc}
+CKS-sandbox-manifest-How can you specified a new runtime in k8s? % <div style="text-align: left;"><br/>apiVersion: node.k8s.io/v1beta1<br/>kind: RuntimeClass<br/>metadata:<br/>  name: gvisor<br/>handler: runc<br/></div>
+CKS-sandbox-manifest-How can you specified a runtime in a pod definition? % spec.runtimeClassName: {runtime name} 
+CKS-base_BaseImage-cmd-How to scan an image with trivy? % trivy image httpd, trivy image httpd:alpine
+CKS-registry-cmd-How to permit to the cluster to connect to a private repository? % kubectl create secret docker-registry {secret name} --docker-server= --docker-username= --docker-password= --docker-email=
+CKS-registry-manifest-How to specified a credential to pull in a private repository in a pod? % spec.imagePullSecrets[]name: {secret name}
+CKS-registry-How can you limit registry source for your cluster? % you can create a ValidatingAdmission Webhook, you can use OPA or you can use the ImagePolicyWebhook AdmissionControllers
+CKS-registry-manifest-What kind of object will you need to configure an ImagePolicyWebhook AdmissionControllers? % an AdmissionConfiguration
+CKS-registry-cmd-How to activate ImagePolicyWebhook AdmissionControllers? % in kube-apiserver --enable-admission-plugins=ImagePolicyWebhook --admission-control-config-file=/etc/kubernetes/admission-config.yaml
+CKS-analysis-What is a Static analysis? %It is an analysis of the yaml file to detect problem before deployment
+CKS-analysis-cmd-What can you use to amke a static analysis of your yaml file? % Kubesec (https://kubesec.io)
+CKS-analysis-cmd-How do you use kubesec binary to a yaml file? % kubessec scan pod.yaml
+CKS-analysis-cmd-How do you use kubesec by curl to a yaml file? % curl -sSX POST --data-binary @"pod.yaml" https://v2.kubesec.io/scan
+CKS-analysis-cmd-How can you launch a local instance of kubesec server? % kubesec http 8080 &
+CKS-analysis-What CVE stand for? % Common Vulnerabilities and Exposure
+CKS-analysis-cmd-How can you only show critical CVE with trivy? % thivy image --severity CRITICAL nginx:1.18.0
+CKS-analysis-cmd-How can you only show critical and high CVE with trivy? % thivy image --severity CRITICAL,HIGH nginx:1.18.0
+CKS-analysis-cmd-How can you show CVE than we know how to fix them with trivy? % thivy image --ignore-unfixed nginx:1.18.0
+CKS-analysis-cmd-How can you scan an image as an archive with trivy? % thivy image --input archive.tar
+CKS-analysis-How can you install trivy? % It's just a binary you can download it, or add the repository and install it package manager
+CKS-analysis-When to scan? % When you dev, as an Admission Controller, have your own repository with pre-scanned image ready to go, in your CI/CD
+CKS-analysis-cmd-Which program can analysis container comportement, to detect intrusion? % Falco
+CKS-analysis-What are the posibility to install falco? % As a service system, as a daemonset (via helm)
+CKS-analysis-cmd-Do you have an easy way to test falco? % With falco install, launch an nginx pod (kubectl exec -it nginx -- bash) and access to an abnormal file (cat /etc/shodaw)
+CKS-analysis-Where do you find falco rules and config on the system? % /etc/falco
+CKS-analysis-What are falco level of priority? % Debug Informational Notice Warning Error Critical Alert Emergency
+CKS-container-manifest-How to block any writing on the container? % Add spect.containers[]securityContext.readOnlyRootFilesystem: true
+CKS-analysis-If you make the pod fs as readonly, for the majority of pod you will have error, how can you permit to write in specific directory? % Mount emptyDir volume on those directory
+CKS-analysis-cmd-If you make your pod as readonly, there is still a risk if you put privilege; true, which one? % System file will be editable (e.g. /proc files)
+CKS-analysis-manifest-If we follow all recommendation, which property must/must not be present in all pods'securityContext? % must: "readOnlyRootFilesystem: true", must nont: "privilege: true", "runAsUser: 0"
+CKS-audit-manifest-Want kind of objetc should you create to add audit/system logs? % Policy
+CKS-audit-cmd-If you create a new policy, how to make k8s take it? % in kube-apiserver, add --audit-policy-file flag
+CKS-audit-cmd-How can you manage audit log logrotate in k8s? % in kube-apiserver, add --audit-log-maxage=10, --audit-log-maxbackup=5 and/or --audit-log-maxsize=100 flags

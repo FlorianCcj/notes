@@ -1,10 +1,16 @@
 # My Playbook
 
+## Auto install
+
+### Test Rdme
+
 ```sh
 echo 'hey guy you succeed using rdme'
 ```
 
-```sh
+### Prerequisite
+
+```sh {name=prerequisite}
 # prerequisite
 sudo apt-get install -y git python3 python3-pip
 python -m pip install ansible
@@ -14,15 +20,32 @@ git clone https://github.com/FlorianCcj/notes.git
 export PATH=$PATH:/home/${USER}/.local/bin
 ```
 
-```sh
-# deploy all
+### Deploy
+
+```sh {name=deploy_all}
 ansible-playbook -i hosts.ini playbooks/install_laptop.yml -K
 ```
 
-```sh
-# deploy asus_x515
+### Deploy to one machine
+
+```sh {name=deploy_x515}
 ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -K
 ```
+
+## Still manual
+
+- git confidential
+  - pinacolada
+
+- Firefx account
+- firefox gmail
+- firefox 1Password
+- firefox download helper client app: https://www.downloadhelper.net/install-coapp?browser=firefox
+- Slack saloon
+  - prologism
+  - befree
+
+## Old doc
 
 for dual screen 'launch' nvidia-detector
 then install nvdia-driver-<number>

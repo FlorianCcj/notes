@@ -1,0 +1,7 @@
+---
+- when: teams_install | bool
+  block:
+  - name: Install teams package from deb url
+    ansible.builtin.apt:
+      deb: "{{ teams_dwl_url }}"
+    become: yes

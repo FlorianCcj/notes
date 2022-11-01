@@ -1,0 +1,13 @@
+---
+hosts_organisation_groups:
+  florianccj_asus_x515:
+    - dev
+    - mind_workout
+
+hosts_language_groups:
+  florianccj_asus_x515:
+    - golang
+
+hosts_software_groups:
+  florianccj_asus_x515:
+    - obs

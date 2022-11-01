@@ -1,0 +1,7 @@
+---
+- when: azure_cli_install | default(no) | bool
+  block:
+  - debug:
+      msg: to boring to code it, google it and install it, then type enter (https://docs.microsoft.com/fr-fr/cli/azure/install-azure-cli-linux?pivots=apt)
+
+  - pause:

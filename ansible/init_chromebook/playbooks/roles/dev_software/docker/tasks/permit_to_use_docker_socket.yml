@@ -1,0 +1,12 @@
+---
+# source: https://github.com/bt5e/ansible-role-docker-non-root-user/blob/master/tasks/main.yml
+- name: Create docker group
+  group:
+    name: docker
+    state: present
+  become: yes
+
+- include: subtask-non_root_docker_user.yml
+  with_items: "{{ docker_non_root_users }}"
+  loop_control:
+    loop_var: _i_user

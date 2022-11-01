@@ -1,6 +1,28 @@
 Yann Piette - Youtube
 #####################
 
+4 Phrases pour poser ses limites
+*********************************
+
+Limite de l'emploi du temps:
+- N'ayez plus peur de verbalisé que vous etes deja a votre seuil maximum de travail
+- Quand je suis deborde je fais du travail bacle, je je comprends que ce dossier est important mais je vais avoir besoin de plus de temps ou que vous confiez ce dossier a quelqu un d autre
+
+Les remarques sur le physiques
+- Vous pouvez faire une remarque sur le physique si on peut le corriger dans les 30 sec
+- Sinon abstenez vous
+- C est tres blessant mais pas necessaire, je travaille dessu mais ca prend du temps
+- C est blessant et pas necessaire surtout que je n'ai aucun controle dessus
+
+- Utiliser le jeu au lieu du tu
+Remplacer
+- Tu remets toujours ce sujet sur la table, tu sais que je n'aime pas en parler tu devrais arreter
+Par
+- Je prefere qu'on eveite ce sujet, de toute evidence on arrivera pas a s'entendre et je prefere ne pas creer de tension entre nous
+
+Si quelqu un insiste
+- Je ne comprends pas ton obstination, on se revera quand ton envie d'en parler sera diciper, d'ici la je vais prendre mes distances
+
 Avoir le dernier MOT: 4 techniques pour plier le jeu
 ****************************************************
 

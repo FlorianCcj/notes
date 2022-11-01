@@ -1,0 +1,25 @@
+---
+- name: "create soft dir: {{ zsh_config_dir }}"
+  become: yes
+  file:
+    path: "{{ zsh_config_dir }}"
+    state: directory
+    mode: '0755'
+    owner: "{{ zsh_user }}"
+    group: "{{ zsh_user }}"
+    recurse: yes
+
+- name: make zsh config
+  template:
+    src: .zshrc.j2
+    dest: "{{ zsh_config_dir }}/.zshrc"
+    owner: "{{ zsh_user }}"
+    group: "{{ zsh_user }}"
+    mode: 0644
+
+- name: Create a zsh config symbolic link
+  when: zsh_config_link is defined
+  ansible.builtin.file:
+    src: "{{ zsh_config_dir }}/.zshrc"
+    dest: "{{ zsh_config_link }}"
+    state: link
