@@ -178,6 +178,45 @@ Passer sub15
   - tous les apprendre
   - bien les reperer grace a 2 face
 
+How To Be Sub 20 On 3x3 | A Complete Guide
+*******************************************
+
+https://www.youtube.com/watch?v=ufWMziRz1O8&t=1s
+
+Cross: 3sec
+F2L: 10sec
+OLL: 3sec
+PLL: 4sec
+
+- cross
+  - plan your whole cross during inspection
+  - 8 moves or fewer
+  - in Cstimer look cross solver tools
+  - during plan remember the cube not the sequence
+- F2L
+  - efficient and good knowledge
+  - no step by step
+  - you see an f2l you know which alg you will use
+  - you see a f2l you know if you will make a cube rotation
+  - max 1 cube rotation by pair solving
+- OLL
+  - 2LOLL
+  - good alg and execution (good habits)
+  - decent recognition
+  - first recognition focus on edge
+  - second recognition focus on corner
+  - don t do unescesary U move
+- fingertricks to practice
+  - U2 with 2nd and 3rd finger, right and left
+  - F: with right index
+  - F' with right thumb
+  - D' push left ring finger
+- PLL
+  - Full PLL
+  - good alg and execution (good habits)
+  - AUF > cube rotate
+  - AUF prediction
+
 Sites
 ******
 

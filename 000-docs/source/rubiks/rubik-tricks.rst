@@ -323,3 +323,22 @@ How to be cool
 Je fais des exemples de résolutions en live! Posez vos questions
 *****************************************************************
 
+How To Cube Rotate Less: A Complete Guide
+******************************************
+
+https://www.youtube.com/watch?v=J-U_6R8OD-I
+
+- plan your entire cross and do it blindfold
+- for oll and pll, do U or U' instead of cube rotating
+- train to not look your pieces, if you see it one times you can know calculate where itr is after
+- to train:
+  - during inspection, prepare your cross
+  - do it blindfold
+  -  the cross finished don't move until you know which pair you will solve
+  -  do your pair and repeat the process
+
+some case:
+- for the pair but with oposite color
+  - in front right: RU'R'U RU'R'U2 RU'R'
+  - in front right: R' U2 R2 U R2 UR
+- edge in slot corner on side

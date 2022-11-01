@@ -14,6 +14,43 @@ Community
     2) J'essaie de la reposer quelque fois pour voir si j'ai bien retenue (et je retiens assez rapidement quand je la repose juste après)
     3) Je la repose une dernière fois dans un fichier sgf pour l'analyser
 
+Pierre Croce - Battle de couples
+
+Meisi ~Tom~
+
+- Ton ex s'appelait Leo, quel alchimie leo messi. 2022 au PSG c'etait un flop Leo Messi. Europe de l'est j'ai le bras long, pousse toi de la je passe le balais j'ai pas tellement la dalle mais ce soir mais je crois que ce soir hum ... je vais manger albanais
+- T'as eu un gosse avec ton ex, le p'tit s'appelle Lucas, tu m'dis "c est qu un chien arete" parce que les couilles tu me les casses. Matte la deguaine t'as des p'tit yeux on dirait frite Labeeu. J'voulais le sosie de brad pitt je me retrouve avec celui de Jimmy Labeeu.
+- T'es sortie avec un mec, j'ai vu sa tete, en vrai pour lui ca devait pas etre easy, sa gueule fait tellement peur que ca pourrait etre le prochain thread horreur de Squizzie. Je regrette aussi le covid je crois que je te preferais avec le masque, honnetement je fais tellement semblant de t'ecouter que quand tu me parle, je touche des cachet d'intermitent
+- Tu veux la jouer comme ca ok. T'es sortie avec une mexicaine, une marocaine et moi je suis albanaise on dirait que tu fais la coupe du monde, mais mon p'tit t'ira pas plus loin que la coreze. Tu passes ta vie au chiotte, pendant ce temps la, moi, je sais pas quoi faire, tu me touche tellement pas souvent que mon esteticienne elle a retrouver de la poussiere
+
+~Peroline~ Florian
+
+- Excusez moi, Juste avant la prod, est ce qu'on peut ramener un marche pied s'il vous plait, nan par ce que je suis pas tres sur que tu soit tres bien cadré. Tu te ventes de ton coté maternel, c est vrai que tu es une vrai maman alors qu'est ce que tu attends, donne moi du lait, vient nourrir ton enfant
+- T'essais d etre une star mais qu'est ce que tu as fait, tout le monde veut prendre ta place, moi tu sais quand j'en parle a mes copines c est plutot l inverse, personne veut prendre ma place. D'ailleur ca me fait penser, c'est meme pas etonant que tu sois fan d'orel san c est lui qui double saitama c est ca ? c est vrai qu entre chauve vous vous ressembler mais franchement, meme lui me fait plus bander.
+- Si t es fan du seigneur des anneaux ma cherie c est parce que c est la seul bague que tu veras dans ta vie. Tu m'avais promis une love story, mais comme toutes les story celle la j espere qu'en 24h elle sera fini. Mais pleure pas, pour te consoler je vais t offrir l'apero pendant ce temps la moi, pour feter ma victoire, je vais doublement prendre la pero
+- C'est vrai qu avec toi je decouvre enfin le reve de maternite, faut te nourrir te dorlote, t'apprendre a faire la lessive et a tout ranger. Mais qu on se l avoue du coup une chose est clair, tu m as clairement passer l envie d avoir un bebe. Et enfin je sais tres bien que tes parents ta famille te calcullent pas et en vrai, sincerement, je suis desole pour toi cheri, par contre soit sur d une chose, je t'aime moi, je t'aime comme personne ne t'aime, parce que personne ne t'aime
+
+Solenn Simon
+
+- Ma douce d abord
+- Je t ai connu tu etais ancien militaire, franchement y a de quoi etre degouter c est comme si je rencontrais Schumacher maintenant qu'il est alite. Tu tirais au famas, maintenant que tu es a la retraite la seule chose que tu tires c est la poignee pour ta bierre, et tu ranges les rayons de chez Lidl c etait vraiment ca ton nouveau plan de carriere.
+- Pour commencer, ton ex a raison, t es une taree du menage ton corps a 23 ans mais dans ta tete tu fais 4 fois ton age. T es tellement maniaque que j ai pas le droit de mettre mes doigts sur l iPad, tu crochetes tu tricotes ta place serait bien mieux dans un Ehpad
+- Tu fais le keke mais t auras jamais mieux que ta siroco. Tu fais gaffe parce que ce qui te guette c est la siroze coco. Tu me faisais rever genre la grande vie on prend le large, au bout d un an triste constat il y a que toi qui prend du large. Et pendant ce temps je suis passé du reve au cauchemar tu savais j'aurais jamais quitte la ville pour faire le tour des fetes au village
+- Tu conduis trop mal, quand je monte avec toi, je deviens tout pas, prendre l'autoroute avec toi c est risqué de rejoindre Tupac. Si Netfix fait un sujet sur les filles chiantes tu seras l'heroine du docu. Ben c est ton crush mais il est trop bien pour toi tu arriveras pas a me faire cocu
+
+Eddy Emilie
+
+- Les gens disent que les lunettes ca fait intello mais sur toi c est juste de la decoration, t'as pas vu comment t es maigre, tu vas tomber si tu prends pas vite ta ration. La tu fais le malin a essayer de me clasher mais ce soir je te connais tu vas ramper la, je chercher un dieu grec, un mal alpha et je suis tombe sur un mec lambda
+- Je voulais commencer ce clash par faire une liste de toutes tes qualités, la feuille est vide comme ton cerveau inanime, ta geule c est comme la porte des toilettes tu sais jamais la fermer.
+
+Devenez riche
+La repartie lorsque l on vous rabaisse:
+- Si tu as un commentaire constructif dont tu veux nous faire profiter, je suis preneur. En revanche, si tu comptes simplement continuer de me rabaisser ca ne m interesse pas
+- C est parce que tu complexe a cause de ... que tu eprouves le besoin de me rabaisser ?
+- Je sais que tu es ... mais c  n es pas une raison de te sentir complexe, tu sais ?
+- La difference entre nous, c est que je peux corriger mes defauts mais que toi, tu seras toujours une personne qui eprouve le besoin de rabaisser les autres pour se cacher ses problemes !
+- J'imagine que ta journee a du etre aussi agreable que tu l'es en ce moment ? Ce serait la seule excuse a ton comportement
+
 Manga
 =====
 

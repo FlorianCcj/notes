@@ -261,3 +261,11 @@ Rubik's Cube: In- Depth FINGERTRICKS Tutorial
 - learn to do f2l from all orientation
 - use empty angle to resolve f2l
 - recognize f2l cases from sstart to finish
+
+3 Tricks for the Flipped Edge F2L Case (Tutorial)
+**************************************************
+
+https://www.youtube.com/watch?v=AYUjJPCg9FQ
+
+- if you still have some f2l to do, use it to get the wrong edge out of the slot
+- use keyhole
