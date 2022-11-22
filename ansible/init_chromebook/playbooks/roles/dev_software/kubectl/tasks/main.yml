@@ -23,3 +23,10 @@
     vars:
       env_vars_list:
         - "export PATH=$PATH:{{ kubectl_path_to_install }}"
+
+  - name: "add kubectl alias to know alias result"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - "function kubectl() { echo \"+ kubectl $@\">&2; command kubectl $@; }"

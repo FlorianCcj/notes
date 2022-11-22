@@ -1,0 +1,22 @@
+---
+- when: kind_install | bool
+  block:
+  - name: "create soft dir: {{ kind_path_to_install }}"
+    file:
+      path: "{{ kind_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: Download kind binary
+    get_url:
+      url: "{{ kind_download_url }}"
+      dest: "{{ kind_path_to_bin }}"
+      mode: 0755
+
+  - name: "Add {{ kind_path_to_install }} to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ kind_path_to_install }}"

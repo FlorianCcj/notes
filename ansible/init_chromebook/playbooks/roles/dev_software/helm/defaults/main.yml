@@ -1,0 +1,5 @@
+---
+helm_download_url: https://get.helm.sh/helm-v3.10.2-linux-amd64.tar.gz
+helm_install: no
+helm_path_to_bin: "{{ direnv_path_to_install }}/direnv"
+helm_path_to_install: ~/software/bin

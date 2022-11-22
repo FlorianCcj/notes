@@ -1,6 +1,7 @@
 ---
 dev_user: florianccj
 
+direnv_install: yes
 git_install: yes
 man_config_install: yes
 math_exo_install: yes

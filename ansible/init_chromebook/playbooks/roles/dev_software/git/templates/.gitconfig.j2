@@ -35,6 +35,12 @@
 	lg = log -p
 	ls = ls-files
         logg = log --graph --oneline --decorate
+  root = rev-parse --show-toplevel
 [user]
 	email = {{ git_gitconfig_user_mail }}
 	name = {{ git_gitconfig_user }}
+[credential]
+  # Permit to add a .git-credentials with
+  # https://florianccj:my_super_token@github.com
+  # https://_FPoulet:my_super_token2@bitbucket.com
+  helper = store

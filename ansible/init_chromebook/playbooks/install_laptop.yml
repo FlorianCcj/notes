@@ -64,8 +64,20 @@
       tags: "git"
 
     - import_role:
-        name: "tmux"
-      tags: "tmux"
+        name: "dev_software/ctlptl"
+      tags: "ctlptl"
+
+    - import_role:
+        name: "dev_software/direnv"
+      tags: "direnv"
+
+    - import_role:
+        name: "dev_software/helm"
+      tags: "helm"
+
+    - import_role:
+        name: "dev_software/kind"
+      tags: "kind"
 
     - import_role:
         name: "dev_software/php"
@@ -86,6 +98,10 @@
     - import_role:
         name: "dev_software/appimage_builder"
       tags: "appimage_builder"
+
+    - import_role:
+        name: "tmux"
+      tags: "tmux"
 
     - block:
       - import_tasks: tasks/install_vscode.yml

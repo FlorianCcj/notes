@@ -1,6 +1,13 @@
 ---
 - when: azure_cli_install | default(no) | bool
   block:
+  - name: "add az alias to know alias result"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - "function az() { echo \"+ az $@\">&2; command az $@; }"
+
   - debug:
       msg: to boring to code it, google it and install it, then type enter (https://docs.microsoft.com/fr-fr/cli/azure/install-azure-cli-linux?pivots=apt)
 

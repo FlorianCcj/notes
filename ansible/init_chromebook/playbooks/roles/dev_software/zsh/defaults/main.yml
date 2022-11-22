@@ -12,4 +12,6 @@ zsh_z_sh_install: no
 
 zsh_plugins:
   - git
+  - kubectl
+  - terraform
   - docker-compose

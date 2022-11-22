@@ -1,0 +1,5 @@
+---
+gcloud_cli_download_url: https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-407.0.0-linux-x86_64.tar.gz
+gcloud_cli_install: no
+gcloud_cli_path_to_bin: "{{ direnv_path_to_install }}/direnv"
+gcloud_cli_path_to_install: ~/software/bin

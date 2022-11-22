@@ -1,0 +1,29 @@
+---
+- when: direnv_install | bool
+  block:
+  - name: "create soft dir: {{ direnv_path_to_install }}"
+    file:
+      path: "{{ direnv_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: Download direnv binary
+    get_url:
+      url: "{{ direnv_download_url }}"
+      dest: "{{ direnv_path_to_bin }}"
+      mode: 0755
+
+  - name: "Add {{ direnv_path_to_install }} to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ direnv_path_to_install }}"
+
+  - name: "add direnv alias"
+    import_role:
+      name: "env_alias"
+    vars:
+      env_alias_list:
+        - 'eval "$(direnv hook zsh)"'

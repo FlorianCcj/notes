@@ -32,6 +32,10 @@ ansible-playbook -i hosts.ini playbooks/install_laptop.yml -K
 ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -K
 ```
 
+```sh {name=deploy_x515_tags}
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -t helm -K
+```
+
 ## Still manual
 
 - git confidential

@@ -1,0 +1,5 @@
+---
+ctlptl_download_url: https://github.com/tilt-dev/ctlptl/releases/download/v0.8.12/ctlptl.0.8.12.linux.x86_64.tar.gz
+ctlptl_install: no
+ctlptl_path_to_bin: "{{ direnv_path_to_install }}/direnv"
+ctlptl_path_to_install: ~/software/bin
