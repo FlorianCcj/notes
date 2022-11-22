@@ -30,7 +30,7 @@ Meisi ~Tom~
 - Si t es fan du seigneur des anneaux ma cherie c est parce que c est la seul bague que tu veras dans ta vie. Tu m'avais promis une love story, mais comme toutes les story celle la j espere qu'en 24h elle sera fini. Mais pleure pas, pour te consoler je vais t offrir l'apero pendant ce temps la moi, pour feter ma victoire, je vais doublement prendre la pero
 - C'est vrai qu avec toi je decouvre enfin le reve de maternite, faut te nourrir te dorlote, t'apprendre a faire la lessive et a tout ranger. Mais qu on se l avoue du coup une chose est clair, tu m as clairement passer l envie d avoir un bebe. Et enfin je sais tres bien que tes parents ta famille te calcullent pas et en vrai, sincerement, je suis desole pour toi cheri, par contre soit sur d une chose, je t'aime moi, je t'aime comme personne ne t'aime, parce que personne ne t'aime
 
-Solenn Simon
+Solenn ~Simon~
 
 - Ma douce d abord
 - Je t ai connu tu etais ancien militaire, franchement y a de quoi etre degouter c est comme si je rencontrais Schumacher maintenant qu'il est alite. Tu tirais au famas, maintenant que tu es a la retraite la seule chose que tu tires c est la poignee pour ta bierre, et tu ranges les rayons de chez Lidl c etait vraiment ca ton nouveau plan de carriere.
@@ -38,10 +38,12 @@ Solenn Simon
 - Tu fais le keke mais t auras jamais mieux que ta siroco. Tu fais gaffe parce que ce qui te guette c est la siroze coco. Tu me faisais rever genre la grande vie on prend le large, au bout d un an triste constat il y a que toi qui prend du large. Et pendant ce temps je suis passé du reve au cauchemar tu savais j'aurais jamais quitte la ville pour faire le tour des fetes au village
 - Tu conduis trop mal, quand je monte avec toi, je deviens tout pas, prendre l'autoroute avec toi c est risqué de rejoindre Tupac. Si Netfix fait un sujet sur les filles chiantes tu seras l'heroine du docu. Ben c est ton crush mais il est trop bien pour toi tu arriveras pas a me faire cocu
 
-Eddy Emilie
+~Emilie~ Eddy
 
 - Les gens disent que les lunettes ca fait intello mais sur toi c est juste de la decoration, t'as pas vu comment t es maigre, tu vas tomber si tu prends pas vite ta ration. La tu fais le malin a essayer de me clasher mais ce soir je te connais tu vas ramper la, je chercher un dieu grec, un mal alpha et je suis tombe sur un mec lambda
-- Je voulais commencer ce clash par faire une liste de toutes tes qualités, la feuille est vide comme ton cerveau inanime, ta geule c est comme la porte des toilettes tu sais jamais la fermer.
+- Je voulais commencer ce clash par faire une liste de toutes tes qualités, la feuille est vide comme ton cerveau inanime, ta geule c est comme la porte des toilettes tu sais jamais la fermer. J etais a la recherche d une princesse comme Vaiana, mais entre ta carure de camioneur et tes poils de Chewbaka j'ai l impression d etre shrek accompagne de la princesse fiona
+- ta punchline elle faire rire tout le monde mais en vrai elle est tres petite, ta punchline quand on y pense elle me fait penser a la taille de ta bite. C est marrant parce que t'as beaucoup de poil et beaucoup moins ici, on dit que l'espoir fait vivre mais ... y a plus beaucoup d'espoir pour ta calvici
+- Tu m'as demandé de ne pas parler de ta famille et ca je te respect. J'ai parler avec ton frere et ton ex, mais on etait que 2 dans la piece #consanguin. Tu es comme un meuble Ikea qui a ete monter a l'envers, quand tu veux me charmer en me regardant droit dans les yeux j'ai l impression que tu regardes deriere
 
 Devenez riche
 La repartie lorsque l on vous rabaisse:

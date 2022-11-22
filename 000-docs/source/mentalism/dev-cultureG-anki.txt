@@ -1,3 +1,10 @@
 What is a good log message? % You need give the context, the error itself and the mitigation if known
 What is the difference between monitoring and observability?% Monitoring is to it work, observability is how does it work (latency, memory consuption, ...)
 Quel est la regle d'or d'une migration sans interuption de service selon Nelson Dionisi? % la base de donnee en vn+1 doit rester compatible avec l app v1
+[secops] Quels scan peut on mettre en place pour verifier la securité au niveau du code? % SAST (Static Application Security Testing), SCA (Software Composition Analysis), IAST (Interactive Application Securoty Testing), DAST (Dynamic Application Security Testing)
+[secops] A quel moment les different scan de securité arrive dans la chaine de dev? % Code => SAST/SCA, Test => DAST, Deploy => IAST
+[secops] Quels outils permettent le SCA? % Checkmarx, npm-audit, OWASP, Dependency Track, Sonatype, SNYK, VeraCode
+[secops] Quels outils permettent le SAST? % Checkmarx, PMD, SNYK, Codacy, Phpcs-security-audit, Find Security Bug, Grammatech, Sonarqueb, Veracode
+[secops] Quels outils permettent le DAST? % OWASP
+[secops] Quels outils permettent le IAST? % Synopsys, Contrast Secutity, HCL
+[Container] Quel outil permet au dev de ne pas s interesser au travail des ops et ne pas progresser dans la comprehension de leur milieu pour creer des container ?% Cloud Native Buildpacks

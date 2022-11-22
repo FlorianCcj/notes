@@ -46,3 +46,18 @@ Pourquoi les kitsune peuvent avoir plusieurs queues? % Un kitsune obtient une qu
 [Organism] A quoi sert la dopamine? % Plaisir, desir, euphorie
 [Organism] A quoi sert la serotonine? % confiance en soi, bien etre
 [Organism] A quoi sert la noradrenile? % Energie, Eveil
+D'ou vient le mot travail? % Tripalium, un instrument de torture romain pour punir les esclaves qui travaillaient mal
+Qu'est ce que l'effet spotlight (Philipppe Peytroux)? % Penser que l'on est au centre de l'attention, que les gens nous regarde, nous jugent, ce n'est qu un effet alors detend toi et souris
+Qu'est ce que l'erreru fondamental d'atribution? % accorder une importance disproportionnée aux caractéristiques internes d’une personne (caractère, intentions, émotions, connaissances, opinions) au détriment des facteurs externes et situationnels dans l’analyse de son comportement dans une situation donnée.
+Pourquoi l'eglise avait interdit les jeux de cartes au debut du XVe? % Parce que cela faisait de l'argent qui transitait sans controle ni de l etat ni de l'eglise
+Qui et quand a ete invente les cartes a coin arrondi? % Par Baptiste-Paul Grimaud en 1858, pour reduire la triche et la tortion des cartes
+[Entretien] Qu'est ce que la methode SQUARE de Charline CARON? % C'est une methode pour parler de soit en entretien pro: Succes (ce que tu as reussi) QUalité (tes points forts) Affirmation (ce que tu souhaite, quels sont tes besoins qui match avec l entreprise) REbond (pose ta question d'approfondissement)
+[Entretien] Lors de la demande de defaut, que repondre? % Il faut un default sur les competences, surtout pas sur la personnalité, que l'employeur puisse se projeté sur comment l'ameliorer, et montrer que l'on travaille dessus
+Qu est ce que la bienveillance selon Gael Chatelain-Berry? % Mettre l'humain au centre de tout, preter attention a l'autre, ne jamais faire a qqn ce que je ne supporterais pas qu'on me fasse. Etre poli, disponible, empathique, ponctuel, sourire, fiable, positif, exemplaire, calme et a l'ecoute
+Quel est la definition de l'amitié et de l'amour selon Benjamin Castaldi ? Amitie: c est ce qu'il nous reste quand on a tout perdu, Amour: C'est quand tout perdre n'a plus d'importance
+Comment mettre en place de la CNV? % Exprimer les faits puis (et uniquement ensuite) le ressenti et enfin le besoin
+Comment s'appele le logo de discord? % clyde
+Qu est ce que le reveil de forme selon Happy Work? % Le fait d'avoir le sentiment d'avoir fait une grace matinee en se reveillant avant que son reveil ne sonne
+Qui est Despoina? % Deesse de l'hiver, enfant du viol de demeter par Hephaistos, femme Boreas, le dieux des vents froid
+Quels sont les echelles de notoriété de Fabien Olicard? % 0-Chacun d'entre nous connaissons des centaines de personnes, 1-Une fois qu'une communité est monté on connait des milliers de personne, 2-Millions de personne, youtubeur, influencer, au dela, 3-les stars, tout le monde connait leur nom sur tout le territoire, 4-Les stars confirmées, ils ont du mal a aller dans la boulangerie, on connait leur vie, leur valeur, 5- la Légende, zidane, leonardo dicaprio, johnny Hallyday
+Pour un cadrillage de 3 carré sur trois, comment savoir combient il y a de carré ? % la somme de 1 au nombre de carré sur un coté, au carré, pour l exemple 1x1+2x2+3x3=14 carrés

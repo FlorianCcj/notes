@@ -33,3 +33,16 @@ Tests
   - launch artefact test
   - deployment
   - deployed service
+
+Le board ?
+les stories ?
+les epics
+la DOR ? la DOD ?
+
+scrum vs kanban: https://www.youtube.com/watch?v=6RVSM5faiPc
+kanban: https://www.youtube.com/watch?v=i-GotUT8VzQ
+scrumban enfin la verite: https://www.youtube.com/watch?v=9ST1HpZbP3o
+
+dev
+quality, secu, observability
+log permitting to auto debug the program
