@@ -3,8 +3,8 @@ Elena Hurstel - Mentor et Coach Vocal
 
 :source: https://www.youtube.com/watch?v=IgTssFoLSu0&list=PLntwp1Kpd7lhmjMYUbTAG9xMEPmvGhago
 
-Apprendre à chanter, les BASES à appliquer ABSOLUMENT !
-********************************************************
+Apprendre à chanter, les BASES à appliquer ABSOLUMENT ! (001)
+**************************************************************
 
 :source: https://youtu.be/IgTssFoLSu0
 
@@ -14,8 +14,8 @@ Apprendre à chanter, les BASES à appliquer ABSOLUMENT !
 [Song] Comment avec les mains avoir un son clair et un son sombre? % Pour un son clair frappé avec le plat de la main, pour un son sombre faire une  cavité avec les mains puis applaudir
 [Song][Workout] Comment travailler le timbre? % Se redresser, dire é puis è, un peu comme le son du beurk beh
 
-EXERCICE de soutien ! L’exercice CLE pour plus de PUISSANCE VOCALE !
-*********************************************************************
+EXERCICE de soutien ! L’exercice CLE pour plus de PUISSANCE VOCALE ! (002)
+***************************************************************************
 
 :source: https://www.youtube.com/watch?v=ZefErhNoFn0
 
@@ -26,8 +26,8 @@ EXERCICE de soutien ! L’exercice CLE pour plus de PUISSANCE VOCALE !
 [Song] Que signifie CVT? % Complete Vocal Technic
 [Song] Quels sont les 4 modes de voix selon la CVT? % Neutre, Curbing, Overdrive, Edge
 
-Changer de VOIX, quels sont les SECRETS des IMITATEURS ?
-*********************************************************
+Changer de VOIX, quels sont les SECRETS des IMITATEURS ? (003)
+***************************************************************
 
 :source: https://www.youtube.com/watch?v=NGGtFbhSx-M
 
@@ -36,15 +36,24 @@ Changer de VOIX, quels sont les SECRETS des IMITATEURS ?
 - les tics de langage
 - la position corporel
 
-Developper son Oreille Musical
-*******************************
+Developper son Oreille Musical (004)
+*************************************
 
 :source: https://www.youtube.com/watch?v=3MHRvuO8TCU
 
 [Song] Comment travailler son oreille musical? % travailler en chorale, travailler les intervals, Ecouter tous
 
-Le soutien CHANT ! La TECHNIQUE très PEU CONNUE mais fondamentale !
-********************************************************************
+Falsetto PUISSANT ! Comment chanter avec de la PUISSANCE en Falsetto ? (008)
+*****************************************************************************
+
+:source: https://www.youtube.com/watch?v=oZGg8629RdU
+
+[Song] Qu'est ce qu'un Falsetto? % Une voix leger, sans densité utilisé dans les aigues voir sur aigue
+[Song][Workout] Comment avoir un Falsetto sain et puissant ? % 1. Enlever l'air, 2. faire l'exercice de la porte qui grince, 2b. ou faire la mouette (un a en twang), 3. mettre de l'energie 4. ne pas utiliser les levres (creer de la resonnance, ouvrir la bouche)
+[Song][Workout] Qu est ce que la porte qui grince ? % Commencer par un raclement de gorge, comme le rale d un mourant, puis enchainer avec l'ouverture et la fermeture de la porte avec du twang, avec une tonalité en [a]
+
+Le soutien CHANT ! La TECHNIQUE très PEU CONNUE mais fondamentale ! (005)
+**************************************************************************
 
 :source: https://www.youtube.com/watch?v=EWK4DFOH_Mk
 
@@ -60,16 +69,16 @@ Puis essayer de chanter avec cette contraction
 
 [Song][Workout] Comment travailler l'inner support? % Contracter les transveres, les lombaires, les cotés, puis faire des micros mouvements circulaires
 
-Mon MEILLEUR conseil pour réussir une ORNEMENTATION !
-******************************************************
+Mon MEILLEUR conseil pour réussir une ORNEMENTATION ! (006)
+************************************************************
 
 :source: https://www.youtube.com/shorts/ya67RVdf7So
 
 [Song] Qu'est ce qu'une ornementation? % Un enchainement de note qui va tres vite
 [Song][workout] comment travailler/ameliorer une ornementation? % Ralentir, decomposé et bien definir chaque note, puis aller de plus en plus vite
 
-Respiration et VOIX, TOUT ce que vous devez SAVOIR !
-*****************************************************
+Respiration et VOIX, TOUT ce que vous devez SAVOIR ! (007)
+***********************************************************
 
 :source: https://www.youtube.com/watch?v=QB-Oj9QAMB0
 
@@ -94,7 +103,7 @@ alterner
 [Song][Workout] Comment travailler le dos? % Faire comme une traction, puis relacher, ou faire comme si on ecrasait des oranges sous les aisselles, toujours avec une resistance, et jamais en contractant la gorge, faire des twang
 [Song][Workout] Comment travailler le lombaire? % Creuser votre dos, cambrer puis faire comme si on vous donnait un coup de point dans le ventre, puis essayer de faire les 2 en meme temps. Creuser avec resistance
 
-Masterclass - Les secrets de al voix
+Masterclass - Les secrets de la voix
 *************************************
 
 :source: https://contact-elenahurstel.systeme.io/a6af50b5

@@ -50,14 +50,33 @@ D'ou vient le mot travail? % Tripalium, un instrument de torture romain pour pun
 Qu'est ce que l'effet spotlight (Philipppe Peytroux)? % Penser que l'on est au centre de l'attention, que les gens nous regarde, nous jugent, ce n'est qu un effet alors detend toi et souris
 Qu'est ce que l'erreru fondamental d'atribution? % accorder une importance disproportionnée aux caractéristiques internes d’une personne (caractère, intentions, émotions, connaissances, opinions) au détriment des facteurs externes et situationnels dans l’analyse de son comportement dans une situation donnée.
 Pourquoi l'eglise avait interdit les jeux de cartes au debut du XVe? % Parce que cela faisait de l'argent qui transitait sans controle ni de l etat ni de l'eglise
-Qui et quand a ete invente les cartes a coin arrondi? % Par Baptiste-Paul Grimaud en 1858, pour reduire la triche et la tortion des cartes
+[Game] Qui et quand a ete invente les cartes a coin arrondi? % Par Baptiste-Paul Grimaud en 1858, pour reduire la triche et la tortion des cartes
 [Entretien] Qu'est ce que la methode SQUARE de Charline CARON? % C'est une methode pour parler de soit en entretien pro: Succes (ce que tu as reussi) QUalité (tes points forts) Affirmation (ce que tu souhaite, quels sont tes besoins qui match avec l entreprise) REbond (pose ta question d'approfondissement)
 [Entretien] Lors de la demande de defaut, que repondre? % Il faut un default sur les competences, surtout pas sur la personnalité, que l'employeur puisse se projeté sur comment l'ameliorer, et montrer que l'on travaille dessus
-Qu est ce que la bienveillance selon Gael Chatelain-Berry? % Mettre l'humain au centre de tout, preter attention a l'autre, ne jamais faire a qqn ce que je ne supporterais pas qu'on me fasse. Etre poli, disponible, empathique, ponctuel, sourire, fiable, positif, exemplaire, calme et a l'ecoute
-Quel est la definition de l'amitié et de l'amour selon Benjamin Castaldi ? Amitie: c est ce qu'il nous reste quand on a tout perdu, Amour: C'est quand tout perdre n'a plus d'importance
-Comment mettre en place de la CNV? % Exprimer les faits puis (et uniquement ensuite) le ressenti et enfin le besoin
-Comment s'appele le logo de discord? % clyde
-Qu est ce que le reveil de forme selon Happy Work? % Le fait d'avoir le sentiment d'avoir fait une grace matinee en se reveillant avant que son reveil ne sonne
-Qui est Despoina? % Deesse de l'hiver, enfant du viol de demeter par Hephaistos, femme Boreas, le dieux des vents froid
-Quels sont les echelles de notoriété de Fabien Olicard? % 0-Chacun d'entre nous connaissons des centaines de personnes, 1-Une fois qu'une communité est monté on connait des milliers de personne, 2-Millions de personne, youtubeur, influencer, au dela, 3-les stars, tout le monde connait leur nom sur tout le territoire, 4-Les stars confirmées, ils ont du mal a aller dans la boulangerie, on connait leur vie, leur valeur, 5- la Légende, zidane, leonardo dicaprio, johnny Hallyday
-Pour un cadrillage de 3 carré sur trois, comment savoir combient il y a de carré ? % la somme de 1 au nombre de carré sur un coté, au carré, pour l exemple 1x1+2x2+3x3=14 carrés
+[Happy Work] Qu est ce que la bienveillance selon Gael Chatelain-Berry? % Mettre l'humain au centre de tout, preter attention a l'autre, ne jamais faire a qqn ce que je ne supporterais pas qu'on me fasse. Etre poli, disponible, empathique, ponctuel, sourire, fiable, positif, exemplaire, calme et a l'ecoute
+[Love] Quel est la definition de l'amitié et de l'amour selon Benjamin Castaldi ? Amitie: c est ce qu'il nous reste quand on a tout perdu, Amour: C'est quand tout perdre n'a plus d'importance
+[CNV] Comment mettre en place de la CNV? % Exprimer les faits puis (et uniquement ensuite) le ressenti et enfin le besoin
+[IT] Comment s'appele le logo de discord? % clyde
+[Happy Work] Qu est ce que le reveil de forme selon Happy Work? % Le fait d'avoir le sentiment d'avoir fait une grace matinee en se reveillant avant que son reveil ne sonne
+[Myth] Qui est Despoina? % Deesse de l'hiver, enfant du viol de demeter par Hephaistos, femme Boreas, le dieux des vents froid
+[Relation] Quels sont les echelles de notoriété de Fabien Olicard? % 0-Chacun d'entre nous connaissons des centaines de personnes, 1-Une fois qu'une communité est monté on connait des milliers de personne, 2-Millions de personne, youtubeur, influencer, au dela, 3-les stars, tout le monde connait leur nom sur tout le territoire, 4-Les stars confirmées, ils ont du mal a aller dans la boulangerie, on connait leur vie, leur valeur, 5- la Légende, zidane, leonardo dicaprio, johnny Hallyday
+[Math] Pour un cadrillage de 3 carré sur trois, comment savoir combient il y a de carré ? % la somme de 1 au nombre de carré sur un coté, au carré, pour l exemple 1x1+2x2+3x3=14 carrés
+[Happy Work] quels sont les 5 secrets pour avoir une bonne image en entreprises ? % être de bonne humeur, toujours être positif, tenir ses promesses, ne pas être en retard, être à l ecoute
+[Semantique] qu'est ce que la peur des palyndrome? % eibohphobie
+[Geographie] qu elle est le point commun entre le liechtenstein et l'ouzbékistan ? % ce sont les 2 seuls pays a etre entouré par des pays qui n'ont aucun acces a la mere, ils sont doublement enclavé
+[Psyco] Qu est ce que le conditionnement operant ? % le système de recompense et de punission, la carotte et le baton
+[Psyco] Qu est ce que l experience de H? %l experience demontrant la preuve social, le fait de se conformer pour ne pas être regeté
+[Miam] Qu est ce que l'echelle de scovile ?% L'echelle du picant
+[Entreprenariat] Quels sont les 4 categories de complement de revenu selon pose ta dem ? % proposer des services et des compétences, louer tes proprietes et tes equipements, vendre tes affaires en 2nd mains, utiliser le web a ton avantage
+[Voc] Qu'est ce qu'un Béké ? % Aux Antilles françaises, un béké est un blanc créole descendant des premiers colons
+[Animal] Qu est ce que le specisme? % il est speciste de traiter des intérêt similaire de facon difference selon l espece (ex: intérêt a ne pas souffrir)
+Quel est le seul mot francais qui prend un U entre le g et le a  pour faire le son [ga] ? % distinguable
+Qu est ce qu un arctophile ?% un collectionneur de peluche
+Pourquoi l ours en peluche s appelle teddy bear en anglais ? % en l honneur de Theodore Roosevelt qui après une journée de chasse a l ours infructueuse, ses collègues chasseurs lui ont proposé d abattre un ourson blesser attaché a un arbre, il a refuse outré et a ordonné de le relacher
+Le 25 decembre c est l anniversaire d eeyore, mais qui est il ? % bourriquet de winnie l ourson
+On connait tous le visage du colonel sanders ? % c est le visage sur Kentuky fried chicken, faux colonel
+Que signifie "il revient de poitier" et pourquoi ? % Que c est un menteur,  dans la dernière piece de corneille, le menteur, un adolescent revenant de poitier raconte qu il s est marié la bas.
+Quel est la difference l accouplement du coq et de la poule de celui de la cannes et du canard ? % il y a penetration chez le canard et coq et poule c est juste du frotement (le coq n'a pas d'organe penetrant)
+Pourquoi les autruches ont un long cou ? % facility la recherche de la nourriture, surveillance, accentuation du cri des autruches males, regulation de la temperature de la tête
+Pourquoi les autruches plantent leur tête dans le Sable en cas de danger? % c est une legende lancer pas pline l ancien, elles sont très courageuse et très maline, elles savent même utiliser les mirages lors ce qu elles ont besoin de fuir
+Pourquoi les flammand rose sont rose? % a cause des crevettes dont elles se nourrissent

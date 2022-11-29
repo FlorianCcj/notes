@@ -22,3 +22,6 @@
 [Song][Workout] Comment travailler les intercostaux? % Placer ses mains dessus et inspirer fort, puis inspirer mais plus naturellement, rester ouvers, puis relacher. Enfin essayer de rester ouvert le plus longtemps
 [Song][Workout] Comment travailler le dos? % Faire comme une traction, puis relacher, ou faire comme si on ecrasait des oranges sous les aisselles, toujours avec une resistance, et jamais en contractant la gorge, faire des twang
 [Song][Workout] Comment travailler le lombaire? % Creuser votre dos, cambrer puis faire comme si on vous donnait un coup de point dans le ventre, puis essayer de faire les 2 en meme temps. Creuser avec resistance
+[Song] Qu'est ce qu'un Falsetto? % Une voix leger, sans densité utilisé dans les aigues voir sur aigue
+[Song][Workout] Comment avoir un Falsetto sain et puissant ? % 1. Enlever l'air, 2. faire l'exercice de la porte qui grince, 2b. ou faire la mouette (un a en twang), 3. mettre de l'energie 4. ne pas utiliser les levres (creer de la resonnance, ouvrir la bouche)
+[Song][Workout] Qu est ce que la porte qui grince ? % Commencer par un raclement de gorge, comme le rale d un mourant, puis enchainer avec l'ouverture et la fermeture de la porte avec du twang, avec une tonalité en [a]

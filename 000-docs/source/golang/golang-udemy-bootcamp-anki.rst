@@ -40,3 +40,25 @@ how can you generate a random number? % ran.Seed(time.Now().UnixNano())
 how to change a string (with spapce) to list of string split by space? % words := string.Fields("lazy cat jumps again and again and again")
 What are the composite type in golang? % Array, Slice, String, Maps, Struct
 What are the possibility to print an array variable? % fmt.Println("books: ", books), fmt.Printf("books: %q", books), fmt.Printf("books: %#v", books)
+How to init an array without specify the size? % test := [...]int{1,2,3}
+How Go manage array comparaison? % first it will compare the type, the each element one by one
+How to make a named type and init it? % type bookcase [3]int then bookcaes{6,9,3}
+if you have type bookcase [3]int and type cabinet [3]int how to compare it? % bookcase{6,9,3} == bookcase(cabinet{6,9,3})
+How to init a slice ? % var nums []int
+What can you compare to a slice? % Only to nil value
+How to add an element to a slice? % newNums = append(nums, 4)
+How to append all element of an other slice? % evens := append(nums, []int{2, 4, 6}...)
+How to slice a full world? % msg[:]
+How to slice a 5 last letter fo a world? % msg[5:]
+How to slice a 5 first letter fo a world? % msg[:5]
+How to add an exclamation mark at the end of the msg? % msg = append(msg[:], "!")
+What are the fields of a slice value (or a slice header)? % Pointer, length, capacity
+When to use make ? % You can use make to optimize your code
+What does make do? % make preallocate a backing array with with a given length and/or capacity
+What does copy do? % It copies elements of a slice to another slice
+How to make a multi dimension array? % test := [][]int {{200, 100},{10}}
+How to make a multi dimension slice? % test := make([][] int, 0, 5)
+How to add two array to a multi dimensional slice? % test := append(test, []int{12, 45}, []int{100, 12, 38} )
+How to get info about FileInfo interface from os package? % go doc os.FileInfo
+How to print a character and is numerical equivalent? % fmt.Printf("%-10c => %-10[1]c\n", n)
+How to edit a string?% you need to convert it as a byte slice ([]byte(stringVar))

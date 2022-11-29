@@ -399,3 +399,19 @@ Section 17: BONUS SECTION: THANK YOU!
 **************************************
 
 001 001 214 /214
+
+slice exo
+- https://github.com/inancgumus/learngo/tree/master/16-slices/exercises/22-adv-ops-practice
+- https://github.com/inancgumus/learngo/tree/master/16-slices/exercises/23-limit-the-backing-array-sharing
+- https://github.com/inancgumus/learngo/tree/master/16-slices/exercises/24-fix-the-memory-leak
+- https://github.com/inancgumus/learngo/tree/master/16-slices/exercises/25-add-lines
+- https://github.com/inancgumus/learngo/tree/master/16-slices/exercises/26-print-daily-requests
+- section 6, projecy
+
+letter number: https://youtu.be/1GSjbWt0c9M?t=403
+charac computer:
+hexa: https://www.youtube.com/watch?v=4EJay-6Bioo
+go blog: https://blog.golang.org/strings
+
+string <=> [byte]
+"hey" <=> []byte{104,101,121}

@@ -122,10 +122,14 @@ one piece
 
 dwl: 1 -> 945 (10.06.2019)
 
+- https://toutvostfr.com/episode/one-piece-saison-4-vf-episode-107/
+
 episode 34 37 38 (arlong park)
 episode 49 (achat du kitetsu)
 episode 52 (luffy execute)
 episode 66 (luffy contre zo)
+episode 102 (on a pas choisi le bon navire)
+episode 104 (je laisse tomber)
 episode 127 (tachigui capture pas luffy)
 episode 128 (luffy se reveille)
 episode 146-147 (arive a jaya)
@@ -190,7 +194,7 @@ episode 879 (prix)
   * yubashiri: sabre cadeau du vendeur de logtown (mort dans les 310)
   * meito shirauo: arme de amande charlotte
   * meito = celebre sabre, excellent sabre
-        
+
 one punch man
 =============
 

@@ -32,7 +32,7 @@ Variante a 5 ou pierre papier ciseaux lezard spock
   * spock
 
     * symboliser par la main a plat avec
-  
+
       * le pouce separer de l index,
       * l index et le majeur colles
       * le majeur et la annulaire separer
@@ -44,7 +44,7 @@ Variante a 5 ou pierre papier ciseaux lezard spock
   * le lezard
 
     * symbolise par
-  
+
       * le pouce qui represente la machoire inferieur
       * les qutres doigts qui representent la machoire superieur
 
@@ -510,6 +510,15 @@ une au debut une a la fin
 * JQ
 * KPLO MN: capelo amen
 
+Jour de la semaine, comment le calculé
+***************************************
+
+:source: https://www.dcode.fr/jour-semaine-date
+
+Faire un modulo 7 et convertire en jour, avec 0 -> Lundi, 1 -> Mardi ...
+Exemple 1er Janver 2000 -> 2000 = (200 + 80 + 5) x 7 + 5 => 5 -> samedi
+Exemple 25 Janver 1992 -> 1992%7 = 4 -> Mercredi, 1er janvier 1992 => 25 - 1 = 24, 24%7 = 3 => Mercredi + 3 => Samedi
+
 La table de rappel - Technique de mémoire
 *****************************************
 
@@ -529,6 +538,14 @@ La table de rappel - Technique de mémoire
   - tout les 10 mots, j'alterne entre: animal/humain (fictif ou non) et objet/plante (de 0 à 9 animal, 10 à 19 objet, etc...)
   - les mots choisis riment avec le nombre ou commencent par la même syllabe
   - les mots choisis sont en rapport avec l'élément, ou peuvent y faire penser
+
+Livres et formations pour devenir mentaliste
+*********************************************
+
+:source: https://www.youtube.com/watch?v=RKjYZmLWSag
+
+Je sais que vous mentez ! de Paul Ekman
+Ces gestes qui vous trahissent de Joseph Messinger
 
 Mentalisme : Explication d une prediction
 *****************************************
@@ -603,6 +620,22 @@ Retenir un jeu de carte entier avec le système PAO, technique de mémoire
 ************************************************************************
 
 :source: https://www.youtube.com/watch?v=Vu9iWDsNSSw
+
+TOUT apprendre en 48 heures (la technique parfaite)
+****************************************************
+
+:source: https://www.youtube.com/watch?v=kfDmx3AVqME
+
+Lecture de comprehension
+Lecture de note
+
+Indispensable repetition espacé
+
+Pour apprendre/reviser
+- flashcard
+- carte de revision (couleur, symbologie, schema)
+
+Reviser debout, en marchant, en mouvement, en changeant de lieu
 
 Merci a Fabien Olicard !!!
 

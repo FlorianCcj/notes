@@ -1872,3 +1872,16 @@ https://cdkey.lilith.com/afk-global
 test
 sorciere serpent balayeuse jumeau pistol
 tripode servante vampire jumeau serpent
+
+Island
+*******
+
+heros up
+lvl1 010-020-035-050-070 +1 = 185
+lvl2 095-120-150-185-225 +2 = 775
+lvl3 275-000-000-000-000 +0 =
+
+skill
+04-12
+02-06
+02-06

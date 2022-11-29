@@ -1,6 +1,11 @@
 Money - Pierre Olivier
 ######################
 
+7 hack de productivité
+***********************
+
+- Choisir et daté un objectif, un objectif pour lequel on ressent quelque chose, qui vous inspire, qui va vous faire vibrer
+
 Comment trouver un bon locataire
 ********************************
 
@@ -35,7 +40,7 @@ Comment trouver un bon locataire
   * le loyer doit etre payer a tel date a telle heure
   * le candidat doit fournir une assurance habitation AVANT d entrer dans l habitation
   * recuperer les cautions et le premier mois de loyer AVANT qu il entre (pas de cheque ni espece)
-  7. faire l etat des lieux
+  1. faire l etat des lieux
 
     * encourager le locataire de faire des photos et de l envoyer par mail
 
