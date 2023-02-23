@@ -6,7 +6,7 @@ require (
 	github.com/pkg/sftp v1.13.1
 	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
 	golang.org/x/oauth2 v0.0.0-20210218202405-ba52d332ba99
-	golang.org/x/text v0.3.4
+	golang.org/x/text v0.3.8
 	google.golang.org/api v0.40.0
 )
 
