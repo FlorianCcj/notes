@@ -6,4 +6,3 @@
       name: "{{ openvpn_dependencies }}"
       state: present
     become: yes
-  

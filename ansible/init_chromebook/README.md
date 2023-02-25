@@ -33,7 +33,7 @@ ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x5
 ```
 
 ```sh {name=deploy_x515_tags}
-ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -t helm -K
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -t chromedriver -K
 ```
 
 ## Still manual
@@ -48,6 +48,13 @@ ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x5
 - Slack saloon
   - prologism
   - befree
+
+## TODO: roles to create
+
+tfenv
+pre-commit
+direnv
+
 
 ## Old doc
 

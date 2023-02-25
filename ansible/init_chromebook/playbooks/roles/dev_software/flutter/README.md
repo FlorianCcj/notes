@@ -104,6 +104,6 @@ Testing
 devtools
 
 appstore & google play store
-very long ... 
+very long ...
 https://gitlab.com/stack-labs/oss/flutter-tips-and-tricks
 https://bit.ly/3qSsWO4

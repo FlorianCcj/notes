@@ -24,7 +24,9 @@
 	pager = less -FRSX
 	whitespace = fix,-indent-with-non-tab,trailling-space,cr-at-eol
 	autocrlf = input
+	# git config --global core.editor "vim"
 	editor = vim
+	hooksPath = ./.pre-commit
 [alias]
 	st = status
 	ci = commit
@@ -34,8 +36,11 @@
 	dc = diff --cached
 	lg = log -p
 	ls = ls-files
-        logg = log --graph --oneline --decorate
-  root = rev-parse --show-toplevel
+	logg = log --graph --oneline --decorate
+	root = rev-parse --show-toplevel
+	## git config --global alias.dbr "\!git diff \$(git merge-base $2 HEAD) HEAD"
+	dbr = !git diff $(git merge-base $2 HEAD) HEAD
+	cempty = !git ci --allow-empty -m "fix(test): empty commit to test" && git push
 [user]
 	email = {{ git_gitconfig_user_mail }}
 	name = {{ git_gitconfig_user }}
@@ -43,4 +48,5 @@
   # Permit to add a .git-credentials with
   # https://florianccj:my_super_token@github.com
   # https://_FPoulet:my_super_token2@bitbucket.com
+	# https://florianccj%40gmail.com:mon_super_password@gitlab.com
   helper = store

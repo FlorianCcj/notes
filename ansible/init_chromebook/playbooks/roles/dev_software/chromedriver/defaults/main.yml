@@ -1,0 +1,6 @@
+---
+# https://chromedriver.storage.googleapis.com/index.html
+# chromedriver_download_url: http://chromedriver.storage.googleapis.com/110.0.5481.30/chromedriver_linux64.zip
+chromedriver_download_url: https://chromedriver.storage.googleapis.com/109.0.5414.74/chromedriver_linux64.zip
+chromedriver_install: no
+chromedriver_path_to_install: ~/software/bin

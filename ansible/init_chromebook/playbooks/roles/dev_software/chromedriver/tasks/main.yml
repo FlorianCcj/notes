@@ -1,0 +1,22 @@
+---
+- when: chromedriver_install | bool
+  block:
+  - name: "create soft dir: {{ chromedriver_path_to_install }}"
+    file:
+      path: "{{ chromedriver_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: get chromedriver
+    ansible.builtin.unarchive:
+      src: "{{ chromedriver_download_url }}"
+      dest: "{{ chromedriver_path_to_install }}"
+      remote_src: yes
+
+  - name: "Add {{ chromedriver_path_to_install }} to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ chromedriver_path_to_install }}"

@@ -48,44 +48,67 @@
         name: "math_exo"
       tags: "math_exo"
 
-- name: Installation dev roles
+- name: Installation needed dev roles
   hosts: all
   tasks:
     - import_role:
-        name: "dev_software/man"
-      tags: "man_config"
-
-    - import_role:
-        name: "dev_software/python"
-      tags: "python"
-
-    - import_role:
-        name: "dev_software/git"
-      tags: "git"
-
-    - import_role:
-        name: "dev_software/ctlptl"
-      tags: "ctlptl"
+        name: "anki"
+      tags: "anki"
 
     - import_role:
         name: "dev_software/direnv"
       tags: "direnv"
 
     - import_role:
-        name: "dev_software/helm"
-      tags: "helm"
+        name: "dev_software/docker"
+      tags: "docker"
 
     - import_role:
-        name: "dev_software/kind"
-      tags: "kind"
+        name: "dev_software/git"
+      tags: "git"
 
     - import_role:
-        name: "dev_software/php"
-      tags: "php"
+        name: "dev_software/man"
+      tags: "man_config"
 
     - import_role:
-        name: "dev_software/npm"
-      tags: "npm"
+        name: "dev_software/rdme_statefull"
+      tags: "rdme_statefull"
+
+    - import_role:
+        name: "dev_software/python"
+      tags: "python"
+
+    - import_role:
+        name: "dev_software/tilt"
+      tags: "tilt"
+
+    - import_role:
+        name: "tmux"
+      tags: "tmux"
+
+- name: Installation facultative dev roles
+  hosts: all
+  tasks:
+    - import_role:
+        name: "dev_software/android_studio"
+      tags: "android_studio"
+
+    - import_role:
+        name: "dev_software/appimage_builder"
+      tags: "appimage_builder"
+
+    - import_role:
+        name: "dev_software/azure_cli"
+      tags: "azure_cli"
+
+    - import_role:
+        name: "dev_software/chromedriver"
+      tags: "chromedriver"
+
+    - import_role:
+        name: "dev_software/ctlptl"
+      tags: "ctlptl"
 
     - import_role:
         name: "dev_software/flutter"
@@ -96,12 +119,32 @@
       tags: "golang"
 
     - import_role:
-        name: "dev_software/appimage_builder"
-      tags: "appimage_builder"
+        name: "dev_software/helm"
+      tags: "helm"
 
     - import_role:
-        name: "tmux"
-      tags: "tmux"
+        name: "dev_software/kind"
+      tags: "kind"
+
+    - import_role:
+        name: "dev_software/kubectl"
+      tags: "kubectl"
+
+    - import_role:
+        name: "dev_software/npm"
+      tags: "npm"
+
+    - import_role:
+        name: "dev_software/php"
+      tags: "php"
+
+    - import_role:
+        name: "dev_software/terraform"
+      tags: "terraform"
+
+    - import_role:
+        name: "dev_software/trivy"
+      tags: "trivy"
 
     - block:
       - import_tasks: tasks/install_vscode.yml
@@ -109,41 +152,10 @@
       - import_role:
           name: "dev_software/vscode"
       tags: "vscode"
+
     #- import_tasks: tasks/install_atom.yml
     #    # wtf payment required
     # TODO: install docker compose
-
-    - import_role:
-        name: "dev_software/docker"
-      tags: "docker"
-
-    - import_role:
-        name: "dev_software/kubectl"
-      tags: "kubectl"
-
-    - import_role:
-        name: "dev_software/android_studio"
-      tags: "android_studio"
-
-    - import_role:
-        name: "anki"
-      tags: "anki"
-
-    - import_role:
-        name: "dev_software/tilt"
-      tags: "tilt"
-
-    - import_role:
-        name: "dev_software/rdme_statefull"
-      tags: "rdme_statefull"
-
-    - import_role:
-        name: "dev_software/terraform"
-      tags: "terraform"
-
-    - import_role:
-        name: "dev_software/azure_cli"
-      tags: "azure_cli"
 
 - name: Installation communication roles
   hosts: all

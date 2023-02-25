@@ -19,4 +19,3 @@
   debug:
     msg: "[error][vital packages task] variable is not defined"
   when: vital_packages is not defined
-

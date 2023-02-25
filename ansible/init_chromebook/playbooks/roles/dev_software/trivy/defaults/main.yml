@@ -1,0 +1,5 @@
+---
+trivy_download_url: "https://github.com/aquasecurity/trivy/releases/download/v{{ trivy_version }}/trivy_{{ trivy_version }}_Linux-64bit.tar.gz"
+trivy_install: no
+trivy_path_to_install: "{{ ansible_env.HOME }}/software/bin"
+trivy_version: "0.32.1"

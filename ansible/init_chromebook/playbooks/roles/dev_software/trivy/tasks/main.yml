@@ -1,2 +1,22 @@
 ---
-# TODO
+- when: trivy_install | bool
+  block:
+  - name: "Ensure {{ trivy_path_to_install }} exists"
+    ansible.builtin.file:
+      path: "{{ trivy_path_to_install }}"
+      state: directory
+      mode: 0755
+
+  - name: "Extract {{ trivy_download_url }} in {{ trivy_path_to_install }}"
+    ansible.builtin.unarchive:
+      src: "{{ trivy_download_url }}"
+      dest: "{{ trivy_path_to_install }}"
+      remote_src: yes
+      mode: 0755
+
+  - name: "Add tilt to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ trivy_path_to_install }}"

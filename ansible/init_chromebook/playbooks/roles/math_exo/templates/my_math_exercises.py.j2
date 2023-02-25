@@ -17,7 +17,7 @@ def test_help(str_to_test):
 def multiplication_test(lim_inf, lim_sup, help_function):
     num_1 = random.randint(lim_inf, lim_sup)
     num_2 = random.randint(lim_inf, lim_sup)
-      
+
     answer_false = True
     local_quit = False
 
@@ -70,18 +70,18 @@ def ten_to_twenty_squarre():
 
 
 def squarre_root(lim_inf, lim_sup, help_function):
-  
+
     number = random.randint(lim_inf, lim_sup)
-  
+
     answer_false = True
     local_quit = False
 
     while answer_false and not local_quit:
         user_answer = input("%d^(1/2): " % (number*number))
-  
+
         local_quit = test_quit(user_answer)
         local_help = test_help(user_answer)
-  
+
         if not local_help and not local_quit:
             try:
                 answer_false = int(user_answer) != number

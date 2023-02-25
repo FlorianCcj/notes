@@ -2,11 +2,15 @@
 # source: https://github.com/gantsign/ansible-role-atom
 # https://github.com/gantsign/ansible-role-visual-studio-code-extensions
 #
-# Extension
-# Markdown lint
+# Extension:
+# ----------
+# Markdownlint
 # Todo tree
 # Docker
 # Go
+# reStructuredText
+# Extension Pack for reStructuredText
+#
 #
 # TODO: auto install extension https://www.alphr.com/vs-code-how-to-install-extensions/
 #
@@ -28,4 +32,3 @@
   apt:
     name: "code"
     state: present
-
