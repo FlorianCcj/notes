@@ -1,0 +1,11 @@
+00%oeuf
+01%baguette de pain
+02%cygne
+03%menotte
+04%bateau a voile
+05%crochet (de rideau) ou serpent
+06%snail, nautile, elephant
+07%sceptre
+08%olaf (snowman)
+09%balloon
+10%baseball
