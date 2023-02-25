@@ -21,7 +21,7 @@ func main() {
 	for index, value := range scores2 {
 		fmt.Printf(index, value)
 	}
-	
+
 	println("-----")
 	println("Slice")
 	println("-----")

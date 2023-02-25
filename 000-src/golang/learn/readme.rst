@@ -92,14 +92,14 @@ To Edit an instance of struct you need to use pointer
     }
 
     func main() {
-      
+
         goku := Saiyan{
             Name: "Goku",
             Power: 9000,
         }
 
         println(goku.Name)
-      
+
         geta := Saiyan{Name: "Geta"}
         geta.Power = 8500
 
@@ -108,7 +108,7 @@ To Edit an instance of struct you need to use pointer
         Super(gohan)
 
         println(gohan.Power)
-      
+
         SuperFake(gohan)
 
         println(gohan.Power)

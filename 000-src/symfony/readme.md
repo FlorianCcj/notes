@@ -69,5 +69,3 @@ mv phpcs.phar /usr/local/bin/phpcs
 
 
 test ? https://github.com/eko/docker-symfony/blob/master/docker-compose.yml
-
-

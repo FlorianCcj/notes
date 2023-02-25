@@ -299,7 +299,7 @@ STAY IDEMPOTENT !!!
 - name: Idempotent approach with copy module
   copy:
     dest: /etc/resolv.conf
-    content: "nameserver 192.0.2.1\n"     
+    content: "nameserver 192.0.2.1\n"
 ```
 
 good practice
@@ -700,7 +700,7 @@ paths:
     tasks:
         - name: Imports the variable file
             include_vars: paths.yml
-      
+
         - name: Create the remote directory
             file:
                 path: "{{ paths.fileserver }}"
@@ -721,7 +721,7 @@ paths:
     tasks:
         - name: Imports the variable file
             include_vars: paths.yml
-      
+
         - name: Create the remote directory
             file:
                 path: "{{ paths.dbpah }}"
@@ -797,7 +797,7 @@ firewall_pkg: firewalld
     tasks:
         - name: Include the variables from the YAML file
             include_vars: vars/varibales.yml
-      
+
         - name: Include the environment file and set the variable
             include: task/environment.yml
             vars:

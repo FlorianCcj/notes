@@ -41,7 +41,7 @@ func main() {
 
 go install: will add the binary in $GOBIN
 go build
-go run hello.go 
+go run hello.go
 
 ### **Basics**
 ===================

@@ -588,6 +588,7 @@
           `vgdisplay vg-diamond | grep Free`
         - extend VL
           `lvextend -L +1G /dev/vg-diamond/linux-mag`
+          `lvextend -L +100%FREE /dev/vg-diamond/linux-mag`
         - extend FS
           `resize2fs /dev/vg-diamond/linux-mag`
         - check

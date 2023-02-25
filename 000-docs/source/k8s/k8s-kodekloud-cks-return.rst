@@ -104,8 +104,8 @@ Namegroup:
 - /certificates.k8s.io
   - certificatesigningrequest
 
-CKS-Which request can you do to know the root api > curl http://localhost:6443 -k 
-CKS-Which request can you do to know the name api > curl http://localhost:6443/apis -k 
+CKS-Which request can you do to know the root api > curl http://localhost:6443 -k
+CKS-Which request can you do to know the name api > curl http://localhost:6443/apis -k
 
 Usually you need authentication to access the apiserver
 curl http://localhost:6443 -k --key admin.key --cert admin.crt --cacert ca.crt
@@ -456,7 +456,7 @@ Kubelet Security (14:48)
   fileCheckFrequency: 0s
   healthzPort: 10248
   clusterDNS:
-  - 10.96.0.10 
+  - 10.96.0.10
   httpCheckFrequency: 0s
   syncFrequency: 0s
   authentication:
@@ -570,7 +570,7 @@ Cluster Upgrade Process (11:11)
 * :code:`kubectl uncordon controlplan`
 * first upgrade master node then worker node
 
-CKS-upgrade-command-Which command will be use to upgrade cluster with kubeadm? 
+CKS-upgrade-command-Which command will be use to upgrade cluster with kubeadm?
 kubeadm upgrade plan
 kubectl drain controlplane
 {package manager} install -y kubelet=1.12.0-00 kubeadm=1.12.0-00

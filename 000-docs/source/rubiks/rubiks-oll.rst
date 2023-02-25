@@ -206,5 +206,3 @@ awkward (smal lighting and sun): 0/4
 all corner oriented: 0/3
 
 7/57 !!!
-
-

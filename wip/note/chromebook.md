@@ -40,7 +40,7 @@ https://doc.ubuntu-fr.org/chromebook
 * sudo sh ~/Download/crouton -r trusty -t xfce -e
 * sudo sh ~/Download/crouton -r trusty -t unity -e
 	* -e : permet d'encrypter les données
-	
+
 ## enter
 
 * shell

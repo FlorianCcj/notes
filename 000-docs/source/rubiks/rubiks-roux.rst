@@ -28,7 +28,7 @@ Victor D. - Méthode roux
   - s'aider de M et M' pour orienté correctement les edges
   - ne pas s'inquiete des centres de M
 - CMLL, Corner of Last Layer
-  - 2 Look, 7 OLL + 2 oriented 
+  - 2 Look, 7 OLL + 2 oriented
     - OLL
 
 .. code-block:: txt

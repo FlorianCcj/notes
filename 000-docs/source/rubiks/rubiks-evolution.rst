@@ -113,7 +113,7 @@ https://www.youtube.com/watch?v=gfAQslQVPZg
   - cross face under
   - cross Less than 10 moves
 - sub20
-  - pll full 
+  - pll full
   - f2l multi angle
   - optimisation
   - cube undertanding

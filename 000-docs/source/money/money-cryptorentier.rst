@@ -39,4 +39,3 @@ Exchange:
 * crypto.com
   * credit card
   * stacking
-

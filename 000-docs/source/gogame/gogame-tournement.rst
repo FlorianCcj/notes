@@ -42,6 +42,7 @@ Le classement final se fait selon les critères suivant
 3. SOSOS (somme des SOS des adversaires rencontrés)
 4. SODOS (Somme du score de l'adversaire vaincu)
 5. Points (nombre de victoire)
+
 La barre haute MacMahon est à 2 Dan et la barre basse est à 20 kyu
 Pas d'handicap dans le top groupe
 
@@ -50,4 +51,3 @@ Dans le cas ou votre adversaire ne vient pas à un rdv que vous avez fixé la pa
 Si differente platfrom penser a noter les different pseudo en fonction des platform
 
 Blitz jouer solide
-

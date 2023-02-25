@@ -47,4 +47,3 @@ F2L made EXTREMELY EASY (only one step) (read description)
 ***********************************************************
 
 https://www.youtube.com/watch?v=YYH227F3Rkw
-

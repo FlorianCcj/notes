@@ -46,7 +46,7 @@ Cerner les gens et leurs émotions rapidement
   * cherche à aller vers l’autre et à l’agresser plus ou moins violemment
   * On peut également observer beaucoup la tête et l’inclinaison de la tête.
   * avoir le front en avant
-  * avoir le menton et la tête projeter 
+  * avoir le menton et la tête projeter
 * Secret numéro 4 pour cerner les gens : le non-verbal d’une personne intéressée ou désintéressée.
   * l’orientation du corps, des jambes et des pieds.
   * pieds orientés vers toi = interet
@@ -61,7 +61,7 @@ Comportement 1, observer la personne au volant
 
 * pas en situation de contrôle
 * la personnalité hostile: énervé, prise de risque inconcidere, selon le modele big5 : n accepté pas les normes sociales, associer à un manque d estime de soi, faible taux d extravertion, de conscience, d agréabilite, et de sens du devoir.
-* personne stresse au volant, main crispée, les autres sont des menaces, regarde beaucoup l environnement, freinage intempestif, peu d eye contact, 
+* personne stresse au volant, main crispée, les autres sont des menaces, regarde beaucoup l environnement, freinage intempestif, peu d eye contact,
 * personnalite empathie, prudente, freinage doux, prend son temps, accepte plus facilement t les règles, accorde beaucoup d importance à la sécurité,
 
 Observation 2, est elle envieuse
@@ -79,11 +79,11 @@ Observation 3, la manière de marcher
   * conscienscieuse (contrôle de l environnement)
   * Extravertion (énergie, sa direction, enthousiasme)
   * Agreabilite (altruisme, ouverture au autre)
-  * Nervosité 
+  * Nervosité
 * Extravertie : rapide
 * Prudent: lent
 * Anxieux: vire a gauche
-* Confiante : tête droite, langage non verbale cohérent 
+* Confiante : tête droite, langage non verbale cohérent
 * Inquiet observé leur environnement
 * Cherche à se proteger: tête basse, epaule affaisse
 
@@ -91,7 +91,7 @@ Observation 4 comportement avec les enfants, les animaux
 --------------------------------------------------------
 
 * Est ce que l animal est stresser ?
-* Mal a l aise avec les enfants ? Enfance avec des parents peu present 
+* Mal a l aise avec les enfants ? Enfance avec des parents peu present
 
 Dresser un profil psychologique en 3 minutes
 ============================================
@@ -154,14 +154,14 @@ Provenance : manuelle diagnostique et statistique des troubles mentaux
 * Personnalité borderline : entrer dans le cercle d ami, le cercle familiale pour découvrir ce qu il manque à quelqu un et lui offrir pour la rendre dependante
   - effort effréné pour ne pas ressentir l abandon
   - relation interpersonnel instable et intense
-  - perturbation de l identité 
+  - perturbation de l identité
   - violence et sentiment de vide
   - Comportement suicidaire
   - tout est noir ou blanc, pas de nuance
   - syndrome du sauveur
 * Personalite antisocial
 
-- voir la psychopathy checklist révisé, si on respecte 22 critères sur les 30 alors on est considérer comme psychopathe 
+- voir la psychopathy checklist révisé, si on respecte 22 critères sur les 30 alors on est considérer comme psychopathe
 - regroupe antisocial, histrionique, narcissique, il y a de grande chance pour que tu sois psychopathe
 
 Psychopathie:
@@ -174,11 +174,11 @@ Psychopathie:
   - absence de remord
   - affect réduit ou inexistant
   - manque d empathie
-  - rejet de responsabilité 
+  - rejet de responsabilité
 * deviance social
   - besoin d extraversion
   - non désir de réalisation
-  - impulsivité/ irresponsabilité 
+  - impulsivité/ irresponsabilité
 * deviance antisocial
   - besoin d introversion
   - violence dans leur jeunesse

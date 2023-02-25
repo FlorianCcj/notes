@@ -382,7 +382,7 @@ TODO netpol
   metadata.name: google-storage
   provisioner: kubernetes.io/gce-pd
   volumeBindingMode: WaitForFirstConsumer # not mandatory
-  
+
 .. code-block:: yaml
   :name: pvc with StorageClass
 

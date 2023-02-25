@@ -38,7 +38,7 @@ Jour 3, Testez votre memoire en mode concentre
 
 - travaille en mode concentre pendant 25 min, #pomodoro
 
-TO READ: Deep Work - Retrouver la concentration dans un monde de distractions de Cal Newport 
+TO READ: Deep Work - Retrouver la concentration dans un monde de distractions de Cal Newport
 
 Jour 4, Comment eviter la surcharge d informations
 ===================================================
@@ -52,7 +52,7 @@ Jour 5, Memorisez les lister
 =============================
 
 - s'assurer que les images soient suffisamment forte et relier entre elle
-- TODO: retenir choux fleur radis salade café 12 oeuf poisson margarine, clé, poids, jus de tomates concentre, bloc note, D, A, V, T
+- Exercise: retenir choux fleur radis salade café 12 oeuf poisson margarine, clé, poids, jus de tomates concentre, bloc note, D, A, V, T
 - transformer les en images mémorables puis les relier en une histoire
 - point d'attention
   - vos images ne doivent surtout pas être logique ou banale

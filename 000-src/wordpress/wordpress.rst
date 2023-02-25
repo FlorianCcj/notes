@@ -40,6 +40,3 @@ WordPress 💻 Formation complète de A à Z (Gutenberg)
 *****************************************************
 
 :source: https://www.youtube.com/watch?v=lHM80V43_Po
-
-
-

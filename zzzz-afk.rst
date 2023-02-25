@@ -197,61 +197,6 @@ scaphandre - double epee noir - roulette - harpon - daemon
 dada - boubou - bobard noir - archer blanc - servant
 tourbi - phhoenix - tank ombre - fleur - jumeau
 
-
-coup speciaux S.I.
-==============
-
-violet  00-01 20
-violet  01-02 10
-violet  02-03 10
-violet  03-04 10
-violet  04-05 15
-violet  05-06 20
-violet  06-07 20
-violet  07-08 25
-violet  08-09 30
-violet  09-10 50
-total         210
-or      10-11 10
-or      11-12 10
-or      12-13 15
-or      13-14 15
-or      14-15 20
-or      15-16 25
-or      16-17 25
-or      17-18 30
-or      18-19 40
-or      19-20 50
-total         240
-rouge   20-21 10
-rouge   21-22 20
-rouge   22-23 20
-rouge   23-24 20
-rouge   24-25
-rouge   25-26 30
-rouge   26-27 40
-rouge   27-28
-rouge   28-29
-rouge   29-30
-total         140 + 4
-
-jaune - mec qui invoque 2 ombre
-jaune - arcaniste snapback
-jaune - druide
-jaune - double epee invocateur de squelette
-jaune - loup garou
-jaune - cercueil
-jaune - servante noir mitrailleuse
-jaune - bastonneur
-jaune - bombardier
-violet - roi noir
-violet - assassin screed
-violet - chevalier servant
-violet - danceuse a la lanterne
-violet - assassin vert
-violet - bombardier rouge
-violet - cavalier
-
 Elevation
 =========
 
@@ -1121,6 +1066,52 @@ x (4c) rosaline (+campagne) 20
 + (4c) kaz 20
 - (4c) khasos
 
+
+violet  00-01 20
+violet  01-02 10
+violet  02-03 10
+violet  03-04 10
+violet  04-05 15
+violet  05-06 20
+violet  06-07 20
+violet  07-08 25
+violet  08-09 30
+violet  09-10 50
+total         210
+or      10-11 10
+or      11-12 10
+or      12-13 15
+or      13-14 15
+or      14-15 20
+or      15-16 25
+or      16-17 25
+or      17-18 30
+or      18-19 40
+or      19-20 50
+total         240
+rouge   20-21 10
+rouge   21-22 20
+rouge   22-23 20
+rouge   23-24 20
+rouge   24-25 30
+rouge   25-26 30
+rouge   26-27 40
+rouge   27-28 40
+rouge   28-29 40
+rouge   29-30 50
+total         300
+rouge   30-31 50
+rouge   31-32
+rouge   32-33
+rouge   33-34
+rouge   34-35
+rouge   35-36 80
+rouge   36-37
+rouge   37-38 120
+rouge   38-39
+rouge   39-40
+total         170
+
 violet:
 
 00 + 01 + 02 + 03 + 04 + 05 + 06 + 07 + 08 + 09 + 10
@@ -1583,6 +1574,38 @@ u: wait t3
 - (?)anoki (+guilde)
 - (?)cecilia (+guilde)
 
+5 star
+
+Celestials - Leather - Body - T2-0
+Celestials - Leather - Feet - T2-0
+Celestials - Leather - Weapon - T2-0
+Celestials - Padded - Body - T2-0
+Celestials - Padded - Feet - T2-0
+Celestials - Padded - Head - T0-5
+Celestials - Plate - Body - T2-0
+Celestials - Plate - Weapon - T2-0
+Dimensional - Leather - Head - T0-5
+Dimensional - Leather - Weapon - T0-5
+Dimensional - Padded - Feet - T0-5
+Dimensional - Padded - Weapon - T0-5
+Graveborn - Leather - Body - T2-0
+Graveborn - Leather - Feet - T2-0
+Graveborn - Padded - Body - T2-5
+Graveborn - Plate - Body - T2-0
+Hypogeans - Leather - Weapon - T2-0
+Hypogeans - Plate - Body - T2-0
+Lightbearer - Leather - Body - T2-0
+Lightbearer - Leather - Feet - T2-5
+Lightbearer - Leather - Head - T2-5
+Lightbearer - Padded - Body - T2-0
+Lightbearer - Plate - Body - T2-0
+Lightbearer - Plate - Feet - T2-0
+Maulers - Leather - Body - T2-0
+Maulers - Leather - Weapon - T0-5
+Wilders - Leather - Body - T2-0
+Wilders - Leather - Feet - T2-0
+Wilders - Padded - Weapon - T2-0
+
 Trial of god
 ============
 
@@ -1662,8 +1685,8 @@ normal
 12-00000-00 (lvl 00)
 13-00000-00 (lvl 00)
 
-idle mine
-*********
+idle miner
+**********
 
 artefact
 ========
@@ -1732,6 +1755,73 @@ boost
  1h * 228 -> 220
 30m * 403 -> -> 351
 
+boost to loot (use)
+====================
+
+lvl 01 - 00 000
+lvl 02 - 00 000
+lvl 03 - 00 000
+lvl 04 - 00 000
+lvl 05 - 00 000
+lvl 06 - 00 000
+lvl 07 - 00 000
+lvl 08 - 00 000
+lvl 09 - 00 000
+lvl 10 - 00 000
+lvl 11 - 00 000
+lvl 12 - 00 000
+lvl 13 - 00 000
+lvl 14 - 00 000
+lvl 15 - 00 000
+lvl 16 - 01 650
+lvl 17 - 01 800
+lvl 18 - 01 950
+lvl 19 - 02 100
+lvl 20 - 02 250
+lvl 21 - 02 500
+lvl 22 - 02 800
+lvl 23 - 03 500
+
+26 + 32 + 32 + 95 + 95 + 215 + 215
+
+instant* 30m = 00 040
+instant* 01h = 00 071
+instant* 02h = 00 103
+instant* 04h = 00 170
+instant* 08h = 00 238
+instant* 12h = 00 307
+instant* 01d = 00 447
+instant* 03d = 00 800
+instant* 05d = 01 013
+
+0 002x * 01h = 00 026
+0 002x * 04h = 00 061
+0 002x * 08h = 00 103
+0 002x * 12h = 00 130
+0 004x * 07d = 01 900
+0 005x * 05m = 00 032
+0 005x * 01h = 00 200
+0 010x * 05m = 00 095
+0 010x * 10m = 00 150
+0 010x * 01h = 00 500
+0 010x * 04h = 01 000
+0 010x * 12h = 01 800
+0 010x * 03h = 03 200
+0 020x * 05m = 00 215
+0 020x * 10m = 00 330
+0 020x * 01h = 01 150
+0 020x * 04h = 02 000
+0 050x * 05m = 00 550
+0 050x * 01h = 02 600
+0 100x * 05m = 01 120
+0 100x * 01h = 05 300
+0 200x * 05m = 02 250
+0 200x * 01h = 10 700
+0 500x * 05m = 04 540
+0 500x * 01h = 21 500
+1 000x * 05m = 07 700
+2 000x * 05m = 15 400
+
 continent
 =========
 
@@ -1765,6 +1855,14 @@ niveau 76/180
 11. prairie des pommiers 151-165
 12. canyon mystique 166-180
 
+
+- lvl05; 170
+- lvl10: 230
+- lvl15: 440
+- lvl20: 700
+- lvl25: 970
+- total = 2510
+
 event
 =====
 
@@ -1774,6 +1872,74 @@ lvl15: 1 ac
 lvl20: 65 ae
 lvl25: 21 ah
 lvl30: 81 aj
+
+Frontier
+=========
+
+Mine I
+Bariere 05 50B ()
+Bariere 10 7.5ac ()
+Bariere 15 11.6ah (203al)
+Bariere 20 600am (100ar)
+Bariere 25 1.57at (7ax)
+Bariere 30
+
+Mine II
+Bariere 05 250B (667ad)
+Bariere 10 150ac (90ah)
+Bariere 15 233ah (100am)
+Bariere 20 12an (2as)
+Bariere 25
+Bariere 30
+
+Mine III
+Bariere 05 3.75 ()
+Bariere 10
+Bariere 15
+Bariere 20
+Bariere 25 430at
+Bariere 30
+
+Mine IV
+Bariere 05
+Bariere 10
+Bariere 15
+Bariere 20
+Bariere 25
+Bariere 30
+
+Mine V
+Bariere 05
+Bariere 10
+Bariere 15
+Bariere 20
+Bariere 25
+Bariere 30
+
+manager
+========
+
+fragment
+---------
+
+- 0 -> 5: 120 + 80 + 50 + 30 + 15 = 295
+- 1 -> 5: 120 + 80 + 50 + 30      = 280
+- 2 -> 5: 120 + 80 + 50           = 250
+- 3 -> 5: 120 + 80                = 200
+- 4 -> 5: 120                     = 120
+
+- 0: 00 + 00 + 01 + 00 = 01, * 295 = 00 295
+- 1: 00 + 00 + 03 + 00 = 03, * 280 = 00 840
+- 2: 00 + 01 + 03 + 01 = 05, * 250 = 01 250
+- 3: 07 + 04 + 08 + 00 = 19, * 200 = 03 800
+- 4: 00 + 00 + 02 + 00 = 02, * 120 = 00 240
+- SUM:                             = 06 425
+- BUY:                             = * 20 = 012 850
+
+Update
+-------
+
+cf csv
 
 recherche
 =========
@@ -1866,7 +2032,9 @@ suivi
 
 https://cdkey.lilith.com/afk-global
 35700215
+316755
 
+2023.01.21
 2022.10.01 pepmjfpuhs
 
 test

@@ -23,4 +23,3 @@ Quel premier pas peut on faire, dans l'urgence? % Montrer une confiance en soi a
 
 Se connecter aux emotions des autres
 Accepter sa vulnerabilité
-

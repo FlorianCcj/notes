@@ -78,7 +78,7 @@ What are CIS Benchmarks (05:52)
 * CIS-CATLite
 * CIS-CATTool
 
-Lab – Run CIS Benchmark Assessment tool on Ubuntu
+Lab - Run CIS Benchmark Assessment tool on Ubuntu
 =================================================
 
 CIS benchmark for Kubernetes (02:41)
@@ -95,7 +95,7 @@ Kube-bench (01:15)
   * source
 * need to be installed on master node
 
-Lab – Kube-bench
+Lab - Kube-bench
 ================
 
 5
@@ -141,7 +141,7 @@ Service Accounts (08:02)
 
 * add :code:`serviceAccountName: <your SA>` in pod s spec to use it
 
-Lab – Service Accounts
+Lab - Service Accounts
 ======================
 
 TLS Basics (20:03)
@@ -169,7 +169,7 @@ TLS in Kubernetes (07:48)
   * peer etcd
   * kube cluster
 
-TLS in Kubernetes – Certificate Creation (10:55)
+TLS in Kubernetes - Certificate Creation (10:55)
 ================================================
 
 * manage CA
@@ -226,7 +226,7 @@ View Certificate Details (04:31)
 * :code:`openssl x509 -in /etc/kubernetes/pki/apiserver.crt -text -noout`
 * https://github.com/mmumshad/kubernetes-the-hard-way/tree/master/tools: all certs
 
-Lab – View Certificates
+Lab - View Certificates
 ========================
 
 15
@@ -258,7 +258,7 @@ Certificates API (06:07)
 * :code:`kubectl get csr jane -o jsonpath="{.status.certificate}"` -> user signed cert in base64
 * csr action are managed by controller manager (csr approving, csr signing)
 
-Lab – Certificates API
+Lab - Certificates API
 =======================
 
 KubeConfig (08:32)
@@ -294,7 +294,7 @@ KubeConfig (08:32)
 * when you add cert as path, add the full path
 * replace :code:`certificate-authority` by:code:`certificate-authority-data` to add the cert in base64 instead of the path
 
-Lab – KubeConfig
+Lab - KubeConfig
 =================
 
 API Groups (05:52)
@@ -355,7 +355,7 @@ RBAC (04:28)
 * :code:`kubectl auth can-i create deploy`
 * :code:`kubectl auth can-i create deploy --as dev-user`
 
-Lab – RBAC
+Lab - RBAC
 ===========
 
 Cluster Roles and Role Bindings (04:33)
@@ -391,7 +391,7 @@ Cluster Roles and Role Bindings (04:33)
     name: cluster-administrator
     apiGroup: rbac.authorization.k8s.io
 
-Lab – Cluster Roles and Role Bindings
+Lab - Cluster Roles and Role Bindings
 ======================================
 
 25
@@ -452,7 +452,7 @@ Kubelet Security (14:48)
       clientCAFile: /path/to/ca.crt
     mode: Webhook
 
-Lab – Kubelet Security
+Lab - Kubelet Security
 =======================
 
 Kubectl Proxy & Port Forward (06:48)
@@ -464,7 +464,7 @@ Kubectl Proxy & Port Forward (06:48)
 * :code:`kubectl port-forward service/nginx 28080:80`
 * access to the application on :code:`localhost:28080`
 
-Lab – Kubectl Proxy & Port Forward
+Lab - Kubectl Proxy & Port Forward
 ===================================
 
 Kubernetes Dashboard (06:13)
@@ -484,7 +484,7 @@ Kubernetes Dashboard (06:13)
 Securing Kubernetes Dashboard (01:38)
 =====================================
 
-Lab – Secure Kubernetes Dashboard
+Lab - Secure Kubernetes Dashboard
 ==================================
 
 Verify platform binaries before deploying (02:11)
@@ -492,7 +492,7 @@ Verify platform binaries before deploying (02:11)
 
 * After downloading binary, check the sha512sum
 
-Lab – Verify platform binaries
+Lab - Verify platform binaries
 ===============================
 
 35
@@ -526,7 +526,7 @@ Cluster Upgrade Process (11:11)
 
 40
 
-Lab – Cluster Upgrade
+Lab - Cluster Upgrade
 ======================
 
 Network Policy (07:51)
@@ -593,7 +593,7 @@ Network Policy (07:51)
       - protocol: TCP
         port: 3306
 
-Lab – Network security policy
+Lab - Network security policy
 ==============================
 
 Ingress (22:34)
@@ -664,13 +664,13 @@ Ingress (22:34)
 * https://kubernetes.io/docs/concepts/services-networking/ingress
 * https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
 
-Lab – Ingress – 1
+Lab - Ingress - 1
 ==================
 
-Ingress – Annotations and rewrite-target
+Ingress - Annotations and rewrite-target
 ========================================
 
-Lab – Ingress – 2
+Lab - Ingress - 2
 ==================
 
 Docker Service Configuration (06:57)
@@ -700,7 +700,7 @@ Docker Service Configuration (06:57)
     "tlskey": "/var/docker/server.key"
   }
 
-Docker – Securing the Daemon (07:25)
+Docker - Securing the Daemon (07:25)
 ====================================
 
 .. code-block:: json
@@ -750,7 +750,7 @@ Limit Node Access (05:48)
 * :code:`userdel bob`: remove the user
 * :code:`deluser michael admin`: remove michael from group admin
 
-Lab – Limit Node Access
+Lab - Limit Node Access
 =======================
 
 SSH Hardening (05:49)
@@ -787,7 +787,7 @@ Privilege Escalation in Linux (03:05)
   * Field 4 Command (/bin/ls, ALL(unrestricted))
   * Exemple :code:`%admin ALL=(ALL) ALL`
 
-Lab – SSH Hardening and sudo
+Lab - SSH Hardening and sudo
 ============================
 
 * :code:`useradd jim`
@@ -831,7 +831,7 @@ Reference links
 * https://www.cisecurity.org/cis-benchmarks/
 * https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#check-required-ports
 
-Lab – Identify open ports, remove packages services
+Lab - Identify open ports, remove packages services
 ===================================================
 
 * lsmod
@@ -873,7 +873,7 @@ UFW Firewall Basics (05:55)
 * :code:`ufw status numbered` display the rules along with rule numbers
 * :code:`ufw reset` reset firewall
 
-Lab – UFW Firewall
+Lab - UFW Firewall
 ==================
 
 Linux Syscalls (04:20)
@@ -1024,7 +1024,7 @@ Implement Seccomp in Kubernetes (07:51)
 * or use tracee
 * find doc: https://kubernetes.io/docs/tutorials/clusters/seccomp/
 
-Lab – Seccomp
+Lab - Seccomp
 =============
 
 AppArmor (04:09)
@@ -1120,7 +1120,7 @@ Linux Capabilities (04:05)
             add: ["SYS_TIME"]
             drop: ["CHOWN"]
 
-Lab – AppArmor
+Lab - AppArmor
 ==============
 
 28 - 66
@@ -1133,13 +1133,13 @@ Minimize Microservice Vulnerability
 Security Contexts (01:52)
 =========================
 
-Lab – Security Contexts
+Lab - Security Contexts
 ========================
 
 Admission Controllers (08:07)
 =============================
 
-Lab – Admission Controllers
+Lab - Admission Controllers
 ============================
 
 Validating and Mutating Admission Controllers (10:26)
@@ -1147,13 +1147,13 @@ Validating and Mutating Admission Controllers (10:26)
 
 5
 
-Lab – Validating and Mutating Admission Controllers
+Lab - Validating and Mutating Admission Controllers
 ====================================================
 
 Pod Security Policies (07:39)
 =============================
 
-Lab – PSP
+Lab - PSP
 ==========
 
 Open Policy Agent (OPA) (09:48)
@@ -1166,13 +1166,13 @@ Reference links
 
 10
 
-Lab – OPA
+Lab - OPA
 ==========
 
 OPA in Kubernetes (09:45)
 =========================
 
-Lab – OPA in Kubernetes
+Lab - OPA in Kubernetes
 ========================
 
 OPA Gatekeeper in Kubernetes
@@ -1183,7 +1183,7 @@ Manage Kubernetes secrets (05:38)
 
 15
 
-Lab – Manage Kubernetes secrets
+Lab - Manage Kubernetes secrets
 ===============================
 
 Container Sandboxing (06:53)
@@ -1205,13 +1205,13 @@ Minimize base image footprint (07:24)
 Image Security (04:43)
 ======================
 
-Lab – Image Security
+Lab - Image Security
 =====================
 
-Whitelist Allowed Registries – Image Policy Webhook (05:16)
+Whitelist Allowed Registries - Image Policy Webhook (05:16)
 ===========================================================
 
-Lab – Whitelist Allowed Registries – ImagePolicyWebhook
+Lab - Whitelist Allowed Registries - ImagePolicyWebhook
 ========================================================
 
 1/2
@@ -1219,13 +1219,13 @@ Lab – Whitelist Allowed Registries – ImagePolicyWebhook
 Use static analysis of user workloads (e.g.Kubernetes resources, Docker files) (02:46)
 ======================================================================================
 
-Lab – kubesec
+Lab - kubesec
 ==============
 
 Scan images for known vulnerabilities (Trivy) (08:34)
 =====================================================
 
-Lab – Trivy
+Lab - Trivy
 ============
 
 9 - 20
@@ -1247,7 +1247,7 @@ Use Falco to Detect Threats (08:39)
 Falco Configuration Files (06:54)
 =================================
 
-Lab – Use Falco to Detect Threats
+Lab - Use Falco to Detect Threats
 ==================================
 
 Reference links
@@ -1261,13 +1261,13 @@ Mutable vs Immutable Infrastructure (04:50)
 Ensure Immutability of Containers at Runtime (05:18)
 ====================================================
 
-Lab – Ensure Immutability of Containers at Runtime
+Lab - Ensure Immutability of Containers at Runtime
 ===================================================
 
 Use Audit Logs to monitor access (10:18)
 ========================================
 
-Lab – Use Audit Logs to monitor access
+Lab - Use Audit Logs to monitor access
 =======================================
 
 11

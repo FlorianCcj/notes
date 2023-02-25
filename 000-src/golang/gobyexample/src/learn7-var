@@ -17,7 +17,7 @@ func main() {
     )
 
     var z = sample{name: "test"}
-    p := sample{name: "test"} 
+    p := sample{name: "test"}
 
     fmt.Println(aaa)
 }

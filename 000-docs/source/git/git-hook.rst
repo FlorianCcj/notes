@@ -108,7 +108,7 @@ TODO
 
 .. warning::
     TODO
-  
+
     * to_read:
         - https://pre-commit.com/
         - https://githooks.com/

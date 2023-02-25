@@ -231,7 +231,7 @@ Sets suggested by the original post
 * Lee Changho Tesuji
   * lien: https://www.101weiqi.com/book/lichanhaoshoujin/
   * chiffre: 0/730
-  * avancement: https://www.101weiqi.com/book/levelorder/321/1/
+  * avancement: https://www.101weiqi.com/book/levelorder/321/144/
   * seuil:
     * 1k: 581
 * Weiqi Tsumego 1000 Problems
@@ -272,7 +272,7 @@ Other Collections
   * traduction titre: Dictionnaire de Tesuji de Kensaku Seyoshi et Wu Qingyuan
   * qualif lichigo: Bounquin ultime
   * chiffre: 0/865
-  * avancement: https://www.101weiqi.com/book/levelorder/321/1/
+  * avancement: https://www.101weiqi.com/book/levelorder/3/1/
   * seuil:
     * 1k: 356
     * 1d: 503

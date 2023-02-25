@@ -22,11 +22,11 @@ https://examcollection.com/
 https://www.examtopics.com/
 
 aide a la redaction de template
-https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep 
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
 
 Solution gerer: microsoft gere la ferme de serveur (azure apps)
 
-https://lms.gklearn.online/ 
+https://lms.gklearn.online/
 florian.palmade@prologism.fr
 
 Rappel des objectifs

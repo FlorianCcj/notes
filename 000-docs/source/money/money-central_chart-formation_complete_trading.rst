@@ -53,7 +53,7 @@ Money - Central Chart - formation complete trading
     * limiter le risque pris par les traders sur le marche (oblige les stop loss)
 
         * stop loss garanti (en temps normal c est juste un ordre de vente)
-          
+
             * extra spread
 
         * stop loss obligatoire

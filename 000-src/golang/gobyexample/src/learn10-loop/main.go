@@ -27,5 +27,5 @@ func main() {
 					continue
 			}
 			fmt.Println(i)
-	}		
+	}
 }

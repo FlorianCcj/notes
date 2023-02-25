@@ -6,7 +6,7 @@ git clone https://github.com/kubernetes/kubernetes.git
 go.mod: dependencies
 cmd:
 pkg:
-func main(){}: main package, entry point 
+func main(){}: main package, entry point
 
 
 source

@@ -1078,7 +1078,7 @@ Storage in Statefull sets
         resources:
           requests:
             storage: 500Mi
-    
+
 
 Update for 2021.09 Changes
 **************************

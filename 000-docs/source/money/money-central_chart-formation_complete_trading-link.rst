@@ -345,7 +345,7 @@ Vidéo très compliquée à produire car il est clairement impossible de recomma
 Sites consultés durant cette vidéo :
 - Site officiel de la crypto-monnaie APEX : https://www.apexnetwork.io
 - CoinMarketCap
-- Site officiel de la crypto-monnaie Elastos : https://www.elastos.org	
+- Site officiel de la crypto-monnaie Elastos : https://www.elastos.org
 
 10.5. Les airdrops de crypto-monnaies
 --------------------------------------

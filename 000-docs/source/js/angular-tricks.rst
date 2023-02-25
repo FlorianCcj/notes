@@ -120,8 +120,8 @@ To use this directive you must provide a container element that sets the [ngPlur
 .. code-block:: ts
 
     <p [ngPlural]="components">
-        <ng-template ngPluralCase="=1">1 component removed</ng-template>  
-        <ng-template ngPluralCase=">1">{{components}} components removed </ng-template>  
+        <ng-template ngPluralCase="=1">1 component removed</ng-template>
+        <ng-template ngPluralCase=">1">{{components}} components removed </ng-template>
     </p>
 
 Production

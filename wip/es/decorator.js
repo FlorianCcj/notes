@@ -199,7 +199,7 @@ class MyComponent {
         // Throws a warning
         document.querySelector('.button').style.top = '100px';
     }
-  
+
     @write
     writeSomeStuff () {
         console.log('write');

@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=4E09xbNvQUE FR (/2, Victor Cullot)
 https://www.youtube.com/watch?v=wQwH-Gogvis FR (Clément Cherblanc)
 https://cutt.ly/ETV6GsN EN (J Perm)
 https://cutt.ly/cTV6JI9 EN (Jack Cai)
-https://www.youtube.com/watch?v=JtVdEENep0o EN (M2 avancé, 1/2, Josh Weimer) 
+https://www.youtube.com/watch?v=JtVdEENep0o EN (M2 avancé, 1/2, Josh Weimer)
 
 Turbo (edge only) :
 https://www.youtube.com/watch?v=dJ2uCcRcbl0 FR (1/4, Titi au cube)
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=lYvxVT3vruE EN (1/10, NoahCube)
 Autres :
 https://www.youtube.com/watch?v=bCvKAQgHQI8 (4BLD 2e2e parity method, Timothy Goh)
 https://youtu.be/qTdK9AjqZn4 (How to get faster BigBld, Oliver Frost)
-https://www.youtube.com/watch?v=VAHgLWAcRWM (Créer ses algos avec les commutateurs, circular17) 
+https://www.youtube.com/watch?v=VAHgLWAcRWM (Créer ses algos avec les commutateurs, circular17)
 
 Ressources Méthodes de Résolution, Autres tutoriels et Spreadsheets d'Algorithmes
 
@@ -54,12 +54,12 @@ https://www.speedsolving.com/threads/advanced-m2-guide.56076/ (mark49152)
 
 Turbo :
 https://cutt.ly/tTV79CX FR (43 quitillions/OnlyCube)
-https://cutt.ly/HTV78fK EN (4 vidéos + explications et algos, Zane_C) 
+https://cutt.ly/HTV78fK EN (4 vidéos + explications et algos, Zane_C)
 https://cutt.ly/BTV5tde (Liste Set up et algos, teeboo)
 
 Orozco :
 https://cutt.ly/XTV7Zx2 (Guide, Samuel Baird)
-https://cutt.ly/6TV7CEW 
+https://cutt.ly/6TV7CEW
 
 3-Style :
 https://bldbase.net/ : BLD Algorithms Database
@@ -73,7 +73,7 @@ https://cutt.ly/CTV7IWy (Tuto écrit, Nameless)
 https://bestsiteever.ru/tables/ : Regroupement de toutes les spreadsheets 3-Style
 
 5-Style Turbo
-https://cutt.ly/3TV5TqF (BallonSonde) 
+https://cutt.ly/3TV5TqF (BallonSonde)
 
 Ressources Méthodes de Mémorisation
 
@@ -100,13 +100,13 @@ https://motsavec.fr/ (sites permettant de trouver des mots commençant par/conte
 https://www.listesdemots.net/indexdebutant.htm (idem)
 http://peoplebyinitials.com/ (Initiales Célébrités)
 https://app.memoryleague.com/ (Jeux pour entraîner sa mémoire, cartes, nombres, images...)
-http://www.lugdunum-cube.jimdofree.com/accueil/blind/méthode-des-loci/ FR (Tutoriel Méthode des loci, Etienne Parent & Maxime Clapié) 
+http://www.lugdunum-cube.jimdofree.com/accueil/blind/méthode-des-loci/ FR (Tutoriel Méthode des loci, Etienne Parent & Maxime Clapié)
 Comme d'hab si vous voyez des trucs à ajouter, signalez le moi!
 
 Fingertricks slices moves :
 
 S : index gauche en LU ou index droit en UR
-S' : index gauche en UL 
+S' : index gauche en UL
 E : majeur gauche en BL
 E' : majeur gauche en LB ou index droit en BR
 E2 : index gauche puis majeur gauche en BL
@@ -120,5 +120,5 @@ Etape 2: Tu me préviendra dès que tu as compris ces vidéos, je te poserai des
 Étape 4 : Maintenant, c'est au tour des arêtes ! Procède de la même manière que l'étape 3 mais pour les arêtes.
 Étape 5: Une fois arrivé à cette étape, tu auras fais une bonne partie du boulot. MAIS, c'est loin d'être fini ;). Ton objectif cette fois-ci est de te chronométrer au coins blind, tu dois faire sub 2 avg5, mémo + exécution.
 Étape 6: Tu as bien progressé ! Il te reste une étape avant le commencement de vrais solves de 3bld ! Pour accomplir cette étape, tu devras effectuer une avg5 d'arêtes blind sub 3, mémo et exécution.
-Étape 7: Te voilà prêt pour tenter le succès ! Ton objectif cette fois ci est d'obtenir un succès ! Filme toi, un premier succès ça fait plaisir à avoir en vidéo ;). Tu vas habituer ton cerveau à mémoriser un 3*3. 
+Étape 7: Te voilà prêt pour tenter le succès ! Ton objectif cette fois ci est d'obtenir un succès ! Filme toi, un premier succès ça fait plaisir à avoir en vidéo ;). Tu vas habituer ton cerveau à mémoriser un 3*3.
 Étape 8: Si tu es à cette étape, c'est que tu as fais ton premier succès au 3bld ! Félicitations ! Bienvenue dans le club ;). Mais, si tu veux progresser, on peut pas s'arrêter en si bon chemin. Tu vas donc, chaque jour, atteindre un palier. Qui va varier au fil des jours. Nous déterminerons ce palier lors de ton premier succès. C'est pourquoi il vaut mieux chronométrer tes solves de l'étape 7.

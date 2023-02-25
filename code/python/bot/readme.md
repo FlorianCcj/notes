@@ -6,5 +6,3 @@
 * bot mmo step by step dofus: https://medium.com/@martin.lees/how-i-made-a-python-bot-to-automate-a-tactical-mmorpg-9f6693350d10
 * bot mmo step by step lineage: https://medium.com/@martin.lees/how-i-made-a-python-bot-to-automate-a-tactical-mmorpg-9f6693350d10
 * bot mmo code: https://github.com/k-time/mmo-bot
-
-

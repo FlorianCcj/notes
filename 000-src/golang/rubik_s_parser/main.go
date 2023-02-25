@@ -55,15 +55,15 @@ type Time struct {
 //
 //func substr(input string, start int, length int) string {
 //	asRunes := []rune(input)
-//	
+//
 //	if start >= len(asRunes) {
 //			return ""
 //	}
-//	
+//
 //	if start+length > len(asRunes) {
 //			length = len(asRunes) - start
 //	}
-//	
+//
 //	return string(asRunes[start : start+length])
 //}
 
@@ -123,7 +123,7 @@ func main() {
 	fmt.Println("'toto'", viper.Get("session_prefix"))
 
 	fileData := openjsonfile(FILE_PATH)
-	
+
 	// iterate in each key of the cs time
 	for iSession, iSessionData := range fileData {
 		// check if it is a sessions

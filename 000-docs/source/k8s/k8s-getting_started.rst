@@ -92,7 +92,7 @@ Network policies
 ================
 
 
-TODO
+TODO: note netpol doc
 https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/
 https://kubernetes.io/docs/concepts/services-networking/network-policies/
 
@@ -174,8 +174,8 @@ object:
 
     This clusterRoleBinding allows anyone in the manager group to read secrets in any namespace
 
-TODO
-=====
+TODO: note k8s auth
+====================
 
 * https://kubernetes.io/docs/reference/access-authn-authz/authorization/
 * https://kubernetes.io/blog/2016/08/kubernetes-namespaces-use-cases-insights/

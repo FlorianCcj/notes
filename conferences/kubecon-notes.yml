@@ -75,7 +75,7 @@ tuesday:
     lets practive: https://ibm.biz/kubecon-secure-deployment
       lancement de minicube
         ```
-      
+
           ```
   Intro: Kubernetes Architecture SIG
     14h50 -> 15h25
@@ -131,13 +131,13 @@ MErcredi
         declare all step
       declarative:
         declare state you want, and fuck off
-    
+
 
   14h50
     B1 Container Forensics: What to Do When Your Cluster is a Cluster
       cryptocurrency mining on docker hum images
       connaitre les logs a recupérer et repérer les inconnu
-    
+
       infra logs
       k8s logs
       node system log xhen user play on it
@@ -247,20 +247,3 @@ Jeudi
     - B1 - Fool-Proof Kubernetes Dashboards for Sleep-Deprived Oncalls - David Kaltschmidt, Grafana Labs
       a
     - Uber x Security: Why and How We Built Our Workload Identity Platform - Tyler Julian, Uber & Daniel Feldman, Scytale
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

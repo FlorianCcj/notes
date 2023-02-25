@@ -62,7 +62,7 @@ E001
     import { AppComponent } from './app.component';
     import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     import { HttpClientModule } from '@angular/common/http';
-  
+
     @NgModule({
         declarations: [
             AppComponent
@@ -106,7 +106,7 @@ E002
     })
     export class ApiService {
         private baseURL: string = "https://www.techiediaries.com/api/data.json"; constructor(private httpClient: HttpClient) {}
-      
+
         fetch(): Observable<Item[]> {
             return <Observable<Item[]>>this.httpClient.get(this.baseURL);
 
@@ -122,7 +122,7 @@ E003
     // app.component.ts
     import { Component, OnInit } from '@angular/core';
     import { Item, ApiService } from './services/api.service';
-  
+
     @Component({
         selector: 'app-root',
         templateUrl: './app.component.html',
@@ -132,12 +132,12 @@ E003
     export class AppComponent implements OnInit{
         title = 'firstpwa';
         items: Array<Item>;  constructor(private apiService: ApiService) {}
-      
+
         ngOnInit() {
             this.fetchData();
 
         }
-      
+
         fetchData() {
             this.apiService.fetch().subscribe(
                 (data: Array<Item>) => {
@@ -163,7 +163,7 @@ E004
     // app.module.ts
     /*...*/
     import { MatToolbarModule, MatCardModule, MatButtonModule } from  '@angular/material';
-  
+
     @NgModule({
         declarations: [
             AppComponent
@@ -191,12 +191,12 @@ E005
             <span>JS-jargon</span>
         </mat-toolbar-row>
     </mat-toolbar>
-  
+
     <main>
         <mat-card *ngFor="let item of items">
             <mat-card-header>
                 <mat-card-title>{{item.name}}</mat-card-title>
-            </mat-card-header>  
+            </mat-card-header>
             <mat-card-content>
                 {{item.description}}
             </mat-card-content>    <mat-card-actions>

@@ -160,7 +160,7 @@ eg10_middleware = () => {
 
 eg11_static_file = () => {
     app.get('/', (req, res) => res.download('./yarn.lock'));
-    app.get('/', (req, res) => res.download('./yarn.lock', './dat_spam.txt'));  
+    app.get('/', (req, res) => res.download('./yarn.lock', './dat_spam.txt'));
     app.listen(3000, () => console.log('Server ready'));
 };
 
@@ -283,11 +283,11 @@ eg18_let_s_encrypt = () => {
      */
 
     app.use(express.static(__dirname + '/static', { dotfiles: 'allow' } ))
-  
+
     const fs = require('fs')
     const https = require('https')
     const app = express()
-  
+
     app.get('/', (req, res) => {
         res.send('Hello HTTPS!')
     });

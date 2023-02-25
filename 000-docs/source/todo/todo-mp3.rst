@@ -27,7 +27,7 @@ Notes
 * Alliens maniak
 * Kingdom Paf
 * milhana
-        
+
 Document history
 ================
 

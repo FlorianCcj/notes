@@ -54,7 +54,7 @@ After Scanning your container there is application which will sign to certify th
 - Sigstore
 - Notary
 
-### Clucter protection
+### Cluster protection
 
 To check security rules, you can use [admission controllers].
 I am sorry I only know

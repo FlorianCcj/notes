@@ -58,7 +58,7 @@ Typage
     function isValueInDoble($values)
     {
         // look for 2 value which are the same in a table
-      
+
         // whatever values type, always return table
         return [
             'pairs_found' => $pairsFound,

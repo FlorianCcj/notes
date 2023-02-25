@@ -148,5 +148,5 @@ Humour au boulot - 7 stratégies
 L'humour noir de Blanche Gardin
 ===============================
 
-Utiliser l'humour pour plaire aux femmes (Chris Pine) 
+Utiliser l'humour pour plaire aux femmes (Chris Pine)
 ======================================================

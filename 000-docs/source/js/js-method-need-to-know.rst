@@ -165,7 +165,7 @@ NodeList: Converting NodeList to Arrays
 
     var elements = document.querySelectorAll("p"); // NodeList
     var arrayElements = [].slice.call(elements); // Now the NodeList is an array
-  
+
     // This is another way of converting NodeList to Array
     var arrayElements = Array.from(elements);
 
@@ -221,7 +221,7 @@ Filtering Array
     function isOdd(n) {
         return n %2;
     }
-    var numbers = [1,2,3,4,5];var odd = [];for(let i=0, total = numbers.length; i< total ; i= i +1) { 
+    var numbers = [1,2,3,4,5];var odd = [];for(let i=0, total = numbers.length; i< total ; i= i +1) {
         let number = numbers[i];
         if( isOdd(number) ) {
             odd.push(number);

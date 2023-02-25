@@ -1,5 +1,5 @@
 func sum(a int, b int) int {
-  return a + b 
+  return a + b
 }
 
 func add(numbers ...int) int {

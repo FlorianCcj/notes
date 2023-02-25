@@ -18,4 +18,3 @@ Scan Your Network for Vulnerabilities With Nmap:
     desc: scan range IP, Nmap uses CIDR notation
   Timing: Nmap has five timing options, officially named: paranoid, sneaky, polite, normal, aggressive, insane. You can specify this with the T flag, e.g. -T0 for paranoid and -T5 for insane. By default, Nmap runs on "normal" mode, so -T3 does nothing. I'll usually run my scans on -T4 if I know it won't upset the client.
   Output: If you want to save Nmap's results to a file for later, add the -oN filename flag. -oX filename outputs results in XML format, which is useful if you've got scripts that process Nmap output.
-

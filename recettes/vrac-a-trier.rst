@@ -15,4 +15,3 @@ Porc Croustillant - Le Riz Jaune: https://www.youtube.com/watch?v=lXMJIaSElok
 
 
 http://couteaux-et-tirebouchons.com/poulet-curry-tomates-lait-de-coco-recette-facile/
-

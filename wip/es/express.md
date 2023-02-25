@@ -16,4 +16,3 @@ mkdir -p /data/db
 chown $USER: /data/db
 
 # bin ` which mongo` and `which mongod`
-

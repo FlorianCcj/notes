@@ -12,7 +12,7 @@ COLL set L - easy
 .. code-block:: txt
   :name: COLL Set L - easy 1.0
 
-        x  
+        x
       -xa
       xxx
     x bxx a
@@ -73,11 +73,11 @@ COLL Set T First case symetrical
 .. code-block:: txt
   :name: COLL Set T - lateral Tombstone | OLL 23-1.2
 
-      x  
+      x
       xxx
       xxx
       axx a
-      x  
+      x
 
 The 2 face :code:`a` are the same color
 rUR'U' L 'URU' x'

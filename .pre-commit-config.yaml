@@ -1,0 +1,39 @@
+---
+## Launch with: pre-commit run
+## Launch with: pre-commit run --all-files
+repos:
+- repo: https://github.com/compilerla/conventional-pre-commit
+  rev: v2.1.1
+  hooks:
+  - id: conventional-pre-commit
+    stages: [commit-msg]
+    args: []
+
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-added-large-files
+  - id: check-merge-conflict
+
+- repo: local
+  hooks:
+  - id: bad-extensions
+    name: Files with bad extensions
+    entry: "Forbidden extensions: swp, pyc, tmp, log"
+    language: fail
+    files: '.*\.(swp|pyc|tmp|log)$'
+
+  - id: terraform-fmt
+    name: terraform fmt
+    entry: ./tools/pre-commit/terraform_fmt.sh
+    language: script
+    types: [file, terraform]
+
+  - id: terraform-validate
+    name: terraform validate
+    entry: terraform validate
+    pass_filenames: false
+    language: system
+    types: [file, terraform]

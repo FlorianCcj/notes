@@ -292,7 +292,7 @@ Cluster ip
     ports:
       - targetPort: 80
         port: 80
-  
+
     selector:
       # my pod labels
       app: myapp

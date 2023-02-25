@@ -7,11 +7,11 @@ func main() {
     case "a":
         fmt.Println("a")
     case "b", "c":
-        fmt.Println("b or c")    
+        fmt.Println("b or c")
     default:
-        fmt.Println("No matching character")    
+        fmt.Println("No matching character")
     }
-    
+
     age := 45
     switch {
 		//switch age := 45 {
@@ -22,4 +22,4 @@ func main() {
     default:
         fmt.Println("Old")
     }
-}  
+}

@@ -25,4 +25,3 @@ notes:
       - content: banaction = ufw
       - fail2ban-client reload
       - fail2ban-client status sshd
-

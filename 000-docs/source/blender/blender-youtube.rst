@@ -230,4 +230,3 @@ hypo
         torse 2
     agi
         torse 2
-

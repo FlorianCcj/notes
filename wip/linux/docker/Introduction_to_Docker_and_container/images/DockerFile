@@ -33,5 +33,3 @@ RUN make hello
 FROM ubuntu
 COPY --from=compiler /hello /hello
 CMD /hello
-
-

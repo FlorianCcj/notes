@@ -49,4 +49,3 @@ CMD ["php-fpm7", "-F"]
 
 WORKDIR /var/www/symfony
 EXPOSE 9001
-

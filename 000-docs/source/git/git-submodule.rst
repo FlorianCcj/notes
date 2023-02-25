@@ -5,7 +5,7 @@ Git Submodule
 **************
 
 .. code-block:: bash
-  
+
     git clone <my_root_project>.git
     cd <my_root_project>
     git submodule add <my_leaf_project>.git

@@ -14,7 +14,7 @@ Apprendre à chanter, les BASES à appliquer ABSOLUMENT ! (001)
 [Song] Comment avec les mains avoir un son clair et un son sombre? % Pour un son clair frappé avec le plat de la main, pour un son sombre faire une  cavité avec les mains puis applaudir
 [Song][Workout] Comment travailler le timbre? % Se redresser, dire é puis è, un peu comme le son du beurk beh
 
-EXERCICE de soutien ! L’exercice CLE pour plus de PUISSANCE VOCALE ! (002)
+EXERCICE de soutien ! L'exercice CLE pour plus de PUISSANCE VOCALE ! (002)
 ***************************************************************************
 
 :source: https://www.youtube.com/watch?v=ZefErhNoFn0

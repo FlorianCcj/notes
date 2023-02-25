@@ -464,5 +464,5 @@ l1473
 - name: Idempotent approach with copy module
   copy:
     dest: /etc/resolv.conf
-    content: "nameserver 192.0.2.1\n"     
+    content: "nameserver 192.0.2.1\n"
 ```

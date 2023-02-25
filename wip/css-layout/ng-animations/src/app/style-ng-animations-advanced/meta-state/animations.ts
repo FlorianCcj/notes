@@ -49,4 +49,3 @@ export const showStateTrigger = trigger('showState', [
     opacity: 0
   })))
 ]);
-

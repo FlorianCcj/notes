@@ -18,4 +18,3 @@ to try
 sudo echo "includedir /etc/sudoers.d" >> /etc/sudoers
 sudo echo "username ALL=(ALL:ALL) NOPASSWD: ALL" >> /etc/sudoers.d/local
 ```
-

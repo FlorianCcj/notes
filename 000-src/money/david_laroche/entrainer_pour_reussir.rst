@@ -117,6 +117,3 @@ week21: booster sa carriere
 week22:
 week23:
 week24:
-
-
-

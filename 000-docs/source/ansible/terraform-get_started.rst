@@ -49,4 +49,3 @@ Command base
 * command :code:`terraform graph`: seems fun :+1:
 * command :code:`terraform plan -out=newplan`: Create an execution plan with diff
 * command :code:`terraform apply "newplan"`: apply the newplan
-

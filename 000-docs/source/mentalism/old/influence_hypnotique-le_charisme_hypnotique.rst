@@ -110,7 +110,7 @@ Comment faire une bonne premiere impression
         * ecoute la musicalite de votre interlocuteur (qu est ce aue sa voix sous communique)
         * calle toi a son rythme, son debit, son vocabulaire
         * apporte ensuite ta musicalite
-      
+
 
 
 Chapitre 2 - Obtenir une voix hypnotique

@@ -219,7 +219,7 @@ module.exports = async (client, msg) => {
       return;
     }
     challenger = msg.mentions.users.first().username;
-  
+
     // edit challenger message
     do_we_continue = await remove_challenger(
       channel_to_post,
@@ -262,7 +262,7 @@ module.exports = async (client, msg) => {
       .then(history_msg => {
         old_master = find_last_master(history_msg.content);
       });
-  
+
     // edit challenger message
     do_we_continue = await remove_challenger(
       channel_to_post,

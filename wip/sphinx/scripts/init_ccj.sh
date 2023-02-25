@@ -30,7 +30,7 @@ cat >> ${content_file} <<EOL
    :maxdepth: 3
    :caption: Table of Contents
    ..:numbered:
- 
+
    pages/page1.rst
    .. ajouter les autres fichiers
    .. fichier.rst

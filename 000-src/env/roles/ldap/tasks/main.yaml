@@ -1,7 +1,7 @@
 ---
 - name: Create "{{ ldap_server_data_dir }}"
   file:
-    path: "{{ ldap_server_data_dir }}"                                                       
+    path: "{{ ldap_server_data_dir }}"
     state: directory
     mode: 0755
   tags:
@@ -10,7 +10,7 @@
 
 - name: Create "{{ ldap_server_conf_dir }}"
   file:
-    path: "{{ ldap_server_conf_dir }}"                                                       
+    path: "{{ ldap_server_conf_dir }}"
     state: directory
     mode: 0755
   tags:
