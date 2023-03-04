@@ -1,0 +1,14 @@
+[ESU01] Un niño come manzanas. % A boy eats apples.
+[ESU01] Una niña bebe agua. % A girl drinks water.
+[ESU01] La mujer bebe leche. % The woman drinks milk.
+[ESU01] El hombre come pan. % The man eats bread.
+[ESU01] ¿Tú comes pan? % Do you eat bread?
+[ESU01] Sí, yo como pan. % Yes, I eat bread.
+[ESU01] Hola, buenos días. % Hello, good morning.
+[ESU01] ¡Buenos días! % Good morning!
+[ESU01] Adiós, buenas noches. % Bye, good night.
+[ESU01] ¡Buenas noches! % Good night!
+[ESU01] Hola, yo soy Juan. % Hello, I am Juan.
+[ESU01] Mucho gusto. % Nice to meet you.
+[ESU01L1] Él come manzanas. % He eats apples
+[ESU01L1] Yo bebo agua. % I eat water

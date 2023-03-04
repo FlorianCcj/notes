@@ -1,0 +1,13 @@
+[ESU01] el niño % the boy
+[ESU01] la niña % the girl
+[ESU01] el hombre % the man
+[ESU01L1] el mujer % the woman
+[ESU01L1] la manzana % the apple
+[ESU01L1] la leche % the milk
+[ESU01L1] el pan % the bread
+[ESU01L1] el agua % the water
+
+[ESU01] yo soy % I am
+[ESU01] tú eres % you are
+[ESU01] él es he is
+[ESU01] ella es % she is

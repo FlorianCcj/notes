@@ -1,0 +1,16 @@
+[CNU01L1] 你好 % hello (ni3ha3o)
+[CNU01L1] 好 % good (ha3o)
+[CNU01L1] 再见 % goodbye (za4ijia4n)
+[CNU01L2] 零 % 0
+[CNU01L2] 一 % 1
+[CNU01L2] 二 % 2
+[CNU01L2] 三 % 3
+[CNU01L2] 四 % 4
+[CNU01L2] 五 % 5
+[CNU01L2] 六 % 6
+[CNU01L2] 七 % 7
+[CNU01L2] 八 % 8
+[CNU01L2] 九 % 9
+[CNU01L2] 十 % 10
+[CNU01L2] 百 % 100
+[CNU01L2] 元 % chinese money

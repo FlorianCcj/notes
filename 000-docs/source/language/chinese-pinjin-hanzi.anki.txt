@@ -1,0 +1,17 @@
+[CNU01L1] ni3 (like in ni3ha3o: hello) % 你
+[CNU01L1] ha3o (like in ni3ha3o: hello) % 好
+[CNU01L1] za4i (like in za4ijia4n: goodbye) % 再
+[CNU01L1] jia4n (like in za4ijia4n: goodbye) % 见
+[CNU01L2] li2ng % 零
+[CNU01L2] yi1 % 一
+[CNU01L2] e4r % 二
+[CNU01L2] sa1n % 三
+[CNU01L2] si4 % 四
+[CNU01L2] wu3 % 五
+[CNU01L2] liu4 % 六
+[CNU01L2] qi1 % 七
+[CNU01L2] ba1 % 八
+[CNU01L2] jiu4 % 九
+[CNU01L2] shi2 % 十
+[CNU01L2] ba3i % 百
+[CNU01L2] yuan % 元

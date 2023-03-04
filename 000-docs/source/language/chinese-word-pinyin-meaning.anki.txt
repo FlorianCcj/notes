@@ -1,0 +1,16 @@
+[CNU01L1] ni3hao3 % hello
+[CNU01L1] ha3o % good
+[CNU01L1] za4ijia4n % goodbye
+[CNU01L2] li2ng (零) % 0
+[CNU01L2] yi1 (一) % 1
+[CNU01L2] e4r (二) % 2
+[CNU01L2] sa1n (三) % 3
+[CNU01L2] si4 (四) % 4
+[CNU01L2] wu3 (五) % 5
+[CNU01L2] liu4 (六) % 6
+[CNU01L2] qi1 (七) % 7
+[CNU01L2] ba1 (八) % 8
+[CNU01L2] jiu4 (九) % 9
+[CNU01L2] shi2 (十) % 10
+[CNU01L2] ba3i (百) % 100
+[CNU01L2] yuan (元) % chinese moey

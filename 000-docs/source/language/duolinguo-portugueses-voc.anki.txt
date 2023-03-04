@@ -1,0 +1,16 @@
+[PTU001] Um meninon % a boy
+[PTU001] Uma menina % a girl
+[PTU001] o meninon % the boy
+[PTU001] a menina % the girl
+[PTU001L1] Um homem % a man
+[PTU001L1] Uma mulher % a woman
+[PTU001L1] a casa % the home
+[PTU001L1] o caro % the car
+[PTU001L1] a maçã % the apple
+[PTU001L1] disculpe % sorry
+[PTU001L1] leite % milk
+[PTU001L1] palavras % words
+[PTU001L1] chave % key
+[PTU001L1] a agua2 % the water
+[PTU001L1] o pa1o % the bread
+[PTU001L1] o leite % the milk

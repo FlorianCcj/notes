@@ -1,0 +1,13 @@
+[PTU001] Eu sou um homem % I am a man
+[PTU001] Sou um homem % I am a man
+[PTU001] Eu tenho uma casa e um carro. % I have a house and a car.
+[PTU001] Eu sou uma menina. % I am a girl.
+[PTU001] Eu tenho uma maçã. % I have an apple.
+[PTU001] Eu como pão. % I eat bread.
+[PTU001] É uma bola. % It is a ball.
+[PTU001] Ele tem uma chave. % He has a key.
+[PTU001] O menino tem um jornal. % The boy has a newspaper.
+[PTU001] Ela come uma maçã. % She eats an apple.
+[PTU001] O menino come a laranja. % The boy eats the orange.
+[PTU001] Ela escreve um livro.​ % She writes a book.​
+[PTU001] Você come o pão. % You eat the bread.
