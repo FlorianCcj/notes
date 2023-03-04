@@ -23,7 +23,33 @@ Solutions 1 à 5 : Proposer tes services et tes compétences (partie 1/3)
 - demenagement
 - bricolage jardinage
 
+Solutions 6 à 11 : Proposer tes services et tes compétences (partie 2/3)
+- expertise en informatique
+  - tools: Teamviewer, anydesk, Chrome remote desktop
+- babysitting
+- pet-sitter
+- cours particulier
+- aide administratif
+- redaction - correction - traduction
+
+Solutions 12 à 16 : Proposer tes services et tes compétences (partie 3/3)
+- Covoiturage
+- Livraison de course ou de colis
+- Relais colis particulier
+- Client mystere
+- Dupliquer tes competences actuelles
+
+Solutions 17 à 22 : Louer tes propriétés ou tes équipements
+- Louer ta voiture
+- Louer ton logement
+- Louer ta place de stationement
+- Louer ta piscine, ton jardin
+- Louer un espace de stockage
+- Louer tes equipements
+
 9 vid - 12
+
+https://www.amazon.fr/Economique-Electrique-Protection-Surchauffe-lInclinaison/dp/B0BG5NMF4N/ref=sr_1_24?adgrpid=56507314512&gclid=EAIaIQobChMItpSVva37-wIV6AUGAB3sAw4bEAAYASAAEgJht_D_BwE&hvadid=275359699118&hvdev=c&hvlocphy=9056135&hvnetw=g&hvqmt=e&hvrand=15075998835358110528&hvtargid=kwd-294579802936&hydadcr=13538_1719020&keywords=chauffage+dappoint&qid=1671098089&sr=8-24
 
 Etape 3 : Les p'tits papiers : gagner 500€ par mois en toute légalité !
 ************************************************************************

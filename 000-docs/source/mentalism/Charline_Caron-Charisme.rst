@@ -100,6 +100,11 @@ Decoder les gestes
 [Leadership] A quoi correspond se gratter au-dessus de la lèvre supérieure? % Ce geste est effectué lorsque nous n'acceptons pas d'être contraint par une situation ou soumis à une personne. La raison peut être très légère comme par exemple ne pas pouvoir obtenir un rdv le jour souhaité ou ne pas pouvoir emprunter notre route habituelle... C'est le fait de devoir obeir sous la contrainte.
 [Leadership] A quoi correspond se gratter le dos ou l'arrière du corps? % Les micro-démangeaisons sont des réactios nerveuses déclenchées par nos émotions. Il est quasiment impossible de les refréner. Se gratter l'arrière du corps illustre une envie de partir (physique ou psychique). Il peut s'agir du dos, mais aussi de l'arrière des cuisses et des jambes. Une personne qui se désinvestit d'un échange pourra également reculer un pied et ainsi faire basculer son poids du corps vers l'arrière.
 
+3 Clefs pour prendre la parole avec classe
+===========================================
+
+[Talk] Quoi prendre en compte lors de la prise de parole pour avoir la classe ? % 1. Supprimer les gestes de stress 2. avoir l'intention de se faire comprendre 3. Rendre agreable et confortable ce moment
+
 8 exercices pour ameliorer vos prises de parole
 ================================================
 

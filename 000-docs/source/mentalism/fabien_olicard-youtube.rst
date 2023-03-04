@@ -413,6 +413,22 @@ Resume
 * le sirotage: si perd, perd les points de la chouette (1 Linotte, 2 Alouette, 3 Fauvette, 4 Mouette, 5 Bergeronette, 6 Chouette)
 * le civet: challenge combinaison, si gagne, gagne le pari et la combinaison, sinon perd juste le civet
 
+Eureka - 12=13
+***************
+
+a = b
+a²-b² = (a+b)(a-b)
+a² = ab
+ab-b² = (a+b)(a-b)
+b(a-b) = (a+b)(a-b)
+b = a+b
+11b+b = 11b+a+b
+a = b
+11b+b = 11b+b+b
+12 = 13
+
+Les divisions par 0 cets pas bien !!!
+
 Effet Dorian Grey
 *****************
 

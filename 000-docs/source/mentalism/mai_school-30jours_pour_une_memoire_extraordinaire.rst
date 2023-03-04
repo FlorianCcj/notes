@@ -260,20 +260,141 @@ Y associer toute cette liste d'element
 Exercice de memoire 2
 Refaire l exo du texte
 
-Jour 10
-========
+Jour 10, Stockage multiple
+===========================
 
-Jour 11
-========
+Pour chaque chiffre de la table de rapel, stocker plusieur concept
 
-Jour 12
-========
+Exercice 1, stockage multiple
 
-Jour 13
-========
+Table de rapel
+
+0 Blaireau
+1 Train
+2 Feu
+3 Roi
+4 Platre
+5 Contre
+6 Vis
+7 Cassette
+8 Huitre
+9 Oeuf
+
+Information
+
+1. Punaise
+2. Poisson
+3. Chewing-gum
+4. Lampe
+5. T-shirt
+6. Fil
+7. Bouteille
+8. Pomme
+9. Thermometre
+10. Baume a levres
+11. Coupe-ongles
+12. Canette
+13. Climatiseur
+14. Lait
+15. Papier
+16. Piece de monnaie
+17. Couteau
+18. Rateau
+19. Crayon
+20. Cle
+21. Cahier
+22. Boite
+23. Cuillere
+24. Montre
+25. Cle USB
+26. Haltere
+27. Sirop
+28. Fenetre
+29. Plat
+30. Serviette
+
+Exercice 2, Application
+
+00. Oui Oui
+01. OLive
+02.  ZoDiaque
+03.  OBese
+04.  OFF
+05.  ORange
+06.  OCean
+07.  OiSeau
+08.  OiGnon
+09.  ONgle
+10. LOup
+
+Au sein du texte reperer 3 mots clés par passage
+
+Jour 11, Application des techniques, Visualisation, Organisation de la memorisation
+====================================================================================
+
+Transformer le sujet principal de votre texte en une entité
+
+Exemple:
+L'homeostasie sert a reguler la themperature du corps -> le ramener a la gestion de la temperature d'une maison
+
+Jour 12, Application des techniques, Visualisation, Methode des histoires
+==========================================================================
+
+1. Lieu
+2. Resumer (lire et comprendre)
+3. Identifier les idees a transformer en images
+4. Creer une histoire coherente avec ces images
+
+Diff entre la methode des histoires et le stockage multiple
+- histoire
+  - 100% Sur la comprehension
+  - Creer une histoire resumant le texte
+  - Pas applicable a tous les textes
+  - Ca depend du texte
+- Objet de stockage
+  - La comprehension est la memorisation se font ensemble
+  - Creer plusieurs histoire  contenant les details
+  - Applicable a tous types de textes
+  - Explication Facile
+
+Jour 13 - Application Stockage des liens
+=========================================
+
+Chaque objet stock une animation
+
+Table de rapel
+
+0. Balon
+1. stylo
+2. canard
+3. chameau
+4. bateau a voile
+5. crochet
+6. club de golf
+7. hache
+8. bonhome de neige
+9.  raquette
+10. fourchette et assiete
+
+Learn
+
+0. Balon -> Toile, ciseaux, fermeture eclaire, cure-dent, chariot, table, gateau, ecouteur, ruban adhesif, voiture
+1. stylo -> Loupe, Chausson, gateau, ecouteurs, tomate, toilette, chien, fenetre, plaque d imatriculation, oignon
+2. canard -> manette, tv, chocolat, bougie, pelle, sofa, fleur, appareil photo, drapeau, boite
+3. chameau -> dentifrice, chargeur, bracelet, trottoir, piano, chaise, arbre, pistolet, bateau, imprimente
+4. bateau a voile -> sachet, armoire, pneu, balance, moniteur, camera, cahier, sirop, poubelle, cage
+5. crochet
+6. club de golf
+7. hache
+8. bonhome de neige
+9.  raquette
+10. fourchette et assiete
 
 Jour 14
 ========
+
+Pour le stockage multiple on peut associé les liens a differente parti de l'objet de la TdR
+Exemble si 1 est un arbre, on attache le 1er objet de l'animation a la cime des feuilles, le deuxieme, au tronc et le troisieme au racine
 
 Semaine 3, Techniques avancees
 *******************************
