@@ -3,6 +3,8 @@ Elena Hurstel - Mentor et Coach Vocal
 
 :source: https://www.youtube.com/watch?v=IgTssFoLSu0&list=PLntwp1Kpd7lhmjMYUbTAG9xMEPmvGhago
 
+Travailler l'energy et non la puissance
+
 Apprendre à chanter, les BASES à appliquer ABSOLUMENT ! (001)
 **************************************************************
 
@@ -26,6 +28,11 @@ EXERCICE de soutien ! L'exercice CLE pour plus de PUISSANCE VOCALE ! (002)
 [Song] Que signifie CVT? % Complete Vocal Technic
 [Song] Quels sont les 4 modes de voix selon la CVT? % Neutre, Curbing, Overdrive, Edge
 
+Apprendre à chanter AIGU ! Le DETAIL pour y arriver FACILEMENT ! (010)
+***********************************************************************
+
+:source: https://www.youtube.com/watch?v=a5ziS6PjVhs
+
 Changer de VOIX, quels sont les SECRETS des IMITATEURS ? (003)
 ***************************************************************
 
@@ -42,6 +49,36 @@ Developper son Oreille Musical (004)
 :source: https://www.youtube.com/watch?v=3MHRvuO8TCU
 
 [Song] Comment travailler son oreille musical? % travailler en chorale, travailler les intervals, Ecouter tous
+
+Dynamiser sa voix, LA TECHNIQUE qui change TOUT ! (011)
+********************************************************
+
+:source: https://www.youtube.com/watch?v=axLrjM0fEzY
+
+[Song] Par quel biais le dynamisme se fait ? % Grace au consonne
+[Song] Comment jouer avec les consonnes pour la rendre dynamique ? % Les jouer rapidement, les appuyer, les articuler, les placer correctement
+
+Etre un BON CHANTEUR, l'ERREUR qui te décrédibilise ! (012)
+************************************************************
+
+:source: https://www.youtube.com/watch?v=DrgcsdCEhWU
+
+Le but n'est pas de maitriser toute la technique, le but est de ressentir une emotion, il est important d'interpreter, et de lier l'interpretation a la technique
+
+Exercice de TWANG ! L'astuce miracle qui fonctionne a tout les coups ! (009)
+*****************************************************************************
+
+:source: https://www.youtube.com/watch?v=aI1jInJmgaE
+
+[Song][Workout][Twang] Comment exercer le Twang ? % 1. Prendre une phrase (exemple au clair de la lune) <br/> 2. Faire la sorciere, le chat, le canard, bref un son de twang <br/> 3. Mettre le son maquiavelique en debut de chaque phrase (Hein Hein Hein, Au clair de la lune Hein Hein Hein Mon ami pierrot ...)
+
+Faire des vibes, L'ERREUR à éviter IMPERATIVEMENT ! (013)
+**********************************************************
+
+:source: https://www.youtube.com/watch?v=hFF5KXsTQ8c
+
+[song] Qu est ce qu'une vibes ? % une variation, une ornementation en fin de phrase
+[song] Quel est l'erreur classic lors de vibes, et comment la travailler ? % relacher l'energie a la fin, travailler le soutien
 
 Falsetto PUISSANT ! Comment chanter avec de la PUISSANCE en Falsetto ? (008)
 *****************************************************************************
@@ -103,6 +140,12 @@ alterner
 [Song][Workout] Comment travailler le dos? % Faire comme une traction, puis relacher, ou faire comme si on ecrasait des oranges sous les aisselles, toujours avec une resistance, et jamais en contractant la gorge, faire des twang
 [Song][Workout] Comment travailler le lombaire? % Creuser votre dos, cambrer puis faire comme si on vous donnait un coup de point dans le ventre, puis essayer de faire les 2 en meme temps. Creuser avec resistance
 
+Techniques de chant ! Je reponds a toutes vos questions en LIVE !
+******************************************************************
+
+[Song][Workout] Comment eviter la nasalité ? % Imaginer que ca pu, chanter sous l'eau
+[Song][Workout] Comment detecter la nasalité ? % Quand vous chanter, pincer vous le nez, si le son change, vous avez de la nasalité
+
 Masterclass - Les secrets de la voix
 *************************************
 
@@ -120,3 +163,7 @@ Une belle voix: https://www.youtube.com/watch?v=lLvLF30H8oI
 Travailler sa voix: https://www.youtube.com/watch?v=UMw6pRiMP0o
 Changer la couleur de voix: https://www.youtube.com/watch?v=V5nfyCas4IA
 Articulation: https://www.youtube.com/watch?v=NubcYftsPFQ
+
+Twang: explication et exo https://www.youtube.com/watch?v=G81NBH4hCAE
+Twang: erreur a ne pas faire: https://www.youtube.com/watch?v=MtkAPuW3b0U
+Twang dans une chanson: https://www.youtube.com/watch?v=-C2PJYaKsJ8
