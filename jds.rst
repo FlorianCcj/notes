@@ -68,3 +68,14 @@ super cats !!!!
 
 CULINARIO MORTALE (dora des ecles)
 
+https://www.google.com/search?q=coffee+break+jeu+de+soci%C3%A9t%C3%A9&client=ubuntu&hs=oSg&source=lnms&tbm=isch&sa=X&ved=2ahUKEwii6ev1j-D8AhVrXaQEHcOtCTYQ_AUoAXoECAEQAw&biw=1846&bih=911&dpr=1
+https://www.google.com/search?q=chewing+game&tbm=isch&ved=2ahUKEwikpte6juD8AhU8UKQEHRkJAggQ2-cCegQIABAA&oq=chewing+game&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjoICAAQgAQQsQM6BAgAEEM6BggAEAUQHjoJCAAQgAQQChAYUKUTWMYlYJAtaABwAHgAgAHXAYgBgwqSAQU4LjMuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=WsLPY6SRELygkdUPmZKIQA&bih=911&biw=1846&client=ubuntu&hs=VgL
+https://www.amazon.fr/OYA-Chewing-Game-Set-1/dp/B07T3DQHGL/ref=asc_df_B07T3DQHGL/?tag=googshopfr-21&linkCode=df0&hvadid=354003853133&hvpos=&hvnetw=g&hvrand=7885525758830304393&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056135&hvtargid=pla-797428789158&psc=1&tag=&ref=&adgrpid=71831364419&hvpone=&hvptwo=&hvadid=354003853133&hvpos=&hvnetw=g&hvrand=7885525758830304393&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056135&hvtargid=pla-797428789158
+https://www.google.com/search?q=sherlock+jeu+de+societe+dernier+appel&client=ubuntu&hs=HMg&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2q-e0juD8AhWzRqQEHePkClYQ_AUoAXoECAEQAw&biw=1846&bih=911&dpr=1
+https://www.google.com/search?q=matago+pixel&oq=matago+pixel&aqs=chrome..69i57j0i13i512.5508j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=matagot+pixel+one+card+dungeon&client=ubuntu&hs=PNg&ei=k8LPY8DkH5S9kdUP3q2n0As&ved=0ahUKEwiA-v3VjuD8AhWUXqQEHd7WCboQ4dUDCA8&uact=5&oq=matagot+pixel+one+card+dungeon&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzoECAAQRzoFCAAQgAQ6BQghEKABOgQIIRAVOgcIIRCgARAKSgQIQRgASgUIQBIBMUoECEYYAFDNBFioH2DHIWgAcAJ4AIABgAKIAdYLkgEGMTMuMy4xmAEAoAEByAEIwAEB&sclient=gws-wiz-serp
+https://matagot-friends.com/france/fr/catalogue/2911-one-card-dungeon-pixel-collection-3760146643536.html
+
+break the code
+la fin des artichauds
+Hexagon Fidget Toy
