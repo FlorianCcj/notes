@@ -177,3 +177,135 @@ can't be mixed with host{Network, PC, PID}: true
 only on stateless pod, no PV
 but secret, configmap, downwardAPI, projeted, emptydir are ok
 Mounted file need the permission on the group
+
+## Devops moebius strip
+
+### Phases
+
+- Development
+  - Code
+  - Build
+- Continuous Integration
+  - {Development}
+  - Integrate
+  - Test
+- Continous Delivery
+  - {Continuous Integration}
+  - Release
+- Continous Deployment
+  - {Continous Delivery}
+  - Deploy
+- Devops
+  - {Continous Deployment}
+  - Operate
+  - Scanning
+  - Testing
+  - Report Generation
+
+### CI
+
+#### Plan
+
+#### Code
+
+- Code Static Analysis (Sonarque) (test unitaire)
+- Code Quality (pretier, lint)
+
+- Static Application Security Testing (SAST) (Sonarqube, Phpcs, SNYK, ...)
+- Software Composition Analysis (SCA) (npm-audit, maven, OWASP, Trivy, SNYK, ...)
+
+#### Build (Can be Integration or Packaging)
+
+- Code review (JP)
+- Code Static Analysis (Sonarque)
+- Code Quality (pretier, lint)
+
+- Image Security Scanning (Anchore, Trivy, TUF, SNYK, ...)
+- Static Application Security Testing (SAST) (SNYL, Sonarqube, Phpcs, ...)
+- Software Composition Analysis (SCA) (npm-audit, maven, OWASP, Trivy, SNYK, ...)
+
+#### Test (or verify)
+
+- Static Application Security Testing (SAST) (SNYL, Sonarqube, Phpcs, ...)
+- Dynamic Application Security Testing (DAST)
+- Interactive Application Security Testing (IAST)
+- Pen Testing
+- Fuzz Testing: Fuzz testing or fuzzing is an automated software testing method that injects invalid, malformed, or unexpected inputs into a system to reveal software defects and vulnerabilities
+- Hardening Check (BIOS, HD Encrypt, USB, Sys package, port, SSH, SELinux, pwd policies) (SBom)
+
+- Load/Penformance test
+- Chaos Monkey
+
+### CD
+
+#### Release (Can be Versionning)
+
+- Secure Configuration
+
+- Packaging for development
+
+#### Deploy
+
+- PenTest
+- Vulnerability Scanning
+- Perf ?
+
+- Log
+- Audit
+- Metric
+
+#### Operate
+
+- Continious Scanning
+- Runtime Application Self-Protection (RASP) View Report
+- Threat intelligence
+
+- Monitor, Detect, Response, Recover
+
+- Red Teaming: mise a dispo d'une instance pour se faire attaquer
+
+#### Measure (can be Monitor)
+
+- Static Application Security Testing (SAST) (SNYL, Sonarqube, Phpcs, ...)
+- Dynamic Application Security Testing (DAST)
+- Interactive Application Security Testing (IAST)
+- Runtime Application Self-Protection (RASP)
+
+## K8S
+
+### Cluster
+
+#### Preco
+
+- CIS (Kube Bench)
+- Intrusion/container comportement (Falco)
+
+#### Right
+
+- Role (ns, resource, resource name, verb)
+- ClusterRole
+
+### Namespace
+
+### Netpol
+
+### Entry
+
+- Admission controller
+- Webhook (MutatingAdmissionWebhook, ValidatingAdmissionWebhook)
+- and Open Policy Agent
+- Kyverno
+
+### Hardware
+
+- CIS recommendation (CIS-CAT Lite)
+- Kubelet
+- Syscall (aquasec/tracee, strace, seccomp)
+- Capability (AppArmor, Cgroup) (apparmor = file, Cgroup = CPU ???)
+
+### Add
+
+``` yaml
+    securityContext:
+      allowPrivilegeEscalation: false
+```

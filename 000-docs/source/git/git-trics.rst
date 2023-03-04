@@ -53,5 +53,11 @@ git remote
 git remote -v: print remote origin
 git remote prune origin: remoev useless branch
 
+get interesection between 2 branch
+***********************************
+
+git merge-base --fork-point develop
+git merge-base myfeature develop
+
 TODO
 To read: https://www.hostinger.fr/tutoriels/commandes-git
