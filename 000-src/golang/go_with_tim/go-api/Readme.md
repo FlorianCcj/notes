@@ -1,0 +1,11 @@
+source: https://www.youtube.com/watch?v=bj77B59nkTQ
+
+launched
+
+```sh {name=init_project}
+go mod init example/Go-Api-Tutorial
+```
+
+```sh {name=get_gin_package}
+go get github.com/gin-gonic/gin
+```
