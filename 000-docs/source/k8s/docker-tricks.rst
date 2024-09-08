@@ -1,6 +1,24 @@
 Docker - Tricks
 ###############
 
+Clean up
+*********
+
+docker image rm -f $(docker images --format "{{.ID}}")
+docker image rm -f $(docker images --filter=reference=toto --format "{{.ID}}")
+docker system prune
+
+Helm - Quality
+***************
+
+:source: https://cloudentity.com/developers/blog/helm_chart_testing_tools/#kube-score
+
+helm template . | docker run -i -v $(pwd):/project zegl/kube-score:latest score --output-format ci -
+
+Chart tester: https://github.com/helm/chart-testing/
+kubetest: https://docs.testkube.io/articles/helm-chart/
+KICS
+
 Good Practice - Remove useless file
 ***********************************
 

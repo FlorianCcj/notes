@@ -140,6 +140,21 @@ Voc
 - kippu (きっぷ): ticket
 - gakkou (がっこう): school
 
+TODO
+
+[JP-U001L02] yasashii (やさしい): nice
+[JP-U001L02] kakkoii (かっこいい): cool
+
+[JP-U001L02] sensei (せんせい): teacher
+[JP-U001L02] isha (いしゃ): doctor
+[JP-U001L02] bengoshi (べんごし): lawyer
+[JP-U001L02] sushi (???): sushi
+[JP-U001L02] gohan (ごはん): rice
+
+[JP-U001L02] dessu (です): it/he/she is
+[JP-U001L02] to (と): and
+[JP-U001L02] kudasai (ください): please
+
 JPN-005-1-05 Greetings
 ======================
 

@@ -1755,32 +1755,34 @@ boost
  1h * 228 -> 220
 30m * 403 -> -> 351
 
-boost to loot (use)
-====================
+boost to loot (use) (nova)
+===========================
 
-lvl 01 - 00 000
-lvl 02 - 00 000
-lvl 03 - 00 000
-lvl 04 - 00 000
-lvl 05 - 00 000
-lvl 06 - 00 000
-lvl 07 - 00 000
-lvl 08 - 00 000
-lvl 09 - 00 000
-lvl 10 - 00 000
-lvl 11 - 00 000
-lvl 12 - 00 000
-lvl 13 - 00 000
-lvl 14 - 00 000
-lvl 15 - 00 000
-lvl 16 - 01 650
-lvl 17 - 01 800
-lvl 18 - 01 950
-lvl 19 - 02 100
-lvl 20 - 02 250
-lvl 21 - 02 500
-lvl 22 - 02 800
-lvl 23 - 03 500
+lvl 01 - 00 050 - 00 050
+lvl 02 - 00 100 - 00 150
+lvl 03 - 00 150 - 00 300
+lvl 04 - 00 200 - 00 500
+lvl 05 - 00 350 - 00 850
+lvl 06 - 00 300 - 01 150
+lvl 07 - 00 400 - 01 550
+lvl 08 - 00 500 - 02 050
+lvl 09 - 00 600 - 02 650
+lvl 10 - 00 750 - 03 400
+lvl 11 - 00 900 - 04 300
+lvl 12 - 01 000 - 05 300
+lvl 13 - 01 200 - 06 500
+lvl 14 - 01 250 - 07 750
+lvl 15 - 01 400 - 09 150
+lvl 16 - 01 500 - 10 650
+lvl 17 - 01 650 - 12 300
+lvl 18 - 01 800 - 14 100
+lvl 19 - 01 900 - 16 000
+lvl 20 - 02 000 - 18 000
+lvl 21 - 02 200 - 20 200
+lvl 22 - 02 400 - 22 600
+lvl 23 - 02 500 - 25 100
+lvl 24 - 02 700 - 27 800
+lvl 25 - 03 300 - 31 100
 
 26 + 32 + 32 + 95 + 95 + 215 + 215
 
@@ -1898,7 +1900,7 @@ Bariere 10
 Bariere 15
 Bariere 20
 Bariere 25 430at
-Bariere 30
+Bariere 30 882ay
 
 Mine IV
 Bariere 05
@@ -1913,6 +1915,7 @@ Bariere 05
 Bariere 10
 Bariere 15
 Bariere 20
+Mine 23 202aq
 Bariere 25
 Bariere 30
 
@@ -1940,6 +1943,15 @@ Update
 -------
 
 cf csv
+
+
+le cout / le nombre de fois que l'on reduit doit etre inferieur a un seuil
+
+C/2^n < S
+C/S < 2^n
+log2(C/S) < n
+log10(C/S)/log10(2) < n
+
 
 recherche
 =========

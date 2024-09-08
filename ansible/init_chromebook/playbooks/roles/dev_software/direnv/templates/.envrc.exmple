@@ -1,5 +1,13 @@
+#!/bin/bash
+
+if [ -f "../.envrc" ]; then
+  cd ..
+  . .envrc
+  cd -
+fi
+
 export GIT_AUTHOR_NAME="Florianccj"
 export GIT_AUTHOR_EMAIL="florianccj@toto.com"
-export EMAIL="florianccj@toto.com
+export EMAIL="florianccj@toto.com"
 export GIT_COMMITTER_EMAIL="florianccj@toto.com"
 export GIT_COMMITTER_NAME="Florianccj"

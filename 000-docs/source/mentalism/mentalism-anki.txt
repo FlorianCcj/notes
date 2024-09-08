@@ -24,3 +24,10 @@ Cite 3 signes qui montrent que tu manques de confiance en toi ?% Le massage du c
 [charism] Comment devenir plus attirant en 3 conseils ? % 1. Ne pas devoiller tout d'un coup, choisir les elements que l'on souhaite presenté 2. Ne pas negliger son corps et son apparence 3. S'interesse plus a l'autre que de chercher a etre interessant
 [charism] Comment etre charismatique en conversation?% 1. Ne pas couper la parole <br/> 2. Ne pas se precipiter <br/> 3. Ne jamais supposer ce que l'autre est en train de dire <br/> 4. Fait de l ecoute active <br/> 5. Ne jamais perdre son sang froid
 [charism] Comment etre charismatique au travail ? % 1. Rester calme, ne pas reagir dans l urgence. 2. Laisser les gens parler, ne pas couper la parole, 3. Ecouter, ne pas interpreter en avance
+
+[memory][pourparler] What is the credo of Mohamed Boclet to learn ? % I learn, I apply, I share
+[memory][pourparler] Who democratize mind map learning technic ? % Tony buzan
+[memory][pourparler] Quels sont les 9 types d'intelligence ? % Logico mathematic, verbo linguistic, video spacial, kynestesique, musical, intra personnel, inter personnel, naturalist, existenciel
+[memory][pourparler] Quels sont les 3 types de memoire ? % semantique (les mots), episodique (emotion, episode de notre vie) et procedural (acte, mouvement non reflechie)
+[memory][pourparler] Qu est ce que l'effet pygmalion ? % c est une prophetie autorealisatrice qui provoque une amelioration des performances d'un sujet
+[memory][pourparler] Qu est ce que l'effet golem ? % c est un phenomene psychologique mettant en œuvre une prophetie autorealisatrice dans laquelle des attentes moins elevees placees sur un individu le conduisent à de moins bonnes performances.

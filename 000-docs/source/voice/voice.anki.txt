@@ -30,3 +30,6 @@
 [Song] Comment jouer avec les consonnes pour la rendre dynamique ? % Les jouer rapidement, les appuyer, les articuler, les placer correctement
 [Song][Workout] Comment eviter la nasalité ? % Imaginer que ca pu, chanter sous l'eau
 [Song][Workout] Comment detecter la nasalité ? % Quand vous chanter, pincer vous le nez, si le son change, vous avez de la nasalité
+[Song][Technic] Comment avoir une voix impactante ? % Mettre de l'energie dans sa voix, alterner les nuances (douce, sound color, vitesse, energie, timbre ...)
+[Song][Technic] Comment mettre de l'energie dans sa voix ? % Articuler les consonnes
+[Song][Technic] Comment articuler les consonnes ? % Prendre conscience de comment on genere nos consonnes, et le faire le plus rapidement possible

@@ -1,4 +1,16 @@
-ABCDE: ~
+ABCDE:
+  banh_bao:
+    source: le riz jaune  [https://www.youtube.com/watch?v=gNdDxvAk0O4]
+    ingredient
+    - 350g porc haché
+    - 1 lap xuong
+    - 2 sauce d huitre
+    - 3 sauce poisson
+    - 2 oeuf
+    - 1 branche de cebette
+    - 1 carotte
+    - 6g champignons noir
+    - 1 patte feuilleté
 FGHIJ:
   totest-rix Furikake:
     source: http://www.matvpratique.com/video/35222-riz-furikake

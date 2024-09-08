@@ -22,6 +22,11 @@ Background - foreground
 * :code:`fg` permit to make the last process on foreground
 * :code:`fg %1` permit to make the process with id 1 (in :code:`jobs`) on foreground
 
+Column
+*******
+
+Print on multicolumn
+`| pr -2 -t`
 
 Copy tricks
 ***********
@@ -68,6 +73,9 @@ history
 * use :code:`!!` to launch last command
 * use :code:`!<command number>` to launch a specific command
 * add in .bashrc :code:`HISTTIMEFORMAT="%Y-%m-%dT%T%z "`: add date on history
+* `echo 'export HISTTIMEFORMAT="%Y-%m-%dT%T%z "' >> ~/.env_vars`
+* `echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.env_vars`
+* `echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bash_profile`
 * :code:`HISTCONTROL=ignoreboth`: do not add duplicate lines or lines beginning whith a space
 * :code:`history 4`: the 4 last command
 * use ctrl + r to find a command

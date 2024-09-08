@@ -77,3 +77,57 @@ Steps
 1. Verser le melange a base de riz, faire cuir
 1. Verser la partie verte de l oignon et laisser revenir encore quelques instants
 1. Servir
+
+Totest - GOCHUJANG Chicken Rice Bowl
+*************************************
+
+:source: https://www.youtube.com/watch?v=LjZ5taqQbuA&list=PLu98gijnXaUstGHe0IB0K4rD89b31jlt5&index=54
+
+Realisation
+===========
+
+* Author: Aaron and Claire
+* Préparation : 15 min
+* Cuisson : 0 min
+* Difficulté : Facile
+* Prix: 0,0/personne
+* Tags: [Plat, Corean]
+
+Ingredient
+==========
+
+* quantite: pour 2 personnes
+* Sel, poivre
+* Onion
+* Garlic
+* Ginger
+* Chili pepper
+* Green onion
+* Chicken (breast and thigh)
+* Rice
+
+Steps
+=====
+
+1. To cut easily the chicken you can add it in the freezer
+2. Separate de white and the greenn of the green onion
+3. Cut the onion on dice
+4. Sauce
+  1. 2 tablespoons Curry and chili pepper flakes
+  2. 3 tablespoon of gucci korean chili paste
+  3. 1 Tablespoon of soy sauce
+  4. 1.5 tablespoon oyster sauce
+  5. 1.5 tablespoon of sugar
+  6. 2 tablespoon of mirin
+5. dressing
+  1. 1 tablespoons Curry and chili pepper flakes
+  2. 1.5 tablespoon of vinegar
+  3. 1 tablespoon of sugar
+  4. 1 tablespoon of toasted sesame oil
+  5. 1/2 tablespoon toasted sesame
+  5. 1/2 tablespoon minced garlic
+  5. 1 tablespoon fish sauce
+6. Mince the chicken
+7. Grilled the chicken
+8. Add the white part of the green onion and the white onion
+9. Finally add the sauce

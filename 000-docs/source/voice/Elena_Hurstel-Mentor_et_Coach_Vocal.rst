@@ -43,6 +43,71 @@ Changer de VOIX, quels sont les SECRETS des IMITATEURS ? (003)
 - les tics de langage
 - la position corporel
 
+Comment APPRENDRE les PAROLES d’une chanson en 5 MIN !
+*******************************************************
+
+:source: https://www.youtube.com/watch?v=MSeC_67PPdc
+
+- Comprendre dans son integralité la chanson
+- Le poser sur le corps (palais mental)
+
+Comment Chanter une CHANSON difficile ? Les 3 etapes concretes !
+*****************************************************************
+
+:source: https://www.youtube.com/watch?v=H9JrHsXkY-U
+
+1. Travailler les techniques vocales necessaires
+2. Apprendre la chanson (parole, rythmique, sens, la melodie ...)
+3. Analyser et Mettre sa touche personnel, sa patte artistique
+
+Comment entretenir sa voix l ete pour garder ses resultats !
+*************************************************************
+
+Twang reference: zaz, vanessa paradis, arleta franklin
+
+Comment préparer une CHANSON, les 5 étapes INDISPENSABLES ! (apprendre une chanson)
+*************************************************************************************
+
+:source: https://www.youtube.com/watch?v=pkROQw24FTY
+
+1. La lecture: dont la prononciation
+2. Le sens du texte: dont la paraphrase, l emotion, le sentiment
+3. La rythmique, faire une pulsation pour savoir quand chaque batement tombe au niveau des paroles
+4. La melodie
+5. Le timbre, les effets, tout ca tout ca
+
+Comment SURMONTER la CRITIQUE pour en faire une FORCE!
+*******************************************************
+
+Critiquer moins, vous serez moins sensible a la critique
+
+Si vous voulez critiquer, trouver 3 points positifs, et se demander "est-ce que je peux en dire autant de moi ?"
+se poser la meme question sur le sujet de la critique
+
+Si on vous critique Pardonner instantannement, prenez de la distance
+
+Etre mechant atire la mechanceté dans notre vie
+
+DEBLOQUER sa VOIX ! La METHODE que tu dois ABSOLUMENT suivre !
+***************************************************************
+
+:source: https://www.youtube.com/watch?v=KONJB0nvCeE
+
+1. Le mindset et le dev perso pour comprendre les blocages
+2. Comprendre la techique
+3. Travailler thematique par thematique, Rester focus, ne pas papilloner, jusqu'a la maitrise d'une technique
+  1. Le soutien
+  2. Flux d'air
+  3. Twang
+  4. Loose Jow
+  5. Modes
+  6. Sound color
+4. Avoir des exercices ciblés et personnalisé
+5. Avoir des retours
+6. Etre au sein d'un groupe
+
+
+
 Developper son Oreille Musical (004)
 *************************************
 
@@ -145,6 +210,15 @@ Techniques de chant ! Je reponds a toutes vos questions en LIVE !
 
 [Song][Workout] Comment eviter la nasalité ? % Imaginer que ca pu, chanter sous l'eau
 [Song][Workout] Comment detecter la nasalité ? % Quand vous chanter, pincer vous le nez, si le son change, vous avez de la nasalité
+
+Voix IMPACTANTE ! La technique pour que TOUT LE MONDE t'écoute !
+*****************************************************************
+
+:source: https://www.youtube.com/watch?v=RVhku39zFQU
+
+[Song][Technic] Comment avoir une voix impactante ? % 1. Mettre de l'energie dans sa voix, <br/> 2. Alterner les nuances (douce, sound color, vitesse, energie, timbre ...) <br/> 3. Mettre de l'emotion
+[Song][Technic] Comment mettre de l'energie dans sa voix ? % Articuler les consonnes
+[Song][Technic] Comment articuler les consonnes ? % Prendre conscience de comment on genere nos consonnes, et le faire le plus rapidement possible
 
 Masterclass - Les secrets de la voix
 *************************************

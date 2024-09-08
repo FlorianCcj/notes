@@ -1,6 +1,10 @@
 Fabien Olicard - Youtube
 ########################
 
+Gilles Usion
+Flavien Jolicoeur
+Olivier Saussiflard
+
 Chifoumi
 ********
 

@@ -48,6 +48,13 @@
         name: "math_exo"
       tags: "math_exo"
 
+    - name: "add history timer path"
+      import_role:
+        name: "env_vars"
+      vars:
+        env_vars_list:
+          - 'export HISTTIMEFORMAT="%d/%m/%y %T "'
+
 - name: Installation needed dev roles
   hosts: all
   tasks:
@@ -139,8 +146,14 @@
       tags: "php"
 
     - import_role:
+        name: "dev_software/tfenv"
+      tags:
+      - "tfenv"
+      - "terraform"
+    - import_role:
         name: "dev_software/terraform"
-      tags: "terraform"
+      tags:
+        - "terraform"
 
     - import_role:
         name: "dev_software/trivy"

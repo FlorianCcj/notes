@@ -215,7 +215,7 @@ TLS in Kubernetes (07:48)
   * peer etcd
   * kube cluster
 
-TLS in Kubernetes – Certificate Creation (10:55)
+TLS in Kubernetes - Certificate Creation (10:55)
 ================================================
 
 * manage CA

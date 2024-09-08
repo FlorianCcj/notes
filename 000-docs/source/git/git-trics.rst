@@ -41,6 +41,21 @@ git log
 
 git log --graph --oneline --decorate
 
+git pull-request
+*****************
+
+:source: https://dev.to/karaluton/a-guide-to-perfecting-pull-requests-2b66
+
+A pull request should tell a story
+To help you to write good commit permiting to tell a good story, conventionnal commit is a good practice to adopt to have explicit commit
+
+Think about the Single Responsability principe
+Avoid more than 400 line modification
+
+Introducte your PR, do not think that other know your mind. Describe what, why and how to use/test your change
+
+Be your first reviewer
+
 git rebase
 **********
 

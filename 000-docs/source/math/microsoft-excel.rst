@@ -28,6 +28,14 @@ Auditer une formule avec f9
 Sommeprod
 ==========
 
+Make today day conditionnal formal
+-----------------------------------
+
+=B4=1*TEXT(TODAY(),"d")
+
+Extract only Friday
+--------------------
+
 =INDEX('Before_2022.11-step/weight'!$A3:$E999, SMALL(IF((INDEX('Before_2022.11-step/weight'!$A3:$E999, , 2)="F"), MATCH(ROW('Before_2022.11-step/weight'!$A3:$E999), ROW('Before_2022.11-step/weight'!$A3:$E999)), ""), ROWS($A$47:A47)), COLUMNS('Before_2022.11-step/weight'!$A$1:A1))
 
 =INDEX('step/weight'!$A3:$E999, SMALL(IF((INDEX('step/weight'!$A3:$E999, , 2)="F"), MATCH(ROW('step/weight'!$A3:$E999), ROW('step/weight'!$A3:$E999)), ""), ROWS($A$47:A47)), COLUMNS('step/weight'!$A$1:A1))
@@ -55,9 +63,3 @@ Sommeprod
   ),
   COLUMNS('step/weight'!$A$1:B1)
 )
-
-D1:D
-E1:E
-F1:F
-G1:G,I1:I,K1:K
-H1:H,J1:J,L1:M

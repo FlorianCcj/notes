@@ -33,7 +33,7 @@ ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x5
 ```
 
 ```sh {name=deploy_x515_tags}
-ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -t chromedriver -K
+ansible-playbook -i hosts.ini playbooks/install_laptop.yml -l florianccj_asus_x515 -t go_cgoban -K
 ```
 
 ## Still manual

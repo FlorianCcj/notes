@@ -1,6 +1,13 @@
 # Song
 
-## CLAUDE NOUGARO * CHANSON DE PIRATES
+## Link
+
+[https://paroles2chansons.lemonde.fr/paroles-bigflo-oli-p3]
+[https://www.paroles.net/bigflo-oli]
+
+## Black M - Mon beau-frere
+
+## Claude nougaro - Chanson de pirates
 
 https://www.youtube.com/watch?v=GIXbE-U-hcA
 
@@ -179,6 +186,308 @@ Bring me to life
 I've been living a lie
 There's nothing inside
 Bring me to life
+
+## Good mood
+
+- Sia - Never Give up
+- J'irais au bout de mes reves
+- Sinsemilia - Tout ce qu'on a
+- Roar
+- Eye of the Tiger
+- Disney - Le livre de la jungle - Il en faut peu pour etre heureux
+- Disney - Brother Bear - On my Way
+- Disney - The beauty and the beast - Be our guest
+- Disney - The Lion King - Hakuna Matata
+- Disney - The Lion King - I Just can't wait to be king
+- Disney - La grandes fete des princesses - Cahnson : Aujourd'hui
+
+## Jean-Jacques goldman - Je marche seul
+
+[https://www.youtube.com/watch?v=5AS0wPLnAhY]
+
+Comme un bateau dérive
+Sans but et sans mobile
+Je marche dans la ville
+Tout seul et anonyme
+Oh, la ville et ses pièges, ce sont mes privilèges
+Je suis riche de ça, mais ça ne s'achète pas
+
+J'm'en fous, j'm'en fous
+De tout
+De ces chaînes qui pendent à mon cou
+J'm'enfuis, j'oublie
+Je m'offre une parenthèse, un sursis
+
+Je marche seul
+Dans les rues qui se donnent
+Et la nuit me pardonne, je marche seul
+
+En oubliant les heures
+
+Je marche seul
+Sans témoin, sans personne
+Que mes pas qui résonnent
+Je marche seul
+Acteur et voyeur
+
+Se rencontrer, séduire
+Quand la nuit fait des siennes
+Promettre sans le dire
+Juste des yeux qui traînent
+Quand la vie s'obstine dans ces heures assassines
+Je suis riche de ça, mais ça ne s'achète pas
+
+J'm'en fous, j'm'en fous
+De tout
+De ces chaînes qui pendent à mon cou
+J'm'enfuis, j'oublie
+Je m'offre une parenthèse, un sursis
+
+Je marche seul
+Dans les rues qui se donnent
+Et la nuit me pardonne, je marche seul
+En oubliant les heures
+
+Je marche seul
+Sans témoin, sans personne
+Que mes pas qui résonnent
+Je marche seul
+Acteur et voyeur
+
+Je marche seul
+Quand ma vie déraisonne
+Quand l'envie m'abandonne, je marche seul
+Pour me noyer d'ailleurs
+
+Je marche seul
+Dans les rues qui se donnent
+Et la nuit me pardonne, je marche seul
+En oubliant les heures
+
+Je marche seul
+Sans témoin, sans personne
+Que mes pas qui résonnent
+Je marche seul
+Acteur et voyeur
+
+Je marche seul
+Dans les rues qui se donnent
+Et la nuit me pardonne, je marche seul
+En oubliant les heures
+
+Je marche seul
+Sans témoin, sans personne
+Que mes pas qui résonnent
+
+## Marilyn Monroe - Diamonds Are a Girl's Best Friend (O.S.T. Gentlemen Prefer Blondes)
+
+The French are glad to die for love
+They delight in fighting duels
+But I prefer a man who lives
+And gives expensive jewels
+
+A kiss on the hand
+May be quite continental
+But diamonds are a girl's best friend
+
+A kiss may be grand
+But it won't pay the rental
+On your humble flat
+Or help you at the automat
+
+Men grow cold
+As girls grow old
+And we all lose our charms in the end
+
+But square-cut or pear-shaped
+These rocks don't lose their shape
+Diamonds are a girl's best friend
+
+Tiffany's
+Cartier
+Black Starr
+Frost Gorham
+Talk to me Harry Winston
+Tell me all about it
+
+There may come a time
+When a lass needs a lawyer
+But diamonds are a girl's best friend
+
+There may come a time
+When a hard-boiled employer
+Thinks you're awful nice
+But get that ice or else no dice
+
+He's your guy
+When stocks are high
+But beware when they start to descend
+
+It's then that those louses
+Go back to their spouses
+Diamonds are a girl's best friend
+
+I've heard of affairs
+That are strictly platonic
+But diamonds are a girl's best friend
+
+And I think affairs
+That you must keep liaisonic
+Are better bets
+If little pets get big baguettes
+
+Time rolls on
+And youth is gone
+And you can't straighten up when you bend
+
+But stiff back
+Or stiff knees
+You stand straight at Tiffany's
+
+Diamonds
+Diamonds
+I don't mean rhinestones
+But diamonds are a girl's best
+Best friend
+
+## One Piece Red
+
+### Hoshi - La berceuse ephemere
+
+https://www.youtube.com/watch?v=t3UFf9fKLmE
+
+J'me sens si seule comme s'il manquait la plus grande pièce du puzzle
+Je veux être comprise et que les gens me suivent, ça m'épuise
+
+Le bonheur ne s'efface pas, il est indélébile
+Mon cœur entend des voix qui sont pourtant inaudibles
+Laisse-toi charmer par ma voix
+C'est la seule qui pourra t'aider, alors écoute-moi
+
+C'est maintenant ou jamais, après ça sera trop tard
+Je t'attends au sommet de mon art
+Joignez-vous à moi, soyez mes bons soldats, en rang devant moi
+
+Arrêtez d'essayer, de m'faire croire que vous êtes forts
+Vous n'ferez rien contre mon sort
+J'suis sûre que vous aurez besoin de renfort
+Restez devant moi, chantez de tout votre corps
+
+---
+<!--R-->
+Je veux vous offrir une chose extraordinaire
+Qui ne voudrait pas changer un peu d'air?
+Connaître un monde meilleur sans crise
+Une solution définitive
+
+Je ne vous laisserai pas dire que tout ça est éphémère
+Je voudrais installer dès maintenant une nouvelle ère
+Pensons à demain ensemble et oublions hier
+<!--/R-->
+
+J'sais ce que vous voulez mais, écoutez-moi pour une fois
+J'suis la seule qui peut vous aider, laissez-vous porter par ma voix
+J'vais vous ensorceler, au final vous n'aurez pas le choix
+Vous avez juste à m'écouter, vous verrez mon monde vous plaira
+
+J'suis en transe, devinez à quoi j'pense?
+Que malgré l'apparence, vous vivez dans l'indifférence
+
+---
+
+Allez-danse, mon monde sent ta présence
+Oubliez le silence, il va falloir me faire confiance
+
+N'hésite pas, laisse-toi emporter par cette musique Qui t'invite à danser?
+T'as le droit de crier très fort
+Bouge ton corps, aspire tous ces accords
+
+<!--R-->
+Je veux vous offrir une chose extraordinaire
+Qui ne voudrait pas changer un peu d'air?
+Connaître un monde meilleur sans crise,
+une solution définitive
+
+Je ne vous laisserai pas dire que tout ça est éphémère
+Je voudrais installer dès maintenant une nouvelle ère
+Pensons à demain ensemble, et oublions hier
+<!--/R-->
+
+Cette nouvelle ère ne fait que m'appeler
+J'ai entendu son appel à l'aide, laissez-moi faire
+J'ai remarqué que je suis sûrement le seul remède
+Laissez-moi faire, je ne veux plus revenir en arrière
+Laissez-moi faire, je vais créer cette nouvelle ère
+
+---
+
+La basse déplace tes dents
+La batterie crève tes tympans
+Les cuivres tapent sur ta peau
+Le piano te casse le dos
+Tu ne peux rien, tu n'peux rien y faire
+T'es dans la nouvelle ère
+
+Les partitions s'envolent avec ton corps
+Écoute ce son, t'es possédé par les accords
+Il faut que tu me croies
+Tu verras, ma voix te guidera
+
+### Hoshi - Je suis la plus forte (2022)
+
+https://www.youtube.com/watch?v=tfxOsQ6cv18
+
+Écoute, tu n'dois pas avoir peur, abandonne ta rancœur
+Mon rêve est l'même que toi, pour ça, j'ferai n'importe quoi
+Chante, ton cœur s'apaisera, j'veux la paix dans mes bras
+J'me bats avec des notes, grâce à ça, j'suis la plus forte
+Ma voix peut porter tout l'monde, elle se relèvera en quelques secondes
+Elle flotte et se noie dans ton corps
+Mes notes, pour toi, deviennent des accords
+Je suis inspirée dès qu'je t'entends
+Je crois qu'tes mots ont traversé le temps
+Si tu as mal, viens me voir, moi, je t'offre de l'espoir, tu dois y croire
+Tu as encore le temps, alors, je t'en prie, suis tes envies
+Si tu perds, t'auras au moins appris
+Tu vois, c'est ça, la magie d'la vie
+Viens, je te tends la main, changeons nos lendemains
+Je suis sûre qu'à la fin, tu seras mon plus beau refrain
+Ta voix me réconforte et le reste peu importe
+J'me bats avec des notes, grâce à ça, j'suis la plus forte
+Même si je fais des détours, tant que je marche, j'avance sur la bonne voie
+J'veux juste écouter l'amour, dans tes errances tu suivras mes pas
+Si tu t'balades un peu dans mon cœur
+Tu verras que j'veux juste donner de l'eau aux fleurs
+Pour embellir la vie, rendre le monde meilleur
+Tous ensemble, ça ira, promis, on verra le bonheur
+Tu sais, ça fait longtemps que j'attends, dis, tu veux pas revenir?
+Tout redeviendra comme avant et on pourra sourire
+Ton absence m'a fait tant de mal, j'ai perdu mes repères
+J'ai cherché un sens et une étoile, mais rien n'remplace un être cher
+Viens, je te tends la main, changeons nos lendemains
+Je suis sûre qu'à la fin, tu seras mon plus beau refrain
+Ta voix me réconforte et le reste peu importe
+Je m'bats avec des notes, grâce à ça, j'suis la plus forte
+Viens, je te tends la main, changeons nos lendemains
+Je suis sûre qu'à la fin, tu seras mon plus beau refrain
+Ta voix me réconforte et le reste peu importe
+J'me bats avec des notes, grâce à ça, j'suis...
+Viens, je te tends la main, changeons nos lendemains
+Je suis sûre qu'à la fin, tu seras mon plus beau refrain
+Je repense à ta promesse, elle est devenue ma faiblesse
+J'me guéris avec des notes, grâce à ça, j'suis la plus forte
+Grâce à toi, j'suis la plus forte
+
+## Pharell Williams - Happy
+
+## Pirates
+
+VA
+https://www.youtube.com/watch?v=efcMTIsHF5Y&list=OLAK5uy_nA4jsIQB01Yu9KCKmJjuWpKdwjstCIGwI&index=8
+https://www.youtube.com/watch?v=JDpjtQONwWE&list=OLAK5uy_nA4jsIQB01Yu9KCKmJjuWpKdwjstCIGwI&index=15
+
+VF
+https://www.youtube.com/watch?v=4KqPZHhfkEI
 
 ## Pirates des caraibes - Hissons nos couleurs
 

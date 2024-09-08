@@ -4,6 +4,14 @@ Todo - Cooking
 Folder in sulfur
 ================
 
+- steak
+
+- tarte
+- poelé
+- petit salé
+
+- roulé patate raclette
+
 Notes
 =====
 

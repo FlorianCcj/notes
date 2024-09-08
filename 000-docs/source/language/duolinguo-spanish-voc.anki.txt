@@ -11,3 +11,5 @@
 [ESU01] tú eres % you are
 [ESU01] él es he is
 [ESU01] ella es % she is
+
+[ESU01L3] Mucho gusto: nice to meet you

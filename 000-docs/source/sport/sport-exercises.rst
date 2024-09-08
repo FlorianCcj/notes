@@ -79,6 +79,11 @@ Avoir son grand eccard
   * 2e jambe sur le cote
   * s allonger sur la jambe
 
+ABDOS DEBUTANT - Abdominaux et Obliques - Difficulté 3/5
+*********************************************************
+
+https://www.youtube.com/watch?v=mCdH4Aa7EQ0
+
 Des Abdos sans crunch ni gym
 ****************************
 
@@ -141,6 +146,32 @@ Des Abdos sans crunch ni gym
   * mains sur la chaise
   * les fesses en dehors
   * on monte et on dessend les fesses
+
+Gouzougouzou
+*************
+
+https://www.youtube.com/watch?v=vIHFGYBrlFc&t=306s
+
+- affiner les cuisses
+  - jambe au sol, cuisse a la vertical
+  - 2e jambe sur le coté a la vertical
+  - pousser vers la cuisse
+  - 200 repetition/jambes
+- Prendre des fesses
+  - main au mur
+  - pointes des pieds
+  - ecarter les jambes, puis les resserer
+  - 5 serie de 20 repet
+- travailler la graisse du dos
+  - grand moulinet avec les bras*15
+  - grand moulinet qui finisse en aile de poulet*15
+  - balancier des bras sur les cotés, comme si on voulait s'envolé, avec les hanches qui vont a la rencontre des mains*10
+  - 3 serie
+- gras du ventre
+  - jambes et genoux contre le pied du mur
+  - bras comme en planche
+  - remonter les fesses jusqu'au pied, puis les redescendre au sol
+  - 200 repet
 
 Home exercise
 *************

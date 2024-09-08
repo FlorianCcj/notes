@@ -5,6 +5,7 @@
 [Animal] Qu est ce que les syndrome du chat parachute? % au delà de 7 etages un chat atteint sa vitesse maximal, il a donc la presence d esprit d etirer au maximum ses pattes, ne plus chercher a retomber dessus et grace a l etirement et la prise au vent il a plus de chance de survie
 [Animal] Quel est la hauteur minimum pour qu un chat retombe sur ses pattes ? % 1m50
 [Animal] Quelle est la famille des cahuves souris ? quels sont les origines de son nom ? % Chiroptere, chyro, main, ptere l'aile
+[Book] Qui est le le Renard ? % Dans le livre d'Oliver Twist de Charles Dickens, il sagit de <b>Artful Dodger</b> de son vrai nom <b>Jack Dawkins</b> est celui qui exploite Oliver Twist, chef de la bande de voleur
 [History] Combien de rouleau avait la bibliotheque d Alexandrie a ses heures les plus glorieuses ? % environ 700 miles
 [History] Donner une des hypotheses de sa destruction ? % Incendie Par Jules Cesar en 48 avant jc
 [History] Pourquoi la bibliotheque d Alexandrie est-elle si celebre ? % car elle faisait parti du centre culturel qui accueillait penseur les plus prestigieux de cette ere, elle était la plus grande et était un actif centre de traduction (dont la traduction de la Septante, traduction de la Bible hebraique en grec longtemps utilise par l eglise catholique)
@@ -18,66 +19,4 @@
 [Innovation] Qui a invente la video surveillance ? quel était son metier ? Sa nationnalite ? % Marie Van Brittan Brown, infirmiere americaine
 [Innovation] What does pizza means (originaly)? % Galette de pain
 [Innovation] Where and when does the pizza have been invented? % Naples XVI siecle
-[TV] What should the simpson color be in theory? % hot color, red or green
-[TV] When the simpson have been created ? % 1989
-[TV] Why the simpson are yellow? % because of money, green is not a primary color so it need to pay yellow and blue
-Pourquoi la reine est plus forte que le roi au echecs ? % de base en Inde au XVIe siecle c etait le Sultant et le Vizir (une seul case et en diagonal), en arrivant en Europe au XIe siecle, c est devenu le Roi et la Reine, en arrivant en Espagne la reine Isabelle de Castille (la Catholique) le voie d un tres mauvais oeil et force la Reine d'avoir plus de pouvoir
-Pourquoi les soldats du feu s'appelent les sapeurs pompier ? % terme officiel depuis 1811 par Napoleon 1er, sapeur, comme saper le moral, rabaisser le moral, il sapait les fondations des maisons autour de l incendit, ils les detruisaient pour eviter la propagation du feu, 1611 invension de la pompe a bras, les moines qui pompaient ont été appelé pompier
-D'ou vient l'expression "un poivrot"? % Rond comme un grain de poivre
-Quels sont les 4 nombres particuliers du petit lu et pourquoi? % 52 petites dents, 4 coins, 24 petits trous, il fait 7cm, cela represente les 52 semaines de l'annee, les 4 saisons, les 24h de la journee et les 7 jours de la semaine pour indiquer que les petit lu peuvent etre manger a n importe quel moment
-Quand et ou a ete cree le petit lu? % En 1886 a Nantes
-Qu est ce qu une selkie? % Des femmes phoques, a priori aussi belle que les sirenes, elle porte une peau de phoque pour se "transformer" en phoque
-Qu elle est l'age d or de la piraterie et pourquoi ? % 1650-1730,  car c est une periode de grande guerre et de conquete, pour les developper il est necessaire d'envoyé des biens et des hommes
-Quel est la difference entre boucanier, corsaire, flibustier et pirate? % es boucaniers sont des terriens, des ruraux qui ont souvent fui le monde ; ils chassent le bœuf sauvage et le sanglier, sont vetus de bêtes <br/> Les corsaires travaillent pour le roi, ils sont reconnuent par la marine, et ont l'authorisation d'attaquer (via des "lettres de marques") <br/> un flibustier est un mercenaire, sur terre comme sur mer <br/> Le pirate est un bandit, sans foi ni loi
-Qui sont les 4 chevaliers  de l'apocalypse et de quel coulleur sont leur cheveau? % La maladie (Le chrst avec un arc) sur une cheaval blanc, la guerre sur un cheval rouge, la famine sur une cheval noir et une balance sur les epaules, la mort sur un cheval jaune cadaverique
-[Seduction] Quels sont les 3 styles de flirt/seduction qui combinees sont gagnante? % Comique (rigolade), syncere (connection profonde) et physique
-[History] Quel est le lien entre la bataille de Waterlow et le sucre? % Les anglais avaient alors couper l'approvisionnement en sucre, Napoleon a alors developper la production de sucre a partir de betterave. Dans la production de sucre a partir de betterave il y a une etape que l'on appelle la clarification, pour cette etape on reduisait des os d'animaux en poudre (par cuisson au four) et avec cette poudre on filtrait le sirop de sucre. Les paysans belges on donc deterer les os des soldats pour les vendre, activité peu moral mais tres lucrative
-[Humor] Qu'est ce que la technique de l'extension selon Philippe Peytroux? % Prendre un petit element de la phrase de quelqu un et le reinterpretes
-Quel est la difference entre causalite et correlation? % La causalite implique un lien de cause a effet entre deux variables quand l'un varie, l'autre aussi, la correlation indique une relation entre deux variables
-[Nature] Quel est l'arbre a Kaki? % le Plaqueminier
-[Animal] A l'age adulte, la peau des hommes est plus epaisse que celle des femmes? % Vrai, au debut de l'age adulte, la peau d un homme fait plus de 60 um d epaisseur, alors que chez les femmes, elle est d environ 50 um
-[Animal] Quel est le nom de la femelle du dain? % La daine, son esperence de vie a l etat sauvage est de 16 ans
-[Animal] Quel est l esperance de vie du daim a l etat sauvage? % 8-10 ans
-[Archi] Combien d'arche le pont des arts a Paris comprend-il ? 7 arches, comme le Pont Neuf
-[Archi] Combien d'arche le Pont Neuf a Paris comprend-il ? 7 arches, comme le pont des arts
-Quels place ont les renards dans la mythology japonaise? % Parmi les kitsune, il y a les Zenko (善 狐? Lett. renards « bon ») , malicieux et bienveillant, messager de la deesse Inari et les Yako ou nogitsune (野狐? Lett. « Renard sur le terrain »), Malignant et malveillant
-Pourquoi les kitsune peuvent avoir plusieurs queues? % Un kitsune obtient une queue tout les 100 ans, jusqu'a etre vieux d'un siecle ou il devient un kyuby no kitsune qui a presque le status d une divinite
-[Cold reading] Combien de clignement d'oeil y a t'il en moyenne en une minute? % 5 a 8 par minute
-[Organism] A quoi sert la dopamine? % Plaisir, desir, euphorie
-[Organism] A quoi sert la serotonine? % confiance en soi, bien etre
-[Organism] A quoi sert la noradrenile? % Energie, Eveil
-D'ou vient le mot travail? % Tripalium, un instrument de torture romain pour punir les esclaves qui travaillaient mal
-Qu'est ce que l'effet spotlight (Philipppe Peytroux)? % Penser que l'on est au centre de l'attention, que les gens nous regarde, nous jugent, ce n'est qu un effet alors detend toi et souris
-Qu'est ce que l'erreru fondamental d'atribution? % accorder une importance disproportionnée aux caractéristiques internes d’une personne (caractère, intentions, émotions, connaissances, opinions) au détriment des facteurs externes et situationnels dans l’analyse de son comportement dans une situation donnée.
-Pourquoi l'eglise avait interdit les jeux de cartes au debut du XVe? % Parce que cela faisait de l'argent qui transitait sans controle ni de l etat ni de l'eglise
-[Game] Qui et quand a ete invente les cartes a coin arrondi? % Par Baptiste-Paul Grimaud en 1858, pour reduire la triche et la tortion des cartes
-[Entretien] Qu'est ce que la methode SQUARE de Charline CARON? % C'est une methode pour parler de soit en entretien pro: Succes (ce que tu as reussi) QUalité (tes points forts) Affirmation (ce que tu souhaite, quels sont tes besoins qui match avec l entreprise) REbond (pose ta question d'approfondissement)
-[Entretien] Lors de la demande de defaut, que repondre? % Il faut un default sur les competences, surtout pas sur la personnalité, que l'employeur puisse se projeté sur comment l'ameliorer, et montrer que l'on travaille dessus
-[Happy Work] Qu est ce que la bienveillance selon Gael Chatelain-Berry? % Mettre l'humain au centre de tout, preter attention a l'autre, ne jamais faire a qqn ce que je ne supporterais pas qu'on me fasse. Etre poli, disponible, empathique, ponctuel, sourire, fiable, positif, exemplaire, calme et a l'ecoute
-[Love] Quel est la definition de l'amitié et de l'amour selon Benjamin Castaldi ? Amitie: c est ce qu'il nous reste quand on a tout perdu, Amour: C'est quand tout perdre n'a plus d'importance
-[CNV] Comment mettre en place de la CNV? % Exprimer les faits puis (et uniquement ensuite) le ressenti et enfin le besoin
-[IT] Comment s'appele le logo de discord? % clyde
-[Happy Work] Qu est ce que le reveil de forme selon Happy Work? % Le fait d'avoir le sentiment d'avoir fait une grace matinee en se reveillant avant que son reveil ne sonne
-[Myth] Qui est Despoina? % Deesse de l'hiver, enfant du viol de demeter par Hephaistos, femme Boreas, le dieux des vents froid
-[Relation] Quels sont les echelles de notoriété de Fabien Olicard? % 0-Chacun d'entre nous connaissons des centaines de personnes, 1-Une fois qu'une communité est monté on connait des milliers de personne, 2-Millions de personne, youtubeur, influencer, au dela, 3-les stars, tout le monde connait leur nom sur tout le territoire, 4-Les stars confirmées, ils ont du mal a aller dans la boulangerie, on connait leur vie, leur valeur, 5- la Légende, zidane, leonardo dicaprio, johnny Hallyday
-[Math] Pour un cadrillage de 3 carré sur trois, comment savoir combient il y a de carré ? % la somme de 1 au nombre de carré sur un coté, au carré, pour l exemple 1x1+2x2+3x3=14 carrés
-[Happy Work] quels sont les 5 secrets pour avoir une bonne image en entreprises ? % être de bonne humeur, toujours être positif, tenir ses promesses, ne pas être en retard, être à l ecoute
-[Semantique] qu'est ce que la peur des palyndrome? % eibohphobie
-[Geographie] qu elle est le point commun entre le liechtenstein et l'ouzbékistan ? % ce sont les 2 seuls pays a etre entouré par des pays qui n'ont aucun acces a la mere, ils sont doublement enclavé
-[Psyco] Qu est ce que le conditionnement operant ? % le système de recompense et de punission, la carotte et le baton
-[Psyco] Qu est ce que l experience de H? %l experience demontrant la preuve social, le fait de se conformer pour ne pas être regeté
-[Miam] Qu est ce que l'echelle de scovile ?% L'echelle du picant
-[Entreprenariat] Quels sont les 4 categories de complement de revenu selon pose ta dem ? % proposer des services et des compétences, louer tes proprietes et tes equipements, vendre tes affaires en 2nd mains, utiliser le web a ton avantage
-[Voc] Qu'est ce qu'un Béké ? % Aux Antilles françaises, un béké est un blanc créole descendant des premiers colons
-[Animal] Qu est ce que le specisme? % il est speciste de traiter des intérêt similaire de facon difference selon l espece (ex: intérêt a ne pas souffrir)
-Quel est le seul mot francais qui prend un U entre le g et le a  pour faire le son [ga] ? % distinguable
-Qu est ce qu un arctophile ?% un collectionneur de peluche
-Pourquoi l ours en peluche s appelle teddy bear en anglais ? % en l honneur de Theodore Roosevelt qui après une journée de chasse a l ours infructueuse, ses collègues chasseurs lui ont proposé d abattre un ourson blesser attaché a un arbre, il a refuse outré et a ordonné de le relacher
-Le 25 decembre c est l anniversaire d eeyore, mais qui est il ? % bourriquet de winnie l ourson
-On connait tous le visage du colonel sanders ? % c est le visage sur Kentuky fried chicken, faux colonel
-Que signifie "il revient de poitier" et pourquoi ? % Que c est un menteur,  dans la dernière piece de corneille, le menteur, un adolescent revenant de poitier raconte qu il s est marié la bas.
-Quel est la difference l accouplement du coq et de la poule de celui de la cannes et du canard ? % il y a penetration chez le canard et coq et poule c est juste du frotement (le coq n'a pas d'organe penetrant)
-Pourquoi les autruches ont un long cou ? % facility la recherche de la nourriture, surveillance, accentuation du cri des autruches males, regulation de la temperature de la tête
-Pourquoi les autruches plantent leur tête dans le Sable en cas de danger? % c est une legende lancer pas pline l ancien, elles sont très courageuse et très maline, elles savent même utiliser les mirages lors ce qu elles ont besoin de fuir
-Pourquoi les flammand rose sont rose? % a cause des crevettes dont elles se nourrissent
-Comment lutter contre les courbatures ? % Contre les courbatures preferez l'activite douce (meme eloigne des courbatures) au repos et aux etirements
+[Book] Qui est Thomas Le Bouc ? % Dans <s>La Cagliostro se venge</s> de Maurice LEBLANC, il s'agit du nom des bookmaker

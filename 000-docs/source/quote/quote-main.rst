@@ -53,6 +53,13 @@ La repartie lorsque l on vous rabaisse:
 - La difference entre nous, c est que je peux corriger mes defauts mais que toi, tu seras toujours une personne qui eprouve le besoin de rabaisser les autres pour se cacher ses problemes !
 - J'imagine que ta journee a du etre aussi agreable que tu l'es en ce moment ? Ce serait la seule excuse a ton comportement
 
+Sherlock Holmes
+Le signe des Quatres
+"Jamais je ne devine, c est une habitude detestable qui detruit la faculté de raisonner"
+
+- Watson: "Le partage semple plutot injuste c'est vous qui avez fait tout le travail dans cette affaire. A moi il echoue une epouse, a Jones les honneurs, qui vous reste-t-il dont s'il vous plait"
+- Holmes: "A moi ? Mais il me reste la cocaine docteur"
+
 Manga
 =====
 
@@ -110,7 +117,7 @@ M. Le baron,
 
 Il y a dans la gallerie qui reuni vos 2 salons, Un tableau de philippe de champene d'excellente facture qui me plait infiniment. Vos Rubens sont aussi de mon gout, ainsi que votre plus petit Vateau.
 
-Dans ls salon de droite droite je note la credence Louis XIII les tapisserie de Beauvais le gueridon en pierre signé Jacob et le bahut, renaissance
+Dans le salon de droite droite je note la credence Louis XIII les tapisserie de Beauvais le gueridon en pierre signé Jacob et le bahut, renaissance
 
 Dans celui de gauche toutes la vitrine des bijoux et des mignatures. Pour cette fois je me contenterais de ces objets qui seront, je crois d un ecoulement facile.
 
@@ -122,6 +129,8 @@ Arsene Lupin
 
 P.S.: Surtout ne pas m'envoyer le plus grand des Vateau, quoi que vous l'ayez payer 30 000 a lhotel des vente ce ne st qu une copie, l'original ayant ete bruler sous le directoire par Baras, un soir d orgie. Consulter les memoires inedites de Gara. Je ne tiens pas non plus a la Chatelaine Louis XV dont l'authenticité me semble douteuse
 
+Mohamed Boclet: La peur a tué plus de rêves que l'échec ne l'a jamais fait !
+
 Other
 =====
 
@@ -129,9 +138,9 @@ Other
 
 :John Lenon: "La vie cest ce qui vous arrive quand vous etes occupe a d autre projet"
 
-:Marie-Cecile, developpeuse Android chez Diji: Le travail d’équipe c’est essentiel… en cas d’erreur, ça permet d’accuser quelqu’un d’autre
+:Marie-Cecile, developpeuse Android chez Diji: Le travail d'équipe c'est essentiel… en cas d'erreur, ça permet d'accuser quelqu'un d'autre
 
-:Marillyn Monroe: "L’imperfection, c’est la beauté. La folie, c’est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux."
+:Marillyn Monroe: "L'imperfection, c'est la beauté. La folie, c'est le génie. Il vaut mieux être totalement ridicule que totalement ennuyeux."
 
 :Somewhere: C'est l histoire d un homme qui tombe d'un immeuble de 50 etages. Le mec, au fur et a mesure de sa chute il se repete sans cesse pour se rassurer: "jusqu ici tout va bien ... jusqu ici tout va bien ... jusqu ici tout va bien" Mais l important c est pas la chute c est l atterissage
 
@@ -171,6 +180,30 @@ Si ça pète, rachète
 et si ça continu, tu l'as dans le c**
 
 David Laroche: Ne pas y croire vous garanti d echouer, y croire ne vous garanti pas d y arriver
+
+J'ai réfléchi, j'ai réfléchi et puis, à force de réfléchir, finalement j'ai pris une décision et j'ai décidé que je savais pas quoi faire. " Coup de torchon
+
+laura domenge
+"Attention je suis un vrai rebelle je suis même capable de partir sans payer d un buffet gratuit !"
+
+pink bunny
+c'est epuisant de devoir prendre des pincettes avec les gens ... je vais plutot prentre une pelle
+https://www.pinterest.ca/pinkbunny2429/
+
+Sing a bit of harmony
+On donne tout et on garde le sourire
+
+Oscar Wild: rester vous meme, tout les autres sont deja pris
+
+Kurt Kobein: Je prefere etre deteste pour ce que je suis que d'etre aimer pour ce que je ne suis pas
+
+Juju Fitcat: N'oubliez jamais que personne n'est assez riche pour se passer d'un sourire !
+
+Major Mouvement (Voila pourquoi tu te sens seul 7:37): Si jamais tu ressens de la culpabilité ou une espece de sensation de j'ai loupé ma vie parce que lui a 25 ans il a fait ca [pense que] quand tu regardes des popcorn que tu mets dans la casserole, ils petent pas tous au meme moment mais a la fin ils finissent tous par etre croustillant
+
+Lorsque qu'une porte se ferme, une autre s'ouvre, il faut la voir ou la chercher
+
+Il n'existe pas de limites à ce que vous pouvez accomplir, exceptées les limites de votre propre esprit. ” Darwin P. Kingsley
 
 Scientist
 =========

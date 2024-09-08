@@ -5,3 +5,5 @@
 * https://larecette.net/
 * https://www.bottingourmand.com/recettes
 * https://www.cuisine-etudiant.fr
+* aaron et claire
+* le riz jaune

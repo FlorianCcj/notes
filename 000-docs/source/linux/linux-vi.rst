@@ -14,6 +14,24 @@ Sort a part of a file
 * :code:`up and down`: to select the part to sort
 * :code:`:sort`: to sort :v:
 
+Learn Linnux TV Vim
+********************
+
+vim
+vim <file name>
+
+:q
+i
+escape
+:q!
+:wq
+:w
+`A` append at the end of the line
+`u` undo
+normal mode
+: command mode
+i insert mode
+
 Sources
 *******
 
