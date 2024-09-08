@@ -1,0 +1,10 @@
+---
+- name: "install terraform by tfenv"
+  ansible.builtin.command: tfenv install latest
+
+- name: "add terraform auto complete in alias"
+  import_role:
+    name: "env_alias"
+  vars:
+    env_alias_list:
+      - terraform -install-autocomplete

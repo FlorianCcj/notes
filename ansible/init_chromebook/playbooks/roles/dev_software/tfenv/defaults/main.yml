@@ -1,0 +1,4 @@
+---
+tfenv_clone_url: https://github.com/tfutils/tfenv.git
+tfenv_install: no
+tfenv_path_to_install: ~/software

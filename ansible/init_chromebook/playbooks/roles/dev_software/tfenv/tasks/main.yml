@@ -1,0 +1,25 @@
+---
+# https://github.com/tfutils/tfenv
+- when: tfenv_install | bool
+  block:
+  - name: "create soft dir: {{ tfenv_path_to_install }}"
+    file:
+      path: "{{ tfenv_path_to_install }}"
+      state: directory
+      mode: '0755'
+      recurse: yes
+
+  - name: Git clone tfenv
+    ansible.builtin.git:
+      repo: '{{ tfenv_clone_url }}'
+      dest: "{{ tfenv_path_to_install }}/tfenv"
+      version: master
+    ignore_errors: yes
+
+  - name: "Add {{ tfenv_path_to_install }}/tfenv/bin to path"
+    import_role:
+      name: "env_vars"
+    vars:
+      env_vars_list:
+        - "export PATH=$PATH:{{ tfenv_path_to_install }}/tfenv/bin"
+        - "export TFENV_AUTO_INSTALL=true"
