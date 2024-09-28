@@ -1,0 +1,126 @@
+- bonjour: main en moufle, de dos, vertical, le bout des doigts au niveau du menton, puis va pour se placer face en l'air
+- oui: comme ne plonger
+- ca va, main active en pistolet, face en l'air, index et majeur se plit deplit replit, expression du visage en question
+- non categorique, ou interdiction: N avec le pouce sur le ring finger, devant l'epaule opposé, coup d'épee vers le bas
+- moi, toi, il: main en S avec l'index levé, pointe vers la personne
+- et toi: toi > ca va
+
+- pardon: main passive en moufle, face au ciel, main active en moufle, face au sol, posé perpendiculairement a la min passive fait de rond
+- francais signé: main passive en moufle, face au ciel, main active en 4, doigt vers le bas, de dos, index et majeur pose verticalement sur la main passive va du poignet au bout des doigts
+
+- Bonjour: main en M a la verticale, de dos, le bout des doigts sur le menton, puis la main face au ciel
+- Ca va: Main en pistolet, vers le ciel, plit, deplit, replit
+- Est ce que ca va ?: Ca va + expression interrogative
+- oui: pouce et index en O, les 3 doigts ecartés, de profil, puis de dos, va et vient
+- oui, ca va: oui + ca va
+- Merci: Bonjour, sauf que la main en biais
+- Merci, et toi?: Merci + (main en S + index vers la personne)
+- ca ne va pas: Non de l'index + ca va
+- non categorique, ca ne va pas du tout: U de l'epaule passive a la hanche active + ca va
+- au revoir: main en M, au dessus de l'epaule plis deplie les doigts
+- salut, bye: main en M, au niveau de la tempe, relevé comme un salut militaire
+- bon: main en canard, de dos, au niveau de la bouche, bouge jusqu'a etre vers le ciel et ouvert (ou reste fermé)
+- journée: main passive, coude levé, main en mouffle, vers le sol, main active, vertical de dos, part de sous la main passive, du coté du signeur, passe par dessus la main passive et replonge coté recepteur (comme le soleil qui se leve puis se couche)
+- bonne journée: bon + journée
+- apres midi: main en M, de profil, au niveau du menton, puis pli la main pour faire un angle droit
+- bonne apres midi: bon + apres midi
+- a bientot: main en S, pouce sur le haut, de profil, pouce a l interieur de l'index, on deplit l'index puis le replace et on recommence en avancant la main
+- pardon: main passive en M, face vers le ciel, doigt vers le recepteur, main active en M vers le sol,doigt vers le coté passif, fait des petit rond sur la main passive
+- désolé: main en S, de profil, fait des rond au niveau du pectoral passif
+- francais signé: main passive en M, face au ciel, main active en 4, doigt vers le bas, de dos, index et majeur pose verticalement sur la main passive va du poignet au bout des doigts
+- grave: main en 3, de profil, devant l'epaule passive, fermé la main et tirer jusqu'a l'epaule  active
+- pas grave: grave + non
+
+- Comprendre: main en 3, de face, au niveau de la tempe, on ferme les doigts (l'idee est entre dans la tete)
+- je ne comprends pas: comprendre + non
+- je ne comprends pas: forme en 3 ferme, de profil, au niveau de l'epaule active, s'ouvre en alant vers l'epaule passive
+- repeter: main passive en M, vers le sol, mais active en R, commence a la hauteur de la main passive, passe en dessous et remonte de l'autre coté (x2)
+- encore: main passive en calendrier, main active en angle droit, vient tapper la main passive en son centre
+- plus doucement: main en feuille, vers le sol, les 2 mains vont de haut en bas
+- calmement: les 2 mains en canard ouvert, se ferment alignés et s'ecartent
+- s'il te plait: en B, l'index part de l'oeil et va au menton
+- erreur/se tromper: en J, de dos, 3 doigts sur le menton
+- recommencer/reviser: repeter mais un seul aller
+- pardon, j'ai fait une erreur, je recommence: pardon + erreur + recommencer
+
+- Bon appetit, a table: main en S, vers le sol, tappe 2 fois sur la table
+- Bon appetit, pas a table: main passive en M, vers le sol, main active en S, vers le sol, tappe 2 fois sur la main passive
+- Merci: Bonjour, sauf que la main en biais
+- De rien: main en A, de profil, pouce sous le menton, va vers la personne
+- Interessant: main en contact, de dos, a l'horizontal majeur posé sur la poitrine passive, on frotte la poitrine du bas vers le haut, plusieurs fois
+- important: main passive en pointeur, vers le sol, main active en pointeur, vers le ciel, l'index va toucher l'autre index puis etre de dos au niveau de l'epaule active
+- interdit: les 2 mains en pointeur, vers le sol, main active l'index va tapper en descendant l'index passif
+
+- Je: main en pointeur, pointer vers soi
+- S'appeler/prénom: 2 mains en N, main passive au 3/4, main active tappe 2 fois dessus
+- nom signe: 2 main en pointeur, en biais, face a face, fait de moulinet alterne en allant vers soit par le haut + un leger recule du buste
+- ne pas avoir: main en ok, depuis l interieur vers l'exterieur par le bas en synchrone, en faisant non de la tete
+
+- sourd: main en pointeur, poser sur l'oreille comme pour la boucher, puis sur la bouche
+- entendant: main en V, de dos, majeur sur le lobe, faire un cercle en partant sur le cote et revenir sur le lobe plusieur fois
+- malentendant (perdu l'audition a cause de l'age): main en canard, de profil devant l'oreille, ouvrir et ferme plusieur fois en s'eloignant
+- muet: main en ok, de profil, sur la comissure des levres, ferme la bouche comme une fermeture eclair
+
+- age: main passive en M, vers le ciel, doigt vers le recepteur, main active, en M vers le bas, via la frapper perpendiculairement 2 fois
+- 32: comme en dactilology on ecrit de gauche a droite, 3 puis 2
+- annee: 2 mains en S, de dos, main active sur la passive, la MP fait le tour de la M2 par l'avant puis revient en place
+
+- metier: 2M en angle droit, de profil, face a face, MP vient caresser M2, puis vice versa, rester sur le meme niveau
+- travailler: 2M en S, de dos, MP frappe sur M2 2 fois
+- ensemble: MP en L, le pouce nous indique, puis l'index indique l'autre 2 fois
+- enseigner: 2M en canard ouvert, forme un cercle au niveau du visage, fait un cercle jusqu'au cou en passant en bec ferme, puis petit mouvement vers l'autre plusieur fois
+- habiter: 2M en canard ouvert, de face, au niveau des epaules, on descend les mains, puis on les ferment
+- habiter: 2M en canard ouvert, de face, au niveau des epaules, on les avance sur le coté, puis on les ferment
+- ville: 2M en V, de dos, au niveau des epaules, le tourner de face
+- village: 2M en V, vers le sol, les index se touche presque, les 2 vont de bas en haut en se tappant l'index alternativement
+- maison: 2M en M, positionner en forme de toit
+- appartement: MP en 3, DS, on descend legerement la main, puis elle revient en place, puis on la monte, on recommence le va et vient vers le bas, puis on remonte, et on refait la descente remonte
+- immeuble: 2M en crochet, DP face a face, aller vers le haut, comme pour former une tour
+- nom de ville: dactylology
+- lyon: MP en L, DS, pouce sur la tempe, descend vers l'avant puis remonte pour etre DF
+- paris: M2 en M, DC, doigt vers le recepteur, MP en P, forme la tour eiffel sur la M2
+- paris: MP en P, au niveau de la tempe, 2 petit mouvement vers le haut (P dans le nord)
+
+- celibataire: 2M en OK, DF, la main se place le rond sur le sternum alternativement, plusieur fois
+- marié: M2 en feuille, MP en OK, le pouce et l'index vient placer une bague sur le ring finger de la M2, une seul fois
+- divorcé: M2 en feuille, MP en OK, le pouce et l'index vient retirer une bague sur le ring finger de la M2, une seul fois
+- ami: 2M en M, les doigts viennent se crocheter l'une l'autre au niveau du sternum
+- ami: 2M en M, le pouce sorti, MP vient saisir M2
+- pacs: ami (il faut voir le context)
+- couple: MP en L, DF, devant l'epaule active, fermer le pouce et l index, une seule fois
+- veuf: MP en V, DF, devant l'epaule, plit deplit replit les doigts, (entre guillemet)
+
+- famille: 2M en canard, DS, devant soit, cercle tournant le bec vers l'exterieur, fini pret du corps, en angle droit, doigt vers le sol, cote a cote
+- homme: MP en bec, attrape la moustache et l'etend sur le coté
+- garcon: MP en A, tire un trait avec le pouce d une tempe a l autre
+- femme: MP en pointeur, DF, index descend de l'oeil au menton
+- fille: femme x2
+- parent: MP en pointeur, DD, va de la pomette a l'oreille,puis DF va de l'oreille au menton
+- parent: homme > femme
+- papa: MP en L, DP, ferme les doigts au niveau de la comissure des levres
+- maman (sud): MP en B, DF, index vient toucher 2 fois la joue
+- maman (nord): MP en B, DC, petit doigt vient toucher 2 fois sous la poitrine
+- maman (centre): MP en A, DD, pouce vient toucher 2 fois sous la comissure des levres
+- personne: MP en crochet, DP, va de haut en bas une fois
+- agé: MP en S, vient la poser sous le menton
+- grand parent: parent + agé
+- grand pere: papa + agé
+- grand mere: maman + agé
+- grand mere paternel: maman + agé + papa
+- enfant: MP en canard, DC, de haut en bas une fois
+- bébé: MP en canard, DC, tourne comme des marionettes
+- bébé: M2 vient prendre le coude actif, MP en canard, vient se poser sur le coude passif
+- adolescent: main en 4, tapote la joue active en faisant des rond
+- adolescent: main en pointeur, tapote la joue active en faisant des rond
+- soeur: MP en S, DF, tappe 2 fois sur le coté passif
+- soeur: 2M en S, DF, tappe 2 fois l'une sur l'autre
+- frere: MP en F, DF, tappe 2 fois sur le coté passif
+- frere: 2M en F, DF, tappe 2 fois l'une sur l'autre
+- demi: 2M en pointeur, M2, DS, pointant coté actif, l'index, DP, coupe en 2 l'index M2 puis va en dessous
+- demi frere: demi + frer
+- belle/beau: main en canard ouvert, vient se placer sur le menton, descend en se fermant
+- belle soeur: belle + soeur
+- parain: MP en A, le pouce trace un "+" sur le front + homme/femme
+- niece/neuveux: main en N, DD, faire un cercle en commencant par le coté actif, vers le haut + garcon/fille
+- tante: 2M en O, monte puis descent
+- oncle: 2M en T, monte puis descent
