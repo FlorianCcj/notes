@@ -31,6 +31,7 @@
 2023.02.08 - voisin en colere: https://justdaz.com/pqmqk31e7/b/justdaz/13027164189
 2023.02.08 - morgan: https://justdaz.com/pqmqk31e7/b/justdaz/13029080935
 
+
 To see
 - elementaire
 - vice-versa 2
@@ -39,5 +40,7 @@ To see
 - cruela 2021
 - raya et le dernier dragon 2021
 - en avant 2019
+- 2024 un retraite d enfer
+- 2024 le robot sauvage
 2024.10.30 - Flow
 2024-elian et le sortilege

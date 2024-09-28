@@ -9,6 +9,15 @@ Psy
 Mentalism
 https://www.ouimusique.coach/cest-presque-fini-derniere-etape/?tve_name=Florian&email=florianccj%40gmail.com&Musicien=Amateur%2C%20Bient%C3%B4t%20Pro&Instruments=Piano%20%2F%20Clavier%2C%20Guitare%20%2F%20Basse%2C%20Vent%20%2F%20Cuivre%2C%20Batterie%20%2F%20Percu%2C%20Cordes%20frott%C3%A9es%2C%20Autres
 
+
+- phenix W7
+- Paradox
+- dev app
+- chorale
+- forman
+- forman - remboursement convention
+- appel lulu
+
 todo - K8s
 todo - PSY
 
@@ -20,7 +29,6 @@ assertifs
 
 - daily phenix
 
-- phenix W7
 - psy
 - forman verifier aspect legal
 
@@ -199,3 +207,9 @@ Work - Read WHO
 Work - Tilt for CV
 
 ZZZ-FINISHED-DONE - Soft - Voice - Mad project
+
+Dev Perso, energy
+
+Paulo Coelho ou de Laurent gounelle
+
+Sinon ce sont aussi des rencontres et des soins énergétique que j'ai fais ensuite par curiosité d'abord type shiatsu méditation reiki sophrologie
