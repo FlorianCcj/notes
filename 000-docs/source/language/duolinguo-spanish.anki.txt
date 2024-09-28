@@ -1,0 +1,7 @@
+[ES-U001L03] V - por favor % please
+[ES-U001L03] V - el pan % bread
+[ES-U001L03] V - spanish % Espanol
+[ES-U001L03] V - inglés % English
+[ES-U001L03] V - Disculpe % Excuse me
+[ES-U001L03] P - Yo hablo inglés % I speak English
+[ES-U001L03] P - Tu hablas inglés % You speak English

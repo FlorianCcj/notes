@@ -1,0 +1,16 @@
+[lsf-lbb-005] Soleil % rh, Main en 5, Comme si on tenait un balle, au niveau de la tete droite, doigts ver l'ariere, on les ramene vers l'avant puis tout petit mouvement
+[lsf-lbb-005] Pluie % 2h, Main en 5, une au niveau de l'oreille, une au niveau du front, dessiner le mouvement de la pluie, les poignets font bouger les mains de haut en bas
+[lsf-lbb-005] Neige (qui tombe) % 2h, Main en 5, une au niveau de l'oreille, une au niveau du front, decendre les mains jusqu'en dessous des epaules en remuant les doigts
+[lsf-lbb-005] Vent % 2h, en V, paume face a face,arc de cecle decendant vers la gauche, puis finir le cercle, et recommence
+[lsf-lbb-005] Nuage % 2h en 5, au niveau du front a droite, paume face a face, perpendiculaire, twister les mains, en les separerant et en resserant les doigts
+[lsf-lbb-005] Orage % rh, index en crochet, descend du front a dessous de l epaule en eclair a plusieurs pliures
+
+[lsf-lbb-006] Salle de bain % 2h, poing fermé, se frotter un peu en dessous des epaules
+[lsf-lbb-006] Se laver les mains % 2h, mimer l'action, la paume sur le dos d'une main, puis l'autre et ainsi de suite
+[lsf-lbb-006] Douche % rh, ferme au dessus de la tete, ouvrir la main comme la douche qui projette de l'eau
+[lsf-lbb-006] Serviette % rh, plat, 90 degre, bout des doigts d'abord un peu a cote de l'aiselle oposé, puis coté main qui signe
+[lsf-lbb-006] Savon % rh, poing ferme, frotter le menton en rond vers l'avant (horaire)
+[lsf-lbb-006] Dentifrice % lh, index tendu, lh en pistolet, l'index va deposer le dentifrice sur l'index de la brosse a fent
+[lsf-lbb-006] Brossage de dent % rh, index tendu, se brosse les dents avec
+[lsf-lbb-006] Se peigner % rh, poing, frotte la tempe comme si on se peignait
+[lsf-lbb-006] Se laver la figure % rh, main a plat, tourne horaire devant la face

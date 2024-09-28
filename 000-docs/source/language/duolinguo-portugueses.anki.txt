@@ -1,0 +1,7 @@
+[IT-U001L02] V - pao % bread
+[IT-U001L02] V - agua % water
+[IT-U001L02] V - e % and
+[IT-U001L02] V - leite % milk
+[IT-U001L02] V - uma maçã % an apple
+[IT-U001L02] P - Eu como pao % I eat bread
+[IT-U001L02] P - Eu bebo leite e eu como pao % I drink milk and I eat bread
