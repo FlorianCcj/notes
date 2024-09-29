@@ -1,55 +1,57 @@
-- bonjour: main en moufle, de dos, vertical, le bout des doigts au niveau du menton, puis va pour se placer face en l'air
-- oui: comme ne plonger
-- ca va, main active en pistolet, face en l'air, index et majeur se plit deplit replit, expression du visage en question
+- bonjour: 2M en moufle, DD, vertical, le bout des doigts au niveau du menton, puis va pour se placer face en l'air
+- oui: comme en plonger
+- ca va, MP ou 2M en pistolet, DC, index et majeur se plit deplit replit, expression du visage en question
 - non categorique, ou interdiction: N avec le pouce sur le ring finger, devant l'epaule opposé, coup d'épee vers le bas
-- moi, toi, il: main en S avec l'index levé, pointe vers la personne
+- moi, toi, il: MP en pointeur, pointe vers la personne
 - et toi: toi > ca va
 
-- pardon: main passive en moufle, face au ciel, main active en moufle, face au sol, posé perpendiculairement a la min passive fait de rond
-- francais signé: main passive en moufle, face au ciel, main active en 4, doigt vers le bas, de dos, index et majeur pose verticalement sur la main passive va du poignet au bout des doigts
+- pardon: M2 en moufle, DC, MP en moufle, DS, posé perpendiculairement a la M2 fait de rond
+- francais signé: M2 en moufle, face au ciel, main active en 4, doigt vers le bas, de dos, index et majeur pose verticalement sur la MP va du poignet au bout des doigts
 
-- Bonjour: main en M a la verticale, de dos, le bout des doigts sur le menton, puis la main face au ciel
-- Ca va: Main en pistolet, vers le ciel, plit, deplit, replit
+- Bonjour: MP en M, DD, le bout des doigts sur le menton, puis la main DC
+- Ca va: MP ou 2M en pistolet, DC, plit, deplit, replit
 - Est ce que ca va ?: Ca va + expression interrogative
 - oui: pouce et index en O, les 3 doigts ecartés, de profil, puis de dos, va et vient
 - oui, ca va: oui + ca va
 - Merci: Bonjour, sauf que la main en biais
-- Merci, et toi?: Merci + (main en S + index vers la personne)
+- Merci, et toi?: Merci + (main en pointeur vers la personne)
 - ca ne va pas: Non de l'index + ca va
 - non categorique, ca ne va pas du tout: U de l'epaule passive a la hanche active + ca va
-- au revoir: main en M, au dessus de l'epaule plis deplie les doigts
-- salut, bye: main en M, au niveau de la tempe, relevé comme un salut militaire
-- bon: main en canard, de dos, au niveau de la bouche, bouge jusqu'a etre vers le ciel et ouvert (ou reste fermé)
-- journée: main passive, coude levé, main en mouffle, vers le sol, main active, vertical de dos, part de sous la main passive, du coté du signeur, passe par dessus la main passive et replonge coté recepteur (comme le soleil qui se leve puis se couche)
+- au revoir: MP en M, au dessus de l'epaule plis deplie les doigts
+- salut, bye: MP en M, au niveau de la tempe, relevé comme un salut militaire
+- bon: main en canard, de dos, au niveau de la bouche, bouge jusqu'a etre DC et ouvert (ou reste fermé)
+- journée: M2, coude levé, main en mouffle, DS ???, MP, DD, part de sous la main passive, du coté du signeur, passe par dessus la main passive et replonge coté recepteur (comme le soleil qui se leve puis se couche)
 - bonne journée: bon + journée
-- apres midi: main en M, de profil, au niveau du menton, puis pli la main pour faire un angle droit
+- apres midi: MP en M, de profil, au niveau du menton, puis pli la main pour faire un angle droit
 - bonne apres midi: bon + apres midi
-- a bientot: main en S, pouce sur le haut, de profil, pouce a l interieur de l'index, on deplit l'index puis le replace et on recommence en avancant la main
-- pardon: main passive en M, face vers le ciel, doigt vers le recepteur, main active en M vers le sol,doigt vers le coté passif, fait des petit rond sur la main passive
-- désolé: main en S, de profil, fait des rond au niveau du pectoral passif
-- francais signé: main passive en M, face au ciel, main active en 4, doigt vers le bas, de dos, index et majeur pose verticalement sur la main passive va du poignet au bout des doigts
-- grave: main en 3, de profil, devant l'epaule passive, fermé la main et tirer jusqu'a l'epaule  active
+- a bientot: MP en S, DP, pouce sur le haut, de profil, pouce a l interieur de l'index, on deplit le pouce puis le replace et on recommence en avancant la main
+- pardon: M2 en M, face vers le ciel, doigt vers le recepteur, MP en M vers le sol,doigt vers le coté passif, fait des petit rond sur la main passive
+- désolé: MP en S, de profil, fait des rond au niveau du pectoral passif
+- francais signé: main passive en M, face au ciel, main active en 4, doigt vers le bas, DD, index et majeur pose verticalement sur la main passive va du poignet au bout des doigts
+- grave: main en 3, de profil, devant l'epaule passive, fermé la main et tirer jusqu'a l'epaule active
 - pas grave: grave + non
 
 - Comprendre: main en 3, de face, au niveau de la tempe, on ferme les doigts (l'idee est entre dans la tete)
 - je ne comprends pas: comprendre + non
-- je ne comprends pas: forme en 3 ferme, de profil, au niveau de l'epaule active, s'ouvre en alant vers l'epaule passive
-- repeter: main passive en M, vers le sol, mais active en R, commence a la hauteur de la main passive, passe en dessous et remonte de l'autre coté (x2)
-- encore: main passive en calendrier, main active en angle droit, vient tapper la main passive en son centre
-- plus doucement: main en feuille, vers le sol, les 2 mains vont de haut en bas
-- calmement: les 2 mains en canard ouvert, se ferment alignés et s'ecartent
-- s'il te plait: en B, l'index part de l'oeil et va au menton
-- erreur/se tromper: en J, de dos, 3 doigts sur le menton
+- je ne comprends pas: forme en 3 ferme, DP, au niveau de l'epaule active, s'ouvre en allant vers l'epaule passive
+- repeter: M2 en M, DS, MP en R, commence a la hauteur de la main passive, passe en dessous et remonte de l'autre coté (x2)
+- encore: MP en calendrier, MP en angle droit, vient tapper la main passive en son centre
+- plus doucement: MP en feuille, DS, les 2 mains vont de haut en bas
+- calmement: M2 en canard ouvert, se ferment alignés et s'ecartent ???
+- s'il te plait: MP en B, DF???, l'index part de l'oeil et va au menton
+- erreur/se tromper: en J, de dos, 3 doigts sur le menton ???
 - recommencer/reviser: repeter mais un seul aller
 - pardon, j'ai fait une erreur, je recommence: pardon + erreur + recommencer
 
-- Bon appetit, a table: main en S, vers le sol, tappe 2 fois sur la table
-- Bon appetit, pas a table: main passive en M, vers le sol, main active en S, vers le sol, tappe 2 fois sur la main passive
+- Bon appetit, a table: MP en S, DS, tappe 2 fois sur la table
+- Bon appetit, pas a table: M2 en M, DS, MP en S, vers le sol, tappe 2 fois sur la M2
 - Merci: Bonjour, sauf que la main en biais
-- De rien: main en A, de profil, pouce sous le menton, va vers la personne
-- Interessant: main en contact, de dos, a l'horizontal majeur posé sur la poitrine passive, on frotte la poitrine du bas vers le haut, plusieurs fois
-- important: main passive en pointeur, vers le sol, main active en pointeur, vers le ciel, l'index va toucher l'autre index puis etre de dos au niveau de l'epaule active
-- interdit: les 2 mains en pointeur, vers le sol, main active l'index va tapper en descendant l'index passif
+- De rien: MP en A, DP, pouce sous le menton, va vers la personne
+- Interessant: MP en contact, DD, a l'horizontal majeur posé sur la poitrine passive, on frotte la poitrine du bas vers le haut, plusieurs fois ???
+- important: M2 en pointeur, DS, MP en pointeur, DC, l'index va toucher l'autre index puis etre DD au niveau de l'epaule active
+- interdit: 2M en pointeur, DS, MP l'index va tapper en descendant l'index M2
+
+<-------->
 
 - Je: main en pointeur, pointer vers soi
 - S'appeler/prénom: 2 mains en N, main passive au 3/4, main active tappe 2 fois dessus
@@ -61,7 +63,7 @@
 - malentendant (perdu l'audition a cause de l'age): main en canard, de profil devant l'oreille, ouvrir et ferme plusieur fois en s'eloignant
 - muet: main en ok, de profil, sur la comissure des levres, ferme la bouche comme une fermeture eclair
 
-- age: main passive en M, vers le ciel, doigt vers le recepteur, main active, en M vers le bas, via la frapper perpendiculairement 2 fois
+- age: main passive en M, vers le ciel, doigt vers le recepteur, main active, en M vers le bas, via la frapper perpendiculairement 2 fois ???
 - 32: comme en dactilology on ecrit de gauche a droite, 3 puis 2
 - annee: 2 mains en S, de dos, main active sur la passive, la MP fait le tour de la M2 par l'avant puis revient en place
 
