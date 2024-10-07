@@ -55,15 +55,15 @@
 
 - Je: main en pointeur, pointer vers soi
 - S'appeler/prénom: 2 mains en N, main passive au 3/4, main active tappe 2 fois dessus
-- nom signe: 2 main en pointeur, en biais, face a face, fait de moulinet alterne en allant vers soit par le haut + un leger recule du buste
-- ne pas avoir: main en ok, depuis l interieur vers l'exterieur par le bas en synchrone, en faisant non de la tete
+- nom signe: M2 en pointeur, en biais DS/DP, face a face, fait de moulinet alterne en allant vers soit par le haut + un leger recule du buste
+- ne pas avoir: 2M en ok, DF, commence au plexus, va a l epaule en demi cercle par le bas puis fini le tour, en faisant non de la tete
 
 - sourd: main en pointeur, poser sur l'oreille comme pour la boucher, puis sur la bouche
 - entendant: main en V, de dos, majeur sur le lobe, faire un cercle en partant sur le cote et revenir sur le lobe plusieur fois
 - malentendant (perdu l'audition a cause de l'age): main en canard, de profil devant l'oreille, ouvrir et ferme plusieur fois en s'eloignant
 - muet: main en ok, de profil, sur la comissure des levres, ferme la bouche comme une fermeture eclair
 
-- age: main passive en M, vers le ciel, doigt vers le recepteur, main active, en M vers le bas, via la frapper perpendiculairement 2 fois ???
+- age: M2 en M, DC, doigt vers le recepteur, MP, DS, en M, via la frapper perpendiculairement 2 fois
 - 32: comme en dactilology on ecrit de gauche a droite, 3 puis 2
 - annee: 2 mains en S, de dos, main active sur la passive, la MP fait le tour de la M2 par l'avant puis revient en place
 
