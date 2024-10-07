@@ -36,6 +36,8 @@ git diff --staged
 git diff --color-words
 git diff --color-words=.
 
+List commit diff between local and remote: git log master..@{u}
+
 git log
 *******
 
