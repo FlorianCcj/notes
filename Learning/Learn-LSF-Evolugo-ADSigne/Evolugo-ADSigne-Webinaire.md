@@ -168,6 +168,77 @@ La dactilologie (l'alphabet)
 Facebook "Eleves AD Signes"
 
 ## 2024.07.30, Webinaire numero 04
+
+Le temps
+En fonction de la position du signe, cela indique la temporalite
+- vers l ariere, dans le passé
+- juste devant le torse: le present
+- un peu en avant: l'avenir
+
+- il y a tres longtemps: MP, DD, de grand geste deriere l'epaule
+- avant: MP en M, DD, se pli en angle droit au niveau de l'epaule
+- recemment: MP en M, DD, touche avec le bout des doigts sur l'epaule
+- tout a l heure: MP avec l'index en corchet, se pose 2 fois sur le menton
+- tout a l heure (dans le passé): tout a l'heure + avant
+- maintenant: 2M en moufle, DC, index vers l'avant, descend remonte 2 fois
+- pendant: 2M en moufle, DS, tourne devant soit de maniere alterné MP au dessus
+- apres: MP en M, DD/DS, se pointant soit, puis allant DC
+- plus tard: MP en feuille, DD, rebondit 2 fois vers l'avant
+- tout a l heure (dans le futur): tout a l'heure + plus tard
+- Prochain: MP en pointeur, se pointant sois puis vers l'avant
+- la derniere: prochain mais vers l'ariere deriere l'epaule
+- la derniere fois: la derniere + les 2 index en crois
+- hier: MP en A, DP, montre l'ariere
+- demain: MP en A, DP, par de la joue puis le pouce va vers l'avant
+- matin: M2 en M, DD, a l horizontal, MP en M, DD a la verticale passe deriere la M2 et monte au dessus
+- midi: MP en M, DP, coupe la bouche en 2
+- apres midi: midi + la main par en angle droit
+- soir: M2 en M, DD, a l'horizontal, MP en angle se pose sur la M2
+- journée: matin + soir
+- a tout a l'heure: plus tard
+
+- Lundi: MP en L, dessine un cercle
+- Mardi: MP en A, dessine un cercle
+- Mercredi: MP en E, dessine un cercle
+- Jeudi: MP en J
+- Venderdi: MP en V, dessine un cercle
+- Samedi: MP en S, dessine un cercle
+- Dimanche: MP en D, dessine un cercle
+
+- Semaine: M2 metant le coude en avant, MP an A, le pousse dessine un trait sur le bras puis la main passe en S et le haut du point se pose sur le bras
+- Jour: MP en pointeur, index par du menton et va vers l'avant
+- Jour: MP en J par de l'epaule et descend en diagonal
+
+- Janvier: MP en moufle, les bouts des doigts fait la bise a la joue active puis la passive
+- Fevrier: MP en moufle, le bout des doigts caressent le nez pour symboliser le rhume
+- Mars: MP en griffe touche le front puis touche le menton, comme le masque du carnaval
+- Avril: MP en moufle se deplace en poisson
+- Mai: MP en index, index a l'horizontal dessine la moustache puis descend au niveau du bas de la machoire
+- Juin: MP en pointeur va du menton et descend sur le bas du coup, pour indiquer qu'on a soif
+- Juilet: 2M en pointeur, DF, va vers le haut plusieur fois comme les feux d artifice
+- Aout: MP en feuille, recourber pour dessiner le soleil, dessine le soleil au dessus de la tete
+- Septembre: 2M en oui, MP va et vient pour superposer les 2 rond, comme la recuperation des raisin lors des vendanges
+- Octobre: MP en O, dessine des cercles
+- Novembre: MP en N, dessine des cercles
+- Decembre: MP en D, va du haut de la machoire au menton
+- Decembre: MP en D, par s du menton et dessine une barbe
+
+- Automne: M2 en M, droit comme un arbre, MP en feuille, tournant au niveau du poignet comme une feuille qui tombe
+- Printemps: Matin, mais MP fini en feuille comme un fleur qui eclot
+- Ete: MP en contact essuie la sueur du front
+- Hiver: MP en canard, la main tourne sur le poignet comme eventant
+- Froid: cf Hiver
+- Saison: 2M en feuille, DF, le majeur et le pouce se touche se separent plusieur fois
+
+- la pluie: 2M en feuille, DS, doigt tombant vers le bas
+- la neige: 2M en feuille, DF, les doigts ondulent en descendant les mains
+- soleil: MP en feuille, recourber pour dessiner le soleil, dessine le soleil au dessus de la tete
+- nuage: 2M en feuille, partant du coté passif, le doigt se courbe et se detende jusqu'au coté actif
+- verglas: M2 en 5, DC, MP en M, DS part de M2 et va vers l'avant
+- brouillard: 2M en 5, DF, tourne en simultané mais dans le sens contraire devant soit
+- vent: 2M en V, DP, tourne en simultané comme des bourasque de vent
+- orage: 2M fond Z
+
 ## 2024.08.06, Webinaire numero 05
 ## 2024.08.13, Webinaire numero 06
 ## 2024.08.20, Webinaire numero 07
@@ -179,6 +250,14 @@ Facebook "Eleves AD Signes"
 ## 2024.10.01, Webinaire numero 13
 ## 2024.10.08, Webinaire numero 14
 ## 2024.10.15, Webinaire numero 15
+## 2024.10.22, Webinaire numero 16
+## 2024.10.29, Webinaire numero 17
+## 2024.10.XX, Webinaire numero XX
+## 2024.10.XX, Webinaire numero XX
+## 2024.10.XX, Webinaire numero XX
+## 2024.10.XX, Webinaire numero XX
+## 2024.10.XX, Webinaire numero XX
+## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
