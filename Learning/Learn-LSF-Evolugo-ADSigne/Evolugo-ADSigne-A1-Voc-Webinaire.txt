@@ -1,71 +1,71 @@
-- (ADS-W001)(dactilo) A% poing fermé avec le pouce qui sort
-- (ADS-W001)(dactilo) B% Main ouverte, doigt collé, pouce dans la main, paume de profil
-- (ADS-W001)(dactilo) C% Doigt collé, en C
-- (ADS-W001)(dactilo) D% Tout les doigts en O, levé l'index pour faire le D, de profil
-- (ADS-W001)(dactilo) E% Main ouvert, puis le haut de doigt se referme, pareil pour le pouce, de face
-- (ADS-W001)(dactilo) F% Doigt ecarté, baisse l'index et le colle au pouce, de 3/4
-- (ADS-W001)(dactilo) G% Poing fermé, index levé, pouce collé a l index, de profil
-- (ADS-W001)(dactilo) H% index et petit doigt levé, les autres fermé, de face
-- (ADS-W001)(dactilo) I% poing fermé, petit doigt levé, de face
-- (ADS-W001)(dactilo) J% I + pouce, de face, le petit doigt tourne pour se retrouvé de dos a l'horizontal
-- (ADS-W001)(dactilo) K% Pouce posé sur le milieu du majeur, petit doigt et ring finger fermé, de profil
-- (ADS-W001)(dactilo) L% pouce horizontal, index en l'air, de face
-- (ADS-W001)(dactilo) M% B, de dos a l'horizontal
-- (ADS-W001)(dactilo) N% comme M mais que index et majeur
-- (ADS-W001)(dactilo) O% O avec le doigt, de profil
-- (ADS-W001)(dactilo) P% K qui tombe
-- (ADS-W001)(dactilo) Q% G mais vers le bas, de dos
-- (ADS-W001)(dactilo) R% index et majeur croisé
-- (ADS-W001)(dactilo) S% poing fermé, de face
-- (ADS-W001)(dactilo) T% F, mais le pouce va a l'interieur, de 3/4 (le pouce arrive sur l'index, c est le debut, puis passe de l'autre coté, c est la fin de l'alphabet)(le T le pouce est deriere car il est timide)
-- (ADS-W001)(dactilo) U% N mais en l'air de face
-- (ADS-W001)(dactilo) V% U mais avec les doigts separes
-- (ADS-W001)(dactilo) W% V mais avec un 3e doigt
-- (ADS-W001)(dactilo) X% V+pouce on fait le mouvement pour faire une griffe
-- (ADS-W001)(dactilo) Y% J, mais mouvement vers le bas
-- (ADS-W001)(dactilo) Z% Z avec l'index
-- (ADS-W001)(dactilo) tiret% avec l'index on fait un tiret
-- (ADS-W001)(dactilo) espace% main en moufle de profil, ou pouce vers la main imobile
-- (ADS-W001) je m'appele% N avec chaque main, la main active tappote sur la main passive
-- (ADS-W002)(polite) Bonjour% MP en moufle, DD, verticale, le bout des doigts partent de la bouche et vont vers le receptionneur
-- (ADS-W002)(polite) Ca va% 2M (ou MP) en pistolet DC, les 2 doigts se plit, deplit replit
-- (ADS-W002)(polite) Merci% Bonjour mais on part du menton
-- (ADS-W002)(polite) Oui% ok (pouce et index en O, majeur et ring finger U petit doigt I)
-- (ADS-W002)(polite) Non% MP en pointeur, DF, index qui va du passif a l'actif
-- (ADS-W002)(polite) Non catégorique% MP en N, DD, vertical en niveau de l'epaule, la main part a l'horizontal comme pour fermer une bariere
-- (ADS-W002)(polite) S'il te plait% MP en M, DF, index qui part de l'oeil au menton
-- (ADS-W002)(polite) De rien% MP en A, DP, le pouce au niveau du menton va vers l'avant
-- (ADS-W002)(polite) Bien% MP en A, DD, pouce vers le haut
-- (ADS-W002)(polite) Bien% MP en canard, DD, au niveau de la bouche, va vers l'avant et s'ouvre DC
-- (ADS-W002)(polite) Bon% cf bien
-- (ADS-W002)(polite) Journée% M2 en M, DD a l'horizontal, MP en M, DD, entre M2 et soit part de dessous la M2 passe au dessus, puis replonge de l'autre coté de la M2 vers le recepteur
-- (ADS-W002)(polite) Bonne journée% bon + journée
-- (ADS-W002)(polite) Soirée% Comme journée, mais que le retour vers le recepteur
-- (ADS-W002)(polite) bonne soiree% bon + soiree
-- (ADS-W002)(polite) Week-end% MP en 4, DF, recule et replie les doigts pour devenir E (W etendu -> E)
-- (ADS-W002)(polite) Bienvenue% Bon + 2M en canard ouvert doigt vers le recepteur, DC, vienne vers soit en se refermant
-- (ADS-W002)(polite) A bientot% MP en clé, le pouce sort puis revient deriere l'index en avancant la main 3 fois (allumer un briquet a l'envers)
-- (ADS-W002)(polite) Au revoir% comme d'hab
-- (ADS-W002)(polite) Pardon% 2M en moufle, M2 DC, MP DS fait des petits ronds sur M2
-- (ADS-W002)(polite) Désolé% MP en S, DS, vient faire des petits rond sur la poitrine passive
-- (ADS-W002)(polite) Bon appetit% M2 en M, DS, MP en S, DS, vient frapper sur M2 (a table on le fait directement sur la table)
-- (ADS-W002)(polite) Plaisir% 2M en moufle, DD, MP au dessus de M2, fait des petits rond dans le sens opposé l une de l autre sur le ventre et le thorax (possible juste MP)
-- (ADS-W002)(polite) Avec plaisir% cf plaisir
-- (ADS-W002)(polite) Nuit% 2M en M (ou N), DD, vertical, les 2 bras passe de vertical a horizontal comme pour fermer les barieres
-- (ADS-W002)(feeling) Content, Joyeux% cf plaisir
-- (ADS-W002)(feeling) Pleurer% 2M en pointeur, DD, les index font les larmes qui coulent des yeux et descendent pres du nez l'une apres l'autre (possible seulement MP)
-- (ADS-W002)(feeling) Triste% MP en 5, index touchant le front, descend jusqu'au menton en se fermant pour finir en S, les phalanges les plus hautes sur le menton
-- (ADS-W002)(feeling) Serieux% MP en 5, index touchant le front, descend jusqu'au menton en se fermant pour finir en 5 mais doigt en mode griffe
-- (ADS-W002)(feeling) Enervé% 2M en S, DF, monte en tournant sur eux meme jusqu'au niveau des yeux (la pression qui monte)
-- (ADS-W002)(feeling) Colere% 2M en griffe, DD, horizontal, sur la poitrine, le main fond comme si elles jettait vers l'exterieur en restant DD (on arache ses vetements, on sort de ses gonds)
-- (ADS-W002)(feeling) Ca bouillone% MP en M, DS, MP en griffe, en dessous de M2, les doigts font comme le feu qui fremi
-- (ADS-W002)(feeling) Angoissé% 2M en griffe, DD l'une au dessus de l'autre, se ferme en S en tordant les trippes
-- (ADS-W002)(feeling) Peur% 2M en 5, DD, plaquees contre la poitrine, avec un petit sursaut
-- (ADS-W002)(feeling) Stress% M2 en S, DD, le bras de biais, MP en pointeur avec le doigt en griffe, vient gratter la veine (le poul qui s'accelaire)
-- (ADS-W002)(feeling) Calme% 2M en canard ouvert, DF, forme un cercle, se separe sur les cotés en se fermant
-- (ADS-W002)(feeling) Rigolé% 2M en crochet, DD, se croisent et se decroise au niveau de la traché (possible juste MP, deboitant la machoire)
-- (ADS-W002)(feeling) Inquiet% MP en 5, les doigts font comme un massage mais a distance en tournant au niveau de la tempe
-- (ADS-W002)(feeling) Bouder% MP en C, DD, a l'horizontal, va du front au bas du cou
-- (ADS-W002)(feeling) Avoir honte% 2M en angle, DD, les doigts longeant les joues, vont su menton au yeux
-- (ADS-W002)(feeling) Fatigué% 2M en 5, DD, caresse la traché alternativement de haut en bas (l'energie descend)
-- (ADS-W002)(feeling) En forme% M2 en Calendrier, MP en clé, DP, vient tapper dans la paume de M2
+- (ADS-W001)(dactilo) A| poing fermé avec le pouce qui sort
+- (ADS-W001)(dactilo) B| Main ouverte, doigt collé, pouce dans la main, paume de profil
+- (ADS-W001)(dactilo) C| Doigt collé, en C
+- (ADS-W001)(dactilo) D| Tout les doigts en O, levé l'index pour faire le D, de profil
+- (ADS-W001)(dactilo) E| Main ouvert, puis le haut de doigt se referme, pareil pour le pouce, de face
+- (ADS-W001)(dactilo) F| Doigt ecarté, baisse l'index et le colle au pouce, de 3/4
+- (ADS-W001)(dactilo) G| Poing fermé, index levé, pouce collé a l index, de profil
+- (ADS-W001)(dactilo) H| index et petit doigt levé, les autres fermé, de face
+- (ADS-W001)(dactilo) I| poing fermé, petit doigt levé, de face
+- (ADS-W001)(dactilo) J| I + pouce, de face, le petit doigt tourne pour se retrouvé de dos a l'horizontal
+- (ADS-W001)(dactilo) K| Pouce posé sur le milieu du majeur, petit doigt et ring finger fermé, de profil
+- (ADS-W001)(dactilo) L| pouce horizontal, index en l'air, de face
+- (ADS-W001)(dactilo) M| B, de dos a l'horizontal
+- (ADS-W001)(dactilo) N| comme M mais que index et majeur
+- (ADS-W001)(dactilo) O| O avec le doigt, de profil
+- (ADS-W001)(dactilo) P| K qui tombe
+- (ADS-W001)(dactilo) Q| G mais vers le bas, de dos
+- (ADS-W001)(dactilo) R| index et majeur croisé
+- (ADS-W001)(dactilo) S| poing fermé, de face
+- (ADS-W001)(dactilo) T| F, mais le pouce va a l'interieur, de 3/4 (le pouce arrive sur l'index, c est le debut, puis passe de l'autre coté, c est la fin de l'alphabet)(le T le pouce est deriere car il est timide)
+- (ADS-W001)(dactilo) U| N mais en l'air de face
+- (ADS-W001)(dactilo) V| U mais avec les doigts separes
+- (ADS-W001)(dactilo) W| V mais avec un 3e doigt
+- (ADS-W001)(dactilo) X| V+pouce on fait le mouvement pour faire une griffe
+- (ADS-W001)(dactilo) Y| J, mais mouvement vers le bas
+- (ADS-W001)(dactilo) Z| Z avec l'index
+- (ADS-W001)(dactilo) tiret| avec l'index on fait un tiret
+- (ADS-W001)(dactilo) espace| main en moufle de profil, ou pouce vers la main imobile
+- (ADS-W001) je m'appele| N avec chaque main, la main active tappote sur la main passive
+- (ADS-W002)(polite) Bonjour| MP en moufle, DD, verticale, le bout des doigts partent de la bouche et vont vers le receptionneur
+- (ADS-W002)(polite) Ca va| 2M (ou MP) en pistolet DC, les 2 doigts se plit, deplit replit
+- (ADS-W002)(polite) Merci| Bonjour mais on part du menton
+- (ADS-W002)(polite) Oui| ok (pouce et index en O, majeur et ring finger U petit doigt I)
+- (ADS-W002)(polite) Non| MP en pointeur, DF, index qui va du passif a l'actif
+- (ADS-W002)(polite) Non catégorique| MP en N, DD, vertical en niveau de l'epaule, la main part a l'horizontal comme pour fermer une bariere
+- (ADS-W002)(polite) S'il te plait| MP en M, DF, index qui part de l'oeil au menton
+- (ADS-W002)(polite) De rien| MP en A, DP, le pouce au niveau du menton va vers l'avant
+- (ADS-W002)(polite) Bien| MP en A, DD, pouce vers le haut
+- (ADS-W002)(polite) Bien| MP en canard, DD, au niveau de la bouche, va vers l'avant et s'ouvre DC
+- (ADS-W002)(polite) Bon| cf bien
+- (ADS-W002)(polite) Journée| M2 en M, DD a l'horizontal, MP en M, DD, entre M2 et soit part de dessous la M2 passe au dessus, puis replonge de l'autre coté de la M2 vers le recepteur
+- (ADS-W002)(polite) Bonne journée| bon + journée
+- (ADS-W002)(polite) Soirée| Comme journée, mais que le retour vers le recepteur
+- (ADS-W002)(polite) bonne soiree| bon + soiree
+- (ADS-W002)(polite) Week-end| MP en 4, DF, recule et replie les doigts pour devenir E (W etendu -> E)
+- (ADS-W002)(polite) Bienvenue| Bon + 2M en canard ouvert doigt vers le recepteur, DC, vienne vers soit en se refermant
+- (ADS-W002)(polite) A bientot| MP en clé, le pouce sort puis revient deriere l'index en avancant la main 3 fois (allumer un briquet a l'envers)
+- (ADS-W002)(polite) Au revoir| comme d'hab
+- (ADS-W002)(polite) Pardon| 2M en moufle, M2 DC, MP DS fait des petits ronds sur M2
+- (ADS-W002)(polite) Désolé| MP en S, DS, vient faire des petits rond sur la poitrine passive
+- (ADS-W002)(polite) Bon appetit| M2 en M, DS, MP en S, DS, vient frapper sur M2 (a table on le fait directement sur la table)
+- (ADS-W002)(polite) Plaisir| 2M en moufle, DD, MP au dessus de M2, fait des petits rond dans le sens opposé l une de l autre sur le ventre et le thorax (possible juste MP)
+- (ADS-W002)(polite) Avec plaisir| cf plaisir
+- (ADS-W002)(polite) Nuit| 2M en M (ou N), DD, vertical, les 2 bras passe de vertical a horizontal comme pour fermer les barieres
+- (ADS-W002)(feeling) Content, Joyeux| cf plaisir
+- (ADS-W002)(feeling) Pleurer| 2M en pointeur, DD, les index font les larmes qui coulent des yeux et descendent pres du nez l'une apres l'autre (possible seulement MP)
+- (ADS-W002)(feeling) Triste| MP en 5, index touchant le front, descend jusqu'au menton en se fermant pour finir en S, les phalanges les plus hautes sur le menton
+- (ADS-W002)(feeling) Serieux| MP en 5, index touchant le front, descend jusqu'au menton en se fermant pour finir en 5 mais doigt en mode griffe
+- (ADS-W002)(feeling) Enervé| 2M en S, DF, monte en tournant sur eux meme jusqu'au niveau des yeux (la pression qui monte)
+- (ADS-W002)(feeling) Colere| 2M en griffe, DD, horizontal, sur la poitrine, le main fond comme si elles jettait vers l'exterieur en restant DD (on arache ses vetements, on sort de ses gonds)
+- (ADS-W002)(feeling) Ca bouillone| MP en M, DS, MP en griffe, en dessous de M2, les doigts font comme le feu qui fremi
+- (ADS-W002)(feeling) Angoissé| 2M en griffe, DD l'une au dessus de l'autre, se ferme en S en tordant les trippes
+- (ADS-W002)(feeling) Peur| 2M en 5, DD, plaquees contre la poitrine, avec un petit sursaut
+- (ADS-W002)(feeling) Stress| M2 en S, DD, le bras de biais, MP en pointeur avec le doigt en griffe, vient gratter la veine (le poul qui s'accelaire)
+- (ADS-W002)(feeling) Calme| 2M en canard ouvert, DF, forme un cercle, se separe sur les cotés en se fermant
+- (ADS-W002)(feeling) Rigolé| 2M en crochet, DD, se croisent et se decroise au niveau de la traché (possible juste MP, deboitant la machoire)
+- (ADS-W002)(feeling) Inquiet| MP en 5, les doigts font comme un massage mais a distance en tournant au niveau de la tempe
+- (ADS-W002)(feeling) Bouder| MP en C, DD, a l'horizontal, va du front au bas du cou
+- (ADS-W002)(feeling) Avoir honte| 2M en angle, DD, les doigts longeant les joues, vont su menton au yeux
+- (ADS-W002)(feeling) Fatigué| 2M en 5, DD, caresse la traché alternativement de haut en bas (l'energie descend)
+- (ADS-W002)(feeling) En forme| M2 en Calendrier, MP en clé, DP, vient tapper dans la paume de M2
