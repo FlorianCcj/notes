@@ -314,14 +314,113 @@ Whatsapp
 - (ADS-W005)(familly) demi-frere| demi + frere
 - (ADS-W005)(familly) demi-soeur| demi + soeur
 
-- (ADS-W004) grand| MP en M, DS, au niveau des cheveux
-- (ADS-W004) petit| MP en M, DS, au niveau des epaules
+- (ADS-W005) grand| MP en M, DS, au niveau des cheveux
+- (ADS-W005) petit| MP en M, DS, au niveau des epaules
 
-- (ADS-W004) svp| MP en M, DF, index va de l'oeil a la machoir
-- (ADS-W004) gentil| cf svp
+- (ADS-W005) svp| MP en M, DF, index va de l'oeil a la machoir
+- (ADS-W005) gentil| cf svp
 
 ## 2024.08.13, Webinaire numero 06
+
+- (ADS-W006) bordeaux (color)| MP en B, DP, les doigts vont de haut en bas juste avec le poignet
+- (ADS-W006) bordeaux (boisson)| 2M en S, M2 attrape le goulot de la bouteille, MP tient le tire bouchon et sort le bouchon
+- (ADS-W006) humain| MP en 3, DP, dessine la moustache et tire un peu sur le coté
+- (ADS-W006)(job) maire| MP en C, dessine l'echarpe de l'elu
+- (ADS-W006)(lieu) mairie| cf maire
+- (ADS-W006)(lieu) la poste| M2 en moufle vers sois de 3/4, MP en A, va coller le timbre sur la lettre (la M2)
+- (ADS-W006)(job) facteur| MP en moufle, DS, tappe 2 fois sur le front comme la casquette
+- (ADS-W006)(lieu) boulangerie| 2M en moufle, DC, l une deriere l'autre, tourne 2 fois comme pour enfourner le pain
+- (ADS-W006)(job) boulanger| cf boulangerie
+- (ADS-W006)(lieu) boucherie| MP en A, DF, appuie 2 fois sur le cou (pour la decapitation)
+- (ADS-W006)(job) boucher| cf boucherie
+- (ADS-W006)(job) charcuterie| MP en N, DD, appuie 2 fois sur le cou
+- (ADS-W006)(lieu) magasin, boutique, commerce| 2M en canard, DF, au niveau des epaules, avance 2 fois vers l'avant
+- (ADS-W006)(lieu) magasin, boutique, commerce| 2M en canard, DP, au niveau des epaules, tourne 2 fois pour passer de DP a DF
+- (ADS-W006)(job) vendre| 2M en canard, DP, tourne 1 fois pour passer de DP a DF
+- (ADS-W006)(job) enseigner| 2M en canard, DF, du plexus, avance 2 fois vers l'avant
+- (ADS-W006)(job) enseigner| 2M en O, DF, au niveau du plexus, s'ouvre 2 fois en 5 vers la personne a qui on enseigne
+- (ADS-W006)(job) enseignant| cf enseigner
+- (ADS-W006)(job) fleuriste| magasin + fleur
+- (ADS-W006)(job) fleur| MP en O, DC, s'ouvre 2 fois en 5 vers le nez
+- (ADS-W006)(job) vetement| 2M en 5, part des epaules et descend en avancant
+- (ADS-W006)(job) voiture| 2M en S, font comme si on tournait un volant
+- (ADS-W006)(job) medecin| MP en V, DC, fait 2 petit rond au niveau du coeur
+- (ADS-W006)(job) vivant| medecin avec les 2 mains
+- (ADS-W006)(job) vie| 2M en V, DC, part du bas du ventre et remonte jusqu'au plexus
+- (ADS-W006)(job) chirurgien| 2M en A, DF, MP va inciser le pouce de la M2
+- (ADS-W006)(job) operer| cf chirurgien
+- (ADS-W006)(lieu) hopital| 2M en moufle, DP, tourne legerement, comme pour border un lit
+- (ADS-W006)(job) retraite| MP en R, DF, frotte 2 fois sur le coeur
+- (ADS-W006)(job) repos| 2M en R, bras croisé, viennent se poser sur les epaules
+- (ADS-W006)(lieu) cinema| 2M en moufle, DD, la M2 plus pres de nous, l une devant l'autre, MP va de gauche a droite 2 fois
+- (ADS-W006)(lieu) piscine| 2M en moufle, DS, s'ecarte passe en angle, et reviennent 2 fois, comme pour barboter
+- (ADS-W006)(job) vacance| 2M en V, DD, se pose 2 fois sur les epaules opposées
+- (ADS-W006)(lieu) garage| MP en angle, DD DP, tappe 2 fois sur le cou
+- (ADS-W006)(job) metier| 2M en angle, DP, les doigts superposés, poussent les doigts de l'autre main vers le bas l une apres l'autre
+- (ADS-W006)(job) travail| M2 en S, DD, MP dessine un cercle en tapant sur le dessus de M2
+- (ADS-W006)(lieu) lieu| M2 en Moufle, DC, MP en pointeur vient se poser sur le centre de la paume de M2
+
+- (ADS-W006)(school) ecole| 2M en L, DF, le main se retourne DD,avec les index vers le bas dessinants les bretelles du cartable
+- (ADS-W006)(school) collage| 2M en C, DP, ne tourne pas et descend comme les bretelles
+- (ADS-W006)(school) lycee| 2M en L, DF, ne tourne pas et descend comme les bretelles
+- (ADS-W006)(school) université| MP en U, DD, au dessus de l'epaule, dessine 2 ronds
+- (ADS-W006)(school) creche| 2M en angle, les doigts dessinent une maison, les doigts pianottent pour plein d'enfants
+- (ADS-W006)(school) maternelle| M2 en angle, DP, montrant le mur et le toit  d une maison, MP en M, DS, se met tout le toit pianote d'avant en ariere
+
 ## 2024.08.20, Webinaire numero 07
+
+- (ADS-W007) piece (de monnaie)| 2M en ok, DP, le bout des doigts de la MP vient tapper sur le bout des doigts de la M2
+- (ADS-W007)(room) maison| 2M en moufle, dessine le toit d'une maison, tapote
+- (ADS-W007)(room) piece (de la maison)| piece (de monnaie) + maison
+- (ADS-W007)(room) chambre| MP en moufle, DF, le pouce et l index servent d'oreiller
+- (ADS-W007)(room) salon| MP en S, DP, avance et passe en C (salon = fumoir, on tient le cigarre et la fumée en sort)
+- (ADS-W007)(room) cuba| cf salon
+- (ADS-W007)(room) salon| MP en S, DP, part d'a droite du menton avance en s'ouvrant en feuille (une seule fois)
+- (ADS-W007)(room) cuisine| M2 en C, DP, a l'horizontal, MP en ok mais le pouce et l'index en pince, tourne comme si une cuilliere tournait dans une tasse
+- (ADS-W007)(room) cuisine| MP en moufle, DC, doigt vers l'autre, tourne de l'actif vers le passif lorsque c est vers l'autre
+- (ADS-W007)(room) cuisiner| cf cuisine
+- (ADS-W007)(room) cuisinier| cf cuisine
+- (ADS-W007)(room) toilette| MP en J, DS, le pouce vient toucher le plexus deux fois
+- (ADS-W007)(room) salle de bain| 2M en S, DD, frotte le torse en alternance comme si il y avait une serviette autour du coup et que l on se sechait (2 fois)
+- (ADS-W007)(room) douche| MP en S, DP, au niveau de la tempe,  s'ouvre en feuille comme la paume de douche et l'eau qui en sort
+- (ADS-W007)(room) bureau| M2 en moufle, DS, doigt vers l actif, MP en U+pouce, DP, part du coude et va jusqu'a la main, le doigt du U se pliant et se depliant
+- (ADS-W007)(room) cave| MP en V, DP, posé sur la joue dessine un rond sur la joue vers l'avant
+- (ADS-W007)(room) vin| MP en V, DP, appuie 2 fois sur la joue
+- (ADS-W007)(room) garage| MP en angle, DD DP, tappe 2 fois sur le cou
+- (ADS-W007)(room) jardin| 2M en V, DD, viennent se toucher sur le coté 2 fois
+- (ADS-W007)(room) garagiste| voiture + M2 en S, DP, MP en V dos posé sur M2, tourne 2 fois
+- (ADS-W007)(room) balcon| 2M en S, DS, bras l un sous l'autre, MP vient tapper 2 fois que le bras
+- (ADS-W007)(room) jardiner| 2M en X (ou sans le pouce), DS, font comme si il grattait le sol
+- (ADS-W007)(room) agriculture| cf jardiner
+- (ADS-W007)(room) grenier| 2M en moufle, forme le toit d'une maison, puis monte au dessus de la tete
+- (ADS-W007)(room) etage|2M en angle, DP, le bout des doigts face au bout des doigts, puis MP monte du nombre d'etage
+- (ADS-W007)(room) rez de chaussé| R + D + C
+- (ADS-W007)(room) rez de chaussé|2M en angle, DP, le bout des doigts face au bout des doigts, s'ecarte pour dessiner le plat du rdc
+- (ADS-W007)(room) terasse|2M en angle, DP, le bout des doigts face au bout des doigts, MP va vers l'avant
+- (ADS-W007)(room) escalier|MP en V, DD, les 2 doigts marchent sur l'escalier pour monter ou descendre
+- (ADS-W007)(room) ascensseur|2M en L avec l index en angle, DP, (pour montrer le perimetre de l'ascensseur) 2M monte et descende *2
+- (ADS-W007)(room) petit|MP en J, DP, le pousse part du menton et descend puis remonte au menton et redescend
+- (ADS-W007)(room) cabanne dans le jardin|petit + maison + jardin
+
+- (ADS-W007)(house object) couverture|2M en S, DF, remonte la couverture vers les epaules/le cou
+- (ADS-W007)(house object) coussin|2M en index, dessine un carré + MP en L on pose la tete sur le L
+- (ADS-W007)(house object) lampe| MP en S, DS, devant l'epaule, s'ouvre en feuille
+- (ADS-W007)(house object) poubelle|M2 en C, DP a l'horizontal, MP en moufle vient tapper 2 fois sur M2
+- (ADS-W007)(house object) stylo|MP en pince fermé, DS, ecrit de passif a actif
+- (ADS-W007)(house object) drap|2M en bec de canard fermé, tiens le drap et le secoue puis 2M en angle le borde sur le lit
+- (ADS-W007)(house object) lit|2M en angle + index et auriculaire en l'air, ring finger et majeur se touche bout a bout *2
+- (ADS-W007)(house object) table|2M en M, DS, l'une a coté de l'autre s'écarte pour dessiner la table
+- (ADS-W007)(house object) a coté|2M en moufle, DD, MP vient tapper sur M2 depuis l'avant
+- (ADS-W007)(house object) table de chevet| table + a coté + lit
+- (ADS-W007)(house object) dessiner| MP en V, DD, pouce sur le majeur, balance de droite a gauche en descendant
+- (ADS-W007)(house object) ordinateur|2M en 3, DF, au niveau des epaules, descend en zigzaguant
+- (ADS-W007)(house object) tablette|2M en clé, DP, comme si on tenait la tablette, alterne d'avant en ariere comme si on tournait la tablette
+- (ADS-W007)(house object) tablette|M2 en moufle, 3/4 vers soit, MP en contact, le majeur vient tourner les pages sur M2 de actif vers passif *2
+- (ADS-W007)(house object) telephone| MP en D, l intersection entre le pouce et l index au niveau de la joue comme un tel, balance l'antenne d'avant en arriere
+- (ADS-W007)(house object) appartement|MP en 3, DS, monte et descend 2 fois
+
+TODO: exercice, decrire sa maison
+
 ## 2024.08.27, Webinaire numero 08
 ## 2024.09.03, Webinaire numero 09
 ## 2024.09.10, Webinaire numero 10
@@ -332,7 +431,8 @@ Whatsapp
 ## 2024.10.15, Webinaire numero 15
 ## 2024.10.22, Webinaire numero 16
 ## 2024.10.29, Webinaire numero 17
-## 2024.10.XX, Webinaire numero XX
+## 2024.11.05, Webinaire numero 18
+
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX

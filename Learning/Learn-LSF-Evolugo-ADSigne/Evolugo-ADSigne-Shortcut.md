@@ -25,6 +25,7 @@ Les configurations
 - moufle: main en M, avec le pouce en perpendiculaire des autres doigts
 - clé: main en S, index un peu en avant, pouce sur le dessus
 - griffe: Main en 5, mais les doigts en griffe
+- pince fermé: OK + pouce et index a plat l un contre l'autre
 
 Voc:
 - MP: main active/principal
