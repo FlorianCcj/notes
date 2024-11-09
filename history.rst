@@ -64,6 +64,9 @@ commande: 717993928
     - https://www.monsieurchaussure.com/fr/impermeabilisant/impermeabilisant-monsieur-chaussure-250ml.html?gclid=Cj0KCQiAieWOBhCYARIsANcOw0yBVQrrIbTmqkKexmWqL-icCDvEKbZQ_yfV2R_dYILpTy_l5o95VicaAsSVEALw_wcB
     - https://www.vetementpro.com/332-chaussures-travail?gclid=Cj0KCQiAieWOBhCYARIsANcOw0wZHnLJcCVl_zVlliKAtxCsI8iS8gS2Qf-69rFmpnTACAzFSeOF7nwaAramEALw_wcB
     - https://www.amazon.fr/CHNHIRA-Chaussures-Protection-Antid%C3%A9rapante-Anti-Perforation/dp/B07T7FCHB5/ref=sr_1_26?adgrpid=57792770618&gclid=Cj0KCQiAieWOBhCYARIsANcOw0x9BuhwOK_WIDtB4q4_Aym542oGl-cOb9YyQqGP9R5OdRcReOrZVvIaAs7oEALw_wcB&hvadid=275479870035&hvdev=c&hvlocphy=9056136&hvnetw=g&hvqmt=b&hvrand=11517051565794299291&hvtargid=kwd-311204692747&hydadcr=11818_1846696&keywords=antid%C3%A9rapant+chaussures&qid=1641661415&sr=8-26
+- Costume
+  - Dobell
+  - Ceinture sans boucle
 - pantalon:
   - 2023-07-15: kiabi, 52-34L Jean regular - 34L - Noir (32 pas mal, attention a braguette vs bouton)
   - 2023-07-15: 52-32L Jean regular - L32 - Noir
