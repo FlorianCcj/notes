@@ -226,7 +226,7 @@ En fonction de la position du signe, cela indique la temporalite
 - (ADS-W004)(month) Decembre| MP en D, par s du menton et dessine une barbe
 
 - (ADS-W004)(saison) Automne| M2 en M, droit comme un arbre, MP en feuille, tournant au niveau du poignet comme une feuille qui tombe
-- (ADS-W004)(saison) Printemps| Matin, mais MP fini en feuille comme un fleur qui eclot
+- (ADS-W004)(saison) Printemps| MP en S puis Matin, mais MP fini en feuille comme un fleur qui eclot
 - (ADS-W004)(saison) Ete| MP en contact essuie la sueur du front
 - (ADS-W004)(saison) Hiver| MP en canard, la main tourne sur le poignet comme eventant
 - (ADS-W004)(saison) Froid| cf Hiver
@@ -416,22 +416,143 @@ Whatsapp
 - (ADS-W007)(house object) ordinateur|2M en 3, DF, au niveau des epaules, descend en zigzaguant
 - (ADS-W007)(house object) tablette|2M en clé, DP, comme si on tenait la tablette, alterne d'avant en ariere comme si on tournait la tablette
 - (ADS-W007)(house object) tablette|M2 en moufle, 3/4 vers soit, MP en contact, le majeur vient tourner les pages sur M2 de actif vers passif *2
-- (ADS-W007)(house object) telephone| MP en D, l intersection entre le pouce et l index au niveau de la joue comme un tel, balance l'antenne d'avant en arriere
+- (ADS-W007)(house object) tellephone portable| MP en D, l intersection entre le pouce et l index au niveau de la joue comme un tel, balance l'antenne d'avant en arriere
 - (ADS-W007)(house object) appartement|MP en 3, DS, monte et descend 2 fois
 
 TODO: exercice, decrire sa maison
 
 ## 2024.08.27, Webinaire numero 08
+
+- (ADS-W008) (house object) fourchette|, M2 en moufle, DC, MP en V, DP, vient piquer 2 fois dans l'assiette (la M2)
+- (ADS-W008) (house object) couteau|2M en pointeur, de 3/4, MP scie index M2
+- (ADS-W008) (house object) cuilliere| MP en clé, de 3/4, descned pour que la cuillere prenne quelque chose dans l'assiete et remonte
+- (ADS-W008) (house object) assiete| M2 en bec de canard, dessine un cercle comme le contour d'une assiette
+- (ADS-W008) (house object) verre| M2 en moufle, DC, MP en C prend le verre et le souleve (attention qu'un aller)
+- (ADS-W008) (house object) mettre la table| 2M en clé, DP, pose les couverts sur la table 2 par 2
+- (ADS-W008) (house object) bol| 2M en aumone, s'ouvre pour former le bol (attention qu'un aller)
+- (ADS-W008) (house object) casserole| cf poele
+- (ADS-W008) (house object) poele| MP en moufle, DC, tourne comme quand on fait sauté du riz
+- (ADS-W008) (house object) serviette de bain| 2M en S, DF, au niveau du coup, va et vient de droite a gauche comme avec une serviette
+- (ADS-W008) (house object) brosse a dent| MP en pointeur, DS, va de haut en bas comme pour se brosser les dents
+- (ADS-W008) (house object) dentifrice| M2 en pointeur, DD, MP en clé, DD, etale le dentifrice sur la brosse a dent en appuyant de passif a active
+- (ADS-W008) (house object) savon| MP en S, de 3/4, frotte sur la gensive
+- (ADS-W008) (house object) shampoing| 2M en feuille, au niveau de la tete malaxe comme en faisant un shampoing
+- (ADS-W008) (house object) parfum| MP en pointeur, DD, au niveau du menton, l index se plit et se deplit comme pour asperger de parfum
+- (ADS-W008) (house object) TV| 2M en X avec le pouce plus proche, DF, tourne comme sur les postes de télé a bouton
+- (ADS-W008) (house object) radio| MP en R, DP au niveau l'oreille s'eloigne en passant DF *2
+- (ADS-W008) (house object) canapé| 2M en feuille, DD, les coudes legerement leves, on recule les 2 bras comme si on se vautrait sur un canapé
+- (ADS-W008) (house object) cahier| M2 DC, MP en moufle DC, tappe 2 fois sur le bras avec le dos de la main
+- (ADS-W008) (house object) cahier| 2M en moufle, les petits doigts en contact, ouvre et referme le cahier
+- (ADS-W008) (house object) ordinateur| 2M en feuille un peu courber, tappe sur le clavier
+- (ADS-W008) (number) 10| 2M en OK, DP, passe DF
+- (ADS-W008) (number) 20| MP en 2, DF, se referme pour faire un 0 avec le pouce et l index
+- (ADS-W008) (number) 30| MP en 3, DF, se referme pour faire un 0 avec le pouce, l index et le majeur
+- (ADS-W008) (number) 40| MP en 4, DF, puis les doigts se ferment sur le pouce
+- (ADS-W008) (number) 50| MP en 5, DF, se referme pour faire un 0 avec le pouce et l index
+- (ADS-W008) (number) 60| M2 en 5, DF, MP en 1, DD, MP plie le pouce comme pour lancer un chrono
+- (ADS-W008) (number) 70| M2 en 5 + MP en 20
+- (ADS-W008) (number) 80| M2 en 5 + MP en 30
+- (ADS-W008) (number) 90| M2 en 5 + MP en 40
+- (ADS-W008) (number) 11| MP en 1, DD, doigt vers le bas et remonte vers le haut
+- (ADS-W008) (number) 12| MP en 2, DD, doigt vers le bas et remonte vers le haut
+- (ADS-W008) (number) 13| MP en 3, DD, doigt vers le bas et remonte vers le haut
+- (ADS-W008) (number) 14| MP en 4, DD, doigt vers le bas et remonte vers le haut
+- (ADS-W008) (number) 15| MP en 5, DD, doigt vers le bas et remonte vers le haut
+- (ADS-W008) (number) 16| 2M en 6, DD, doigt vers le haut et descent vers le bas
+- (ADS-W008) (number) 17| 2M en 7, DD, doigt vers le haut et descent vers le bas
+- (ADS-W008) (number) 18| 2M en 8, DD, doigt vers le haut et descent vers le bas
+- (ADS-W008) (number) 19| 2M en 9, DD, doigt vers le haut et descent vers le bas
+- (ADS-W008) (number) tout les autres chiffres inferieur a 100| coté passif les dizaines, coté actif les unités
+- (ADS-W008) (number) 100| MP en C, DF, de l'actif au passif
+- (ADS-W008) (number) 200| MP en 2 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 300| MP en 3 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 400| MP en 4 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 500| MP en 5 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 600| M2 en 5 en C, MP en 1 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 700| M2 en 5 en C, MP en 2 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 800| M2 en 5 en C, MP en 3 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 900| M2 en 5 en C, MP en 4 en C, DF, de l'actif au passif
+- (ADS-W008) (number) 1000| M2 en M, DP, a la verticale, MP en M, DD, a l'horizontal les doigts foncent dans la paume
+- (ADS-W008) (number) 2000| M2 en M, DP, a la verticale, MP en 2, DD, a l'horizontal les doigts foncent dans la paume
+- (ADS-W008) (number) 3000| M2 en M, DP, a la verticale, MP en 3, DD, a l'horizontal les doigts foncent dans la paume
+- (ADS-W008) (number) 4000| M2 en M, DP, a la verticale, MP en 4, DD, a l'horizontal les doigts foncent dans la paume
+- (ADS-W008) (number) 5000| M2 en M, DP, a la verticale, MP en 5, DD, a l'horizontal les doigts foncent dans la paume
+- (ADS-W008) (number) 6000| 6 + 1000
+- (ADS-W008) (number) 7000| 7 + 1000
+- (ADS-W008) (number) 8000| 8 + 1000
+- (ADS-W008) (number) 9000| 9 + 1000
+
+Exercice
+Donner sa date de naissance
+11 mai 1996
+
 ## 2024.09.03, Webinaire numero 09
+
+- (ADS-W009)(hour) heure| MP en pointeur, pose l index sur la montre
+- (ADS-W009)(hour) 1h| MP en 1, secoue de droite a gauche
+- (ADS-W009)(hour) 2h| MP en 2, secoue de droite a gauche
+- (ADS-W009)(hour) 3h| MP en 3, secoue de droite a gauche
+- (ADS-W009)(hour) 4h| MP en 4, secoue de droite a gauche
+- (ADS-W009)(hour) 5h| MP en 5, secoue de droite a gauche
+- (ADS-W009)(hour) 6h| MP en 6, secoue de droite a gauche pas dans le meme sens
+- (ADS-W009)(hour) 7h| MP en 6, secoue de droite a gauche pas dans le meme sens
+- (ADS-W009)(hour) 8h| MP en 6, secoue de droite a gauche pas dans le meme sens
+- (ADS-W009)(hour) 9h| MP en 6, secoue de droite a gauche pas dans le meme sens
+- (ADS-W009)(hour) 10h| MP en ok, secoue de droite a gauche pas dans le meme sens
+- (ADS-W009)(hour) 1h| 1 + heure
+- (ADS-W009)(hour) 2h| 2 + heure
+- (ADS-W009)(hour) 3h| 3 + heure
+- (ADS-W009)(hour) 4h| 4 + heure
+- (ADS-W009)(hour) 5h| 5 + heure
+- (ADS-W009)(hour) 11h| 11 + heure
+- (ADS-W009)(hour) midi| MP en M, DP, coupe le nez et la bouche en 2
+- (ADS-W009)(hour) minuit| MP en M, DP, coupe le cerveau/front en 2
+- (ADS-W009)(hour) et quart| MP en angle, DP, au niveau de la bouche, part  du coté actif (on tire un trait sur le 3 qui indique le 15 min)
+- (ADS-W009)(hour) moins le quart| MP en M, DP a la vertical, au niveau de l epaule, passe en angle et part cote actif
+- (ADS-W009)(hour) et demi| 2M en pointeur, MP coupe l'index M2 en 2
+- (ADS-W009)(hour) minute| MP en ok vient se poser sur le dos de la M2
+- (ADS-W009)(hour) seconde| MP en pointeur, DP, M2 en S, DS, MP posé sur M2, tourne vers coté passif pour passer DD
+
+- (ADS-W009)(duree) 1h v1| 1 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 2h v1| 2 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 3h v1| 3 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 4h v1| 4 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 5h v1| 5 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 6h v1| 6 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 7h v1| 7 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 8h v1| 8 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 9h v1| 9 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 10h v1| 10 + MP en index fait le tour de la montre
+- (ADS-W009)(duree) 1h v2| 1, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 2h v2| 2, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 3h v2| 3, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 4h v2| 4, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 5h v2| 5, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 6h v2| 6, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 7h v2| 7, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 8h v2| 8, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 9h v2| 9, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 10h v2| 10, DF, fait tout un tour vers le bas pour se retrouver DD
+- (ADS-W009)(duree) 1h v3| MP en 1, DD, tourne autour de la montre
+- (ADS-W009)(duree) 2h v3| MP en 2, DD, tourne autour de la montre
+- (ADS-W009)(duree) 3h v3| MP en 3, DD, tourne autour de la montre
+- (ADS-W009)(duree) 4h v3| MP en 4, DD, tourne autour de la montre
+- (ADS-W009)(duree) 5h v3| MP en 5, DD, tourne autour de la montre
+
 ## 2024.09.10, Webinaire numero 10
+
+
+
 ## 2024.09.17, Webinaire numero 11
 ## 2024.09.24, Webinaire numero 12
 ## 2024.10.01, Webinaire numero 13
 ## 2024.10.08, Webinaire numero 14
 ## 2024.10.15, Webinaire numero 15
+
 ## 2024.10.22, Webinaire numero 16
 ## 2024.10.29, Webinaire numero 17
 ## 2024.11.05, Webinaire numero 18
+## 2024.10.12, Webinaire numero 19
 
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
