@@ -678,3 +678,8 @@ Qu'il brille d'amour au quotidien
 ## Tryo - Sortez-les
 
 ## Tryo - Un homme qui aime les femmes
+
+Brandy - Starting Now
+Strive to be, ellie barry you believe
+Nathalie Layne - gratefull
+Katy Perry - Chained To The Rhythm (Official) ft. Skip Marley

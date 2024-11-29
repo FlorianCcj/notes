@@ -1,11 +1,18 @@
 # Todo - Quest
 ###############
 
+
+want on my account 10k/mois -> 120k/an
+need before tax 0.7 x  = 120k => x ~= 200k
+need on invest 10% -> 2M
+need on invest 20% -> 1M
+need on invest 30% -> .7M
+40->100 = 60ans -> 60*12*10k ~= 10M
+
 https://vk.com/topic-203785966_47435057
 
 - cook: https://browngirlveganeats.com/
 
-- sum up inneos
 
 Download BDs
 Read manga
@@ -13,6 +20,9 @@ Psy
 Mentalism
 https://www.ouimusique.coach/cest-presque-fini-derniere-etape/?tve_name=Florian&email=florianccj%40gmail.com&Musicien=Amateur%2C%20Bient%C3%B4t%20Pro&Instruments=Piano%20%2F%20Clavier%2C%20Guitare%20%2F%20Basse%2C%20Vent%20%2F%20Cuivre%2C%20Batterie%20%2F%20Percu%2C%20Cordes%20frott%C3%A9es%2C%20Autres
 
+----->
+
+- sum up inneos
 - phenix W7
 - dev app
 - chorale
@@ -20,11 +30,10 @@ https://www.ouimusique.coach/cest-presque-fini-derniere-etape/?tve_name=Florian&
 - forman - remboursement convention
 - dev perso trop intelligent
 - LSF
+- todo - K8s
 
-todo - K8s
-todo - PSY
+<-----
 
-Paradox
 Mail manager
 k8s
 assertifs
@@ -223,6 +232,7 @@ Sinon ce sont aussi des rencontres et des soins énergétique que j'ai fais ensu
 ## DONE
 ********
 
+TODO - Forman - demander a rania si investissement remet en cause la demande de titre de sejour
 2024.10.20 - (forman) note mise en relation
 2024.10.20 - (forman) note etude de dossier
 2024.10.20 - (forman) etude de dossier eebdelhaim
@@ -237,23 +247,25 @@ Recuperer les pdfs des cours de crypto
 # TODO
 ########
 
-
-Today:
-
-
-
 PP
 
 - LSF
 - Comment se faire des amis et influencer les uatres
 - productivity
 
+- draw
+- sing
+- magic
+- music
+
 P1
 
-TODO - Forman - demander a rania si investissement remet en cause la demande de titre de sejour
-
 TODO - Forman - Ask Martine - Voir sur mega la méthodologie des comptes rendu, donner une raison pour les objectifs
-TODO - Forman - Ask Martine - A propos de la story
+TODO - Forman - Proposé a Mathieu
+TODO - Forman - ORIAS*2
+TODO - Forman - Anacofi
+- download lsf
+- dowload inneos
 
 P2
 
@@ -271,7 +283,6 @@ TODO - Heath - check hypersensibilité
 TODO - Forman - Carte de sejour ? ok mais nationnalisation ?
 
 TODO - Forman - FIFPL (prise en compte des formations en cas de nom remboursement)
-TODO - Forman - Anacofi
 
 https://www.amazon.fr/PTT-KEY%C2%AE-Programmable-Smartphone-Modifiable-Universel/dp/B0D85DSKX9/ref=sw_ttl_d_rtpb_6?_encoding=UTF8&pd_rd_i=B0D85DSKX9&pd_rd_w=fJBkd&content-id=amzn1.sym.d0869ad7-84f6-4162-bb0b-e3cf492266e5&pf_rd_p=d0869ad7-84f6-4162-bb0b-e3cf492266e5&pf_rd_r=9F2GYFY1E6PHTJ2RSM2G&pd_rd_wg=5yUfM&pd_rd_r=4cab8161-e125-4edc-868c-00b08bb89542
 

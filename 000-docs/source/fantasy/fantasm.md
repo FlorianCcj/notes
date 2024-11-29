@@ -268,6 +268,7 @@ Milla Jovovich
 - The Seven Sleeping Beautie (7-Nin no Nemuri Hime) - Euchar
 - The Seven Sleeping Beautie (7-Nin no Nemuri Hime) - Mia
 - the-return-of-apocalypses-tyrant - Chae Song-Ah
+- the-return-of-apocalypses-tyrant - Cheon Yooha
 - Wakfu - Evangeline
 - Winx - Bloom
 - Winx - Flora
