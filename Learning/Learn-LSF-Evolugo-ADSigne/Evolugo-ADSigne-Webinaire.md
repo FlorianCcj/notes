@@ -554,6 +554,10 @@ Donner sa date de naissance
 ## 2024.11.05, Webinaire numero 18
 ## 2024.10.12, Webinaire numero 19
 
+## 2024.10.XX, Webinaire numero 20
+
+https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-6737438c90237/d220da6dcb7b28fe4cb02d1306f1abd7/
+
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
@@ -562,5 +566,68 @@ Donner sa date de naissance
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
 ## 2024.10.XX, Webinaire numero XX
-## 2024.10.XX, Webinaire numero XX
-## 2024.10.XX, Webinaire numero XX
+
+11.27-https://r.news.learny-box.com/tr/cl/BRFi1sJmshoKDuhaiel6gKvWlH1tTBBxkdlypY_8vWqcr5-GUHLKUYHoaGYTQ58dAtqd54ppBg-OVc8cmP3-t-eJqUO1pVttUMsinZ7q-dXw-aImyejcg2dWRzsqrhPDfXW3nxylhih_mUc-HBWQS_WMfCHokvleufjRwpHUQne4zwrXtdoLLg3IA5wEwW2ZRhJZZt1AaQKKqKbJBEBtoVMC4iSyZfA6cIWQhB-mvNCaOyV6lRsbWPLaqMHc1kklQYc9AP3a_WXH-je5zm4ztRzb8z1JJatuUrYI2lTTptFYoIAMKFZqJMaOqW_A7qMctKRG7VQdiqMfwXDdG7hoNGuTxDlV0h8G
+11.27-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-674099411fa8b/45ad830f39584642dbb4424478d4bc70/
+11.26-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-674099411fa8b/45ad830f39584642dbb4424478d4bc70/
+11.20-https://r.news2.learny-box.com/tr/cl/xm3xLTqMai2edu8S_Q63fMTF8zHiWXm1OzpQ4h5va3ORIHKRGr4PzrGIdnKFpjDN3S5rf93-XCwAS8VKPKoF42ZYL0bBK4yYN0uEebzyaQqhGoYKQF5XKbSn9WLhjD20r-bjLPOIf7TcRbAYXfS2EVq6cr0GYGSFrVjT3rdDN7oEL0fw_bRe0QywYVXGjiD55_UCP5vX4ZBkEb6hOk58lT8-IwdleTq4_0vcxReEixrRXA-ux9eE7lFoSs3vI3vmyjWan5gFQ2P37CuaN_0SqAAnyp2XoYtpqBqqLjSK_Q5hk_Gkxy6FDqGR7YBF09JOgzzlq5j8PLdl_eEReFZ1eaFaPIrgF4-6a98LcK1o6rJO6ojEibRfLzy-3fcWyRtlfvcWz7w0gorqiQvC
+11.20-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-6737438c90237/45ad830f39584642dbb4424478d4bc70/
+11.20-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-6737438c90237/45ad830f39584642dbb4424478d4bc70/
+11.20-https://r.news2.learny-box.com/tr/cl/LFesiimQRzCUzxsQ6NScHaqAVf0HKn3ijh_YQ_uzaiEJol-hnkqbipe2544Qzz4gaL4NxcPZgJh1ns2AO1qzoavvT3Bryo1ofqFNnFgrS8AbglQOL5dR7KbxgaS47K3IaH6YgNKo5SG4V_NmoLCaX1stjxZBdevc-x7KsS6xTv0YeJuAptMoCySEE17tPQXZCXtrKz6wtOI9QDRFKzZIf8CQEzBZgvqisWCjR7k2VJAq4MuN1T0tQMO_P6yiqWjvu23DWvtfGe5t8IE6lB0ttDaNV0_cTCDE0XZmtdzE6GraWYdNISuxNN20oj1piHv2xc46HNMQJUi9rFGO15shcyXo-H9mFLjq1A
+11.19-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-6737438c90237/45ad830f39584642dbb4424478d4bc70/
+11.19-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-6737438c90237/45ad830f39584642dbb4424478d4bc70/
+11.19-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-6737438c90237/45ad830f39584642dbb4424478d4bc70/
+11.19-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-6737438c90237/
+11.13-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.13-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.13-https://r.news2.learny-box.com/tr/cl/e7nyoGGKVpT8zcJGAuZaDW-MGWFsbokMZtYLqu7bleEq00l50nRwW1YZLXN1BdDiXkkISFC5e49tpCXwCJf2_p6sH1nRx7thrWp2wsShssl_0ybLfjWb_44eRpe_KLtQpc7n2GeeqlSis3zn42trtxILJ3j4Q1bqQJDchk2A2K3Ffn525aTzdqjyapN2J7WOY-cEHeodBc40Z6rz6bxSM4_5JLb9GrqmxumGHuTl0-9pknUCfqMfqfJO5a8lLPedd6imM5lFy_FaN4MzgJyR3kYN_2kO9kK9j6QYKcyqShDoTye92geTgnHutS-yq9hhTq0pZClFXrERMMhlemVyM8P11ilJs2K-Fw
+11.13-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.12-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.12-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.12-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.12-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67321667122e8/45ad830f39584642dbb4424478d4bc70/
+11.06-https://r.news2.learny-box.com/tr/cl/heccyUugG5O918KQF2Bn8a6ojlWSJF_L3Re3Dy6Mnja153XuWDcrjcHBEOEKJyjWmZfkvxkauzVCBmR6aeLjIx-5c9Aut5bmSqBd0SP1J4G-0sMf1L8ioXvR0wic2FpCVK4PA7xH4TA1o9l226jHHl3T89faUyXaWmnFps3qr6E9r-MD03xF_43RCFs_32TT9rdcU_l1EE8dykio_EV6FMjgor7yqnY4Zu4EwIWnXpleaBtZnxO8egmzeM0hJ_iPLUM13YHX0EEKPXIZ5waRMpiKEEnP9VoL5v2cMdcZ3e1KtT6hIKQHa0y0g-3oT4hV1I098rA9MXY84ddp9D57WbNwIRuvSewYueXkfDyXQyIucOEkF6pDm_4Hi6xFK4NX50br2dtbYj7uQuHg
+11.06-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67278f0d22d2b/45ad830f39584642dbb4424478d4bc70/
+11.06-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67278f0d22d2b/45ad830f39584642dbb4424478d4bc70/
+11.06-https://r.news.learny-box.com/tr/cl/y-FJdYV0JzwQ1ir4nLmBaBbC27Xd2H0lbWx3BvTLvkYlFGjoroMIAEnP7jdwODZwjlfYgCDSa6T719yNYlnMIIDdJ_kisjFeyECQK1axENR6IgoQWmmFmd3EUKuJ-TpoEN3knu3Ubv_xSGax8mQHEjPZn9SzK_TQ2tIO85G9LnL8dqKP6hDdeg0e2MB1enCHnqyS3rGxUFvsr6g6Bmi5yDybGKBN5fEDDpI3Lv2u8yvhAmYeL_3k4BOrhmzAevM1HeEwCsG_dcxoeFR1J5o26qXld5z8RNca9ItmRLGDMXqWKzWzsce0ew6cZy4ZRNgBXOoFlSOJAdy_KLjVW-O1x8ngWNDJWJFe
+11.06-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67278f0d22d2b/45ad830f39584642dbb4424478d4bc70/
+10.30-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-671138564d8bc/45ad830f39584642dbb4424478d4bc70/
+10.30-https://r.news2.learny-box.com/tr/cl/9MR6i3PQhkagzVpmTFE1fqRsrR4Nu8FFpnVmjF4fwKU7g_1ACnPoo3gG8QZirKF_xhVFQj4E_XQ79QS38CLhJ5ALSLGxByjRK7iHXoeE1r1I5dS3cepHxnFUU23mkbSwJbQsGG3_AMC6wBVlr46ifvJdWH4R30fmBH4TRXJT08iakvJ0n_teDqDRJW_lXTS3soSaTQw3gs0FSyJG431Ld4RnAIyAbOZVJbg7w_Djj8FWCmBVIAk0p2rIQZy4-4I39kadJkt7FxjplJaORDemDBc0W3D4p0dok9ioxM_NXA3u18i4wfmk2TS5xLgqWiCxUX-IaqruBi-ePX-Wg-dPNC5B3cKBmyaTERMcIk985QzAIBHJCwk90RcYF0geclub7w1xE6EUXNiNE2UF
+10.30-https://r.news.learny-box.com/tr/cl/OEj3DILTfKgVZhPNopecundyagbmyXAydlXijEy3kyNsRzpA2uyWq6z2ffOOG5gluGbNT_nlFN0RpDCzVwkXMrdMYvc0OH7BOQxhoSgMSfjJZ1n91nG8DXCr_k6EAbfUrtgvdAHHfB3YVIPqhupWDsKjgmw4gp_jLmNjGfgSyYUY_aaxYnI_pVXFPLwAGK4Dwyx_mKVOm2JIm8cG2xXyh7rnrbZb8g9jq5-1wfAc9Q0_-GtF5GFWaIyZhYeAVcguOjNwdbVX_Z8RDMWZsNL8D8mHt8f0EonTiUkbIXo3WIFhHgHkbFXWjqT3l3E-LNxv_ubmDh4LfpMWm0g9r68r_s2QZbep61ri
+10.30-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-671138564d8bc/45ad830f39584642dbb4424478d4bc70/
+10.29-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-671138564d8bc/45ad830f39584642dbb4424478d4bc70/
+10.23-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-20-aout-6710f37e0186b/45ad830f39584642dbb4424478d4bc70/
+10.23-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-20-aout-6710f37e0186b/45ad830f39584642dbb4424478d4bc70/
+10.21-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-20-aout-6710f37e0186b/45ad830f39584642dbb4424478d4bc70/
+10.21-https://membres.perfia.fr/conference/connexion/webinaire-formation-a1-a2-20-aout-6710f37e0186b/
+10.16-https://r.news.learny-box.com/tr/cl/BKK7HPzSnmAZgmY_4xZ31jKOIZFdDr5oTR99OON4YvX6eJYktI-IyGwzOjtukbbqmcD9ioy_Y4li4YcL4V8Jr6zqHGx7W2hL5XQZFa22aEpzPXCnQmU4SpskxZJjmICcciACJjujFOMTEYtPiduooUNutR79rmH4uitGSAW8ch8GmEJ5mkCiYRAz5UFb7FbiUeuFsu239L731m6MQU9rgpCOvbkH4HCdjRlH1bPMAwatgd-Dha-uLoYokEbUEPTKUB0ZxurYsBJu9XTtYZzbbc52Snl6oYmRR7ulcFJapHL10bpANyRk2ZRgqYs8rhdtesdMJ7SBdiVKxM7580qBKWMav3nWXl9pLcO-n3hn6KdYeHKPD1dJd7ikttzKXTBt7Qo-MMZg_qWJmidP
+10.16-https://r.news.learny-box.com/tr/cl/AnGE3OILR_R_S7eKeOpOaeLZT9uWHj3xHQrg3S0JUfkqoDBBnGDXzD7Eb1r8zObRa9UHqcaR7JEOUvwPtYNYaq5LtnpISewzSGdjy1t2xUDCurd6BFwvu8gb5-Q2v2E4IahsZ9_Pz8SSdTvTXDLiXjC0QRRWkE8VcpP4BqnlM1hwk2OitSHXJ6L16AD6UfHc-9wrtQFYy983zEmxY7kZVJvQKl6Q_NzPIGq0UZ4gWkiuV03nkGnFtERRGh3ElAqKFG8imH2Zz-RN84dHaIDvTMu4h1mZfGdaUtDZmeIC36xd-f6enGVuxm0TYN_lRQOsQYeVrQdIdVGg1PlzlrnMizZL5jxH9ZpObjQLG6N-yv7R8UdOWvk86RueoBiiyKH-uBT96stPL2KPRaI
+10.16-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.16-https://membres.perfia.fr/conference/replay/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.16-https://r.news2.learny-box.com/tr/cl/IQHBbyAzlKA37Pi8Xhnb5nNggYkBRQ5wmt1bKyCwO4H72MVaUkBjkFD0qgF4Fqy8AW21tO--7mnGwNSrWz9U6Nd111lwqJmV8FBodB8EbBxSEsn3CaGKAwtN_c_AHakrIf0af2eFtbgXrIXuA9mI7h0YHbhoSNV121e6k_4PQL2oaU0AF7qjXoNZsr1hC0dw70bNY4GZyfZ1u0u1v-3ivUokRSW0zBvIrleCCt67VwtbS2cShJQvQRDvPOpfpp9kNnqcD_HPkxQump0lJxKUBV9OPx1xtbilIL4dFGYO0Wbzn8kZ6y23v-AAdlmgXaetdxbIne2N9numBWihi40YJYiaVE5-sQ5Ztw
+10.15-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.15-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.15-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.14-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-67092965604d2/45ad830f39584642dbb4424478d4bc70/
+10.08-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66cf509d89eb3/45ad830f39584642dbb4424478d4bc70/
+10.08-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66cf509d89eb3/45ad830f39584642dbb4424478d4bc70/
+10.08-https://membres.perfia.fr/conference/connexion/webinaire-formation-a1-a2-66cf509d89eb3/
+10.07-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66cf509d89eb3/45ad830f39584642dbb4424478d4bc70/
+10.01-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66fa86555ed38/45ad830f39584642dbb4424478d4bc70/
+10.01-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66fa86555ed38/45ad830f39584642dbb4424478d4bc70/
+10.01-https://membres.perfia.fr/conference/conference/webinaire-formation-a1-a2-66fa86555ed38/
+
+
+membres.perfia
+42
+chuibete
+
+
+
+
+
+
+
+
+
+07.09
