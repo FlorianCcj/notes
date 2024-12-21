@@ -21,7 +21,7 @@ liz jordan
 Elena koshka
 momonogi kana
 
-Kirishima reona <3<3<3
+Kirishima reona <3<3<3<3<3<3
 
 ## petite
 
@@ -168,6 +168,8 @@ Krinsten Bell
 Kristin Kreuk
 Milla Jovovich
 Élodie Bouchez
+Josephine Japy
+Lucy hale
 
 ## Anime
 
