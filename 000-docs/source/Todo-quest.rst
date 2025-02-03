@@ -243,6 +243,11 @@ Recuperer les pdfs des cours de crypto
 - (prod) productivity M4
 - (prod) productivity M5
 - (LSF) - M4
+TODO - Forman - Carte de sejour ? ok mais nationnalisation ?
+TODO - Forman - Ask Martine - Voir sur mega la méthodologie des comptes rendu, donner une raison pour les objectifs
+TODO - Forman - Proposé a Mathieu
+- dowload inneos
+TODO - Forman - Anacofi
 
 # TODO
 ########
@@ -260,12 +265,9 @@ PP
 
 P1
 
-TODO - Forman - Ask Martine - Voir sur mega la méthodologie des comptes rendu, donner une raison pour les objectifs
-TODO - Forman - Proposé a Mathieu
 TODO - Forman - ORIAS*2
-TODO - Forman - Anacofi
 - download lsf
-- dowload inneos
+- cotisation fonciere des entreprises
 
 P2
 
@@ -280,9 +282,10 @@ TODO - Song - learn
 TODO - Heath - check syndorme de Diogene
 TODO - Heath - check autisme
 TODO - Heath - check hypersensibilité
-TODO - Forman - Carte de sejour ? ok mais nationnalisation ?
+
 
 TODO - Forman - FIFPL (prise en compte des formations en cas de nom remboursement)
+
 
 https://www.amazon.fr/PTT-KEY%C2%AE-Programmable-Smartphone-Modifiable-Universel/dp/B0D85DSKX9/ref=sw_ttl_d_rtpb_6?_encoding=UTF8&pd_rd_i=B0D85DSKX9&pd_rd_w=fJBkd&content-id=amzn1.sym.d0869ad7-84f6-4162-bb0b-e3cf492266e5&pf_rd_p=d0869ad7-84f6-4162-bb0b-e3cf492266e5&pf_rd_r=9F2GYFY1E6PHTJ2RSM2G&pd_rd_wg=5yUfM&pd_rd_r=4cab8161-e125-4edc-868c-00b08bb89542
 

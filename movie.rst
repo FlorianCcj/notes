@@ -42,12 +42,20 @@ To see
 - en avant 2019
 - 2024 un retraite d enfer
 - 2024 le robot sauvage
+- 2025 The killer's game (croit qu'il va mourir, assurance, medecin trompé de doossier)
+- 2025 Hounds of war (equipe de tueur, tuer par son gouvernement, vengeance)
 2024.10.30 - Flow
 2024-elian et le sortilege
 2024-red one
+2025.03.19-propser
 2025-balerina
 2025-the gorge
 2025-Mickey 17
+2024.12-Netflix-Carry on
+2025.01.22 - vol a haut risque
+2025 - prime target
+2025.01.17 - back in action
+2025.3.5 Dardevil born again (serie)
 
 https://filmz-streaming.net/films/33363-garfield-heros-malgre-lui.html
 https://filmz-streaming.net/films/33952-comme-un-lundi.html

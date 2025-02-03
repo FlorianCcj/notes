@@ -134,6 +134,8 @@ Mohamed Boclet: La peur a tué plus de rêves que l'échec ne l'a jamais fait !
 Other
 =====
 
+:David Laroche - XXX: Il est tellement facile de travailler dur pour gravir l'echelle du succes, pour finalement découvrir qu'elle était appuyée contre le mauvais mur
+
 :David Laroche: Je peux pas vous dire que si vous y croyez vous allez reussir, mais je peux vous garantir que si vous arétez d y croire vous allez echouer
 
 :John Lenon: "La vie cest ce qui vous arrive quand vous etes occupe a d autre projet"
