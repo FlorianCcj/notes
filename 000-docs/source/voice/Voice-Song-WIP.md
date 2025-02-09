@@ -5,76 +5,6 @@
 [https://paroles2chansons.lemonde.fr/paroles-bigflo-oli-p3]
 [https://www.paroles.net/bigflo-oli]
 
-## Daniel Levi - l'envie d'aimer
-
-[https://www.youtube.com/watch?v=mCog_OTKjjE]
-
-Couplet 1
-
-C'est tellement simple, l'amour
-Tellement possible, l'amour
-À qui l'entend, regarde autour
-À qui le veut vraiment
-C'est tellement rien, d'y croire
-Mais tellement tout, pourtant
-Qu'il vaut la peine, de le vouloir
-De le chercher, tout le temps
-
-Refrain 1
-
-Ce sera à nous dès demain
-Ce sera à nous le chemin
-Pour que l'amour qu'on saura se
-donner
-Nous donne l'envie d'aimer
-
-Couplet 2
-
-C'est tellement court, une vie
-Tellement fragile, aussi
-Que de courir, après le temps
-Ne laisse plus rien à vivre
-
-Refrain 2
-
-Ce sera à nous dès demain
-Ce sera à nous le chemin
-Pour que l'amour qu'on saura se donner
-Nous donne l'envie d'aimer
-Ce sera à nous dès ce soir
-À nous de le vouloir
-Faire que l'amour qu'on aura partagé
-Nous donne l'envie d’aimer
-
-Couplet 3
-
-C'est tellement fort
-C'est tellement tout, l'amour
-Puisqu'on attend, de vies en vies
-Depuis la nuit des temps
-
-Improvisations 1
-
-Ce sera à nous, ce sera à nous
-Ce sera à nous, oh oh oh oh
-Pour que l'amour qu'on saura se donner
-Nous donne l'envie d’aimer
-Ce sera à nous dès ce soir
-À nous de le vouloir
-Faire que l'amour qu'on aura partagé
-Nous donne l’envie d’aimer.
-
-Improvisations 2
-
-Oh oh oh
-Nous donne l’envie d’aimer
-(Choriste : Nous donne l’envie d’aimer) Nous donne
-l’envie d’aimer, oh oh oh L’envie d’aimer
-(Choriste : L’envie d’aimer)
-
-Pour que l'amour qu'on saura se donner
-Nous donne l'envie d'aimer
-
 ## One Piece Red
 
 ### Hoshi - La berceuse ephemere
@@ -376,10 +306,7 @@ Alors si vous êtes déjà au module sept, tout va bien.
 On va pouvoir s'appuyer Là-dessus, Mais si vous n'y êtes pas, je vais vous faire un petit résumé dans cette vidéo rapidement.
 C'est hyper important que vous ayez préparé tout ça avant notre coaching individuel.
 
-
 00.35
-
-
 
 Alors pour qu'on puisse travailler l'interprétation, j'ai besoin de trois choses.
 Premier point.

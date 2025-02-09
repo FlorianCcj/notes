@@ -683,3 +683,6 @@ Brandy - Starting Now
 Strive to be, ellie barry you believe
 Nathalie Layne - gratefull
 Katy Perry - Chained To The Rhythm (Official) ft. Skip Marley
+Corneille
+Manau
+Francis Cabrel
