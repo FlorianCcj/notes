@@ -59,6 +59,8 @@ To see
 2025.04.10 G20
 2025.03.06 L'amour dans l'objectif
 2025.04.09 Piégé
+2025.03.14 The electric state
+2025.04.30 Asterix & Obelix : Le combat des chefs
 
 https://filmz-streaming.net/films/33363-garfield-heros-malgre-lui.html
 https://filmz-streaming.net/films/33952-comme-un-lundi.html

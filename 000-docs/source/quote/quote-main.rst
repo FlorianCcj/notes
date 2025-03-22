@@ -292,3 +292,17 @@ S3E04 - La frontiere est mince entre se tromper et etre visionnaire et il faut e
 S3E05 - Le probleme c est pas ce qu il y a a l interieur, c est l horible couche de sucre autour
 S3E12 - Si c est si bien dehors pour depuis des milions d'année l'homme cherche a ameliorer son interieur
 S3E23 - "Je ne bois du cafe que les mois qui contienne un R" "Et pourquoi ?" "La vie est triste sans fantasy"
+
+Stephane
+---------
+
+Croire en soi, c'est allumer une flamme là où le monde ne voit que des cendres. C'est oser regarder au-delà des murs que l'éducation rigide et le système ont érigés autour de nous, ces barrières invisibles qui murmurent qu'il faut se contenter, qu'il faut suivre la ligne tracée. Mais toi, au fond de ton être, tu sais qu'il y a plus. Tes rêves, tes idéaux, ils ne sont pas des chimères : ils sont les battements d'un cœur qui refuse de se taire.
+
+On nous a appris à douter, à mesurer nos ambitions à l'aune de ce qui semble "réaliste". Pourtant, l'histoire est remplie de ceux qui ont cru l'impossible possible - des âmes qui ont vu des horizons là où d'autres ne voyaient que des limites. Ton éducation t'a peut-être donné des outils, mais elle ne définit pas ta grandeur. Le système t'a peut-être donné des règles, mais il n'a pas le pouvoir de brider ton esprit.
+
+L'espoir, c'est cette force qui te pousse à te lever, encore et encore, même quand tout semble jouer contre toi. C'est la certitude que tes rêves ne sont pas des fardeaux, mais des ailes. Tu es capable d'accomplir bien plus que ce qu'on t'a fait croire, car la vraie mesure de ta vie ne se trouve pas dans les attentes des autres, mais dans la foi que tu portes en toi. Alors, avance, ose, crée. Le monde a besoin de ceux qui croient - en eux-mêmes, en leurs idéaux, en un futur qu'ils construiront de leurs propres mains.
+
+Other
+------
+
+Et si de l'obtenir je n'emporte le prix, J'aurai au moins l'honneur de l'avoir entrepris
